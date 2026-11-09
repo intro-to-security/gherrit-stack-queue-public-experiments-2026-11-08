@@ -1,0 +1,131 @@
+{
+  "cases": [
+    {
+      "prefix": "complete",
+      "cut": {
+        "pid": 5046,
+        "exit": -9,
+        "process_started": true,
+        "known_stopped": true,
+        "target": "BARRIER PROTOCOL complete",
+        "reached": true,
+        "kill_issued": true,
+        "natural_shutdown": false,
+        "exact_abrupt_cut": true,
+        "bytes": 37440,
+        "errors": [],
+        "parse_errors": [],
+        "utc_seconds": 1794241447.3331854
+      },
+      "matrix_continue_allowed": true,
+      "pre_recovery": {
+        "file": "complete-pre-recovery.raw.gz",
+        "raw_bytes": 33554432,
+        "raw_sha256": "bc8016d8cfa12d93e5069f427f3d5ca5d207d4e10542538df09c30eb929b0549",
+        "gzip_sha256": "510e0cdebd1821e0eba31ca7690695bd23cb8231e8ea1d440ab147025bef14b0",
+        "gzip_bytes": 193692,
+        "verified_lossless": true
+      },
+      "cut_premise": {
+        "exact": true,
+        "reason": null
+      },
+      "recovery": {
+        "pid": 5050,
+        "exit": 0,
+        "process_started": true,
+        "known_stopped": true,
+        "target": "BARRIER PROTOCOL CLEAN_RECOVERY_UNMOUNTED",
+        "reached": true,
+        "kill_issued": false,
+        "natural_shutdown": true,
+        "exact_abrupt_cut": false,
+        "bytes": 77264,
+        "errors": [],
+        "parse_errors": [],
+        "utc_seconds": 1794241452.8032646
+      },
+      "post_recovery": {
+        "file": "complete-post-recovery.raw.gz",
+        "raw_bytes": 33554432,
+        "raw_sha256": "9fbac08f94d8bb2cd76cc3515bfa30316d3d0b695749799212b3ff5882da6e4c",
+        "gzip_sha256": "a81331867416760185c9c913a5b9c33a6ba9b85331a72eeb1dafbd29cb9dcf17",
+        "gzip_bytes": 197840,
+        "verified_lossless": true
+      },
+      "fsck": {
+        "exit": 0,
+        "stdout": "Pass 1: Checking inodes, blocks, and sizes\nPass 2: Checking directory structure\nPass 3: Checking directory connectivity\nPass 4: Checking reference counts\nPass 5: Checking group summary information\n/lab/protocol-guest/actual-results-complete-001/complete.raw: 97/8192 files (1.0% non-contiguous), 1632/8192 blocks\n",
+        "stderr": "e2fsck 1.46.5 (30-Dec-2021)\n",
+        "repair": false
+      },
+      "disposition": {
+        "known": true,
+        "worker_result": {
+          "reason": "invalid_completed_attachment",
+          "status": "refused"
+        },
+        "clean_unmount": true,
+        "boundary": "clean recovery unmount"
+      },
+      "verdict": {
+        "prefix": "complete",
+        "passed": false,
+        "classification": "invalid_or_missing_evidence",
+        "checks": [
+          {
+            "name": "same_fixture_directory",
+            "passed": true
+          },
+          {
+            "name": "captured_provider_directory",
+            "passed": true
+          },
+          {
+            "name": "binding_agrees_with_frozen_intent",
+            "passed": true
+          },
+          {
+            "name": "checkpoint_agrees_with_frozen_intent",
+            "passed": true
+          },
+          {
+            "name": "captured_custody_owner_and_token",
+            "passed": true
+          },
+          {
+            "name": "captured_authority_path",
+            "passed": true
+          },
+          {
+            "name": "durable_prefix_operation",
+            "passed": true
+          },
+          {
+            "name": "durable_prefix_requests",
+            "passed": true
+          },
+          {
+            "name": "durable_prefix_receipts",
+            "passed": true
+          },
+          {
+            "name": "durable_prefix_checkpoint",
+            "passed": true
+          }
+        ],
+        "error": "git_fsck_failed:local",
+        "worker_result": {
+          "reason": "invalid_completed_attachment",
+          "status": "refused"
+        }
+      }
+    }
+  ],
+  "requested_cases": [
+    "complete"
+  ],
+  "all_passed": false,
+  "basis": "Fresh fixture for previously NOT RUN complete; no retry or repair",
+  "limits": "Unchanged experimental Python/Git2.34/ext4 collector and oracle; no provider or production guarantee"
+}

@@ -1,0 +1,137 @@
+{
+  "case": "ordinary-sync-3",
+  "http_reads": 12,
+  "all_http_permitted_and_200": true,
+  "git_pushes": [
+    {
+      "kind": "cli-git",
+      "args": [
+        "-c",
+        "push.pushOption=pull.stacked",
+        "push",
+        "origin",
+        "--force-with-lease=refs/heads/exh-1109-causal-ordinary-sync-3/B:4e7dc76044d7c2bc9e9d3b3b679dde6f3e85e24c",
+        "--force-with-lease=refs/heads/exh-1109-causal-ordinary-sync-3/C:3ab9121da777b75d7f934c1ac9555ab2ed976208",
+        "--force-with-lease=refs/heads/exh-1109-causal-ordinary-sync-3/D:da6af1c4ac97a928270695c4bb98a8707950f4a4",
+        "--atomic",
+        "refs/heads/exh-1109-causal-ordinary-sync-3/B:refs/heads/exh-1109-causal-ordinary-sync-3/B",
+        "refs/heads/exh-1109-causal-ordinary-sync-3/C:refs/heads/exh-1109-causal-ordinary-sync-3/C",
+        "refs/heads/exh-1109-causal-ordinary-sync-3/D:refs/heads/exh-1109-causal-ordinary-sync-3/D"
+      ],
+      "push": true,
+      "start": {
+        "utc": "2026-11-09T14:20:34.620383+00:00",
+        "monotonic": 0.016248791
+      },
+      "end": {
+        "utc": "2026-11-09T14:20:36.063898+00:00",
+        "monotonic": 1.459798916
+      },
+      "exit": 0,
+      "stdout": "",
+      "stderr": "To https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08.git\n + 4e7dc76...0029f30 exh-1109-causal-ordinary-sync-3/B -> exh-1109-causal-ordinary-sync-3/B (forced update)\n + 3ab9121...dd20932 exh-1109-causal-ordinary-sync-3/C -> exh-1109-causal-ordinary-sync-3/C (forced update)\n + da6af1c...47a8fee exh-1109-causal-ordinary-sync-3/D -> exh-1109-causal-ordinary-sync-3/D (forced update)\n"
+    }
+  ],
+  "members": {
+    "B": {
+      "native_before_cli": "4e7dc76044d7c2bc9e9d3b3b679dde6f3e85e24c",
+      "client_after_cli": "0029f30750ee9206dfa865f27b1d49b9b2e78cf8",
+      "native_tree": "407be646a9a6c953cd77c858a49dd4b2aec13a1a",
+      "client_tree": "407be646a9a6c953cd77c858a49dd4b2aec13a1a",
+      "final_parents": [
+        "6cb26ec4e14e1fa14b91c6358bf4e2bf0c736675"
+      ],
+      "matching_force_events": [
+        {
+          "__typename": "HeadRefForcePushedEvent",
+          "id": "HRFPE_lADOVnhIZ88AAAABdsj-qM8AAAAISJEOSg",
+          "createdAt": "2026-11-09T14:20:37Z",
+          "actor": {
+            "login": "joshlf",
+            "__typename": "User"
+          },
+          "beforeCommit": {
+            "oid": "4e7dc76044d7c2bc9e9d3b3b679dde6f3e85e24c"
+          },
+          "afterCommit": {
+            "oid": "0029f30750ee9206dfa865f27b1d49b9b2e78cf8"
+          },
+          "ref": {
+            "name": "exh-1109-causal-ordinary-sync-3/B",
+            "target": {
+              "oid": "0029f30750ee9206dfa865f27b1d49b9b2e78cf8"
+            }
+          }
+        }
+      ],
+      "agent_trailer_count": 1
+    },
+    "C": {
+      "native_before_cli": "3ab9121da777b75d7f934c1ac9555ab2ed976208",
+      "client_after_cli": "dd20932f072bd3bfd39533375dff5859cd8290be",
+      "native_tree": "2771e6714f980f6ee69d95ceb7f7d4b77ecbb07f",
+      "client_tree": "2771e6714f980f6ee69d95ceb7f7d4b77ecbb07f",
+      "final_parents": [
+        "0029f30750ee9206dfa865f27b1d49b9b2e78cf8"
+      ],
+      "matching_force_events": [
+        {
+          "__typename": "HeadRefForcePushedEvent",
+          "id": "HRFPE_lADOVnhIZ88AAAABdskBn88AAAAISJEN1A",
+          "createdAt": "2026-11-09T14:20:37Z",
+          "actor": {
+            "login": "joshlf",
+            "__typename": "User"
+          },
+          "beforeCommit": {
+            "oid": "3ab9121da777b75d7f934c1ac9555ab2ed976208"
+          },
+          "afterCommit": {
+            "oid": "dd20932f072bd3bfd39533375dff5859cd8290be"
+          },
+          "ref": {
+            "name": "exh-1109-causal-ordinary-sync-3/C",
+            "target": {
+              "oid": "dd20932f072bd3bfd39533375dff5859cd8290be"
+            }
+          }
+        }
+      ],
+      "agent_trailer_count": 1
+    },
+    "D": {
+      "native_before_cli": "da6af1c4ac97a928270695c4bb98a8707950f4a4",
+      "client_after_cli": "47a8fee99fb7fbc70ed35f495a1a98f8f77f44df",
+      "native_tree": "b68b8659cac436820d459fa7e67da34a92f5158d",
+      "client_tree": "b68b8659cac436820d459fa7e67da34a92f5158d",
+      "final_parents": [
+        "dd20932f072bd3bfd39533375dff5859cd8290be"
+      ],
+      "matching_force_events": [
+        {
+          "__typename": "HeadRefForcePushedEvent",
+          "id": "HRFPE_lADOVnhIZ88AAAABdskE6s8AAAAISJEOgw",
+          "createdAt": "2026-11-09T14:20:37Z",
+          "actor": {
+            "login": "joshlf",
+            "__typename": "User"
+          },
+          "beforeCommit": {
+            "oid": "da6af1c4ac97a928270695c4bb98a8707950f4a4"
+          },
+          "afterCommit": {
+            "oid": "47a8fee99fb7fbc70ed35f495a1a98f8f77f44df"
+          },
+          "ref": {
+            "name": "exh-1109-causal-ordinary-sync-3/D",
+            "target": {
+              "oid": "47a8fee99fb7fbc70ed35f495a1a98f8f77f44df"
+            }
+          }
+        }
+      ],
+      "agent_trailer_count": 1
+    }
+  },
+  "last_git_read_start_after_cli_push_seconds": 61.157232
+}

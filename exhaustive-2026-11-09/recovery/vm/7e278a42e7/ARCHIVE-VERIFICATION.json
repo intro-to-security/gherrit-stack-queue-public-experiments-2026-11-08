@@ -1,0 +1,7 @@
+{
+  "verified_file_hashes": 316,
+  "archive_bytes": 429801873,
+  "all_manifest_members_present": true,
+  "restore": "mkdir restore; tar -xzpf lab-evidence-v3.tar.gz -C restore. The archive root is the original /lab; preserve relative paths. Source, serial logs, 64MiB disk images, kernel, modules, test initramfs and package identities are retained. Exact runtime is still running in the owned container until the extension finishes.",
+  "duplicate_cleanup": "After all316 file hashes verified in copied host archive, removed only duplicate /lab-evidence.tar.gz from owned container. Full expanded /lab and original source/logs still retained pending extension."
+}

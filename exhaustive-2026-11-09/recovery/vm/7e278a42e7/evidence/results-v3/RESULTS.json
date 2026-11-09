@@ -1,0 +1,207 @@
+{
+  "cases": [
+    {
+      "stage": 1,
+      "records": {
+        "/state/current.json": {
+          "generation": 0,
+          "value": "old-complete"
+        },
+        "/state/next.json": null,
+        "/state/intent.json": null,
+        "/state/ref.json": {
+          "generation": 0,
+          "value": "old-complete"
+        },
+        "/state/checkpoint.json": {
+          "generation": 0,
+          "value": "old-complete"
+        }
+      },
+      "after_cut_sha256": "5cd757ae575aa97d2ff6fe57419bc1e9b5f690cefe1c66fa0265212701c46cd1",
+      "after_inspection_sha256": "0ec6466c69b8077a12f5a54afffad0af3a595d96249e972f7377f46db1fc15ff",
+      "recovery": "matching-record-generations",
+      "fsck_exit": 0
+    },
+    {
+      "stage": 2,
+      "records": {
+        "/state/current.json": {
+          "generation": 0,
+          "value": "old-complete"
+        },
+        "/state/next.json": {
+          "generation": 1,
+          "value": "new-complete"
+        },
+        "/state/intent.json": null,
+        "/state/ref.json": {
+          "generation": 0,
+          "value": "old-complete"
+        },
+        "/state/checkpoint.json": {
+          "generation": 0,
+          "value": "old-complete"
+        }
+      },
+      "after_cut_sha256": "570db0c57e254559923c87d64d015d1f51f16417fcfa1d2d1392d8365451eb1d",
+      "after_inspection_sha256": "7ccc03478893e4b30a1a97784ea4ee67f23a973e604678f4931e4083f252d307",
+      "recovery": "matching-record-generations",
+      "fsck_exit": 0
+    },
+    {
+      "stage": 3,
+      "records": {
+        "/state/current.json": {
+          "generation": 0,
+          "value": "old-complete"
+        },
+        "/state/next.json": {
+          "generation": 1,
+          "value": "new-complete"
+        },
+        "/state/intent.json": null,
+        "/state/ref.json": {
+          "generation": 0,
+          "value": "old-complete"
+        },
+        "/state/checkpoint.json": {
+          "generation": 0,
+          "value": "old-complete"
+        }
+      },
+      "after_cut_sha256": "9a3fc2a3096441c6f85a6c6065f8b767ee0ede8516c481cf65efdd0f53fa79ed",
+      "after_inspection_sha256": "ed6df696e2307b9be1a05c49bc0612dae4e993e239263f18c584da5e724a728f",
+      "recovery": "matching-record-generations",
+      "fsck_exit": 0
+    },
+    {
+      "stage": 4,
+      "records": {
+        "/state/current.json": {
+          "generation": 1,
+          "value": "new-complete"
+        },
+        "/state/next.json": null,
+        "/state/intent.json": null,
+        "/state/ref.json": {
+          "generation": 0,
+          "value": "old-complete"
+        },
+        "/state/checkpoint.json": {
+          "generation": 0,
+          "value": "old-complete"
+        }
+      },
+      "after_cut_sha256": "9070d0a61ae93cf465be30d8663f5104773ccfe340ba09302cddfa765940db78",
+      "after_inspection_sha256": "7455a21c19c01677b10ebdfb7fe0af5e45127b37825258ebc99ad9ca9f7168f6",
+      "recovery": "matching-record-generations",
+      "fsck_exit": 0
+    },
+    {
+      "stage": 5,
+      "records": {
+        "/state/current.json": {
+          "generation": 1,
+          "value": "new-complete"
+        },
+        "/state/next.json": null,
+        "/state/intent.json": null,
+        "/state/ref.json": {
+          "generation": 0,
+          "value": "old-complete"
+        },
+        "/state/checkpoint.json": {
+          "generation": 0,
+          "value": "old-complete"
+        }
+      },
+      "after_cut_sha256": "b9fa9c1ed0b1cdaa891c9f37e280df469d8b0f7ccad7e58bf680cec279751da7",
+      "after_inspection_sha256": "b7afdee5e86fc31947f33d193fa96cb3c8c03606795dee644eba359c867349c3",
+      "recovery": "matching-record-generations",
+      "fsck_exit": 0
+    },
+    {
+      "stage": 6,
+      "records": {
+        "/state/current.json": {
+          "generation": 0,
+          "value": "old-complete"
+        },
+        "/state/next.json": null,
+        "/state/intent.json": {
+          "from": 0,
+          "to": 1,
+          "value": "new-complete"
+        },
+        "/state/ref.json": {
+          "generation": 0,
+          "value": "old-complete"
+        },
+        "/state/checkpoint.json": {
+          "generation": 0,
+          "value": "old-complete"
+        }
+      },
+      "after_cut_sha256": "b803f48d60a5a848c8fac5a8d0167980a516b4ce0c9e2798557b54b2c52cdedb",
+      "after_inspection_sha256": "eb1dd1a495dcbd0ebdb88aa3bd470ffbe3734ff1fee5de24cc07cdbe2a33df3c",
+      "recovery": "pending-intent-needs-reconciliation",
+      "fsck_exit": 0
+    },
+    {
+      "stage": 7,
+      "records": {
+        "/state/current.json": {
+          "generation": 0,
+          "value": "old-complete"
+        },
+        "/state/next.json": null,
+        "/state/intent.json": {
+          "from": 0,
+          "to": 1,
+          "value": "new-complete"
+        },
+        "/state/ref.json": {
+          "generation": 1,
+          "value": "new-complete"
+        },
+        "/state/checkpoint.json": {
+          "generation": 0,
+          "value": "old-complete"
+        }
+      },
+      "after_cut_sha256": "32990dd933ad9d76c2d6d37e1841a1bc78c0d7083c998995acdf00a987c93b58",
+      "after_inspection_sha256": "d0fccf7e14195c1082b6e6af4a1b165dab667c7bbe1c38923038672f76fa86f1",
+      "recovery": "pending-intent-needs-reconciliation",
+      "fsck_exit": 0
+    },
+    {
+      "stage": 8,
+      "records": {
+        "/state/current.json": {
+          "generation": 0,
+          "value": "old-complete"
+        },
+        "/state/next.json": null,
+        "/state/intent.json": {
+          "from": 0,
+          "to": 1,
+          "value": "new-complete"
+        },
+        "/state/ref.json": {
+          "generation": 1,
+          "value": "new-complete"
+        },
+        "/state/checkpoint.json": {
+          "generation": 1,
+          "value": "new-complete"
+        }
+      },
+      "after_cut_sha256": "ae45237eeaf35340418583804bf84c1f7d20dbeafb5a7aaaca146fed5c8fe36f",
+      "after_inspection_sha256": "3903d51208aa7d97afbdb9f54b29e186a0aaefdf180a6b1056cf38e63f38ee4f",
+      "recovery": "matching-record-generations",
+      "fsck_exit": 0
+    }
+  ],
+  "limit": "Guest emulator cut, not host/device power loss; eight single trials"
+}

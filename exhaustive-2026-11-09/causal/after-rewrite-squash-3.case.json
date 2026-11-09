@@ -1,0 +1,74 @@
+{
+  "name": "after-rewrite-squash-3",
+  "prefix": "exh-1109-causal-after-rewrite-squash-3",
+  "method": "squash",
+  "timing": "after-rewrite",
+  "created": {
+    "utc": "2026-11-09T14:02:51.421839+00:00",
+    "monotonic": 0.023235541
+  },
+  "prs": {
+    "A": 590,
+    "B": 591,
+    "C": 592,
+    "D": 593
+  },
+  "heads": {
+    "A": {
+      "ref": "exh-1109-causal-after-rewrite-squash-3/A",
+      "sha": "6ac1fcfbc0ad1804dc90b728972ea7f61500ef35"
+    },
+    "B": {
+      "ref": "exh-1109-causal-after-rewrite-squash-3/B",
+      "sha": "52ed10fdef9a0ad433fb130e68496c48ee075c0e"
+    },
+    "C": {
+      "ref": "exh-1109-causal-after-rewrite-squash-3/C",
+      "sha": "a37738c0acb263697dcac416b275f114062dd79f"
+    },
+    "D": {
+      "ref": "exh-1109-causal-after-rewrite-squash-3/D",
+      "sha": "8d19013d36158cec9a3e03a373d1c83719c605e5"
+    }
+  },
+  "phase": "bounded-observations-complete",
+  "trunk_sha": "f768dc8d7a4a23153bf4a80b373768483f27a1cf",
+  "trunk": "exh-1109-causal-after-rewrite-squash-3/trunk",
+  "stack": 594,
+  "merge_uuid": "e99b2bc1-8e2e-47c5-898c-b1775f2166ba",
+  "terminal": {
+    "kind": "http",
+    "method": "GET",
+    "path": "repos/joshlf/gherrit-native-stack-experiments-2026-11-08/pulls/590/merge-async/e99b2bc1-8e2e-47c5-898c-b1775f2166ba",
+    "payload": null,
+    "start": {
+      "utc": "2026-11-09T14:03:09.926251+00:00",
+      "monotonic": 18.527396791
+    },
+    "end": {
+      "utc": "2026-11-09T14:03:11.182881+00:00",
+      "monotonic": 19.784030166
+    },
+    "exit": 0,
+    "http": 200,
+    "data": {
+      "status": "merged",
+      "details": {
+        "message": "Pull request was merged.",
+        "sha": "3458fa5694ed37a23a9146f38ec2272745ee4e04"
+      }
+    },
+    "disposition": "response-retained"
+  },
+  "marker": {
+    "target": "D",
+    "ref": "refs/heads/exh-1109-causal-after-rewrite-squash-3/D",
+    "before": "9179085486aec47558614589429c87e3abb9385d",
+    "marker": "8be2c7aa1929d0c95650bbc6b17db1135f93dea4",
+    "nonce": "07ad769ffc0f4404aaa641c462f1bec7"
+  },
+  "observation_end": {
+    "utc": "2026-11-09T14:04:17.030226+00:00",
+    "monotonic": 85.630333333
+  }
+}

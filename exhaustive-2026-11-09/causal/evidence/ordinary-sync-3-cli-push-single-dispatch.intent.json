@@ -1,0 +1,25 @@
+{
+  "kind": "push-gate",
+  "args": [
+    "-c",
+    "push.pushOption=pull.stacked",
+    "push",
+    "origin",
+    "--force-with-lease=refs/heads/exh-1109-causal-ordinary-sync-3/B:4e7dc76044d7c2bc9e9d3b3b679dde6f3e85e24c",
+    "--force-with-lease=refs/heads/exh-1109-causal-ordinary-sync-3/C:3ab9121da777b75d7f934c1ac9555ab2ed976208",
+    "--force-with-lease=refs/heads/exh-1109-causal-ordinary-sync-3/D:da6af1c4ac97a928270695c4bb98a8707950f4a4",
+    "--atomic",
+    "refs/heads/exh-1109-causal-ordinary-sync-3/B:refs/heads/exh-1109-causal-ordinary-sync-3/B",
+    "refs/heads/exh-1109-causal-ordinary-sync-3/C:refs/heads/exh-1109-causal-ordinary-sync-3/C",
+    "refs/heads/exh-1109-causal-ordinary-sync-3/D:refs/heads/exh-1109-causal-ordinary-sync-3/D"
+  ],
+  "allowed": [
+    "refs/heads/exh-1109-causal-ordinary-sync-3/B",
+    "refs/heads/exh-1109-causal-ordinary-sync-3/C",
+    "refs/heads/exh-1109-causal-ordinary-sync-3/D"
+  ],
+  "start": {
+    "utc": "2026-11-09T14:20:34.619916+00:00",
+    "monotonic": 0.015923083
+  }
+}

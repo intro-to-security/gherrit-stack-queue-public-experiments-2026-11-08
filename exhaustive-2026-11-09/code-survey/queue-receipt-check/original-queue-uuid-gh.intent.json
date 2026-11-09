@@ -1,0 +1,6 @@
+{
+  "method": "GET",
+  "path": "repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/pulls/29/merge-async/945dccee-d22e-4ac5-bd6b-a8b222dea397",
+  "start": "2026-11-09T14:39:38.587217+00:00",
+  "scope": "Read-only original queue operation; frozen fixture untouched."
+}

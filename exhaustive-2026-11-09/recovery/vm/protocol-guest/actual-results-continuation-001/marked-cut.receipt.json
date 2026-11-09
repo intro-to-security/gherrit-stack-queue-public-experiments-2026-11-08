@@ -1,0 +1,15 @@
+{
+  "pid": 4825,
+  "exit": -9,
+  "process_started": true,
+  "known_stopped": true,
+  "target": "BARRIER PROTOCOL marked",
+  "reached": true,
+  "kill_issued": true,
+  "natural_shutdown": false,
+  "exact_abrupt_cut": true,
+  "bytes": 37258,
+  "errors": [],
+  "parse_errors": [],
+  "utc_seconds": 1794240840.1769545
+}

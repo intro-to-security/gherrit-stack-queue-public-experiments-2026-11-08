@@ -1,0 +1,31 @@
+HTTP/2.0 201 Created
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset, Warning
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Length: 3859
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Mon, 09 Nov 2026 14:44:14 GMT
+Etag: "0d99b4d59017cc00e7ef2562b40b5e46c5f8622770a9cc9283f9a1dc238e0e3d"
+Location: https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/stacks/645
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: github.com
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP,Accept-Encoding, Accept, X-Requested-With
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Api-Version-Selected: 2026-03-10
+X-Github-Edge-Region: iad
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CFCC:48A87:16E016F:4B63176:6AF1DC3D
+X-Oauth-Client-Id: 178c6fc778ccc68e1d6a
+X-Oauth-Scopes: gist, read:org, repo, workflow
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4632
+X-Ratelimit-Reset: 1794236789
+X-Ratelimit-Resource: core
+X-Ratelimit-Used: 368
+X-Xss-Protection: 0
+
+{"id":3247384,"number":645,"node_id":"PRS_kwDOVnhIZ84AMY0Y","url":"https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/stacks/645","base":{"ref":"exh-1109-target-profile002-e-trunk"},"open":true,"created_at":"2026-11-09T14:44:13Z","pull_requests":[{"url":"https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/pulls/639","id":5225708213,"number":639,"head":{"ref":"exh-1109-target-profile002-e-A","sha":"7af85df24e351963cfe662b472407dd466779033","repo":{"id":1450723431,"url":"https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08","name":"gherrit-native-stack-experiments-2026-11-08"}},"base":{"ref":"exh-1109-target-profile002-e-trunk","sha":"6366f306d3e2cecfd517a9a04c0a845ba31394cb","repo":{"id":1450723431,"url":"https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08","name":"gherrit-native-stack-experiments-2026-11-08"}},"node_id":"PR_kwDOVnhIZ88AAAABN3n6tQ","title":"Target explicit-types contrast A","state":"open","merged_at":null,"draft":false,"html_url":"https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08/pull/639","user":{"login":"joshlf","id":1046063,"node_id":"MDQ6VXNlcjEwNDYwNjM=","avatar_url":"https://avatars.githubusercontent.com/u/1046063?v=4","gravatar_id":"","url":"https://api.github.com/users/joshlf","html_url":"https://github.com/joshlf","followers_url":"https://api.github.com/users/joshlf/followers","following_url":"https://api.github.com/users/joshlf/following{/other_user}","gists_url":"https://api.github.com/users/joshlf/gists{/gist_id}","starred_url":"https://api.github.com/users/joshlf/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/joshlf/subscriptions","organizations_url":"https://api.github.com/users/joshlf/orgs","repos_url":"https://api.github.com/users/joshlf/repos","events_url":"https://api.github.com/users/joshlf/events{/privacy}","received_events_url":"https://api.github.com/users/joshlf/received_events","type":"User","user_view_type":"public","site_admin":false}},{"url":"https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/pulls/640","id":5225708536,"number":640,"head":{"ref":"exh-1109-target-profile002-e-B","sha":"159af50ede9b84f89071ac28f293305ce94b8bc9","repo":{"id":1450723431,"url":"https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08","name":"gherrit-native-stack-experiments-2026-11-08"}},"base":{"ref":"exh-1109-target-profile002-e-A","sha":"7af85df24e351963cfe662b472407dd466779033","repo":{"id":1450723431,"url":"https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08","name":"gherrit-native-stack-experiments-2026-11-08"}},"node_id":"PR_kwDOVnhIZ88AAAABN3n7-A","title":"Target explicit-types contrast B","state":"open","merged_at":null,"draft":false,"html_url":"https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08/pull/640","user":{"login":"joshlf","id":1046063,"node_id":"MDQ6VXNlcjEwNDYwNjM=","avatar_url":"https://avatars.githubusercontent.com/u/1046063?v=4","gravatar_id":"","url":"https://api.github.com/users/joshlf","html_url":"https://github.com/joshlf","followers_url":"https://api.github.com/users/joshlf/followers","following_url":"https://api.github.com/users/joshlf/following{/other_user}","gists_url":"https://api.github.com/users/joshlf/gists{/gist_id}","starred_url":"https://api.github.com/users/joshlf/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/joshlf/subscriptions","organizations_url":"https://api.github.com/users/joshlf/orgs","repos_url":"https://api.github.com/users/joshlf/repos","events_url":"https://api.github.com/users/joshlf/events{/privacy}","received_events_url":"https://api.github.com/users/joshlf/received_events","type":"User","user_view_type":"public","site_admin":false}}]}

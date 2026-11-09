@@ -1,0 +1,216 @@
+{
+  "phase": "after root pre-execution oracle/cut/log-open fixes",
+  "candidate_test_methods_passed": 6,
+  "modeled_prefixes": 11,
+  "completion_component_mutants": 8,
+  "baseline_semantic_mutants_rejected": 3,
+  "fake_process_boundary_probes": {
+    "log_open_failure": {
+      "spawns": 0,
+      "receipts": [
+        {
+          "command": [
+            "qemu-system-aarch64",
+            "-machine",
+            "virt",
+            "-cpu",
+            "cortex-a57",
+            "-accel",
+            "tcg",
+            "-smp",
+            "1",
+            "-m",
+            "256M",
+            "-nographic",
+            "-no-reboot",
+            "-nic",
+            "none",
+            "-kernel",
+            "/lab/boot/Image-virt",
+            "-initrd",
+            "/lab/protocol-guest/test-initramfs.gz",
+            "-append",
+            "console=ttyAMA0 panic=-1 phase=cut prefix=validated",
+            "-drive",
+            "if=none,file=/offline-no-disk,format=raw,cache=writeback,id=d0",
+            "-device",
+            "virtio-blk-device,drive=d0"
+          ],
+          "prefix": "validated",
+          "phase": "cut",
+          "utc_seconds": 1794239186.0833511,
+          "state": "may be started"
+        }
+      ],
+      "accepted": false,
+      "error": "injected log-open failure",
+      "kills": 0,
+      "waits": 0,
+      "requested_natural_exit": null
+    },
+    "normal_owned_cut": {
+      "spawns": 1,
+      "receipts": [
+        {
+          "command": [
+            "qemu-system-aarch64",
+            "-machine",
+            "virt",
+            "-cpu",
+            "cortex-a57",
+            "-accel",
+            "tcg",
+            "-smp",
+            "1",
+            "-m",
+            "256M",
+            "-nographic",
+            "-no-reboot",
+            "-nic",
+            "none",
+            "-kernel",
+            "/lab/boot/Image-virt",
+            "-initrd",
+            "/lab/protocol-guest/test-initramfs.gz",
+            "-append",
+            "console=ttyAMA0 panic=-1 phase=cut prefix=validated",
+            "-drive",
+            "if=none,file=/offline-no-disk,format=raw,cache=writeback,id=d0",
+            "-device",
+            "virtio-blk-device,drive=d0"
+          ],
+          "prefix": "validated",
+          "phase": "cut",
+          "utc_seconds": 1794239186.083384,
+          "state": "may be started"
+        },
+        {
+          "pid": 987654,
+          "exit": -9,
+          "target": "BARRIER PROTOCOL validated",
+          "reached": true,
+          "natural_shutdown": false,
+          "kill_issued": true,
+          "bytes": 106,
+          "utc_seconds": 1794239186.083394
+        }
+      ],
+      "accepted": true,
+      "parsed_kinds": [
+        "baseline",
+        "runtime"
+      ],
+      "kills": 1,
+      "waits": 1,
+      "requested_natural_exit": null
+    },
+    "unexpected_clean_exit_after_marker": {
+      "spawns": 1,
+      "receipts": [
+        {
+          "command": [
+            "qemu-system-aarch64",
+            "-machine",
+            "virt",
+            "-cpu",
+            "cortex-a57",
+            "-accel",
+            "tcg",
+            "-smp",
+            "1",
+            "-m",
+            "256M",
+            "-nographic",
+            "-no-reboot",
+            "-nic",
+            "none",
+            "-kernel",
+            "/lab/boot/Image-virt",
+            "-initrd",
+            "/lab/protocol-guest/test-initramfs.gz",
+            "-append",
+            "console=ttyAMA0 panic=-1 phase=cut prefix=validated",
+            "-drive",
+            "if=none,file=/offline-no-disk,format=raw,cache=writeback,id=d0",
+            "-device",
+            "virtio-blk-device,drive=d0"
+          ],
+          "prefix": "validated",
+          "phase": "cut",
+          "utc_seconds": 1794239186.083426,
+          "state": "may be started"
+        },
+        {
+          "pid": 987654,
+          "exit": 0,
+          "target": "BARRIER PROTOCOL validated",
+          "reached": true,
+          "natural_shutdown": false,
+          "kill_issued": false,
+          "bytes": 106,
+          "utc_seconds": 1794239186.083429
+        }
+      ],
+      "accepted": false,
+      "error": "Guest premise failed; retained disk/logs, no retry: offline-only.log",
+      "kills": 0,
+      "waits": 1,
+      "requested_natural_exit": 0
+    },
+    "unexpected_error_exit_after_marker": {
+      "spawns": 1,
+      "receipts": [
+        {
+          "command": [
+            "qemu-system-aarch64",
+            "-machine",
+            "virt",
+            "-cpu",
+            "cortex-a57",
+            "-accel",
+            "tcg",
+            "-smp",
+            "1",
+            "-m",
+            "256M",
+            "-nographic",
+            "-no-reboot",
+            "-nic",
+            "none",
+            "-kernel",
+            "/lab/boot/Image-virt",
+            "-initrd",
+            "/lab/protocol-guest/test-initramfs.gz",
+            "-append",
+            "console=ttyAMA0 panic=-1 phase=cut prefix=validated",
+            "-drive",
+            "if=none,file=/offline-no-disk,format=raw,cache=writeback,id=d0",
+            "-device",
+            "virtio-blk-device,drive=d0"
+          ],
+          "prefix": "validated",
+          "phase": "cut",
+          "utc_seconds": 1794239186.083447,
+          "state": "may be started"
+        },
+        {
+          "pid": 987654,
+          "exit": 1,
+          "target": "BARRIER PROTOCOL validated",
+          "reached": true,
+          "natural_shutdown": false,
+          "kill_issued": false,
+          "bytes": 106,
+          "utc_seconds": 1794239186.08345
+        }
+      ],
+      "accepted": false,
+      "error": "Guest premise failed; retained disk/logs, no retry: offline-only.log",
+      "kills": 0,
+      "waits": 1,
+      "requested_natural_exit": 1
+    }
+  },
+  "external_runtime_actions": 0,
+  "independent_check_sha256": "26a1d2afb801f3439c61b5e587c3586d5d5bc3a9fb5ea6a1c5db215bb45509b0"
+}

@@ -1,0 +1,9 @@
+{
+  "message": "Seed an isolated branch-update fixture\n\nAgent-authored-by: AI agent acting on joshlf's behalf\n",
+  "oid": "cd4822bf742e16e1d4450154c77c537966bac04a",
+  "parent": null,
+  "tree": "f16733295900d43ce0e5e90a72ec53cffe8a46a6",
+  "updates": {
+    "gql.txt": "base\n"
+  }
+}

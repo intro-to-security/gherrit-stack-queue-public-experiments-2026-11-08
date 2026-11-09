@@ -1,0 +1,179 @@
+Stacked event witness	Set up job	﻿2026-11-09T14:44:20.0754170Z Current runner version: '2.338.2'
+Stacked event witness	Set up job	2026-11-09T14:44:20.0775150Z ##[group]Runner Image Provisioner
+Stacked event witness	Set up job	2026-11-09T14:44:20.0776068Z Hosted Compute Agent
+Stacked event witness	Set up job	2026-11-09T14:44:20.0776489Z Version: 20261028.624
+Stacked event witness	Set up job	2026-11-09T14:44:20.0776887Z Commit: 54898b74c23fde5556c9b3c3a2290865feef0dfe
+Stacked event witness	Set up job	2026-11-09T14:44:20.0777332Z Build Date: 2026-10-28T21:51:42Z
+Stacked event witness	Set up job	2026-11-09T14:44:20.0777786Z Worker ID: {9544d5bd-24ec-4ebc-a742-3e49c9784c34}
+Stacked event witness	Set up job	2026-11-09T14:44:20.0778313Z Region: southcentralus
+Stacked event witness	Set up job	2026-11-09T14:44:20.0778663Z Cloud: Azure
+Stacked event witness	Set up job	2026-11-09T14:44:20.0779046Z ##[endgroup]
+Stacked event witness	Set up job	2026-11-09T14:44:20.0780150Z ##[group]Operating System
+Stacked event witness	Set up job	2026-11-09T14:44:20.0780587Z Ubuntu
+Stacked event witness	Set up job	2026-11-09T14:44:20.0780995Z 24.04.5
+Stacked event witness	Set up job	2026-11-09T14:44:20.0781305Z LTS
+Stacked event witness	Set up job	2026-11-09T14:44:20.0781681Z ##[endgroup]
+Stacked event witness	Set up job	2026-11-09T14:44:20.0782025Z ##[group]Runner Image
+Stacked event witness	Set up job	2026-11-09T14:44:20.0782422Z Image: ubuntu-24.04
+Stacked event witness	Set up job	2026-11-09T14:44:20.0782823Z Version: 20261101.360.1
+Stacked event witness	Set up job	2026-11-09T14:44:20.0783466Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20261101.360/images/ubuntu/Ubuntu2404-Readme.md
+Stacked event witness	Set up job	2026-11-09T14:44:20.0784570Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20261101.360
+Stacked event witness	Set up job	2026-11-09T14:44:20.0785174Z ##[endgroup]
+Stacked event witness	Set up job	2026-11-09T14:44:20.0786046Z ##[group]GITHUB_TOKEN Permissions
+Stacked event witness	Set up job	2026-11-09T14:44:20.0787365Z Contents: read
+Stacked event witness	Set up job	2026-11-09T14:44:20.0787734Z Metadata: read
+Stacked event witness	Set up job	2026-11-09T14:44:20.0788081Z ##[endgroup]
+Stacked event witness	Set up job	2026-11-09T14:44:20.0789578Z Secret source: Actions
+Stacked event witness	Set up job	2026-11-09T14:44:20.0790167Z Cache mode: write
+Stacked event witness	Set up job	2026-11-09T14:44:20.0790657Z Prepare workflow directory
+Stacked event witness	Set up job	2026-11-09T14:44:20.1041555Z Prepare all required actions
+Stacked event witness	Set up job	2026-11-09T14:44:20.1073608Z Getting action download info
+Stacked event witness	Set up job	2026-11-09T14:44:20.3487128Z Download action repository 'actions/checkout@v4' (SHA:11d5960a326750d5838078e36cf38b85af677262)
+Stacked event witness	Set up job	2026-11-09T14:44:20.5319393Z Complete job name: Stacked event witness
+Stacked event witness	Checkout fixture	﻿2026-11-09T14:44:20.5918622Z ##[group]Run actions/checkout@v4
+Stacked event witness	Checkout fixture	2026-11-09T14:44:20.5919086Z with:
+Stacked event witness	Checkout fixture	2026-11-09T14:44:20.5919342Z   persist-credentials: false
+Stacked event witness	Checkout fixture	2026-11-09T14:44:20.5919740Z   repository: joshlf/gherrit-native-stack-experiments-2026-11-08
+Stacked event witness	Checkout fixture	2026-11-09T14:44:20.5921838Z   token: ***
+Stacked event witness	Checkout fixture	2026-11-09T14:44:20.5922079Z   ssh-strict: true
+Stacked event witness	Checkout fixture	2026-11-09T14:44:20.5922330Z   ssh-user: git
+Stacked event witness	Checkout fixture	2026-11-09T14:44:20.5922571Z   clean: true
+Stacked event witness	Checkout fixture	2026-11-09T14:44:20.5922826Z   sparse-checkout-cone-mode: true
+Stacked event witness	Checkout fixture	2026-11-09T14:44:20.5923121Z   fetch-depth: 1
+Stacked event witness	Checkout fixture	2026-11-09T14:44:20.5923362Z   fetch-tags: false
+Stacked event witness	Checkout fixture	2026-11-09T14:44:20.5923619Z   show-progress: true
+Stacked event witness	Checkout fixture	2026-11-09T14:44:20.5923877Z   lfs: false
+Stacked event witness	Checkout fixture	2026-11-09T14:44:20.5924113Z   submodules: false
+Stacked event witness	Checkout fixture	2026-11-09T14:44:20.5924372Z   set-safe-directory: true
+Stacked event witness	Checkout fixture	2026-11-09T14:44:20.5924660Z   allow-unsafe-pr-checkout: false
+Stacked event witness	Checkout fixture	2026-11-09T14:44:20.5925020Z ##[endgroup]
+Stacked event witness	Checkout fixture	2026-11-09T14:44:20.7828402Z Syncing repository: joshlf/gherrit-native-stack-experiments-2026-11-08
+Stacked event witness	Checkout fixture	2026-11-09T14:44:20.7829836Z ##[group]Getting Git version info
+Stacked event witness	Checkout fixture	2026-11-09T14:44:20.7830833Z Working directory is '/home/runner/work/gherrit-native-stack-experiments-2026-11-08/gherrit-native-stack-experiments-2026-11-08'
+Stacked event witness	Checkout fixture	2026-11-09T14:44:20.7831694Z [command]/usr/bin/git version
+Stacked event witness	Checkout fixture	2026-11-09T14:44:20.7888638Z git version 2.56.0
+Stacked event witness	Checkout fixture	2026-11-09T14:44:20.7904377Z ##[endgroup]
+Stacked event witness	Checkout fixture	2026-11-09T14:44:20.7917490Z Temporarily overriding HOME='/home/runner/work/_temp/71567f58-090f-475a-aef9-a763a1129ab8' before making global git config changes
+Stacked event witness	Checkout fixture	2026-11-09T14:44:20.7918728Z Adding repository directory to the temporary git global config as a safe directory
+Stacked event witness	Checkout fixture	2026-11-09T14:44:20.7923676Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/gherrit-native-stack-experiments-2026-11-08/gherrit-native-stack-experiments-2026-11-08
+Stacked event witness	Checkout fixture	2026-11-09T14:44:20.7972382Z Deleting the contents of '/home/runner/work/gherrit-native-stack-experiments-2026-11-08/gherrit-native-stack-experiments-2026-11-08'
+Stacked event witness	Checkout fixture	2026-11-09T14:44:20.7977535Z ##[group]Initializing the repository
+Stacked event witness	Checkout fixture	2026-11-09T14:44:20.7981772Z [command]/usr/bin/git init /home/runner/work/gherrit-native-stack-experiments-2026-11-08/gherrit-native-stack-experiments-2026-11-08
+Stacked event witness	Checkout fixture	2026-11-09T14:44:20.8061674Z hint: Using 'master' as the name for the initial branch. This default branch name
+Stacked event witness	Checkout fixture	2026-11-09T14:44:20.8063048Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+Stacked event witness	Checkout fixture	2026-11-09T14:44:20.8063956Z hint: to use in all of your new repositories, which will suppress this warning,
+Stacked event witness	Checkout fixture	2026-11-09T14:44:20.8064659Z hint: call:
+Stacked event witness	Checkout fixture	2026-11-09T14:44:20.8065008Z hint:
+Stacked event witness	Checkout fixture	2026-11-09T14:44:20.8065464Z hint: 	git config --global init.defaultBranch <name>
+Stacked event witness	Checkout fixture	2026-11-09T14:44:20.8066145Z hint:
+Stacked event witness	Checkout fixture	2026-11-09T14:44:20.8066672Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+Stacked event witness	Checkout fixture	2026-11-09T14:44:20.8067503Z hint: 'development'. The just-created branch can be renamed via this command:
+Stacked event witness	Checkout fixture	2026-11-09T14:44:20.8068166Z hint:
+Stacked event witness	Checkout fixture	2026-11-09T14:44:20.8068541Z hint: 	git branch -m <name>
+Stacked event witness	Checkout fixture	2026-11-09T14:44:20.8068971Z hint:
+Stacked event witness	Checkout fixture	2026-11-09T14:44:20.8069525Z hint: Disable this message with "git config set advice.defaultBranchName false"
+Stacked event witness	Checkout fixture	2026-11-09T14:44:20.8070893Z Initialized empty Git repository in /home/runner/work/gherrit-native-stack-experiments-2026-11-08/gherrit-native-stack-experiments-2026-11-08/.git/
+Stacked event witness	Checkout fixture	2026-11-09T14:44:20.8079142Z [command]/usr/bin/git remote add origin https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08
+Stacked event witness	Checkout fixture	2026-11-09T14:44:20.8125236Z ##[endgroup]
+Stacked event witness	Checkout fixture	2026-11-09T14:44:20.8126144Z ##[group]Disabling automatic garbage collection
+Stacked event witness	Checkout fixture	2026-11-09T14:44:20.8128718Z [command]/usr/bin/git config --local gc.auto 0
+Stacked event witness	Checkout fixture	2026-11-09T14:44:20.8159645Z ##[endgroup]
+Stacked event witness	Checkout fixture	2026-11-09T14:44:20.8160311Z ##[group]Setting up auth
+Stacked event witness	Checkout fixture	2026-11-09T14:44:20.8165601Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+Stacked event witness	Checkout fixture	2026-11-09T14:44:20.8199874Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+Stacked event witness	Checkout fixture	2026-11-09T14:44:20.8514658Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+Stacked event witness	Checkout fixture	2026-11-09T14:44:20.8554744Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+Stacked event witness	Checkout fixture	2026-11-09T14:44:20.8753340Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+Stacked event witness	Checkout fixture	2026-11-09T14:44:20.8792514Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+Stacked event witness	Checkout fixture	2026-11-09T14:44:20.8988464Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+Stacked event witness	Checkout fixture	2026-11-09T14:44:20.9032005Z ##[endgroup]
+Stacked event witness	Checkout fixture	2026-11-09T14:44:20.9032527Z ##[group]Fetching the repository
+Stacked event witness	Checkout fixture	2026-11-09T14:44:20.9040815Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +df3e5f2cf26e361b084ee7d2bea91dad12007955:refs/remotes/pull/639/merge
+Stacked event witness	Checkout fixture	2026-11-09T14:44:21.2144457Z From https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08
+Stacked event witness	Checkout fixture	2026-11-09T14:44:21.2145903Z  * [new ref]         df3e5f2cf26e361b084ee7d2bea91dad12007955 -> pull/639/merge
+Stacked event witness	Checkout fixture	2026-11-09T14:44:21.2148816Z ##[endgroup]
+Stacked event witness	Checkout fixture	2026-11-09T14:44:21.2149521Z ##[group]Determining the checkout info
+Stacked event witness	Checkout fixture	2026-11-09T14:44:21.2151376Z ##[endgroup]
+Stacked event witness	Checkout fixture	2026-11-09T14:44:21.2156130Z [command]/usr/bin/git sparse-checkout disable
+Stacked event witness	Checkout fixture	2026-11-09T14:44:21.2213015Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+Stacked event witness	Checkout fixture	2026-11-09T14:44:21.2247058Z ##[group]Checking out the ref
+Stacked event witness	Checkout fixture	2026-11-09T14:44:21.2249876Z [command]/usr/bin/git checkout --progress --force refs/remotes/pull/639/merge
+Stacked event witness	Checkout fixture	2026-11-09T14:44:21.2290178Z Note: switching to 'refs/remotes/pull/639/merge'.
+Stacked event witness	Checkout fixture	2026-11-09T14:44:21.2290645Z 
+Stacked event witness	Checkout fixture	2026-11-09T14:44:21.2290998Z You are in 'detached HEAD' state. You can look around, make experimental
+Stacked event witness	Checkout fixture	2026-11-09T14:44:21.2291901Z changes and commit them, and you can discard any commits you make in this
+Stacked event witness	Checkout fixture	2026-11-09T14:44:21.2292485Z state without impacting any branches by switching back to a branch.
+Stacked event witness	Checkout fixture	2026-11-09T14:44:21.2293001Z 
+Stacked event witness	Checkout fixture	2026-11-09T14:44:21.2293235Z If you want to create a new branch to retain commits you create, you may
+Stacked event witness	Checkout fixture	2026-11-09T14:44:21.2293726Z do so (now or later) by using -c with the switch command. Example:
+Stacked event witness	Checkout fixture	2026-11-09T14:44:21.2294004Z 
+Stacked event witness	Checkout fixture	2026-11-09T14:44:21.2294135Z   git switch -c <new-branch-name>
+Stacked event witness	Checkout fixture	2026-11-09T14:44:21.2294331Z 
+Stacked event witness	Checkout fixture	2026-11-09T14:44:21.2294462Z Or undo this operation with:
+Stacked event witness	Checkout fixture	2026-11-09T14:44:21.2294660Z 
+Stacked event witness	Checkout fixture	2026-11-09T14:44:21.2294770Z   git switch -
+Stacked event witness	Checkout fixture	2026-11-09T14:44:21.2294990Z 
+Stacked event witness	Checkout fixture	2026-11-09T14:44:21.2295234Z Turn off this advice by setting config variable advice.detachedHead to false
+Stacked event witness	Checkout fixture	2026-11-09T14:44:21.2295682Z 
+Stacked event witness	Checkout fixture	2026-11-09T14:44:21.2296415Z HEAD is now at df3e5f2 Merge 7af85df24e351963cfe662b472407dd466779033 into 6366f306d3e2cecfd517a9a04c0a845ba31394cb
+Stacked event witness	Checkout fixture	2026-11-09T14:44:21.2298923Z ##[endgroup]
+Stacked event witness	Checkout fixture	2026-11-09T14:44:21.2339644Z [command]/usr/bin/git log -1 --format=%H
+Stacked event witness	Checkout fixture	2026-11-09T14:44:21.2368951Z df3e5f2cf26e361b084ee7d2bea91dad12007955
+Stacked event witness	Checkout fixture	2026-11-09T14:44:21.2376343Z ##[group]Removing auth
+Stacked event witness	Checkout fixture	2026-11-09T14:44:21.2378616Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+Stacked event witness	Checkout fixture	2026-11-09T14:44:21.2412997Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+Stacked event witness	Checkout fixture	2026-11-09T14:44:21.2641461Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+Stacked event witness	Checkout fixture	2026-11-09T14:44:21.2671744Z http.https://github.com/.extraheader
+Stacked event witness	Checkout fixture	2026-11-09T14:44:21.2677244Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+Stacked event witness	Checkout fixture	2026-11-09T14:44:21.2743905Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+Stacked event witness	Checkout fixture	2026-11-09T14:44:21.2929171Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+Stacked event witness	Checkout fixture	2026-11-09T14:44:21.2967853Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+Stacked event witness	Checkout fixture	2026-11-09T14:44:21.3160052Z ##[endgroup]
+Stacked event witness	Capture event and exact Git identities	﻿2026-11-09T14:44:21.3340497Z ##[group]Run python3 - <<'PYCODE'
+Stacked event witness	Capture event and exact Git identities	2026-11-09T14:44:21.3340979Z ^[[36;1mpython3 - <<'PYCODE'^[[0m
+Stacked event witness	Capture event and exact Git identities	2026-11-09T14:44:21.3341359Z ^[[36;1mimport json, os, pathlib, subprocess^[[0m
+Stacked event witness	Capture event and exact Git identities	2026-11-09T14:44:21.3341942Z ^[[36;1mevent = json.loads(pathlib.Path(os.environ['GITHUB_EVENT_PATH']).read_text())^[[0m
+Stacked event witness	Capture event and exact Git identities	2026-11-09T14:44:21.3342548Z ^[[36;1mpr = event.get('pull_request', {})^[[0m
+Stacked event witness	Capture event and exact Git identities	2026-11-09T14:44:21.3343145Z ^[[36;1mgit = lambda *args: subprocess.check_output(['git', *args], text=True).strip()^[[0m
+Stacked event witness	Capture event and exact Git identities	2026-11-09T14:44:21.3343740Z ^[[36;1mprint(json.dumps({^[[0m
+Stacked event witness	Capture event and exact Git identities	2026-11-09T14:44:21.3344241Z ^[[36;1m    'scope': 'Minimal synthetic event/check probe; full Rust CI did not run',^[[0m
+Stacked event witness	Capture event and exact Git identities	2026-11-09T14:44:21.3344869Z ^[[36;1m    'event_name': os.environ['GITHUB_EVENT_NAME'],^[[0m
+Stacked event witness	Capture event and exact Git identities	2026-11-09T14:44:21.3345322Z ^[[36;1m    'action': event.get('action'),^[[0m
+Stacked event witness	Capture event and exact Git identities	2026-11-09T14:44:21.3345883Z ^[[36;1m    'github_sha': os.environ['GITHUB_SHA'],^[[0m
+Stacked event witness	Capture event and exact Git identities	2026-11-09T14:44:21.3346324Z ^[[36;1m    'github_ref': os.environ['GITHUB_REF'],^[[0m
+Stacked event witness	Capture event and exact Git identities	2026-11-09T14:44:21.3346756Z ^[[36;1m    'run_id': os.environ['GITHUB_RUN_ID'],^[[0m
+Stacked event witness	Capture event and exact Git identities	2026-11-09T14:44:21.3347256Z ^[[36;1m    'run_attempt': os.environ['GITHUB_RUN_ATTEMPT'],^[[0m
+Stacked event witness	Capture event and exact Git identities	2026-11-09T14:44:21.3347747Z ^[[36;1m    'source_sha': pr.get('head', {}).get('sha'),^[[0m
+Stacked event witness	Capture event and exact Git identities	2026-11-09T14:44:21.3348210Z ^[[36;1m    'base_sha': pr.get('base', {}).get('sha'),^[[0m
+Stacked event witness	Capture event and exact Git identities	2026-11-09T14:44:21.3348678Z ^[[36;1m    'merge_commit_sha': pr.get('merge_commit_sha'),^[[0m
+Stacked event witness	Capture event and exact Git identities	2026-11-09T14:44:21.3349160Z ^[[36;1m    'checkout_head': git('rev-parse', 'HEAD'),^[[0m
+Stacked event witness	Capture event and exact Git identities	2026-11-09T14:44:21.3349639Z ^[[36;1m    'checkout_tree': git('rev-parse', 'HEAD^{tree}'),^[[0m
+Stacked event witness	Capture event and exact Git identities	2026-11-09T14:44:21.3350215Z ^[[36;1m    'checkout_parents': git('rev-list', '--parents', '-n', '1', 'HEAD')^[[0m
+Stacked event witness	Capture event and exact Git identities	2026-11-09T14:44:21.3350733Z ^[[36;1m}, sort_keys=True))^[[0m
+Stacked event witness	Capture event and exact Git identities	2026-11-09T14:44:21.3351026Z ^[[36;1mPYCODE^[[0m
+Stacked event witness	Capture event and exact Git identities	2026-11-09T14:44:21.3371058Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+Stacked event witness	Capture event and exact Git identities	2026-11-09T14:44:21.3371499Z ##[endgroup]
+Stacked event witness	Capture event and exact Git identities	2026-11-09T14:44:21.3647939Z {"action": "stacked", "base_sha": "6366f306d3e2cecfd517a9a04c0a845ba31394cb", "checkout_head": "df3e5f2cf26e361b084ee7d2bea91dad12007955", "checkout_parents": "df3e5f2cf26e361b084ee7d2bea91dad12007955", "checkout_tree": "9b8c19e8c71d0075613e87a30ace1418713a1856", "event_name": "pull_request", "github_ref": "refs/pull/639/merge", "github_sha": "df3e5f2cf26e361b084ee7d2bea91dad12007955", "merge_commit_sha": "df3e5f2cf26e361b084ee7d2bea91dad12007955", "run_attempt": "1", "run_id": "42637588806", "scope": "Minimal synthetic event/check probe; full Rust CI did not run", "source_sha": "7af85df24e351963cfe662b472407dd466779033"}
+Stacked event witness	Evaluate known fixture outcome	﻿2026-11-09T14:44:21.3722315Z ##[group]Run if test -f .fixture-fail; then
+Stacked event witness	Evaluate known fixture outcome	2026-11-09T14:44:21.3722767Z ^[[36;1mif test -f .fixture-fail; then^[[0m
+Stacked event witness	Evaluate known fixture outcome	2026-11-09T14:44:21.3723221Z ^[[36;1m  echo 'Expected synthetic failure for stale-SHA control'^[[0m
+Stacked event witness	Evaluate known fixture outcome	2026-11-09T14:44:21.3723688Z ^[[36;1m  exit 1^[[0m
+Stacked event witness	Evaluate known fixture outcome	2026-11-09T14:44:21.3723934Z ^[[36;1mfi^[[0m
+Stacked event witness	Evaluate known fixture outcome	2026-11-09T14:44:21.3724274Z ^[[36;1mecho 'Minimal payload passed; full Rust CI did not run'^[[0m
+Stacked event witness	Evaluate known fixture outcome	2026-11-09T14:44:21.3740643Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+Stacked event witness	Evaluate known fixture outcome	2026-11-09T14:44:21.3741063Z ##[endgroup]
+Stacked event witness	Evaluate known fixture outcome	2026-11-09T14:44:21.3838054Z Minimal payload passed; full Rust CI did not run
+Stacked event witness	Post Checkout fixture	﻿2026-11-09T14:44:21.3942979Z Post job cleanup.
+Stacked event witness	Post Checkout fixture	2026-11-09T14:44:21.4513772Z [command]/usr/bin/git version
+Stacked event witness	Post Checkout fixture	2026-11-09T14:44:21.4547214Z git version 2.56.0
+Stacked event witness	Post Checkout fixture	2026-11-09T14:44:21.4572051Z Temporarily overriding HOME='/home/runner/work/_temp/395a62c7-8635-4290-a47b-426655db4f72' before making global git config changes
+Stacked event witness	Post Checkout fixture	2026-11-09T14:44:21.4573591Z Adding repository directory to the temporary git global config as a safe directory
+Stacked event witness	Post Checkout fixture	2026-11-09T14:44:21.4575853Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/gherrit-native-stack-experiments-2026-11-08/gherrit-native-stack-experiments-2026-11-08
+Stacked event witness	Post Checkout fixture	2026-11-09T14:44:21.4611578Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+Stacked event witness	Post Checkout fixture	2026-11-09T14:44:21.4659490Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+Stacked event witness	Post Checkout fixture	2026-11-09T14:44:21.4860034Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+Stacked event witness	Post Checkout fixture	2026-11-09T14:44:21.4895164Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+Stacked event witness	Post Checkout fixture	2026-11-09T14:44:21.5103739Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+Stacked event witness	Post Checkout fixture	2026-11-09T14:44:21.5141192Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+Stacked event witness	Complete job	﻿2026-11-09T14:44:21.5458043Z Cleaning up orphan processes
+Stacked event witness	Complete job	2026-11-09T14:44:21.5761839Z ##[warning]Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/checkout@v4. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/

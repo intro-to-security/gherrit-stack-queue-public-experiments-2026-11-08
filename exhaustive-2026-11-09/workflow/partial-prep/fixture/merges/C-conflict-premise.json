@@ -1,0 +1,9 @@
+{
+  "base": "74cd012a960d3525e00727be30dbfd6fc0b170b5",
+  "ours": "82e27b1a1c501fdd1921224b0655529970d64e3a",
+  "returncode": 1,
+  "stderr": "",
+  "stdout": "4fcc41f11d371cef70a09bfd6c4628d5245055ec\n100644 573541ac9702dd3969c9bc859d2b91ec1f7e6e56 1\tc.txt\n100644 d00491fd7e5bb6fa28c517a0bb32b8b506539d4d 2\tc.txt\n100644 0cfbf08886fca9a91cb753ec8734c84fcbe52c9f 3\tc.txt\n\nAuto-merging c.txt\nCONFLICT (content): Merge conflict in c.txt\n",
+  "theirs": "dca811f5d210b004f6229ea1134f3fb49f1cba44",
+  "tree": "4fcc41f11d371cef70a09bfd6c4628d5245055ec"
+}

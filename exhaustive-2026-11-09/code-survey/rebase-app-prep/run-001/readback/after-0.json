@@ -1,0 +1,217 @@
+{
+  "label": "after-0",
+  "started": {
+    "utc": "2026-11-09T16:45:46.077223+00:00",
+    "monotonic_ns": 52795125
+  },
+  "ended": {
+    "utc": "2026-11-09T16:45:47.355730+00:00",
+    "monotonic_ns": 1331296916
+  },
+  "refs": {
+    "refs/heads/exh-1109-causal-rb-app-001/A": "5afe9c34540002ec9554c2e9d279f4fa895d89db",
+    "refs/heads/exh-1109-causal-rb-app-001/B": "11ddd6ef32afc4bca7865a22c70248a6156edee7",
+    "refs/heads/exh-1109-causal-rb-app-001/runner": "6f7f0d9322bc6ddaf72bc3043c15463ecbd92b6e",
+    "refs/heads/exh-1109-causal-rb-app-001/trunk": "1eadf6cbffab4ef16d21830f06e5806cf8eb1b1a"
+  },
+  "stack": {
+    "id": 3254438,
+    "number": 656,
+    "node_id": "PRS_kwDOVnhIZ84AMaim",
+    "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/stacks/656",
+    "base": {
+      "ref": "exh-1109-causal-rb-app-001/trunk"
+    },
+    "open": true,
+    "created_at": "2026-11-09T16:40:37Z",
+    "pull_requests": [
+      {
+        "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/pulls/654",
+        "id": 5227483755,
+        "number": 654,
+        "head": {
+          "ref": "exh-1109-causal-rb-app-001/A",
+          "sha": "5afe9c34540002ec9554c2e9d279f4fa895d89db",
+          "repo": {
+            "id": 1450723431,
+            "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08",
+            "name": "gherrit-native-stack-experiments-2026-11-08"
+          }
+        },
+        "base": {
+          "ref": "exh-1109-causal-rb-app-001/trunk",
+          "sha": "ed2c60237bed7d27262450cd6028b9dfd0fee983",
+          "repo": {
+            "id": 1450723431,
+            "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08",
+            "name": "gherrit-native-stack-experiments-2026-11-08"
+          }
+        },
+        "node_id": "PR_kwDOVnhIZ88AAAABN5USaw",
+        "title": "Actions installation-token capability: synthetic A",
+        "state": "open",
+        "merged_at": null,
+        "draft": false,
+        "html_url": "https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08/pull/654",
+        "user": {
+          "login": "joshlf",
+          "id": 1046063,
+          "node_id": "MDQ6VXNlcjEwNDYwNjM=",
+          "avatar_url": "https://avatars.githubusercontent.com/u/1046063?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/joshlf",
+          "html_url": "https://github.com/joshlf",
+          "followers_url": "https://api.github.com/users/joshlf/followers",
+          "following_url": "https://api.github.com/users/joshlf/following{/other_user}",
+          "gists_url": "https://api.github.com/users/joshlf/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/joshlf/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/joshlf/subscriptions",
+          "organizations_url": "https://api.github.com/users/joshlf/orgs",
+          "repos_url": "https://api.github.com/users/joshlf/repos",
+          "events_url": "https://api.github.com/users/joshlf/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/joshlf/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        }
+      },
+      {
+        "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/pulls/655",
+        "id": 5227484079,
+        "number": 655,
+        "head": {
+          "ref": "exh-1109-causal-rb-app-001/B",
+          "sha": "11ddd6ef32afc4bca7865a22c70248a6156edee7",
+          "repo": {
+            "id": 1450723431,
+            "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08",
+            "name": "gherrit-native-stack-experiments-2026-11-08"
+          }
+        },
+        "base": {
+          "ref": "exh-1109-causal-rb-app-001/A",
+          "sha": "5afe9c34540002ec9554c2e9d279f4fa895d89db",
+          "repo": {
+            "id": 1450723431,
+            "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08",
+            "name": "gherrit-native-stack-experiments-2026-11-08"
+          }
+        },
+        "node_id": "PR_kwDOVnhIZ88AAAABN5UTrw",
+        "title": "Actions installation-token capability: synthetic B",
+        "state": "open",
+        "merged_at": null,
+        "draft": false,
+        "html_url": "https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08/pull/655",
+        "user": {
+          "login": "joshlf",
+          "id": 1046063,
+          "node_id": "MDQ6VXNlcjEwNDYwNjM=",
+          "avatar_url": "https://avatars.githubusercontent.com/u/1046063?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/joshlf",
+          "html_url": "https://github.com/joshlf",
+          "followers_url": "https://api.github.com/users/joshlf/followers",
+          "following_url": "https://api.github.com/users/joshlf/following{/other_user}",
+          "gists_url": "https://api.github.com/users/joshlf/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/joshlf/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/joshlf/subscriptions",
+          "organizations_url": "https://api.github.com/users/joshlf/orgs",
+          "repos_url": "https://api.github.com/users/joshlf/repos",
+          "events_url": "https://api.github.com/users/joshlf/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/joshlf/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        }
+      }
+    ]
+  },
+  "graphql": {
+    "data": {
+      "repository": {
+        "A": {
+          "number": 654,
+          "id": "PR_kwDOVnhIZ88AAAABN5USaw",
+          "state": "OPEN",
+          "merged": false,
+          "mergedAt": null,
+          "headRefName": "exh-1109-causal-rb-app-001/A",
+          "headRefOid": "5afe9c34540002ec9554c2e9d279f4fa895d89db",
+          "baseRefName": "exh-1109-causal-rb-app-001/trunk",
+          "baseRefOid": "ed2c60237bed7d27262450cd6028b9dfd0fee983",
+          "timelineItems": {
+            "pageInfo": {
+              "hasPreviousPage": false
+            },
+            "nodes": []
+          }
+        },
+        "B": {
+          "number": 655,
+          "id": "PR_kwDOVnhIZ88AAAABN5UTrw",
+          "state": "OPEN",
+          "merged": false,
+          "mergedAt": null,
+          "headRefName": "exh-1109-causal-rb-app-001/B",
+          "headRefOid": "11ddd6ef32afc4bca7865a22c70248a6156edee7",
+          "baseRefName": "exh-1109-causal-rb-app-001/A",
+          "baseRefOid": "5afe9c34540002ec9554c2e9d279f4fa895d89db",
+          "timelineItems": {
+            "pageInfo": {
+              "hasPreviousPage": false
+            },
+            "nodes": []
+          }
+        }
+      }
+    }
+  },
+  "headers": {
+    "trunk": {
+      "oid": "1eadf6cbffab4ef16d21830f06e5806cf8eb1b1a",
+      "tree": "3710705620b8de2b0aaae1883ee541093a81ca11",
+      "parents": [
+        "ed2c60237bed7d27262450cd6028b9dfd0fee983"
+      ],
+      "commit_header": "tree 3710705620b8de2b0aaae1883ee541093a81ca11\nparent ed2c60237bed7d27262450cd6028b9dfd0fee983\nauthor Josh Liebow-Feeser <hello@joshlf.com> 1794242346 -0500\ncommitter Josh Liebow-Feeser <hello@joshlf.com> 1794242346 -0500\n\nAdvance only the App-token synthetic trunk\n\nAgent-authored-by: AI agent acting on joshlf's behalf"
+    },
+    "A": {
+      "oid": "5afe9c34540002ec9554c2e9d279f4fa895d89db",
+      "tree": "894764707dd852086d426ae91d3a9be2d20b0257",
+      "parents": [
+        "ed2c60237bed7d27262450cd6028b9dfd0fee983"
+      ],
+      "commit_header": "tree 894764707dd852086d426ae91d3a9be2d20b0257\nparent ed2c60237bed7d27262450cd6028b9dfd0fee983\nauthor Josh Liebow-Feeser <hello@joshlf.com> 1794242345 -0500\ncommitter Josh Liebow-Feeser <hello@joshlf.com> 1794242345 -0500\n\nRecord synthetic App-token member A\n\nAgent-authored-by: AI agent acting on joshlf's behalf"
+    },
+    "B": {
+      "oid": "11ddd6ef32afc4bca7865a22c70248a6156edee7",
+      "tree": "065653bb65bec89d6af5a1574d7238f0625e1d85",
+      "parents": [
+        "5afe9c34540002ec9554c2e9d279f4fa895d89db"
+      ],
+      "commit_header": "tree 065653bb65bec89d6af5a1574d7238f0625e1d85\nparent 5afe9c34540002ec9554c2e9d279f4fa895d89db\nauthor Josh Liebow-Feeser <hello@joshlf.com> 1794242346 -0500\ncommitter Josh Liebow-Feeser <hello@joshlf.com> 1794242346 -0500\n\nRecord synthetic App-token member B\n\nAgent-authored-by: AI agent acting on joshlf's behalf"
+    },
+    "runner": {
+      "oid": "6f7f0d9322bc6ddaf72bc3043c15463ecbd92b6e",
+      "tree": "e5f4fb9732ef0edf10f0a41b3f733ff317b71f24",
+      "parents": [],
+      "commit_header": "tree e5f4fb9732ef0edf10f0a41b3f733ff317b71f24\nauthor Josh Liebow-Feeser <hello@joshlf.com> 1794242440 -0500\ncommitter Josh Liebow-Feeser <hello@joshlf.com> 1794242440 -0500\n\nProbe one isolated native rebase with the Actions installation token\n\nAgent-authored-by: AI agent acting on joshlf's behalf"
+    }
+  },
+  "patches": {
+    "A": {
+      "original_patch": "diff --git a/a.txt b/a.txt\nnew file mode 100644\nindex 0000000..bd2c89c\n--- /dev/null\n+++ b/a.txt\n@@ -0,0 +1 @@\n+A=1",
+      "observed_own_patch": "diff --git a/a.txt b/a.txt\nnew file mode 100644\nindex 0000000..bd2c89c\n--- /dev/null\n+++ b/a.txt\n@@ -0,0 +1 @@\n+A=1",
+      "equal": true
+    },
+    "B": {
+      "original_patch": "diff --git a/b.txt b/b.txt\nnew file mode 100644\nindex 0000000..48daf64\n--- /dev/null\n+++ b/b.txt\n@@ -0,0 +1 @@\n+B=1",
+      "observed_own_patch": "diff --git a/b.txt b/b.txt\nnew file mode 100644\nindex 0000000..48daf64\n--- /dev/null\n+++ b/b.txt\n@@ -0,0 +1 @@\n+B=1",
+      "equal": true
+    }
+  },
+  "exact_expected_refs_match": true,
+  "all_PR_heads_and_lifecycles_match": true,
+  "limits": "Separate timed reads, not one atomic snapshot or a future-write fence. Event object timestamps do not establish physical ref-write timing. The scope stays frozen; no native mutation is dispatched by this reader."
+}

@@ -1,0 +1,24 @@
+{
+  "kind": "http",
+  "method": "GET",
+  "path": "repos/joshlf/gherrit-native-stack-experiments-2026-11-08/pulls/569/merge-async/f8686d48-7d9a-4368-87e9-243f0c475c81",
+  "payload": null,
+  "start": {
+    "utc": "2026-11-09T13:51:16.061422+00:00",
+    "monotonic": 17.836073208
+  },
+  "end": {
+    "utc": "2026-11-09T13:51:16.366397+00:00",
+    "monotonic": 18.141048791
+  },
+  "exit": 0,
+  "http": 200,
+  "data": {
+    "status": "merged",
+    "details": {
+      "message": "Pull request was merged.",
+      "sha": "3b73f10efc39c04495cbf10d4fe193c82d2c49a2"
+    }
+  },
+  "disposition": "response-retained"
+}

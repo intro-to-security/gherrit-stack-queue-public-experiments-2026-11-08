@@ -1,0 +1,8 @@
+{
+  "source_url": "https://raw.githubusercontent.com/github/rest-api-description/2f8f80e47ea4d3292cf4e37ba9d9b25475e06140/descriptions/api.github.com/api.github.com.json",
+  "source_pin": "2f8f80e47ea4d3292cf4e37ba9d9b25475e06140",
+  "complete_source_sha256": "b8973e498305c0e45891c45a109901f9caf6ecbf8ad0e53404a7947c503e120f",
+  "pointer": "/paths/~1repos~1{owner}~1{repo}~1pulls~1{pull_number}~1merge-async/put/requestBody/content/application~1json/schema/properties/sha/description",
+  "exact_description": "SHA that pull request head must match to allow merge. If not provided, the current head of the PR at the time of the request will be used; if the PR is pushed in between the merge being requested and being executed, the merge will be cancelled.",
+  "timing_limit": "Observed old-revision landing plus surviving new PR head does not date the later push relative to actual server merge linearization."
+}

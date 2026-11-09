@@ -1,0 +1,52 @@
+{
+  "args": [
+    "push",
+    "--porcelain",
+    "--atomic",
+    "--force-with-lease=refs/heads/exh-1109-workflow-gql-partial-001/trunk:0000000000000000000000000000000000000000",
+    "--force-with-lease=refs/heads/exh-1109-workflow-gql-partial-001/A:0000000000000000000000000000000000000000",
+    "--force-with-lease=refs/heads/exh-1109-workflow-gql-partial-001/B:0000000000000000000000000000000000000000",
+    "--force-with-lease=refs/heads/exh-1109-workflow-gql-partial-001/C:0000000000000000000000000000000000000000",
+    "--force-with-lease=refs/heads/exh-1109-workflow-gql-partial-001/author-source:0000000000000000000000000000000000000000",
+    "--force-with-lease=refs/tags/gherrit/exh-1109-workflow-gql-partial-001-A/v1:0000000000000000000000000000000000000000",
+    "--force-with-lease=refs/tags/gherrit/exh-1109-workflow-gql-partial-001-B/v1:0000000000000000000000000000000000000000",
+    "--force-with-lease=refs/tags/gherrit/exh-1109-workflow-gql-partial-001-C/v1:0000000000000000000000000000000000000000",
+    "https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08.git",
+    "7dab21a9a9fe31304280abd4cf9cb55df0caa78b:refs/heads/exh-1109-workflow-gql-partial-001/trunk",
+    "d73f1543202618e1eb359fb8f15751e1092ccc7f:refs/heads/exh-1109-workflow-gql-partial-001/A",
+    "74cd012a960d3525e00727be30dbfd6fc0b170b5:refs/heads/exh-1109-workflow-gql-partial-001/B",
+    "dca811f5d210b004f6229ea1134f3fb49f1cba44:refs/heads/exh-1109-workflow-gql-partial-001/C",
+    "dca811f5d210b004f6229ea1134f3fb49f1cba44:refs/heads/exh-1109-workflow-gql-partial-001/author-source",
+    "d73f1543202618e1eb359fb8f15751e1092ccc7f:refs/tags/gherrit/exh-1109-workflow-gql-partial-001-A/v1",
+    "74cd012a960d3525e00727be30dbfd6fc0b170b5:refs/tags/gherrit/exh-1109-workflow-gql-partial-001-B/v1",
+    "dca811f5d210b004f6229ea1134f3fb49f1cba44:refs/tags/gherrit/exh-1109-workflow-gql-partial-001-C/v1"
+  ],
+  "disposition": "command-acknowledged",
+  "ended": "2026-11-09T16:42:43.628904+00:00",
+  "exit": 0,
+  "expected": {
+    "refs/heads/exh-1109-workflow-gql-partial-001/A": "0000000000000000000000000000000000000000",
+    "refs/heads/exh-1109-workflow-gql-partial-001/B": "0000000000000000000000000000000000000000",
+    "refs/heads/exh-1109-workflow-gql-partial-001/C": "0000000000000000000000000000000000000000",
+    "refs/heads/exh-1109-workflow-gql-partial-001/author-source": "0000000000000000000000000000000000000000",
+    "refs/heads/exh-1109-workflow-gql-partial-001/trunk": "0000000000000000000000000000000000000000",
+    "refs/tags/gherrit/exh-1109-workflow-gql-partial-001-A/v1": "0000000000000000000000000000000000000000",
+    "refs/tags/gherrit/exh-1109-workflow-gql-partial-001-B/v1": "0000000000000000000000000000000000000000",
+    "refs/tags/gherrit/exh-1109-workflow-gql-partial-001-C/v1": "0000000000000000000000000000000000000000"
+  },
+  "kind": "push",
+  "monotonic": 1.122561208,
+  "started": "2026-11-09T16:42:42.039377+00:00",
+  "stderr": "",
+  "stdout": "To https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08.git\n*\t7dab21a9a9fe31304280abd4cf9cb55df0caa78b:refs/heads/exh-1109-workflow-gql-partial-001/trunk\t[new branch]\n*\td73f1543202618e1eb359fb8f15751e1092ccc7f:refs/heads/exh-1109-workflow-gql-partial-001/A\t[new branch]\n*\t74cd012a960d3525e00727be30dbfd6fc0b170b5:refs/heads/exh-1109-workflow-gql-partial-001/B\t[new branch]\n*\tdca811f5d210b004f6229ea1134f3fb49f1cba44:refs/heads/exh-1109-workflow-gql-partial-001/C\t[new branch]\n*\tdca811f5d210b004f6229ea1134f3fb49f1cba44:refs/heads/exh-1109-workflow-gql-partial-001/author-source\t[new branch]\n*\td73f1543202618e1eb359fb8f15751e1092ccc7f:refs/tags/gherrit/exh-1109-workflow-gql-partial-001-A/v1\t[new tag]\n*\t74cd012a960d3525e00727be30dbfd6fc0b170b5:refs/tags/gherrit/exh-1109-workflow-gql-partial-001-B/v1\t[new tag]\n*\tdca811f5d210b004f6229ea1134f3fb49f1cba44:refs/tags/gherrit/exh-1109-workflow-gql-partial-001-C/v1\t[new tag]\nDone\n",
+  "updates": {
+    "refs/heads/exh-1109-workflow-gql-partial-001/A": "d73f1543202618e1eb359fb8f15751e1092ccc7f",
+    "refs/heads/exh-1109-workflow-gql-partial-001/B": "74cd012a960d3525e00727be30dbfd6fc0b170b5",
+    "refs/heads/exh-1109-workflow-gql-partial-001/C": "dca811f5d210b004f6229ea1134f3fb49f1cba44",
+    "refs/heads/exh-1109-workflow-gql-partial-001/author-source": "dca811f5d210b004f6229ea1134f3fb49f1cba44",
+    "refs/heads/exh-1109-workflow-gql-partial-001/trunk": "7dab21a9a9fe31304280abd4cf9cb55df0caa78b",
+    "refs/tags/gherrit/exh-1109-workflow-gql-partial-001-A/v1": "d73f1543202618e1eb359fb8f15751e1092ccc7f",
+    "refs/tags/gherrit/exh-1109-workflow-gql-partial-001-B/v1": "74cd012a960d3525e00727be30dbfd6fc0b170b5",
+    "refs/tags/gherrit/exh-1109-workflow-gql-partial-001-C/v1": "dca811f5d210b004f6229ea1134f3fb49f1cba44"
+  }
+}

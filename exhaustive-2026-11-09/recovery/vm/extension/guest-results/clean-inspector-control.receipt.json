@@ -1,0 +1,9 @@
+{
+  "pid": 4065,
+  "exit": 0,
+  "barrier": "BARRIER CLEAN_INSPECTOR_UNMOUNTED",
+  "reached": true,
+  "bytes": 275856,
+  "natural_shutdown": true,
+  "failure_boundary": "Owned QEMU guest only; outer container/host/device caches survive"
+}

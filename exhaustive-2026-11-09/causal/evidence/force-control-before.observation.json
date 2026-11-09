@@ -1,0 +1,128 @@
+{
+  "refs": {
+    "kind": "git-read",
+    "args": [
+      "ls-remote",
+      "origin",
+      "refs/heads/exh-1109-causal-force-control/*"
+    ],
+    "start": {
+      "utc": "2026-11-09T13:48:40.408461+00:00",
+      "monotonic": 7.364871125
+    },
+    "end": {
+      "utc": "2026-11-09T13:48:40.655591+00:00",
+      "monotonic": 7.612014041
+    },
+    "exit": 0,
+    "stdout": "010278c6609b85f42a0c804f3802ce38982d4cb5\trefs/heads/exh-1109-causal-force-control/A\n91b679b1e524d79eb1184a860d42398ac36c40c1\trefs/heads/exh-1109-causal-force-control/B\n40bc934a4badb34f7c4c3c2606581a12520717bc\trefs/heads/exh-1109-causal-force-control/trunk\n",
+    "stderr": "",
+    "refs": {
+      "refs/heads/exh-1109-causal-force-control/A": "010278c6609b85f42a0c804f3802ce38982d4cb5",
+      "refs/heads/exh-1109-causal-force-control/B": "91b679b1e524d79eb1184a860d42398ac36c40c1",
+      "refs/heads/exh-1109-causal-force-control/trunk": "40bc934a4badb34f7c4c3c2606581a12520717bc"
+    },
+    "object_fetch": {
+      "kind": "git-read",
+      "args": [
+        "fetch",
+        "--no-tags",
+        "origin",
+        "+refs/heads/exh-1109-causal-force-control/*:refs/observed/force-control/*"
+      ],
+      "start": {
+        "utc": "2026-11-09T13:48:40.656213+00:00",
+        "monotonic": 7.612619875
+      },
+      "end": {
+        "utc": "2026-11-09T13:48:40.834946+00:00",
+        "monotonic": 7.791365458
+      },
+      "exit": 0,
+      "stdout": "",
+      "stderr": "From https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08\n * [new branch]      exh-1109-causal-force-control/A -> refs/observed/force-control/A\n * [new branch]      exh-1109-causal-force-control/B -> refs/observed/force-control/B\n * [new branch]      exh-1109-causal-force-control/trunk -> refs/observed/force-control/trunk\n"
+    },
+    "objects": {
+      "010278c6609b85f42a0c804f3802ce38982d4cb5": {
+        "oid": "010278c6609b85f42a0c804f3802ce38982d4cb5",
+        "tree": "abc44d5806ecdf2ccac8c4a7346f707ab91f55c5",
+        "parents": [
+          "40bc934a4badb34f7c4c3c2606581a12520717bc"
+        ]
+      },
+      "91b679b1e524d79eb1184a860d42398ac36c40c1": {
+        "oid": "91b679b1e524d79eb1184a860d42398ac36c40c1",
+        "tree": "1ee94cebf1224f2c0b5adc40777576eaa52eb152",
+        "parents": [
+          "010278c6609b85f42a0c804f3802ce38982d4cb5"
+        ]
+      },
+      "40bc934a4badb34f7c4c3c2606581a12520717bc": {
+        "oid": "40bc934a4badb34f7c4c3c2606581a12520717bc",
+        "tree": "96db53cd88e05ac7285713a51c8c7d3a73d7cd3e",
+        "parents": [
+          "3be99721cf51a146b9c47f46f0a2713f0edb2ec6"
+        ]
+      }
+    }
+  },
+  "graphql": {
+    "kind": "http",
+    "method": "POST",
+    "path": "graphql",
+    "payload": {
+      "query": "query { repository(owner:\"joshlf\",name:\"gherrit-native-stack-experiments-2026-11-08\"){A:pullRequest(number:564){ number id state merged mergedAt headRefName headRefOid baseRefName baseRefOid timelineItems(last:100,itemTypes:[HEAD_REF_FORCE_PUSHED_EVENT,BASE_REF_CHANGED_EVENT,AUTOMATIC_BASE_CHANGE_SUCCEEDED_EVENT,AUTOMATIC_BASE_CHANGE_FAILED_EVENT,MERGED_EVENT]){pageInfo{hasPreviousPage} nodes{__typename\n... on HeadRefForcePushedEvent { id createdAt actor { login __typename } beforeCommit { oid } afterCommit { oid } ref { name target { oid } } }\n... on BaseRefChangedEvent { id createdAt actor { login __typename } previousRefName currentRefName }\n... on AutomaticBaseChangeSucceededEvent { id createdAt actor { login __typename } oldBase newBase }\n... on AutomaticBaseChangeFailedEvent { id createdAt actor { login __typename } oldBase newBase }\n... on MergedEvent { id createdAt actor { login __typename } commit { oid } mergeRefName }\n}}} B:pullRequest(number:565){ number id state merged mergedAt headRefName headRefOid baseRefName baseRefOid timelineItems(last:100,itemTypes:[HEAD_REF_FORCE_PUSHED_EVENT,BASE_REF_CHANGED_EVENT,AUTOMATIC_BASE_CHANGE_SUCCEEDED_EVENT,AUTOMATIC_BASE_CHANGE_FAILED_EVENT,MERGED_EVENT]){pageInfo{hasPreviousPage} nodes{__typename\n... on HeadRefForcePushedEvent { id createdAt actor { login __typename } beforeCommit { oid } afterCommit { oid } ref { name target { oid } } }\n... on BaseRefChangedEvent { id createdAt actor { login __typename } previousRefName currentRefName }\n... on AutomaticBaseChangeSucceededEvent { id createdAt actor { login __typename } oldBase newBase }\n... on AutomaticBaseChangeFailedEvent { id createdAt actor { login __typename } oldBase newBase }\n... on MergedEvent { id createdAt actor { login __typename } commit { oid } mergeRefName }\n}}}}}"
+    },
+    "start": {
+      "utc": "2026-11-09T13:48:40.408601+00:00",
+      "monotonic": 7.365009333
+    },
+    "end": {
+      "utc": "2026-11-09T13:48:40.903803+00:00",
+      "monotonic": 7.860212625
+    },
+    "exit": 0,
+    "http": 200,
+    "data": {
+      "data": {
+        "repository": {
+          "A": {
+            "number": 564,
+            "id": "PR_kwDOVnhIZ88AAAABN23uWg",
+            "state": "OPEN",
+            "merged": false,
+            "mergedAt": null,
+            "headRefName": "exh-1109-causal-force-control/A",
+            "headRefOid": "010278c6609b85f42a0c804f3802ce38982d4cb5",
+            "baseRefName": "exh-1109-causal-force-control/trunk",
+            "baseRefOid": "40bc934a4badb34f7c4c3c2606581a12520717bc",
+            "timelineItems": {
+              "pageInfo": {
+                "hasPreviousPage": false
+              },
+              "nodes": []
+            }
+          },
+          "B": {
+            "number": 565,
+            "id": "PR_kwDOVnhIZ88AAAABN23whg",
+            "state": "OPEN",
+            "merged": false,
+            "mergedAt": null,
+            "headRefName": "exh-1109-causal-force-control/B",
+            "headRefOid": "91b679b1e524d79eb1184a860d42398ac36c40c1",
+            "baseRefName": "exh-1109-causal-force-control/A",
+            "baseRefOid": "010278c6609b85f42a0c804f3802ce38982d4cb5",
+            "timelineItems": {
+              "pageInfo": {
+                "hasPreviousPage": false
+              },
+              "nodes": []
+            }
+          }
+        }
+      }
+    },
+    "disposition": "response-retained"
+  }
+}

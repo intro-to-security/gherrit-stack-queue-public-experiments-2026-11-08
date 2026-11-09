@@ -1,0 +1,28 @@
+HTTP/2.0 202 Accepted
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset, Warning
+Content-Length: 252
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Mon, 09 Nov 2026 14:33:54 GMT
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: github.com
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept-Encoding, Accept, X-Requested-With
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Api-Version-Selected: 2026-03-10
+X-Github-Edge-Region: iad
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: C1A3:17A115:104B3AC:35F96C1:6AF1D9D2
+X-Oauth-Client-Id: 178c6fc778ccc68e1d6a
+X-Oauth-Scopes: gist, read:org, repo, workflow
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4812
+X-Ratelimit-Reset: 1794236789
+X-Ratelimit-Resource: core
+X-Ratelimit-Used: 188
+X-Xss-Protection: 0
+
+{"status":"pending","details":{"message":"Merge request enqueued.","uuid":"cc0dd9ef-dedb-4a63-b30a-9ad8c6d0ac50","merge_method":"squash","merge_action":"direct_merge","expected_head_sha":"25c50271f7026a1bb106958219c12bac856226a4","bypass_rules":false}}

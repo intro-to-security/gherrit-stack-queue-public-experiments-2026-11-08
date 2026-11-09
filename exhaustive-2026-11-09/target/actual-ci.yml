@@ -1,0 +1,101 @@
+name: CI
+
+on:
+  pull_request:
+
+env:
+  CARGO_TERM_COLOR: always
+
+jobs:
+  validate:
+    name: Validate and Test
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Get Rust Version
+        id: rust-version
+        # Parse Cargo.toml to get the rust-version. We use sed to avoid dependency
+        # on the runner's cargo version (which might not support edition 2024).
+        run: echo "version=$(sed -n 's/^rust-version *= *"\(.*\)"/\1/p' Cargo.toml)" >> "$GITHUB_OUTPUT"
+
+      - name: Install Rust toolchain
+        uses: dtolnay/rust-toolchain@master
+        with:
+          toolchain: ${{ steps.rust-version.outputs.version }}
+          components: clippy
+
+      - name: Cache intermediate build artifacts
+        uses: Swatinem/rust-cache@v2
+        with:
+          cache-on-failure: "true"
+
+      - name: Check production configuration
+        run: ci/validate.sh production
+
+      - name: Check feature profiles
+        run: ci/validate.sh profiles
+
+      - name: Check Formatting
+        run: |
+          set -eo pipefail
+          rustup component add --toolchain nightly rustfmt
+          ci/validate.sh fmt
+
+      - name: Clippy
+        run: |
+          set -eo pipefail
+          ci/validate.sh lint
+
+      - name: Run Tests
+        run: |
+          set -eo pipefail
+          ci/validate.sh tests
+          ci/validate.sh doc
+
+      - name: Check documentation navigation
+        run: ci/validate.sh navigation
+
+      - name: Test developer helpers
+        run: ci/validate.sh devtools
+
+      - name: Check task markers
+        run: ci/validate.sh markers
+
+      - name: Test stack metadata parser
+        run: bash ci/test_extract_stack_child.sh
+
+      - name: Test stack rebase action
+        run: bash ci/test_rebase_stack_child.sh
+
+  windows-tests:
+    name: Windows Tests
+    runs-on: windows-latest
+    timeout-minutes: 25
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Get Rust Version
+        id: rust-version
+        shell: pwsh
+        run: |
+          $match = Select-String -Path Cargo.toml `
+            -Pattern '^rust-version\s*=\s*"([^"]+)"$'
+          $version = $match.Matches[0].Groups[1].Value
+          "version=$version" >> $env:GITHUB_OUTPUT
+
+      - name: Install Rust toolchain
+        uses: dtolnay/rust-toolchain@master
+        with:
+          toolchain: ${{ steps.rust-version.outputs.version }}
+
+      - name: Cache intermediate build artifacts
+        uses: Swatinem/rust-cache@v2
+        with:
+          cache-on-failure: "true"
+
+      - name: Run tests
+        run: cargo test --workspace --all-targets --all-features --locked

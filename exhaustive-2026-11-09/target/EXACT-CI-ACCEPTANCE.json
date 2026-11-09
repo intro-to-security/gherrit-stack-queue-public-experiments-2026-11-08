@@ -1,0 +1,54 @@
+{
+  "captured_input": "3e44b08a3f07727a57bcf1fc9392ff560f373e49",
+  "stale_returned_head": "a7405818bdf87a815dd676574236e87504d7c78d",
+  "old_ready_helper_claim": true,
+  "unsafe_returned_green_control": true,
+  "corrected_boundary_rejects_stale": {
+    "ready": false,
+    "reason": "observed_head_differs_from_captured_input"
+  },
+  "probes": [
+    {
+      "name": "stale-returned-green-is-not-current",
+      "result": {
+        "ready": false,
+        "reason": "observed_head_differs_from_captured_input"
+      },
+      "expected": false
+    },
+    {
+      "name": "exact-prior-green-positive-control",
+      "result": {
+        "ready": true,
+        "reason": "exact_current_context_SHA_producer_success"
+      },
+      "expected": true
+    },
+    {
+      "name": "actual-current-failure-is-not-ready",
+      "result": {
+        "ready": false,
+        "reason": "current_check_not_successful"
+      },
+      "expected": false
+    },
+    {
+      "name": "wrong-producer-control",
+      "result": {
+        "ready": false,
+        "reason": "missing_exact_context_SHA_producer"
+      },
+      "expected": false
+    },
+    {
+      "name": "wrong-context-control",
+      "result": {
+        "ready": false,
+        "reason": "missing_exact_context_SHA_producer"
+      },
+      "expected": false
+    }
+  ],
+  "all_expected": true,
+  "meaning": "Corrected exact-input acceptance over retained actual observations; no new hosted request; not production integration"
+}

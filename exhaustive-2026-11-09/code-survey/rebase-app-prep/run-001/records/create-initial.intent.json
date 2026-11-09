@@ -1,0 +1,26 @@
+{
+  "time": {
+    "utc": "2026-11-09T16:40:32.994894+00:00",
+    "monotonic_ns": 874729916
+  },
+  "repo": "joshlf/gherrit-native-stack-experiments-2026-11-08",
+  "prefix": "exh-1109-causal-rb-app-001",
+  "argv": [
+    "git",
+    "-c",
+    "core.hooksPath=/dev/null",
+    "--git-dir",
+    "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/code-survey/rebase-app-prep/run-001/objects.git",
+    "push",
+    "--atomic",
+    "--force-with-lease=refs/heads/exh-1109-causal-rb-app-001/trunk:",
+    "--force-with-lease=refs/heads/exh-1109-causal-rb-app-001/A:",
+    "--force-with-lease=refs/heads/exh-1109-causal-rb-app-001/B:",
+    "origin",
+    "ed2c60237bed7d27262450cd6028b9dfd0fee983:refs/heads/exh-1109-causal-rb-app-001/trunk",
+    "5afe9c34540002ec9554c2e9d279f4fa895d89db:refs/heads/exh-1109-causal-rb-app-001/A",
+    "11ddd6ef32afc4bca7865a22c70248a6156edee7:refs/heads/exh-1109-causal-rb-app-001/B"
+  ],
+  "input": null,
+  "outcome": "may be dispatched"
+}

@@ -1,0 +1,7 @@
+--- old.patch
++++ new.patch
+@@ -1,3 +1,3 @@
+ diff --git a/data.bin b/data.bin
+-index f3b15f7d30b6b35b357558b73035356bf11747f5..5a62bfb9a7a28166d474c1c8af3e3a19e59e262d 100644
++index f3b15f7d30b6b35b357558b73035356bf11747f5..712c2ecd69edb961f77f71c43519d7d77cbb4629 100644
+ Binary files a/data.bin and b/data.bin differ

@@ -1,0 +1,21 @@
+{
+  "kind": "git-push",
+  "updates": {
+    "refs/heads/exh-1109-causal-early-squash-3/D": "7f0cb6d75feefdb7e76feb3b48df83bdb6c23c37"
+  },
+  "expected": {
+    "refs/heads/exh-1109-causal-early-squash-3/D": "19d0530b06f61f16f9863de7cc398a70c1ed05a0"
+  },
+  "args": [
+    "push",
+    "--porcelain",
+    "--atomic",
+    "--force-with-lease=refs/heads/exh-1109-causal-early-squash-3/D:19d0530b06f61f16f9863de7cc398a70c1ed05a0",
+    "origin",
+    "7f0cb6d75feefdb7e76feb3b48df83bdb6c23c37:refs/heads/exh-1109-causal-early-squash-3/D"
+  ],
+  "start": {
+    "utc": "2026-11-09T14:01:34.760601+00:00",
+    "monotonic": 14.512232625
+  }
+}

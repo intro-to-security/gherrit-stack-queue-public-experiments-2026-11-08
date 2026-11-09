@@ -1,0 +1,21 @@
+{
+  "kind": "git-push",
+  "updates": {
+    "refs/heads/exh-1109-causal-post-squash-1/B": "529d204a85babe7804d94f1c0ad5a23583bffe61"
+  },
+  "expected": {
+    "refs/heads/exh-1109-causal-post-squash-1/B": "6e63736ecb363ee6e0a9605615445869df531c2b"
+  },
+  "args": [
+    "push",
+    "--porcelain",
+    "--atomic",
+    "--force-with-lease=refs/heads/exh-1109-causal-post-squash-1/B:6e63736ecb363ee6e0a9605615445869df531c2b",
+    "origin",
+    "529d204a85babe7804d94f1c0ad5a23583bffe61:refs/heads/exh-1109-causal-post-squash-1/B"
+  ],
+  "start": {
+    "utc": "2026-11-09T13:50:05.799490+00:00",
+    "monotonic": 15.001862625
+  }
+}

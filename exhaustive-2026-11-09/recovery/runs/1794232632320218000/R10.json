@@ -1,0 +1,407 @@
+{
+  "checks": [
+    {
+      "actual": "complete",
+      "expected": "complete",
+      "name": "prepare completed fixture missing-operation",
+      "passed": true
+    },
+    {
+      "actual": "refused",
+      "expected": "refused",
+      "name": "direct completed recovery refuses damaged evidence missing-operation",
+      "passed": true
+    },
+    {
+      "actual": 1,
+      "expected": 1,
+      "name": "damaged record never dispatches missing-operation",
+      "passed": true
+    },
+    {
+      "actual": "complete",
+      "expected": "complete",
+      "name": "prepare completed fixture missing-manifest",
+      "passed": true
+    },
+    {
+      "actual": "refused",
+      "expected": "refused",
+      "name": "direct completed recovery refuses damaged evidence missing-manifest",
+      "passed": true
+    },
+    {
+      "actual": 1,
+      "expected": 1,
+      "name": "damaged record never dispatches missing-manifest",
+      "passed": true
+    },
+    {
+      "actual": "complete",
+      "expected": "complete",
+      "name": "prepare completed fixture missing-authority-link",
+      "passed": true
+    },
+    {
+      "actual": "refused",
+      "expected": "refused",
+      "name": "direct completed recovery refuses damaged evidence missing-authority-link",
+      "passed": true
+    },
+    {
+      "actual": 1,
+      "expected": 1,
+      "name": "damaged record never dispatches missing-authority-link",
+      "passed": true
+    },
+    {
+      "actual": "complete",
+      "expected": "complete",
+      "name": "prepare completed fixture malformed-operation",
+      "passed": true
+    },
+    {
+      "actual": "refused",
+      "expected": "refused",
+      "name": "direct completed recovery refuses damaged evidence malformed-operation",
+      "passed": true
+    },
+    {
+      "actual": 1,
+      "expected": 1,
+      "name": "damaged record never dispatches malformed-operation",
+      "passed": true
+    },
+    {
+      "actual": "complete",
+      "expected": "complete",
+      "name": "prepare completed fixture foreign-id",
+      "passed": true
+    },
+    {
+      "actual": "refused",
+      "expected": "refused",
+      "name": "direct completed recovery refuses damaged evidence foreign-id",
+      "passed": true
+    },
+    {
+      "actual": 1,
+      "expected": 1,
+      "name": "damaged record never dispatches foreign-id",
+      "passed": true
+    },
+    {
+      "actual": "complete",
+      "expected": "complete",
+      "name": "prepare completed fixture changed-intent",
+      "passed": true
+    },
+    {
+      "actual": "refused",
+      "expected": "refused",
+      "name": "direct completed recovery refuses damaged evidence changed-intent",
+      "passed": true
+    },
+    {
+      "actual": 1,
+      "expected": 1,
+      "name": "damaged record never dispatches changed-intent",
+      "passed": true
+    },
+    {
+      "actual": "complete",
+      "expected": "complete",
+      "name": "prepare completed fixture missing-original-checkpoint",
+      "passed": true
+    },
+    {
+      "actual": "refused",
+      "expected": "refused",
+      "name": "direct completed recovery refuses damaged evidence missing-original-checkpoint",
+      "passed": true
+    },
+    {
+      "actual": 1,
+      "expected": 1,
+      "name": "damaged record never dispatches missing-original-checkpoint",
+      "passed": true
+    },
+    {
+      "actual": "complete",
+      "expected": "complete",
+      "name": "prepare completed fixture wrong-result-checkpoint",
+      "passed": true
+    },
+    {
+      "actual": "refused",
+      "expected": "refused",
+      "name": "direct completed recovery refuses damaged evidence wrong-result-checkpoint",
+      "passed": true
+    },
+    {
+      "actual": 1,
+      "expected": 1,
+      "name": "damaged record never dispatches wrong-result-checkpoint",
+      "passed": true
+    },
+    {
+      "actual": "complete",
+      "expected": "complete",
+      "name": "prepare completed fixture missing-result-checkpoint",
+      "passed": true
+    },
+    {
+      "actual": "refused",
+      "expected": "refused",
+      "name": "direct completed recovery refuses damaged evidence missing-result-checkpoint",
+      "passed": true
+    },
+    {
+      "actual": 1,
+      "expected": 1,
+      "name": "damaged record never dispatches missing-result-checkpoint",
+      "passed": true
+    },
+    {
+      "actual": "complete",
+      "expected": "complete",
+      "name": "prepare completed fixture missing-result-ref",
+      "passed": true
+    },
+    {
+      "actual": "refused",
+      "expected": "refused",
+      "name": "direct completed recovery refuses damaged evidence missing-result-ref",
+      "passed": true
+    },
+    {
+      "actual": 1,
+      "expected": 1,
+      "name": "damaged record never dispatches missing-result-ref",
+      "passed": true
+    },
+    {
+      "actual": "complete",
+      "expected": "complete",
+      "name": "prepare completed fixture wrong-result-ref",
+      "passed": true
+    },
+    {
+      "actual": "refused",
+      "expected": "refused",
+      "name": "direct completed recovery refuses damaged evidence wrong-result-ref",
+      "passed": true
+    },
+    {
+      "actual": 1,
+      "expected": 1,
+      "name": "damaged record never dispatches wrong-result-ref",
+      "passed": true
+    },
+    {
+      "actual": "complete",
+      "expected": "complete",
+      "name": "prepare completed fixture missing-retained-input",
+      "passed": true
+    },
+    {
+      "actual": "refused",
+      "expected": "refused",
+      "name": "direct completed recovery refuses damaged evidence missing-retained-input",
+      "passed": true
+    },
+    {
+      "actual": 1,
+      "expected": 1,
+      "name": "damaged record never dispatches missing-retained-input",
+      "passed": true
+    },
+    {
+      "actual": "complete",
+      "expected": "complete",
+      "name": "prepare completed fixture missing-result-object",
+      "passed": true
+    },
+    {
+      "actual": "refused",
+      "expected": "refused",
+      "name": "direct completed recovery refuses damaged evidence missing-result-object",
+      "passed": true
+    },
+    {
+      "actual": 1,
+      "expected": 1,
+      "name": "damaged record never dispatches missing-result-object",
+      "passed": true
+    },
+    {
+      "actual": "complete",
+      "expected": "complete",
+      "name": "prepare completed fixture wrong-receipt",
+      "passed": true
+    },
+    {
+      "actual": "refused",
+      "expected": "refused",
+      "name": "direct completed recovery refuses damaged evidence wrong-receipt",
+      "passed": true
+    },
+    {
+      "actual": 1,
+      "expected": 1,
+      "name": "damaged record never dispatches wrong-receipt",
+      "passed": true
+    },
+    {
+      "actual": "complete",
+      "expected": "complete",
+      "name": "prepare completed fixture wrong-binding",
+      "passed": true
+    },
+    {
+      "actual": "refused",
+      "expected": "refused",
+      "name": "direct completed recovery refuses damaged evidence wrong-binding",
+      "passed": true
+    },
+    {
+      "actual": 1,
+      "expected": 1,
+      "name": "damaged record never dispatches wrong-binding",
+      "passed": true
+    },
+    {
+      "actual": "complete",
+      "expected": "complete",
+      "name": "complete before normal authoring",
+      "passed": true
+    },
+    {
+      "actual": "complete",
+      "expected": "complete",
+      "name": "later authoring does not invalidate retained completion",
+      "passed": true
+    },
+    {
+      "actual": "9241d8713ddb66368b7e0973da88c284037f9a6c",
+      "expected": "9241d8713ddb66368b7e0973da88c284037f9a6c",
+      "name": "later authoring branch remains unchanged by recovery",
+      "passed": true
+    }
+  ],
+  "details": {
+    "current_authoring": "9241d8713ddb66368b7e0973da88c284037f9a6c",
+    "damage": [
+      {
+        "name": "missing-operation",
+        "result": {
+          "reason": "missing:operation.json",
+          "status": "refused"
+        }
+      },
+      {
+        "name": "missing-manifest",
+        "result": {
+          "reason": "missing:manifest.json",
+          "status": "refused"
+        }
+      },
+      {
+        "name": "missing-authority-link",
+        "result": {
+          "reason": "[Errno 2] No such file or directory: '/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/recovery/runs/1794232632320218000/damage-missing-authority-link/authority-link.json'",
+          "status": "refused"
+        }
+      },
+      {
+        "name": "malformed-operation",
+        "result": {
+          "reason": "Expecting value: line 1 column 10 (char 9)",
+          "status": "refused"
+        }
+      },
+      {
+        "name": "foreign-id",
+        "result": {
+          "reason": "operation_identity",
+          "status": "refused"
+        }
+      },
+      {
+        "name": "changed-intent",
+        "result": {
+          "reason": "frozen_intent_changed",
+          "status": "refused"
+        }
+      },
+      {
+        "name": "missing-original-checkpoint",
+        "result": {
+          "reason": "missing:original-checkpoint.json",
+          "status": "refused"
+        }
+      },
+      {
+        "name": "wrong-result-checkpoint",
+        "result": {
+          "reason": "invalid_completed_checkpoint",
+          "status": "refused"
+        }
+      },
+      {
+        "name": "missing-result-checkpoint",
+        "result": {
+          "reason": "invalid_completed_checkpoint",
+          "status": "refused"
+        }
+      },
+      {
+        "name": "missing-result-ref",
+        "result": {
+          "reason": "invalid_completed_attachment",
+          "status": "refused"
+        }
+      },
+      {
+        "name": "wrong-result-ref",
+        "result": {
+          "reason": "invalid_completed_attachment",
+          "status": "refused"
+        }
+      },
+      {
+        "name": "missing-retained-input",
+        "result": {
+          "reason": "missing_retained_input",
+          "status": "refused"
+        }
+      },
+      {
+        "name": "missing-result-object",
+        "result": {
+          "reason": "missing_retained_result",
+          "status": "refused"
+        }
+      },
+      {
+        "name": "wrong-receipt",
+        "result": {
+          "reason": "invalid_completed_receipt",
+          "status": "refused"
+        }
+      },
+      {
+        "name": "wrong-binding",
+        "result": {
+          "reason": "binding_changed",
+          "status": "refused"
+        }
+      }
+    ],
+    "retained_result": "6e0243c7cab7bd1c7f40668eafd3a230054764a6"
+  },
+  "disposition": "performed",
+  "id": "R10",
+  "status": "passed",
+  "title": "Damaged completion and frozen evidence"
+}

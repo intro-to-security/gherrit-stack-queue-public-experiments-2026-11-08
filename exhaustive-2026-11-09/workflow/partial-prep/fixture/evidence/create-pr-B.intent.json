@@ -1,0 +1,14 @@
+{
+  "kind": "create-pr",
+  "method": "POST",
+  "monotonic": 4.212458625,
+  "path": "repos/joshlf/gherrit-native-stack-experiments-2026-11-08/pulls",
+  "payload": {
+    "base": "exh-1109-workflow-gql-partial-001/A",
+    "body": "Isolated public sequential-rebase partial-failure fixture, layer B.\n\n*Authored by an AI agent acting on joshlf's behalf.*",
+    "draft": false,
+    "head": "exh-1109-workflow-gql-partial-001/B",
+    "title": "exh-1109-workflow-gql-partial-001 B"
+  },
+  "started": "2026-11-09T16:42:45.129285+00:00"
+}

@@ -1,0 +1,9 @@
+{
+  "message": "Add quantity and unit to the item model\n\nAgent-authored-by: AI agent acting on joshlf's behalf\n",
+  "oid": "0e76c93ad178aa9f3c7e5189d5ce8559cb03c229",
+  "parent": "12f2693395e73e231b9e0e6239ed8c0aeb299921",
+  "tree": "0984fe41ebebe316b8da247876b4771e0dfd2719",
+  "updates": {
+    "workflow_case/model.py": "class Item:\n    def __init__(self, name, quantity=1, unit='each'):\n        self.name = name\n        self.quantity = quantity\n        self.unit = unit\n"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "network_effects": 0,
+  "rows": [
+    {
+      "actual": true,
+      "expected": true,
+      "label": "owned lower",
+      "passed": true
+    },
+    {
+      "actual": true,
+      "expected": true,
+      "label": "owned upper",
+      "passed": true
+    },
+    {
+      "actual": false,
+      "expected": false,
+      "label": "cross-fixture",
+      "passed": true
+    },
+    {
+      "actual": false,
+      "expected": false,
+      "label": "wrong adjacency",
+      "passed": true
+    },
+    {
+      "actual": true,
+      "expected": true,
+      "label": "exact membership",
+      "passed": true
+    },
+    {
+      "actual": false,
+      "expected": false,
+      "label": "foreign membership",
+      "passed": true
+    },
+    {
+      "actual": false,
+      "expected": false,
+      "label": "reversed membership",
+      "passed": true
+    },
+    {
+      "actual": false,
+      "expected": false,
+      "label": "merge forbidden",
+      "passed": true
+    },
+    {
+      "actual": false,
+      "expected": false,
+      "label": "policy forbidden",
+      "passed": true
+    },
+    {
+      "actual": false,
+      "expected": false,
+      "label": "production forbidden",
+      "passed": true
+    }
+  ]
+}

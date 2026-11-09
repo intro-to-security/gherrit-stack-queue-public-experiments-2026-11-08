@@ -1,0 +1,9 @@
+{
+  "pid": 3842,
+  "exit": -9,
+  "barrier": "BARRIER CUT4",
+  "reached": true,
+  "bytes": 12680,
+  "utc_seconds": 1794235483.6094782,
+  "failure_boundary": "guest emulator SIGKILL; outer caches survive"
+}

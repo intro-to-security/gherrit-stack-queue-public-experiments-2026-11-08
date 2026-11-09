@@ -1,0 +1,178 @@
+{
+  "refs": {
+    "kind": "git-read",
+    "args": [
+      "ls-remote",
+      "origin",
+      "refs/heads/exh-1109-causal-early-squash-3/*"
+    ],
+    "start": {
+      "utc": "2026-11-09T14:01:33.164422+00:00",
+      "monotonic": 12.91606425
+    },
+    "end": {
+      "utc": "2026-11-09T14:01:33.423159+00:00",
+      "monotonic": 13.174845166
+    },
+    "exit": 0,
+    "stdout": "af34e35a5c765cbd0bc88a0f5994c89f9972de37\trefs/heads/exh-1109-causal-early-squash-3/A\nf7576fba1c7664bbecba46d126c8d9d97fab1eb7\trefs/heads/exh-1109-causal-early-squash-3/B\n67c6b7aec664b92744e7c84ef277566227d1934c\trefs/heads/exh-1109-causal-early-squash-3/C\n19d0530b06f61f16f9863de7cc398a70c1ed05a0\trefs/heads/exh-1109-causal-early-squash-3/D\n96616fa50da417071d6c6dadda6d451395045f1b\trefs/heads/exh-1109-causal-early-squash-3/trunk\n",
+    "stderr": "",
+    "refs": {
+      "refs/heads/exh-1109-causal-early-squash-3/A": "af34e35a5c765cbd0bc88a0f5994c89f9972de37",
+      "refs/heads/exh-1109-causal-early-squash-3/B": "f7576fba1c7664bbecba46d126c8d9d97fab1eb7",
+      "refs/heads/exh-1109-causal-early-squash-3/C": "67c6b7aec664b92744e7c84ef277566227d1934c",
+      "refs/heads/exh-1109-causal-early-squash-3/D": "19d0530b06f61f16f9863de7cc398a70c1ed05a0",
+      "refs/heads/exh-1109-causal-early-squash-3/trunk": "96616fa50da417071d6c6dadda6d451395045f1b"
+    },
+    "object_fetch": {
+      "kind": "git-read",
+      "args": [
+        "fetch",
+        "--no-tags",
+        "origin",
+        "+refs/heads/exh-1109-causal-early-squash-3/*:refs/observed/early-squash-3/*"
+      ],
+      "start": {
+        "utc": "2026-11-09T14:01:33.425131+00:00",
+        "monotonic": 13.176778083
+      },
+      "end": {
+        "utc": "2026-11-09T14:01:33.594570+00:00",
+        "monotonic": 13.346229
+      },
+      "exit": 0,
+      "stdout": "",
+      "stderr": "From https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08\n * [new branch]      exh-1109-causal-early-squash-3/A -> refs/observed/early-squash-3/A\n * [new branch]      exh-1109-causal-early-squash-3/B -> refs/observed/early-squash-3/B\n * [new branch]      exh-1109-causal-early-squash-3/C -> refs/observed/early-squash-3/C\n * [new branch]      exh-1109-causal-early-squash-3/D -> refs/observed/early-squash-3/D\n * [new branch]      exh-1109-causal-early-squash-3/trunk -> refs/observed/early-squash-3/trunk\n"
+    },
+    "objects": {
+      "f7576fba1c7664bbecba46d126c8d9d97fab1eb7": {
+        "oid": "f7576fba1c7664bbecba46d126c8d9d97fab1eb7",
+        "tree": "51317ea52fea936f8c286fa3f341cedd3b82a41f",
+        "parents": [
+          "af34e35a5c765cbd0bc88a0f5994c89f9972de37"
+        ]
+      },
+      "96616fa50da417071d6c6dadda6d451395045f1b": {
+        "oid": "96616fa50da417071d6c6dadda6d451395045f1b",
+        "tree": "4639e6cfee5c0eac9eba997cafcc9231b52e1428",
+        "parents": [
+          "3be99721cf51a146b9c47f46f0a2713f0edb2ec6"
+        ]
+      },
+      "19d0530b06f61f16f9863de7cc398a70c1ed05a0": {
+        "oid": "19d0530b06f61f16f9863de7cc398a70c1ed05a0",
+        "tree": "5c1df8155d553a26db65c94d8b9a63be639c4104",
+        "parents": [
+          "67c6b7aec664b92744e7c84ef277566227d1934c"
+        ]
+      },
+      "af34e35a5c765cbd0bc88a0f5994c89f9972de37": {
+        "oid": "af34e35a5c765cbd0bc88a0f5994c89f9972de37",
+        "tree": "31172ec7a087398fe4712405aa11e22e12ccd8f7",
+        "parents": [
+          "96616fa50da417071d6c6dadda6d451395045f1b"
+        ]
+      },
+      "67c6b7aec664b92744e7c84ef277566227d1934c": {
+        "oid": "67c6b7aec664b92744e7c84ef277566227d1934c",
+        "tree": "0ac5e69b4251d811ca372920bcc3f4d0c4e427a7",
+        "parents": [
+          "f7576fba1c7664bbecba46d126c8d9d97fab1eb7"
+        ]
+      }
+    }
+  },
+  "graphql": {
+    "kind": "http",
+    "method": "POST",
+    "path": "graphql",
+    "payload": {
+      "query": "query { repository(owner:\"joshlf\",name:\"gherrit-native-stack-experiments-2026-11-08\"){A:pullRequest(number:585){ number id state merged mergedAt headRefName headRefOid baseRefName baseRefOid timelineItems(last:100,itemTypes:[HEAD_REF_FORCE_PUSHED_EVENT,BASE_REF_CHANGED_EVENT,AUTOMATIC_BASE_CHANGE_SUCCEEDED_EVENT,AUTOMATIC_BASE_CHANGE_FAILED_EVENT,MERGED_EVENT]){pageInfo{hasPreviousPage} nodes{__typename\n... on HeadRefForcePushedEvent { id createdAt actor { login __typename } beforeCommit { oid } afterCommit { oid } ref { name target { oid } } }\n... on BaseRefChangedEvent { id createdAt actor { login __typename } previousRefName currentRefName }\n... on AutomaticBaseChangeSucceededEvent { id createdAt actor { login __typename } oldBase newBase }\n... on AutomaticBaseChangeFailedEvent { id createdAt actor { login __typename } oldBase newBase }\n... on MergedEvent { id createdAt actor { login __typename } commit { oid } mergeRefName }\n}}} B:pullRequest(number:586){ number id state merged mergedAt headRefName headRefOid baseRefName baseRefOid timelineItems(last:100,itemTypes:[HEAD_REF_FORCE_PUSHED_EVENT,BASE_REF_CHANGED_EVENT,AUTOMATIC_BASE_CHANGE_SUCCEEDED_EVENT,AUTOMATIC_BASE_CHANGE_FAILED_EVENT,MERGED_EVENT]){pageInfo{hasPreviousPage} nodes{__typename\n... on HeadRefForcePushedEvent { id createdAt actor { login __typename } beforeCommit { oid } afterCommit { oid } ref { name target { oid } } }\n... on BaseRefChangedEvent { id createdAt actor { login __typename } previousRefName currentRefName }\n... on AutomaticBaseChangeSucceededEvent { id createdAt actor { login __typename } oldBase newBase }\n... on AutomaticBaseChangeFailedEvent { id createdAt actor { login __typename } oldBase newBase }\n... on MergedEvent { id createdAt actor { login __typename } commit { oid } mergeRefName }\n}}} C:pullRequest(number:587){ number id state merged mergedAt headRefName headRefOid baseRefName baseRefOid timelineItems(last:100,itemTypes:[HEAD_REF_FORCE_PUSHED_EVENT,BASE_REF_CHANGED_EVENT,AUTOMATIC_BASE_CHANGE_SUCCEEDED_EVENT,AUTOMATIC_BASE_CHANGE_FAILED_EVENT,MERGED_EVENT]){pageInfo{hasPreviousPage} nodes{__typename\n... on HeadRefForcePushedEvent { id createdAt actor { login __typename } beforeCommit { oid } afterCommit { oid } ref { name target { oid } } }\n... on BaseRefChangedEvent { id createdAt actor { login __typename } previousRefName currentRefName }\n... on AutomaticBaseChangeSucceededEvent { id createdAt actor { login __typename } oldBase newBase }\n... on AutomaticBaseChangeFailedEvent { id createdAt actor { login __typename } oldBase newBase }\n... on MergedEvent { id createdAt actor { login __typename } commit { oid } mergeRefName }\n}}} D:pullRequest(number:588){ number id state merged mergedAt headRefName headRefOid baseRefName baseRefOid timelineItems(last:100,itemTypes:[HEAD_REF_FORCE_PUSHED_EVENT,BASE_REF_CHANGED_EVENT,AUTOMATIC_BASE_CHANGE_SUCCEEDED_EVENT,AUTOMATIC_BASE_CHANGE_FAILED_EVENT,MERGED_EVENT]){pageInfo{hasPreviousPage} nodes{__typename\n... on HeadRefForcePushedEvent { id createdAt actor { login __typename } beforeCommit { oid } afterCommit { oid } ref { name target { oid } } }\n... on BaseRefChangedEvent { id createdAt actor { login __typename } previousRefName currentRefName }\n... on AutomaticBaseChangeSucceededEvent { id createdAt actor { login __typename } oldBase newBase }\n... on AutomaticBaseChangeFailedEvent { id createdAt actor { login __typename } oldBase newBase }\n... on MergedEvent { id createdAt actor { login __typename } commit { oid } mergeRefName }\n}}}}}"
+    },
+    "start": {
+      "utc": "2026-11-09T14:01:33.164358+00:00",
+      "monotonic": 12.916003458
+    },
+    "end": {
+      "utc": "2026-11-09T14:01:33.880220+00:00",
+      "monotonic": 13.631881666
+    },
+    "exit": 0,
+    "http": 200,
+    "data": {
+      "data": {
+        "repository": {
+          "A": {
+            "number": 585,
+            "id": "PR_kwDOVnhIZ88AAAABN3CcdQ",
+            "state": "OPEN",
+            "merged": false,
+            "mergedAt": null,
+            "headRefName": "exh-1109-causal-early-squash-3/A",
+            "headRefOid": "af34e35a5c765cbd0bc88a0f5994c89f9972de37",
+            "baseRefName": "exh-1109-causal-early-squash-3/trunk",
+            "baseRefOid": "96616fa50da417071d6c6dadda6d451395045f1b",
+            "timelineItems": {
+              "pageInfo": {
+                "hasPreviousPage": false
+              },
+              "nodes": []
+            }
+          },
+          "B": {
+            "number": 586,
+            "id": "PR_kwDOVnhIZ88AAAABN3CeUw",
+            "state": "OPEN",
+            "merged": false,
+            "mergedAt": null,
+            "headRefName": "exh-1109-causal-early-squash-3/B",
+            "headRefOid": "f7576fba1c7664bbecba46d126c8d9d97fab1eb7",
+            "baseRefName": "exh-1109-causal-early-squash-3/A",
+            "baseRefOid": "af34e35a5c765cbd0bc88a0f5994c89f9972de37",
+            "timelineItems": {
+              "pageInfo": {
+                "hasPreviousPage": false
+              },
+              "nodes": []
+            }
+          },
+          "C": {
+            "number": 587,
+            "id": "PR_kwDOVnhIZ88AAAABN3CgTQ",
+            "state": "OPEN",
+            "merged": false,
+            "mergedAt": null,
+            "headRefName": "exh-1109-causal-early-squash-3/C",
+            "headRefOid": "67c6b7aec664b92744e7c84ef277566227d1934c",
+            "baseRefName": "exh-1109-causal-early-squash-3/B",
+            "baseRefOid": "f7576fba1c7664bbecba46d126c8d9d97fab1eb7",
+            "timelineItems": {
+              "pageInfo": {
+                "hasPreviousPage": false
+              },
+              "nodes": []
+            }
+          },
+          "D": {
+            "number": 588,
+            "id": "PR_kwDOVnhIZ88AAAABN3CiPw",
+            "state": "OPEN",
+            "merged": false,
+            "mergedAt": null,
+            "headRefName": "exh-1109-causal-early-squash-3/D",
+            "headRefOid": "19d0530b06f61f16f9863de7cc398a70c1ed05a0",
+            "baseRefName": "exh-1109-causal-early-squash-3/C",
+            "baseRefOid": "67c6b7aec664b92744e7c84ef277566227d1934c",
+            "timelineItems": {
+              "pageInfo": {
+                "hasPreviousPage": false
+              },
+              "nodes": []
+            }
+          }
+        }
+      }
+    },
+    "disposition": "response-retained"
+  }
+}

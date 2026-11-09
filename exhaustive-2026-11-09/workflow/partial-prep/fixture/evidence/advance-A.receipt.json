@@ -1,0 +1,28 @@
+{
+  "args": [
+    "push",
+    "--porcelain",
+    "--atomic",
+    "--force-with-lease=refs/heads/exh-1109-workflow-gql-partial-001/A:d73f1543202618e1eb359fb8f15751e1092ccc7f",
+    "--force-with-lease=refs/tags/gherrit/exh-1109-workflow-gql-partial-001-A/v2:0000000000000000000000000000000000000000",
+    "https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08.git",
+    "a8a39b61ad98ac6987183198ea308400ca507ebc:refs/heads/exh-1109-workflow-gql-partial-001/A",
+    "a8a39b61ad98ac6987183198ea308400ca507ebc:refs/tags/gherrit/exh-1109-workflow-gql-partial-001-A/v2"
+  ],
+  "disposition": "command-acknowledged",
+  "ended": "2026-11-09T16:42:55.337579+00:00",
+  "exit": 0,
+  "expected": {
+    "refs/heads/exh-1109-workflow-gql-partial-001/A": "d73f1543202618e1eb359fb8f15751e1092ccc7f",
+    "refs/tags/gherrit/exh-1109-workflow-gql-partial-001-A/v2": "0000000000000000000000000000000000000000"
+  },
+  "kind": "push",
+  "monotonic": 12.791910125,
+  "started": "2026-11-09T16:42:53.708794+00:00",
+  "stderr": "",
+  "stdout": "To https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08.git\n \ta8a39b61ad98ac6987183198ea308400ca507ebc:refs/heads/exh-1109-workflow-gql-partial-001/A\td73f154..a8a39b6\n*\ta8a39b61ad98ac6987183198ea308400ca507ebc:refs/tags/gherrit/exh-1109-workflow-gql-partial-001-A/v2\t[new tag]\nDone\n",
+  "updates": {
+    "refs/heads/exh-1109-workflow-gql-partial-001/A": "a8a39b61ad98ac6987183198ea308400ca507ebc",
+    "refs/tags/gherrit/exh-1109-workflow-gql-partial-001-A/v2": "a8a39b61ad98ac6987183198ea308400ca507ebc"
+  }
+}

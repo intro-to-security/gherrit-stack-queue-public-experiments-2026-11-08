@@ -1,0 +1,30 @@
+{
+  "kind": "named-rebase-initiation",
+  "method": "PUT",
+  "path": "repos/joshlf/gherrit-native-stack-experiments-2026-11-08/stacks/653/rebase",
+  "payload": {
+    "expected_head_oid_by_pr_number": {
+      "650": "f5426f21bde544d07c71a07837961c4ff65584e0",
+      "651": "8d8919ed957f9ac4bf0ebc371ede77843ea262f9",
+      "652": "0f4445c43fc2b88a0c9a20ce354433bb6ed34bcf"
+    }
+  },
+  "api_version": "2026-03-10",
+  "authority": "Separate root named-route decision after known numeric404; never a numeric retry.",
+  "start": {
+    "utc": "2026-11-09T15:14:20.526517+00:00",
+    "monotonic": 1.507827958
+  },
+  "end": {
+    "utc": "2026-11-09T15:14:20.712607+00:00",
+    "monotonic": 1.69392025
+  },
+  "exit": 1,
+  "http": 404,
+  "data": {
+    "message": "Not Found",
+    "documentation_url": "https://docs.github.com/rest/pulls/stacks#rebase-a-pull-request-stack",
+    "status": "404"
+  },
+  "disposition": "response-retained"
+}

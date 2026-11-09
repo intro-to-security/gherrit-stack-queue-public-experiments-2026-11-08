@@ -1,0 +1,179 @@
+Validate and Test	Set up job	﻿2026-11-09T14:26:52.9249137Z Current runner version: '2.338.2'
+Validate and Test	Set up job	2026-11-09T14:26:52.9270572Z ##[group]Runner Image Provisioner
+Validate and Test	Set up job	2026-11-09T14:26:52.9271343Z Hosted Compute Agent
+Validate and Test	Set up job	2026-11-09T14:26:52.9272225Z Version: 20261028.624
+Validate and Test	Set up job	2026-11-09T14:26:52.9272795Z Commit: 54898b74c23fde5556c9b3c3a2290865feef0dfe
+Validate and Test	Set up job	2026-11-09T14:26:52.9273399Z Build Date: 2026-10-28T21:51:42Z
+Validate and Test	Set up job	2026-11-09T14:26:52.9274036Z Worker ID: {32d2ff40-cdc7-48fe-ad17-ee51b6ccd3bd}
+Validate and Test	Set up job	2026-11-09T14:26:52.9274657Z Region: eastus2
+Validate and Test	Set up job	2026-11-09T14:26:52.9275126Z Cloud: Azure
+Validate and Test	Set up job	2026-11-09T14:26:52.9275666Z ##[endgroup]
+Validate and Test	Set up job	2026-11-09T14:26:52.9276860Z ##[group]Operating System
+Validate and Test	Set up job	2026-11-09T14:26:52.9277489Z Ubuntu
+Validate and Test	Set up job	2026-11-09T14:26:52.9277938Z 24.04.5
+Validate and Test	Set up job	2026-11-09T14:26:52.9278388Z LTS
+Validate and Test	Set up job	2026-11-09T14:26:52.9278887Z ##[endgroup]
+Validate and Test	Set up job	2026-11-09T14:26:52.9279367Z ##[group]Runner Image
+Validate and Test	Set up job	2026-11-09T14:26:52.9279882Z Image: ubuntu-24.04
+Validate and Test	Set up job	2026-11-09T14:26:52.9280385Z Version: 20261101.360.1
+Validate and Test	Set up job	2026-11-09T14:26:52.9281356Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20261101.360/images/ubuntu/Ubuntu2404-Readme.md
+Validate and Test	Set up job	2026-11-09T14:26:52.9283148Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20261101.360
+Validate and Test	Set up job	2026-11-09T14:26:52.9283976Z ##[endgroup]
+Validate and Test	Set up job	2026-11-09T14:26:52.9284934Z ##[group]GITHUB_TOKEN Permissions
+Validate and Test	Set up job	2026-11-09T14:26:52.9286600Z Contents: read
+Validate and Test	Set up job	2026-11-09T14:26:52.9287139Z Metadata: read
+Validate and Test	Set up job	2026-11-09T14:26:52.9287621Z ##[endgroup]
+Validate and Test	Set up job	2026-11-09T14:26:52.9289378Z Secret source: Actions
+Validate and Test	Set up job	2026-11-09T14:26:52.9290184Z Cache mode: write
+Validate and Test	Set up job	2026-11-09T14:26:52.9290862Z Prepare workflow directory
+Validate and Test	Set up job	2026-11-09T14:26:52.9570459Z Prepare all required actions
+Validate and Test	Set up job	2026-11-09T14:26:52.9610428Z Getting action download info
+Validate and Test	Set up job	2026-11-09T14:26:53.1376598Z Download action repository 'actions/checkout@v4' (SHA:11d5960a326750d5838078e36cf38b85af677262)
+Validate and Test	Set up job	2026-11-09T14:26:53.3229733Z Complete job name: Validate and Test
+Validate and Test	Checkout fixture	﻿2026-11-09T14:26:53.3951903Z ##[group]Run actions/checkout@v4
+Validate and Test	Checkout fixture	2026-11-09T14:26:53.3952651Z with:
+Validate and Test	Checkout fixture	2026-11-09T14:26:53.3953052Z   persist-credentials: false
+Validate and Test	Checkout fixture	2026-11-09T14:26:53.3953620Z   repository: joshlf/gherrit-native-stack-experiments-2026-11-08
+Validate and Test	Checkout fixture	2026-11-09T14:26:53.3957003Z   token: ***
+Validate and Test	Checkout fixture	2026-11-09T14:26:53.3957365Z   ssh-strict: true
+Validate and Test	Checkout fixture	2026-11-09T14:26:53.3957722Z   ssh-user: git
+Validate and Test	Checkout fixture	2026-11-09T14:26:53.3958064Z   clean: true
+Validate and Test	Checkout fixture	2026-11-09T14:26:53.3958424Z   sparse-checkout-cone-mode: true
+Validate and Test	Checkout fixture	2026-11-09T14:26:53.3958845Z   fetch-depth: 1
+Validate and Test	Checkout fixture	2026-11-09T14:26:53.3959289Z   fetch-tags: false
+Validate and Test	Checkout fixture	2026-11-09T14:26:53.3959653Z   show-progress: true
+Validate and Test	Checkout fixture	2026-11-09T14:26:53.3960018Z   lfs: false
+Validate and Test	Checkout fixture	2026-11-09T14:26:53.3960356Z   submodules: false
+Validate and Test	Checkout fixture	2026-11-09T14:26:53.3960715Z   set-safe-directory: true
+Validate and Test	Checkout fixture	2026-11-09T14:26:53.3961117Z   allow-unsafe-pr-checkout: false
+Validate and Test	Checkout fixture	2026-11-09T14:26:53.3961863Z ##[endgroup]
+Validate and Test	Checkout fixture	2026-11-09T14:26:53.6492727Z Syncing repository: joshlf/gherrit-native-stack-experiments-2026-11-08
+Validate and Test	Checkout fixture	2026-11-09T14:26:53.6494490Z ##[group]Getting Git version info
+Validate and Test	Checkout fixture	2026-11-09T14:26:53.6495496Z Working directory is '/home/runner/work/gherrit-native-stack-experiments-2026-11-08/gherrit-native-stack-experiments-2026-11-08'
+Validate and Test	Checkout fixture	2026-11-09T14:26:53.6496629Z [command]/usr/bin/git version
+Validate and Test	Checkout fixture	2026-11-09T14:26:53.6587045Z git version 2.56.0
+Validate and Test	Checkout fixture	2026-11-09T14:26:53.6610785Z ##[endgroup]
+Validate and Test	Checkout fixture	2026-11-09T14:26:53.6618129Z Temporarily overriding HOME='/home/runner/work/_temp/9337ff9b-0abf-4ba3-b5b2-c6500dbe6b6e' before making global git config changes
+Validate and Test	Checkout fixture	2026-11-09T14:26:53.6620126Z Adding repository directory to the temporary git global config as a safe directory
+Validate and Test	Checkout fixture	2026-11-09T14:26:53.6622671Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/gherrit-native-stack-experiments-2026-11-08/gherrit-native-stack-experiments-2026-11-08
+Validate and Test	Checkout fixture	2026-11-09T14:26:53.6679722Z Deleting the contents of '/home/runner/work/gherrit-native-stack-experiments-2026-11-08/gherrit-native-stack-experiments-2026-11-08'
+Validate and Test	Checkout fixture	2026-11-09T14:26:53.6684733Z ##[group]Initializing the repository
+Validate and Test	Checkout fixture	2026-11-09T14:26:53.6688401Z [command]/usr/bin/git init /home/runner/work/gherrit-native-stack-experiments-2026-11-08/gherrit-native-stack-experiments-2026-11-08
+Validate and Test	Checkout fixture	2026-11-09T14:26:53.6776217Z hint: Using 'master' as the name for the initial branch. This default branch name
+Validate and Test	Checkout fixture	2026-11-09T14:26:53.6777573Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+Validate and Test	Checkout fixture	2026-11-09T14:26:53.6778435Z hint: to use in all of your new repositories, which will suppress this warning,
+Validate and Test	Checkout fixture	2026-11-09T14:26:53.6779059Z hint: call:
+Validate and Test	Checkout fixture	2026-11-09T14:26:53.6779440Z hint:
+Validate and Test	Checkout fixture	2026-11-09T14:26:53.6779903Z hint: 	git config --global init.defaultBranch <name>
+Validate and Test	Checkout fixture	2026-11-09T14:26:53.6780449Z hint:
+Validate and Test	Checkout fixture	2026-11-09T14:26:53.6780958Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+Validate and Test	Checkout fixture	2026-11-09T14:26:53.6781888Z hint: 'development'. The just-created branch can be renamed via this command:
+Validate and Test	Checkout fixture	2026-11-09T14:26:53.6782539Z hint:
+Validate and Test	Checkout fixture	2026-11-09T14:26:53.6782918Z hint: 	git branch -m <name>
+Validate and Test	Checkout fixture	2026-11-09T14:26:53.6783341Z hint:
+Validate and Test	Checkout fixture	2026-11-09T14:26:53.6783889Z hint: Disable this message with "git config set advice.defaultBranchName false"
+Validate and Test	Checkout fixture	2026-11-09T14:26:53.6796910Z Initialized empty Git repository in /home/runner/work/gherrit-native-stack-experiments-2026-11-08/gherrit-native-stack-experiments-2026-11-08/.git/
+Validate and Test	Checkout fixture	2026-11-09T14:26:53.6806366Z [command]/usr/bin/git remote add origin https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08
+Validate and Test	Checkout fixture	2026-11-09T14:26:53.6849455Z ##[endgroup]
+Validate and Test	Checkout fixture	2026-11-09T14:26:53.6850220Z ##[group]Disabling automatic garbage collection
+Validate and Test	Checkout fixture	2026-11-09T14:26:53.6853131Z [command]/usr/bin/git config --local gc.auto 0
+Validate and Test	Checkout fixture	2026-11-09T14:26:53.6883486Z ##[endgroup]
+Validate and Test	Checkout fixture	2026-11-09T14:26:53.6890289Z ##[group]Setting up auth
+Validate and Test	Checkout fixture	2026-11-09T14:26:53.6891079Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+Validate and Test	Checkout fixture	2026-11-09T14:26:53.6925439Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+Validate and Test	Checkout fixture	2026-11-09T14:26:53.7282908Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+Validate and Test	Checkout fixture	2026-11-09T14:26:53.7321467Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+Validate and Test	Checkout fixture	2026-11-09T14:26:53.7524205Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+Validate and Test	Checkout fixture	2026-11-09T14:26:53.7560804Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+Validate and Test	Checkout fixture	2026-11-09T14:26:53.7765179Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+Validate and Test	Checkout fixture	2026-11-09T14:26:53.7808677Z ##[endgroup]
+Validate and Test	Checkout fixture	2026-11-09T14:26:53.7809785Z ##[group]Fetching the repository
+Validate and Test	Checkout fixture	2026-11-09T14:26:53.7820654Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +f8d18a5cbbf2390e31049ed6f2c9b14b587ab1fa:refs/remotes/pull/601/merge
+Validate and Test	Checkout fixture	2026-11-09T14:26:53.9839100Z From https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08
+Validate and Test	Checkout fixture	2026-11-09T14:26:53.9840153Z  * [new ref]         f8d18a5cbbf2390e31049ed6f2c9b14b587ab1fa -> pull/601/merge
+Validate and Test	Checkout fixture	2026-11-09T14:26:53.9843106Z ##[endgroup]
+Validate and Test	Checkout fixture	2026-11-09T14:26:53.9843778Z ##[group]Determining the checkout info
+Validate and Test	Checkout fixture	2026-11-09T14:26:53.9846399Z ##[endgroup]
+Validate and Test	Checkout fixture	2026-11-09T14:26:53.9850720Z [command]/usr/bin/git sparse-checkout disable
+Validate and Test	Checkout fixture	2026-11-09T14:26:53.9906245Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+Validate and Test	Checkout fixture	2026-11-09T14:26:53.9941242Z ##[group]Checking out the ref
+Validate and Test	Checkout fixture	2026-11-09T14:26:53.9945347Z [command]/usr/bin/git checkout --progress --force refs/remotes/pull/601/merge
+Validate and Test	Checkout fixture	2026-11-09T14:26:53.9991339Z Note: switching to 'refs/remotes/pull/601/merge'.
+Validate and Test	Checkout fixture	2026-11-09T14:26:53.9992052Z 
+Validate and Test	Checkout fixture	2026-11-09T14:26:53.9992383Z You are in 'detached HEAD' state. You can look around, make experimental
+Validate and Test	Checkout fixture	2026-11-09T14:26:53.9993119Z changes and commit them, and you can discard any commits you make in this
+Validate and Test	Checkout fixture	2026-11-09T14:26:53.9993878Z state without impacting any branches by switching back to a branch.
+Validate and Test	Checkout fixture	2026-11-09T14:26:53.9994535Z 
+Validate and Test	Checkout fixture	2026-11-09T14:26:53.9994829Z If you want to create a new branch to retain commits you create, you may
+Validate and Test	Checkout fixture	2026-11-09T14:26:53.9995527Z do so (now or later) by using -c with the switch command. Example:
+Validate and Test	Checkout fixture	2026-11-09T14:26:53.9995914Z 
+Validate and Test	Checkout fixture	2026-11-09T14:26:53.9996088Z   git switch -c <new-branch-name>
+Validate and Test	Checkout fixture	2026-11-09T14:26:53.9996355Z 
+Validate and Test	Checkout fixture	2026-11-09T14:26:53.9996523Z Or undo this operation with:
+Validate and Test	Checkout fixture	2026-11-09T14:26:53.9996790Z 
+Validate and Test	Checkout fixture	2026-11-09T14:26:53.9996950Z   git switch -
+Validate and Test	Checkout fixture	2026-11-09T14:26:53.9997148Z 
+Validate and Test	Checkout fixture	2026-11-09T14:26:53.9997499Z Turn off this advice by setting config variable advice.detachedHead to false
+Validate and Test	Checkout fixture	2026-11-09T14:26:53.9998149Z 
+Validate and Test	Checkout fixture	2026-11-09T14:26:53.9998930Z HEAD is now at f8d18a5 Merge 9080250c9abd088439ba2d0057ca5ee4fc015586 into 434e72bf44e3afd53c376180187eb8930ac8cc5d
+Validate and Test	Checkout fixture	2026-11-09T14:26:54.0001549Z ##[endgroup]
+Validate and Test	Checkout fixture	2026-11-09T14:26:54.0044766Z [command]/usr/bin/git log -1 --format=%H
+Validate and Test	Checkout fixture	2026-11-09T14:26:54.0074022Z f8d18a5cbbf2390e31049ed6f2c9b14b587ab1fa
+Validate and Test	Checkout fixture	2026-11-09T14:26:54.0084952Z ##[group]Removing auth
+Validate and Test	Checkout fixture	2026-11-09T14:26:54.0085925Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+Validate and Test	Checkout fixture	2026-11-09T14:26:54.0120222Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+Validate and Test	Checkout fixture	2026-11-09T14:26:54.0343442Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+Validate and Test	Checkout fixture	2026-11-09T14:26:54.0377164Z http.https://github.com/.extraheader
+Validate and Test	Checkout fixture	2026-11-09T14:26:54.0382815Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+Validate and Test	Checkout fixture	2026-11-09T14:26:54.0417866Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+Validate and Test	Checkout fixture	2026-11-09T14:26:54.0620739Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+Validate and Test	Checkout fixture	2026-11-09T14:26:54.0658334Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+Validate and Test	Checkout fixture	2026-11-09T14:26:54.0862299Z ##[endgroup]
+Validate and Test	Capture event and exact Git identities	﻿2026-11-09T14:26:54.1057188Z ##[group]Run python3 - <<'PYCODE'
+Validate and Test	Capture event and exact Git identities	2026-11-09T14:26:54.1057751Z ^[[36;1mpython3 - <<'PYCODE'^[[0m
+Validate and Test	Capture event and exact Git identities	2026-11-09T14:26:54.1058222Z ^[[36;1mimport json, os, pathlib, subprocess^[[0m
+Validate and Test	Capture event and exact Git identities	2026-11-09T14:26:54.1058912Z ^[[36;1mevent = json.loads(pathlib.Path(os.environ['GITHUB_EVENT_PATH']).read_text())^[[0m
+Validate and Test	Capture event and exact Git identities	2026-11-09T14:26:54.1059579Z ^[[36;1mpr = event.get('pull_request', {})^[[0m
+Validate and Test	Capture event and exact Git identities	2026-11-09T14:26:54.1060218Z ^[[36;1mgit = lambda *args: subprocess.check_output(['git', *args], text=True).strip()^[[0m
+Validate and Test	Capture event and exact Git identities	2026-11-09T14:26:54.1060860Z ^[[36;1mprint(json.dumps({^[[0m
+Validate and Test	Capture event and exact Git identities	2026-11-09T14:26:54.1061431Z ^[[36;1m    'scope': 'Minimal synthetic event/check probe; full Rust CI did not run',^[[0m
+Validate and Test	Capture event and exact Git identities	2026-11-09T14:26:54.1062342Z ^[[36;1m    'event_name': os.environ['GITHUB_EVENT_NAME'],^[[0m
+Validate and Test	Capture event and exact Git identities	2026-11-09T14:26:54.1062879Z ^[[36;1m    'action': event.get('action'),^[[0m
+Validate and Test	Capture event and exact Git identities	2026-11-09T14:26:54.1063396Z ^[[36;1m    'github_sha': os.environ['GITHUB_SHA'],^[[0m
+Validate and Test	Capture event and exact Git identities	2026-11-09T14:26:54.1063902Z ^[[36;1m    'github_ref': os.environ['GITHUB_REF'],^[[0m
+Validate and Test	Capture event and exact Git identities	2026-11-09T14:26:54.1064400Z ^[[36;1m    'run_id': os.environ['GITHUB_RUN_ID'],^[[0m
+Validate and Test	Capture event and exact Git identities	2026-11-09T14:26:54.1064964Z ^[[36;1m    'run_attempt': os.environ['GITHUB_RUN_ATTEMPT'],^[[0m
+Validate and Test	Capture event and exact Git identities	2026-11-09T14:26:54.1065510Z ^[[36;1m    'source_sha': pr.get('head', {}).get('sha'),^[[0m
+Validate and Test	Capture event and exact Git identities	2026-11-09T14:26:54.1066031Z ^[[36;1m    'base_sha': pr.get('base', {}).get('sha'),^[[0m
+Validate and Test	Capture event and exact Git identities	2026-11-09T14:26:54.1066570Z ^[[36;1m    'merge_commit_sha': pr.get('merge_commit_sha'),^[[0m
+Validate and Test	Capture event and exact Git identities	2026-11-09T14:26:54.1067124Z ^[[36;1m    'checkout_head': git('rev-parse', 'HEAD'),^[[0m
+Validate and Test	Capture event and exact Git identities	2026-11-09T14:26:54.1067673Z ^[[36;1m    'checkout_tree': git('rev-parse', 'HEAD^{tree}'),^[[0m
+Validate and Test	Capture event and exact Git identities	2026-11-09T14:26:54.1068312Z ^[[36;1m    'checkout_parents': git('rev-list', '--parents', '-n', '1', 'HEAD')^[[0m
+Validate and Test	Capture event and exact Git identities	2026-11-09T14:26:54.1068888Z ^[[36;1m}, sort_keys=True))^[[0m
+Validate and Test	Capture event and exact Git identities	2026-11-09T14:26:54.1069277Z ^[[36;1mPYCODE^[[0m
+Validate and Test	Capture event and exact Git identities	2026-11-09T14:26:54.1090969Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+Validate and Test	Capture event and exact Git identities	2026-11-09T14:26:54.1091533Z ##[endgroup]
+Validate and Test	Capture event and exact Git identities	2026-11-09T14:26:54.1417314Z {"action": "opened", "base_sha": "434e72bf44e3afd53c376180187eb8930ac8cc5d", "checkout_head": "f8d18a5cbbf2390e31049ed6f2c9b14b587ab1fa", "checkout_parents": "f8d18a5cbbf2390e31049ed6f2c9b14b587ab1fa", "checkout_tree": "0e642d63c3a72f0100e51d693821ca1ebe1fdef7", "event_name": "pull_request", "github_ref": "refs/pull/601/merge", "github_sha": "f8d18a5cbbf2390e31049ed6f2c9b14b587ab1fa", "merge_commit_sha": null, "run_attempt": "1", "run_id": "42634753368", "scope": "Minimal synthetic event/check probe; full Rust CI did not run", "source_sha": "9080250c9abd088439ba2d0057ca5ee4fc015586"}
+Validate and Test	Evaluate known fixture outcome	﻿2026-11-09T14:26:54.1496306Z ##[group]Run if test -f .fixture-fail; then
+Validate and Test	Evaluate known fixture outcome	2026-11-09T14:26:54.1496858Z ^[[36;1mif test -f .fixture-fail; then^[[0m
+Validate and Test	Evaluate known fixture outcome	2026-11-09T14:26:54.1497419Z ^[[36;1m  echo 'Expected synthetic failure for stale-SHA control'^[[0m
+Validate and Test	Evaluate known fixture outcome	2026-11-09T14:26:54.1497971Z ^[[36;1m  exit 1^[[0m
+Validate and Test	Evaluate known fixture outcome	2026-11-09T14:26:54.1498383Z ^[[36;1mfi^[[0m
+Validate and Test	Evaluate known fixture outcome	2026-11-09T14:26:54.1498832Z ^[[36;1mecho 'Minimal payload passed; full Rust CI did not run'^[[0m
+Validate and Test	Evaluate known fixture outcome	2026-11-09T14:26:54.1516460Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+Validate and Test	Evaluate known fixture outcome	2026-11-09T14:26:54.1517055Z ##[endgroup]
+Validate and Test	Evaluate known fixture outcome	2026-11-09T14:26:54.1554411Z Minimal payload passed; full Rust CI did not run
+Validate and Test	Post Checkout fixture	﻿2026-11-09T14:26:54.1743801Z Post job cleanup.
+Validate and Test	Post Checkout fixture	2026-11-09T14:26:54.2438068Z [command]/usr/bin/git version
+Validate and Test	Post Checkout fixture	2026-11-09T14:26:54.2476315Z git version 2.56.0
+Validate and Test	Post Checkout fixture	2026-11-09T14:26:54.2512928Z Temporarily overriding HOME='/home/runner/work/_temp/47cf47d2-6b2b-4f7f-8c20-4f5ca18d7766' before making global git config changes
+Validate and Test	Post Checkout fixture	2026-11-09T14:26:54.2514625Z Adding repository directory to the temporary git global config as a safe directory
+Validate and Test	Post Checkout fixture	2026-11-09T14:26:54.2518806Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/gherrit-native-stack-experiments-2026-11-08/gherrit-native-stack-experiments-2026-11-08
+Validate and Test	Post Checkout fixture	2026-11-09T14:26:54.2557475Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+Validate and Test	Post Checkout fixture	2026-11-09T14:26:54.2623953Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+Validate and Test	Post Checkout fixture	2026-11-09T14:26:54.2848567Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+Validate and Test	Post Checkout fixture	2026-11-09T14:26:54.2882438Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+Validate and Test	Post Checkout fixture	2026-11-09T14:26:54.3119769Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+Validate and Test	Post Checkout fixture	2026-11-09T14:26:54.3162897Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+Validate and Test	Complete job	﻿2026-11-09T14:26:54.3513008Z Cleaning up orphan processes
+Validate and Test	Complete job	2026-11-09T14:26:54.3861068Z ##[warning]Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/checkout@v4. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/

@@ -1,0 +1,163 @@
+{
+  "raw_private_sha256": "d6aeed6981d7ad680e66ac02f155b2273072da1631d6276c1659daf068d7447e",
+  "raw_entries": 40,
+  "selected_entries": [
+    {
+      "startedDateTime": "2026-11-09T14:04:08.394Z",
+      "time_ms": 298.0589998894781,
+      "method": "POST",
+      "url": "https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08/pull/578/page_data/stack_rebase",
+      "request_body": {
+        "expectedHeadOids": {
+          "577": "f53ae402e3adc6a42785c1bc7ad5f1cd89f800be",
+          "578": "688287cec1a0ba9f13f27f7a536f4ec2db660d82"
+        }
+      },
+      "status": 200,
+      "response_headers": [
+        {
+          "name": "cache-control",
+          "value": "max-age=0, private, must-revalidate"
+        },
+        {
+          "name": "content-type",
+          "value": "application/json; charset=utf-8"
+        },
+        {
+          "name": "date",
+          "value": "Mon, 09 Nov 2026 14:04:08 GMT"
+        },
+        {
+          "name": "x-github-request-id",
+          "value": "EB9C:1C91EA:75E1A9:A93CBF:6AF1D2D8"
+        }
+      ],
+      "response": {}
+    },
+    {
+      "startedDateTime": "2026-11-09T14:04:08.694Z",
+      "time_ms": 142.80500006861985,
+      "method": "GET",
+      "url": "https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08/pull/578/page_data/stack_rebase_status",
+      "request_body": {},
+      "status": 200,
+      "response_headers": [
+        {
+          "name": "cache-control",
+          "value": "max-age=0, private, must-revalidate"
+        },
+        {
+          "name": "content-type",
+          "value": "application/json; charset=utf-8"
+        },
+        {
+          "name": "date",
+          "value": "Mon, 09 Nov 2026 14:04:08 GMT"
+        },
+        {
+          "name": "x-github-request-id",
+          "value": "EB9C:1C91EA:75E2AA:A93E3E:6AF1D2D8"
+        }
+      ],
+      "response": {
+        "jobState": "PENDING",
+        "pullRequestStates": [
+          {
+            "number": 577,
+            "state": "PENDING",
+            "message": null
+          },
+          {
+            "number": 578,
+            "state": "PENDING",
+            "message": null
+          }
+        ]
+      }
+    },
+    {
+      "startedDateTime": "2026-11-09T14:04:09.840Z",
+      "time_ms": 144.07899999059737,
+      "method": "GET",
+      "url": "https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08/pull/578/page_data/stack_rebase_status",
+      "request_body": {},
+      "status": 200,
+      "response_headers": [
+        {
+          "name": "cache-control",
+          "value": "max-age=0, private, must-revalidate"
+        },
+        {
+          "name": "content-type",
+          "value": "application/json; charset=utf-8"
+        },
+        {
+          "name": "date",
+          "value": "Mon, 09 Nov 2026 14:04:09 GMT"
+        },
+        {
+          "name": "x-github-request-id",
+          "value": "EB9C:1C91EA:75E75C:A94590:6AF1D2D8"
+        }
+      ],
+      "response": {
+        "jobState": "RUNNING",
+        "pullRequestStates": [
+          {
+            "number": 577,
+            "state": "SUCCEEDED",
+            "message": null
+          },
+          {
+            "number": 578,
+            "state": "PENDING",
+            "message": null
+          }
+        ]
+      }
+    },
+    {
+      "startedDateTime": "2026-11-09T14:04:11.488Z",
+      "time_ms": 125.26399991475046,
+      "method": "GET",
+      "url": "https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08/pull/578/page_data/stack_rebase_status",
+      "request_body": {},
+      "status": 200,
+      "response_headers": [
+        {
+          "name": "cache-control",
+          "value": "max-age=0, private, must-revalidate"
+        },
+        {
+          "name": "content-type",
+          "value": "application/json; charset=utf-8"
+        },
+        {
+          "name": "date",
+          "value": "Mon, 09 Nov 2026 14:04:11 GMT"
+        },
+        {
+          "name": "x-github-request-id",
+          "value": "EB9C:1C91EA:75EEB5:A950C8:6AF1D2D9"
+        }
+      ],
+      "response": {
+        "jobState": "DONE",
+        "pullRequestStates": [
+          {
+            "number": 577,
+            "state": "SUCCEEDED",
+            "message": null
+          },
+          {
+            "number": 578,
+            "state": "SUCCEEDED",
+            "message": null
+          }
+        ]
+      }
+    }
+  ],
+  "capture": "Actual native Chrome DevTools Network export (sanitized), further restricted/redacted locally",
+  "ui_result": "Rebasing complete; A and B both Rebased; observed before export"
+}

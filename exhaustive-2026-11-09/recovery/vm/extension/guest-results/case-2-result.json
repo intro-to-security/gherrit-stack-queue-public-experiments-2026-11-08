@@ -1,0 +1,93 @@
+{
+  "stage": 2,
+  "verdict": {
+    "stage": 2,
+    "verdict": {
+      "kind": "active-valid-ignore-unpublished-temp",
+      "active": {
+        "present": true,
+        "bytes": 65672,
+        "sha256": "b7bc1dfa7401f38a1d55aa02ce22fe6704831c925475a7df8547b2f67eb1e273",
+        "valid": true,
+        "generation": 0,
+        "full_expected_bytes": true,
+        "checksum_matches": true
+      },
+      "unpublished_temporary": {
+        "present": true,
+        "bytes": 65672,
+        "sha256": "033372e5419729bc2c7660fe7c13cecadaa3cfae5fd292344edf3d95d0457e34",
+        "valid": true,
+        "generation": 1,
+        "full_expected_bytes": true,
+        "checksum_matches": true
+      },
+      "scope": "local file protocol only; no hosted dispatch authority"
+    },
+    "checks": {
+      "expected_kind": true,
+      "retained_old_exact": true,
+      "unchanged_active_old_exact": true
+    },
+    "expected": true
+  },
+  "pre_inspection": {
+    "raw_sha256": "6517baa2c5a925a5665213da1ea3d8c00fc69588ecdc7c89884fdf0e62972fa0",
+    "gzip_sha256": "1e563c0d7d32b6ae2b59d9a78d6a5197cd14a5e4ce316aaedcc2b2c0f35f9aea",
+    "gzip_bytes": 150839,
+    "lossless_verified": true,
+    "path": "case-2-pre-inspection.raw.gz"
+  },
+  "post_inspection": {
+    "raw_sha256": "b00c92cc1c438e29e78b4cd01d255db7c424193e3e6421f4ab9331d78d13068c",
+    "gzip_sha256": "a40ad30d94ae62085322999f1b3649370da3dc4ef08151367a089a3051e75987",
+    "gzip_bytes": 151019,
+    "lossless_verified": true,
+    "path": "case-2-post-inspection.raw.gz"
+  },
+  "files": {
+    "current.json": {
+      "bytes": 65672,
+      "sha256": "b7bc1dfa7401f38a1d55aa02ce22fe6704831c925475a7df8547b2f67eb1e273"
+    },
+    "next.json": {
+      "bytes": 65672,
+      "sha256": "033372e5419729bc2c7660fe7c13cecadaa3cfae5fd292344edf3d95d0457e34"
+    },
+    "result-old.json": {
+      "bytes": 65672,
+      "sha256": "b7bc1dfa7401f38a1d55aa02ce22fe6704831c925475a7df8547b2f67eb1e273"
+    },
+    "result-new.json": null,
+    "intent.json": null,
+    "ref.json": {
+      "bytes": 125,
+      "sha256": "8353d183c0e5fb3bc1e2e65bdb02b75bbaae2634ed9afa73225cc2e5e3108461"
+    },
+    "checkpoint.json": {
+      "bytes": 125,
+      "sha256": "8353d183c0e5fb3bc1e2e65bdb02b75bbaae2634ed9afa73225cc2e5e3108461"
+    },
+    "done.json": null
+  },
+  "fsck": {
+    "exit": 0,
+    "stdout": "Warning: skipping journal recovery because doing a read-only filesystem check.\nPass 1: Checking inodes, blocks, and sizes\nPass 2: Checking directory structure\nPass 3: Checking directory connectivity\nPass 4: Checking reference counts\nPass 5: Checking group summary information\nFree blocks count wrong (6643, counted=6590).\nFix? no\n\nFree inodes count wrong (8181, counted=8176).\nFix? no\n\n/lab/extension/results/case-2.raw: 11/8192 files (9.1% non-contiguous), 1549/8192 blocks\n",
+    "stderr": "e2fsck 1.46.5 (30-Dec-2021)\n",
+    "repair": false,
+    "diagnostics": {
+      "exit": 0,
+      "diagnostic_lines": [
+        "Warning: skipping journal recovery because doing a read-only filesystem check.",
+        "Free blocks count wrong (6643, counted=6590).",
+        "Fix? no",
+        "Free inodes count wrong (8181, counted=8176).",
+        "Fix? no"
+      ],
+      "clean_diagnostics": false,
+      "scope": "After stated inspector path; exit zero alone is insufficient"
+    }
+  },
+  "injected_bad_control": false,
+  "inspector": "rw mount/journal replay, read records, second emulator SIGKILL; fsck afterward"
+}

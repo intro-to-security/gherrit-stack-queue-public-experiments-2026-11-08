@@ -1,0 +1,728 @@
+{
+  "Bv2": "7e42a00a4796d5164935e05aa45040aa98e67a92",
+  "F": "9d8e469be83fd3863c92ee3dafdf0b0485806d43",
+  "archives": {
+    "A1": "refs/tags/gherrit/exh-1109-workflow-staged-public-f-only-d56b864c-A/v1",
+    "B1": "refs/tags/gherrit/exh-1109-workflow-staged-public-f-only-d56b864c-B/v1",
+    "B2": "refs/tags/gherrit/exh-1109-workflow-staged-public-f-only-d56b864c-B/v2",
+    "F1": "refs/tags/gherrit/exh-1109-workflow-staged-public-f-only-d56b864c-F/v1"
+  },
+  "assertions": [
+    {
+      "actual": {},
+      "expected": {},
+      "label": "Every allocated remote ref was absent",
+      "passed": true
+    },
+    {
+      "actual": {
+        "refs/heads/exh-1109-workflow-staged-public-f-only-d56b864c/A": "c0efc5664c2562865ed1039b2c9a0d2a1e46f69a",
+        "refs/heads/exh-1109-workflow-staged-public-f-only-d56b864c/B": "4040cc4844abad8e18665f2cfc15e2d6d2def8d6",
+        "refs/heads/exh-1109-workflow-staged-public-f-only-d56b864c/author-source": "4040cc4844abad8e18665f2cfc15e2d6d2def8d6",
+        "refs/heads/exh-1109-workflow-staged-public-f-only-d56b864c/trunk": "12f2693395e73e231b9e0e6239ed8c0aeb299921",
+        "refs/tags/gherrit/exh-1109-workflow-staged-public-f-only-d56b864c-A/v1": "c0efc5664c2562865ed1039b2c9a0d2a1e46f69a",
+        "refs/tags/gherrit/exh-1109-workflow-staged-public-f-only-d56b864c-B/v1": "4040cc4844abad8e18665f2cfc15e2d6d2def8d6"
+      },
+      "expected": {
+        "refs/heads/exh-1109-workflow-staged-public-f-only-d56b864c/A": "c0efc5664c2562865ed1039b2c9a0d2a1e46f69a",
+        "refs/heads/exh-1109-workflow-staged-public-f-only-d56b864c/B": "4040cc4844abad8e18665f2cfc15e2d6d2def8d6",
+        "refs/heads/exh-1109-workflow-staged-public-f-only-d56b864c/author-source": "4040cc4844abad8e18665f2cfc15e2d6d2def8d6",
+        "refs/heads/exh-1109-workflow-staged-public-f-only-d56b864c/trunk": "12f2693395e73e231b9e0e6239ed8c0aeb299921",
+        "refs/tags/gherrit/exh-1109-workflow-staged-public-f-only-d56b864c-A/v1": "c0efc5664c2562865ed1039b2c9a0d2a1e46f69a",
+        "refs/tags/gherrit/exh-1109-workflow-staged-public-f-only-d56b864c-B/v1": "4040cc4844abad8e18665f2cfc15e2d6d2def8d6"
+      },
+      "label": "Initial exact ref vector",
+      "passed": true
+    },
+    {
+      "actual": true,
+      "expected": true,
+      "label": "land-old-A-basis selected branches/PRs agree",
+      "passed": true
+    },
+    {
+      "actual": true,
+      "expected": true,
+      "label": "A lifecycle merged",
+      "passed": true
+    },
+    {
+      "actual": [
+        "workflow_case/consumer.py"
+      ],
+      "expected": [
+        "workflow_case/consumer.py"
+      ],
+      "label": "first-import-basis hosted own patch is only the consumer",
+      "passed": true
+    },
+    {
+      "actual": [
+        "workflow_case/model.py"
+      ],
+      "expected": [
+        "workflow_case/model.py"
+      ],
+      "label": "F owns only the pending model delta",
+      "passed": true
+    },
+    {
+      "actual": [
+        "workflow_case/consumer.py"
+      ],
+      "expected": [
+        "workflow_case/consumer.py"
+      ],
+      "label": "B owns only its consumer amendment",
+      "passed": true
+    },
+    {
+      "actual": true,
+      "expected": true,
+      "label": "Explicit F-only staging admission",
+      "passed": true
+    },
+    {
+      "actual": {},
+      "expected": {},
+      "label": "F-only refs were absent",
+      "passed": true
+    },
+    {
+      "actual": {
+        "refs/heads/exh-1109-workflow-staged-public-f-only-d56b864c/F": "9d8e469be83fd3863c92ee3dafdf0b0485806d43",
+        "refs/heads/exh-1109-workflow-staged-public-f-only-d56b864c/F-only-source": "9d8e469be83fd3863c92ee3dafdf0b0485806d43",
+        "refs/tags/gherrit/exh-1109-workflow-staged-public-f-only-d56b864c-F/v1": "9d8e469be83fd3863c92ee3dafdf0b0485806d43"
+      },
+      "expected": {
+        "refs/heads/exh-1109-workflow-staged-public-f-only-d56b864c/F": "9d8e469be83fd3863c92ee3dafdf0b0485806d43",
+        "refs/heads/exh-1109-workflow-staged-public-f-only-d56b864c/F-only-source": "9d8e469be83fd3863c92ee3dafdf0b0485806d43",
+        "refs/tags/gherrit/exh-1109-workflow-staged-public-f-only-d56b864c-F/v1": "9d8e469be83fd3863c92ee3dafdf0b0485806d43"
+      },
+      "label": "F-only exact ref vector",
+      "passed": true
+    },
+    {
+      "actual": {
+        "refs/heads/exh-1109-workflow-staged-public-f-only-d56b864c/B": "4ded56ac1eb889a87a0383f74863dc3e48a56a89",
+        "refs/heads/exh-1109-workflow-staged-public-f-only-d56b864c/author-source": "4040cc4844abad8e18665f2cfc15e2d6d2def8d6",
+        "refs/tags/gherrit/exh-1109-workflow-staged-public-f-only-d56b864c-B/v1": "4040cc4844abad8e18665f2cfc15e2d6d2def8d6"
+      },
+      "expected": {
+        "refs/heads/exh-1109-workflow-staged-public-f-only-d56b864c/B": "4ded56ac1eb889a87a0383f74863dc3e48a56a89",
+        "refs/heads/exh-1109-workflow-staged-public-f-only-d56b864c/author-source": "4040cc4844abad8e18665f2cfc15e2d6d2def8d6",
+        "refs/tags/gherrit/exh-1109-workflow-staged-public-f-only-d56b864c-B/v1": "4040cc4844abad8e18665f2cfc15e2d6d2def8d6"
+      },
+      "label": "F-only publication leaves B and prior source alone",
+      "passed": true
+    },
+    {
+      "actual": true,
+      "expected": true,
+      "label": "land-F-basis selected branches/PRs agree",
+      "passed": true
+    },
+    {
+      "actual": true,
+      "expected": true,
+      "label": "F lifecycle merged",
+      "passed": true
+    },
+    {
+      "actual": [
+        "workflow_case/consumer.py"
+      ],
+      "expected": [
+        "workflow_case/consumer.py"
+      ],
+      "label": "after-F-basis hosted own patch is only the consumer",
+      "passed": true
+    },
+    {
+      "actual": [
+        "workflow_case/consumer.py"
+      ],
+      "expected": [
+        "workflow_case/consumer.py"
+      ],
+      "label": "After F, B owns no model changes",
+      "passed": true
+    },
+    {
+      "actual": {
+        "refs/heads/exh-1109-workflow-staged-public-f-only-d56b864c/B": "7e42a00a4796d5164935e05aa45040aa98e67a92",
+        "refs/heads/exh-1109-workflow-staged-public-f-only-d56b864c/author-source": "7e42a00a4796d5164935e05aa45040aa98e67a92",
+        "refs/tags/gherrit/exh-1109-workflow-staged-public-f-only-d56b864c-B/v2": "7e42a00a4796d5164935e05aa45040aa98e67a92"
+      },
+      "expected": {
+        "refs/heads/exh-1109-workflow-staged-public-f-only-d56b864c/B": "7e42a00a4796d5164935e05aa45040aa98e67a92",
+        "refs/heads/exh-1109-workflow-staged-public-f-only-d56b864c/author-source": "7e42a00a4796d5164935e05aa45040aa98e67a92",
+        "refs/tags/gherrit/exh-1109-workflow-staged-public-f-only-d56b864c-B/v2": "7e42a00a4796d5164935e05aa45040aa98e67a92"
+      },
+      "label": "Canonical B v2 exact publication",
+      "passed": true
+    },
+    {
+      "actual": true,
+      "expected": true,
+      "label": "after-B-v2 selected branches/PRs agree",
+      "passed": true
+    },
+    {
+      "actual": "open",
+      "expected": "open",
+      "label": "Canonical B review remains open",
+      "passed": true
+    },
+    {
+      "actual": true,
+      "expected": true,
+      "label": "repeat-hosted-1 selected branches/PRs agree",
+      "passed": true
+    },
+    {
+      "actual": "896d97a53451034b55f2a2fe88b360850af29a78",
+      "expected": "896d97a53451034b55f2a2fe88b360850af29a78",
+      "label": "Hosted adjustment visible 1",
+      "passed": true
+    },
+    {
+      "actual": "hosted one",
+      "expected": "hosted one",
+      "label": "Imported current hosted adjustment 1",
+      "passed": true
+    },
+    {
+      "actual": [
+        "workflow_case/consumer.py"
+      ],
+      "expected": [
+        "workflow_case/consumer.py"
+      ],
+      "label": "Only the pending consumer remains unsubmitted 1",
+      "passed": true
+    },
+    {
+      "actual": true,
+      "expected": true,
+      "label": "repeat-hosted-2 selected branches/PRs agree",
+      "passed": true
+    },
+    {
+      "actual": "df45f82b86ffa0b69a66f69ef1ca3dac98c0b808",
+      "expected": "df45f82b86ffa0b69a66f69ef1ca3dac98c0b808",
+      "label": "Hosted adjustment visible 2",
+      "passed": true
+    },
+    {
+      "actual": "hosted two",
+      "expected": "hosted two",
+      "label": "Imported current hosted adjustment 2",
+      "passed": true
+    },
+    {
+      "actual": [
+        "workflow_case/consumer.py"
+      ],
+      "expected": [
+        "workflow_case/consumer.py"
+      ],
+      "label": "Only the pending consumer remains unsubmitted 2",
+      "passed": true
+    },
+    {
+      "actual": true,
+      "expected": true,
+      "label": "Using old authored export as repeated baseline conflicts",
+      "passed": true
+    },
+    {
+      "actual": {
+        "refs/heads/exh-1109-workflow-staged-public-f-only-d56b864c/F-only-source": "9d8e469be83fd3863c92ee3dafdf0b0485806d43",
+        "refs/heads/exh-1109-workflow-staged-public-f-only-d56b864c/author-source": "7e42a00a4796d5164935e05aa45040aa98e67a92",
+        "refs/tags/gherrit/exh-1109-workflow-staged-public-f-only-d56b864c-A/v1": "c0efc5664c2562865ed1039b2c9a0d2a1e46f69a",
+        "refs/tags/gherrit/exh-1109-workflow-staged-public-f-only-d56b864c-B/v1": "4040cc4844abad8e18665f2cfc15e2d6d2def8d6",
+        "refs/tags/gherrit/exh-1109-workflow-staged-public-f-only-d56b864c-B/v2": "7e42a00a4796d5164935e05aa45040aa98e67a92",
+        "refs/tags/gherrit/exh-1109-workflow-staged-public-f-only-d56b864c-F/v1": "9d8e469be83fd3863c92ee3dafdf0b0485806d43"
+      },
+      "expected": {
+        "refs/heads/exh-1109-workflow-staged-public-f-only-d56b864c/F-only-source": "9d8e469be83fd3863c92ee3dafdf0b0485806d43",
+        "refs/heads/exh-1109-workflow-staged-public-f-only-d56b864c/author-source": "7e42a00a4796d5164935e05aa45040aa98e67a92",
+        "refs/tags/gherrit/exh-1109-workflow-staged-public-f-only-d56b864c-A/v1": "c0efc5664c2562865ed1039b2c9a0d2a1e46f69a",
+        "refs/tags/gherrit/exh-1109-workflow-staged-public-f-only-d56b864c-B/v1": "4040cc4844abad8e18665f2cfc15e2d6d2def8d6",
+        "refs/tags/gherrit/exh-1109-workflow-staged-public-f-only-d56b864c-B/v2": "7e42a00a4796d5164935e05aa45040aa98e67a92",
+        "refs/tags/gherrit/exh-1109-workflow-staged-public-f-only-d56b864c-F/v1": "9d8e469be83fd3863c92ee3dafdf0b0485806d43"
+      },
+      "label": "Authored archives and public source targets stay exact",
+      "passed": true
+    },
+    {
+      "actual": [
+        "refs/heads/exh-1109-workflow-staged-public-f-only-d56b864c/F-only-source",
+        "refs/heads/exh-1109-workflow-staged-public-f-only-d56b864c/author-source"
+      ],
+      "expected": [
+        "refs/heads/exh-1109-workflow-staged-public-f-only-d56b864c/F-only-source",
+        "refs/heads/exh-1109-workflow-staged-public-f-only-d56b864c/author-source"
+      ],
+      "label": "Actual private/public source-ref scope",
+      "passed": true
+    },
+    {
+      "actual": "5333b1e9084ef3f43263085d38fec76762eae45e",
+      "expected": "5333b1e9084ef3f43263085d38fec76762eae45e",
+      "label": "Original full pending source remains local and exact",
+      "passed": true
+    },
+    {
+      "actual": "PR_kwDOVnhIZ88AAAABN3r65A",
+      "expected": "PR_kwDOVnhIZ88AAAABN3r65A",
+      "label": "Canonical B review identity retained",
+      "passed": true
+    },
+    {
+      "actual": "Isolated synthetic staged-public-f-only fixture, layer B.\n\n*Authored by an AI agent acting on joshlf's behalf.*",
+      "expected": "Isolated synthetic staged-public-f-only fixture, layer B.\n\n*Authored by an AI agent acting on joshlf's behalf.*",
+      "label": "Canonical B prose was not rewritten",
+      "passed": true
+    }
+  ],
+  "authored_history": {
+    "A1": {
+      "base": "12f2693395e73e231b9e0e6239ed8c0aeb299921",
+      "ref": "refs/tags/gherrit/exh-1109-workflow-staged-public-f-only-d56b864c-A/v1",
+      "tip": "c0efc5664c2562865ed1039b2c9a0d2a1e46f69a"
+    },
+    "B1": {
+      "base": "c0efc5664c2562865ed1039b2c9a0d2a1e46f69a",
+      "ref": "refs/tags/gherrit/exh-1109-workflow-staged-public-f-only-d56b864c-B/v1",
+      "tip": "4040cc4844abad8e18665f2cfc15e2d6d2def8d6"
+    },
+    "B2": {
+      "base": "cf92c03b37f17a3ba8e3bf52d4961e00e3852b4c",
+      "ref": "refs/tags/gherrit/exh-1109-workflow-staged-public-f-only-d56b864c-B/v2",
+      "tip": "7e42a00a4796d5164935e05aa45040aa98e67a92"
+    },
+    "F1": {
+      "base": "83ad35f2b53fa0aadd5fb7ec229c5d1148b7a662",
+      "ref": "refs/tags/gherrit/exh-1109-workflow-staged-public-f-only-d56b864c-F/v1",
+      "tip": "9d8e469be83fd3863c92ee3dafdf0b0485806d43"
+    }
+  },
+  "branches": {
+    "A": "exh-1109-workflow-staged-public-f-only-d56b864c/A",
+    "B": "exh-1109-workflow-staged-public-f-only-d56b864c/B",
+    "F": "exh-1109-workflow-staged-public-f-only-d56b864c/F",
+    "source": "exh-1109-workflow-staged-public-f-only-d56b864c/author-source",
+    "sourceF": "exh-1109-workflow-staged-public-f-only-d56b864c/F-only-source",
+    "trunk": "exh-1109-workflow-staged-public-f-only-d56b864c/trunk"
+  },
+  "case": "staged-public-f-only",
+  "checkpoint": {
+    "authored": {
+      "A": {
+        "base": "12f2693395e73e231b9e0e6239ed8c0aeb299921",
+        "tip": "c0efc5664c2562865ed1039b2c9a0d2a1e46f69a"
+      },
+      "B": {
+        "base": "cf92c03b37f17a3ba8e3bf52d4961e00e3852b4c",
+        "tip": "7e42a00a4796d5164935e05aa45040aa98e67a92"
+      },
+      "F": {
+        "base": "83ad35f2b53fa0aadd5fb7ec229c5d1148b7a662",
+        "tip": "9d8e469be83fd3863c92ee3dafdf0b0485806d43"
+      }
+    },
+    "continuation": "refs/continuations/repeat-2",
+    "incorporated": {
+      "B": {
+        "base": "cf92c03b37f17a3ba8e3bf52d4961e00e3852b4c",
+        "tip": "df45f82b86ffa0b69a66f69ef1ca3dac98c0b808"
+      }
+    },
+    "kind": "local-import",
+    "old_operations": [
+      {
+        "layer": "A",
+        "result": {
+          "details": {
+            "message": "Pull request was merged.",
+            "sha": "83ad35f2b53fa0aadd5fb7ec229c5d1148b7a662"
+          },
+          "status": "merged"
+        },
+        "selected_sha": "c0efc5664c2562865ed1039b2c9a0d2a1e46f69a",
+        "submission": "land-old-A-submit",
+        "suffix_settlement": "not established by this experiment"
+      },
+      {
+        "layer": "F",
+        "result": {
+          "details": {
+            "message": "Pull request was merged.",
+            "sha": "cf92c03b37f17a3ba8e3bf52d4961e00e3852b4c"
+          },
+          "status": "merged"
+        },
+        "selected_sha": "9d8e469be83fd3863c92ee3dafdf0b0485806d43",
+        "submission": "land-F-submit",
+        "suffix_settlement": "not established by this experiment"
+      }
+    ],
+    "result": "a09441729399ed7822851d0a9280cd19955462aa",
+    "source": "54d06acf4676c5eed4b4b90570b07dfb3096fd61"
+  },
+  "created": "2026-11-09T14:18:14.753679+00:00",
+  "exported_B": {
+    "base": "cf92c03b37f17a3ba8e3bf52d4961e00e3852b4c",
+    "tip": "7e42a00a4796d5164935e05aa45040aa98e67a92"
+  },
+  "final_inventory": {
+    "refs/heads/exh-1109-workflow-staged-public-f-only-d56b864c/A": "c0efc5664c2562865ed1039b2c9a0d2a1e46f69a",
+    "refs/heads/exh-1109-workflow-staged-public-f-only-d56b864c/B": "df45f82b86ffa0b69a66f69ef1ca3dac98c0b808",
+    "refs/heads/exh-1109-workflow-staged-public-f-only-d56b864c/F": "9d8e469be83fd3863c92ee3dafdf0b0485806d43",
+    "refs/heads/exh-1109-workflow-staged-public-f-only-d56b864c/F-only-source": "9d8e469be83fd3863c92ee3dafdf0b0485806d43",
+    "refs/heads/exh-1109-workflow-staged-public-f-only-d56b864c/author-source": "7e42a00a4796d5164935e05aa45040aa98e67a92",
+    "refs/heads/exh-1109-workflow-staged-public-f-only-d56b864c/trunk": "cf92c03b37f17a3ba8e3bf52d4961e00e3852b4c",
+    "refs/tags/gherrit/exh-1109-workflow-staged-public-f-only-d56b864c-A/v1": "c0efc5664c2562865ed1039b2c9a0d2a1e46f69a",
+    "refs/tags/gherrit/exh-1109-workflow-staged-public-f-only-d56b864c-B/v1": "4040cc4844abad8e18665f2cfc15e2d6d2def8d6",
+    "refs/tags/gherrit/exh-1109-workflow-staged-public-f-only-d56b864c-B/v2": "7e42a00a4796d5164935e05aa45040aa98e67a92",
+    "refs/tags/gherrit/exh-1109-workflow-staged-public-f-only-d56b864c-F/v1": "9d8e469be83fd3863c92ee3dafdf0b0485806d43"
+  },
+  "first_import": [
+    {
+      "accepted_local": {
+        "base": "9d8e469be83fd3863c92ee3dafdf0b0485806d43",
+        "tip": "079fac408fd3f35118b15b87c572d1d8423980df"
+      },
+      "change": "B",
+      "incorporated": {
+        "base": "83ad35f2b53fa0aadd5fb7ec229c5d1148b7a662",
+        "tip": "4ded56ac1eb889a87a0383f74863dc3e48a56a89"
+      },
+      "joined": "3bfd2fa542b3d42c7cef7845e10f1640ebdc8354",
+      "local_normalized": "218dab8e12be3ba51a99a885b36dbd2d62e77e00",
+      "old_normalized": "6d60915fc5a915ce6740d157329f37206cf40bd4"
+    }
+  ],
+  "incorporated_B": {
+    "base": "cf92c03b37f17a3ba8e3bf52d4961e00e3852b4c",
+    "tip": "df45f82b86ffa0b69a66f69ef1ca3dac98c0b808"
+  },
+  "initial_pr_bodies": {
+    "A": "Isolated synthetic staged-public-f-only fixture, layer A.\n\n*Authored by an AI agent acting on joshlf's behalf.*",
+    "B": "Isolated synthetic staged-public-f-only fixture, layer B.\n\n*Authored by an AI agent acting on joshlf's behalf.*",
+    "F": "Isolated synthetic staged-public-f-only fixture, layer F.\n\n*Authored by an AI agent acting on joshlf's behalf.*"
+  },
+  "initial_refs": {
+    "refs/heads/exh-1109-workflow-staged-public-f-only-d56b864c/A": "c0efc5664c2562865ed1039b2c9a0d2a1e46f69a",
+    "refs/heads/exh-1109-workflow-staged-public-f-only-d56b864c/B": "4040cc4844abad8e18665f2cfc15e2d6d2def8d6",
+    "refs/heads/exh-1109-workflow-staged-public-f-only-d56b864c/author-source": "4040cc4844abad8e18665f2cfc15e2d6d2def8d6",
+    "refs/heads/exh-1109-workflow-staged-public-f-only-d56b864c/trunk": "12f2693395e73e231b9e0e6239ed8c0aeb299921",
+    "refs/tags/gherrit/exh-1109-workflow-staged-public-f-only-d56b864c-A/v1": "c0efc5664c2562865ed1039b2c9a0d2a1e46f69a",
+    "refs/tags/gherrit/exh-1109-workflow-staged-public-f-only-d56b864c-B/v1": "4040cc4844abad8e18665f2cfc15e2d6d2def8d6"
+  },
+  "inputs": {
+    "A0": "c0efc5664c2562865ed1039b2c9a0d2a1e46f69a",
+    "Aprime": "0e76c93ad178aa9f3c7e5189d5ce8559cb03c229",
+    "B0": "4040cc4844abad8e18665f2cfc15e2d6d2def8d6",
+    "Bprime": "5333b1e9084ef3f43263085d38fec76762eae45e",
+    "trunk": "12f2693395e73e231b9e0e6239ed8c0aeb299921"
+  },
+  "landed_A_trunk": "83ad35f2b53fa0aadd5fb7ec229c5d1148b7a662",
+  "local_B": {
+    "base": "cf92c03b37f17a3ba8e3bf52d4961e00e3852b4c",
+    "tip": "a09441729399ed7822851d0a9280cd19955462aa"
+  },
+  "local_edits_captured": true,
+  "local_source_branch": "exh-1109-workflow-staged-public-f-only-d56b864c/author-source",
+  "native_operations": [
+    {
+      "layer": "A",
+      "result": {
+        "details": {
+          "message": "Pull request was merged.",
+          "sha": "83ad35f2b53fa0aadd5fb7ec229c5d1148b7a662"
+        },
+        "status": "merged"
+      },
+      "selected_sha": "c0efc5664c2562865ed1039b2c9a0d2a1e46f69a",
+      "submission": "land-old-A-submit",
+      "suffix_settlement": "not established by this experiment"
+    },
+    {
+      "layer": "F",
+      "result": {
+        "details": {
+          "message": "Pull request was merged.",
+          "sha": "cf92c03b37f17a3ba8e3bf52d4961e00e3852b4c"
+        },
+        "status": "merged"
+      },
+      "selected_sha": "9d8e469be83fd3863c92ee3dafdf0b0485806d43",
+      "submission": "land-F-submit",
+      "suffix_settlement": "not established by this experiment"
+    }
+  ],
+  "nodes": {
+    "A": "PR_kwDOVnhIZ88AAAABN3r5tQ",
+    "B": "PR_kwDOVnhIZ88AAAABN3r65A",
+    "F": "PR_kwDOVnhIZ88AAAABN3tGQQ"
+  },
+  "phase": "staged-trace-complete-with-labeled-hosted-control",
+  "planned_pr_bases": {
+    "A": "trunk",
+    "B": "A",
+    "F": "trunk"
+  },
+  "prefix": "exh-1109-workflow-staged-public-f-only-d56b864c",
+  "prs": {
+    "A": 646,
+    "B": 647,
+    "F": 649
+  },
+  "repeated_imports": [
+    {
+      "accepted": {
+        "base": "cf92c03b37f17a3ba8e3bf52d4961e00e3852b4c",
+        "tip": "54d06acf4676c5eed4b4b90570b07dfb3096fd61"
+      },
+      "checkpoint": {
+        "authored": {
+          "A": {
+            "base": "12f2693395e73e231b9e0e6239ed8c0aeb299921",
+            "tip": "c0efc5664c2562865ed1039b2c9a0d2a1e46f69a"
+          },
+          "B": {
+            "base": "cf92c03b37f17a3ba8e3bf52d4961e00e3852b4c",
+            "tip": "7e42a00a4796d5164935e05aa45040aa98e67a92"
+          },
+          "F": {
+            "base": "83ad35f2b53fa0aadd5fb7ec229c5d1148b7a662",
+            "tip": "9d8e469be83fd3863c92ee3dafdf0b0485806d43"
+          }
+        },
+        "continuation": "refs/continuations/repeat-1",
+        "incorporated": {
+          "B": {
+            "base": "cf92c03b37f17a3ba8e3bf52d4961e00e3852b4c",
+            "tip": "896d97a53451034b55f2a2fe88b360850af29a78"
+          }
+        },
+        "kind": "local-import",
+        "old_operations": [
+          {
+            "layer": "A",
+            "result": {
+              "details": {
+                "message": "Pull request was merged.",
+                "sha": "83ad35f2b53fa0aadd5fb7ec229c5d1148b7a662"
+              },
+              "status": "merged"
+            },
+            "selected_sha": "c0efc5664c2562865ed1039b2c9a0d2a1e46f69a",
+            "submission": "land-old-A-submit",
+            "suffix_settlement": "not established by this experiment"
+          },
+          {
+            "layer": "F",
+            "result": {
+              "details": {
+                "message": "Pull request was merged.",
+                "sha": "cf92c03b37f17a3ba8e3bf52d4961e00e3852b4c"
+              },
+              "status": "merged"
+            },
+            "selected_sha": "9d8e469be83fd3863c92ee3dafdf0b0485806d43",
+            "submission": "land-F-submit",
+            "suffix_settlement": "not established by this experiment"
+          }
+        ],
+        "result": "54d06acf4676c5eed4b4b90570b07dfb3096fd61",
+        "source": "fd8ce6411d635cfab3b933ed2980989d2be4528a"
+      },
+      "hosted": {
+        "base": "cf92c03b37f17a3ba8e3bf52d4961e00e3852b4c",
+        "tip": "896d97a53451034b55f2a2fe88b360850af29a78"
+      }
+    },
+    {
+      "accepted": {
+        "base": "cf92c03b37f17a3ba8e3bf52d4961e00e3852b4c",
+        "tip": "a09441729399ed7822851d0a9280cd19955462aa"
+      },
+      "checkpoint": {
+        "authored": {
+          "A": {
+            "base": "12f2693395e73e231b9e0e6239ed8c0aeb299921",
+            "tip": "c0efc5664c2562865ed1039b2c9a0d2a1e46f69a"
+          },
+          "B": {
+            "base": "cf92c03b37f17a3ba8e3bf52d4961e00e3852b4c",
+            "tip": "7e42a00a4796d5164935e05aa45040aa98e67a92"
+          },
+          "F": {
+            "base": "83ad35f2b53fa0aadd5fb7ec229c5d1148b7a662",
+            "tip": "9d8e469be83fd3863c92ee3dafdf0b0485806d43"
+          }
+        },
+        "continuation": "refs/continuations/repeat-2",
+        "incorporated": {
+          "B": {
+            "base": "cf92c03b37f17a3ba8e3bf52d4961e00e3852b4c",
+            "tip": "df45f82b86ffa0b69a66f69ef1ca3dac98c0b808"
+          }
+        },
+        "kind": "local-import",
+        "old_operations": [
+          {
+            "layer": "A",
+            "result": {
+              "details": {
+                "message": "Pull request was merged.",
+                "sha": "83ad35f2b53fa0aadd5fb7ec229c5d1148b7a662"
+              },
+              "status": "merged"
+            },
+            "selected_sha": "c0efc5664c2562865ed1039b2c9a0d2a1e46f69a",
+            "submission": "land-old-A-submit",
+            "suffix_settlement": "not established by this experiment"
+          },
+          {
+            "layer": "F",
+            "result": {
+              "details": {
+                "message": "Pull request was merged.",
+                "sha": "cf92c03b37f17a3ba8e3bf52d4961e00e3852b4c"
+              },
+              "status": "merged"
+            },
+            "selected_sha": "9d8e469be83fd3863c92ee3dafdf0b0485806d43",
+            "submission": "land-F-submit",
+            "suffix_settlement": "not established by this experiment"
+          }
+        ],
+        "result": "a09441729399ed7822851d0a9280cd19955462aa",
+        "source": "54d06acf4676c5eed4b4b90570b07dfb3096fd61"
+      },
+      "hosted": {
+        "base": "cf92c03b37f17a3ba8e3bf52d4961e00e3852b4c",
+        "tip": "df45f82b86ffa0b69a66f69ef1ca3dac98c0b808"
+      }
+    }
+  ],
+  "repository": "joshlf/gherrit-native-stack-experiments-2026-11-08",
+  "stack": {
+    "base": {
+      "ref": "exh-1109-workflow-staged-public-f-only-d56b864c/trunk"
+    },
+    "created_at": "2026-11-09T14:47:05Z",
+    "id": 3247533,
+    "node_id": "PRS_kwDOVnhIZ84AMY2t",
+    "number": 648,
+    "open": true,
+    "pull_requests": [
+      {
+        "base": {
+          "ref": "exh-1109-workflow-staged-public-f-only-d56b864c/trunk",
+          "repo": {
+            "id": 1450723431,
+            "name": "gherrit-native-stack-experiments-2026-11-08",
+            "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08"
+          },
+          "sha": "12f2693395e73e231b9e0e6239ed8c0aeb299921"
+        },
+        "draft": false,
+        "head": {
+          "ref": "exh-1109-workflow-staged-public-f-only-d56b864c/A",
+          "repo": {
+            "id": 1450723431,
+            "name": "gherrit-native-stack-experiments-2026-11-08",
+            "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08"
+          },
+          "sha": "c0efc5664c2562865ed1039b2c9a0d2a1e46f69a"
+        },
+        "html_url": "https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08/pull/646",
+        "id": 5225773493,
+        "merged_at": null,
+        "node_id": "PR_kwDOVnhIZ88AAAABN3r5tQ",
+        "number": 646,
+        "state": "open",
+        "title": "exh-1109-workflow-staged-public-f-only-d56b864c A",
+        "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/pulls/646",
+        "user": {
+          "avatar_url": "https://avatars.githubusercontent.com/u/1046063?v=4",
+          "events_url": "https://api.github.com/users/joshlf/events{/privacy}",
+          "followers_url": "https://api.github.com/users/joshlf/followers",
+          "following_url": "https://api.github.com/users/joshlf/following{/other_user}",
+          "gists_url": "https://api.github.com/users/joshlf/gists{/gist_id}",
+          "gravatar_id": "",
+          "html_url": "https://github.com/joshlf",
+          "id": 1046063,
+          "login": "joshlf",
+          "node_id": "MDQ6VXNlcjEwNDYwNjM=",
+          "organizations_url": "https://api.github.com/users/joshlf/orgs",
+          "received_events_url": "https://api.github.com/users/joshlf/received_events",
+          "repos_url": "https://api.github.com/users/joshlf/repos",
+          "site_admin": false,
+          "starred_url": "https://api.github.com/users/joshlf/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/joshlf/subscriptions",
+          "type": "User",
+          "url": "https://api.github.com/users/joshlf",
+          "user_view_type": "public"
+        }
+      },
+      {
+        "base": {
+          "ref": "exh-1109-workflow-staged-public-f-only-d56b864c/A",
+          "repo": {
+            "id": 1450723431,
+            "name": "gherrit-native-stack-experiments-2026-11-08",
+            "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08"
+          },
+          "sha": "c0efc5664c2562865ed1039b2c9a0d2a1e46f69a"
+        },
+        "draft": false,
+        "head": {
+          "ref": "exh-1109-workflow-staged-public-f-only-d56b864c/B",
+          "repo": {
+            "id": 1450723431,
+            "name": "gherrit-native-stack-experiments-2026-11-08",
+            "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08"
+          },
+          "sha": "4040cc4844abad8e18665f2cfc15e2d6d2def8d6"
+        },
+        "html_url": "https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08/pull/647",
+        "id": 5225773796,
+        "merged_at": null,
+        "node_id": "PR_kwDOVnhIZ88AAAABN3r65A",
+        "number": 647,
+        "state": "open",
+        "title": "exh-1109-workflow-staged-public-f-only-d56b864c B",
+        "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/pulls/647",
+        "user": {
+          "avatar_url": "https://avatars.githubusercontent.com/u/1046063?v=4",
+          "events_url": "https://api.github.com/users/joshlf/events{/privacy}",
+          "followers_url": "https://api.github.com/users/joshlf/followers",
+          "following_url": "https://api.github.com/users/joshlf/following{/other_user}",
+          "gists_url": "https://api.github.com/users/joshlf/gists{/gist_id}",
+          "gravatar_id": "",
+          "html_url": "https://github.com/joshlf",
+          "id": 1046063,
+          "login": "joshlf",
+          "node_id": "MDQ6VXNlcjEwNDYwNjM=",
+          "organizations_url": "https://api.github.com/users/joshlf/orgs",
+          "received_events_url": "https://api.github.com/users/joshlf/received_events",
+          "repos_url": "https://api.github.com/users/joshlf/repos",
+          "site_admin": false,
+          "starred_url": "https://api.github.com/users/joshlf/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/joshlf/subscriptions",
+          "type": "User",
+          "url": "https://api.github.com/users/joshlf",
+          "user_view_type": "public"
+        }
+      }
+    ],
+    "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/stacks/648"
+  }
+}

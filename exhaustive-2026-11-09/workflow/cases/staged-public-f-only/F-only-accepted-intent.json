@@ -1,0 +1,31 @@
+{
+  "accepted_continuation": "079fac408fd3f35118b15b87c572d1d8423980df",
+  "admission": {
+    "accepted": true,
+    "reason": "F-only staging was explicitly selected"
+  },
+  "defer": [
+    "B"
+  ],
+  "full_pending_source": "5333b1e9084ef3f43263085d38fec76762eae45e",
+  "older_native_operations_retained": [
+    {
+      "layer": "A",
+      "result": {
+        "details": {
+          "message": "Pull request was merged.",
+          "sha": "83ad35f2b53fa0aadd5fb7ec229c5d1148b7a662"
+        },
+        "status": "merged"
+      },
+      "selected_sha": "c0efc5664c2562865ed1039b2c9a0d2a1e46f69a",
+      "submission": "land-old-A-submit",
+      "suffix_settlement": "not established by this experiment"
+    }
+  ],
+  "publish": [
+    "F"
+  ],
+  "scope_limit": "Fresh F refs/PR are disjoint from old A/B suffix targets; this does not clear later B's overlap gate.",
+  "source_export": "F-only"
+}

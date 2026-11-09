@@ -1,0 +1,168 @@
+{
+  "prefix": "result_checkpoint",
+  "verdict": {
+    "prefix": "result_checkpoint",
+    "passed": true,
+    "classification": "validated_complete",
+    "expected": "validated_complete",
+    "checks": [
+      {
+        "name": "same_fixture_directory",
+        "passed": true
+      },
+      {
+        "name": "captured_provider_directory",
+        "passed": true
+      },
+      {
+        "name": "binding_agrees_with_frozen_intent",
+        "passed": true
+      },
+      {
+        "name": "checkpoint_agrees_with_frozen_intent",
+        "passed": true
+      },
+      {
+        "name": "captured_custody_owner_and_token",
+        "passed": true
+      },
+      {
+        "name": "captured_authority_path",
+        "passed": true
+      },
+      {
+        "name": "durable_prefix_operation",
+        "passed": true
+      },
+      {
+        "name": "durable_prefix_requests",
+        "passed": true
+      },
+      {
+        "name": "durable_prefix_receipts",
+        "passed": true
+      },
+      {
+        "name": "durable_prefix_checkpoint",
+        "passed": true
+      },
+      {
+        "name": "exact_frozen_intent",
+        "passed": true
+      },
+      {
+        "name": "unchanged_authority.json",
+        "passed": true
+      },
+      {
+        "name": "unchanged_authority-link.json",
+        "passed": true
+      },
+      {
+        "name": "unchanged_manifest.json",
+        "passed": true
+      },
+      {
+        "name": "unchanged_bindings.json",
+        "passed": true
+      },
+      {
+        "name": "unchanged_original-checkpoint.json",
+        "passed": true
+      },
+      {
+        "name": "manifest_binds_intent",
+        "passed": true
+      },
+      {
+        "name": "local_all_original_git_objects_exact",
+        "passed": true
+      },
+      {
+        "name": "provider_all_original_git_objects_exact",
+        "passed": true
+      },
+      {
+        "name": "unchanged_fsck_diagnostics_local",
+        "passed": true
+      },
+      {
+        "name": "unchanged_fsck_diagnostics_provider",
+        "passed": true
+      },
+      {
+        "name": "retained_input",
+        "passed": true
+      },
+      {
+        "name": "retained_result",
+        "passed": true
+      },
+      {
+        "name": "unknown_effect_never_resends",
+        "passed": true
+      },
+      {
+        "name": "completed_operation_state",
+        "passed": true
+      },
+      {
+        "name": "exact_local_continuation",
+        "passed": true
+      },
+      {
+        "name": "exact_local_checkpoint",
+        "passed": true
+      },
+      {
+        "name": "exact_local_receipt",
+        "passed": true
+      },
+      {
+        "name": "exact_provider_head",
+        "passed": true
+      },
+      {
+        "name": "exact_provider_archive",
+        "passed": true
+      },
+      {
+        "name": "exact_single_provider_request",
+        "passed": true
+      },
+      {
+        "name": "exact_single_provider_receipt",
+        "passed": true
+      },
+      {
+        "name": "planned_prefix_expectation",
+        "passed": true
+      }
+    ],
+    "worker_result": {
+      "status": "complete"
+    }
+  },
+  "pre_recovery": {
+    "file": "result_checkpoint-pre-recovery.raw.gz",
+    "raw_bytes": 33554432,
+    "raw_sha256": "b5f7195bfb3881f49d4b8525bb81e2393f0c17dc504c00ff14c0a7079efe4cc4",
+    "gzip_sha256": "6deb760710af8ece3e25edd44720450da92556c8b0429f52a2984f11536f227d",
+    "gzip_bytes": 194433,
+    "verified_lossless": true
+  },
+  "post_recovery": {
+    "file": "result_checkpoint-post-recovery.raw.gz",
+    "raw_bytes": 33554432,
+    "raw_sha256": "1d9193bf056fa0a2848e3039a90a0846b463d69800814d3c06c6235365c0aa5e",
+    "gzip_sha256": "7f3b7e8517c658ffcd5ff11271b623e67620fdf500d726195d36a11d49dc4ee2",
+    "gzip_bytes": 204123,
+    "verified_lossless": true
+  },
+  "fsck": {
+    "exit": 0,
+    "stdout": "Pass 1: Checking inodes, blocks, and sizes\nPass 2: Checking directory structure\nPass 3: Checking directory connectivity\nPass 4: Checking reference counts\nPass 5: Checking group summary information\n/lab/protocol-durable/actual-results/result_checkpoint.raw: 97/8192 files (2.1% non-contiguous), 1635/8192 blocks\n",
+    "stderr": "e2fsck 1.46.5 (30-Dec-2021)\n",
+    "repair": false
+  }
+}

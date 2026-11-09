@@ -1,0 +1,200 @@
+[
+  {
+    "case": "after-rewrite-squash-3",
+    "kind": "member-A",
+    "sha": "6ac1fcfbc0ad1804dc90b728972ea7f61500ef35",
+    "agent_trailer_count": 1
+  },
+  {
+    "case": "after-rewrite-squash-3",
+    "kind": "member-B",
+    "sha": "3dd6004ae0226d77dd1e4458d04a9cb48c76221c",
+    "agent_trailer_count": 1
+  },
+  {
+    "case": "after-rewrite-squash-3",
+    "kind": "member-C",
+    "sha": "8eb49d8d1eaae151a138150e8976a7656ca97afc",
+    "agent_trailer_count": 1
+  },
+  {
+    "case": "after-rewrite-squash-3",
+    "kind": "member-D",
+    "sha": "8be2c7aa1929d0c95650bbc6b17db1135f93dea4",
+    "agent_trailer_count": 1
+  },
+  {
+    "case": "after-rewrite-squash-3",
+    "kind": "landed-trunk",
+    "sha": "3458fa5694ed37a23a9146f38ec2272745ee4e04",
+    "agent_trailer_count": 1
+  },
+  {
+    "case": "early-squash-3",
+    "kind": "member-A",
+    "sha": "af34e35a5c765cbd0bc88a0f5994c89f9972de37",
+    "agent_trailer_count": 1
+  },
+  {
+    "case": "early-squash-3",
+    "kind": "member-B",
+    "sha": "037d8c2a288ee65451980f837ddb8f299b41434f",
+    "agent_trailer_count": 1
+  },
+  {
+    "case": "early-squash-3",
+    "kind": "member-C",
+    "sha": "772e3b02c77fa30e125276b2297e8dc02cd46c3b",
+    "agent_trailer_count": 1
+  },
+  {
+    "case": "early-squash-3",
+    "kind": "member-D",
+    "sha": "6f934284e5fa49f477f6916a38b5c03d936e279d",
+    "agent_trailer_count": 1
+  },
+  {
+    "case": "early-squash-3",
+    "kind": "landed-trunk",
+    "sha": "171fa5882993433ff8dec3aea36a6beba7a0f857",
+    "agent_trailer_count": 1
+  },
+  {
+    "case": "force-control",
+    "kind": "member-A",
+    "sha": "010278c6609b85f42a0c804f3802ce38982d4cb5",
+    "agent_trailer_count": 1
+  },
+  {
+    "case": "force-control",
+    "kind": "member-B",
+    "sha": "395c1d662bc0ef00d0b172fe01ecb6e036b42754",
+    "agent_trailer_count": 1
+  },
+  {
+    "case": "ordinary-sync-3",
+    "kind": "member-A",
+    "sha": "657f97fc324ab818d114888705011b2ccf880802",
+    "agent_trailer_count": 1
+  },
+  {
+    "case": "ordinary-sync-3",
+    "kind": "member-B",
+    "sha": "0029f30750ee9206dfa865f27b1d49b9b2e78cf8",
+    "agent_trailer_count": 1
+  },
+  {
+    "case": "ordinary-sync-3",
+    "kind": "member-C",
+    "sha": "dd20932f072bd3bfd39533375dff5859cd8290be",
+    "agent_trailer_count": 1
+  },
+  {
+    "case": "ordinary-sync-3",
+    "kind": "member-D",
+    "sha": "47a8fee99fb7fbc70ed35f495a1a98f8f77f44df",
+    "agent_trailer_count": 1
+  },
+  {
+    "case": "ordinary-sync-3",
+    "kind": "landed-trunk",
+    "sha": "6cb26ec4e14e1fa14b91c6358bf4e2bf0c736675",
+    "agent_trailer_count": 1
+  },
+  {
+    "case": "post-merge-1",
+    "kind": "member-A",
+    "sha": "2ee11d40e27b6f162970fe7b4f46b5ad278f2c7f",
+    "agent_trailer_count": 1
+  },
+  {
+    "case": "post-merge-1",
+    "kind": "member-B",
+    "sha": "06931658158737beb92b1b42cf129578d5b20795",
+    "agent_trailer_count": 1
+  },
+  {
+    "case": "post-merge-1",
+    "kind": "landed-trunk",
+    "sha": "08b9f4f97fe272b20bfecb8b563097dccc1125e2",
+    "agent_trailer_count": 0
+  },
+  {
+    "case": "post-rebase-3",
+    "kind": "member-A",
+    "sha": "a82ea80add95dc5deb40fadf34babb6a3a5d9e35",
+    "agent_trailer_count": 1
+  },
+  {
+    "case": "post-rebase-3",
+    "kind": "member-B",
+    "sha": "51a73475d07713b2d65d617667f4a94daaf6e09c",
+    "agent_trailer_count": 1
+  },
+  {
+    "case": "post-rebase-3",
+    "kind": "member-C",
+    "sha": "cc27e6cd75d20a349d7342e9e7912ad6e256ec3a",
+    "agent_trailer_count": 1
+  },
+  {
+    "case": "post-rebase-3",
+    "kind": "member-D",
+    "sha": "7cc4ad3de9009002e3cd1950a7de9f80a182bfa4",
+    "agent_trailer_count": 1
+  },
+  {
+    "case": "post-rebase-3",
+    "kind": "landed-trunk",
+    "sha": "3b73f10efc39c04495cbf10d4fe193c82d2c49a2",
+    "agent_trailer_count": 1
+  },
+  {
+    "case": "post-squash-1",
+    "kind": "member-A",
+    "sha": "bf6901709a632df1c4e052a7fdb6c593303b357a",
+    "agent_trailer_count": 1
+  },
+  {
+    "case": "post-squash-1",
+    "kind": "member-B",
+    "sha": "7d5a84a514aa19b8ddbd6e4beb2b470751d2f9ec",
+    "agent_trailer_count": 1
+  },
+  {
+    "case": "post-squash-1",
+    "kind": "landed-trunk",
+    "sha": "8bf5ca5a46d6641f78d905461e92cd8008ff157a",
+    "agent_trailer_count": 1
+  },
+  {
+    "case": "post-squash-3",
+    "kind": "member-A",
+    "sha": "3943d987d917b5c73bd963daae64a2b4411bc611",
+    "agent_trailer_count": 1
+  },
+  {
+    "case": "post-squash-3",
+    "kind": "member-B",
+    "sha": "d94d00b91f8bcd645818262f4744f31194d5a0d0",
+    "agent_trailer_count": 1
+  },
+  {
+    "case": "post-squash-3",
+    "kind": "member-C",
+    "sha": "3f2107bfc08c34a8489b8ca1f3053defa5077e5d",
+    "agent_trailer_count": 1
+  },
+  {
+    "case": "post-squash-3",
+    "kind": "member-D",
+    "sha": "9e66a64bfddd8a45aac46e2542b98fae02c4251e",
+    "agent_trailer_count": 1
+  },
+  {
+    "case": "post-squash-3",
+    "kind": "landed-trunk",
+    "sha": "5ed495ebf0ba559c633677265d61246841586a29",
+    "agent_trailer_count": 1
+  }
+]

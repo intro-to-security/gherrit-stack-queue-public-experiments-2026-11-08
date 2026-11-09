@@ -1,0 +1,28 @@
+{
+  "kind": "cli-git",
+  "args": [
+    "-c",
+    "push.pushOption=pull.stacked",
+    "push",
+    "origin",
+    "--force-with-lease=refs/heads/exh-1109-causal-ordinary-sync-3/B:4e7dc76044d7c2bc9e9d3b3b679dde6f3e85e24c",
+    "--force-with-lease=refs/heads/exh-1109-causal-ordinary-sync-3/C:3ab9121da777b75d7f934c1ac9555ab2ed976208",
+    "--force-with-lease=refs/heads/exh-1109-causal-ordinary-sync-3/D:da6af1c4ac97a928270695c4bb98a8707950f4a4",
+    "--atomic",
+    "refs/heads/exh-1109-causal-ordinary-sync-3/B:refs/heads/exh-1109-causal-ordinary-sync-3/B",
+    "refs/heads/exh-1109-causal-ordinary-sync-3/C:refs/heads/exh-1109-causal-ordinary-sync-3/C",
+    "refs/heads/exh-1109-causal-ordinary-sync-3/D:refs/heads/exh-1109-causal-ordinary-sync-3/D"
+  ],
+  "push": true,
+  "start": {
+    "utc": "2026-11-09T14:20:34.620383+00:00",
+    "monotonic": 0.016248791
+  },
+  "end": {
+    "utc": "2026-11-09T14:20:36.063898+00:00",
+    "monotonic": 1.459798916
+  },
+  "exit": 0,
+  "stdout": "",
+  "stderr": "To https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08.git\n + 4e7dc76...0029f30 exh-1109-causal-ordinary-sync-3/B -> exh-1109-causal-ordinary-sync-3/B (forced update)\n + 3ab9121...dd20932 exh-1109-causal-ordinary-sync-3/C -> exh-1109-causal-ordinary-sync-3/C (forced update)\n + da6af1c...47a8fee exh-1109-causal-ordinary-sync-3/D -> exh-1109-causal-ordinary-sync-3/D (forced update)\n"
+}

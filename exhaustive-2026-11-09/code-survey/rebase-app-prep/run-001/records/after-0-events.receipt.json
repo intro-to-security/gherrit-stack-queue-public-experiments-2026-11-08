@@ -1,0 +1,13 @@
+{
+  "started": {
+    "utc": "2026-11-09T16:45:46.831449+00:00",
+    "monotonic_ns": 807021791
+  },
+  "finished": {
+    "utc": "2026-11-09T16:45:47.246261+00:00",
+    "monotonic_ns": 1221850375
+  },
+  "returncode": 0,
+  "stdout": "{\"data\":{\"repository\":{\"A\":{\"number\":654,\"id\":\"PR_kwDOVnhIZ88AAAABN5USaw\",\"state\":\"OPEN\",\"merged\":false,\"mergedAt\":null,\"headRefName\":\"exh-1109-causal-rb-app-001/A\",\"headRefOid\":\"5afe9c34540002ec9554c2e9d279f4fa895d89db\",\"baseRefName\":\"exh-1109-causal-rb-app-001/trunk\",\"baseRefOid\":\"ed2c60237bed7d27262450cd6028b9dfd0fee983\",\"timelineItems\":{\"pageInfo\":{\"hasPreviousPage\":false},\"nodes\":[]}},\"B\":{\"number\":655,\"id\":\"PR_kwDOVnhIZ88AAAABN5UTrw\",\"state\":\"OPEN\",\"merged\":false,\"mergedAt\":null,\"headRefName\":\"exh-1109-causal-rb-app-001/B\",\"headRefOid\":\"11ddd6ef32afc4bca7865a22c70248a6156edee7\",\"baseRefName\":\"exh-1109-causal-rb-app-001/A\",\"baseRefOid\":\"5afe9c34540002ec9554c2e9d279f4fa895d89db\",\"timelineItems\":{\"pageInfo\":{\"hasPreviousPage\":false},\"nodes\":[]}}}}}",
+  "stderr": ""
+}

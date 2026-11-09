@@ -1,0 +1,26 @@
+HTTP/2.0 200 OK
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset, Warning
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Mon, 09 Nov 2026 14:39:39 GMT
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: github.com
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept-Encoding, Accept, X-Requested-With
+X-Accepted-Oauth-Scopes: repo
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Edge-Region: iad
+X-Github-Media-Type: github.v4; format=json
+X-Github-Request-Id: C935:2A1140:146F6BD:4362CC1:6AF1DB29
+X-Oauth-Client-Id: 178c6fc778ccc68e1d6a
+X-Oauth-Scopes: gist, read:org, repo, workflow
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4943
+X-Ratelimit-Reset: 1794237922
+X-Ratelimit-Resource: graphql
+X-Ratelimit-Used: 57
+X-Xss-Protection: 0
+
+{"data":{"updatePullRequestBranch":{"clientMutationId":"exh-1109-workflow-gql-native-lower-71519433-once","pullRequest":{"id":"PR_kwDOVnhIZ88AAAABN3kwUQ","number":618,"headRefOid":"f91404d352a17ee81437224fe1a08080a14221b4","baseRefName":"exh-1109-workflow-gql-native-lower-71519433/trunk","baseRefOid":"a810a5f65ef9e212725a5227f43e6804a3fb691a","stack":{"id":"PRS_kwDOVnhIZ84AMYvX","number":621,"size":3,"baseRefName":"exh-1109-workflow-gql-native-lower-71519433/trunk"}}}}}

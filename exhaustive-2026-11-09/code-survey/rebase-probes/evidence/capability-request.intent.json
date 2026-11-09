@@ -1,0 +1,17 @@
+{
+  "kind": "http",
+  "case": "capability",
+  "method": "PUT",
+  "path": "repositories/1450723431/stacks/653/rebase",
+  "payload": {
+    "expected_head_oid_by_pr_number": {
+      "650": "f5426f21bde544d07c71a07837961c4ff65584e0",
+      "651": "8d8919ed957f9ac4bf0ebc371ede77843ea262f9",
+      "652": "0f4445c43fc2b88a0c9a20ce354433bb6ed34bcf"
+    }
+  },
+  "start": {
+    "utc": "2026-11-09T14:56:18.077010+00:00",
+    "monotonic": 14.971196125
+  }
+}

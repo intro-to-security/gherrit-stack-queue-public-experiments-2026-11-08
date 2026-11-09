@@ -1,0 +1,42 @@
+{
+  "data": {
+    "data": {
+      "updatePullRequestBranch": {
+        "clientMutationId": "exh-1109-workflow-staged-private-ee93bbfc-native-repeat-1",
+        "pullRequest": {
+          "baseRefName": "exh-1109-workflow-staged-private-ee93bbfc/trunk",
+          "baseRefOid": "3eb8154fc4e875c7fb338197055f0ddbec7f8aef",
+          "headRefOid": "e7812b116d8d8d606be4e19e3c357045e96769a4",
+          "id": "PR_kwDOVnhIZ88AAAABN3mfFw",
+          "number": 627,
+          "stack": {
+            "baseRefName": "exh-1109-workflow-staged-private-ee93bbfc/trunk",
+            "id": "PRS_kwDOVnhIZ84AMYxS",
+            "number": 628,
+            "size": 2
+          }
+        }
+      }
+    }
+  },
+  "disposition": "response-retained",
+  "ended": "2026-11-09T14:51:25.937836+00:00",
+  "exit": 0,
+  "http": 200,
+  "kind": "update-branch",
+  "method": "POST",
+  "monotonic": 9.655381208,
+  "path": "graphql",
+  "payload": {
+    "query": "mutation WorkflowUpdate($input: UpdatePullRequestBranchInput!) {\n  updatePullRequestBranch(input: $input) {\n    clientMutationId\n    pullRequest { id number headRefOid baseRefName baseRefOid\n      stack { id number size baseRefName } }\n  }\n}",
+    "variables": {
+      "input": {
+        "clientMutationId": "exh-1109-workflow-staged-private-ee93bbfc-native-repeat-1",
+        "expectedHeadOid": "e7812b116d8d8d606be4e19e3c357045e96769a4",
+        "pullRequestId": "PR_kwDOVnhIZ88AAAABN3mfFw",
+        "updateMethod": "REBASE"
+      }
+    }
+  },
+  "started": "2026-11-09T14:51:24.157198+00:00"
+}

@@ -1,0 +1,8 @@
+{
+  "at": {
+    "utc": "2026-11-09T14:00:26.020352+00:00",
+    "monotonic": 27.972207916
+  },
+  "error": "Push failed or outcome uncertain; freeze and reconcile post-squash-3-marker-push",
+  "policy": "No automatic write retry; read-only reconciliation required."
+}

@@ -1,0 +1,23 @@
+{
+  "files": [
+    {
+      "path": "REPORT.md",
+      "sha256": "9d1e88fe7f0ceed0f2ea77a10cb9fb1ce33d39a1df00b7802884becdbc65f0f4",
+      "bytes": 6979
+    },
+    {
+      "path": "CHECKS.json",
+      "sha256": "26a1d2afb801f3439c61b5e587c3586d5d5bc3a9fb5ea6a1c5db215bb45509b0",
+      "bytes": 8843
+    },
+    {
+      "path": "checks.py",
+      "sha256": "2b4783f5ffc8d80640d6f1c2363956856d9c84073e1bacdffb082152be21e10f",
+      "bytes": 7205
+    }
+  ],
+  "authority": "Read-only candidate audit; own source/notes only",
+  "external_actions": 0,
+  "retained_prior": "history/1794239157693200000",
+  "scope": "No Git fixture, actual worker, build, VM, container or network execution"
+}

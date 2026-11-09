@@ -1,0 +1,101 @@
+{
+  "checks": [
+    {
+      "actual": "1\n",
+      "expected": "1\n",
+      "name": "round current intent survives late reversal 1",
+      "passed": true
+    },
+    {
+      "actual": "2\n",
+      "expected": "2\n",
+      "name": "round current intent survives late reversal 2",
+      "passed": true
+    },
+    {
+      "actual": "1\n",
+      "expected": "1\n",
+      "name": "round current intent survives late reversal 3",
+      "passed": true
+    },
+    {
+      "actual": 3,
+      "expected": 3,
+      "name": "A/B/A keeps separate exact archived positions",
+      "passed": true
+    },
+    {
+      "actual": "179ff0917e23b233edaf907375af25c703ab9cfe",
+      "expected": "179ff0917e23b233edaf907375af25c703ab9cfe",
+      "name": "no-op output exact tree",
+      "passed": true
+    },
+    {
+      "actual": 3,
+      "expected": 3,
+      "name": "no-op creates no fourth archive",
+      "passed": true
+    },
+    {
+      "actual": "3\n",
+      "expected": "3\n",
+      "name": "later current source remains pending relative to captured export",
+      "passed": true
+    },
+    {
+      "actual": "1\n",
+      "expected": "1\n",
+      "name": "first candidate clean restoration violates accepted reset",
+      "passed": true
+    },
+    {
+      "actual": "needs_explicit_path_resolution",
+      "expected": "needs_explicit_path_resolution",
+      "name": "revised guard detects clean but intent-losing proposal",
+      "passed": true
+    },
+    {
+      "actual": "0\n",
+      "expected": "0\n",
+      "name": "explicit path choice preserves accepted reset",
+      "passed": true
+    }
+  ],
+  "details": {
+    "accepted_intent": "b5d0108ed14d7eac2eb7ce80d2509985c2d365de",
+    "authored": [
+      "e2f6bd3a4443384f8e59f1a6355736a44f04b6f9",
+      "45180f3d0b05ab7889c678b02004d89f50035f35",
+      "b5d0108ed14d7eac2eb7ce80d2509985c2d365de"
+    ],
+    "candidate_v1_failure": {
+      "actual_x": "1",
+      "intended": "9d720dcd1652c4a43cd885811a472cd5ad02d07f",
+      "intended_x": "0",
+      "proposed": "a5cd9d9199004abe932551320ec0c08af67cf712"
+    },
+    "current": "177bbf48b60bde81d2dc6c0c923a79cfd669fabc",
+    "drift_decisions": 3,
+    "explicit_resolution": {
+      "proposed": "452b6f0d168f66caaf8452de6bc91bf2896348c5",
+      "status": "explicit_path_resolution_proposal"
+    },
+    "incorporated": "b5d0108ed14d7eac2eb7ce80d2509985c2d365de",
+    "no_op": {
+      "proposed": "6156b0896cc7b48d38d458cbff40583c126ae13e",
+      "status": "ordinary_proposal"
+    },
+    "revised_candidate": {
+      "mismatches": [
+        "x"
+      ],
+      "proposed": "84f124122762d68931a127fc55b777362948db66",
+      "status": "needs_explicit_path_resolution"
+    },
+    "scratch_commit_identity_is_not_submission_identity": true
+  },
+  "disposition": "performed",
+  "id": "R03",
+  "status": "passed",
+  "title": "Repeated changes, no-op and moving source"
+}

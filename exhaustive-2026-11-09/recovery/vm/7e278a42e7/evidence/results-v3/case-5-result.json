@@ -1,0 +1,23 @@
+{
+  "stage": 5,
+  "records": {
+    "/state/current.json": {
+      "generation": 1,
+      "value": "new-complete"
+    },
+    "/state/next.json": null,
+    "/state/intent.json": null,
+    "/state/ref.json": {
+      "generation": 0,
+      "value": "old-complete"
+    },
+    "/state/checkpoint.json": {
+      "generation": 0,
+      "value": "old-complete"
+    }
+  },
+  "after_cut_sha256": "b9fa9c1ed0b1cdaa891c9f37e280df469d8b0f7ccad7e58bf680cec279751da7",
+  "after_inspection_sha256": "b7afdee5e86fc31947f33d193fa96cb3c8c03606795dee644eba359c867349c3",
+  "recovery": "matching-record-generations",
+  "fsck_exit": 0
+}

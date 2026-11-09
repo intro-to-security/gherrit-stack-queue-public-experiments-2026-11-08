@@ -1,0 +1,23 @@
+{
+  "status": "request-only-not-a-grant",
+  "repository": "joshlf/gherrit-native-stack-experiments-2026-11-08",
+  "cases": {
+    "staged-private": {
+      "prefix": "exh-1109-workflow-staged-private-ee93bbfc",
+      "actions": [
+        "native-repeat"
+      ],
+      "effects": [
+        "push",
+        "update-branch"
+      ]
+    }
+  },
+  "harness_sha256": {
+    "core.py": "a98242dabb752a89f8da47814ea62313d1d64871afe50042f930875445e4f453",
+    "effects.py": "20d8a34e0d04e93080f70c5bc3499fe5835cb2d45feff4c5bb95a3fed6418cc9",
+    "run.py": "996f4073feb7460b004f190ac95228242ad8ab0d8e8537a80fc0cb9f69d2abc0",
+    "native_repeat.py": "aae807faa571f28b60bb13d3bdccc93dc669ad403129a24355782cee2693cdab"
+  },
+  "scope": "After confirmed B v2, two leased advances to this same synthetic trunk and two selected-B generic REBASE requests. Import each actual new native range while preserving one unpublished consumer edit, exact archives and old operations. No new PR/membership/settings/main/source/archive writes."
+}

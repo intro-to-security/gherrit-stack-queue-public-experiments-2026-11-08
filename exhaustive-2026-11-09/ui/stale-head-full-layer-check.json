@@ -1,0 +1,15 @@
+{
+  "expected_input_base": "39c73062e5a2342e24ec2988a86e4b5c67fe6cf1",
+  "expected_input_tip": "fb9b179e6d183acb1d09ec4a72cad38b29ea7acf",
+  "actual_base": "7a3955b33b0ed777e5a1b16eb4e0220d1a6e48d7",
+  "actual_tip": "280f4e558dd72aafdd0388a027a7b87e2444a1af",
+  "expected_full_layer_patch": "diff --git a/b.txt b/b.txt\nnew file mode 100644\nindex 0000000..ea74a05\n--- /dev/null\n+++ b/b.txt\n@@ -0,0 +1 @@\n+Synthetic layer B.\ndiff --git a/late-head.txt b/late-head.txt\nnew file mode 100644\nindex 0000000..df92e5b\n--- /dev/null\n+++ b/late-head.txt\n@@ -0,0 +1 @@\n+A distinct top-head update after the website modal opened.",
+  "actual_full_layer_patch": "diff --git a/b.txt b/b.txt\nnew file mode 100644\nindex 0000000..ea74a05\n--- /dev/null\n+++ b/b.txt\n@@ -0,0 +1 @@\n+Synthetic layer B.\ndiff --git a/late-head.txt b/late-head.txt\nnew file mode 100644\nindex 0000000..df92e5b\n--- /dev/null\n+++ b/late-head.txt\n@@ -0,0 +1 @@\n+A distinct top-head update after the website modal opened.",
+  "full_patch_equal": true,
+  "actual_commits": [
+    "11f83f6c4d38f3b2df36709da6038a2a1e977621",
+    "280f4e558dd72aafdd0388a027a7b87e2444a1af"
+  ],
+  "ancestor_check": true,
+  "note": "The earlier generic one-commit new^..new comparison is not a full-layer oracle for this deliberately two-commit input; it is retained as raw observation, not a patch-loss finding."
+}

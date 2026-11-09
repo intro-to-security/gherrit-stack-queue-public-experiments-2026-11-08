@@ -1,0 +1,82 @@
+{
+  "checks": [
+    {
+      "actual": [
+        0,
+        0
+      ],
+      "expected": [
+        0,
+        0
+      ],
+      "name": "both cooperating entry points complete",
+      "passed": true
+    },
+    {
+      "actual": 1,
+      "expected": 1,
+      "name": "simultaneous workers send one provider request",
+      "passed": true
+    },
+    {
+      "actual": "planned",
+      "expected": "planned",
+      "name": "stale cached planned invocation reloads complete under owner",
+      "passed": true
+    },
+    {
+      "actual": "complete",
+      "expected": "complete",
+      "name": "stale direct invocation remains complete",
+      "passed": true
+    },
+    {
+      "actual": 1,
+      "expected": 1,
+      "name": "stale direct invocation does not resend",
+      "passed": true
+    }
+  ],
+  "details": {
+    "bound": "One authoritative local filesystem lock and cooperating entry points; no cross-host fence",
+    "cached_ignored": {
+      "intent": {
+        "binding": {
+          "change": "A",
+          "head": "A",
+          "repository": "local-fixture",
+          "review": 1
+        },
+        "captured_checkpoint": {
+          "accepted_local": "2cc5a58b26ab85d9b2b399f1f30eecfd6db17a85",
+          "incorporated": "de0fcb7721bcdee72990d75cddf48e3853182348"
+        },
+        "continuation": "refs/retained/completed-concurrent-workers",
+        "expected": "de0fcb7721bcdee72990d75cddf48e3853182348",
+        "id": "op-concurrent-workers",
+        "input": "de0fcb7721bcdee72990d75cddf48e3853182348",
+        "provider": "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/recovery/runs/1794232632320218000/concurrent-workers/provider",
+        "result": "2cc5a58b26ab85d9b2b399f1f30eecfd6db17a85",
+        "scope": [
+          "head:A",
+          "archive:concurrent-workers"
+        ]
+      },
+      "state": "planned"
+    },
+    "exits": [
+      0,
+      0
+    ],
+    "requests": [
+      {
+        "digest": "f20855337a77bd2f3a970621091b2746f52d9034acdb107737778060a3029da1",
+        "id": "op-concurrent-workers"
+      }
+    ]
+  },
+  "disposition": "performed",
+  "id": "R08",
+  "status": "passed",
+  "title": "Concurrent and stale direct workers"
+}

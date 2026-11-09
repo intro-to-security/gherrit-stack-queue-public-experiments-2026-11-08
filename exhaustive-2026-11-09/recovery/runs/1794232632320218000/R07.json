@@ -1,0 +1,31 @@
+{
+  "checks": [
+    {
+      "actual": true,
+      "expected": true,
+      "name": "old canonical B commits become reachable from proposed base",
+      "passed": true
+    },
+    {
+      "actual": "refused",
+      "expected": "refused",
+      "name": "candidate excludes overlapping reorder",
+      "passed": true
+    },
+    {
+      "actual": "refused",
+      "expected": "refused",
+      "name": "candidate excludes overlapping landing",
+      "passed": true
+    }
+  ],
+  "details": {
+    "canonical_terminalization": "provider-dependent consequence documented elsewhere; not observed here",
+    "git_ancestry_witness": true,
+    "recovery_cost": "If allowed, replacement review/follow-up can be necessary; restoring bytes cannot reopen a merged PR"
+  },
+  "disposition": "performed",
+  "id": "R07",
+  "status": "passed",
+  "title": "Structural lifecycle domain limit"
+}

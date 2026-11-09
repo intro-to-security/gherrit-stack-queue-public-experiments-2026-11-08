@@ -1,0 +1,2774 @@
+{
+  "cases": [
+    {
+      "checks": [
+        {
+          "actual": "0\n",
+          "expected": "0\n",
+          "name": "ordinary importer silently removes confirmed x=1",
+          "passed": true
+        },
+        {
+          "actual": "needs_explicit_drift_review",
+          "expected": "needs_explicit_drift_review",
+          "name": "candidate requires a decision before incorporation",
+          "passed": true
+        },
+        {
+          "actual": {
+            "x": "1\n",
+            "z": "0\n"
+          },
+          "expected": {
+            "x": "1\n",
+            "z": "0\n"
+          },
+          "name": "restoration exact tree",
+          "passed": true
+        },
+        {
+          "actual": "refused",
+          "expected": "refused",
+          "name": "strict overlap control",
+          "passed": true
+        }
+      ],
+      "details": {
+        "authored_archive": "a2c772f8b992bb64ef1ff0165525feb4a30954b4",
+        "confirmed": "a2c772f8b992bb64ef1ff0165525feb4a30954b4",
+        "costs": {
+          "detection_requires_connected_observation": true,
+          "drift_review_decisions": 1,
+          "restoration_publications": 1,
+          "temporarily_wrong_hosted_state": true
+        },
+        "incorporated_before_review": "a2c772f8b992bb64ef1ff0165525feb4a30954b4",
+        "input": "7f9aaff4a22a14fef012f8d3612f523782706220",
+        "old_operation_unchanged": {
+          "intent": {
+            "binding": {
+              "change": "A",
+              "head": "A",
+              "repository": "local-fixture",
+              "review": 1
+            },
+            "captured_checkpoint": {
+              "accepted_local": "a2c772f8b992bb64ef1ff0165525feb4a30954b4",
+              "incorporated": "7f9aaff4a22a14fef012f8d3612f523782706220"
+            },
+            "continuation": "refs/retained/completed-late-reversal",
+            "expected": "7f9aaff4a22a14fef012f8d3612f523782706220",
+            "id": "op-late-reversal",
+            "input": "7f9aaff4a22a14fef012f8d3612f523782706220",
+            "provider": "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/recovery/runs/1794232632320218000/late-reversal/provider",
+            "result": "a2c772f8b992bb64ef1ff0165525feb4a30954b4",
+            "scope": [
+              "head:A",
+              "archive:late-reversal"
+            ]
+          },
+          "state": "planned"
+        },
+        "ordinary": "f205d0417001460b508a72c5ac799bf53f3a0604",
+        "restored": {
+          "proposed": "dd8323aff6bf41935ea4306f082105c737bda568",
+          "status": "restoration_proposal"
+        },
+        "strict_admission": {
+          "overlaps": [
+            {
+              "id": "older-native-request",
+              "shared": [
+                "head:A"
+              ]
+            }
+          ],
+          "reason": "overlapping_old_effect",
+          "status": "refused"
+        }
+      },
+      "disposition": "performed",
+      "id": "R01",
+      "status": "passed",
+      "title": "Late reversal and candidate comparison"
+    },
+    {
+      "checks": [
+        {
+          "actual": {
+            "x": "1\n",
+            "z": "2\n"
+          },
+          "expected": {
+            "x": "1\n",
+            "z": "2\n"
+          },
+          "name": "reviewed restoration preserves independent legitimate edit",
+          "passed": true
+        },
+        {
+          "actual": "conflict",
+          "expected": "conflict",
+          "name": "conflicting restoration cannot be accepted",
+          "passed": true
+        },
+        {
+          "actual": "2\n",
+          "expected": "2\n",
+          "name": "explicit remote acceptance changes current intent",
+          "passed": true
+        },
+        {
+          "actual": "1\n",
+          "expected": "1\n",
+          "name": "authored archive remains original submitted x=1",
+          "passed": true
+        },
+        {
+          "actual": true,
+          "expected": true,
+          "name": "blind latest-tree restoration loses legitimate z=2",
+          "passed": true
+        }
+      ],
+      "details": {
+        "attribution": "No inference whether edit is legitimate or an old native effect",
+        "conflicting": {
+          "proposed": null,
+          "status": "conflict"
+        },
+        "decision_cost": "one per changed observation; same-line conflicts require content resolution",
+        "explicit_remote_acceptance": {
+          "proposed": "a2cfa1d2aa441d233ff0909a352404d204db135d",
+          "status": "remote_explicitly_accepted"
+        },
+        "independent": {
+          "proposed": "5776207e1364a7aad65794db234cff53589757e9",
+          "status": "restoration_proposal"
+        }
+      },
+      "disposition": "performed",
+      "id": "R02",
+      "status": "passed",
+      "title": "Legitimate remote edits and conflicts"
+    },
+    {
+      "checks": [
+        {
+          "actual": "1\n",
+          "expected": "1\n",
+          "name": "round current intent survives late reversal 1",
+          "passed": true
+        },
+        {
+          "actual": "2\n",
+          "expected": "2\n",
+          "name": "round current intent survives late reversal 2",
+          "passed": true
+        },
+        {
+          "actual": "1\n",
+          "expected": "1\n",
+          "name": "round current intent survives late reversal 3",
+          "passed": true
+        },
+        {
+          "actual": 3,
+          "expected": 3,
+          "name": "A/B/A keeps separate exact archived positions",
+          "passed": true
+        },
+        {
+          "actual": "179ff0917e23b233edaf907375af25c703ab9cfe",
+          "expected": "179ff0917e23b233edaf907375af25c703ab9cfe",
+          "name": "no-op output exact tree",
+          "passed": true
+        },
+        {
+          "actual": 3,
+          "expected": 3,
+          "name": "no-op creates no fourth archive",
+          "passed": true
+        },
+        {
+          "actual": "3\n",
+          "expected": "3\n",
+          "name": "later current source remains pending relative to captured export",
+          "passed": true
+        },
+        {
+          "actual": "1\n",
+          "expected": "1\n",
+          "name": "first candidate clean restoration violates accepted reset",
+          "passed": true
+        },
+        {
+          "actual": "needs_explicit_path_resolution",
+          "expected": "needs_explicit_path_resolution",
+          "name": "revised guard detects clean but intent-losing proposal",
+          "passed": true
+        },
+        {
+          "actual": "0\n",
+          "expected": "0\n",
+          "name": "explicit path choice preserves accepted reset",
+          "passed": true
+        }
+      ],
+      "details": {
+        "accepted_intent": "b5d0108ed14d7eac2eb7ce80d2509985c2d365de",
+        "authored": [
+          "e2f6bd3a4443384f8e59f1a6355736a44f04b6f9",
+          "45180f3d0b05ab7889c678b02004d89f50035f35",
+          "b5d0108ed14d7eac2eb7ce80d2509985c2d365de"
+        ],
+        "candidate_v1_failure": {
+          "actual_x": "1",
+          "intended": "9d720dcd1652c4a43cd885811a472cd5ad02d07f",
+          "intended_x": "0",
+          "proposed": "a5cd9d9199004abe932551320ec0c08af67cf712"
+        },
+        "current": "177bbf48b60bde81d2dc6c0c923a79cfd669fabc",
+        "drift_decisions": 3,
+        "explicit_resolution": {
+          "proposed": "452b6f0d168f66caaf8452de6bc91bf2896348c5",
+          "status": "explicit_path_resolution_proposal"
+        },
+        "incorporated": "b5d0108ed14d7eac2eb7ce80d2509985c2d365de",
+        "no_op": {
+          "proposed": "6156b0896cc7b48d38d458cbff40583c126ae13e",
+          "status": "ordinary_proposal"
+        },
+        "revised_candidate": {
+          "mismatches": [
+            "x"
+          ],
+          "proposed": "84f124122762d68931a127fc55b777362948db66",
+          "status": "needs_explicit_path_resolution"
+        },
+        "scratch_commit_identity_is_not_submission_identity": true
+      },
+      "disposition": "performed",
+      "id": "R03",
+      "status": "passed",
+      "title": "Repeated changes, no-op and moving source"
+    },
+    {
+      "checks": [
+        {
+          "actual": [
+            "a",
+            "remote-a"
+          ],
+          "expected": [
+            "a",
+            "remote-a"
+          ],
+          "name": "A layer ownership",
+          "passed": true
+        },
+        {
+          "actual": "A-local\n\nAgent-authored-by: AI agent acting on joshlf's behalf\n",
+          "expected": "A-local\n\nAgent-authored-by: AI agent acting on joshlf's behalf\n",
+          "name": "A message bytes",
+          "passed": true
+        },
+        {
+          "actual": [
+            "b",
+            "remote-b"
+          ],
+          "expected": [
+            "b",
+            "remote-b"
+          ],
+          "name": "B layer ownership",
+          "passed": true
+        },
+        {
+          "actual": "B-local\n\nAgent-authored-by: AI agent acting on joshlf's behalf\n",
+          "expected": "B-local\n\nAgent-authored-by: AI agent acting on joshlf's behalf\n",
+          "name": "B message bytes",
+          "passed": true
+        },
+        {
+          "actual": {
+            "a": "1\n",
+            "b": "1\n",
+            "remote-a": "yes\n",
+            "remote-b": "yes\n",
+            "trunk": "2\n"
+          },
+          "expected": {
+            "a": "1\n",
+            "b": "1\n",
+            "remote-a": "yes\n",
+            "remote-b": "yes\n",
+            "trunk": "2\n"
+          },
+          "name": "cumulative independently specified tree",
+          "passed": true
+        }
+      ],
+      "details": {
+        "bounds": "Two linear one-commit layers; net trees and tip message only",
+        "results": [
+          {
+            "accepted": "8b4e8735a416baa84b3575e0234ea9eff3c9e9d0",
+            "change": "A",
+            "changed": [
+              "a",
+              "remote-a"
+            ],
+            "incorporated": {
+              "base": "441d8a39adae8d9d7d79709a77839f5e80e7146b",
+              "tip": "92d015f6be225a5208e0d372881d3dcb7deb926e"
+            }
+          },
+          {
+            "accepted": "f2089d3b3e7c9a108d4f862ef4d5a3fd046fbf11",
+            "change": "B",
+            "changed": [
+              "b",
+              "remote-b"
+            ],
+            "incorporated": {
+              "base": "92d015f6be225a5208e0d372881d3dcb7deb926e",
+              "tip": "c7772afd91052bdb157dbddf49be2f435f52e6e5"
+            }
+          }
+        ]
+      },
+      "disposition": "performed",
+      "id": "R04",
+      "status": "passed",
+      "title": "Per-layer range import"
+    },
+    {
+      "checks": [
+        {
+          "actual": "incoherent_no_checkpoint",
+          "expected": "incoherent_no_checkpoint",
+          "name": "incoherent observation does not advance baseline",
+          "passed": true
+        },
+        {
+          "actual": "ordinary_proposal",
+          "expected": "ordinary_proposal",
+          "name": "stale coherent read can miss actual late write",
+          "passed": true
+        },
+        {
+          "actual": "needs_explicit_drift_review",
+          "expected": "needs_explicit_drift_review",
+          "name": "fresh coherent reversal triggers review",
+          "passed": true
+        },
+        {
+          "actual": "7de3c60737d8646a856981b786079089646e355a",
+          "expected": "7de3c60737d8646a856981b786079089646e355a",
+          "name": "actual Git explicit lease admits ABA-returned value",
+          "passed": true
+        }
+      ],
+      "details": {
+        "aba_unobserved": true,
+        "actual_latest": "38bfb8b5ce5b1247598f02f228587fad1b555b1b",
+        "bound": "Finite reads detect present disagreement, not all transient states or origin",
+        "observations": [
+          {
+            "git_head": "38bfb8b5ce5b1247598f02f228587fad1b555b1b",
+            "pr_head": "7de3c60737d8646a856981b786079089646e355a"
+          },
+          {
+            "git_head": "7de3c60737d8646a856981b786079089646e355a",
+            "pr_head": "7de3c60737d8646a856981b786079089646e355a"
+          },
+          {
+            "git_head": "38bfb8b5ce5b1247598f02f228587fad1b555b1b",
+            "pr_head": "38bfb8b5ce5b1247598f02f228587fad1b555b1b"
+          }
+        ],
+        "push_stdout": "To /Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/recovery/runs/1794232632320218000/observation-limits/provider/repo\n \t7de3c60737d8646a856981b786079089646e355a:refs/heads/A\t38bfb8b..7de3c60\nDone\n",
+        "statuses": [
+          "incoherent_no_checkpoint",
+          "ordinary_proposal",
+          "needs_explicit_drift_review"
+        ]
+      },
+      "disposition": "performed",
+      "id": "R05",
+      "status": "passed",
+      "title": "Inconsistent reads, stale reads and ABA"
+    },
+    {
+      "checks": [
+        {
+          "actual": true,
+          "expected": true,
+          "name": "ordinary-import mutant witness exists",
+          "passed": true
+        },
+        {
+          "actual": true,
+          "expected": true,
+          "name": "blind-restore mutant witness exists",
+          "passed": true
+        },
+        {
+          "actual": true,
+          "expected": true,
+          "name": "unobserved drift limit witnessed",
+          "passed": true
+        }
+      ],
+      "details": {
+        "depth": 7,
+        "dimensions": "intent/remote/observed values 0,1,2; pending old input 0; up to 3 publications; one layer",
+        "excluded": "Provider ordering guarantee, arbitrary Git content, lifecycle, uncooperative writers, human decisions",
+        "invariant": "Observation and crash preserve accepted intent; current coherent drift requires review",
+        "states": 97,
+        "transitions": 586,
+        "witnesses": {
+          "blind_restore_loses_legitimate_edit": [
+            "legitimate-edit-2",
+            "observe-current",
+            "blind-restore"
+          ],
+          "drift_not_yet_observed": [
+            "old-effect-0"
+          ],
+          "ordinary_import_silent_loss": [
+            "old-effect-0",
+            "observe-current",
+            "ordinary-import"
+          ]
+        }
+      },
+      "disposition": "performed",
+      "id": "R06",
+      "status": "passed",
+      "title": "Bounded event exploration"
+    },
+    {
+      "checks": [
+        {
+          "actual": true,
+          "expected": true,
+          "name": "old canonical B commits become reachable from proposed base",
+          "passed": true
+        },
+        {
+          "actual": "refused",
+          "expected": "refused",
+          "name": "candidate excludes overlapping reorder",
+          "passed": true
+        },
+        {
+          "actual": "refused",
+          "expected": "refused",
+          "name": "candidate excludes overlapping landing",
+          "passed": true
+        }
+      ],
+      "details": {
+        "canonical_terminalization": "provider-dependent consequence documented elsewhere; not observed here",
+        "git_ancestry_witness": true,
+        "recovery_cost": "If allowed, replacement review/follow-up can be necessary; restoring bytes cannot reopen a merged PR"
+      },
+      "disposition": "performed",
+      "id": "R07",
+      "status": "passed",
+      "title": "Structural lifecycle domain limit"
+    },
+    {
+      "checks": [
+        {
+          "actual": [
+            0,
+            0
+          ],
+          "expected": [
+            0,
+            0
+          ],
+          "name": "both cooperating entry points complete",
+          "passed": true
+        },
+        {
+          "actual": 1,
+          "expected": 1,
+          "name": "simultaneous workers send one provider request",
+          "passed": true
+        },
+        {
+          "actual": "planned",
+          "expected": "planned",
+          "name": "stale cached planned invocation reloads complete under owner",
+          "passed": true
+        },
+        {
+          "actual": "complete",
+          "expected": "complete",
+          "name": "stale direct invocation remains complete",
+          "passed": true
+        },
+        {
+          "actual": 1,
+          "expected": 1,
+          "name": "stale direct invocation does not resend",
+          "passed": true
+        }
+      ],
+      "details": {
+        "bound": "One authoritative local filesystem lock and cooperating entry points; no cross-host fence",
+        "cached_ignored": {
+          "intent": {
+            "binding": {
+              "change": "A",
+              "head": "A",
+              "repository": "local-fixture",
+              "review": 1
+            },
+            "captured_checkpoint": {
+              "accepted_local": "2cc5a58b26ab85d9b2b399f1f30eecfd6db17a85",
+              "incorporated": "de0fcb7721bcdee72990d75cddf48e3853182348"
+            },
+            "continuation": "refs/retained/completed-concurrent-workers",
+            "expected": "de0fcb7721bcdee72990d75cddf48e3853182348",
+            "id": "op-concurrent-workers",
+            "input": "de0fcb7721bcdee72990d75cddf48e3853182348",
+            "provider": "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/recovery/runs/1794232632320218000/concurrent-workers/provider",
+            "result": "2cc5a58b26ab85d9b2b399f1f30eecfd6db17a85",
+            "scope": [
+              "head:A",
+              "archive:concurrent-workers"
+            ]
+          },
+          "state": "planned"
+        },
+        "exits": [
+          0,
+          0
+        ],
+        "requests": [
+          {
+            "digest": "f20855337a77bd2f3a970621091b2746f52d9034acdb107737778060a3029da1",
+            "id": "op-concurrent-workers"
+          }
+        ]
+      },
+      "disposition": "performed",
+      "id": "R08",
+      "status": "passed",
+      "title": "Concurrent and stale direct workers"
+    },
+    {
+      "checks": [
+        {
+          "actual": -9,
+          "expected": -9,
+          "name": "real SIGKILL validated",
+          "passed": true
+        },
+        {
+          "actual": "complete",
+          "expected": "complete",
+          "name": "prefix recovery disposition validated",
+          "passed": true
+        },
+        {
+          "actual": "complete",
+          "expected": "complete",
+          "name": "repeat recovery disposition validated",
+          "passed": true
+        },
+        {
+          "actual": 1,
+          "expected": 1,
+          "name": "prefix no duplicated provider request validated",
+          "passed": true
+        },
+        {
+          "actual": "2cc5a58b26ab85d9b2b399f1f30eecfd6db17a85",
+          "expected": "2cc5a58b26ab85d9b2b399f1f30eecfd6db17a85",
+          "name": "exact retained completed ref validated",
+          "passed": true
+        },
+        {
+          "actual": -9,
+          "expected": -9,
+          "name": "real SIGKILL marked",
+          "passed": true
+        },
+        {
+          "actual": "blocked_unknown_no_resend",
+          "expected": "blocked_unknown_no_resend",
+          "name": "prefix recovery disposition marked",
+          "passed": true
+        },
+        {
+          "actual": "blocked_unknown_no_resend",
+          "expected": "blocked_unknown_no_resend",
+          "name": "repeat recovery disposition marked",
+          "passed": true
+        },
+        {
+          "actual": 0,
+          "expected": 0,
+          "name": "prefix no duplicated provider request marked",
+          "passed": true
+        },
+        {
+          "actual": -9,
+          "expected": -9,
+          "name": "real SIGKILL request_logged",
+          "passed": true
+        },
+        {
+          "actual": "blocked_unknown_no_resend",
+          "expected": "blocked_unknown_no_resend",
+          "name": "prefix recovery disposition request_logged",
+          "passed": true
+        },
+        {
+          "actual": "blocked_unknown_no_resend",
+          "expected": "blocked_unknown_no_resend",
+          "name": "repeat recovery disposition request_logged",
+          "passed": true
+        },
+        {
+          "actual": 1,
+          "expected": 1,
+          "name": "prefix no duplicated provider request request_logged",
+          "passed": true
+        },
+        {
+          "actual": -9,
+          "expected": -9,
+          "name": "real SIGKILL provider_head",
+          "passed": true
+        },
+        {
+          "actual": "blocked_unknown_no_resend",
+          "expected": "blocked_unknown_no_resend",
+          "name": "prefix recovery disposition provider_head",
+          "passed": true
+        },
+        {
+          "actual": "blocked_unknown_no_resend",
+          "expected": "blocked_unknown_no_resend",
+          "name": "repeat recovery disposition provider_head",
+          "passed": true
+        },
+        {
+          "actual": 1,
+          "expected": 1,
+          "name": "prefix no duplicated provider request provider_head",
+          "passed": true
+        },
+        {
+          "actual": -9,
+          "expected": -9,
+          "name": "real SIGKILL provider_archive",
+          "passed": true
+        },
+        {
+          "actual": "blocked_unknown_no_resend",
+          "expected": "blocked_unknown_no_resend",
+          "name": "prefix recovery disposition provider_archive",
+          "passed": true
+        },
+        {
+          "actual": "blocked_unknown_no_resend",
+          "expected": "blocked_unknown_no_resend",
+          "name": "repeat recovery disposition provider_archive",
+          "passed": true
+        },
+        {
+          "actual": 1,
+          "expected": 1,
+          "name": "prefix no duplicated provider request provider_archive",
+          "passed": true
+        },
+        {
+          "actual": -9,
+          "expected": -9,
+          "name": "real SIGKILL provider_receipt",
+          "passed": true
+        },
+        {
+          "actual": "complete",
+          "expected": "complete",
+          "name": "prefix recovery disposition provider_receipt",
+          "passed": true
+        },
+        {
+          "actual": "complete",
+          "expected": "complete",
+          "name": "repeat recovery disposition provider_receipt",
+          "passed": true
+        },
+        {
+          "actual": 1,
+          "expected": 1,
+          "name": "prefix no duplicated provider request provider_receipt",
+          "passed": true
+        },
+        {
+          "actual": "604aee71ccc99791cdb70f293a2961cd1f59b5c8",
+          "expected": "604aee71ccc99791cdb70f293a2961cd1f59b5c8",
+          "name": "exact retained completed ref provider_receipt",
+          "passed": true
+        },
+        {
+          "actual": -9,
+          "expected": -9,
+          "name": "real SIGKILL acknowledged",
+          "passed": true
+        },
+        {
+          "actual": "complete",
+          "expected": "complete",
+          "name": "prefix recovery disposition acknowledged",
+          "passed": true
+        },
+        {
+          "actual": "complete",
+          "expected": "complete",
+          "name": "repeat recovery disposition acknowledged",
+          "passed": true
+        },
+        {
+          "actual": 1,
+          "expected": 1,
+          "name": "prefix no duplicated provider request acknowledged",
+          "passed": true
+        },
+        {
+          "actual": "604aee71ccc99791cdb70f293a2961cd1f59b5c8",
+          "expected": "604aee71ccc99791cdb70f293a2961cd1f59b5c8",
+          "name": "exact retained completed ref acknowledged",
+          "passed": true
+        },
+        {
+          "actual": -9,
+          "expected": -9,
+          "name": "real SIGKILL result_ref",
+          "passed": true
+        },
+        {
+          "actual": "complete",
+          "expected": "complete",
+          "name": "prefix recovery disposition result_ref",
+          "passed": true
+        },
+        {
+          "actual": "complete",
+          "expected": "complete",
+          "name": "repeat recovery disposition result_ref",
+          "passed": true
+        },
+        {
+          "actual": 1,
+          "expected": 1,
+          "name": "prefix no duplicated provider request result_ref",
+          "passed": true
+        },
+        {
+          "actual": "ec821ca8db1c8ab858e3484194ad37c13b144897",
+          "expected": "ec821ca8db1c8ab858e3484194ad37c13b144897",
+          "name": "exact retained completed ref result_ref",
+          "passed": true
+        },
+        {
+          "actual": -9,
+          "expected": -9,
+          "name": "real SIGKILL result_checkpoint",
+          "passed": true
+        },
+        {
+          "actual": "complete",
+          "expected": "complete",
+          "name": "prefix recovery disposition result_checkpoint",
+          "passed": true
+        },
+        {
+          "actual": "complete",
+          "expected": "complete",
+          "name": "repeat recovery disposition result_checkpoint",
+          "passed": true
+        },
+        {
+          "actual": 1,
+          "expected": 1,
+          "name": "prefix no duplicated provider request result_checkpoint",
+          "passed": true
+        },
+        {
+          "actual": "a09aabfc246c9d86534ba0889357d41e2977331c",
+          "expected": "a09aabfc246c9d86534ba0889357d41e2977331c",
+          "name": "exact retained completed ref result_checkpoint",
+          "passed": true
+        },
+        {
+          "actual": -9,
+          "expected": -9,
+          "name": "real SIGKILL complete",
+          "passed": true
+        },
+        {
+          "actual": "complete",
+          "expected": "complete",
+          "name": "prefix recovery disposition complete",
+          "passed": true
+        },
+        {
+          "actual": "complete",
+          "expected": "complete",
+          "name": "repeat recovery disposition complete",
+          "passed": true
+        },
+        {
+          "actual": 1,
+          "expected": 1,
+          "name": "prefix no duplicated provider request complete",
+          "passed": true
+        },
+        {
+          "actual": "23c41e65b4b9ae9dda8f70a2d287e5ef3fecc234",
+          "expected": "23c41e65b4b9ae9dda8f70a2d287e5ef3fecc234",
+          "name": "exact retained completed ref complete",
+          "passed": true
+        }
+      ],
+      "details": {
+        "power_loss_claim": false,
+        "prefixes": [
+          {
+            "actual_provider_head": "2cc5a58b26ab85d9b2b399f1f30eecfd6db17a85",
+            "before_requests": 0,
+            "final_operation": {
+              "intent": {
+                "binding": {
+                  "change": "A",
+                  "head": "A",
+                  "repository": "local-fixture",
+                  "review": 1
+                },
+                "captured_checkpoint": {
+                  "accepted_local": "2cc5a58b26ab85d9b2b399f1f30eecfd6db17a85",
+                  "incorporated": "de0fcb7721bcdee72990d75cddf48e3853182348"
+                },
+                "continuation": "refs/retained/completed-kill-validated",
+                "expected": "de0fcb7721bcdee72990d75cddf48e3853182348",
+                "id": "op-kill-validated",
+                "input": "de0fcb7721bcdee72990d75cddf48e3853182348",
+                "provider": "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/recovery/runs/1794232632320218000/kill-validated/provider",
+                "result": "2cc5a58b26ab85d9b2b399f1f30eecfd6db17a85",
+                "scope": [
+                  "head:A",
+                  "archive:kill-validated"
+                ]
+              },
+              "receipt": {
+                "digest": "95821145cd2831b193c4d614c0d2378fe62ae85ad99fc4d5fa7344cf7af64865",
+                "head": "2cc5a58b26ab85d9b2b399f1f30eecfd6db17a85",
+                "id": "op-kill-validated"
+              },
+              "state": "complete"
+            },
+            "first": {
+              "status": "complete"
+            },
+            "killed": -9,
+            "marker": {
+              "pid": 44627,
+              "prefix": "validated"
+            },
+            "prefix": "validated",
+            "provider": {
+              "receipts": [
+                {
+                  "digest": "95821145cd2831b193c4d614c0d2378fe62ae85ad99fc4d5fa7344cf7af64865",
+                  "head": "2cc5a58b26ab85d9b2b399f1f30eecfd6db17a85",
+                  "id": "op-kill-validated"
+                }
+              ],
+              "requests": [
+                {
+                  "digest": "95821145cd2831b193c4d614c0d2378fe62ae85ad99fc4d5fa7344cf7af64865",
+                  "id": "op-kill-validated"
+                }
+              ]
+            },
+            "second": {
+              "status": "complete"
+            }
+          },
+          {
+            "actual_provider_head": "0ff39aac4af6cdc508f83893fa2c7714e3d80f6f",
+            "before_requests": 0,
+            "final_operation": {
+              "intent": {
+                "binding": {
+                  "change": "A",
+                  "head": "A",
+                  "repository": "local-fixture",
+                  "review": 1
+                },
+                "captured_checkpoint": {
+                  "accepted_local": "8d134b05b569273b48ac42e37ba030bf743c4226",
+                  "incorporated": "0ff39aac4af6cdc508f83893fa2c7714e3d80f6f"
+                },
+                "continuation": "refs/retained/completed-kill-marked",
+                "expected": "0ff39aac4af6cdc508f83893fa2c7714e3d80f6f",
+                "id": "op-kill-marked",
+                "input": "0ff39aac4af6cdc508f83893fa2c7714e3d80f6f",
+                "provider": "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/recovery/runs/1794232632320218000/kill-marked/provider",
+                "result": "8d134b05b569273b48ac42e37ba030bf743c4226",
+                "scope": [
+                  "head:A",
+                  "archive:kill-marked"
+                ]
+              },
+              "state": "indeterminate"
+            },
+            "first": {
+              "status": "blocked_unknown_no_resend"
+            },
+            "killed": -9,
+            "marker": {
+              "pid": 44697,
+              "prefix": "marked"
+            },
+            "prefix": "marked",
+            "provider": {
+              "receipts": [],
+              "requests": []
+            },
+            "second": {
+              "status": "blocked_unknown_no_resend"
+            }
+          },
+          {
+            "actual_provider_head": "0ff39aac4af6cdc508f83893fa2c7714e3d80f6f",
+            "before_requests": 1,
+            "final_operation": {
+              "intent": {
+                "binding": {
+                  "change": "A",
+                  "head": "A",
+                  "repository": "local-fixture",
+                  "review": 1
+                },
+                "captured_checkpoint": {
+                  "accepted_local": "8d134b05b569273b48ac42e37ba030bf743c4226",
+                  "incorporated": "0ff39aac4af6cdc508f83893fa2c7714e3d80f6f"
+                },
+                "continuation": "refs/retained/completed-kill-request_logged",
+                "expected": "0ff39aac4af6cdc508f83893fa2c7714e3d80f6f",
+                "id": "op-kill-request_logged",
+                "input": "0ff39aac4af6cdc508f83893fa2c7714e3d80f6f",
+                "provider": "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/recovery/runs/1794232632320218000/kill-request_logged/provider",
+                "result": "8d134b05b569273b48ac42e37ba030bf743c4226",
+                "scope": [
+                  "head:A",
+                  "archive:kill-request_logged"
+                ]
+              },
+              "state": "indeterminate"
+            },
+            "first": {
+              "status": "blocked_unknown_no_resend"
+            },
+            "killed": -9,
+            "marker": {
+              "pid": 44741,
+              "prefix": "request_logged"
+            },
+            "prefix": "request_logged",
+            "provider": {
+              "receipts": [],
+              "requests": [
+                {
+                  "digest": "9ecb014af5b1510576c07f01357ef43ce2f8b0e7f989293d660341836720055d",
+                  "id": "op-kill-request_logged"
+                }
+              ]
+            },
+            "second": {
+              "status": "blocked_unknown_no_resend"
+            }
+          },
+          {
+            "actual_provider_head": "15e2b174c57972264072651e59be806fbde72040",
+            "before_requests": 1,
+            "final_operation": {
+              "intent": {
+                "binding": {
+                  "change": "A",
+                  "head": "A",
+                  "repository": "local-fixture",
+                  "review": 1
+                },
+                "captured_checkpoint": {
+                  "accepted_local": "15e2b174c57972264072651e59be806fbde72040",
+                  "incorporated": "b9efb0eead106f190541c04731a6d5865c9f07be"
+                },
+                "continuation": "refs/retained/completed-kill-provider_head",
+                "expected": "b9efb0eead106f190541c04731a6d5865c9f07be",
+                "id": "op-kill-provider_head",
+                "input": "b9efb0eead106f190541c04731a6d5865c9f07be",
+                "provider": "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/recovery/runs/1794232632320218000/kill-provider_head/provider",
+                "result": "15e2b174c57972264072651e59be806fbde72040",
+                "scope": [
+                  "head:A",
+                  "archive:kill-provider_head"
+                ]
+              },
+              "state": "indeterminate"
+            },
+            "first": {
+              "status": "blocked_unknown_no_resend"
+            },
+            "killed": -9,
+            "marker": {
+              "pid": 44784,
+              "prefix": "provider_head"
+            },
+            "prefix": "provider_head",
+            "provider": {
+              "receipts": [],
+              "requests": [
+                {
+                  "digest": "d6abc108e6cbde39c48149b60c810c900b27e674441dac9b0eeb5786a6bf737b",
+                  "id": "op-kill-provider_head"
+                }
+              ]
+            },
+            "second": {
+              "status": "blocked_unknown_no_resend"
+            }
+          },
+          {
+            "actual_provider_head": "15e2b174c57972264072651e59be806fbde72040",
+            "before_requests": 1,
+            "final_operation": {
+              "intent": {
+                "binding": {
+                  "change": "A",
+                  "head": "A",
+                  "repository": "local-fixture",
+                  "review": 1
+                },
+                "captured_checkpoint": {
+                  "accepted_local": "15e2b174c57972264072651e59be806fbde72040",
+                  "incorporated": "b9efb0eead106f190541c04731a6d5865c9f07be"
+                },
+                "continuation": "refs/retained/completed-kill-provider_archive",
+                "expected": "b9efb0eead106f190541c04731a6d5865c9f07be",
+                "id": "op-kill-provider_archive",
+                "input": "b9efb0eead106f190541c04731a6d5865c9f07be",
+                "provider": "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/recovery/runs/1794232632320218000/kill-provider_archive/provider",
+                "result": "15e2b174c57972264072651e59be806fbde72040",
+                "scope": [
+                  "head:A",
+                  "archive:kill-provider_archive"
+                ]
+              },
+              "state": "indeterminate"
+            },
+            "first": {
+              "status": "blocked_unknown_no_resend"
+            },
+            "killed": -9,
+            "marker": {
+              "pid": 44826,
+              "prefix": "provider_archive"
+            },
+            "prefix": "provider_archive",
+            "provider": {
+              "receipts": [],
+              "requests": [
+                {
+                  "digest": "96c36c454c8fa62a49a9c1ed4aef4327a2104802e65473e79a3795eca60eb0be",
+                  "id": "op-kill-provider_archive"
+                }
+              ]
+            },
+            "second": {
+              "status": "blocked_unknown_no_resend"
+            }
+          },
+          {
+            "actual_provider_head": "604aee71ccc99791cdb70f293a2961cd1f59b5c8",
+            "before_requests": 1,
+            "final_operation": {
+              "intent": {
+                "binding": {
+                  "change": "A",
+                  "head": "A",
+                  "repository": "local-fixture",
+                  "review": 1
+                },
+                "captured_checkpoint": {
+                  "accepted_local": "604aee71ccc99791cdb70f293a2961cd1f59b5c8",
+                  "incorporated": "6b0da22a85e12498ab5883ba2febd19e1320ce10"
+                },
+                "continuation": "refs/retained/completed-kill-provider_receipt",
+                "expected": "6b0da22a85e12498ab5883ba2febd19e1320ce10",
+                "id": "op-kill-provider_receipt",
+                "input": "6b0da22a85e12498ab5883ba2febd19e1320ce10",
+                "provider": "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/recovery/runs/1794232632320218000/kill-provider_receipt/provider",
+                "result": "604aee71ccc99791cdb70f293a2961cd1f59b5c8",
+                "scope": [
+                  "head:A",
+                  "archive:kill-provider_receipt"
+                ]
+              },
+              "receipt": {
+                "digest": "af5236e48dd3b8b0080db030ae56444d92c0f1ba10362d967c86e85573172525",
+                "head": "604aee71ccc99791cdb70f293a2961cd1f59b5c8",
+                "id": "op-kill-provider_receipt"
+              },
+              "state": "complete"
+            },
+            "first": {
+              "status": "complete"
+            },
+            "killed": -9,
+            "marker": {
+              "pid": 44870,
+              "prefix": "provider_receipt"
+            },
+            "prefix": "provider_receipt",
+            "provider": {
+              "receipts": [
+                {
+                  "digest": "af5236e48dd3b8b0080db030ae56444d92c0f1ba10362d967c86e85573172525",
+                  "head": "604aee71ccc99791cdb70f293a2961cd1f59b5c8",
+                  "id": "op-kill-provider_receipt"
+                }
+              ],
+              "requests": [
+                {
+                  "digest": "af5236e48dd3b8b0080db030ae56444d92c0f1ba10362d967c86e85573172525",
+                  "id": "op-kill-provider_receipt"
+                }
+              ]
+            },
+            "second": {
+              "status": "complete"
+            }
+          },
+          {
+            "actual_provider_head": "604aee71ccc99791cdb70f293a2961cd1f59b5c8",
+            "before_requests": 1,
+            "final_operation": {
+              "intent": {
+                "binding": {
+                  "change": "A",
+                  "head": "A",
+                  "repository": "local-fixture",
+                  "review": 1
+                },
+                "captured_checkpoint": {
+                  "accepted_local": "604aee71ccc99791cdb70f293a2961cd1f59b5c8",
+                  "incorporated": "6b0da22a85e12498ab5883ba2febd19e1320ce10"
+                },
+                "continuation": "refs/retained/completed-kill-acknowledged",
+                "expected": "6b0da22a85e12498ab5883ba2febd19e1320ce10",
+                "id": "op-kill-acknowledged",
+                "input": "6b0da22a85e12498ab5883ba2febd19e1320ce10",
+                "provider": "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/recovery/runs/1794232632320218000/kill-acknowledged/provider",
+                "result": "604aee71ccc99791cdb70f293a2961cd1f59b5c8",
+                "scope": [
+                  "head:A",
+                  "archive:kill-acknowledged"
+                ]
+              },
+              "receipt": {
+                "digest": "3e0774efd188b8ff7de41ce8184b6c534ae3d268e1489ae2ad238267faf8f18f",
+                "head": "604aee71ccc99791cdb70f293a2961cd1f59b5c8",
+                "id": "op-kill-acknowledged"
+              },
+              "state": "complete"
+            },
+            "first": {
+              "status": "complete"
+            },
+            "killed": -9,
+            "marker": {
+              "pid": 44932,
+              "prefix": "acknowledged"
+            },
+            "prefix": "acknowledged",
+            "provider": {
+              "receipts": [
+                {
+                  "digest": "3e0774efd188b8ff7de41ce8184b6c534ae3d268e1489ae2ad238267faf8f18f",
+                  "head": "604aee71ccc99791cdb70f293a2961cd1f59b5c8",
+                  "id": "op-kill-acknowledged"
+                }
+              ],
+              "requests": [
+                {
+                  "digest": "3e0774efd188b8ff7de41ce8184b6c534ae3d268e1489ae2ad238267faf8f18f",
+                  "id": "op-kill-acknowledged"
+                }
+              ]
+            },
+            "second": {
+              "status": "complete"
+            }
+          },
+          {
+            "actual_provider_head": "ec821ca8db1c8ab858e3484194ad37c13b144897",
+            "before_requests": 1,
+            "final_operation": {
+              "intent": {
+                "binding": {
+                  "change": "A",
+                  "head": "A",
+                  "repository": "local-fixture",
+                  "review": 1
+                },
+                "captured_checkpoint": {
+                  "accepted_local": "ec821ca8db1c8ab858e3484194ad37c13b144897",
+                  "incorporated": "7d2b720b1ae77392e3904c607c7c92e0094c2dc5"
+                },
+                "continuation": "refs/retained/completed-kill-result_ref",
+                "expected": "7d2b720b1ae77392e3904c607c7c92e0094c2dc5",
+                "id": "op-kill-result_ref",
+                "input": "7d2b720b1ae77392e3904c607c7c92e0094c2dc5",
+                "provider": "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/recovery/runs/1794232632320218000/kill-result_ref/provider",
+                "result": "ec821ca8db1c8ab858e3484194ad37c13b144897",
+                "scope": [
+                  "head:A",
+                  "archive:kill-result_ref"
+                ]
+              },
+              "receipt": {
+                "digest": "f481dd643838a8f14d15b6bb71209232d15705f71211cda8590aec12b6c20ac9",
+                "head": "ec821ca8db1c8ab858e3484194ad37c13b144897",
+                "id": "op-kill-result_ref"
+              },
+              "state": "complete"
+            },
+            "first": {
+              "status": "complete"
+            },
+            "killed": -9,
+            "marker": {
+              "pid": 44995,
+              "prefix": "result_ref"
+            },
+            "prefix": "result_ref",
+            "provider": {
+              "receipts": [
+                {
+                  "digest": "f481dd643838a8f14d15b6bb71209232d15705f71211cda8590aec12b6c20ac9",
+                  "head": "ec821ca8db1c8ab858e3484194ad37c13b144897",
+                  "id": "op-kill-result_ref"
+                }
+              ],
+              "requests": [
+                {
+                  "digest": "f481dd643838a8f14d15b6bb71209232d15705f71211cda8590aec12b6c20ac9",
+                  "id": "op-kill-result_ref"
+                }
+              ]
+            },
+            "second": {
+              "status": "complete"
+            }
+          },
+          {
+            "actual_provider_head": "a09aabfc246c9d86534ba0889357d41e2977331c",
+            "before_requests": 1,
+            "final_operation": {
+              "intent": {
+                "binding": {
+                  "change": "A",
+                  "head": "A",
+                  "repository": "local-fixture",
+                  "review": 1
+                },
+                "captured_checkpoint": {
+                  "accepted_local": "a09aabfc246c9d86534ba0889357d41e2977331c",
+                  "incorporated": "7d2b720b1ae77392e3904c607c7c92e0094c2dc5"
+                },
+                "continuation": "refs/retained/completed-kill-result_checkpoint",
+                "expected": "7d2b720b1ae77392e3904c607c7c92e0094c2dc5",
+                "id": "op-kill-result_checkpoint",
+                "input": "7d2b720b1ae77392e3904c607c7c92e0094c2dc5",
+                "provider": "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/recovery/runs/1794232632320218000/kill-result_checkpoint/provider",
+                "result": "a09aabfc246c9d86534ba0889357d41e2977331c",
+                "scope": [
+                  "head:A",
+                  "archive:kill-result_checkpoint"
+                ]
+              },
+              "receipt": {
+                "digest": "a68465566a347ec015d93120d2e7a27a8cd52fc4f831ae758419de07f52c9745",
+                "head": "a09aabfc246c9d86534ba0889357d41e2977331c",
+                "id": "op-kill-result_checkpoint"
+              },
+              "state": "complete"
+            },
+            "first": {
+              "status": "complete"
+            },
+            "killed": -9,
+            "marker": {
+              "pid": 45071,
+              "prefix": "result_checkpoint"
+            },
+            "prefix": "result_checkpoint",
+            "provider": {
+              "receipts": [
+                {
+                  "digest": "a68465566a347ec015d93120d2e7a27a8cd52fc4f831ae758419de07f52c9745",
+                  "head": "a09aabfc246c9d86534ba0889357d41e2977331c",
+                  "id": "op-kill-result_checkpoint"
+                }
+              ],
+              "requests": [
+                {
+                  "digest": "a68465566a347ec015d93120d2e7a27a8cd52fc4f831ae758419de07f52c9745",
+                  "id": "op-kill-result_checkpoint"
+                }
+              ]
+            },
+            "second": {
+              "status": "complete"
+            }
+          },
+          {
+            "actual_provider_head": "23c41e65b4b9ae9dda8f70a2d287e5ef3fecc234",
+            "before_requests": 1,
+            "final_operation": {
+              "intent": {
+                "binding": {
+                  "change": "A",
+                  "head": "A",
+                  "repository": "local-fixture",
+                  "review": 1
+                },
+                "captured_checkpoint": {
+                  "accepted_local": "23c41e65b4b9ae9dda8f70a2d287e5ef3fecc234",
+                  "incorporated": "a370a8c0db6fc6c14aee987d8238a6a412d6c389"
+                },
+                "continuation": "refs/retained/completed-kill-complete",
+                "expected": "a370a8c0db6fc6c14aee987d8238a6a412d6c389",
+                "id": "op-kill-complete",
+                "input": "a370a8c0db6fc6c14aee987d8238a6a412d6c389",
+                "provider": "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/recovery/runs/1794232632320218000/kill-complete/provider",
+                "result": "23c41e65b4b9ae9dda8f70a2d287e5ef3fecc234",
+                "scope": [
+                  "head:A",
+                  "archive:kill-complete"
+                ]
+              },
+              "receipt": {
+                "digest": "8b2146da8b79bc987f8167676ad5a5a06fbc81607d92f28d4a083b88f2113bc7",
+                "head": "23c41e65b4b9ae9dda8f70a2d287e5ef3fecc234",
+                "id": "op-kill-complete"
+              },
+              "state": "complete"
+            },
+            "first": {
+              "status": "complete"
+            },
+            "killed": -9,
+            "marker": {
+              "pid": 45133,
+              "prefix": "complete"
+            },
+            "prefix": "complete",
+            "provider": {
+              "receipts": [
+                {
+                  "digest": "8b2146da8b79bc987f8167676ad5a5a06fbc81607d92f28d4a083b88f2113bc7",
+                  "head": "23c41e65b4b9ae9dda8f70a2d287e5ef3fecc234",
+                  "id": "op-kill-complete"
+                }
+              ],
+              "requests": [
+                {
+                  "digest": "8b2146da8b79bc987f8167676ad5a5a06fbc81607d92f28d4a083b88f2113bc7",
+                  "id": "op-kill-complete"
+                }
+              ]
+            },
+            "second": {
+              "status": "complete"
+            }
+          }
+        ]
+      },
+      "disposition": "performed",
+      "id": "R09",
+      "status": "passed",
+      "title": "Every new durable interruption prefix"
+    },
+    {
+      "checks": [
+        {
+          "actual": "complete",
+          "expected": "complete",
+          "name": "prepare completed fixture missing-operation",
+          "passed": true
+        },
+        {
+          "actual": "refused",
+          "expected": "refused",
+          "name": "direct completed recovery refuses damaged evidence missing-operation",
+          "passed": true
+        },
+        {
+          "actual": 1,
+          "expected": 1,
+          "name": "damaged record never dispatches missing-operation",
+          "passed": true
+        },
+        {
+          "actual": "complete",
+          "expected": "complete",
+          "name": "prepare completed fixture missing-manifest",
+          "passed": true
+        },
+        {
+          "actual": "refused",
+          "expected": "refused",
+          "name": "direct completed recovery refuses damaged evidence missing-manifest",
+          "passed": true
+        },
+        {
+          "actual": 1,
+          "expected": 1,
+          "name": "damaged record never dispatches missing-manifest",
+          "passed": true
+        },
+        {
+          "actual": "complete",
+          "expected": "complete",
+          "name": "prepare completed fixture missing-authority-link",
+          "passed": true
+        },
+        {
+          "actual": "refused",
+          "expected": "refused",
+          "name": "direct completed recovery refuses damaged evidence missing-authority-link",
+          "passed": true
+        },
+        {
+          "actual": 1,
+          "expected": 1,
+          "name": "damaged record never dispatches missing-authority-link",
+          "passed": true
+        },
+        {
+          "actual": "complete",
+          "expected": "complete",
+          "name": "prepare completed fixture malformed-operation",
+          "passed": true
+        },
+        {
+          "actual": "refused",
+          "expected": "refused",
+          "name": "direct completed recovery refuses damaged evidence malformed-operation",
+          "passed": true
+        },
+        {
+          "actual": 1,
+          "expected": 1,
+          "name": "damaged record never dispatches malformed-operation",
+          "passed": true
+        },
+        {
+          "actual": "complete",
+          "expected": "complete",
+          "name": "prepare completed fixture foreign-id",
+          "passed": true
+        },
+        {
+          "actual": "refused",
+          "expected": "refused",
+          "name": "direct completed recovery refuses damaged evidence foreign-id",
+          "passed": true
+        },
+        {
+          "actual": 1,
+          "expected": 1,
+          "name": "damaged record never dispatches foreign-id",
+          "passed": true
+        },
+        {
+          "actual": "complete",
+          "expected": "complete",
+          "name": "prepare completed fixture changed-intent",
+          "passed": true
+        },
+        {
+          "actual": "refused",
+          "expected": "refused",
+          "name": "direct completed recovery refuses damaged evidence changed-intent",
+          "passed": true
+        },
+        {
+          "actual": 1,
+          "expected": 1,
+          "name": "damaged record never dispatches changed-intent",
+          "passed": true
+        },
+        {
+          "actual": "complete",
+          "expected": "complete",
+          "name": "prepare completed fixture missing-original-checkpoint",
+          "passed": true
+        },
+        {
+          "actual": "refused",
+          "expected": "refused",
+          "name": "direct completed recovery refuses damaged evidence missing-original-checkpoint",
+          "passed": true
+        },
+        {
+          "actual": 1,
+          "expected": 1,
+          "name": "damaged record never dispatches missing-original-checkpoint",
+          "passed": true
+        },
+        {
+          "actual": "complete",
+          "expected": "complete",
+          "name": "prepare completed fixture wrong-result-checkpoint",
+          "passed": true
+        },
+        {
+          "actual": "refused",
+          "expected": "refused",
+          "name": "direct completed recovery refuses damaged evidence wrong-result-checkpoint",
+          "passed": true
+        },
+        {
+          "actual": 1,
+          "expected": 1,
+          "name": "damaged record never dispatches wrong-result-checkpoint",
+          "passed": true
+        },
+        {
+          "actual": "complete",
+          "expected": "complete",
+          "name": "prepare completed fixture missing-result-checkpoint",
+          "passed": true
+        },
+        {
+          "actual": "refused",
+          "expected": "refused",
+          "name": "direct completed recovery refuses damaged evidence missing-result-checkpoint",
+          "passed": true
+        },
+        {
+          "actual": 1,
+          "expected": 1,
+          "name": "damaged record never dispatches missing-result-checkpoint",
+          "passed": true
+        },
+        {
+          "actual": "complete",
+          "expected": "complete",
+          "name": "prepare completed fixture missing-result-ref",
+          "passed": true
+        },
+        {
+          "actual": "refused",
+          "expected": "refused",
+          "name": "direct completed recovery refuses damaged evidence missing-result-ref",
+          "passed": true
+        },
+        {
+          "actual": 1,
+          "expected": 1,
+          "name": "damaged record never dispatches missing-result-ref",
+          "passed": true
+        },
+        {
+          "actual": "complete",
+          "expected": "complete",
+          "name": "prepare completed fixture wrong-result-ref",
+          "passed": true
+        },
+        {
+          "actual": "refused",
+          "expected": "refused",
+          "name": "direct completed recovery refuses damaged evidence wrong-result-ref",
+          "passed": true
+        },
+        {
+          "actual": 1,
+          "expected": 1,
+          "name": "damaged record never dispatches wrong-result-ref",
+          "passed": true
+        },
+        {
+          "actual": "complete",
+          "expected": "complete",
+          "name": "prepare completed fixture missing-retained-input",
+          "passed": true
+        },
+        {
+          "actual": "refused",
+          "expected": "refused",
+          "name": "direct completed recovery refuses damaged evidence missing-retained-input",
+          "passed": true
+        },
+        {
+          "actual": 1,
+          "expected": 1,
+          "name": "damaged record never dispatches missing-retained-input",
+          "passed": true
+        },
+        {
+          "actual": "complete",
+          "expected": "complete",
+          "name": "prepare completed fixture missing-result-object",
+          "passed": true
+        },
+        {
+          "actual": "refused",
+          "expected": "refused",
+          "name": "direct completed recovery refuses damaged evidence missing-result-object",
+          "passed": true
+        },
+        {
+          "actual": 1,
+          "expected": 1,
+          "name": "damaged record never dispatches missing-result-object",
+          "passed": true
+        },
+        {
+          "actual": "complete",
+          "expected": "complete",
+          "name": "prepare completed fixture wrong-receipt",
+          "passed": true
+        },
+        {
+          "actual": "refused",
+          "expected": "refused",
+          "name": "direct completed recovery refuses damaged evidence wrong-receipt",
+          "passed": true
+        },
+        {
+          "actual": 1,
+          "expected": 1,
+          "name": "damaged record never dispatches wrong-receipt",
+          "passed": true
+        },
+        {
+          "actual": "complete",
+          "expected": "complete",
+          "name": "prepare completed fixture wrong-binding",
+          "passed": true
+        },
+        {
+          "actual": "refused",
+          "expected": "refused",
+          "name": "direct completed recovery refuses damaged evidence wrong-binding",
+          "passed": true
+        },
+        {
+          "actual": 1,
+          "expected": 1,
+          "name": "damaged record never dispatches wrong-binding",
+          "passed": true
+        },
+        {
+          "actual": "complete",
+          "expected": "complete",
+          "name": "complete before normal authoring",
+          "passed": true
+        },
+        {
+          "actual": "complete",
+          "expected": "complete",
+          "name": "later authoring does not invalidate retained completion",
+          "passed": true
+        },
+        {
+          "actual": "9241d8713ddb66368b7e0973da88c284037f9a6c",
+          "expected": "9241d8713ddb66368b7e0973da88c284037f9a6c",
+          "name": "later authoring branch remains unchanged by recovery",
+          "passed": true
+        }
+      ],
+      "details": {
+        "current_authoring": "9241d8713ddb66368b7e0973da88c284037f9a6c",
+        "damage": [
+          {
+            "name": "missing-operation",
+            "result": {
+              "reason": "missing:operation.json",
+              "status": "refused"
+            }
+          },
+          {
+            "name": "missing-manifest",
+            "result": {
+              "reason": "missing:manifest.json",
+              "status": "refused"
+            }
+          },
+          {
+            "name": "missing-authority-link",
+            "result": {
+              "reason": "[Errno 2] No such file or directory: '/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/recovery/runs/1794232632320218000/damage-missing-authority-link/authority-link.json'",
+              "status": "refused"
+            }
+          },
+          {
+            "name": "malformed-operation",
+            "result": {
+              "reason": "Expecting value: line 1 column 10 (char 9)",
+              "status": "refused"
+            }
+          },
+          {
+            "name": "foreign-id",
+            "result": {
+              "reason": "operation_identity",
+              "status": "refused"
+            }
+          },
+          {
+            "name": "changed-intent",
+            "result": {
+              "reason": "frozen_intent_changed",
+              "status": "refused"
+            }
+          },
+          {
+            "name": "missing-original-checkpoint",
+            "result": {
+              "reason": "missing:original-checkpoint.json",
+              "status": "refused"
+            }
+          },
+          {
+            "name": "wrong-result-checkpoint",
+            "result": {
+              "reason": "invalid_completed_checkpoint",
+              "status": "refused"
+            }
+          },
+          {
+            "name": "missing-result-checkpoint",
+            "result": {
+              "reason": "invalid_completed_checkpoint",
+              "status": "refused"
+            }
+          },
+          {
+            "name": "missing-result-ref",
+            "result": {
+              "reason": "invalid_completed_attachment",
+              "status": "refused"
+            }
+          },
+          {
+            "name": "wrong-result-ref",
+            "result": {
+              "reason": "invalid_completed_attachment",
+              "status": "refused"
+            }
+          },
+          {
+            "name": "missing-retained-input",
+            "result": {
+              "reason": "missing_retained_input",
+              "status": "refused"
+            }
+          },
+          {
+            "name": "missing-result-object",
+            "result": {
+              "reason": "missing_retained_result",
+              "status": "refused"
+            }
+          },
+          {
+            "name": "wrong-receipt",
+            "result": {
+              "reason": "invalid_completed_receipt",
+              "status": "refused"
+            }
+          },
+          {
+            "name": "wrong-binding",
+            "result": {
+              "reason": "binding_changed",
+              "status": "refused"
+            }
+          }
+        ],
+        "retained_result": "6e0243c7cab7bd1c7f40668eafd3a230054764a6"
+      },
+      "disposition": "performed",
+      "id": "R10",
+      "status": "passed",
+      "title": "Damaged completion and frozen evidence"
+    },
+    {
+      "checks": [
+        {
+          "actual": "unknown_partial",
+          "expected": "unknown_partial",
+          "name": "partial outcome remains unknown",
+          "passed": true
+        },
+        {
+          "actual": "80e8dcb0eb431b9bd5bcb300361e3f17c166e96a",
+          "expected": "80e8dcb0eb431b9bd5bcb300361e3f17c166e96a",
+          "name": "actual head changed",
+          "passed": true
+        },
+        {
+          "actual": "",
+          "expected": "",
+          "name": "actual archive absent",
+          "passed": true
+        },
+        {
+          "actual": "blocked_unknown_no_resend",
+          "expected": "blocked_unknown_no_resend",
+          "name": "matching head alone does not complete",
+          "passed": true
+        },
+        {
+          "actual": 1,
+          "expected": 1,
+          "name": "partial outcome no duplicate request",
+          "passed": true
+        }
+      ],
+      "details": {
+        "missing_archive": true,
+        "provider": {
+          "receipts": [],
+          "requests": [
+            {
+              "digest": "1550c8f59e33c94b2e44f9f8dc0aa973107e73baba0757822b3fcc0fc964e0df",
+              "id": "op-partial-provider"
+            }
+          ]
+        },
+        "result": {
+          "status": "unknown_partial"
+        },
+        "scope": "Injected separate effects; not evidence that Git atomic push is partial",
+        "state": {
+          "intent": {
+            "binding": {
+              "change": "A",
+              "head": "A",
+              "repository": "local-fixture",
+              "review": 1
+            },
+            "captured_checkpoint": {
+              "accepted_local": "80e8dcb0eb431b9bd5bcb300361e3f17c166e96a",
+              "incorporated": "8342bb540a5e39059949a67ecb63490c07c830a9"
+            },
+            "continuation": "refs/retained/completed-partial-provider",
+            "expected": "8342bb540a5e39059949a67ecb63490c07c830a9",
+            "id": "op-partial-provider",
+            "input": "8342bb540a5e39059949a67ecb63490c07c830a9",
+            "provider": "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/recovery/runs/1794232632320218000/partial-provider/provider",
+            "result": "80e8dcb0eb431b9bd5bcb300361e3f17c166e96a",
+            "scope": [
+              "head:A",
+              "archive:partial-provider"
+            ]
+          },
+          "state": "indeterminate"
+        }
+      },
+      "disposition": "performed",
+      "id": "R11",
+      "status": "passed",
+      "title": "Partial and unknown effect"
+    },
+    {
+      "checks": [
+        {
+          "actual": {
+            "intent": {
+              "binding": {
+                "change": "A",
+                "head": "A",
+                "repository": "local-fixture",
+                "review": 1
+              },
+              "captured_checkpoint": {
+                "accepted_local": "c7b7c5a4db0bb7bf954622df46cc0c218e798a4f",
+                "incorporated": "713d8c9e0471e8aacceca1f9d26274b93fa4bdb1"
+              },
+              "continuation": "refs/retained/completed-local-while-pending",
+              "expected": "713d8c9e0471e8aacceca1f9d26274b93fa4bdb1",
+              "id": "op-local-while-pending",
+              "input": "713d8c9e0471e8aacceca1f9d26274b93fa4bdb1",
+              "provider": "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/recovery/runs/1794232632320218000/local-while-pending/provider",
+              "result": "c7b7c5a4db0bb7bf954622df46cc0c218e798a4f",
+              "scope": [
+                "head:A",
+                "archive:local-while-pending"
+              ]
+            },
+            "state": "indeterminate"
+          },
+          "expected": {
+            "intent": {
+              "binding": {
+                "change": "A",
+                "head": "A",
+                "repository": "local-fixture",
+                "review": 1
+              },
+              "captured_checkpoint": {
+                "accepted_local": "c7b7c5a4db0bb7bf954622df46cc0c218e798a4f",
+                "incorporated": "713d8c9e0471e8aacceca1f9d26274b93fa4bdb1"
+              },
+              "continuation": "refs/retained/completed-local-while-pending",
+              "expected": "713d8c9e0471e8aacceca1f9d26274b93fa4bdb1",
+              "id": "op-local-while-pending",
+              "input": "713d8c9e0471e8aacceca1f9d26274b93fa4bdb1",
+              "provider": "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/recovery/runs/1794232632320218000/local-while-pending/provider",
+              "result": "c7b7c5a4db0bb7bf954622df46cc0c218e798a4f",
+              "scope": [
+                "head:A",
+                "archive:local-while-pending"
+              ]
+            },
+            "state": "indeterminate"
+          },
+          "name": "fresh local acceptance retains old frozen pending input",
+          "passed": true
+        },
+        {
+          "actual": "blocked_unknown_no_resend",
+          "expected": "blocked_unknown_no_resend",
+          "name": "local successor does not settle old request",
+          "passed": true
+        },
+        {
+          "actual": "d5e3972ba8865f40edf7aa212ee192f1323338b4",
+          "expected": "d5e3972ba8865f40edf7aa212ee192f1323338b4",
+          "name": "local successor retained exact",
+          "passed": true
+        }
+      ],
+      "details": {
+        "old": {
+          "intent": {
+            "binding": {
+              "change": "A",
+              "head": "A",
+              "repository": "local-fixture",
+              "review": 1
+            },
+            "captured_checkpoint": {
+              "accepted_local": "c7b7c5a4db0bb7bf954622df46cc0c218e798a4f",
+              "incorporated": "713d8c9e0471e8aacceca1f9d26274b93fa4bdb1"
+            },
+            "continuation": "refs/retained/completed-local-while-pending",
+            "expected": "713d8c9e0471e8aacceca1f9d26274b93fa4bdb1",
+            "id": "op-local-while-pending",
+            "input": "713d8c9e0471e8aacceca1f9d26274b93fa4bdb1",
+            "provider": "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/recovery/runs/1794232632320218000/local-while-pending/provider",
+            "result": "c7b7c5a4db0bb7bf954622df46cc0c218e798a4f",
+            "scope": [
+              "head:A",
+              "archive:local-while-pending"
+            ]
+          },
+          "state": "indeterminate"
+        },
+        "strict_hosted_authority": false,
+        "successor": {
+          "incorporated": "c7b7c5a4db0bb7bf954622df46cc0c218e798a4f",
+          "predecessor": "c7b7c5a4db0bb7bf954622df46cc0c218e798a4f",
+          "result": "d5e3972ba8865f40edf7aa212ee192f1323338b4"
+        },
+        "weaker_authority": "requires separately accepted exact new request, never inherited from local acceptance"
+      },
+      "disposition": "performed",
+      "id": "R12",
+      "status": "passed",
+      "title": "Fresh local result while old pending"
+    },
+    {
+      "checks": [
+        {
+          "actual": "stale_custody",
+          "expected": "stale_custody",
+          "name": "stale source custody blocked",
+          "passed": true
+        },
+        {
+          "actual": "blocked_unknown_no_resend",
+          "expected": "blocked_unknown_no_resend",
+          "name": "new owner preserves unresolved outcome without resend",
+          "passed": true
+        },
+        {
+          "actual": {
+            "accepted_local": "c7b7c5a4db0bb7bf954622df46cc0c218e798a4f",
+            "incorporated": "713d8c9e0471e8aacceca1f9d26274b93fa4bdb1"
+          },
+          "expected": {
+            "accepted_local": "c7b7c5a4db0bb7bf954622df46cc0c218e798a4f",
+            "incorporated": "713d8c9e0471e8aacceca1f9d26274b93fa4bdb1"
+          },
+          "name": "transfer exact original checkpoint",
+          "passed": true
+        },
+        {
+          "actual": {
+            "binding": {
+              "change": "A",
+              "head": "A",
+              "repository": "local-fixture",
+              "review": 1
+            },
+            "captured_checkpoint": {
+              "accepted_local": "c7b7c5a4db0bb7bf954622df46cc0c218e798a4f",
+              "incorporated": "713d8c9e0471e8aacceca1f9d26274b93fa4bdb1"
+            },
+            "continuation": "refs/retained/completed-transfer-source",
+            "expected": "713d8c9e0471e8aacceca1f9d26274b93fa4bdb1",
+            "id": "op-transfer-source",
+            "input": "713d8c9e0471e8aacceca1f9d26274b93fa4bdb1",
+            "provider": "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/recovery/runs/1794232632320218000/transfer-source/provider",
+            "result": "c7b7c5a4db0bb7bf954622df46cc0c218e798a4f",
+            "scope": [
+              "head:A",
+              "archive:transfer-source"
+            ]
+          },
+          "expected": {
+            "binding": {
+              "change": "A",
+              "head": "A",
+              "repository": "local-fixture",
+              "review": 1
+            },
+            "captured_checkpoint": {
+              "accepted_local": "c7b7c5a4db0bb7bf954622df46cc0c218e798a4f",
+              "incorporated": "713d8c9e0471e8aacceca1f9d26274b93fa4bdb1"
+            },
+            "continuation": "refs/retained/completed-transfer-source",
+            "expected": "713d8c9e0471e8aacceca1f9d26274b93fa4bdb1",
+            "id": "op-transfer-source",
+            "input": "713d8c9e0471e8aacceca1f9d26274b93fa4bdb1",
+            "provider": "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/recovery/runs/1794232632320218000/transfer-source/provider",
+            "result": "c7b7c5a4db0bb7bf954622df46cc0c218e798a4f",
+            "scope": [
+              "head:A",
+              "archive:transfer-source"
+            ]
+          },
+          "name": "transfer frozen operation input",
+          "passed": true
+        },
+        {
+          "actual": 1,
+          "expected": 1,
+          "name": "transfer provider request count",
+          "passed": true
+        },
+        {
+          "actual": "refused",
+          "expected": "refused",
+          "name": "adoption outcome wrong-api-repository",
+          "passed": true
+        },
+        {
+          "actual": false,
+          "expected": false,
+          "name": "adoption has no new mutation authority wrong-api-repository",
+          "passed": true
+        },
+        {
+          "actual": "refused",
+          "expected": "refused",
+          "name": "adoption outcome wrong-git-destination",
+          "passed": true
+        },
+        {
+          "actual": false,
+          "expected": false,
+          "name": "adoption has no new mutation authority wrong-git-destination",
+          "passed": true
+        },
+        {
+          "actual": "refused",
+          "expected": "refused",
+          "name": "adoption outcome occupied-without-adoption",
+          "passed": true
+        },
+        {
+          "actual": false,
+          "expected": false,
+          "name": "adoption has no new mutation authority occupied-without-adoption",
+          "passed": true
+        },
+        {
+          "actual": "refused",
+          "expected": "refused",
+          "name": "adoption outcome stale-adoption-value",
+          "passed": true
+        },
+        {
+          "actual": false,
+          "expected": false,
+          "name": "adoption has no new mutation authority stale-adoption-value",
+          "passed": true
+        },
+        {
+          "actual": "refused",
+          "expected": "refused",
+          "name": "adoption outcome unknown-old-writer",
+          "passed": true
+        },
+        {
+          "actual": false,
+          "expected": false,
+          "name": "adoption has no new mutation authority unknown-old-writer",
+          "passed": true
+        },
+        {
+          "actual": "refused",
+          "expected": "refused",
+          "name": "adoption outcome lost-archive-history",
+          "passed": true
+        },
+        {
+          "actual": false,
+          "expected": false,
+          "name": "adoption has no new mutation authority lost-archive-history",
+          "passed": true
+        },
+        {
+          "actual": "enrolled",
+          "expected": "enrolled",
+          "name": "adoption outcome full-custody",
+          "passed": true
+        },
+        {
+          "actual": false,
+          "expected": false,
+          "name": "adoption has no new mutation authority full-custody",
+          "passed": true
+        },
+        {
+          "actual": "refused",
+          "expected": "refused",
+          "name": "bindings-only directory cannot adopt custody",
+          "passed": true
+        }
+      ],
+      "details": {
+        "admissions": [
+          {
+            "name": "wrong-api-repository",
+            "result": {
+              "mutation_authority": false,
+              "reason": "destination_mapping_mismatch",
+              "status": "refused"
+            }
+          },
+          {
+            "name": "wrong-git-destination",
+            "result": {
+              "mutation_authority": false,
+              "reason": "destination_mapping_mismatch",
+              "status": "refused"
+            }
+          },
+          {
+            "name": "occupied-without-adoption",
+            "result": {
+              "mutation_authority": false,
+              "reason": "occupied_unadopted_head",
+              "status": "refused"
+            }
+          },
+          {
+            "name": "stale-adoption-value",
+            "result": {
+              "mutation_authority": false,
+              "reason": "adopted_head_changed",
+              "status": "refused"
+            }
+          },
+          {
+            "name": "unknown-old-writer",
+            "result": {
+              "mutation_authority": false,
+              "reason": "old_writer_not_excluded",
+              "status": "refused"
+            }
+          },
+          {
+            "name": "lost-archive-history",
+            "result": {
+              "mutation_authority": false,
+              "reason": "archive_history_mismatch",
+              "status": "refused"
+            }
+          },
+          {
+            "name": "full-custody",
+            "result": {
+              "mutation_authority": false,
+              "pending_custody": true,
+              "status": "enrolled"
+            }
+          },
+          {
+            "name": "bindings-only",
+            "result": {
+              "mutation_authority": false,
+              "reason": "missing:authority-link.json",
+              "status": "refused"
+            }
+          }
+        ],
+        "bound": "Same-host stable authority path; cross-host transfer still needs quiescence and coordinated authority handoff",
+        "destination": "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/recovery/runs/1794232632320218000/transfer-destination",
+        "provider": {
+          "receipts": [],
+          "requests": [
+            {
+              "digest": "cfa6f641cfa89663f5d41b81571b90114a38011afe5bd3493cc9a696660ac84f",
+              "id": "op-transfer-source"
+            }
+          ]
+        }
+      },
+      "disposition": "performed",
+      "id": "R13",
+      "status": "passed",
+      "title": "Custody transfer and adoption"
+    },
+    {
+      "checks": [
+        {
+          "actual": false,
+          "expected": false,
+          "name": "rollback cannot enable old publisher while native outcome unresolved",
+          "passed": true
+        },
+        {
+          "actual": "complete",
+          "expected": "complete",
+          "name": "settle owned fixture",
+          "passed": true
+        },
+        {
+          "actual": "stale_custody",
+          "expected": "stale_custody",
+          "name": "old native worker invalid after deliberate handoff",
+          "passed": true
+        },
+        {
+          "actual": "77cd83d5ba1a28d8c1d454f1623c3dc5425454a4",
+          "expected": "77cd83d5ba1a28d8c1d454f1623c3dc5425454a4",
+          "name": "rollback preserves exact retained result",
+          "passed": true
+        }
+      ],
+      "details": {
+        "bound": "Local export/handoff rehearsal; not production enrollment or proof legacy Actions are excluded",
+        "bundle_verify": "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/recovery/runs/1794232632320218000/rollback-settled/retained-export.bundle is okay\n",
+        "export": {
+          "binding": {
+            "change": "A",
+            "head": "A",
+            "repository": "local-fixture",
+            "review": 1
+          },
+          "bundle_sha256": "d2e92cb11d889ce08a2ab07c4687b69bde56d5fed5c3d43cd5d1fee515f7feec",
+          "checkpoint": {
+            "captured_checkpoint": {
+              "accepted_local": "77cd83d5ba1a28d8c1d454f1623c3dc5425454a4",
+              "incorporated": "2418b21d277e8cd005caf43abd4fda23595aca3f"
+            },
+            "continuation": "refs/retained/completed-rollback-settled",
+            "id": "op-rollback-settled",
+            "input": "2418b21d277e8cd005caf43abd4fda23595aca3f",
+            "result": "77cd83d5ba1a28d8c1d454f1623c3dc5425454a4"
+          },
+          "operation": {
+            "intent": {
+              "binding": {
+                "change": "A",
+                "head": "A",
+                "repository": "local-fixture",
+                "review": 1
+              },
+              "captured_checkpoint": {
+                "accepted_local": "77cd83d5ba1a28d8c1d454f1623c3dc5425454a4",
+                "incorporated": "2418b21d277e8cd005caf43abd4fda23595aca3f"
+              },
+              "continuation": "refs/retained/completed-rollback-settled",
+              "expected": "2418b21d277e8cd005caf43abd4fda23595aca3f",
+              "id": "op-rollback-settled",
+              "input": "2418b21d277e8cd005caf43abd4fda23595aca3f",
+              "provider": "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/recovery/runs/1794232632320218000/rollback-settled/provider",
+              "result": "77cd83d5ba1a28d8c1d454f1623c3dc5425454a4",
+              "scope": [
+                "head:A",
+                "archive:rollback-settled"
+              ]
+            },
+            "receipt": {
+              "digest": "e0a973573eca23c23a59b293bf3bf546e905cb1efed9181e6ceb18b7c07b688e",
+              "head": "77cd83d5ba1a28d8c1d454f1623c3dc5425454a4",
+              "id": "op-rollback-settled"
+            },
+            "state": "complete"
+          }
+        }
+      },
+      "disposition": "performed",
+      "id": "R14",
+      "status": "passed",
+      "title": "Deliberate rollback export"
+    },
+    {
+      "checks": [
+        {
+          "actual": true,
+          "expected": true,
+          "name": "model never accepts torn JSON as completion",
+          "passed": true
+        }
+      ],
+      "details": {
+        "actual_machine_power_loss": "not performed",
+        "limit": "Model outcome sets are assumed and do not validate a filesystem",
+        "model": [
+          {
+            "assumption": "temp file fsync orders data; directory fsync orders rename; prior old record durable",
+            "modeled_recovered_generations": [
+              "old"
+            ],
+            "prefix": "temp-write"
+          },
+          {
+            "assumption": "temp file fsync orders data; directory fsync orders rename; prior old record durable",
+            "modeled_recovered_generations": [
+              "old"
+            ],
+            "prefix": "temp-fsync"
+          },
+          {
+            "assumption": "temp file fsync orders data; directory fsync orders rename; prior old record durable",
+            "modeled_recovered_generations": [
+              "new",
+              "old"
+            ],
+            "prefix": "rename"
+          },
+          {
+            "assumption": "temp file fsync orders data; directory fsync orders rename; prior old record durable",
+            "modeled_recovered_generations": [
+              "new"
+            ],
+            "prefix": "directory-fsync"
+          }
+        ],
+        "observed_hardware_behavior": false,
+        "runtime": {
+          "architecture": "aarch64",
+          "context": "orbstack",
+          "owned_guest": "pending root decision; VM-PLAN.md",
+          "server": "29.4.0"
+        }
+      },
+      "disposition": "performed",
+      "id": "R15",
+      "status": "passed",
+      "title": "Capability and persistence model"
+    },
+    {
+      "checks": [
+        {
+          "actual": "complete",
+          "expected": "complete",
+          "name": "valid fixture completes before mutation identity",
+          "passed": true
+        },
+        {
+          "actual": "operation_identity",
+          "expected": "operation_identity",
+          "name": "unmodified dispatcher rejects mutation identity",
+          "passed": true
+        },
+        {
+          "actual": "complete",
+          "expected": "complete",
+          "name": "known-bad dispatcher reports completion identity",
+          "passed": true
+        },
+        {
+          "actual": true,
+          "expected": true,
+          "name": "independent artifact/request oracle catches unsafe completion identity",
+          "passed": true
+        },
+        {
+          "actual": "complete",
+          "expected": "complete",
+          "name": "valid fixture completes before mutation result",
+          "passed": true
+        },
+        {
+          "actual": "invalid_completed_attachment",
+          "expected": "invalid_completed_attachment",
+          "name": "unmodified dispatcher rejects mutation result",
+          "passed": true
+        },
+        {
+          "actual": "complete",
+          "expected": "complete",
+          "name": "known-bad dispatcher reports completion result",
+          "passed": true
+        },
+        {
+          "actual": true,
+          "expected": true,
+          "name": "independent artifact/request oracle catches unsafe completion result",
+          "passed": true
+        },
+        {
+          "actual": "stale_custody",
+          "expected": "stale_custody",
+          "name": "unmodified dispatcher rejects mutation owner",
+          "passed": true
+        },
+        {
+          "actual": "complete",
+          "expected": "complete",
+          "name": "known-bad dispatcher reports completion owner",
+          "passed": true
+        },
+        {
+          "actual": true,
+          "expected": true,
+          "name": "independent artifact/request oracle catches unsafe completion owner",
+          "passed": true
+        }
+      ],
+      "details": {
+        "controls": [
+          {
+            "invariant_violated": true,
+            "mutation": "identity",
+            "provider_requests": 1,
+            "unsafe_result": {
+              "status": "complete"
+            }
+          },
+          {
+            "invariant_violated": true,
+            "mutation": "result",
+            "provider_requests": 1,
+            "unsafe_result": {
+              "status": "complete"
+            }
+          },
+          {
+            "invariant_violated": true,
+            "mutation": "owner",
+            "provider_requests": 1,
+            "unsafe_result": {
+              "status": "complete"
+            }
+          }
+        ],
+        "limitation": "Protocol source and checks share edit authority; experimental falsification is not an enforced production gate"
+      },
+      "disposition": "performed",
+      "id": "R16",
+      "status": "passed",
+      "title": "Acceptance oracle mutation controls"
+    },
+    {
+      "checks": [
+        {
+          "actual": "needs_explicit_drift_review",
+          "expected": "needs_explicit_drift_review",
+          "name": "explicit-only boundary stops every changed overlapping observation",
+          "passed": true
+        },
+        {
+          "actual": {
+            "x": "0\n",
+            "z": "2\n"
+          },
+          "expected": {
+            "x": "0\n",
+            "z": "2\n"
+          },
+          "name": "explicit result preserves reset and legitimate edit",
+          "passed": true
+        },
+        {
+          "actual": "planned",
+          "expected": "planned",
+          "name": "explicit-only acceptance does not complete old operation",
+          "passed": true
+        }
+      ],
+      "details": {
+        "automatic_restoration": false,
+        "comparison": {
+          "explicit_only": "Exact accepted result/observation plus decision; full drift review every time",
+          "guarded_proposal": "Additional accepted intent-path set and validator; may provide clean proposal but still needs review; reset can require extra resolution"
+        },
+        "decision": {
+          "acceptance": "Restore x=0 and retain legitimate remote z=2; exact test-supplied decision, not inferred intent",
+          "exact_accepted_result": "d20ee470d419bfdd00ed2b8d2ff2561b3db51532",
+          "observed": "d1fa170d68355d2b091761d406286002110943b5",
+          "previous_intent": "b886d3c12e7d5e676bc86cf810f9acc11f3895c3"
+        },
+        "human_cost": "Not measured; a programmatically supplied correct decision is not evidence a person notices every lost edit",
+        "inferred_intent": false
+      },
+      "disposition": "performed",
+      "id": "R17",
+      "status": "passed",
+      "title": "Explicit-only drift acceptance control"
+    },
+    {
+      "checks": [
+        {
+          "actual": "refused",
+          "expected": "refused",
+          "name": "scope admission strict-B",
+          "passed": true
+        },
+        {
+          "actual": "admitted",
+          "expected": "admitted",
+          "name": "scope admission weaker-B-explicit",
+          "passed": true
+        },
+        {
+          "actual": "refused",
+          "expected": "refused",
+          "name": "scope admission weaker-B-unaccepted",
+          "passed": true
+        },
+        {
+          "actual": "admitted",
+          "expected": "admitted",
+          "name": "scope admission fresh-F-only",
+          "passed": true
+        },
+        {
+          "actual": "refused",
+          "expected": "refused",
+          "name": "scope admission fresh-F-broad-source",
+          "passed": true
+        },
+        {
+          "actual": "refused",
+          "expected": "refused",
+          "name": "scope admission fresh-F-shared-checkpoint",
+          "passed": true
+        },
+        {
+          "actual": "refused",
+          "expected": "refused",
+          "name": "scope admission fresh-F-managed-trunk",
+          "passed": true
+        },
+        {
+          "actual": "refused",
+          "expected": "refused",
+          "name": "unknown old scope cannot be called disjoint",
+          "passed": true
+        }
+      ],
+      "details": {
+        "evidence_bound": "Scope sets supplied explicitly by experiment; this does not establish GitHub's complete future effect scope or arbitrate later writes",
+        "rows": [
+          {
+            "effect": {
+              "kind": "same-order-head-amendment",
+              "scope": [
+                "head:B"
+              ]
+            },
+            "name": "strict-B",
+            "result": {
+              "overlaps": [
+                {
+                  "id": "old-A-B",
+                  "shared": [
+                    "head:B"
+                  ]
+                }
+              ],
+              "reason": "overlapping_old_effect",
+              "status": "refused"
+            }
+          },
+          {
+            "effect": {
+              "kind": "same-order-head-amendment",
+              "scope": [
+                "head:B"
+              ]
+            },
+            "name": "weaker-B-explicit",
+            "result": {
+              "overlaps": [
+                {
+                  "id": "old-A-B",
+                  "shared": [
+                    "head:B"
+                  ]
+                }
+              ],
+              "promise": "retained-intent-and-later-detection",
+              "status": "admitted"
+            }
+          },
+          {
+            "effect": {
+              "kind": "same-order-head-amendment",
+              "scope": [
+                "head:B"
+              ]
+            },
+            "name": "weaker-B-unaccepted",
+            "result": {
+              "overlaps": [
+                {
+                  "id": "old-A-B",
+                  "shared": [
+                    "head:B"
+                  ]
+                }
+              ],
+              "reason": "outside_accepted_weaker_contract",
+              "status": "refused"
+            }
+          },
+          {
+            "effect": {
+              "kind": "first-publication",
+              "scope": [
+                "head:F",
+                "review:F",
+                "source:F",
+                "checkpoint:F"
+              ]
+            },
+            "name": "fresh-F-only",
+            "result": {
+              "overlaps": [],
+              "promise": "disjoint-scope-only",
+              "status": "admitted"
+            }
+          },
+          {
+            "effect": {
+              "kind": "first-publication",
+              "scope": [
+                "head:F",
+                "source:AB"
+              ]
+            },
+            "name": "fresh-F-broad-source",
+            "result": {
+              "overlaps": [
+                {
+                  "id": "old-A-B",
+                  "shared": [
+                    "source:AB"
+                  ]
+                }
+              ],
+              "reason": "overlapping_old_effect",
+              "status": "refused"
+            }
+          },
+          {
+            "effect": {
+              "kind": "first-publication",
+              "scope": [
+                "head:F",
+                "checkpoint:AB"
+              ]
+            },
+            "name": "fresh-F-shared-checkpoint",
+            "result": {
+              "overlaps": [
+                {
+                  "id": "old-A-B",
+                  "shared": [
+                    "checkpoint:AB"
+                  ]
+                }
+              ],
+              "reason": "overlapping_old_effect",
+              "status": "refused"
+            }
+          },
+          {
+            "effect": {
+              "kind": "first-publication",
+              "scope": [
+                "head:F",
+                "head:A"
+              ]
+            },
+            "name": "fresh-F-managed-trunk",
+            "result": {
+              "overlaps": [
+                {
+                  "id": "old-A-B",
+                  "shared": [
+                    "head:A"
+                  ]
+                }
+              ],
+              "reason": "overlapping_old_effect",
+              "status": "refused"
+            }
+          }
+        ]
+      },
+      "disposition": "performed",
+      "id": "R18",
+      "status": "passed",
+      "title": "Concrete effect-scope admission"
+    }
+  ],
+  "checks_passed": 188,
+  "checks_total": 188,
+  "failed": [],
+  "run": "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/recovery/runs/1794232632320218000",
+  "scope": "Fresh experimental local protocol and injected effects, not production or provider guarantees",
+  "source_hashes": {
+    "PLAN.md": "ae84aa3d96a0963f99c3835bda93a096143233bf0f21f19bf1d725bde5e5478c",
+    "protocol.py": "73994fcb9747b4461bc90b17f0ae1b12e4a064eaabc862d840938e984133a7de",
+    "run.py": "42d87bcde806f3418b8658e76e5ea37900914fd4c8600fcf6271970e25f8f4a8"
+  }
+}

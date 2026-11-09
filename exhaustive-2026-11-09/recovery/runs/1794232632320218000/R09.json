@@ -1,0 +1,850 @@
+{
+  "checks": [
+    {
+      "actual": -9,
+      "expected": -9,
+      "name": "real SIGKILL validated",
+      "passed": true
+    },
+    {
+      "actual": "complete",
+      "expected": "complete",
+      "name": "prefix recovery disposition validated",
+      "passed": true
+    },
+    {
+      "actual": "complete",
+      "expected": "complete",
+      "name": "repeat recovery disposition validated",
+      "passed": true
+    },
+    {
+      "actual": 1,
+      "expected": 1,
+      "name": "prefix no duplicated provider request validated",
+      "passed": true
+    },
+    {
+      "actual": "2cc5a58b26ab85d9b2b399f1f30eecfd6db17a85",
+      "expected": "2cc5a58b26ab85d9b2b399f1f30eecfd6db17a85",
+      "name": "exact retained completed ref validated",
+      "passed": true
+    },
+    {
+      "actual": -9,
+      "expected": -9,
+      "name": "real SIGKILL marked",
+      "passed": true
+    },
+    {
+      "actual": "blocked_unknown_no_resend",
+      "expected": "blocked_unknown_no_resend",
+      "name": "prefix recovery disposition marked",
+      "passed": true
+    },
+    {
+      "actual": "blocked_unknown_no_resend",
+      "expected": "blocked_unknown_no_resend",
+      "name": "repeat recovery disposition marked",
+      "passed": true
+    },
+    {
+      "actual": 0,
+      "expected": 0,
+      "name": "prefix no duplicated provider request marked",
+      "passed": true
+    },
+    {
+      "actual": -9,
+      "expected": -9,
+      "name": "real SIGKILL request_logged",
+      "passed": true
+    },
+    {
+      "actual": "blocked_unknown_no_resend",
+      "expected": "blocked_unknown_no_resend",
+      "name": "prefix recovery disposition request_logged",
+      "passed": true
+    },
+    {
+      "actual": "blocked_unknown_no_resend",
+      "expected": "blocked_unknown_no_resend",
+      "name": "repeat recovery disposition request_logged",
+      "passed": true
+    },
+    {
+      "actual": 1,
+      "expected": 1,
+      "name": "prefix no duplicated provider request request_logged",
+      "passed": true
+    },
+    {
+      "actual": -9,
+      "expected": -9,
+      "name": "real SIGKILL provider_head",
+      "passed": true
+    },
+    {
+      "actual": "blocked_unknown_no_resend",
+      "expected": "blocked_unknown_no_resend",
+      "name": "prefix recovery disposition provider_head",
+      "passed": true
+    },
+    {
+      "actual": "blocked_unknown_no_resend",
+      "expected": "blocked_unknown_no_resend",
+      "name": "repeat recovery disposition provider_head",
+      "passed": true
+    },
+    {
+      "actual": 1,
+      "expected": 1,
+      "name": "prefix no duplicated provider request provider_head",
+      "passed": true
+    },
+    {
+      "actual": -9,
+      "expected": -9,
+      "name": "real SIGKILL provider_archive",
+      "passed": true
+    },
+    {
+      "actual": "blocked_unknown_no_resend",
+      "expected": "blocked_unknown_no_resend",
+      "name": "prefix recovery disposition provider_archive",
+      "passed": true
+    },
+    {
+      "actual": "blocked_unknown_no_resend",
+      "expected": "blocked_unknown_no_resend",
+      "name": "repeat recovery disposition provider_archive",
+      "passed": true
+    },
+    {
+      "actual": 1,
+      "expected": 1,
+      "name": "prefix no duplicated provider request provider_archive",
+      "passed": true
+    },
+    {
+      "actual": -9,
+      "expected": -9,
+      "name": "real SIGKILL provider_receipt",
+      "passed": true
+    },
+    {
+      "actual": "complete",
+      "expected": "complete",
+      "name": "prefix recovery disposition provider_receipt",
+      "passed": true
+    },
+    {
+      "actual": "complete",
+      "expected": "complete",
+      "name": "repeat recovery disposition provider_receipt",
+      "passed": true
+    },
+    {
+      "actual": 1,
+      "expected": 1,
+      "name": "prefix no duplicated provider request provider_receipt",
+      "passed": true
+    },
+    {
+      "actual": "604aee71ccc99791cdb70f293a2961cd1f59b5c8",
+      "expected": "604aee71ccc99791cdb70f293a2961cd1f59b5c8",
+      "name": "exact retained completed ref provider_receipt",
+      "passed": true
+    },
+    {
+      "actual": -9,
+      "expected": -9,
+      "name": "real SIGKILL acknowledged",
+      "passed": true
+    },
+    {
+      "actual": "complete",
+      "expected": "complete",
+      "name": "prefix recovery disposition acknowledged",
+      "passed": true
+    },
+    {
+      "actual": "complete",
+      "expected": "complete",
+      "name": "repeat recovery disposition acknowledged",
+      "passed": true
+    },
+    {
+      "actual": 1,
+      "expected": 1,
+      "name": "prefix no duplicated provider request acknowledged",
+      "passed": true
+    },
+    {
+      "actual": "604aee71ccc99791cdb70f293a2961cd1f59b5c8",
+      "expected": "604aee71ccc99791cdb70f293a2961cd1f59b5c8",
+      "name": "exact retained completed ref acknowledged",
+      "passed": true
+    },
+    {
+      "actual": -9,
+      "expected": -9,
+      "name": "real SIGKILL result_ref",
+      "passed": true
+    },
+    {
+      "actual": "complete",
+      "expected": "complete",
+      "name": "prefix recovery disposition result_ref",
+      "passed": true
+    },
+    {
+      "actual": "complete",
+      "expected": "complete",
+      "name": "repeat recovery disposition result_ref",
+      "passed": true
+    },
+    {
+      "actual": 1,
+      "expected": 1,
+      "name": "prefix no duplicated provider request result_ref",
+      "passed": true
+    },
+    {
+      "actual": "ec821ca8db1c8ab858e3484194ad37c13b144897",
+      "expected": "ec821ca8db1c8ab858e3484194ad37c13b144897",
+      "name": "exact retained completed ref result_ref",
+      "passed": true
+    },
+    {
+      "actual": -9,
+      "expected": -9,
+      "name": "real SIGKILL result_checkpoint",
+      "passed": true
+    },
+    {
+      "actual": "complete",
+      "expected": "complete",
+      "name": "prefix recovery disposition result_checkpoint",
+      "passed": true
+    },
+    {
+      "actual": "complete",
+      "expected": "complete",
+      "name": "repeat recovery disposition result_checkpoint",
+      "passed": true
+    },
+    {
+      "actual": 1,
+      "expected": 1,
+      "name": "prefix no duplicated provider request result_checkpoint",
+      "passed": true
+    },
+    {
+      "actual": "a09aabfc246c9d86534ba0889357d41e2977331c",
+      "expected": "a09aabfc246c9d86534ba0889357d41e2977331c",
+      "name": "exact retained completed ref result_checkpoint",
+      "passed": true
+    },
+    {
+      "actual": -9,
+      "expected": -9,
+      "name": "real SIGKILL complete",
+      "passed": true
+    },
+    {
+      "actual": "complete",
+      "expected": "complete",
+      "name": "prefix recovery disposition complete",
+      "passed": true
+    },
+    {
+      "actual": "complete",
+      "expected": "complete",
+      "name": "repeat recovery disposition complete",
+      "passed": true
+    },
+    {
+      "actual": 1,
+      "expected": 1,
+      "name": "prefix no duplicated provider request complete",
+      "passed": true
+    },
+    {
+      "actual": "23c41e65b4b9ae9dda8f70a2d287e5ef3fecc234",
+      "expected": "23c41e65b4b9ae9dda8f70a2d287e5ef3fecc234",
+      "name": "exact retained completed ref complete",
+      "passed": true
+    }
+  ],
+  "details": {
+    "power_loss_claim": false,
+    "prefixes": [
+      {
+        "actual_provider_head": "2cc5a58b26ab85d9b2b399f1f30eecfd6db17a85",
+        "before_requests": 0,
+        "final_operation": {
+          "intent": {
+            "binding": {
+              "change": "A",
+              "head": "A",
+              "repository": "local-fixture",
+              "review": 1
+            },
+            "captured_checkpoint": {
+              "accepted_local": "2cc5a58b26ab85d9b2b399f1f30eecfd6db17a85",
+              "incorporated": "de0fcb7721bcdee72990d75cddf48e3853182348"
+            },
+            "continuation": "refs/retained/completed-kill-validated",
+            "expected": "de0fcb7721bcdee72990d75cddf48e3853182348",
+            "id": "op-kill-validated",
+            "input": "de0fcb7721bcdee72990d75cddf48e3853182348",
+            "provider": "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/recovery/runs/1794232632320218000/kill-validated/provider",
+            "result": "2cc5a58b26ab85d9b2b399f1f30eecfd6db17a85",
+            "scope": [
+              "head:A",
+              "archive:kill-validated"
+            ]
+          },
+          "receipt": {
+            "digest": "95821145cd2831b193c4d614c0d2378fe62ae85ad99fc4d5fa7344cf7af64865",
+            "head": "2cc5a58b26ab85d9b2b399f1f30eecfd6db17a85",
+            "id": "op-kill-validated"
+          },
+          "state": "complete"
+        },
+        "first": {
+          "status": "complete"
+        },
+        "killed": -9,
+        "marker": {
+          "pid": 44627,
+          "prefix": "validated"
+        },
+        "prefix": "validated",
+        "provider": {
+          "receipts": [
+            {
+              "digest": "95821145cd2831b193c4d614c0d2378fe62ae85ad99fc4d5fa7344cf7af64865",
+              "head": "2cc5a58b26ab85d9b2b399f1f30eecfd6db17a85",
+              "id": "op-kill-validated"
+            }
+          ],
+          "requests": [
+            {
+              "digest": "95821145cd2831b193c4d614c0d2378fe62ae85ad99fc4d5fa7344cf7af64865",
+              "id": "op-kill-validated"
+            }
+          ]
+        },
+        "second": {
+          "status": "complete"
+        }
+      },
+      {
+        "actual_provider_head": "0ff39aac4af6cdc508f83893fa2c7714e3d80f6f",
+        "before_requests": 0,
+        "final_operation": {
+          "intent": {
+            "binding": {
+              "change": "A",
+              "head": "A",
+              "repository": "local-fixture",
+              "review": 1
+            },
+            "captured_checkpoint": {
+              "accepted_local": "8d134b05b569273b48ac42e37ba030bf743c4226",
+              "incorporated": "0ff39aac4af6cdc508f83893fa2c7714e3d80f6f"
+            },
+            "continuation": "refs/retained/completed-kill-marked",
+            "expected": "0ff39aac4af6cdc508f83893fa2c7714e3d80f6f",
+            "id": "op-kill-marked",
+            "input": "0ff39aac4af6cdc508f83893fa2c7714e3d80f6f",
+            "provider": "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/recovery/runs/1794232632320218000/kill-marked/provider",
+            "result": "8d134b05b569273b48ac42e37ba030bf743c4226",
+            "scope": [
+              "head:A",
+              "archive:kill-marked"
+            ]
+          },
+          "state": "indeterminate"
+        },
+        "first": {
+          "status": "blocked_unknown_no_resend"
+        },
+        "killed": -9,
+        "marker": {
+          "pid": 44697,
+          "prefix": "marked"
+        },
+        "prefix": "marked",
+        "provider": {
+          "receipts": [],
+          "requests": []
+        },
+        "second": {
+          "status": "blocked_unknown_no_resend"
+        }
+      },
+      {
+        "actual_provider_head": "0ff39aac4af6cdc508f83893fa2c7714e3d80f6f",
+        "before_requests": 1,
+        "final_operation": {
+          "intent": {
+            "binding": {
+              "change": "A",
+              "head": "A",
+              "repository": "local-fixture",
+              "review": 1
+            },
+            "captured_checkpoint": {
+              "accepted_local": "8d134b05b569273b48ac42e37ba030bf743c4226",
+              "incorporated": "0ff39aac4af6cdc508f83893fa2c7714e3d80f6f"
+            },
+            "continuation": "refs/retained/completed-kill-request_logged",
+            "expected": "0ff39aac4af6cdc508f83893fa2c7714e3d80f6f",
+            "id": "op-kill-request_logged",
+            "input": "0ff39aac4af6cdc508f83893fa2c7714e3d80f6f",
+            "provider": "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/recovery/runs/1794232632320218000/kill-request_logged/provider",
+            "result": "8d134b05b569273b48ac42e37ba030bf743c4226",
+            "scope": [
+              "head:A",
+              "archive:kill-request_logged"
+            ]
+          },
+          "state": "indeterminate"
+        },
+        "first": {
+          "status": "blocked_unknown_no_resend"
+        },
+        "killed": -9,
+        "marker": {
+          "pid": 44741,
+          "prefix": "request_logged"
+        },
+        "prefix": "request_logged",
+        "provider": {
+          "receipts": [],
+          "requests": [
+            {
+              "digest": "9ecb014af5b1510576c07f01357ef43ce2f8b0e7f989293d660341836720055d",
+              "id": "op-kill-request_logged"
+            }
+          ]
+        },
+        "second": {
+          "status": "blocked_unknown_no_resend"
+        }
+      },
+      {
+        "actual_provider_head": "15e2b174c57972264072651e59be806fbde72040",
+        "before_requests": 1,
+        "final_operation": {
+          "intent": {
+            "binding": {
+              "change": "A",
+              "head": "A",
+              "repository": "local-fixture",
+              "review": 1
+            },
+            "captured_checkpoint": {
+              "accepted_local": "15e2b174c57972264072651e59be806fbde72040",
+              "incorporated": "b9efb0eead106f190541c04731a6d5865c9f07be"
+            },
+            "continuation": "refs/retained/completed-kill-provider_head",
+            "expected": "b9efb0eead106f190541c04731a6d5865c9f07be",
+            "id": "op-kill-provider_head",
+            "input": "b9efb0eead106f190541c04731a6d5865c9f07be",
+            "provider": "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/recovery/runs/1794232632320218000/kill-provider_head/provider",
+            "result": "15e2b174c57972264072651e59be806fbde72040",
+            "scope": [
+              "head:A",
+              "archive:kill-provider_head"
+            ]
+          },
+          "state": "indeterminate"
+        },
+        "first": {
+          "status": "blocked_unknown_no_resend"
+        },
+        "killed": -9,
+        "marker": {
+          "pid": 44784,
+          "prefix": "provider_head"
+        },
+        "prefix": "provider_head",
+        "provider": {
+          "receipts": [],
+          "requests": [
+            {
+              "digest": "d6abc108e6cbde39c48149b60c810c900b27e674441dac9b0eeb5786a6bf737b",
+              "id": "op-kill-provider_head"
+            }
+          ]
+        },
+        "second": {
+          "status": "blocked_unknown_no_resend"
+        }
+      },
+      {
+        "actual_provider_head": "15e2b174c57972264072651e59be806fbde72040",
+        "before_requests": 1,
+        "final_operation": {
+          "intent": {
+            "binding": {
+              "change": "A",
+              "head": "A",
+              "repository": "local-fixture",
+              "review": 1
+            },
+            "captured_checkpoint": {
+              "accepted_local": "15e2b174c57972264072651e59be806fbde72040",
+              "incorporated": "b9efb0eead106f190541c04731a6d5865c9f07be"
+            },
+            "continuation": "refs/retained/completed-kill-provider_archive",
+            "expected": "b9efb0eead106f190541c04731a6d5865c9f07be",
+            "id": "op-kill-provider_archive",
+            "input": "b9efb0eead106f190541c04731a6d5865c9f07be",
+            "provider": "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/recovery/runs/1794232632320218000/kill-provider_archive/provider",
+            "result": "15e2b174c57972264072651e59be806fbde72040",
+            "scope": [
+              "head:A",
+              "archive:kill-provider_archive"
+            ]
+          },
+          "state": "indeterminate"
+        },
+        "first": {
+          "status": "blocked_unknown_no_resend"
+        },
+        "killed": -9,
+        "marker": {
+          "pid": 44826,
+          "prefix": "provider_archive"
+        },
+        "prefix": "provider_archive",
+        "provider": {
+          "receipts": [],
+          "requests": [
+            {
+              "digest": "96c36c454c8fa62a49a9c1ed4aef4327a2104802e65473e79a3795eca60eb0be",
+              "id": "op-kill-provider_archive"
+            }
+          ]
+        },
+        "second": {
+          "status": "blocked_unknown_no_resend"
+        }
+      },
+      {
+        "actual_provider_head": "604aee71ccc99791cdb70f293a2961cd1f59b5c8",
+        "before_requests": 1,
+        "final_operation": {
+          "intent": {
+            "binding": {
+              "change": "A",
+              "head": "A",
+              "repository": "local-fixture",
+              "review": 1
+            },
+            "captured_checkpoint": {
+              "accepted_local": "604aee71ccc99791cdb70f293a2961cd1f59b5c8",
+              "incorporated": "6b0da22a85e12498ab5883ba2febd19e1320ce10"
+            },
+            "continuation": "refs/retained/completed-kill-provider_receipt",
+            "expected": "6b0da22a85e12498ab5883ba2febd19e1320ce10",
+            "id": "op-kill-provider_receipt",
+            "input": "6b0da22a85e12498ab5883ba2febd19e1320ce10",
+            "provider": "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/recovery/runs/1794232632320218000/kill-provider_receipt/provider",
+            "result": "604aee71ccc99791cdb70f293a2961cd1f59b5c8",
+            "scope": [
+              "head:A",
+              "archive:kill-provider_receipt"
+            ]
+          },
+          "receipt": {
+            "digest": "af5236e48dd3b8b0080db030ae56444d92c0f1ba10362d967c86e85573172525",
+            "head": "604aee71ccc99791cdb70f293a2961cd1f59b5c8",
+            "id": "op-kill-provider_receipt"
+          },
+          "state": "complete"
+        },
+        "first": {
+          "status": "complete"
+        },
+        "killed": -9,
+        "marker": {
+          "pid": 44870,
+          "prefix": "provider_receipt"
+        },
+        "prefix": "provider_receipt",
+        "provider": {
+          "receipts": [
+            {
+              "digest": "af5236e48dd3b8b0080db030ae56444d92c0f1ba10362d967c86e85573172525",
+              "head": "604aee71ccc99791cdb70f293a2961cd1f59b5c8",
+              "id": "op-kill-provider_receipt"
+            }
+          ],
+          "requests": [
+            {
+              "digest": "af5236e48dd3b8b0080db030ae56444d92c0f1ba10362d967c86e85573172525",
+              "id": "op-kill-provider_receipt"
+            }
+          ]
+        },
+        "second": {
+          "status": "complete"
+        }
+      },
+      {
+        "actual_provider_head": "604aee71ccc99791cdb70f293a2961cd1f59b5c8",
+        "before_requests": 1,
+        "final_operation": {
+          "intent": {
+            "binding": {
+              "change": "A",
+              "head": "A",
+              "repository": "local-fixture",
+              "review": 1
+            },
+            "captured_checkpoint": {
+              "accepted_local": "604aee71ccc99791cdb70f293a2961cd1f59b5c8",
+              "incorporated": "6b0da22a85e12498ab5883ba2febd19e1320ce10"
+            },
+            "continuation": "refs/retained/completed-kill-acknowledged",
+            "expected": "6b0da22a85e12498ab5883ba2febd19e1320ce10",
+            "id": "op-kill-acknowledged",
+            "input": "6b0da22a85e12498ab5883ba2febd19e1320ce10",
+            "provider": "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/recovery/runs/1794232632320218000/kill-acknowledged/provider",
+            "result": "604aee71ccc99791cdb70f293a2961cd1f59b5c8",
+            "scope": [
+              "head:A",
+              "archive:kill-acknowledged"
+            ]
+          },
+          "receipt": {
+            "digest": "3e0774efd188b8ff7de41ce8184b6c534ae3d268e1489ae2ad238267faf8f18f",
+            "head": "604aee71ccc99791cdb70f293a2961cd1f59b5c8",
+            "id": "op-kill-acknowledged"
+          },
+          "state": "complete"
+        },
+        "first": {
+          "status": "complete"
+        },
+        "killed": -9,
+        "marker": {
+          "pid": 44932,
+          "prefix": "acknowledged"
+        },
+        "prefix": "acknowledged",
+        "provider": {
+          "receipts": [
+            {
+              "digest": "3e0774efd188b8ff7de41ce8184b6c534ae3d268e1489ae2ad238267faf8f18f",
+              "head": "604aee71ccc99791cdb70f293a2961cd1f59b5c8",
+              "id": "op-kill-acknowledged"
+            }
+          ],
+          "requests": [
+            {
+              "digest": "3e0774efd188b8ff7de41ce8184b6c534ae3d268e1489ae2ad238267faf8f18f",
+              "id": "op-kill-acknowledged"
+            }
+          ]
+        },
+        "second": {
+          "status": "complete"
+        }
+      },
+      {
+        "actual_provider_head": "ec821ca8db1c8ab858e3484194ad37c13b144897",
+        "before_requests": 1,
+        "final_operation": {
+          "intent": {
+            "binding": {
+              "change": "A",
+              "head": "A",
+              "repository": "local-fixture",
+              "review": 1
+            },
+            "captured_checkpoint": {
+              "accepted_local": "ec821ca8db1c8ab858e3484194ad37c13b144897",
+              "incorporated": "7d2b720b1ae77392e3904c607c7c92e0094c2dc5"
+            },
+            "continuation": "refs/retained/completed-kill-result_ref",
+            "expected": "7d2b720b1ae77392e3904c607c7c92e0094c2dc5",
+            "id": "op-kill-result_ref",
+            "input": "7d2b720b1ae77392e3904c607c7c92e0094c2dc5",
+            "provider": "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/recovery/runs/1794232632320218000/kill-result_ref/provider",
+            "result": "ec821ca8db1c8ab858e3484194ad37c13b144897",
+            "scope": [
+              "head:A",
+              "archive:kill-result_ref"
+            ]
+          },
+          "receipt": {
+            "digest": "f481dd643838a8f14d15b6bb71209232d15705f71211cda8590aec12b6c20ac9",
+            "head": "ec821ca8db1c8ab858e3484194ad37c13b144897",
+            "id": "op-kill-result_ref"
+          },
+          "state": "complete"
+        },
+        "first": {
+          "status": "complete"
+        },
+        "killed": -9,
+        "marker": {
+          "pid": 44995,
+          "prefix": "result_ref"
+        },
+        "prefix": "result_ref",
+        "provider": {
+          "receipts": [
+            {
+              "digest": "f481dd643838a8f14d15b6bb71209232d15705f71211cda8590aec12b6c20ac9",
+              "head": "ec821ca8db1c8ab858e3484194ad37c13b144897",
+              "id": "op-kill-result_ref"
+            }
+          ],
+          "requests": [
+            {
+              "digest": "f481dd643838a8f14d15b6bb71209232d15705f71211cda8590aec12b6c20ac9",
+              "id": "op-kill-result_ref"
+            }
+          ]
+        },
+        "second": {
+          "status": "complete"
+        }
+      },
+      {
+        "actual_provider_head": "a09aabfc246c9d86534ba0889357d41e2977331c",
+        "before_requests": 1,
+        "final_operation": {
+          "intent": {
+            "binding": {
+              "change": "A",
+              "head": "A",
+              "repository": "local-fixture",
+              "review": 1
+            },
+            "captured_checkpoint": {
+              "accepted_local": "a09aabfc246c9d86534ba0889357d41e2977331c",
+              "incorporated": "7d2b720b1ae77392e3904c607c7c92e0094c2dc5"
+            },
+            "continuation": "refs/retained/completed-kill-result_checkpoint",
+            "expected": "7d2b720b1ae77392e3904c607c7c92e0094c2dc5",
+            "id": "op-kill-result_checkpoint",
+            "input": "7d2b720b1ae77392e3904c607c7c92e0094c2dc5",
+            "provider": "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/recovery/runs/1794232632320218000/kill-result_checkpoint/provider",
+            "result": "a09aabfc246c9d86534ba0889357d41e2977331c",
+            "scope": [
+              "head:A",
+              "archive:kill-result_checkpoint"
+            ]
+          },
+          "receipt": {
+            "digest": "a68465566a347ec015d93120d2e7a27a8cd52fc4f831ae758419de07f52c9745",
+            "head": "a09aabfc246c9d86534ba0889357d41e2977331c",
+            "id": "op-kill-result_checkpoint"
+          },
+          "state": "complete"
+        },
+        "first": {
+          "status": "complete"
+        },
+        "killed": -9,
+        "marker": {
+          "pid": 45071,
+          "prefix": "result_checkpoint"
+        },
+        "prefix": "result_checkpoint",
+        "provider": {
+          "receipts": [
+            {
+              "digest": "a68465566a347ec015d93120d2e7a27a8cd52fc4f831ae758419de07f52c9745",
+              "head": "a09aabfc246c9d86534ba0889357d41e2977331c",
+              "id": "op-kill-result_checkpoint"
+            }
+          ],
+          "requests": [
+            {
+              "digest": "a68465566a347ec015d93120d2e7a27a8cd52fc4f831ae758419de07f52c9745",
+              "id": "op-kill-result_checkpoint"
+            }
+          ]
+        },
+        "second": {
+          "status": "complete"
+        }
+      },
+      {
+        "actual_provider_head": "23c41e65b4b9ae9dda8f70a2d287e5ef3fecc234",
+        "before_requests": 1,
+        "final_operation": {
+          "intent": {
+            "binding": {
+              "change": "A",
+              "head": "A",
+              "repository": "local-fixture",
+              "review": 1
+            },
+            "captured_checkpoint": {
+              "accepted_local": "23c41e65b4b9ae9dda8f70a2d287e5ef3fecc234",
+              "incorporated": "a370a8c0db6fc6c14aee987d8238a6a412d6c389"
+            },
+            "continuation": "refs/retained/completed-kill-complete",
+            "expected": "a370a8c0db6fc6c14aee987d8238a6a412d6c389",
+            "id": "op-kill-complete",
+            "input": "a370a8c0db6fc6c14aee987d8238a6a412d6c389",
+            "provider": "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/recovery/runs/1794232632320218000/kill-complete/provider",
+            "result": "23c41e65b4b9ae9dda8f70a2d287e5ef3fecc234",
+            "scope": [
+              "head:A",
+              "archive:kill-complete"
+            ]
+          },
+          "receipt": {
+            "digest": "8b2146da8b79bc987f8167676ad5a5a06fbc81607d92f28d4a083b88f2113bc7",
+            "head": "23c41e65b4b9ae9dda8f70a2d287e5ef3fecc234",
+            "id": "op-kill-complete"
+          },
+          "state": "complete"
+        },
+        "first": {
+          "status": "complete"
+        },
+        "killed": -9,
+        "marker": {
+          "pid": 45133,
+          "prefix": "complete"
+        },
+        "prefix": "complete",
+        "provider": {
+          "receipts": [
+            {
+              "digest": "8b2146da8b79bc987f8167676ad5a5a06fbc81607d92f28d4a083b88f2113bc7",
+              "head": "23c41e65b4b9ae9dda8f70a2d287e5ef3fecc234",
+              "id": "op-kill-complete"
+            }
+          ],
+          "requests": [
+            {
+              "digest": "8b2146da8b79bc987f8167676ad5a5a06fbc81607d92f28d4a083b88f2113bc7",
+              "id": "op-kill-complete"
+            }
+          ]
+        },
+        "second": {
+          "status": "complete"
+        }
+      }
+    ]
+  },
+  "disposition": "performed",
+  "id": "R09",
+  "status": "passed",
+  "title": "Every new durable interruption prefix"
+}

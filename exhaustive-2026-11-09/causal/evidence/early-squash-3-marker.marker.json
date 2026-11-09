@@ -1,0 +1,58 @@
+{
+  "target": "D",
+  "ref": "refs/heads/exh-1109-causal-early-squash-3/D",
+  "before": "19d0530b06f61f16f9863de7cc398a70c1ed05a0",
+  "marker": "7f0cb6d75feefdb7e76feb3b48df83bdb6c23c37",
+  "nonce": "18dfc4d7fe6d4ced954826caa986ecf1",
+  "fetch": {
+    "kind": "git-read",
+    "args": [
+      "fetch",
+      "--no-tags",
+      "origin",
+      "refs/heads/exh-1109-causal-early-squash-3/D"
+    ],
+    "start": {
+      "utc": "2026-11-09T14:01:34.513473+00:00",
+      "monotonic": 14.265113875
+    },
+    "end": {
+      "utc": "2026-11-09T14:01:34.682944+00:00",
+      "monotonic": 14.434595541
+    },
+    "exit": 0,
+    "stdout": "",
+    "stderr": "From https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08\n * branch            exh-1109-causal-early-squash-3/D -> FETCH_HEAD\n"
+  },
+  "terminal_receipt_end": null,
+  "commit_record": "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/causal/evidence/early-squash-3-marker.commit.json",
+  "push": {
+    "kind": "git-push",
+    "updates": {
+      "refs/heads/exh-1109-causal-early-squash-3/D": "7f0cb6d75feefdb7e76feb3b48df83bdb6c23c37"
+    },
+    "expected": {
+      "refs/heads/exh-1109-causal-early-squash-3/D": "19d0530b06f61f16f9863de7cc398a70c1ed05a0"
+    },
+    "args": [
+      "push",
+      "--porcelain",
+      "--atomic",
+      "--force-with-lease=refs/heads/exh-1109-causal-early-squash-3/D:19d0530b06f61f16f9863de7cc398a70c1ed05a0",
+      "origin",
+      "7f0cb6d75feefdb7e76feb3b48df83bdb6c23c37:refs/heads/exh-1109-causal-early-squash-3/D"
+    ],
+    "start": {
+      "utc": "2026-11-09T14:01:34.760601+00:00",
+      "monotonic": 14.512232625
+    },
+    "end": {
+      "utc": "2026-11-09T14:01:36.170457+00:00",
+      "monotonic": 15.922134458
+    },
+    "exit": 0,
+    "stdout": "To https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08.git\n \t7f0cb6d75feefdb7e76feb3b48df83bdb6c23c37:refs/heads/exh-1109-causal-early-squash-3/D\t19d0530..7f0cb6d\nDone\n",
+    "stderr": "",
+    "disposition": "success-receipt"
+  }
+}

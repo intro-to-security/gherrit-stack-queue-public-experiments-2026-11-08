@@ -1,0 +1,11 @@
+{
+  "query": "mutation WorkflowUpdate($input: UpdatePullRequestBranchInput!) {\n  updatePullRequestBranch(input: $input) {\n    clientMutationId\n    pullRequest { id number headRefOid baseRefName baseRefOid\n      stack { id number size baseRefName } }\n  }\n}",
+  "variables": {
+    "input": {
+      "clientMutationId": "exh-1109-workflow-gql-partial-001-continuation-001-C",
+      "expectedHeadOid": "dca811f5d210b004f6229ea1134f3fb49f1cba44",
+      "pullRequestId": "PR_kwDOVnhIZ88AAAABN5WURw",
+      "updateMethod": "REBASE"
+    }
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "method": "Read all exact allowlisted current bytes for hashes/structural scan; manual review is separately bounded in REPORT.md. No omitted directory opened.",
+  "manifest_sha256": "a6410b5430758eaad07d48088c5ae98daea471a088f96455ff064c9b811a0fe4",
+  "inspection_sha256": "b0ee97e1b394be721480a510f4000123087d0f8065517a85be01dd658658c646",
+  "files": 893,
+  "bytes": 11377786,
+  "mismatches": [],
+  "nontext": [],
+  "json_errors": [],
+  "hard_token_patterns": [],
+  "actual_unmasked_header_lines": [],
+  "header_lines": [],
+  "private_visibility_json": [],
+  "base64_payloads": [
+    {
+      "path": "target/ci-source.json",
+      "pointer": "",
+      "name": "ci.yml",
+      "source_url": "https://github.com/joshlf/gherrit/blob/main/.github/workflows/ci.yml"
+    }
+  ],
+  "ci_payload": {
+    "bytes": 2712,
+    "sha256": "48702ccc23a8b6f70941f1ceab6741c404f9cc27f7d38b91c02ea31c4a26496e",
+    "git_blob_sha1": "b5632e933bcd8ec96bcaea308158823c2d806b30",
+    "expected_blob": "b5632e933bcd8ec96bcaea308158823c2d806b30",
+    "url": "https://github.com/joshlf/gherrit/blob/main/.github/workflows/ci.yml",
+    "decoded_equal_selected_yaml": true
+  },
+  "local_path_prefixes": {
+    "/Users/codex": 123,
+    "/home/runner": 48
+  },
+  "license_projects": 15,
+  "license_nonstandard": [
+    "gitbutlerapp/gitbutler",
+    "gitkraken/vscode-gitlens",
+    "XAMPPRocky/octocrab"
+  ],
+  "omitted_markdown_links_current_bytes": [
+    {
+      "path": "RESULTS.md",
+      "target": "history-range-diff/RESULTS.md",
+      "resolved": "history-range-diff/RESULTS.md"
+    },
+    {
+      "path": "recovery/vm/RESULTS.md",
+      "target": "protocol-guest/RESULTS.md",
+      "resolved": "recovery/vm/protocol-guest/RESULTS.md"
+    },
+    {
+      "path": "recovery/vm/RESULTS.md",
+      "target": "protocol-guest/RESTORE-RAW-DISKS.md",
+      "resolved": "recovery/vm/protocol-guest/RESTORE-RAW-DISKS.md"
+    },
+    {
+      "path": "recovery/vm/RESULTS.md",
+      "target": "protocol-guest/RAW-DISK-ARCHIVE.json",
+      "resolved": "recovery/vm/protocol-guest/RAW-DISK-ARCHIVE.json"
+    },
+    {
+      "path": "sources/REPORT.md",
+      "target": "RECEIPT-INDEX.json",
+      "resolved": "sources/RECEIPT-INDEX.json"
+    },
+    {
+      "path": "sources/REPORT.md",
+      "target": "receipts/openapi-focused.json",
+      "resolved": "sources/receipts/openapi-focused.json"
+    },
+    {
+      "path": "target/RESULTS.md",
+      "target": "PRIOR-EVIDENCE.json",
+      "resolved": "target/PRIOR-EVIDENCE.json"
+    },
+    {
+      "path": "workflow/RESULTS.md",
+      "target": "ARTIFACT-INDEX.json",
+      "resolved": "workflow/ARTIFACT-INDEX.json"
+    }
+  ],
+  "root_initial_heuristic_counts": {
+    "credential_header_or_key": 200,
+    "external_private_or_org_scope": 10,
+    "local_absolute_path": 171,
+    "source_payload": 1
+  },
+  "limitations": "Pattern scans do not detect all credentials/privacy/license concerns; runtime/disk inputs and newer omitted lanes were not audited."
+}

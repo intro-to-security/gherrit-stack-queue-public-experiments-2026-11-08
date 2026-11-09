@@ -1,0 +1,77 @@
+{
+  "prefix": "after_return",
+  "verdict": {
+    "prefix": "after_return",
+    "passed": false,
+    "classification": "invalid_or_missing_evidence",
+    "checks": [
+      {
+        "name": "same_fixture_directory",
+        "passed": true
+      },
+      {
+        "name": "captured_provider_directory",
+        "passed": true
+      },
+      {
+        "name": "binding_agrees_with_frozen_intent",
+        "passed": true
+      },
+      {
+        "name": "checkpoint_agrees_with_frozen_intent",
+        "passed": true
+      },
+      {
+        "name": "captured_custody_owner_and_token",
+        "passed": true
+      },
+      {
+        "name": "captured_authority_path",
+        "passed": true
+      },
+      {
+        "name": "durable_prefix_operation",
+        "passed": true
+      },
+      {
+        "name": "durable_prefix_requests",
+        "passed": true
+      },
+      {
+        "name": "durable_prefix_receipts",
+        "passed": true
+      },
+      {
+        "name": "durable_prefix_checkpoint",
+        "passed": true
+      }
+    ],
+    "error": "git_fsck_failed:local",
+    "worker_result": {
+      "reason": "invalid_completed_attachment",
+      "status": "refused"
+    }
+  },
+  "pre_recovery": {
+    "file": "after_return-pre-recovery.raw.gz",
+    "raw_bytes": 33554432,
+    "raw_sha256": "d01982283c7a24a3af7c8692e67af991fa052ba59f28fdcce9ab7e08ba672f11",
+    "gzip_sha256": "9c823a6b486d04250140cfecef9c477ad6e4aa23351c32141cf870c42b7fd0ca",
+    "gzip_bytes": 194032,
+    "verified_lossless": true
+  },
+  "post_recovery": {
+    "file": "after_return-post-recovery.raw.gz",
+    "raw_bytes": 33554432,
+    "raw_sha256": "fe4e991d31ab192566faab65da281da11c1fc8955147fc4a14ffbbb5b1904933",
+    "gzip_sha256": "bb36d2027d05063c376db7764b74b68e413ccc08a5d8be2044f5d5034f4a93f0",
+    "gzip_bytes": 198186,
+    "verified_lossless": true
+  },
+  "fsck": {
+    "exit": 0,
+    "stdout": "Superblock last write time is in the future.\n\t(by less than a day, probably due to the hardware clock being incorrectly set)\nPass 1: Checking inodes, blocks, and sizes\nPass 2: Checking directory structure\nPass 3: Checking directory connectivity\nPass 4: Checking reference counts\nPass 5: Checking group summary information\n/lab/protocol-guest/actual-results/after_return.raw: 97/8192 files (1.0% non-contiguous), 1632/8192 blocks\n",
+    "stderr": "e2fsck 1.46.5 (30-Dec-2021)\n",
+    "repair": false
+  }
+}

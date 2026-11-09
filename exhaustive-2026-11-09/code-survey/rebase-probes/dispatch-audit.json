@@ -1,0 +1,153 @@
+{
+  "at": "2026-11-09T15:16:45.838745+00:00",
+  "write_dispatches": [
+    {
+      "label": "capability-initial",
+      "intent": "evidence/capability-initial.intent.json",
+      "receipt": "evidence/capability-initial.receipt.json",
+      "kind": "git-push",
+      "method": null,
+      "path": null,
+      "updates": {
+        "refs/heads/exh-1109-causal-rb-capability/trunk": "8ac8462e3aaf2a1889eb718676d6ee015808246d",
+        "refs/heads/exh-1109-causal-rb-capability/A": "f5426f21bde544d07c71a07837961c4ff65584e0",
+        "refs/heads/exh-1109-causal-rb-capability/B": "8d8919ed957f9ac4bf0ebc371ede77843ea262f9",
+        "refs/heads/exh-1109-causal-rb-capability/C": "0f4445c43fc2b88a0c9a20ce354433bb6ed34bcf"
+      },
+      "expected": {
+        "refs/heads/exh-1109-causal-rb-capability/trunk": "",
+        "refs/heads/exh-1109-causal-rb-capability/A": "",
+        "refs/heads/exh-1109-causal-rb-capability/B": "",
+        "refs/heads/exh-1109-causal-rb-capability/C": ""
+      },
+      "start": {
+        "utc": "2026-11-09T14:56:04.129814+00:00",
+        "monotonic": 1.024072833
+      },
+      "http": null,
+      "exit": 0
+    },
+    {
+      "label": "capability-pr-A",
+      "intent": "evidence/capability-pr-A.intent.json",
+      "receipt": "evidence/capability-pr-A.receipt.json",
+      "kind": "http",
+      "method": "POST",
+      "path": "repos/joshlf/gherrit-native-stack-experiments-2026-11-08/pulls",
+      "updates": null,
+      "expected": null,
+      "start": {
+        "utc": "2026-11-09T14:56:06.562359+00:00",
+        "monotonic": 3.456635166
+      },
+      "http": 201,
+      "exit": 0
+    },
+    {
+      "label": "capability-pr-B",
+      "intent": "evidence/capability-pr-B.intent.json",
+      "receipt": "evidence/capability-pr-B.receipt.json",
+      "kind": "http",
+      "method": "POST",
+      "path": "repos/joshlf/gherrit-native-stack-experiments-2026-11-08/pulls",
+      "updates": null,
+      "expected": null,
+      "start": {
+        "utc": "2026-11-09T14:56:09.214003+00:00",
+        "monotonic": 6.108255625
+      },
+      "http": 201,
+      "exit": 0
+    },
+    {
+      "label": "capability-pr-C",
+      "intent": "evidence/capability-pr-C.intent.json",
+      "receipt": "evidence/capability-pr-C.receipt.json",
+      "kind": "http",
+      "method": "POST",
+      "path": "repos/joshlf/gherrit-native-stack-experiments-2026-11-08/pulls",
+      "updates": null,
+      "expected": null,
+      "start": {
+        "utc": "2026-11-09T14:56:11.662884+00:00",
+        "monotonic": 8.557121625
+      },
+      "http": 201,
+      "exit": 0
+    },
+    {
+      "label": "capability-register",
+      "intent": "evidence/capability-register.intent.json",
+      "receipt": "evidence/capability-register.receipt.json",
+      "kind": "http",
+      "method": "POST",
+      "path": "repos/joshlf/gherrit-native-stack-experiments-2026-11-08/stacks",
+      "updates": null,
+      "expected": null,
+      "start": {
+        "utc": "2026-11-09T14:56:14.071401+00:00",
+        "monotonic": 10.965614583
+      },
+      "http": 201,
+      "exit": 0
+    },
+    {
+      "label": "capability-advance-trunk",
+      "intent": "evidence/capability-advance-trunk.intent.json",
+      "receipt": "evidence/capability-advance-trunk.receipt.json",
+      "kind": "git-push",
+      "method": null,
+      "path": null,
+      "updates": {
+        "refs/heads/exh-1109-causal-rb-capability/trunk": "903d8671e17ed6c196f14298d906df7964310789"
+      },
+      "expected": {
+        "refs/heads/exh-1109-causal-rb-capability/trunk": "8ac8462e3aaf2a1889eb718676d6ee015808246d"
+      },
+      "start": {
+        "utc": "2026-11-09T14:56:16.240147+00:00",
+        "monotonic": 13.134358708
+      },
+      "http": null,
+      "exit": 0
+    },
+    {
+      "label": "capability-request",
+      "intent": "evidence/capability-request.intent.json",
+      "receipt": "evidence/capability-request.receipt.json",
+      "kind": "http",
+      "method": "PUT",
+      "path": "repositories/1450723431/stacks/653/rebase",
+      "updates": null,
+      "expected": null,
+      "start": {
+        "utc": "2026-11-09T14:56:18.077010+00:00",
+        "monotonic": 14.971196125
+      },
+      "http": 404,
+      "exit": 1
+    },
+    {
+      "label": "capability-named-init-001",
+      "intent": "evidence/capability-named-init-001.intent.json",
+      "receipt": "evidence/capability-named-init-001.receipt.json",
+      "kind": "named-rebase-initiation",
+      "method": "PUT",
+      "path": "repos/joshlf/gherrit-native-stack-experiments-2026-11-08/stacks/653/rebase",
+      "updates": null,
+      "expected": null,
+      "start": {
+        "utc": "2026-11-09T15:14:20.526517+00:00",
+        "monotonic": 1.507827958
+      },
+      "http": 404,
+      "exit": 1
+    }
+  ],
+  "native_api_write_dispatches": 6,
+  "git_push_dispatches": 2,
+  "missing_receipts": [],
+  "unknown_mutating_acknowledgements": [],
+  "credential_pattern_files": [],
+  "credential_scan_limit": "Bounded token-prefix pattern scan of retained evidence JSON/text; not a general secret-detection proof."
+}

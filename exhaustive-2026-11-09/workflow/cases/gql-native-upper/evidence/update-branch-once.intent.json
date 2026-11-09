@@ -1,0 +1,18 @@
+{
+  "kind": "update-branch",
+  "method": "POST",
+  "monotonic": 5.17742125,
+  "path": "graphql",
+  "payload": {
+    "query": "mutation WorkflowUpdate($input: UpdatePullRequestBranchInput!) {\n  updatePullRequestBranch(input: $input) {\n    clientMutationId\n    pullRequest { id number headRefOid baseRefName baseRefOid\n      stack { id number size baseRefName } }\n  }\n}",
+    "variables": {
+      "input": {
+        "clientMutationId": "exh-1109-workflow-gql-native-upper-653cda3f-once",
+        "expectedHeadOid": "4b03688595350b87c74e901513826297d01ed62c",
+        "pullRequestId": "PR_kwDOVnhIZ88AAAABN3lWNA",
+        "updateMethod": "REBASE"
+      }
+    }
+  },
+  "started": "2026-11-09T14:41:00.360041+00:00"
+}

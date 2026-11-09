@@ -1,0 +1,486 @@
+{
+  "cut_return": {
+    "status": "complete"
+  },
+  "recovery_result": {
+    "reason": "invalid_completed_attachment",
+    "status": "refused"
+  },
+  "expected_result": "146dd60ac30597e6b3ab3e69b31a7e74411ac7c3",
+  "expected_new_ref_bytes": "313436646436306163333035393765366233616233653639623331613765373434313161633763330a",
+  "snapshots": {
+    "baseline": {
+      "repositories": {
+        "local": {
+          "object_count": 6,
+          "all_original_objects_exact": true,
+          "refs_stdout": "refs/fixtures/accepted-intent 146dd60ac30597e6b3ab3e69b31a7e74411ac7c3\nrefs/fixtures/old-input 1f163b69a5b6d44059c6ec594d2460f439480749\nrefs/heads/authoring 146dd60ac30597e6b3ab3e69b31a7e74411ac7c3\nrefs/retained/input 1f163b69a5b6d44059c6ec594d2460f439480749\nrefs/retained/result 146dd60ac30597e6b3ab3e69b31a7e74411ac7c3\n",
+          "refs_stderr": "",
+          "refs_exit": 0,
+          "fsck_exit": 0,
+          "fsck_stderr": "notice: HEAD points to an unborn branch (source)\n"
+        },
+        "provider": {
+          "object_count": 6,
+          "all_original_objects_exact": true,
+          "refs_stdout": "refs/fixtures/accepted-intent 146dd60ac30597e6b3ab3e69b31a7e74411ac7c3\nrefs/fixtures/old-input 1f163b69a5b6d44059c6ec594d2460f439480749\nrefs/heads/A 1f163b69a5b6d44059c6ec594d2460f439480749\nrefs/heads/authoring 146dd60ac30597e6b3ab3e69b31a7e74411ac7c3\nrefs/retained/input 1f163b69a5b6d44059c6ec594d2460f439480749\nrefs/retained/result 146dd60ac30597e6b3ab3e69b31a7e74411ac7c3\n",
+          "refs_stderr": "",
+          "refs_exit": 0,
+          "fsck_exit": 0,
+          "fsck_stderr": "notice: HEAD points to an unborn branch (source)\n"
+        }
+      },
+      "operation": {
+        "intent": {
+          "binding": {
+            "change": "A",
+            "head": "A",
+            "repository": "local-fixture",
+            "review": 1
+          },
+          "captured_checkpoint": {
+            "accepted_local": "146dd60ac30597e6b3ab3e69b31a7e74411ac7c3",
+            "incorporated": "1f163b69a5b6d44059c6ec594d2460f439480749"
+          },
+          "continuation": "refs/retained/completed-case-after_return",
+          "expected": "1f163b69a5b6d44059c6ec594d2460f439480749",
+          "id": "op-case-after_return",
+          "input": "1f163b69a5b6d44059c6ec594d2460f439480749",
+          "provider": "/state/scope/case-after_return/provider",
+          "result": "146dd60ac30597e6b3ab3e69b31a7e74411ac7c3",
+          "scope": [
+            "head:A",
+            "archive:case-after_return"
+          ]
+        },
+        "state": "planned"
+      },
+      "checkpoint": null,
+      "provider_store": {
+        "receipts": [],
+        "requests": []
+      }
+    },
+    "before_recovery": {
+      "repositories": {
+        "local": {
+          "object_count": 6,
+          "all_original_objects_exact": true,
+          "refs_stdout": "refs/fixtures/accepted-intent 146dd60ac30597e6b3ab3e69b31a7e74411ac7c3\nrefs/fixtures/old-input 1f163b69a5b6d44059c6ec594d2460f439480749\nrefs/heads/authoring 146dd60ac30597e6b3ab3e69b31a7e74411ac7c3\nrefs/retained/input 1f163b69a5b6d44059c6ec594d2460f439480749\nrefs/retained/result 146dd60ac30597e6b3ab3e69b31a7e74411ac7c3\n",
+          "refs_stderr": "warning: ignoring broken ref refs/retained/completed-case-after_return\n",
+          "refs_exit": 0,
+          "fsck_exit": 2,
+          "fsck_stderr": "error: refs/retained/completed-case-after_return: invalid sha1 pointer 0000000000000000000000000000000000000000\nnotice: HEAD points to an unborn branch (source)\n"
+        },
+        "provider": {
+          "object_count": 6,
+          "all_original_objects_exact": true,
+          "refs_stdout": "refs/fixtures/accepted-intent 146dd60ac30597e6b3ab3e69b31a7e74411ac7c3\nrefs/fixtures/old-input 1f163b69a5b6d44059c6ec594d2460f439480749\nrefs/heads/A 146dd60ac30597e6b3ab3e69b31a7e74411ac7c3\nrefs/heads/authoring 146dd60ac30597e6b3ab3e69b31a7e74411ac7c3\nrefs/retained/input 1f163b69a5b6d44059c6ec594d2460f439480749\nrefs/retained/result 146dd60ac30597e6b3ab3e69b31a7e74411ac7c3\n",
+          "refs_stderr": "warning: ignoring broken ref refs/archives/op-case-after_return\n",
+          "refs_exit": 0,
+          "fsck_exit": 2,
+          "fsck_stderr": "error: refs/archives/op-case-after_return: invalid sha1 pointer 0000000000000000000000000000000000000000\nnotice: HEAD points to an unborn branch (source)\n"
+        }
+      },
+      "operation": {
+        "intent": {
+          "binding": {
+            "change": "A",
+            "head": "A",
+            "repository": "local-fixture",
+            "review": 1
+          },
+          "captured_checkpoint": {
+            "accepted_local": "146dd60ac30597e6b3ab3e69b31a7e74411ac7c3",
+            "incorporated": "1f163b69a5b6d44059c6ec594d2460f439480749"
+          },
+          "continuation": "refs/retained/completed-case-after_return",
+          "expected": "1f163b69a5b6d44059c6ec594d2460f439480749",
+          "id": "op-case-after_return",
+          "input": "1f163b69a5b6d44059c6ec594d2460f439480749",
+          "provider": "/state/scope/case-after_return/provider",
+          "result": "146dd60ac30597e6b3ab3e69b31a7e74411ac7c3",
+          "scope": [
+            "head:A",
+            "archive:case-after_return"
+          ]
+        },
+        "receipt": {
+          "digest": "4e057f397a46247fd57c9b636aeb98860e3446751a4db0f9ba85eba285e14eea",
+          "head": "146dd60ac30597e6b3ab3e69b31a7e74411ac7c3",
+          "id": "op-case-after_return"
+        },
+        "state": "complete"
+      },
+      "checkpoint": {
+        "captured_checkpoint": {
+          "accepted_local": "146dd60ac30597e6b3ab3e69b31a7e74411ac7c3",
+          "incorporated": "1f163b69a5b6d44059c6ec594d2460f439480749"
+        },
+        "continuation": "refs/retained/completed-case-after_return",
+        "id": "op-case-after_return",
+        "input": "1f163b69a5b6d44059c6ec594d2460f439480749",
+        "result": "146dd60ac30597e6b3ab3e69b31a7e74411ac7c3"
+      },
+      "provider_store": {
+        "receipts": [
+          {
+            "digest": "4e057f397a46247fd57c9b636aeb98860e3446751a4db0f9ba85eba285e14eea",
+            "head": "146dd60ac30597e6b3ab3e69b31a7e74411ac7c3",
+            "id": "op-case-after_return"
+          }
+        ],
+        "requests": [
+          {
+            "digest": "4e057f397a46247fd57c9b636aeb98860e3446751a4db0f9ba85eba285e14eea",
+            "id": "op-case-after_return"
+          }
+        ]
+      }
+    },
+    "after_recovery": {
+      "repositories": {
+        "local": {
+          "object_count": 6,
+          "all_original_objects_exact": true,
+          "refs_stdout": "refs/fixtures/accepted-intent 146dd60ac30597e6b3ab3e69b31a7e74411ac7c3\nrefs/fixtures/old-input 1f163b69a5b6d44059c6ec594d2460f439480749\nrefs/heads/authoring 146dd60ac30597e6b3ab3e69b31a7e74411ac7c3\nrefs/retained/input 1f163b69a5b6d44059c6ec594d2460f439480749\nrefs/retained/result 146dd60ac30597e6b3ab3e69b31a7e74411ac7c3\n",
+          "refs_stderr": "warning: ignoring broken ref refs/retained/completed-case-after_return\n",
+          "refs_exit": 0,
+          "fsck_exit": 2,
+          "fsck_stderr": "error: refs/retained/completed-case-after_return: invalid sha1 pointer 0000000000000000000000000000000000000000\nnotice: HEAD points to an unborn branch (source)\n"
+        },
+        "provider": {
+          "object_count": 6,
+          "all_original_objects_exact": true,
+          "refs_stdout": "refs/fixtures/accepted-intent 146dd60ac30597e6b3ab3e69b31a7e74411ac7c3\nrefs/fixtures/old-input 1f163b69a5b6d44059c6ec594d2460f439480749\nrefs/heads/A 146dd60ac30597e6b3ab3e69b31a7e74411ac7c3\nrefs/heads/authoring 146dd60ac30597e6b3ab3e69b31a7e74411ac7c3\nrefs/retained/input 1f163b69a5b6d44059c6ec594d2460f439480749\nrefs/retained/result 146dd60ac30597e6b3ab3e69b31a7e74411ac7c3\n",
+          "refs_stderr": "warning: ignoring broken ref refs/archives/op-case-after_return\n",
+          "refs_exit": 0,
+          "fsck_exit": 2,
+          "fsck_stderr": "error: refs/archives/op-case-after_return: invalid sha1 pointer 0000000000000000000000000000000000000000\nnotice: HEAD points to an unborn branch (source)\n"
+        }
+      },
+      "operation": {
+        "intent": {
+          "binding": {
+            "change": "A",
+            "head": "A",
+            "repository": "local-fixture",
+            "review": 1
+          },
+          "captured_checkpoint": {
+            "accepted_local": "146dd60ac30597e6b3ab3e69b31a7e74411ac7c3",
+            "incorporated": "1f163b69a5b6d44059c6ec594d2460f439480749"
+          },
+          "continuation": "refs/retained/completed-case-after_return",
+          "expected": "1f163b69a5b6d44059c6ec594d2460f439480749",
+          "id": "op-case-after_return",
+          "input": "1f163b69a5b6d44059c6ec594d2460f439480749",
+          "provider": "/state/scope/case-after_return/provider",
+          "result": "146dd60ac30597e6b3ab3e69b31a7e74411ac7c3",
+          "scope": [
+            "head:A",
+            "archive:case-after_return"
+          ]
+        },
+        "receipt": {
+          "digest": "4e057f397a46247fd57c9b636aeb98860e3446751a4db0f9ba85eba285e14eea",
+          "head": "146dd60ac30597e6b3ab3e69b31a7e74411ac7c3",
+          "id": "op-case-after_return"
+        },
+        "state": "complete"
+      },
+      "checkpoint": {
+        "captured_checkpoint": {
+          "accepted_local": "146dd60ac30597e6b3ab3e69b31a7e74411ac7c3",
+          "incorporated": "1f163b69a5b6d44059c6ec594d2460f439480749"
+        },
+        "continuation": "refs/retained/completed-case-after_return",
+        "id": "op-case-after_return",
+        "input": "1f163b69a5b6d44059c6ec594d2460f439480749",
+        "result": "146dd60ac30597e6b3ab3e69b31a7e74411ac7c3"
+      },
+      "provider_store": {
+        "receipts": [
+          {
+            "digest": "4e057f397a46247fd57c9b636aeb98860e3446751a4db0f9ba85eba285e14eea",
+            "head": "146dd60ac30597e6b3ab3e69b31a7e74411ac7c3",
+            "id": "op-case-after_return"
+          }
+        ],
+        "requests": [
+          {
+            "digest": "4e057f397a46247fd57c9b636aeb98860e3446751a4db0f9ba85eba285e14eea",
+            "id": "op-case-after_return"
+          }
+        ]
+      }
+    }
+  },
+  "images": {
+    "pre_recovery_home_without_journal_replay": {
+      "raw_sha256": "d01982283c7a24a3af7c8692e67af991fa052ba59f28fdcce9ab7e08ba672f11",
+      "files": {
+        "local_continuation": {
+          "path": "scope/case-after_return/repo/.git/refs/retained/completed-case-after_return",
+          "unavailable_from_raw_home_metadata": "'completed-case-after_return'",
+          "journal_replay_performed": false
+        },
+        "provider_archive": {
+          "path": "scope/case-after_return/provider/repo/.git/refs/archives/op-case-after_return",
+          "unavailable_from_raw_home_metadata": "'archives'",
+          "journal_replay_performed": false
+        },
+        "provider_head": {
+          "number": 82,
+          "offset": 172288,
+          "mode": 33188,
+          "size": 41,
+          "flags": 524288,
+          "sha256": "77b315f574645ede6e005385bd1d076072e9ca1c4b1c092be9fc86bfe19eb94e",
+          "hex": "316631363362363961356236643434303539633665633539346432343630663433393438303734390a",
+          "path": "scope/case-after_return/provider/repo/.git/refs/heads/A",
+          "matches_expected_41_bytes": false
+        },
+        "retained_result": {
+          "number": 42,
+          "offset": 162048,
+          "mode": 33188,
+          "size": 41,
+          "flags": 524288,
+          "sha256": "27f8723f8f5de5ea54016bf0d6faf639734f4f25193c5fb4e0cee0b1329ffc2d",
+          "hex": "313436646436306163333035393765366233616233653639623331613765373434313161633763330a",
+          "path": "scope/case-after_return/repo/.git/refs/retained/result",
+          "matches_expected_41_bytes": true
+        },
+        "operation": {
+          "number": 89,
+          "offset": 174080,
+          "mode": 33188,
+          "size": 736,
+          "flags": 524288,
+          "sha256": "69d043d3f29325267571137079136ef5a3b4cbc6aa0dc9de4b11a0678a3eb11a",
+          "hex": "7b0a202022696e74656e74223a207b0a202020202262696e64696e67223a207b0a202020202020226368616e6765223a202241222c0a2020202020202268656164223a202241222c0a202020202020227265706f7369746f7279223a20226c6f63616c2d66697874757265222c0a20202020202022726576696577223a20310a202020207d2c0a202020202263617074757265645f636865636b706f696e74223a207b0a2020202020202261636365707465645f6c6f63616c223a202231343664643630616333303539376536623361623365363962333161376537343431316163376333222c0a20202020202022696e636f72706f7261746564223a202231663136336236396135623664343430353963366563353934643234363066343339343830373439220a202020207d2c0a2020202022636f6e74696e756174696f6e223a2022726566732f72657461696e65642f636f6d706c657465642d636173652d61667465725f72657475726e222c0a20202020226578706563746564223a202231663136336236396135623664343430353963366563353934643234363066343339343830373439222c0a20202020226964223a20226f702d636173652d61667465725f72657475726e222c0a2020202022696e707574223a202231663136336236396135623664343430353963366563353934643234363066343339343830373439222c0a202020202270726f7669646572223a20222f73746174652f73636f70652f636173652d61667465725f72657475726e2f70726f7669646572222c0a2020202022726573756c74223a202231343664643630616333303539376536623361623365363962333161376537343431316163376333222c0a202020202273636f7065223a205b0a20202020202022686561643a41222c0a20202020202022617263686976653a636173652d61667465725f72657475726e220a202020205d0a20207d2c0a2020227374617465223a2022706c616e6e6564220a7d0a",
+          "path": "scope/case-after_return/operation.json",
+          "equals_after_recovery_serial_bytes": false
+        },
+        "checkpoint": {
+          "path": "scope/case-after_return/result-checkpoint.json",
+          "unavailable_from_raw_home_metadata": "'result-checkpoint.json'",
+          "journal_replay_performed": false
+        },
+        "provider_store": {
+          "number": 85,
+          "offset": 173056,
+          "mode": 33188,
+          "size": 39,
+          "flags": 524288,
+          "sha256": "f0904b831a30f90d6281284e0b54b6b5e21b8e2f2536cf5b6c601729d5c8ed80",
+          "hex": "7b0a2020227265636569707473223a205b5d2c0a2020227265717565737473223a205b5d0a7d0a",
+          "path": "scope/case-after_return/provider/state.json",
+          "equals_after_recovery_serial_bytes": false
+        }
+      },
+      "loose_object_checks": [],
+      "parser_limit": "Bounded extents-only read of this 32MiB ext4 image; no journal replay or filesystem writes"
+    },
+    "post_clean_recovery": {
+      "raw_sha256": "fe4e991d31ab192566faab65da281da11c1fc8955147fc4a14ffbbb5b1904933",
+      "files": {
+        "local_continuation": {
+          "number": 93,
+          "offset": 175104,
+          "mode": 33188,
+          "size": 0,
+          "flags": 524288,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "hex": "",
+          "path": "scope/case-after_return/repo/.git/refs/retained/completed-case-after_return"
+        },
+        "provider_archive": {
+          "number": 95,
+          "offset": 175616,
+          "mode": 33188,
+          "size": 0,
+          "flags": 524288,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "hex": "",
+          "path": "scope/case-after_return/provider/repo/.git/refs/archives/op-case-after_return"
+        },
+        "provider_head": {
+          "number": 85,
+          "offset": 173056,
+          "mode": 33188,
+          "size": 41,
+          "flags": 524288,
+          "sha256": "27f8723f8f5de5ea54016bf0d6faf639734f4f25193c5fb4e0cee0b1329ffc2d",
+          "hex": "313436646436306163333035393765366233616233653639623331613765373434313161633763330a",
+          "path": "scope/case-after_return/provider/repo/.git/refs/heads/A",
+          "matches_expected_41_bytes": true
+        },
+        "retained_result": {
+          "number": 42,
+          "offset": 162048,
+          "mode": 33188,
+          "size": 41,
+          "flags": 524288,
+          "sha256": "27f8723f8f5de5ea54016bf0d6faf639734f4f25193c5fb4e0cee0b1329ffc2d",
+          "hex": "313436646436306163333035393765366233616233653639623331613765373434313161633763330a",
+          "path": "scope/case-after_return/repo/.git/refs/retained/result",
+          "matches_expected_41_bytes": true
+        },
+        "operation": {
+          "number": 98,
+          "offset": 176384,
+          "mode": 33188,
+          "size": 928,
+          "flags": 524288,
+          "sha256": "a75522d80d157caf12cea75e3f8ace8ee8cec772d12c68bd6bdbd6098ab1a20b",
+          "hex": "7b0a202022696e74656e74223a207b0a202020202262696e64696e67223a207b0a202020202020226368616e6765223a202241222c0a2020202020202268656164223a202241222c0a202020202020227265706f7369746f7279223a20226c6f63616c2d66697874757265222c0a20202020202022726576696577223a20310a202020207d2c0a202020202263617074757265645f636865636b706f696e74223a207b0a2020202020202261636365707465645f6c6f63616c223a202231343664643630616333303539376536623361623365363962333161376537343431316163376333222c0a20202020202022696e636f72706f7261746564223a202231663136336236396135623664343430353963366563353934643234363066343339343830373439220a202020207d2c0a2020202022636f6e74696e756174696f6e223a2022726566732f72657461696e65642f636f6d706c657465642d636173652d61667465725f72657475726e222c0a20202020226578706563746564223a202231663136336236396135623664343430353963366563353934643234363066343339343830373439222c0a20202020226964223a20226f702d636173652d61667465725f72657475726e222c0a2020202022696e707574223a202231663136336236396135623664343430353963366563353934643234363066343339343830373439222c0a202020202270726f7669646572223a20222f73746174652f73636f70652f636173652d61667465725f72657475726e2f70726f7669646572222c0a2020202022726573756c74223a202231343664643630616333303539376536623361623365363962333161376537343431316163376333222c0a202020202273636f7065223a205b0a20202020202022686561643a41222c0a20202020202022617263686976653a636173652d61667465725f72657475726e220a202020205d0a20207d2c0a20202272656365697074223a207b0a2020202022646967657374223a202234653035376633393761343632343766643537633962363336616562393838363065333434363735316134646230663962613835656261323835653134656561222c0a202020202268656164223a202231343664643630616333303539376536623361623365363962333161376537343431316163376333222c0a20202020226964223a20226f702d636173652d61667465725f72657475726e220a20207d2c0a2020227374617465223a2022636f6d706c657465220a7d0a",
+          "path": "scope/case-after_return/operation.json",
+          "equals_after_recovery_serial_bytes": true
+        },
+        "checkpoint": {
+          "number": 97,
+          "offset": 176128,
+          "mode": 33188,
+          "size": 370,
+          "flags": 524288,
+          "sha256": "1a4ffb642f0ec917280d44c62c4c7d4e9d6a614020932dbe07f75610cbd709a0",
+          "hex": "7b0a20202263617074757265645f636865636b706f696e74223a207b0a202020202261636365707465645f6c6f63616c223a202231343664643630616333303539376536623361623365363962333161376537343431316163376333222c0a2020202022696e636f72706f7261746564223a202231663136336236396135623664343430353963366563353934643234363066343339343830373439220a20207d2c0a202022636f6e74696e756174696f6e223a2022726566732f72657461696e65642f636f6d706c657465642d636173652d61667465725f72657475726e222c0a2020226964223a20226f702d636173652d61667465725f72657475726e222c0a202022696e707574223a202231663136336236396135623664343430353963366563353934643234363066343339343830373439222c0a202022726573756c74223a202231343664643630616333303539376536623361623365363962333161376537343431316163376333220a7d0a",
+          "path": "scope/case-after_return/result-checkpoint.json",
+          "equals_after_recovery_serial_bytes": true
+        },
+        "provider_store": {
+          "number": 96,
+          "offset": 175872,
+          "mode": 33188,
+          "size": 365,
+          "flags": 524288,
+          "sha256": "953f06df328d65c1ab5467765e17a620a753c07ff25a81d3a076c0325750aa80",
+          "hex": "7b0a2020227265636569707473223a205b0a202020207b0a20202020202022646967657374223a202234653035376633393761343632343766643537633962363336616562393838363065333434363735316134646230663962613835656261323835653134656561222c0a2020202020202268656164223a202231343664643630616333303539376536623361623365363962333161376537343431316163376333222c0a202020202020226964223a20226f702d636173652d61667465725f72657475726e220a202020207d0a20205d2c0a2020227265717565737473223a205b0a202020207b0a20202020202022646967657374223a202234653035376633393761343632343766643537633962363336616562393838363065333434363735316134646230663962613835656261323835653134656561222c0a202020202020226964223a20226f702d636173652d61667465725f72657475726e220a202020207d0a20205d0a7d0a",
+          "path": "scope/case-after_return/provider/state.json",
+          "equals_after_recovery_serial_bytes": true
+        }
+      },
+      "loose_object_checks": [
+        {
+          "role": "local",
+          "oid": "146dd60ac30597e6b3ab3e69b31a7e74411ac7c3",
+          "exact": true,
+          "git_sha1": "146dd60ac30597e6b3ab3e69b31a7e74411ac7c3"
+        },
+        {
+          "role": "local",
+          "oid": "179ff0917e23b233edaf907375af25c703ab9cfe",
+          "exact": true,
+          "git_sha1": "179ff0917e23b233edaf907375af25c703ab9cfe"
+        },
+        {
+          "role": "local",
+          "oid": "1f163b69a5b6d44059c6ec594d2460f439480749",
+          "exact": true,
+          "git_sha1": "1f163b69a5b6d44059c6ec594d2460f439480749"
+        },
+        {
+          "role": "local",
+          "oid": "573541ac9702dd3969c9bc859d2b91ec1f7e6e56",
+          "exact": true,
+          "git_sha1": "573541ac9702dd3969c9bc859d2b91ec1f7e6e56"
+        },
+        {
+          "role": "local",
+          "oid": "8f234aca40fbae54c24ff1b9f8bf6bd00daa4254",
+          "exact": true,
+          "git_sha1": "8f234aca40fbae54c24ff1b9f8bf6bd00daa4254"
+        },
+        {
+          "role": "local",
+          "oid": "d00491fd7e5bb6fa28c517a0bb32b8b506539d4d",
+          "exact": true,
+          "git_sha1": "d00491fd7e5bb6fa28c517a0bb32b8b506539d4d"
+        },
+        {
+          "role": "provider",
+          "oid": "146dd60ac30597e6b3ab3e69b31a7e74411ac7c3",
+          "exact": true,
+          "git_sha1": "146dd60ac30597e6b3ab3e69b31a7e74411ac7c3"
+        },
+        {
+          "role": "provider",
+          "oid": "179ff0917e23b233edaf907375af25c703ab9cfe",
+          "exact": true,
+          "git_sha1": "179ff0917e23b233edaf907375af25c703ab9cfe"
+        },
+        {
+          "role": "provider",
+          "oid": "1f163b69a5b6d44059c6ec594d2460f439480749",
+          "exact": true,
+          "git_sha1": "1f163b69a5b6d44059c6ec594d2460f439480749"
+        },
+        {
+          "role": "provider",
+          "oid": "573541ac9702dd3969c9bc859d2b91ec1f7e6e56",
+          "exact": true,
+          "git_sha1": "573541ac9702dd3969c9bc859d2b91ec1f7e6e56"
+        },
+        {
+          "role": "provider",
+          "oid": "8f234aca40fbae54c24ff1b9f8bf6bd00daa4254",
+          "exact": true,
+          "git_sha1": "8f234aca40fbae54c24ff1b9f8bf6bd00daa4254"
+        },
+        {
+          "role": "provider",
+          "oid": "d00491fd7e5bb6fa28c517a0bb32b8b506539d4d",
+          "exact": true,
+          "git_sha1": "d00491fd7e5bb6fa28c517a0bb32b8b506539d4d"
+        }
+      ],
+      "parser_limit": "Bounded extents-only read of this 32MiB ext4 image; no journal replay or filesystem writes"
+    }
+  },
+  "diagnostic_logs": {
+    "provider/repo-commands.jsonl": {
+      "bytes": 923,
+      "nul_bytes": 722,
+      "sha256": "165dd93dce32516e63f34dda82e9fa89bf4b9487ef9b4d8001b433b3077d6795",
+      "semantic_role": "Unsynced diagnostic log, not authoritative outcome evidence"
+    },
+    "repo-commands.jsonl": {
+      "bytes": 6097,
+      "nul_bytes": 1283,
+      "sha256": "29182076c9b6422d8c6225661ba2b9ba0013d383d4d8200f4544f4236b6c931f",
+      "semantic_role": "Unsynced diagnostic log, not authoritative outcome evidence"
+    }
+  },
+  "source_inputs": {
+    "after_return-cut.log": "d27a7b74d9b93c158b8f5f7b72268e03948662dd812cc35649ea00fadfd66d29",
+    "after_return-recover.log": "1f921bad6b65d3549cffd7f7f859125d36902fb8275d66b5683bab29a542a230",
+    "after_return-result.json": "8c56f451520394ffa3af17e74f4054f5fddaeeac52d202f597d306178e7724db",
+    "after_return-cut.receipt.json": "c2a9422501c2c3ebdc717e5e01961b3e249995affff1c9bf8c196037eccfbebf",
+    "after_return-recover.receipt.json": "5da23e0785973b18dc0cb6be35b8a6ec00aa5548102710d113956be4e1d51e44"
+  },
+  "runtime": {
+    "git": {
+      "argv": [
+        "git",
+        "-C",
+        "/",
+        "version",
+        "--build-options"
+      ],
+      "exit": 0,
+      "stderr_hex": "",
+      "stdout_hex": "6769742076657273696f6e20322e33342e310a6370753a20616172636836340a6e6f20636f6d6d6974206173736f63696174656420776974682074686973206275696c640a73697a656f662d6c6f6e673a20380a73697a656f662d73697a655f743a20380a7368656c6c2d706174683a202f62696e2f73680a"
+    },
+    "instrumentation": "Only protocol.pause is replaced, by serial-only output and signal.pause; no paused.json write/fsync.",
+    "phase": "cut",
+    "prefix": "after_return",
+    "python": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]",
+    "source_sha256": {
+      "protocol.py": "73994fcb9747b4461bc90b17f0ae1b12e4a064eaabc862d840938e984133a7de",
+      "run.py": "42d87bcde806f3418b8658e76e5ea37900914fd4c8600fcf6271970e25f8f4a8"
+    }
+  },
+  "effects": "Pure serial/object/image-byte audit only; no Git, VM, container, replay or input mutation"
+}

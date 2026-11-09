@@ -1,0 +1,147 @@
+{
+  "raw_private_sha256": "f46e3d5476f8766c65b8f459b4de3e0fe84c1a9660e6e18063015589f3af188e",
+  "raw_entries": 45,
+  "selected_entries": [
+    {
+      "startedDateTime": "2026-11-09T14:54:02.750Z",
+      "time_ms": 297.52299981191754,
+      "method": "POST",
+      "url": "https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08/pull/633/page_data/stack_rebase",
+      "request_body": {
+        "expectedHeadOids": {
+          "632": "39c73062e5a2342e24ec2988a86e4b5c67fe6cf1",
+          "633": "fb9b179e6d183acb1d09ec4a72cad38b29ea7acf"
+        }
+      },
+      "status": 200,
+      "response": {},
+      "response_headers": [
+        {
+          "name": "content-type",
+          "value": "application/json; charset=utf-8"
+        },
+        {
+          "name": "date",
+          "value": "Mon, 09 Nov 2026 14:54:03 GMT"
+        },
+        {
+          "name": "x-github-request-id",
+          "value": "F1D3:153F13:A5BB14:EB33B9:6AF1DE79"
+        }
+      ]
+    },
+    {
+      "startedDateTime": "2026-11-09T14:54:03.049Z",
+      "time_ms": 219.1870000679046,
+      "method": "GET",
+      "url": "https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08/pull/633/page_data/stack_rebase_status",
+      "request_body": {},
+      "status": 200,
+      "response": {
+        "jobState": "PENDING",
+        "pullRequestStates": [
+          {
+            "number": 632,
+            "state": "PENDING",
+            "message": null
+          },
+          {
+            "number": 633,
+            "state": "PENDING",
+            "message": null
+          }
+        ]
+      },
+      "response_headers": [
+        {
+          "name": "content-type",
+          "value": "application/json; charset=utf-8"
+        },
+        {
+          "name": "date",
+          "value": "Mon, 09 Nov 2026 14:54:03 GMT"
+        },
+        {
+          "name": "x-github-request-id",
+          "value": "F1D3:153F13:A5BC66:EB35B1:6AF1DE8B"
+        }
+      ]
+    },
+    {
+      "startedDateTime": "2026-11-09T14:54:04.331Z",
+      "time_ms": 179.36700000427663,
+      "method": "GET",
+      "url": "https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08/pull/633/page_data/stack_rebase_status",
+      "request_body": {},
+      "status": 200,
+      "response": {
+        "jobState": "RUNNING",
+        "pullRequestStates": [
+          {
+            "number": 632,
+            "state": "SUCCEEDED",
+            "message": null
+          },
+          {
+            "number": 633,
+            "state": "PENDING",
+            "message": null
+          }
+        ]
+      },
+      "response_headers": [
+        {
+          "name": "content-type",
+          "value": "application/json; charset=utf-8"
+        },
+        {
+          "name": "date",
+          "value": "Mon, 09 Nov 2026 14:54:04 GMT"
+        },
+        {
+          "name": "x-github-request-id",
+          "value": "F1D3:153F13:A5C208:EB3E03:6AF1DE8B"
+        }
+      ]
+    },
+    {
+      "startedDateTime": "2026-11-09T14:54:06.014Z",
+      "time_ms": 132.27599998936057,
+      "method": "GET",
+      "url": "https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08/pull/633/page_data/stack_rebase_status",
+      "request_body": {},
+      "status": 200,
+      "response": {
+        "jobState": "DONE",
+        "pullRequestStates": [
+          {
+            "number": 632,
+            "state": "SUCCEEDED",
+            "message": null
+          },
+          {
+            "number": 633,
+            "state": "SUCCEEDED",
+            "message": null
+          }
+        ]
+      },
+      "response_headers": [
+        {
+          "name": "content-type",
+          "value": "application/json; charset=utf-8"
+        },
+        {
+          "name": "date",
+          "value": "Mon, 09 Nov 2026 14:54:06 GMT"
+        },
+        {
+          "name": "x-github-request-id",
+          "value": "F1D3:153F13:A5C986:EB48DA:6AF1DE8D"
+        }
+      ]
+    }
+  ],
+  "capture": "Actual Chrome DevTools sanitized HAR further restricted locally",
+  "visible_result": "Rebasing complete; both members Rebased"
+}

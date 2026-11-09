@@ -1,0 +1,10 @@
+{
+  "message": "Seed the isolated staged-workflow fixture\n\nAgent-authored-by: AI agent acting on joshlf's behalf\n",
+  "oid": "12f2693395e73e231b9e0e6239ed8c0aeb299921",
+  "parent": null,
+  "tree": "54f5366f3dcdd28f62cc2c7b54d4f4c3b8c37e7e",
+  "updates": {
+    "workflow_case/consumer.py": "from model import Item\n\ndef describe(item):\n    return item.name\n",
+    "workflow_case/model.py": "class Item:\n    def __init__(self, name):\n        self.name = name\n"
+  }
+}

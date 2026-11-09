@@ -1,0 +1,13 @@
+{
+  "at": {
+    "utc": "2026-11-09T14:09:29.892484+00:00",
+    "monotonic": 0.063884041
+  },
+  "marker": "8be2c7aa1929d0c95650bbc6b17db1135f93dea4",
+  "final_ref": "8be2c7aa1929d0c95650bbc6b17db1135f93dea4",
+  "marker_tree": "66d95fa912bec2631f70a8edf033b178f9edf176",
+  "final_tree": "66d95fa912bec2631f70a8edf033b178f9edf176",
+  "marker_headers": "commit 8be2c7aa1929d0c95650bbc6b17db1135f93dea4\ntree 66d95fa912bec2631f70a8edf033b178f9edf176\nparent 9179085486aec47558614589429c87e3abb9385d\nauthor Josh Liebow-Feeser <hello@joshlf.com> 1794232994 -0500\ncommitter Josh Liebow-Feeser <hello@joshlf.com> 1794232994 -0500\n\n    Record unique causal marker 07ad769ffc0f4404aaa641c462f1bec7\n    \n    Agent-authored-by: AI agent acting on joshlf's behalf",
+  "final_headers": "commit 8be2c7aa1929d0c95650bbc6b17db1135f93dea4\ntree 66d95fa912bec2631f70a8edf033b178f9edf176\nparent 9179085486aec47558614589429c87e3abb9385d\nauthor Josh Liebow-Feeser <hello@joshlf.com> 1794232994 -0500\ncommitter Josh Liebow-Feeser <hello@joshlf.com> 1794232994 -0500\n\n    Record unique causal marker 07ad769ffc0f4404aaa641c462f1bec7\n    \n    Agent-authored-by: AI agent acting on joshlf's behalf",
+  "final_marker_content": "unique-marker=07ad769ffc0f4404aaa641c462f1bec7"
+}

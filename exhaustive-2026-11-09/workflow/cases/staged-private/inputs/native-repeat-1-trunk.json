@@ -1,0 +1,9 @@
+{
+  "message": "Advance the isolated trunk for native import 1\n\nAgent-authored-by: AI agent acting on joshlf's behalf\n",
+  "oid": "75dcd0c0313a4a935e4b7eb0b48f4b8b8938cc89",
+  "parent": "3eb8154fc4e875c7fb338197055f0ddbec7f8aef",
+  "tree": "077116949ed6caf1d3d2d409eac2b22a7d741772",
+  "updates": {
+    "workflow_case/trunk-progress.txt": "advance 1\n"
+  }
+}

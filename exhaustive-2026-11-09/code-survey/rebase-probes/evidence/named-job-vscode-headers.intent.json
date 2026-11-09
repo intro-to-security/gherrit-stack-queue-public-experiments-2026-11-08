@@ -1,0 +1,13 @@
+{
+  "kind": "read-only-diagnosis",
+  "method": "GET",
+  "path": "repos/joshlf/gherrit-native-stack-experiments-2026-11-08/stacks/653/rebase",
+  "api_version": "2026-03-10",
+  "accept": "application/vnd.github.shadow-cat-preview+json, application/vnd.github.merge-info-preview+json",
+  "user_agent": "GitHub VSCode Pull Requests",
+  "basis": "Pinned current createHub Octokit preview/userAgent configuration; no write.",
+  "start": {
+    "utc": "2026-11-09T15:01:29.463252+00:00",
+    "monotonic": 0.22787075
+  }
+}

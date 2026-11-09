@@ -1,0 +1,167 @@
+{
+  "F": "8c1b06ad72cdd406a7d2aaee307edad8ea5103db",
+  "accepted_first": {
+    "base": "8c1b06ad72cdd406a7d2aaee307edad8ea5103db",
+    "tip": "19bf9a3301454897346b3302111afea683c2f33a"
+  },
+  "accepted_second": {
+    "base": "8c1b06ad72cdd406a7d2aaee307edad8ea5103db",
+    "tip": "25719f4470394359234492ea97da6816a89e8637"
+  },
+  "checks": [
+    {
+      "actual": [
+        "workflow_case/model.py"
+      ],
+      "expected": [
+        "workflow_case/model.py"
+      ],
+      "label": "F model-only patch",
+      "passed": true
+    },
+    {
+      "actual": [
+        "workflow_case/consumer.py"
+      ],
+      "expected": [
+        "workflow_case/consumer.py"
+      ],
+      "label": "B consumer-only patch",
+      "passed": true
+    },
+    {
+      "actual": false,
+      "expected": false,
+      "label": "Authored submission differs from accepted result",
+      "passed": true
+    },
+    {
+      "actual": false,
+      "expected": false,
+      "label": "Incorporated hosted range differs from pending local range",
+      "passed": true
+    },
+    {
+      "actual": [
+        {
+          "id": "retained-older-native-intent",
+          "suffix_settlement": "unknown"
+        }
+      ],
+      "expected": [
+        {
+          "id": "retained-older-native-intent",
+          "suffix_settlement": "unknown"
+        }
+      ],
+      "label": "Old native intent is retained",
+      "passed": true
+    },
+    {
+      "actual": "hosted two",
+      "expected": "hosted two",
+      "label": "New hosted adjustment imported",
+      "passed": true
+    },
+    {
+      "actual": [
+        "workflow_case/consumer.py"
+      ],
+      "expected": [
+        "workflow_case/consumer.py"
+      ],
+      "label": "Only local consumer edit stays pending",
+      "passed": true
+    },
+    {
+      "actual": true,
+      "expected": true,
+      "label": "Wrong repeated-import baseline conflicts",
+      "passed": true
+    },
+    {
+      "actual": true,
+      "expected": true,
+      "label": "Staging admission private",
+      "passed": true
+    },
+    {
+      "actual": true,
+      "expected": true,
+      "label": "Staging admission public-F-only",
+      "passed": true
+    },
+    {
+      "actual": false,
+      "expected": false,
+      "label": "Staging admission full-public-source",
+      "passed": true
+    },
+    {
+      "actual": false,
+      "expected": false,
+      "label": "Staging admission inseparable",
+      "passed": true
+    },
+    {
+      "actual": false,
+      "expected": false,
+      "label": "Staging admission joint-review",
+      "passed": true
+    },
+    {
+      "actual": "5fa9b92fe0ec22c7f065e5bc7971f5120c4548d8",
+      "expected": "5fa9b92fe0ec22c7f065e5bc7971f5120c4548d8",
+      "label": "Full pending source remains recoverable",
+      "passed": true
+    },
+    {
+      "actual": false,
+      "expected": false,
+      "label": "Hosted network mutation functions absent from local Git object",
+      "passed": true
+    },
+    {
+      "actual": 0,
+      "expected": 0,
+      "label": "Retained object integrity",
+      "passed": true
+    }
+  ],
+  "directory": "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/workflow/local-controls/a9d3103335",
+  "hosted_mutations": 0,
+  "inputs": {
+    "A0": "a0d446d88d52800f42984bd370f82825410decc3",
+    "Aprime": "ce887428d31583f6cc34016b395db48923ec29de",
+    "B0": "b3f81ca72c7b8f995b8b0616055fb81c11c03255",
+    "Bprime": "5fa9b92fe0ec22c7f065e5bc7971f5120c4548d8",
+    "trunk": "ed0d582bba8136368c140234d1cd657497292235"
+  },
+  "kind": "local-only-control",
+  "limit": "Local range/import/admission evidence; not native ordering or human workflow evidence.",
+  "passed": true,
+  "proposals": {
+    "full-public-source": {
+      "accepted": false,
+      "reason": "The accepted public export includes deferred work"
+    },
+    "inseparable": {
+      "accepted": false,
+      "reason": "F cannot land independently"
+    },
+    "joint-review": {
+      "accepted": false,
+      "reason": "Joint dependent review was requested"
+    },
+    "private": {
+      "accepted": true,
+      "reason": "F-only staging was explicitly selected"
+    },
+    "public-F-only": {
+      "accepted": true,
+      "reason": "F-only staging was explicitly selected"
+    }
+  },
+  "provider_behavior_simulated": true,
+  "utc": "2026-11-09T14:16:54.038559+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "pid": 4951,
+  "exit": -9,
+  "target": "BARRIER PROTOCOL request_logged",
+  "reached": true,
+  "natural_shutdown": false,
+  "kill_issued": true,
+  "bytes": 38497,
+  "utc_seconds": 1794241319.5814912
+}

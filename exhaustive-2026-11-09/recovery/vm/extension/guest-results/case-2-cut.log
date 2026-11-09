@@ -1,0 +1,195 @@
+[    0.000000] Booting Linux on physical CPU 0x0000000000 [0x411fd070]
+[    0.000000] Linux version 6.12.115-0-virt (buildozer@build-3-22-aarch64) (cc (Alpine 14.2.0) 14.2.0, GNU ld (GNU Binutils) 2.44) #1-Alpine SMP PREEMPT_DYNAMIC 2026-11-01 10:34:06
+[    0.000000] Machine model: linux,dummy-virt
+[    0.000000] efi: UEFI not found.
+[    0.000000] OF: reserved mem: Reserved memory: No reserved-memory node in the DT
+[    0.000000] NUMA: Faking a node at [mem 0x0000000040000000-0x000000004fffffff]
+[    0.000000] NODE_DATA(0) allocated [mem 0x4fd7ad40-0x4fd7d1bf]
+[    0.000000] Zone ranges:
+[    0.000000]   DMA      [mem 0x0000000040000000-0x000000004fffffff]
+[    0.000000]   DMA32    empty
+[    0.000000]   Normal   empty
+[    0.000000] Movable zone start for each node
+[    0.000000] Early memory node ranges
+[    0.000000]   node   0: [mem 0x0000000040000000-0x000000004fffffff]
+[    0.000000] Initmem setup node 0 [mem 0x0000000040000000-0x000000004fffffff]
+[    0.000000] psci: probing for conduit method from DT.
+[    0.000000] psci: PSCIv0.2 detected in firmware.
+[    0.000000] psci: Using standard PSCI v0.2 function IDs
+[    0.000000] psci: Trusted OS migration not required
+[    0.000000] percpu: Embedded 34 pages/cpu s98584 r8192 d32488 u139264
+[    0.000000] Detected PIPT I-cache on CPU0
+[    0.000000] CPU features: detected: Spectre-v2
+[    0.000000] CPU features: detected: Spectre-v4
+[    0.000000] CPU features: detected: Spectre-BHB
+[    0.000000] CPU features: detected: ARM erratum 1742098
+[    0.000000] CPU features: detected: ARM erratum 832075
+[    0.000000] CPU features: detected: ARM errata 1165522, 1319367, or 1530923
+[    0.000000] alternatives: applying boot alternatives
+[    0.000000] Kernel command line: console=ttyAMA0 panic=-1 phase=2
+[    0.000000] Unknown kernel command line parameters "phase=2", will be passed to user space.
+[    0.000000] Dentry cache hash table entries: 32768 (order: 6, 262144 bytes, linear)
+[    0.000000] Inode-cache hash table entries: 16384 (order: 5, 131072 bytes, linear)
+[    0.000000] Fallback order for Node 0: 0 
+[    0.000000] Built 1 zonelists, mobility grouping on.  Total pages: 65536
+[    0.000000] Policy zone: DMA
+[    0.000000] mem auto-init: stack:all(zero), heap alloc:on, heap free:off
+[    0.000000] software IO TLB: SWIOTLB bounce buffer size adjusted to 0MB
+[    0.000000] software IO TLB: area num 1.
+[    0.000000] software IO TLB: mapped [mem 0x000000004fc59000-0x000000004fc99000] (0MB)
+[    0.000000] SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=1, Nodes=1
+[    0.000000] Dynamic Preempt: none
+[    0.000000] rcu: Preemptible hierarchical RCU implementation.
+[    0.000000] rcu: 	RCU restricting CPUs from NR_CPUS=4096 to nr_cpu_ids=1.
+[    0.000000] 	Trampoline variant of Tasks RCU enabled.
+[    0.000000] 	Tracing variant of Tasks RCU enabled.
+[    0.000000] rcu: RCU calculated value of scheduler-enlistment delay is 100 jiffies.
+[    0.000000] rcu: Adjusting geometry for rcu_fanout_leaf=16, nr_cpu_ids=1
+[    0.000000] RCU Tasks: Setting shift to 0 and lim to 1 rcu_task_cb_adjust=1 rcu_task_cpu_ids=1.
+[    0.000000] RCU Tasks Trace: Setting shift to 0 and lim to 1 rcu_task_cb_adjust=1 rcu_task_cpu_ids=1.
+[    0.000000] NR_IRQS: 64, nr_irqs: 64, preallocated irqs: 0
+[    0.000000] Root IRQ handler: gic_handle_irq
+[    0.000000] GICv2m: range[mem 0x08020000-0x08020fff], SPI[80:143]
+[    0.000000] rcu: srcu_init: Setting srcu_struct sizes based on contention.
+[    0.000000] clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 1911260446275000 ns
+[    0.000000] arch_timer: cp15 timer(s) running at 62.50MHz (virt).
+[    0.000000] clocksource: arch_sys_counter: mask: 0x1ffffffffffffff max_cycles: 0x1cd42e208c, max_idle_ns: 881590405314 ns
+[    0.000032] sched_clock: 57 bits at 63MHz, resolution 16ns, wraps every 4398046511096ns
+[    0.002186] kfence: initialized - using 2097152 bytes for 255 objects at 0x(____ptrval____)-0x(____ptrval____)
+[    0.004172] Console: colour dummy device 80x25
+[    0.007766] Calibrating delay loop (skipped), value calculated using timer frequency.. 125.00 BogoMIPS (lpj=62500)
+[    0.007817] pid_max: default: 32768 minimum: 301
+[    0.010571] LSM: initializing lsm=lockdown,capability,landlock
+[    0.011722] landlock: Up and running.
+[    0.012915] Mount-cache hash table entries: 512 (order: 0, 4096 bytes, linear)
+[    0.012939] Mountpoint-cache hash table entries: 512 (order: 0, 4096 bytes, linear)
+[    0.032734] rcu: Hierarchical SRCU implementation.
+[    0.032768] rcu: 	Max phase no-delay instances is 400.
+[    0.035282] EFI services will not be available.
+[    0.036185] smp: Bringing up secondary CPUs ...
+[    0.036479] smp: Brought up 1 node, 1 CPU
+[    0.036491] SMP: Total of 1 processors activated.
+[    0.036508] CPU: All CPU(s) started at EL1
+[    0.036624] CPU features: detected: 32-bit EL0 Support
+[    0.036630] CPU features: detected: 32-bit EL1 Support
+[    0.036661] CPU features: detected: CRC32 instructions
+[    0.042160] alternatives: applying system-wide alternatives
+[    0.051656] Memory: 206248K/262144K available (12672K kernel code, 1956K rwdata, 7800K rodata, 1920K init, 9305K bss, 53656K reserved, 0K cma-reserved)
+[    0.064859] devtmpfs: initialized
+[    0.074044] futex hash table entries: 256 (order: 2, 16384 bytes, linear)
+[    0.074307] 24288 pages in range for non-PLT usage
+[    0.074329] 515808 pages in range for PLT usage
+[    0.075817] pinctrl core: initialized pinctrl subsystem
+[    0.076946] DMI not present or invalid.
+[    0.084340] NET: Registered PF_NETLINK/PF_ROUTE protocol family
+[    0.086389] DMA: preallocated 128 KiB GFP_KERNEL pool for atomic allocations
+[    0.086530] DMA: preallocated 128 KiB GFP_KERNEL|GFP_DMA pool for atomic allocations
+[    0.086608] DMA: preallocated 128 KiB GFP_KERNEL|GFP_DMA32 pool for atomic allocations
+[    0.086741] audit: initializing netlink subsys (disabled)
+[    0.088867] thermal_sys: Registered thermal governor 'step_wise'
+[    0.089381] audit: type=2000 audit(0.026:1): state=initialized audit_enabled=0 res=1
+[    0.089940] cpuidle: using governor ladder
+[    0.090012] cpuidle: using governor menu
+[    0.090524] hw-breakpoint: found 6 breakpoint and 4 watchpoint registers.
+[    0.090707] ASID allocator initialised with 65536 entries
+[    0.091502] Serial: AMBA PL011 UART driver
+[    0.105902] 9000000.pl011: ttyAMA0 at MMIO 0x9000000 (irq = 13, base_baud = 0) is a PL011 rev1
+[    0.106628] printk: legacy console [ttyAMA0] enabled
+[    0.120798] HugeTLB: registered 1.00 GiB page size, pre-allocated 0 pages
+[    0.121473] HugeTLB: 0 KiB vmemmap can be freed for a 1.00 GiB page
+[    0.121901] HugeTLB: registered 32.0 MiB page size, pre-allocated 0 pages
+[    0.122348] HugeTLB: 0 KiB vmemmap can be freed for a 32.0 MiB page
+[    0.122759] HugeTLB: registered 2.00 MiB page size, pre-allocated 0 pages
+[    0.123203] HugeTLB: 0 KiB vmemmap can be freed for a 2.00 MiB page
+[    0.123614] HugeTLB: registered 64.0 KiB page size, pre-allocated 0 pages
+[    0.124259] HugeTLB: 0 KiB vmemmap can be freed for a 64.0 KiB page
+[    0.138475] ACPI: Interpreter disabled.
+[    0.139012] iommu: Default domain type: Translated
+[    0.139235] iommu: DMA domain TLB invalidation policy: lazy mode
+[    0.154048] clocksource: Switched to clocksource arch_sys_counter
+[    0.186354] VFS: Disk quotas dquot_6.6.0
+[    0.186725] VFS: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+[    0.190621] pnp: PnP ACPI: disabled
+[    0.200623] NET: Registered PF_INET protocol family
+[    0.201718] IP idents hash table entries: 4096 (order: 3, 32768 bytes, linear)
+[    0.228468] tcp_listen_portaddr_hash hash table entries: 256 (order: 0, 4096 bytes, linear)
+[    0.229130] Table-perturb hash table entries: 65536 (order: 6, 262144 bytes, linear)
+[    0.229692] TCP established hash table entries: 2048 (order: 2, 16384 bytes, linear)
+[    0.229993] TCP bind hash table entries: 2048 (order: 4, 65536 bytes, linear)
+[    0.230119] TCP: Hash tables configured (established 2048 bind 2048)
+[    0.230880] MPTCP token hash table entries: 256 (order: 1, 6144 bytes, linear)
+[    0.231079] UDP hash table entries: 256 (order: 1, 8192 bytes, linear)
+[    0.231239] UDP-Lite hash table entries: 256 (order: 1, 8192 bytes, linear)
+[    0.232067] NET: Registered PF_UNIX/PF_LOCAL protocol family
+[    0.232688] NET: Registered PF_XDP protocol family
+[    0.233176] PCI: CLS 0 bytes, default 64
+[    0.235548] Unpacking initramfs...
+[    0.243004] kvm [1]: HYP mode not available
+[    0.244755] Initialise system trusted keyrings
+[    0.252063] workingset: timestamp_bits=44 max_order=16 bucket_order=0
+[    0.289451] Key type asymmetric registered
+[    0.289804] Asymmetric key parser 'x509' registered
+[    0.290194] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 249)
+[    0.330052] io scheduler mq-deadline registered
+[    0.330475] io scheduler kyber registered
+[    0.331309] io scheduler bfq registered
+[    0.334325] pci-host-generic 4010000000.pcie: host bridge /pcie@10000000 ranges:
+[    0.334995] pci-host-generic 4010000000.pcie:       IO 0x003eff0000..0x003effffff -> 0x0000000000
+[    0.335254] pci-host-generic 4010000000.pcie:      MEM 0x0010000000..0x003efeffff -> 0x0010000000
+[    0.335330] pci-host-generic 4010000000.pcie:      MEM 0x8000000000..0xffffffffff -> 0x8000000000
+[    0.335585] pci-host-generic 4010000000.pcie: Memory resource size exceeds max for 32 bits
+[    0.335999] pci-host-generic 4010000000.pcie: ECAM at [mem 0x4010000000-0x401fffffff] for [bus 00-ff]
+[    0.337279] pci-host-generic 4010000000.pcie: PCI host bridge to bus 0000:00
+[    0.337945] pci_bus 0000:00: root bus resource [bus 00-ff]
+[    0.338197] pci_bus 0000:00: root bus resource [io  0x0000-0xffff]
+[    0.338246] pci_bus 0000:00: root bus resource [mem 0x10000000-0x3efeffff]
+[    0.338286] pci_bus 0000:00: root bus resource [mem 0x8000000000-0xffffffffff]
+[    0.338977] pci 0000:00:00.0: [1b36:0008] type 00 class 0x060000 conventional PCI endpoint
+[    0.341226] pci_bus 0000:00: resource 4 [io  0x0000-0xffff]
+[    0.341673] pci_bus 0000:00: resource 5 [mem 0x10000000-0x3efeffff]
+[    0.342295] pci_bus 0000:00: resource 6 [mem 0x8000000000-0xffffffffff]
+[    0.357018] Serial: 8250/16550 driver, 4 ports, IRQ sharing enabled
+[    0.366404] hv_vmbus: registering driver hyperv_keyboard
+[    0.369237] rtc-pl031 9010000.pl031: registered as rtc0
+[    0.369568] rtc-pl031 9010000.pl031: setting system clock to 2026-11-09T15:13:11 UTC (1794237191)
+[    0.371376] NET: Registered PF_INET6 protocol family
+[    0.380384] Segment Routing with IPv6
+[    0.380530] In-situ OAM (IOAM) with IPv6
+[    0.405276] registered taskstats version 1
+[    0.406485] Loading compiled-in X.509 certificates
+[    0.535029] Freeing initrd memory: 10876K
+[    0.592335] Loaded X.509 cert 'alpinelinux.org: Alpine Linux kernel key: 87fa969a47f3e2a6aa35859eb932a17c95abcd82'
+[    0.604073] Demotion targets for Node 0: null
+[    0.604710] Key type .fscrypt registered
+[    0.604755] Key type fscrypt-provisioning registered
+[    0.617727] clk: Disabling unused clocks
+[    0.617929] PM: genpd: Disabling unused power domains
+[    0.640722] Freeing unused kernel memory: 1920K
+[    0.641276] Run /init as init process
+[    0.695793] virtio_blk virtio0: 1/0/0 default/read/poll queues
+[    0.705156] virtio_blk virtio0: [vda] 65536 512-byte logical blocks (33.6 MB/32.0 MiB)
+[    0.813566] EXT4-fs (vda): mounted filesystem ac2d4072-ab82-4e9e-8c77-c71a4b970a74 r/w with ordered data mode. Quota mode: none.
+Linux (none) 6.12.115-0-virt #1-Alpine SMP PREEMPT_DYNAMIC 2026-11-01 10:34:06 aarch64 GNU/Linux
+rootfs / rootfs rw,size=104244k,nr_inodes=26061,inode64 0 0
+proc /proc proc rw,relatime 0 0
+sys /sys sysfs rw,relatime 0 0
+devtmpfs /dev devtmpfs rw,relatime,size=104244k,nr_inodes=26061,mode=755,inode64 0 0
+/dev/vda /state ext4 rw,relatime 0 0
+WRITE current.json bytes=65672
+SYSCALL file fsync result=0
+SYSCALL close file result=0
+WRITE result-old.json bytes=65672
+SYSCALL file fsync result=0
+SYSCALL close file result=0
+WRITE ref.json bytes=125
+SYSCALL file fsync result=0
+SYSCALL close file result=0
+WRITE checkpoint.json bytes=125
+SYSCALL file fsync result=0
+SYSCALL close file result=0
+SYSCALL directory fsync result=0
+SYSCALL close directory result=0
+WRITE next.json bytes=65672
+SYSCALL file fsync result=0
+SYSCALL close file result=0
+BARRIER CUT2

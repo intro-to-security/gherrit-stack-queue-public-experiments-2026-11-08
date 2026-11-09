@@ -1,0 +1,10 @@
+{
+  "at": {
+    "utc": "2026-11-09T14:49:58.534336+00:00",
+    "monotonic": 0.079166708
+  },
+  "exit": 0,
+  "stdout": "dangling commit da6af1c4ac97a928270695c4bb98a8707950f4a4\n",
+  "stderr": "",
+  "hooks_path": "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/causal/empty-hooks"
+}

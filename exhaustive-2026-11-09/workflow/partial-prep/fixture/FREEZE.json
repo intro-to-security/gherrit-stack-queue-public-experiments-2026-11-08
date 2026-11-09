@@ -1,0 +1,5 @@
+{
+  "attempt": "driver-stop",
+  "reason": "Base projection has not acknowledged exact parent:B",
+  "utc": "2026-11-09T16:43:24.837748+00:00"
+}

@@ -1,0 +1,9 @@
+{
+  "message": "Change isolated B\n\nAgent-authored-by: AI agent acting on joshlf's behalf\n",
+  "oid": "82e27b1a1c501fdd1921224b0655529970d64e3a",
+  "parent": "a8a39b61ad98ac6987183198ea308400ca507ebc",
+  "tree": "ae9cd4efa5e78789c8080481f3c5a835bc0d7770",
+  "updates": {
+    "b.txt": "1\n"
+  }
+}

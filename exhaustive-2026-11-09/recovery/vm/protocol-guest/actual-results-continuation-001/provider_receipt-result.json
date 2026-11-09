@@ -1,0 +1,115 @@
+{
+  "prefix": "provider_receipt",
+  "cut": {
+    "pid": 4865,
+    "exit": -9,
+    "process_started": true,
+    "known_stopped": true,
+    "target": "BARRIER PROTOCOL provider_receipt",
+    "reached": true,
+    "kill_issued": true,
+    "natural_shutdown": false,
+    "exact_abrupt_cut": true,
+    "bytes": 38168,
+    "errors": [],
+    "parse_errors": [],
+    "utc_seconds": 1794240882.4984198
+  },
+  "matrix_continue_allowed": true,
+  "pre_recovery": {
+    "file": "provider_receipt-pre-recovery.raw.gz",
+    "raw_bytes": 33554432,
+    "raw_sha256": "cd311319d6c3bf8b01559a27167334a7d0ca471ce393787872e128fea27ba1f7",
+    "gzip_sha256": "7f950c18eca20cc56d684a30c49c9193dce7ab0034718711eb3ca9ac955daab1",
+    "gzip_bytes": 186194,
+    "verified_lossless": true
+  },
+  "cut_premise": {
+    "exact": true,
+    "reason": null
+  },
+  "recovery": {
+    "pid": 4869,
+    "exit": 0,
+    "process_started": true,
+    "known_stopped": true,
+    "target": "BARRIER PROTOCOL CLEAN_RECOVERY_UNMOUNTED",
+    "reached": true,
+    "kill_issued": false,
+    "natural_shutdown": true,
+    "exact_abrupt_cut": false,
+    "bytes": 78042,
+    "errors": [],
+    "parse_errors": [],
+    "utc_seconds": 1794240887.9528031
+  },
+  "post_recovery": {
+    "file": "provider_receipt-post-recovery.raw.gz",
+    "raw_bytes": 33554432,
+    "raw_sha256": "db0cef28de40966b8200f7ee98aaac7380990cbf752d0f35cbcee1baf5e8aedc",
+    "gzip_sha256": "767dc6d65ce1575be8cad524b4f2cfc449c44f9840a953a9f44f281f7e24252f",
+    "gzip_bytes": 200994,
+    "verified_lossless": true
+  },
+  "fsck": {
+    "exit": 0,
+    "stdout": "Pass 1: Checking inodes, blocks, and sizes\nPass 2: Checking directory structure\nPass 3: Checking directory connectivity\nPass 4: Checking reference counts\nPass 5: Checking group summary information\n/lab/protocol-guest/actual-results-continuation-001/provider_receipt.raw: 97/8192 files (1.0% non-contiguous), 1633/8192 blocks\n",
+    "stderr": "e2fsck 1.46.5 (30-Dec-2021)\n",
+    "repair": false
+  },
+  "disposition": {
+    "known": true,
+    "worker_result": {
+      "status": "complete"
+    },
+    "clean_unmount": true,
+    "boundary": "clean recovery unmount"
+  },
+  "verdict": {
+    "prefix": "provider_receipt",
+    "passed": false,
+    "classification": "invalid_or_missing_evidence",
+    "checks": [
+      {
+        "name": "same_fixture_directory",
+        "passed": true
+      },
+      {
+        "name": "captured_provider_directory",
+        "passed": true
+      },
+      {
+        "name": "binding_agrees_with_frozen_intent",
+        "passed": true
+      },
+      {
+        "name": "checkpoint_agrees_with_frozen_intent",
+        "passed": true
+      },
+      {
+        "name": "captured_custody_owner_and_token",
+        "passed": true
+      },
+      {
+        "name": "captured_authority_path",
+        "passed": true
+      },
+      {
+        "name": "durable_prefix_operation",
+        "passed": true
+      },
+      {
+        "name": "durable_prefix_requests",
+        "passed": true
+      },
+      {
+        "name": "durable_prefix_receipts",
+        "passed": true
+      }
+    ],
+    "error": "git_fsck_failed:provider",
+    "worker_result": {
+      "status": "complete"
+    }
+  }
+}

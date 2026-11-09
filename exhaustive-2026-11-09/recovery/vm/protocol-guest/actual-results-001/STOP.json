@@ -1,0 +1,5 @@
+{
+  "error": "Actual prototype/oracle mismatch; retained raw disk",
+  "rows_completed": 2,
+  "state": "No retry; read-only reconciliation required"
+}

@@ -1,0 +1,1728 @@
+{
+  "cases": [
+    {
+      "prefix": "validated",
+      "verdict": {
+        "prefix": "validated",
+        "passed": true,
+        "classification": "validated_complete",
+        "expected": "validated_complete",
+        "checks": [
+          {
+            "name": "same_fixture_directory",
+            "passed": true
+          },
+          {
+            "name": "captured_provider_directory",
+            "passed": true
+          },
+          {
+            "name": "binding_agrees_with_frozen_intent",
+            "passed": true
+          },
+          {
+            "name": "checkpoint_agrees_with_frozen_intent",
+            "passed": true
+          },
+          {
+            "name": "captured_custody_owner_and_token",
+            "passed": true
+          },
+          {
+            "name": "captured_authority_path",
+            "passed": true
+          },
+          {
+            "name": "durable_prefix_operation",
+            "passed": true
+          },
+          {
+            "name": "durable_prefix_requests",
+            "passed": true
+          },
+          {
+            "name": "durable_prefix_receipts",
+            "passed": true
+          },
+          {
+            "name": "exact_frozen_intent",
+            "passed": true
+          },
+          {
+            "name": "unchanged_authority.json",
+            "passed": true
+          },
+          {
+            "name": "unchanged_authority-link.json",
+            "passed": true
+          },
+          {
+            "name": "unchanged_manifest.json",
+            "passed": true
+          },
+          {
+            "name": "unchanged_bindings.json",
+            "passed": true
+          },
+          {
+            "name": "unchanged_original-checkpoint.json",
+            "passed": true
+          },
+          {
+            "name": "manifest_binds_intent",
+            "passed": true
+          },
+          {
+            "name": "local_all_original_git_objects_exact",
+            "passed": true
+          },
+          {
+            "name": "provider_all_original_git_objects_exact",
+            "passed": true
+          },
+          {
+            "name": "unchanged_fsck_diagnostics_local",
+            "passed": true
+          },
+          {
+            "name": "unchanged_fsck_diagnostics_provider",
+            "passed": true
+          },
+          {
+            "name": "retained_input",
+            "passed": true
+          },
+          {
+            "name": "retained_result",
+            "passed": true
+          },
+          {
+            "name": "new_dispatch_at_most_once",
+            "passed": true
+          },
+          {
+            "name": "completed_operation_state",
+            "passed": true
+          },
+          {
+            "name": "exact_local_continuation",
+            "passed": true
+          },
+          {
+            "name": "exact_local_checkpoint",
+            "passed": true
+          },
+          {
+            "name": "exact_local_receipt",
+            "passed": true
+          },
+          {
+            "name": "exact_provider_head",
+            "passed": true
+          },
+          {
+            "name": "exact_provider_archive",
+            "passed": true
+          },
+          {
+            "name": "exact_single_provider_request",
+            "passed": true
+          },
+          {
+            "name": "exact_single_provider_receipt",
+            "passed": true
+          },
+          {
+            "name": "planned_prefix_expectation",
+            "passed": true
+          }
+        ],
+        "worker_result": {
+          "status": "complete"
+        }
+      },
+      "pre_recovery": {
+        "file": "validated-pre-recovery.raw.gz",
+        "raw_bytes": 33554432,
+        "raw_sha256": "a65cacb1374812241ff4986e291b22201ab44071b4ce8958e77b2f1f0f5e352d",
+        "gzip_sha256": "0458a5166aa0938204d8e8e7e0fd838db049cf64225ffedda8eda3c73b76a547",
+        "gzip_bytes": 175257,
+        "verified_lossless": true
+      },
+      "post_recovery": {
+        "file": "validated-post-recovery.raw.gz",
+        "raw_bytes": 33554432,
+        "raw_sha256": "8334af25092993d40b5f776387b6dd30084a36a1285dde26e17f8fa5457c94d0",
+        "gzip_sha256": "82dd0a2c4ab3475b5ad551f177d89a8d0f81d0d53e99366beb4804d303388b5b",
+        "gzip_bytes": 201723,
+        "verified_lossless": true
+      },
+      "fsck": {
+        "exit": 0,
+        "stdout": "Pass 1: Checking inodes, blocks, and sizes\nPass 2: Checking directory structure\nPass 3: Checking directory connectivity\nPass 4: Checking reference counts\nPass 5: Checking group summary information\n/lab/protocol-durable/actual-results/validated.raw: 97/8192 files (1.0% non-contiguous), 1634/8192 blocks\n",
+        "stderr": "e2fsck 1.46.5 (30-Dec-2021)\n",
+        "repair": false
+      }
+    },
+    {
+      "prefix": "after_return",
+      "verdict": {
+        "prefix": "after_return",
+        "passed": true,
+        "classification": "validated_complete",
+        "expected": "validated_complete",
+        "checks": [
+          {
+            "name": "same_fixture_directory",
+            "passed": true
+          },
+          {
+            "name": "captured_provider_directory",
+            "passed": true
+          },
+          {
+            "name": "binding_agrees_with_frozen_intent",
+            "passed": true
+          },
+          {
+            "name": "checkpoint_agrees_with_frozen_intent",
+            "passed": true
+          },
+          {
+            "name": "captured_custody_owner_and_token",
+            "passed": true
+          },
+          {
+            "name": "captured_authority_path",
+            "passed": true
+          },
+          {
+            "name": "durable_prefix_operation",
+            "passed": true
+          },
+          {
+            "name": "durable_prefix_requests",
+            "passed": true
+          },
+          {
+            "name": "durable_prefix_receipts",
+            "passed": true
+          },
+          {
+            "name": "durable_prefix_checkpoint",
+            "passed": true
+          },
+          {
+            "name": "exact_frozen_intent",
+            "passed": true
+          },
+          {
+            "name": "unchanged_authority.json",
+            "passed": true
+          },
+          {
+            "name": "unchanged_authority-link.json",
+            "passed": true
+          },
+          {
+            "name": "unchanged_manifest.json",
+            "passed": true
+          },
+          {
+            "name": "unchanged_bindings.json",
+            "passed": true
+          },
+          {
+            "name": "unchanged_original-checkpoint.json",
+            "passed": true
+          },
+          {
+            "name": "manifest_binds_intent",
+            "passed": true
+          },
+          {
+            "name": "local_all_original_git_objects_exact",
+            "passed": true
+          },
+          {
+            "name": "provider_all_original_git_objects_exact",
+            "passed": true
+          },
+          {
+            "name": "unchanged_fsck_diagnostics_local",
+            "passed": true
+          },
+          {
+            "name": "unchanged_fsck_diagnostics_provider",
+            "passed": true
+          },
+          {
+            "name": "retained_input",
+            "passed": true
+          },
+          {
+            "name": "retained_result",
+            "passed": true
+          },
+          {
+            "name": "unknown_effect_never_resends",
+            "passed": true
+          },
+          {
+            "name": "completed_operation_state",
+            "passed": true
+          },
+          {
+            "name": "exact_local_continuation",
+            "passed": true
+          },
+          {
+            "name": "exact_local_checkpoint",
+            "passed": true
+          },
+          {
+            "name": "exact_local_receipt",
+            "passed": true
+          },
+          {
+            "name": "exact_provider_head",
+            "passed": true
+          },
+          {
+            "name": "exact_provider_archive",
+            "passed": true
+          },
+          {
+            "name": "exact_single_provider_request",
+            "passed": true
+          },
+          {
+            "name": "exact_single_provider_receipt",
+            "passed": true
+          },
+          {
+            "name": "planned_prefix_expectation",
+            "passed": true
+          }
+        ],
+        "worker_result": {
+          "status": "complete"
+        }
+      },
+      "pre_recovery": {
+        "file": "after_return-pre-recovery.raw.gz",
+        "raw_bytes": 33554432,
+        "raw_sha256": "10bac3ddd7c8678593c19bf1c8895c17ba27e15bea80abb656c60645fb94488b",
+        "gzip_sha256": "99cbcafe4e1164938ed95110397d1a00e18f6b7697246c5c710c0eadf1e8a667",
+        "gzip_bytes": 196686,
+        "verified_lossless": true
+      },
+      "post_recovery": {
+        "file": "after_return-post-recovery.raw.gz",
+        "raw_bytes": 33554432,
+        "raw_sha256": "cc256183aabec05eea47b8abceb1bf047e7dbacef2f5408b6608940a8c83a2ed",
+        "gzip_sha256": "8ba17f71533f7c19108b663a2510d42c7166309ab8e173a5405787a4d36516ec",
+        "gzip_bytes": 200850,
+        "verified_lossless": true
+      },
+      "fsck": {
+        "exit": 0,
+        "stdout": "Pass 1: Checking inodes, blocks, and sizes\nPass 2: Checking directory structure\nPass 3: Checking directory connectivity\nPass 4: Checking reference counts\nPass 5: Checking group summary information\n/lab/protocol-durable/actual-results/after_return.raw: 97/8192 files (1.0% non-contiguous), 1634/8192 blocks\n",
+        "stderr": "e2fsck 1.46.5 (30-Dec-2021)\n",
+        "repair": false
+      }
+    },
+    {
+      "prefix": "marked",
+      "verdict": {
+        "prefix": "marked",
+        "passed": true,
+        "classification": "blocked_unknown_no_resend",
+        "expected": "blocked_unknown_no_resend",
+        "checks": [
+          {
+            "name": "same_fixture_directory",
+            "passed": true
+          },
+          {
+            "name": "captured_provider_directory",
+            "passed": true
+          },
+          {
+            "name": "binding_agrees_with_frozen_intent",
+            "passed": true
+          },
+          {
+            "name": "checkpoint_agrees_with_frozen_intent",
+            "passed": true
+          },
+          {
+            "name": "captured_custody_owner_and_token",
+            "passed": true
+          },
+          {
+            "name": "captured_authority_path",
+            "passed": true
+          },
+          {
+            "name": "durable_prefix_operation",
+            "passed": true
+          },
+          {
+            "name": "durable_prefix_requests",
+            "passed": true
+          },
+          {
+            "name": "durable_prefix_receipts",
+            "passed": true
+          },
+          {
+            "name": "exact_frozen_intent",
+            "passed": true
+          },
+          {
+            "name": "unchanged_authority.json",
+            "passed": true
+          },
+          {
+            "name": "unchanged_authority-link.json",
+            "passed": true
+          },
+          {
+            "name": "unchanged_manifest.json",
+            "passed": true
+          },
+          {
+            "name": "unchanged_bindings.json",
+            "passed": true
+          },
+          {
+            "name": "unchanged_original-checkpoint.json",
+            "passed": true
+          },
+          {
+            "name": "manifest_binds_intent",
+            "passed": true
+          },
+          {
+            "name": "local_all_original_git_objects_exact",
+            "passed": true
+          },
+          {
+            "name": "provider_all_original_git_objects_exact",
+            "passed": true
+          },
+          {
+            "name": "unchanged_fsck_diagnostics_local",
+            "passed": true
+          },
+          {
+            "name": "unchanged_fsck_diagnostics_provider",
+            "passed": true
+          },
+          {
+            "name": "retained_input",
+            "passed": true
+          },
+          {
+            "name": "retained_result",
+            "passed": true
+          },
+          {
+            "name": "unknown_effect_never_resends",
+            "passed": true
+          },
+          {
+            "name": "bounded_unknown_result",
+            "passed": true
+          },
+          {
+            "name": "unknown_stays_indeterminate",
+            "passed": true
+          },
+          {
+            "name": "planned_prefix_expectation",
+            "passed": true
+          }
+        ],
+        "worker_result": {
+          "status": "blocked_unknown_no_resend"
+        }
+      },
+      "pre_recovery": {
+        "file": "marked-pre-recovery.raw.gz",
+        "raw_bytes": 33554432,
+        "raw_sha256": "804e4206fb6361d4c8f42747e5cd924de5f82d9f48fa455d44417dbb3cca0dc0",
+        "gzip_sha256": "6c6ca10bbd40d8480828ee0e7db4e067bb34aec2cb08fae417d596c8b3af1e37",
+        "gzip_bytes": 179777,
+        "verified_lossless": true
+      },
+      "post_recovery": {
+        "file": "marked-post-recovery.raw.gz",
+        "raw_bytes": 33554432,
+        "raw_sha256": "bf824372653784c8b57be39e9792addb06885b51d98f3d9197f42cfc999c07cf",
+        "gzip_sha256": "0d68572ed62258ac556264d7af510110460531a68adf12df442ec9daad85eefd",
+        "gzip_bytes": 181902,
+        "verified_lossless": true
+      },
+      "fsck": {
+        "exit": 0,
+        "stdout": "Pass 1: Checking inodes, blocks, and sizes\nPass 2: Checking directory structure\nPass 3: Checking directory connectivity\nPass 4: Checking reference counts\nPass 5: Checking group summary information\n/lab/protocol-durable/actual-results/marked.raw: 92/8192 files (1.1% non-contiguous), 1630/8192 blocks\n",
+        "stderr": "e2fsck 1.46.5 (30-Dec-2021)\n",
+        "repair": false
+      }
+    },
+    {
+      "prefix": "request_logged",
+      "verdict": {
+        "prefix": "request_logged",
+        "passed": true,
+        "classification": "blocked_unknown_no_resend",
+        "expected": "blocked_unknown_no_resend",
+        "checks": [
+          {
+            "name": "same_fixture_directory",
+            "passed": true
+          },
+          {
+            "name": "captured_provider_directory",
+            "passed": true
+          },
+          {
+            "name": "binding_agrees_with_frozen_intent",
+            "passed": true
+          },
+          {
+            "name": "checkpoint_agrees_with_frozen_intent",
+            "passed": true
+          },
+          {
+            "name": "captured_custody_owner_and_token",
+            "passed": true
+          },
+          {
+            "name": "captured_authority_path",
+            "passed": true
+          },
+          {
+            "name": "durable_prefix_operation",
+            "passed": true
+          },
+          {
+            "name": "durable_prefix_requests",
+            "passed": true
+          },
+          {
+            "name": "durable_prefix_receipts",
+            "passed": true
+          },
+          {
+            "name": "exact_frozen_intent",
+            "passed": true
+          },
+          {
+            "name": "unchanged_authority.json",
+            "passed": true
+          },
+          {
+            "name": "unchanged_authority-link.json",
+            "passed": true
+          },
+          {
+            "name": "unchanged_manifest.json",
+            "passed": true
+          },
+          {
+            "name": "unchanged_bindings.json",
+            "passed": true
+          },
+          {
+            "name": "unchanged_original-checkpoint.json",
+            "passed": true
+          },
+          {
+            "name": "manifest_binds_intent",
+            "passed": true
+          },
+          {
+            "name": "local_all_original_git_objects_exact",
+            "passed": true
+          },
+          {
+            "name": "provider_all_original_git_objects_exact",
+            "passed": true
+          },
+          {
+            "name": "unchanged_fsck_diagnostics_local",
+            "passed": true
+          },
+          {
+            "name": "unchanged_fsck_diagnostics_provider",
+            "passed": true
+          },
+          {
+            "name": "retained_input",
+            "passed": true
+          },
+          {
+            "name": "retained_result",
+            "passed": true
+          },
+          {
+            "name": "unknown_effect_never_resends",
+            "passed": true
+          },
+          {
+            "name": "bounded_unknown_result",
+            "passed": true
+          },
+          {
+            "name": "unknown_stays_indeterminate",
+            "passed": true
+          },
+          {
+            "name": "planned_prefix_expectation",
+            "passed": true
+          }
+        ],
+        "worker_result": {
+          "status": "blocked_unknown_no_resend"
+        }
+      },
+      "pre_recovery": {
+        "file": "request_logged-pre-recovery.raw.gz",
+        "raw_bytes": 33554432,
+        "raw_sha256": "01e9b7864c4f8a3f2abf1c8e392ca14f912b64e226db08a459b94bc8e004dcd4",
+        "gzip_sha256": "31517c0368710c78bf111a15c711f6eb1b7a418e84382de9cd40bc42f186716f",
+        "gzip_bytes": 182789,
+        "verified_lossless": true
+      },
+      "post_recovery": {
+        "file": "request_logged-post-recovery.raw.gz",
+        "raw_bytes": 33554432,
+        "raw_sha256": "cb3105a09d0ca3d3fce65aa6bcd2b2820f156c58e889e2f831d1f3ae1547134e",
+        "gzip_sha256": "a6f0344d80dc7050f312ae36f498e6ae53fee3ff695bf22173e531c21f72e6a5",
+        "gzip_bytes": 185340,
+        "verified_lossless": true
+      },
+      "fsck": {
+        "exit": 0,
+        "stdout": "Pass 1: Checking inodes, blocks, and sizes\nPass 2: Checking directory structure\nPass 3: Checking directory connectivity\nPass 4: Checking reference counts\nPass 5: Checking group summary information\n/lab/protocol-durable/actual-results/request_logged.raw: 93/8192 files (1.1% non-contiguous), 1630/8192 blocks\n",
+        "stderr": "e2fsck 1.46.5 (30-Dec-2021)\n",
+        "repair": false
+      }
+    },
+    {
+      "prefix": "provider_head",
+      "verdict": {
+        "prefix": "provider_head",
+        "passed": true,
+        "classification": "blocked_unknown_no_resend",
+        "expected": "blocked_unknown_no_resend",
+        "checks": [
+          {
+            "name": "same_fixture_directory",
+            "passed": true
+          },
+          {
+            "name": "captured_provider_directory",
+            "passed": true
+          },
+          {
+            "name": "binding_agrees_with_frozen_intent",
+            "passed": true
+          },
+          {
+            "name": "checkpoint_agrees_with_frozen_intent",
+            "passed": true
+          },
+          {
+            "name": "captured_custody_owner_and_token",
+            "passed": true
+          },
+          {
+            "name": "captured_authority_path",
+            "passed": true
+          },
+          {
+            "name": "durable_prefix_operation",
+            "passed": true
+          },
+          {
+            "name": "durable_prefix_requests",
+            "passed": true
+          },
+          {
+            "name": "durable_prefix_receipts",
+            "passed": true
+          },
+          {
+            "name": "exact_frozen_intent",
+            "passed": true
+          },
+          {
+            "name": "unchanged_authority.json",
+            "passed": true
+          },
+          {
+            "name": "unchanged_authority-link.json",
+            "passed": true
+          },
+          {
+            "name": "unchanged_manifest.json",
+            "passed": true
+          },
+          {
+            "name": "unchanged_bindings.json",
+            "passed": true
+          },
+          {
+            "name": "unchanged_original-checkpoint.json",
+            "passed": true
+          },
+          {
+            "name": "manifest_binds_intent",
+            "passed": true
+          },
+          {
+            "name": "local_all_original_git_objects_exact",
+            "passed": true
+          },
+          {
+            "name": "provider_all_original_git_objects_exact",
+            "passed": true
+          },
+          {
+            "name": "unchanged_fsck_diagnostics_local",
+            "passed": true
+          },
+          {
+            "name": "unchanged_fsck_diagnostics_provider",
+            "passed": true
+          },
+          {
+            "name": "retained_input",
+            "passed": true
+          },
+          {
+            "name": "retained_result",
+            "passed": true
+          },
+          {
+            "name": "unknown_effect_never_resends",
+            "passed": true
+          },
+          {
+            "name": "bounded_unknown_result",
+            "passed": true
+          },
+          {
+            "name": "unknown_stays_indeterminate",
+            "passed": true
+          },
+          {
+            "name": "planned_prefix_expectation",
+            "passed": true
+          }
+        ],
+        "worker_result": {
+          "status": "blocked_unknown_no_resend"
+        }
+      },
+      "pre_recovery": {
+        "file": "provider_head-pre-recovery.raw.gz",
+        "raw_bytes": 33554432,
+        "raw_sha256": "28fd8260cd7d77192dc3113bba1d844c5b8c0e4bb1ee11ef62a20ed85c758a52",
+        "gzip_sha256": "028bb95631a0b7713b57f92b26032de62ffa47424e999e347444dbf4a853cb3b",
+        "gzip_bytes": 183843,
+        "verified_lossless": true
+      },
+      "post_recovery": {
+        "file": "provider_head-post-recovery.raw.gz",
+        "raw_bytes": 33554432,
+        "raw_sha256": "22b48e0c2641d97032622f9f8a74a42e2cf255bba861d41e3faab49623f07138",
+        "gzip_sha256": "6319bf539c7e8e2d8427968805e70d2e7d10536f26b0c33df471965d290ede51",
+        "gzip_bytes": 186731,
+        "verified_lossless": true
+      },
+      "fsck": {
+        "exit": 0,
+        "stdout": "Pass 1: Checking inodes, blocks, and sizes\nPass 2: Checking directory structure\nPass 3: Checking directory connectivity\nPass 4: Checking reference counts\nPass 5: Checking group summary information\n/lab/protocol-durable/actual-results/provider_head.raw: 93/8192 files (1.1% non-contiguous), 1630/8192 blocks\n",
+        "stderr": "e2fsck 1.46.5 (30-Dec-2021)\n",
+        "repair": false
+      }
+    },
+    {
+      "prefix": "provider_archive",
+      "verdict": {
+        "prefix": "provider_archive",
+        "passed": true,
+        "classification": "blocked_unknown_no_resend",
+        "expected": "blocked_unknown_no_resend",
+        "checks": [
+          {
+            "name": "same_fixture_directory",
+            "passed": true
+          },
+          {
+            "name": "captured_provider_directory",
+            "passed": true
+          },
+          {
+            "name": "binding_agrees_with_frozen_intent",
+            "passed": true
+          },
+          {
+            "name": "checkpoint_agrees_with_frozen_intent",
+            "passed": true
+          },
+          {
+            "name": "captured_custody_owner_and_token",
+            "passed": true
+          },
+          {
+            "name": "captured_authority_path",
+            "passed": true
+          },
+          {
+            "name": "durable_prefix_operation",
+            "passed": true
+          },
+          {
+            "name": "durable_prefix_requests",
+            "passed": true
+          },
+          {
+            "name": "durable_prefix_receipts",
+            "passed": true
+          },
+          {
+            "name": "exact_frozen_intent",
+            "passed": true
+          },
+          {
+            "name": "unchanged_authority.json",
+            "passed": true
+          },
+          {
+            "name": "unchanged_authority-link.json",
+            "passed": true
+          },
+          {
+            "name": "unchanged_manifest.json",
+            "passed": true
+          },
+          {
+            "name": "unchanged_bindings.json",
+            "passed": true
+          },
+          {
+            "name": "unchanged_original-checkpoint.json",
+            "passed": true
+          },
+          {
+            "name": "manifest_binds_intent",
+            "passed": true
+          },
+          {
+            "name": "local_all_original_git_objects_exact",
+            "passed": true
+          },
+          {
+            "name": "provider_all_original_git_objects_exact",
+            "passed": true
+          },
+          {
+            "name": "unchanged_fsck_diagnostics_local",
+            "passed": true
+          },
+          {
+            "name": "unchanged_fsck_diagnostics_provider",
+            "passed": true
+          },
+          {
+            "name": "retained_input",
+            "passed": true
+          },
+          {
+            "name": "retained_result",
+            "passed": true
+          },
+          {
+            "name": "unknown_effect_never_resends",
+            "passed": true
+          },
+          {
+            "name": "bounded_unknown_result",
+            "passed": true
+          },
+          {
+            "name": "unknown_stays_indeterminate",
+            "passed": true
+          },
+          {
+            "name": "planned_prefix_expectation",
+            "passed": true
+          }
+        ],
+        "worker_result": {
+          "status": "blocked_unknown_no_resend"
+        }
+      },
+      "pre_recovery": {
+        "file": "provider_archive-pre-recovery.raw.gz",
+        "raw_bytes": 33554432,
+        "raw_sha256": "7d908ffe316a8d010e662d6396bae1f620badc3d0b2d345c6727fc15d8dc9357",
+        "gzip_sha256": "b48b452f7c41c16c23e2c4c2612e532e9255417b01a01b4e7e3c6ae4166b91ac",
+        "gzip_bytes": 185390,
+        "verified_lossless": true
+      },
+      "post_recovery": {
+        "file": "provider_archive-post-recovery.raw.gz",
+        "raw_bytes": 33554432,
+        "raw_sha256": "250deae22a59919e705c90f8948e46c5389e30a69b00bced54345a78f2f812ce",
+        "gzip_sha256": "ac5649c3e35e9baadfd82f3cf985bc74e6e91248f306e8a9d3bd414dee361c73",
+        "gzip_bytes": 187888,
+        "verified_lossless": true
+      },
+      "fsck": {
+        "exit": 0,
+        "stdout": "Pass 1: Checking inodes, blocks, and sizes\nPass 2: Checking directory structure\nPass 3: Checking directory connectivity\nPass 4: Checking reference counts\nPass 5: Checking group summary information\n/lab/protocol-durable/actual-results/provider_archive.raw: 95/8192 files (1.1% non-contiguous), 1632/8192 blocks\n",
+        "stderr": "e2fsck 1.46.5 (30-Dec-2021)\n",
+        "repair": false
+      }
+    },
+    {
+      "prefix": "provider_receipt",
+      "verdict": {
+        "prefix": "provider_receipt",
+        "passed": true,
+        "classification": "validated_complete",
+        "expected": "validated_complete",
+        "checks": [
+          {
+            "name": "same_fixture_directory",
+            "passed": true
+          },
+          {
+            "name": "captured_provider_directory",
+            "passed": true
+          },
+          {
+            "name": "binding_agrees_with_frozen_intent",
+            "passed": true
+          },
+          {
+            "name": "checkpoint_agrees_with_frozen_intent",
+            "passed": true
+          },
+          {
+            "name": "captured_custody_owner_and_token",
+            "passed": true
+          },
+          {
+            "name": "captured_authority_path",
+            "passed": true
+          },
+          {
+            "name": "durable_prefix_operation",
+            "passed": true
+          },
+          {
+            "name": "durable_prefix_requests",
+            "passed": true
+          },
+          {
+            "name": "durable_prefix_receipts",
+            "passed": true
+          },
+          {
+            "name": "exact_frozen_intent",
+            "passed": true
+          },
+          {
+            "name": "unchanged_authority.json",
+            "passed": true
+          },
+          {
+            "name": "unchanged_authority-link.json",
+            "passed": true
+          },
+          {
+            "name": "unchanged_manifest.json",
+            "passed": true
+          },
+          {
+            "name": "unchanged_bindings.json",
+            "passed": true
+          },
+          {
+            "name": "unchanged_original-checkpoint.json",
+            "passed": true
+          },
+          {
+            "name": "manifest_binds_intent",
+            "passed": true
+          },
+          {
+            "name": "local_all_original_git_objects_exact",
+            "passed": true
+          },
+          {
+            "name": "provider_all_original_git_objects_exact",
+            "passed": true
+          },
+          {
+            "name": "unchanged_fsck_diagnostics_local",
+            "passed": true
+          },
+          {
+            "name": "unchanged_fsck_diagnostics_provider",
+            "passed": true
+          },
+          {
+            "name": "retained_input",
+            "passed": true
+          },
+          {
+            "name": "retained_result",
+            "passed": true
+          },
+          {
+            "name": "unknown_effect_never_resends",
+            "passed": true
+          },
+          {
+            "name": "completed_operation_state",
+            "passed": true
+          },
+          {
+            "name": "exact_local_continuation",
+            "passed": true
+          },
+          {
+            "name": "exact_local_checkpoint",
+            "passed": true
+          },
+          {
+            "name": "exact_local_receipt",
+            "passed": true
+          },
+          {
+            "name": "exact_provider_head",
+            "passed": true
+          },
+          {
+            "name": "exact_provider_archive",
+            "passed": true
+          },
+          {
+            "name": "exact_single_provider_request",
+            "passed": true
+          },
+          {
+            "name": "exact_single_provider_receipt",
+            "passed": true
+          },
+          {
+            "name": "planned_prefix_expectation",
+            "passed": true
+          }
+        ],
+        "worker_result": {
+          "status": "complete"
+        }
+      },
+      "pre_recovery": {
+        "file": "provider_receipt-pre-recovery.raw.gz",
+        "raw_bytes": 33554432,
+        "raw_sha256": "03677b8b66954d790b11d680c17a1b96a9c6738f7098c9b84cd229af31d42735",
+        "gzip_sha256": "5f61eb774745adb8a2d8c323dde61f32737750ff934bedb36ced76dd8fbb13bd",
+        "gzip_bytes": 187923,
+        "verified_lossless": true
+      },
+      "post_recovery": {
+        "file": "provider_receipt-post-recovery.raw.gz",
+        "raw_bytes": 33554432,
+        "raw_sha256": "8c9aa0fbaea104ec393e5b00479cc64faace80f29b7f4b21439cc2132982bf51",
+        "gzip_sha256": "2cdc95d07aae078298ba4e2fb3cefe2a8ff51445f47d236f827b4851bb56105a",
+        "gzip_bytes": 202615,
+        "verified_lossless": true
+      },
+      "fsck": {
+        "exit": 0,
+        "stdout": "Pass 1: Checking inodes, blocks, and sizes\nPass 2: Checking directory structure\nPass 3: Checking directory connectivity\nPass 4: Checking reference counts\nPass 5: Checking group summary information\n/lab/protocol-durable/actual-results/provider_receipt.raw: 97/8192 files (1.0% non-contiguous), 1634/8192 blocks\n",
+        "stderr": "e2fsck 1.46.5 (30-Dec-2021)\n",
+        "repair": false
+      }
+    },
+    {
+      "prefix": "acknowledged",
+      "verdict": {
+        "prefix": "acknowledged",
+        "passed": true,
+        "classification": "validated_complete",
+        "expected": "validated_complete",
+        "checks": [
+          {
+            "name": "same_fixture_directory",
+            "passed": true
+          },
+          {
+            "name": "captured_provider_directory",
+            "passed": true
+          },
+          {
+            "name": "binding_agrees_with_frozen_intent",
+            "passed": true
+          },
+          {
+            "name": "checkpoint_agrees_with_frozen_intent",
+            "passed": true
+          },
+          {
+            "name": "captured_custody_owner_and_token",
+            "passed": true
+          },
+          {
+            "name": "captured_authority_path",
+            "passed": true
+          },
+          {
+            "name": "durable_prefix_operation",
+            "passed": true
+          },
+          {
+            "name": "durable_prefix_requests",
+            "passed": true
+          },
+          {
+            "name": "durable_prefix_receipts",
+            "passed": true
+          },
+          {
+            "name": "exact_frozen_intent",
+            "passed": true
+          },
+          {
+            "name": "unchanged_authority.json",
+            "passed": true
+          },
+          {
+            "name": "unchanged_authority-link.json",
+            "passed": true
+          },
+          {
+            "name": "unchanged_manifest.json",
+            "passed": true
+          },
+          {
+            "name": "unchanged_bindings.json",
+            "passed": true
+          },
+          {
+            "name": "unchanged_original-checkpoint.json",
+            "passed": true
+          },
+          {
+            "name": "manifest_binds_intent",
+            "passed": true
+          },
+          {
+            "name": "local_all_original_git_objects_exact",
+            "passed": true
+          },
+          {
+            "name": "provider_all_original_git_objects_exact",
+            "passed": true
+          },
+          {
+            "name": "unchanged_fsck_diagnostics_local",
+            "passed": true
+          },
+          {
+            "name": "unchanged_fsck_diagnostics_provider",
+            "passed": true
+          },
+          {
+            "name": "retained_input",
+            "passed": true
+          },
+          {
+            "name": "retained_result",
+            "passed": true
+          },
+          {
+            "name": "unknown_effect_never_resends",
+            "passed": true
+          },
+          {
+            "name": "completed_operation_state",
+            "passed": true
+          },
+          {
+            "name": "exact_local_continuation",
+            "passed": true
+          },
+          {
+            "name": "exact_local_checkpoint",
+            "passed": true
+          },
+          {
+            "name": "exact_local_receipt",
+            "passed": true
+          },
+          {
+            "name": "exact_provider_head",
+            "passed": true
+          },
+          {
+            "name": "exact_provider_archive",
+            "passed": true
+          },
+          {
+            "name": "exact_single_provider_request",
+            "passed": true
+          },
+          {
+            "name": "exact_single_provider_receipt",
+            "passed": true
+          },
+          {
+            "name": "planned_prefix_expectation",
+            "passed": true
+          }
+        ],
+        "worker_result": {
+          "status": "complete"
+        }
+      },
+      "pre_recovery": {
+        "file": "acknowledged-pre-recovery.raw.gz",
+        "raw_bytes": 33554432,
+        "raw_sha256": "e1e4ecf1d5e5fac017495d324c3aef40212986283a0d1e487f052d1c486b53d8",
+        "gzip_sha256": "21ec7ab399741906c6b03d394f88c67c19fe4c64e94b79410d1b7ee5846721ba",
+        "gzip_bytes": 190284,
+        "verified_lossless": true
+      },
+      "post_recovery": {
+        "file": "acknowledged-post-recovery.raw.gz",
+        "raw_bytes": 33554432,
+        "raw_sha256": "13b074d179a0ff1534417f88a7113004991767816661bc28953bb22118b3a8a5",
+        "gzip_sha256": "6047e93e08764bd6cf94c95def3618e5ad5a6df2b77b13f683bea80b8cfb9d9d",
+        "gzip_bytes": 200531,
+        "verified_lossless": true
+      },
+      "fsck": {
+        "exit": 0,
+        "stdout": "Pass 1: Checking inodes, blocks, and sizes\nPass 2: Checking directory structure\nPass 3: Checking directory connectivity\nPass 4: Checking reference counts\nPass 5: Checking group summary information\n/lab/protocol-durable/actual-results/acknowledged.raw: 97/8192 files (1.0% non-contiguous), 1634/8192 blocks\n",
+        "stderr": "e2fsck 1.46.5 (30-Dec-2021)\n",
+        "repair": false
+      }
+    },
+    {
+      "prefix": "result_ref",
+      "verdict": {
+        "prefix": "result_ref",
+        "passed": true,
+        "classification": "validated_complete",
+        "expected": "validated_complete",
+        "checks": [
+          {
+            "name": "same_fixture_directory",
+            "passed": true
+          },
+          {
+            "name": "captured_provider_directory",
+            "passed": true
+          },
+          {
+            "name": "binding_agrees_with_frozen_intent",
+            "passed": true
+          },
+          {
+            "name": "checkpoint_agrees_with_frozen_intent",
+            "passed": true
+          },
+          {
+            "name": "captured_custody_owner_and_token",
+            "passed": true
+          },
+          {
+            "name": "captured_authority_path",
+            "passed": true
+          },
+          {
+            "name": "durable_prefix_operation",
+            "passed": true
+          },
+          {
+            "name": "durable_prefix_requests",
+            "passed": true
+          },
+          {
+            "name": "durable_prefix_receipts",
+            "passed": true
+          },
+          {
+            "name": "exact_frozen_intent",
+            "passed": true
+          },
+          {
+            "name": "unchanged_authority.json",
+            "passed": true
+          },
+          {
+            "name": "unchanged_authority-link.json",
+            "passed": true
+          },
+          {
+            "name": "unchanged_manifest.json",
+            "passed": true
+          },
+          {
+            "name": "unchanged_bindings.json",
+            "passed": true
+          },
+          {
+            "name": "unchanged_original-checkpoint.json",
+            "passed": true
+          },
+          {
+            "name": "manifest_binds_intent",
+            "passed": true
+          },
+          {
+            "name": "local_all_original_git_objects_exact",
+            "passed": true
+          },
+          {
+            "name": "provider_all_original_git_objects_exact",
+            "passed": true
+          },
+          {
+            "name": "unchanged_fsck_diagnostics_local",
+            "passed": true
+          },
+          {
+            "name": "unchanged_fsck_diagnostics_provider",
+            "passed": true
+          },
+          {
+            "name": "retained_input",
+            "passed": true
+          },
+          {
+            "name": "retained_result",
+            "passed": true
+          },
+          {
+            "name": "unknown_effect_never_resends",
+            "passed": true
+          },
+          {
+            "name": "completed_operation_state",
+            "passed": true
+          },
+          {
+            "name": "exact_local_continuation",
+            "passed": true
+          },
+          {
+            "name": "exact_local_checkpoint",
+            "passed": true
+          },
+          {
+            "name": "exact_local_receipt",
+            "passed": true
+          },
+          {
+            "name": "exact_provider_head",
+            "passed": true
+          },
+          {
+            "name": "exact_provider_archive",
+            "passed": true
+          },
+          {
+            "name": "exact_single_provider_request",
+            "passed": true
+          },
+          {
+            "name": "exact_single_provider_receipt",
+            "passed": true
+          },
+          {
+            "name": "planned_prefix_expectation",
+            "passed": true
+          }
+        ],
+        "worker_result": {
+          "status": "complete"
+        }
+      },
+      "pre_recovery": {
+        "file": "result_ref-pre-recovery.raw.gz",
+        "raw_bytes": 33554432,
+        "raw_sha256": "1e5e508e714e1b9aa23e19ffba3231b3c356d2bbf5178f304e41a759f3022ba6",
+        "gzip_sha256": "93a2148261beb6f2424e2a3171661dc72acde798c4f7eb60dd6ab1a167c0eb22",
+        "gzip_bytes": 193141,
+        "verified_lossless": true
+      },
+      "post_recovery": {
+        "file": "result_ref-post-recovery.raw.gz",
+        "raw_bytes": 33554432,
+        "raw_sha256": "048491776a578297f93e9e37356da1aa74de7c8ba80bde1b1ca61a76c6f2571a",
+        "gzip_sha256": "d948059f762d67fa6f9d51c413c04080af08c5d070de1fa520bf34df7b367907",
+        "gzip_bytes": 201951,
+        "verified_lossless": true
+      },
+      "fsck": {
+        "exit": 0,
+        "stdout": "Pass 1: Checking inodes, blocks, and sizes\nPass 2: Checking directory structure\nPass 3: Checking directory connectivity\nPass 4: Checking reference counts\nPass 5: Checking group summary information\n/lab/protocol-durable/actual-results/result_ref.raw: 97/8192 files (1.0% non-contiguous), 1634/8192 blocks\n",
+        "stderr": "e2fsck 1.46.5 (30-Dec-2021)\n",
+        "repair": false
+      }
+    },
+    {
+      "prefix": "result_checkpoint",
+      "verdict": {
+        "prefix": "result_checkpoint",
+        "passed": true,
+        "classification": "validated_complete",
+        "expected": "validated_complete",
+        "checks": [
+          {
+            "name": "same_fixture_directory",
+            "passed": true
+          },
+          {
+            "name": "captured_provider_directory",
+            "passed": true
+          },
+          {
+            "name": "binding_agrees_with_frozen_intent",
+            "passed": true
+          },
+          {
+            "name": "checkpoint_agrees_with_frozen_intent",
+            "passed": true
+          },
+          {
+            "name": "captured_custody_owner_and_token",
+            "passed": true
+          },
+          {
+            "name": "captured_authority_path",
+            "passed": true
+          },
+          {
+            "name": "durable_prefix_operation",
+            "passed": true
+          },
+          {
+            "name": "durable_prefix_requests",
+            "passed": true
+          },
+          {
+            "name": "durable_prefix_receipts",
+            "passed": true
+          },
+          {
+            "name": "durable_prefix_checkpoint",
+            "passed": true
+          },
+          {
+            "name": "exact_frozen_intent",
+            "passed": true
+          },
+          {
+            "name": "unchanged_authority.json",
+            "passed": true
+          },
+          {
+            "name": "unchanged_authority-link.json",
+            "passed": true
+          },
+          {
+            "name": "unchanged_manifest.json",
+            "passed": true
+          },
+          {
+            "name": "unchanged_bindings.json",
+            "passed": true
+          },
+          {
+            "name": "unchanged_original-checkpoint.json",
+            "passed": true
+          },
+          {
+            "name": "manifest_binds_intent",
+            "passed": true
+          },
+          {
+            "name": "local_all_original_git_objects_exact",
+            "passed": true
+          },
+          {
+            "name": "provider_all_original_git_objects_exact",
+            "passed": true
+          },
+          {
+            "name": "unchanged_fsck_diagnostics_local",
+            "passed": true
+          },
+          {
+            "name": "unchanged_fsck_diagnostics_provider",
+            "passed": true
+          },
+          {
+            "name": "retained_input",
+            "passed": true
+          },
+          {
+            "name": "retained_result",
+            "passed": true
+          },
+          {
+            "name": "unknown_effect_never_resends",
+            "passed": true
+          },
+          {
+            "name": "completed_operation_state",
+            "passed": true
+          },
+          {
+            "name": "exact_local_continuation",
+            "passed": true
+          },
+          {
+            "name": "exact_local_checkpoint",
+            "passed": true
+          },
+          {
+            "name": "exact_local_receipt",
+            "passed": true
+          },
+          {
+            "name": "exact_provider_head",
+            "passed": true
+          },
+          {
+            "name": "exact_provider_archive",
+            "passed": true
+          },
+          {
+            "name": "exact_single_provider_request",
+            "passed": true
+          },
+          {
+            "name": "exact_single_provider_receipt",
+            "passed": true
+          },
+          {
+            "name": "planned_prefix_expectation",
+            "passed": true
+          }
+        ],
+        "worker_result": {
+          "status": "complete"
+        }
+      },
+      "pre_recovery": {
+        "file": "result_checkpoint-pre-recovery.raw.gz",
+        "raw_bytes": 33554432,
+        "raw_sha256": "b5f7195bfb3881f49d4b8525bb81e2393f0c17dc504c00ff14c0a7079efe4cc4",
+        "gzip_sha256": "6deb760710af8ece3e25edd44720450da92556c8b0429f52a2984f11536f227d",
+        "gzip_bytes": 194433,
+        "verified_lossless": true
+      },
+      "post_recovery": {
+        "file": "result_checkpoint-post-recovery.raw.gz",
+        "raw_bytes": 33554432,
+        "raw_sha256": "1d9193bf056fa0a2848e3039a90a0846b463d69800814d3c06c6235365c0aa5e",
+        "gzip_sha256": "7f3b7e8517c658ffcd5ff11271b623e67620fdf500d726195d36a11d49dc4ee2",
+        "gzip_bytes": 204123,
+        "verified_lossless": true
+      },
+      "fsck": {
+        "exit": 0,
+        "stdout": "Pass 1: Checking inodes, blocks, and sizes\nPass 2: Checking directory structure\nPass 3: Checking directory connectivity\nPass 4: Checking reference counts\nPass 5: Checking group summary information\n/lab/protocol-durable/actual-results/result_checkpoint.raw: 97/8192 files (2.1% non-contiguous), 1635/8192 blocks\n",
+        "stderr": "e2fsck 1.46.5 (30-Dec-2021)\n",
+        "repair": false
+      }
+    },
+    {
+      "prefix": "complete",
+      "verdict": {
+        "prefix": "complete",
+        "passed": true,
+        "classification": "validated_complete",
+        "expected": "validated_complete",
+        "checks": [
+          {
+            "name": "same_fixture_directory",
+            "passed": true
+          },
+          {
+            "name": "captured_provider_directory",
+            "passed": true
+          },
+          {
+            "name": "binding_agrees_with_frozen_intent",
+            "passed": true
+          },
+          {
+            "name": "checkpoint_agrees_with_frozen_intent",
+            "passed": true
+          },
+          {
+            "name": "captured_custody_owner_and_token",
+            "passed": true
+          },
+          {
+            "name": "captured_authority_path",
+            "passed": true
+          },
+          {
+            "name": "durable_prefix_operation",
+            "passed": true
+          },
+          {
+            "name": "durable_prefix_requests",
+            "passed": true
+          },
+          {
+            "name": "durable_prefix_receipts",
+            "passed": true
+          },
+          {
+            "name": "durable_prefix_checkpoint",
+            "passed": true
+          },
+          {
+            "name": "exact_frozen_intent",
+            "passed": true
+          },
+          {
+            "name": "unchanged_authority.json",
+            "passed": true
+          },
+          {
+            "name": "unchanged_authority-link.json",
+            "passed": true
+          },
+          {
+            "name": "unchanged_manifest.json",
+            "passed": true
+          },
+          {
+            "name": "unchanged_bindings.json",
+            "passed": true
+          },
+          {
+            "name": "unchanged_original-checkpoint.json",
+            "passed": true
+          },
+          {
+            "name": "manifest_binds_intent",
+            "passed": true
+          },
+          {
+            "name": "local_all_original_git_objects_exact",
+            "passed": true
+          },
+          {
+            "name": "provider_all_original_git_objects_exact",
+            "passed": true
+          },
+          {
+            "name": "unchanged_fsck_diagnostics_local",
+            "passed": true
+          },
+          {
+            "name": "unchanged_fsck_diagnostics_provider",
+            "passed": true
+          },
+          {
+            "name": "retained_input",
+            "passed": true
+          },
+          {
+            "name": "retained_result",
+            "passed": true
+          },
+          {
+            "name": "unknown_effect_never_resends",
+            "passed": true
+          },
+          {
+            "name": "completed_operation_state",
+            "passed": true
+          },
+          {
+            "name": "exact_local_continuation",
+            "passed": true
+          },
+          {
+            "name": "exact_local_checkpoint",
+            "passed": true
+          },
+          {
+            "name": "exact_local_receipt",
+            "passed": true
+          },
+          {
+            "name": "exact_provider_head",
+            "passed": true
+          },
+          {
+            "name": "exact_provider_archive",
+            "passed": true
+          },
+          {
+            "name": "exact_single_provider_request",
+            "passed": true
+          },
+          {
+            "name": "exact_single_provider_receipt",
+            "passed": true
+          },
+          {
+            "name": "planned_prefix_expectation",
+            "passed": true
+          }
+        ],
+        "worker_result": {
+          "status": "complete"
+        }
+      },
+      "pre_recovery": {
+        "file": "complete-pre-recovery.raw.gz",
+        "raw_bytes": 33554432,
+        "raw_sha256": "436dd202a0063111e12cab63b9b29c0a083d7f40bf4aaa0d24bb393a67b7d5e3",
+        "gzip_sha256": "a78680df5050a2258473707d7ca782a80158eb8e064008645ecd6dac52c1d178",
+        "gzip_bytes": 197216,
+        "verified_lossless": true
+      },
+      "post_recovery": {
+        "file": "complete-post-recovery.raw.gz",
+        "raw_bytes": 33554432,
+        "raw_sha256": "1b02931154e068bf37d5d40138ab594b8dd9decd941c644e67480775cfc3a3f8",
+        "gzip_sha256": "0fa013f37195c51523502f5d65e9904415509e795ae45e6bbb41c2cdea239b89",
+        "gzip_bytes": 201449,
+        "verified_lossless": true
+      },
+      "fsck": {
+        "exit": 0,
+        "stdout": "Pass 1: Checking inodes, blocks, and sizes\nPass 2: Checking directory structure\nPass 3: Checking directory connectivity\nPass 4: Checking reference counts\nPass 5: Checking group summary information\n/lab/protocol-durable/actual-results/complete.raw: 97/8192 files (1.0% non-contiguous), 1634/8192 blocks\n",
+        "stderr": "e2fsck 1.46.5 (30-Dec-2021)\n",
+        "repair": false
+      }
+    }
+  ],
+  "all_passed": true,
+  "expected_cases": 11,
+  "boots": 22,
+  "limits": "Exact experimental prototype on Linux Git2.34/ext4; existing objects synced at baseline; outer host/device caches survive; no production or provider guarantee"
+}

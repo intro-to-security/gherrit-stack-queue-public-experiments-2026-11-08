@@ -1,0 +1,85 @@
+{
+  "checks": [
+    {
+      "actual": false,
+      "expected": false,
+      "name": "rollback cannot enable old publisher while native outcome unresolved",
+      "passed": true
+    },
+    {
+      "actual": "complete",
+      "expected": "complete",
+      "name": "settle owned fixture",
+      "passed": true
+    },
+    {
+      "actual": "stale_custody",
+      "expected": "stale_custody",
+      "name": "old native worker invalid after deliberate handoff",
+      "passed": true
+    },
+    {
+      "actual": "77cd83d5ba1a28d8c1d454f1623c3dc5425454a4",
+      "expected": "77cd83d5ba1a28d8c1d454f1623c3dc5425454a4",
+      "name": "rollback preserves exact retained result",
+      "passed": true
+    }
+  ],
+  "details": {
+    "bound": "Local export/handoff rehearsal; not production enrollment or proof legacy Actions are excluded",
+    "bundle_verify": "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/recovery/runs/1794232632320218000/rollback-settled/retained-export.bundle is okay\n",
+    "export": {
+      "binding": {
+        "change": "A",
+        "head": "A",
+        "repository": "local-fixture",
+        "review": 1
+      },
+      "bundle_sha256": "d2e92cb11d889ce08a2ab07c4687b69bde56d5fed5c3d43cd5d1fee515f7feec",
+      "checkpoint": {
+        "captured_checkpoint": {
+          "accepted_local": "77cd83d5ba1a28d8c1d454f1623c3dc5425454a4",
+          "incorporated": "2418b21d277e8cd005caf43abd4fda23595aca3f"
+        },
+        "continuation": "refs/retained/completed-rollback-settled",
+        "id": "op-rollback-settled",
+        "input": "2418b21d277e8cd005caf43abd4fda23595aca3f",
+        "result": "77cd83d5ba1a28d8c1d454f1623c3dc5425454a4"
+      },
+      "operation": {
+        "intent": {
+          "binding": {
+            "change": "A",
+            "head": "A",
+            "repository": "local-fixture",
+            "review": 1
+          },
+          "captured_checkpoint": {
+            "accepted_local": "77cd83d5ba1a28d8c1d454f1623c3dc5425454a4",
+            "incorporated": "2418b21d277e8cd005caf43abd4fda23595aca3f"
+          },
+          "continuation": "refs/retained/completed-rollback-settled",
+          "expected": "2418b21d277e8cd005caf43abd4fda23595aca3f",
+          "id": "op-rollback-settled",
+          "input": "2418b21d277e8cd005caf43abd4fda23595aca3f",
+          "provider": "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/recovery/runs/1794232632320218000/rollback-settled/provider",
+          "result": "77cd83d5ba1a28d8c1d454f1623c3dc5425454a4",
+          "scope": [
+            "head:A",
+            "archive:rollback-settled"
+          ]
+        },
+        "receipt": {
+          "digest": "e0a973573eca23c23a59b293bf3bf546e905cb1efed9181e6ceb18b7c07b688e",
+          "head": "77cd83d5ba1a28d8c1d454f1623c3dc5425454a4",
+          "id": "op-rollback-settled"
+        },
+        "state": "complete"
+      }
+    }
+  },
+  "disposition": "performed",
+  "id": "R14",
+  "status": "passed",
+  "title": "Deliberate rollback export"
+}

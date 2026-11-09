@@ -1,0 +1,22 @@
+test_native_repeat_driver_preserves_pending_edit_and_archives_locally (test_staged_driver.FullDriverTests) ... ok
+test_private_staged_trace_preserves_custody_and_roles (test_staged_driver.FullDriverTests) ... ok
+test_public_staged_trace_exports_exactly_F_at_the_staged_step (test_staged_driver.FullDriverTests) ... ok
+test_second_cascade_refusal_retains_the_completed_prefix (test_staged_driver.FullDriverTests) ... ok
+test_sequential_public_cascade_driver_locally (test_staged_driver.FullDriverTests) ... ok
+test_action_grant_prevents_later_phase_dispatch (test_workflow.GuardTests) ... ok
+test_archive_cannot_be_retargeted_or_invented (test_workflow.GuardTests) ... ok
+test_cross_fixture_and_undeclared_refs_rejected (test_workflow.GuardTests) ... ok
+test_foreign_repository_rejected (test_workflow.GuardTests) ... ok
+test_graphql_cannot_target_foreign_node_or_arbitrary_mutation (test_workflow.GuardTests) ... ok
+test_low_level_git_cannot_bypass_write_classification (test_workflow.GuardTests) ... ok
+test_missing_or_changed_grant_rejected (test_workflow.GuardTests) ... ok
+test_no_subprocess_on_missing_write_grant (test_workflow.GuardTests) ... ok
+test_unknown_attempt_and_same_label_rejected_before_dispatch (test_workflow.GuardTests) ... ok
+test_wrong_pr_relation_rejected (test_workflow.GuardTests) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 7.257s
+
+OK
+{"case": "staged-private", "phase": "staged-trace-complete-with-actual-native-repetition", "native_imports": 2, "utc": "2026-11-09T14:58:36.185821+00:00"}
+{"case": "gql-native-lower", "phase": "cascade-followup-complete", "requested_members": ["B", "C"]}

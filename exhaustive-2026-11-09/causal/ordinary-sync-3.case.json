@@ -1,0 +1,67 @@
+{
+  "name": "ordinary-sync-3",
+  "prefix": "exh-1109-causal-ordinary-sync-3",
+  "method": "squash",
+  "timing": "sync",
+  "created": {
+    "utc": "2026-11-09T14:19:53.260276+00:00",
+    "monotonic": 0.053122541
+  },
+  "prs": {
+    "A": 595,
+    "B": 596,
+    "C": 597,
+    "D": 598
+  },
+  "heads": {
+    "A": {
+      "ref": "exh-1109-causal-ordinary-sync-3/A",
+      "sha": "657f97fc324ab818d114888705011b2ccf880802"
+    },
+    "B": {
+      "ref": "exh-1109-causal-ordinary-sync-3/B",
+      "sha": "b11b418d8c0b4d173f3eca4a29b7669aec586fa2"
+    },
+    "C": {
+      "ref": "exh-1109-causal-ordinary-sync-3/C",
+      "sha": "ebedb56d1336871c7adad5c693fcafd29c41ea12"
+    },
+    "D": {
+      "ref": "exh-1109-causal-ordinary-sync-3/D",
+      "sha": "b0f489897aef2f26faf46c760065d81e600844ca"
+    }
+  },
+  "phase": "bounded-observations-complete",
+  "trunk_sha": "ebf6b1c81672dcad1a7933212ad3aabf82aa0582",
+  "trunk": "exh-1109-causal-ordinary-sync-3/trunk",
+  "stack": 599,
+  "merge_uuid": "79f08b15-a550-47c8-8939-063c81f7abaf",
+  "terminal": {
+    "kind": "http",
+    "method": "GET",
+    "path": "repos/joshlf/gherrit-native-stack-experiments-2026-11-08/pulls/595/merge-async/79f08b15-a550-47c8-8939-063c81f7abaf",
+    "payload": null,
+    "start": {
+      "utc": "2026-11-09T14:20:18.504949+00:00",
+      "monotonic": 25.29747075
+    },
+    "end": {
+      "utc": "2026-11-09T14:20:18.778242+00:00",
+      "monotonic": 25.570759208
+    },
+    "exit": 0,
+    "http": 200,
+    "data": {
+      "status": "merged",
+      "details": {
+        "message": "Pull request was merged.",
+        "sha": "6cb26ec4e14e1fa14b91c6358bf4e2bf0c736675"
+      }
+    },
+    "disposition": "response-retained"
+  },
+  "observation_end": {
+    "utc": "2026-11-09T14:21:37.723430+00:00",
+    "monotonic": 104.515460541
+  }
+}

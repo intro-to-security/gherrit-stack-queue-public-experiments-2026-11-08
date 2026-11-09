@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "objects_read_back": 29,
+  "checks": [
+    "unrelated base drift excluded from both exact patch and range-diff",
+    "same authored line edit remains; context-only base drift changes displayed patch/matching",
+    "different verified binary bytes receive equals; full-index/binary patches retain distinct identities/payloads",
+    "mode difference displayed despite identical result script bytes",
+    "two reordered disjoint commits paired by patch instead of ordinal"
+  ],
+  "argv": [
+    "git",
+    "-c",
+    "core.hooksPath=/dev/null",
+    "-c",
+    "core.pager=cat",
+    "cat-file",
+    "--batch"
+  ],
+  "cwd": "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/history-range-diff/controls/repo.git",
+  "exit": 0,
+  "stdout_sha256": "c24cff9afe806ecd768ecfe8cf4059acd4f07cc30aec6489b02effc7eba39747",
+  "source_results_sha256": "fde654c62f0f6dd91b66849267cf9120929c2a33f3491f6dc722f931cd2ea3f6",
+  "limits": "Exact observations in these synthetic cases; no semantic equivalence inference from output markers"
+}

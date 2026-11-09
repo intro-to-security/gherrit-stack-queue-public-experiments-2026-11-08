@@ -1,0 +1,340 @@
+{
+  "case": "gql-native-conflict",
+  "changes_after_mutation_basis": {
+    "A": {
+      "after_base": {
+        "ref": "exh-1109-workflow-gql-native-conflict-142b749e/trunk",
+        "sha": "a810a5f65ef9e212725a5227f43e6804a3fb691a"
+      },
+      "after_ref": "bd21864e8b94d339af22ef5eccdc5e0b8b4f1c2b",
+      "before_base": {
+        "ref": "exh-1109-workflow-gql-native-conflict-142b749e/trunk",
+        "sha": "a810a5f65ef9e212725a5227f43e6804a3fb691a"
+      },
+      "before_ref": "bd21864e8b94d339af22ef5eccdc5e0b8b4f1c2b",
+      "canonical_node_unchanged": true,
+      "head_changed": false
+    },
+    "B": {
+      "after_base": {
+        "ref": "exh-1109-workflow-gql-native-conflict-142b749e/A",
+        "sha": "bd21864e8b94d339af22ef5eccdc5e0b8b4f1c2b"
+      },
+      "after_ref": "319f2d7818d2648590953beac4f23ed5a21a6a2a",
+      "before_base": {
+        "ref": "exh-1109-workflow-gql-native-conflict-142b749e/A",
+        "sha": "bd21864e8b94d339af22ef5eccdc5e0b8b4f1c2b"
+      },
+      "before_ref": "319f2d7818d2648590953beac4f23ed5a21a6a2a",
+      "canonical_node_unchanged": true,
+      "head_changed": false
+    },
+    "C": {
+      "after_base": {
+        "ref": "exh-1109-workflow-gql-native-conflict-142b749e/B",
+        "sha": "319f2d7818d2648590953beac4f23ed5a21a6a2a"
+      },
+      "after_ref": "4883c11f0bf06a7322fcbe8dd860b594d23db1f4",
+      "before_base": {
+        "ref": "exh-1109-workflow-gql-native-conflict-142b749e/B",
+        "sha": "319f2d7818d2648590953beac4f23ed5a21a6a2a"
+      },
+      "before_ref": "4883c11f0bf06a7322fcbe8dd860b594d23db1f4",
+      "canonical_node_unchanged": true,
+      "head_changed": false
+    }
+  },
+  "commits": {
+    "319f2d7818d2648590953beac4f23ed5a21a6a2a": {
+      "files": [
+        "gql.txt",
+        "gql_A.txt",
+        "gql_B.txt"
+      ],
+      "object_available": true,
+      "parent_patches": {
+        "bd21864e8b94d339af22ef5eccdc5e0b8b4f1c2b": "diff --git a/gql_B.txt b/gql_B.txt\nnew file mode 100644\nindex 0000000..223b783\n--- /dev/null\n+++ b/gql_B.txt\n@@ -0,0 +1 @@\n+B\n"
+      },
+      "parents": [
+        "bd21864e8b94d339af22ef5eccdc5e0b8b4f1c2b"
+      ],
+      "raw_commit": "tree f52e2610db049b5eed7c5363075681c465b58bca\nparent bd21864e8b94d339af22ef5eccdc5e0b8b4f1c2b\nauthor Josh Liebow-Feeser <hello@joshlf.com> 1794234040 -0500\ncommitter Josh Liebow-Feeser <hello@joshlf.com> 1794234040 -0500\n\nAdd isolated layer B\n\nAgent-authored-by: AI agent acting on joshlf's behalf\n",
+      "tree": "f52e2610db049b5eed7c5363075681c465b58bca"
+    },
+    "4883c11f0bf06a7322fcbe8dd860b594d23db1f4": {
+      "files": [
+        "gql.txt",
+        "gql_A.txt",
+        "gql_B.txt",
+        "gql_C.txt"
+      ],
+      "object_available": true,
+      "parent_patches": {
+        "319f2d7818d2648590953beac4f23ed5a21a6a2a": "diff --git a/gql_C.txt b/gql_C.txt\nnew file mode 100644\nindex 0000000..3cc58df\n--- /dev/null\n+++ b/gql_C.txt\n@@ -0,0 +1 @@\n+C\n"
+      },
+      "parents": [
+        "319f2d7818d2648590953beac4f23ed5a21a6a2a"
+      ],
+      "raw_commit": "tree 9c973259df7da6c0e942a9d467414791916c1871\nparent 319f2d7818d2648590953beac4f23ed5a21a6a2a\nauthor Josh Liebow-Feeser <hello@joshlf.com> 1794234040 -0500\ncommitter Josh Liebow-Feeser <hello@joshlf.com> 1794234040 -0500\n\nAdd isolated layer C\n\nAgent-authored-by: AI agent acting on joshlf's behalf\n",
+      "tree": "9c973259df7da6c0e942a9d467414791916c1871"
+    },
+    "4d0060ac8628a2ded4a4e516fce0ad74f9349f4e": {
+      "files": [
+        "gql.txt"
+      ],
+      "object_available": true,
+      "parent_patches": {
+        "a810a5f65ef9e212725a5227f43e6804a3fb691a": "diff --git a/gql.txt b/gql.txt\nindex df967b9..6044510 100644\n--- a/gql.txt\n+++ b/gql.txt\n@@ -1 +1 @@\n-base\n+new trunk conflict\n"
+      },
+      "parents": [
+        "a810a5f65ef9e212725a5227f43e6804a3fb691a"
+      ],
+      "raw_commit": "tree 8845a1698f720ab450e698f047dca1e326cbcf8a\nparent a810a5f65ef9e212725a5227f43e6804a3fb691a\nauthor Josh Liebow-Feeser <hello@joshlf.com> 1794235422 -0500\ncommitter Josh Liebow-Feeser <hello@joshlf.com> 1794235422 -0500\n\nAdvance the selected update branch's parent\n\nAgent-authored-by: AI agent acting on joshlf's behalf\n",
+      "tree": "8845a1698f720ab450e698f047dca1e326cbcf8a"
+    },
+    "bd21864e8b94d339af22ef5eccdc5e0b8b4f1c2b": {
+      "files": [
+        "gql.txt",
+        "gql_A.txt"
+      ],
+      "object_available": true,
+      "parent_patches": {
+        "a810a5f65ef9e212725a5227f43e6804a3fb691a": "diff --git a/gql.txt b/gql.txt\nindex df967b9..dc7c4e2 100644\n--- a/gql.txt\n+++ b/gql.txt\n@@ -1 +1 @@\n-base\n+selected branch\ndiff --git a/gql_A.txt b/gql_A.txt\nnew file mode 100644\nindex 0000000..f70f10e\n--- /dev/null\n+++ b/gql_A.txt\n@@ -0,0 +1 @@\n+A\n"
+      },
+      "parents": [
+        "a810a5f65ef9e212725a5227f43e6804a3fb691a"
+      ],
+      "raw_commit": "tree 405151d6e7ebcfc20ed54e498de02975c8554c68\nparent a810a5f65ef9e212725a5227f43e6804a3fb691a\nauthor Josh Liebow-Feeser <hello@joshlf.com> 1794234040 -0500\ncommitter Josh Liebow-Feeser <hello@joshlf.com> 1794234040 -0500\n\nAdd isolated layer A\n\nAgent-authored-by: AI agent acting on joshlf's behalf\n",
+      "tree": "405151d6e7ebcfc20ed54e498de02975c8554c68"
+    }
+  },
+  "current_refs": {
+    "refs/heads/exh-1109-workflow-gql-native-conflict-142b749e/A": "bd21864e8b94d339af22ef5eccdc5e0b8b4f1c2b",
+    "refs/heads/exh-1109-workflow-gql-native-conflict-142b749e/B": "319f2d7818d2648590953beac4f23ed5a21a6a2a",
+    "refs/heads/exh-1109-workflow-gql-native-conflict-142b749e/C": "4883c11f0bf06a7322fcbe8dd860b594d23db1f4",
+    "refs/heads/exh-1109-workflow-gql-native-conflict-142b749e/trunk": "4d0060ac8628a2ded4a4e516fce0ad74f9349f4e"
+  },
+  "events": {},
+  "limit": "Current and bounded observed state, not future-write exclusion; mutation response fields may lag refs.",
+  "native_group": {
+    "base": {
+      "ref": "exh-1109-workflow-gql-native-conflict-142b749e/trunk"
+    },
+    "created_at": "2026-11-09T14:43:22Z",
+    "id": 3247348,
+    "node_id": "PRS_kwDOVnhIZ84AMYz0",
+    "number": 644,
+    "open": true,
+    "pull_requests": [
+      {
+        "base": {
+          "ref": "exh-1109-workflow-gql-native-conflict-142b749e/trunk",
+          "repo": {
+            "id": 1450723431,
+            "name": "gherrit-native-stack-experiments-2026-11-08",
+            "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08"
+          },
+          "sha": "a810a5f65ef9e212725a5227f43e6804a3fb691a"
+        },
+        "draft": false,
+        "head": {
+          "ref": "exh-1109-workflow-gql-native-conflict-142b749e/A",
+          "repo": {
+            "id": 1450723431,
+            "name": "gherrit-native-stack-experiments-2026-11-08",
+            "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08"
+          },
+          "sha": "bd21864e8b94d339af22ef5eccdc5e0b8b4f1c2b"
+        },
+        "html_url": "https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08/pull/641",
+        "id": 5225716488,
+        "merged_at": null,
+        "node_id": "PR_kwDOVnhIZ88AAAABN3obCA",
+        "number": 641,
+        "state": "open",
+        "title": "exh-1109-workflow-gql-native-conflict-142b749e A",
+        "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/pulls/641",
+        "user": {
+          "avatar_url": "https://avatars.githubusercontent.com/u/1046063?v=4",
+          "events_url": "https://api.github.com/users/joshlf/events{/privacy}",
+          "followers_url": "https://api.github.com/users/joshlf/followers",
+          "following_url": "https://api.github.com/users/joshlf/following{/other_user}",
+          "gists_url": "https://api.github.com/users/joshlf/gists{/gist_id}",
+          "gravatar_id": "",
+          "html_url": "https://github.com/joshlf",
+          "id": 1046063,
+          "login": "joshlf",
+          "node_id": "MDQ6VXNlcjEwNDYwNjM=",
+          "organizations_url": "https://api.github.com/users/joshlf/orgs",
+          "received_events_url": "https://api.github.com/users/joshlf/received_events",
+          "repos_url": "https://api.github.com/users/joshlf/repos",
+          "site_admin": false,
+          "starred_url": "https://api.github.com/users/joshlf/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/joshlf/subscriptions",
+          "type": "User",
+          "url": "https://api.github.com/users/joshlf",
+          "user_view_type": "public"
+        }
+      },
+      {
+        "base": {
+          "ref": "exh-1109-workflow-gql-native-conflict-142b749e/A",
+          "repo": {
+            "id": 1450723431,
+            "name": "gherrit-native-stack-experiments-2026-11-08",
+            "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08"
+          },
+          "sha": "bd21864e8b94d339af22ef5eccdc5e0b8b4f1c2b"
+        },
+        "draft": false,
+        "head": {
+          "ref": "exh-1109-workflow-gql-native-conflict-142b749e/B",
+          "repo": {
+            "id": 1450723431,
+            "name": "gherrit-native-stack-experiments-2026-11-08",
+            "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08"
+          },
+          "sha": "319f2d7818d2648590953beac4f23ed5a21a6a2a"
+        },
+        "html_url": "https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08/pull/642",
+        "id": 5225716854,
+        "merged_at": null,
+        "node_id": "PR_kwDOVnhIZ88AAAABN3ocdg",
+        "number": 642,
+        "state": "open",
+        "title": "exh-1109-workflow-gql-native-conflict-142b749e B",
+        "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/pulls/642",
+        "user": {
+          "avatar_url": "https://avatars.githubusercontent.com/u/1046063?v=4",
+          "events_url": "https://api.github.com/users/joshlf/events{/privacy}",
+          "followers_url": "https://api.github.com/users/joshlf/followers",
+          "following_url": "https://api.github.com/users/joshlf/following{/other_user}",
+          "gists_url": "https://api.github.com/users/joshlf/gists{/gist_id}",
+          "gravatar_id": "",
+          "html_url": "https://github.com/joshlf",
+          "id": 1046063,
+          "login": "joshlf",
+          "node_id": "MDQ6VXNlcjEwNDYwNjM=",
+          "organizations_url": "https://api.github.com/users/joshlf/orgs",
+          "received_events_url": "https://api.github.com/users/joshlf/received_events",
+          "repos_url": "https://api.github.com/users/joshlf/repos",
+          "site_admin": false,
+          "starred_url": "https://api.github.com/users/joshlf/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/joshlf/subscriptions",
+          "type": "User",
+          "url": "https://api.github.com/users/joshlf",
+          "user_view_type": "public"
+        }
+      },
+      {
+        "base": {
+          "ref": "exh-1109-workflow-gql-native-conflict-142b749e/B",
+          "repo": {
+            "id": 1450723431,
+            "name": "gherrit-native-stack-experiments-2026-11-08",
+            "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08"
+          },
+          "sha": "319f2d7818d2648590953beac4f23ed5a21a6a2a"
+        },
+        "draft": false,
+        "head": {
+          "ref": "exh-1109-workflow-gql-native-conflict-142b749e/C",
+          "repo": {
+            "id": 1450723431,
+            "name": "gherrit-native-stack-experiments-2026-11-08",
+            "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08"
+          },
+          "sha": "4883c11f0bf06a7322fcbe8dd860b594d23db1f4"
+        },
+        "html_url": "https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08/pull/643",
+        "id": 5225717131,
+        "merged_at": null,
+        "node_id": "PR_kwDOVnhIZ88AAAABN3odiw",
+        "number": 643,
+        "state": "open",
+        "title": "exh-1109-workflow-gql-native-conflict-142b749e C",
+        "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/pulls/643",
+        "user": {
+          "avatar_url": "https://avatars.githubusercontent.com/u/1046063?v=4",
+          "events_url": "https://api.github.com/users/joshlf/events{/privacy}",
+          "followers_url": "https://api.github.com/users/joshlf/followers",
+          "following_url": "https://api.github.com/users/joshlf/following{/other_user}",
+          "gists_url": "https://api.github.com/users/joshlf/gists{/gist_id}",
+          "gravatar_id": "",
+          "html_url": "https://github.com/joshlf",
+          "id": 1046063,
+          "login": "joshlf",
+          "node_id": "MDQ6VXNlcjEwNDYwNjM=",
+          "organizations_url": "https://api.github.com/users/joshlf/orgs",
+          "received_events_url": "https://api.github.com/users/joshlf/received_events",
+          "repos_url": "https://api.github.com/users/joshlf/repos",
+          "site_admin": false,
+          "starred_url": "https://api.github.com/users/joshlf/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/joshlf/subscriptions",
+          "type": "User",
+          "url": "https://api.github.com/users/joshlf",
+          "user_view_type": "public"
+        }
+      }
+    ],
+    "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/stacks/644"
+  },
+  "observation_files": [
+    "update-after-0.observation.json",
+    "update-after-1.observation.json",
+    "update-after-2.observation.json",
+    "update-after-3.observation.json",
+    "update-after-4.observation.json",
+    "update-basis-sample-0.observation.json"
+  ],
+  "phase": "update-observed-no-retry",
+  "prs": {
+    "A": 641,
+    "B": 642,
+    "C": 643
+  },
+  "selected_head_before": "bd21864e8b94d339af22ef5eccdc5e0b8b4f1c2b",
+  "update_response": {
+    "data": {
+      "data": {
+        "updatePullRequestBranch": null
+      },
+      "errors": [
+        {
+          "locations": [
+            {
+              "column": 3,
+              "line": 2
+            }
+          ],
+          "message": "PullRequest::RebaseConflictError",
+          "path": [
+            "updatePullRequestBranch"
+          ],
+          "type": "UNPROCESSABLE"
+        }
+      ]
+    },
+    "disposition": "response-retained",
+    "ended": "2026-11-09T14:43:47.963625+00:00",
+    "exit": 1,
+    "http": 200,
+    "kind": "update-branch",
+    "method": "POST",
+    "monotonic": 5.222271625,
+    "path": "graphql",
+    "payload": {
+      "query": "mutation WorkflowUpdate($input: UpdatePullRequestBranchInput!) {\n  updatePullRequestBranch(input: $input) {\n    clientMutationId\n    pullRequest { id number headRefOid baseRefName baseRefOid\n      stack { id number size baseRefName } }\n  }\n}",
+      "variables": {
+        "input": {
+          "clientMutationId": "exh-1109-workflow-gql-native-conflict-142b749e-once",
+          "expectedHeadOid": "bd21864e8b94d339af22ef5eccdc5e0b8b4f1c2b",
+          "pullRequestId": "PR_kwDOVnhIZ88AAAABN3obCA",
+          "updateMethod": "REBASE"
+        }
+      }
+    },
+    "started": "2026-11-09T14:43:47.320752+00:00"
+  },
+  "utc": "2026-11-09T14:47:06.486767+00:00"
+}

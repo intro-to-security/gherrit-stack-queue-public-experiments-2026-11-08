@@ -1,0 +1,165 @@
+{
+  "status": "request-only-not-a-grant",
+  "repository": "joshlf/gherrit-native-stack-experiments-2026-11-08",
+  "cases": {
+    "staged-private": {
+      "prefix": "exh-1109-workflow-staged-private-ee93bbfc",
+      "actions": [
+        "setup",
+        "stage-f",
+        "amend-b",
+        "repeat-hosted-control"
+      ],
+      "effects": [
+        "push",
+        "create-pr",
+        "create-stack",
+        "merge"
+      ],
+      "branches": {
+        "A": "exh-1109-workflow-staged-private-ee93bbfc/A",
+        "B": "exh-1109-workflow-staged-private-ee93bbfc/B",
+        "F": "exh-1109-workflow-staged-private-ee93bbfc/F",
+        "trunk": "exh-1109-workflow-staged-private-ee93bbfc/trunk"
+      },
+      "archives": {
+        "A1": "refs/tags/gherrit/exh-1109-workflow-staged-private-ee93bbfc-A/v1",
+        "B1": "refs/tags/gherrit/exh-1109-workflow-staged-private-ee93bbfc-B/v1",
+        "B2": "refs/tags/gherrit/exh-1109-workflow-staged-private-ee93bbfc-B/v2",
+        "F1": "refs/tags/gherrit/exh-1109-workflow-staged-private-ee93bbfc-F/v1"
+      }
+    },
+    "staged-public-f-only": {
+      "prefix": "exh-1109-workflow-staged-public-f-only-d56b864c",
+      "actions": [
+        "setup",
+        "stage-f",
+        "amend-b",
+        "repeat-hosted-control"
+      ],
+      "effects": [
+        "push",
+        "create-pr",
+        "create-stack",
+        "merge"
+      ],
+      "branches": {
+        "A": "exh-1109-workflow-staged-public-f-only-d56b864c/A",
+        "B": "exh-1109-workflow-staged-public-f-only-d56b864c/B",
+        "F": "exh-1109-workflow-staged-public-f-only-d56b864c/F",
+        "source": "exh-1109-workflow-staged-public-f-only-d56b864c/author-source",
+        "sourceF": "exh-1109-workflow-staged-public-f-only-d56b864c/F-only-source",
+        "trunk": "exh-1109-workflow-staged-public-f-only-d56b864c/trunk"
+      },
+      "archives": {
+        "A1": "refs/tags/gherrit/exh-1109-workflow-staged-public-f-only-d56b864c-A/v1",
+        "B1": "refs/tags/gherrit/exh-1109-workflow-staged-public-f-only-d56b864c-B/v1",
+        "B2": "refs/tags/gherrit/exh-1109-workflow-staged-public-f-only-d56b864c-B/v2",
+        "F1": "refs/tags/gherrit/exh-1109-workflow-staged-public-f-only-d56b864c-F/v1"
+      }
+    },
+    "gql-standalone": {
+      "prefix": "exh-1109-workflow-gql-standalone-971327c2",
+      "actions": [
+        "setup",
+        "gql-probe"
+      ],
+      "effects": [
+        "push",
+        "create-pr",
+        "update-branch"
+      ],
+      "branches": {
+        "A": "exh-1109-workflow-gql-standalone-971327c2/A",
+        "trunk": "exh-1109-workflow-gql-standalone-971327c2/trunk"
+      },
+      "archives": {}
+    },
+    "gql-native-wrong": {
+      "prefix": "exh-1109-workflow-gql-native-wrong-1784bd52",
+      "actions": [
+        "setup",
+        "gql-probe"
+      ],
+      "effects": [
+        "push",
+        "create-pr",
+        "update-branch",
+        "create-stack"
+      ],
+      "branches": {
+        "A": "exh-1109-workflow-gql-native-wrong-1784bd52/A",
+        "B": "exh-1109-workflow-gql-native-wrong-1784bd52/B",
+        "C": "exh-1109-workflow-gql-native-wrong-1784bd52/C",
+        "trunk": "exh-1109-workflow-gql-native-wrong-1784bd52/trunk"
+      },
+      "archives": {}
+    },
+    "gql-native-lower": {
+      "prefix": "exh-1109-workflow-gql-native-lower-71519433",
+      "actions": [
+        "setup",
+        "gql-probe"
+      ],
+      "effects": [
+        "push",
+        "create-pr",
+        "update-branch",
+        "create-stack"
+      ],
+      "branches": {
+        "A": "exh-1109-workflow-gql-native-lower-71519433/A",
+        "B": "exh-1109-workflow-gql-native-lower-71519433/B",
+        "C": "exh-1109-workflow-gql-native-lower-71519433/C",
+        "trunk": "exh-1109-workflow-gql-native-lower-71519433/trunk"
+      },
+      "archives": {}
+    },
+    "gql-native-upper": {
+      "prefix": "exh-1109-workflow-gql-native-upper-653cda3f",
+      "actions": [
+        "setup",
+        "gql-probe"
+      ],
+      "effects": [
+        "push",
+        "create-pr",
+        "update-branch",
+        "create-stack"
+      ],
+      "branches": {
+        "A": "exh-1109-workflow-gql-native-upper-653cda3f/A",
+        "B": "exh-1109-workflow-gql-native-upper-653cda3f/B",
+        "C": "exh-1109-workflow-gql-native-upper-653cda3f/C",
+        "trunk": "exh-1109-workflow-gql-native-upper-653cda3f/trunk"
+      },
+      "archives": {}
+    },
+    "gql-native-conflict": {
+      "prefix": "exh-1109-workflow-gql-native-conflict-142b749e",
+      "actions": [
+        "setup",
+        "gql-probe"
+      ],
+      "effects": [
+        "push",
+        "create-pr",
+        "update-branch",
+        "create-stack"
+      ],
+      "branches": {
+        "A": "exh-1109-workflow-gql-native-conflict-142b749e/A",
+        "B": "exh-1109-workflow-gql-native-conflict-142b749e/B",
+        "C": "exh-1109-workflow-gql-native-conflict-142b749e/C",
+        "trunk": "exh-1109-workflow-gql-native-conflict-142b749e/trunk"
+      },
+      "archives": {}
+    }
+  },
+  "harness_sha256": {
+    "core.py": "a98242dabb752a89f8da47814ea62313d1d64871afe50042f930875445e4f453",
+    "effects.py": "20d8a34e0d04e93080f70c5bc3499fe5835cb2d45feff4c5bb95a3fed6418cc9",
+    "run.py": "996f4073feb7460b004f190ac95228242ad8ab0d8e8537a80fc0cb9f69d2abc0"
+  },
+  "limits": "No hosted writes dispatched. repeat-hosted-control is explicitly ordinary Git producer evidence, not native rebase evidence."
+}

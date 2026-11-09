@@ -1,0 +1,19 @@
+{
+  "time": {
+    "utc": "2026-11-09T16:40:37.696391+00:00",
+    "monotonic_ns": 5576201625
+  },
+  "repo": "joshlf/gherrit-native-stack-experiments-2026-11-08",
+  "prefix": "exh-1109-causal-rb-app-001",
+  "argv": [
+    "gh",
+    "api",
+    "--method",
+    "POST",
+    "repos/joshlf/gherrit-native-stack-experiments-2026-11-08/stacks",
+    "--input",
+    "-"
+  ],
+  "input": "{\"pull_requests\": [654, 655]}",
+  "outcome": "may be dispatched"
+}

@@ -1,0 +1,105 @@
+{
+  "checks": [
+    {
+      "check": "exact_four_ref_allowlist",
+      "passed": true
+    },
+    {
+      "check": "foreign_ref_main",
+      "passed": true
+    },
+    {
+      "check": "foreign_ref_exh-1109-causal-rb-capability/A",
+      "passed": true
+    },
+    {
+      "check": "foreign_ref_exh-1109-causal-rb-app-001/C",
+      "passed": true
+    },
+    {
+      "check": "foreign_ref_exh-1109-causal-rb-app-001/A:main",
+      "passed": true
+    },
+    {
+      "check": "matching_fetch_and_push_URLs",
+      "passed": true
+    },
+    {
+      "check": "different_push_URL_refuses",
+      "passed": true
+    },
+    {
+      "check": "exact_in_memory_root_grant_binding",
+      "passed": true
+    },
+    {
+      "check": "grant_rejects_changed_coordinator",
+      "passed": true
+    },
+    {
+      "check": "grant_rejects_changed_phase",
+      "passed": true
+    },
+    {
+      "check": "grant_rejects_changed_repository",
+      "passed": true
+    },
+    {
+      "check": "grant_rejects_changed_sources",
+      "passed": true
+    },
+    {
+      "check": "grant_rejects_changed_frozen_record_sha256",
+      "passed": true
+    },
+    {
+      "check": "grant_rejects_changed_effects",
+      "passed": true
+    },
+    {
+      "check": "exact_two_member_payload",
+      "passed": true
+    },
+    {
+      "check": "rerun_refuses",
+      "passed": true
+    },
+    {
+      "check": "frozen_old_group_refuses",
+      "passed": true
+    },
+    {
+      "check": "wrong_PUT_route_/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/stacks/900/rebase",
+      "passed": true
+    },
+    {
+      "check": "wrong_PUT_route_/repositories/1450723431/pulls/900",
+      "passed": true
+    },
+    {
+      "check": "wrong_PUT_route_/repositories/999/stacks/900/rebase",
+      "passed": true
+    },
+    {
+      "check": "exact_token_and_header_redaction",
+      "passed": true
+    },
+    {
+      "check": "scoped_write_permissions_in_runner_and_context",
+      "passed": true
+    },
+    {
+      "check": "Ruby_YAML_exact_event_scope_write_permissions_single_job_pinned_actions",
+      "passed": true
+    }
+  ],
+  "effects": "Compiled source and pure/in-memory controls only. Fake grant was never written; no Git, HTTP, fixture construction, workflow, container or hosted effect ran. Earlier mocked driver checks remain frozen with prior prep; they are not relabelled as current-source results.",
+  "source_hashes": {
+    "control/rootlab.py": "ae1ae63d5ee8370cbca11711f5d5e76a97669881ddf8ef8911493666393d128d",
+    "fixture.template.json": "bdd0178da4fa4ed4ab83d70dd71ff7592a94c7943f75e5778b9276ec3a639772",
+    "fixture_runner.py": "07f5452aaf54ac3462da8c796705eed8c923505276dd2cb78572b253b519e071",
+    "probe.py": "476029710ad48039c36e423fd6ff6c6219bd591edb96a6df82934eaec1f1e12b",
+    "workflow.template.yml": "2d7155d36cd3960bebc6915dcbd64fd0c9f94aa10a638efda24e0971acbba7a0"
+  },
+  "status": "current_source_and_pure_controls_only"
+}

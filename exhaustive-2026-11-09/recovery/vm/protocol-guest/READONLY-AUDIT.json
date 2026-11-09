@@ -1,0 +1,7 @@
+{
+  "python_chroot_imports": "passed: fcntl,subprocess,signal,hashlib,json,pathlib,shutil,traceback",
+  "Git_chroot_version": "failed before version output because staged /dev/null absent. Actual guest init mounts devtmpfs before interpreter/fixture; no device was added and frozen initramfs unchanged. First actual reviewed trial will establish Git startup.",
+  "container_Git_version": "2.34.1",
+  "scope": "Build/import audit only; no fixture, guest trial or provider mutation performed",
+  "utc": "2026-11-09T15:39:06.619095+00:00"
+}

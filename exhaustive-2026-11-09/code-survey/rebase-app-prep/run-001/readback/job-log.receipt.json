@@ -1,0 +1,17 @@
+{
+  "argv": [
+    "gh",
+    "run",
+    "view",
+    "42657475024",
+    "--repo",
+    "joshlf/gherrit-native-stack-experiments-2026-11-08",
+    "--log"
+  ],
+  "started_utc": "2026-11-09T16:43:31.023026+00:00",
+  "ended_utc": "2026-11-09T16:43:32.476902+00:00",
+  "returncode": 0,
+  "stdout_file": "job-log.txt",
+  "stdout_sha256": "5721bf15846e8a09b48536abe0a1901ab1521ad715487837131e927c6bc39dcd",
+  "stderr": ""
+}

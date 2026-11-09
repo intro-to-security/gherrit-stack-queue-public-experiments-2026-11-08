@@ -1,0 +1,100 @@
+{
+  "A-v1": {
+    "base": "7dab21a9a9fe31304280abd4cf9cb55df0caa78b",
+    "parents": [
+      "7dab21a9a9fe31304280abd4cf9cb55df0caa78b"
+    ],
+    "patch": "diff --git a/a.txt b/a.txt\nindex 573541a..d00491f 100644\n--- a/a.txt\n+++ b/a.txt\n@@ -1 +1 @@\n-0\n+1\n",
+    "paths": [
+      "a.txt"
+    ],
+    "tip": "d73f1543202618e1eb359fb8f15751e1092ccc7f",
+    "tip_tree": "d0ab7a573e26395d9da3a74d977468b80bfa2fb2"
+  },
+  "A-v2": {
+    "base": "7dab21a9a9fe31304280abd4cf9cb55df0caa78b",
+    "parents": [
+      "d73f1543202618e1eb359fb8f15751e1092ccc7f"
+    ],
+    "patch": "diff --git a/a.txt b/a.txt\nindex 573541a..d00491f 100644\n--- a/a.txt\n+++ b/a.txt\n@@ -1 +1 @@\n-0\n+1\ndiff --git a/c.txt b/c.txt\nindex 573541a..d00491f 100644\n--- a/c.txt\n+++ b/c.txt\n@@ -1 +1 @@\n-0\n+1\n",
+    "paths": [
+      "a.txt",
+      "c.txt"
+    ],
+    "tip": "a8a39b61ad98ac6987183198ea308400ca507ebc",
+    "tip_tree": "d33964effd44f44e888e107d8c4e3a7b220609bf"
+  },
+  "B-local-expected": {
+    "base": "a8a39b61ad98ac6987183198ea308400ca507ebc",
+    "parents": [
+      "a8a39b61ad98ac6987183198ea308400ca507ebc"
+    ],
+    "patch": "diff --git a/b.txt b/b.txt\nindex 573541a..d00491f 100644\n--- a/b.txt\n+++ b/b.txt\n@@ -1 +1 @@\n-0\n+1\n",
+    "paths": [
+      "b.txt"
+    ],
+    "tip": "82e27b1a1c501fdd1921224b0655529970d64e3a",
+    "tip_tree": "ae9cd4efa5e78789c8080481f3c5a835bc0d7770"
+  },
+  "B-v1": {
+    "base": "d73f1543202618e1eb359fb8f15751e1092ccc7f",
+    "parents": [
+      "d73f1543202618e1eb359fb8f15751e1092ccc7f"
+    ],
+    "patch": "diff --git a/b.txt b/b.txt\nindex 573541a..d00491f 100644\n--- a/b.txt\n+++ b/b.txt\n@@ -1 +1 @@\n-0\n+1\n",
+    "paths": [
+      "b.txt"
+    ],
+    "tip": "74cd012a960d3525e00727be30dbfd6fc0b170b5",
+    "tip_tree": "54b9edbbe52ba9f2261d14504c7625cb7e8c2ccd"
+  },
+  "C-v1": {
+    "base": "74cd012a960d3525e00727be30dbfd6fc0b170b5",
+    "parents": [
+      "74cd012a960d3525e00727be30dbfd6fc0b170b5"
+    ],
+    "patch": "diff --git a/c.txt b/c.txt\nindex 573541a..0cfbf08 100644\n--- a/c.txt\n+++ b/c.txt\n@@ -1 +1 @@\n-0\n+2\n",
+    "paths": [
+      "c.txt"
+    ],
+    "tip": "dca811f5d210b004f6229ea1134f3fb49f1cba44",
+    "tip_tree": "f47fe2c97275752499b21e12ea6cb85eeaae9287"
+  },
+  "all_initial_source_and_archive_refs_retained": true,
+  "canonical_membership_heads": {
+    "id": "PRS_kwDOVnhIZ84AMako",
+    "members": [
+      [
+        657,
+        "PR_kwDOVnhIZ88AAAABN5WRLw"
+      ],
+      [
+        658,
+        "PR_kwDOVnhIZ88AAAABN5WSkQ"
+      ],
+      [
+        659,
+        "PR_kwDOVnhIZ88AAAABN5WURw"
+      ]
+    ],
+    "number": 660
+  },
+  "hosted_B_rebase": "not requested; no hosted B result or checkpoint",
+  "hosted_C_rebase": "not requested; no hosted C rejection",
+  "input_authorship": {
+    "A0": 1,
+    "A1": 1,
+    "B-expected": 1,
+    "B0": 1,
+    "C0": 1,
+    "trunk": 1
+  },
+  "local_B_patch_equal": true,
+  "local_C_conflict": true,
+  "local_Git_fsck": {
+    "exit": 0,
+    "hooks": "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/workflow/partial-prep/fixture/empty-hooks",
+    "stderr": "",
+    "stdout": ""
+  }
+}

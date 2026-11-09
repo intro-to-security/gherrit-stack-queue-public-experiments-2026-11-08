@@ -1,0 +1,112 @@
+{
+  "count": 17,
+  "discrepancies": [],
+  "fetch_stderr": "From https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08\n * [new branch]      exh-1109-target-profile001-f-A -> refs/observed/heads/exh-1109-target-profile001-f-A\n * [new branch]      exh-1109-target-profile001-f-B -> refs/observed/heads/exh-1109-target-profile001-f-B\n * [new branch]      exh-1109-target-profile001-f-trunk -> refs/observed/heads/exh-1109-target-profile001-f-trunk\n * [new branch]      exh-1109-target-profile001-m-A -> refs/observed/heads/exh-1109-target-profile001-m-A\n * [new branch]      exh-1109-target-profile001-m-B -> refs/observed/heads/exh-1109-target-profile001-m-B\n * [new branch]      exh-1109-target-profile001-m-trunk -> refs/observed/heads/exh-1109-target-profile001-m-trunk\n * [new branch]      exh-1109-target-profile001-p-A -> refs/observed/heads/exh-1109-target-profile001-p-A\n * [new branch]      exh-1109-target-profile001-p-trunk -> refs/observed/heads/exh-1109-target-profile001-p-trunk\n * [new branch]      exh-1109-target-profile001-r-A -> refs/observed/heads/exh-1109-target-profile001-r-A\n * [new branch]      exh-1109-target-profile001-r-B -> refs/observed/heads/exh-1109-target-profile001-r-B\n * [new branch]      exh-1109-target-profile001-r-trunk -> refs/observed/heads/exh-1109-target-profile001-r-trunk\n * [new branch]      exh-1109-target-profile001-u-A -> refs/observed/heads/exh-1109-target-profile001-u-A\n * [new branch]      exh-1109-target-profile001-u-B -> refs/observed/heads/exh-1109-target-profile001-u-B\n * [new branch]      exh-1109-target-profile001-u-trunk -> refs/observed/heads/exh-1109-target-profile001-u-trunk\n * [new branch]      exh-1109-target-profile002-e-A -> refs/observed/heads/exh-1109-target-profile002-e-A\n * [new branch]      exh-1109-target-profile002-e-B -> refs/observed/heads/exh-1109-target-profile002-e-B\n * [new branch]      exh-1109-target-profile002-e-trunk -> refs/observed/heads/exh-1109-target-profile002-e-trunk\n + 97c7e42...b833ee6 exh-1109-target-profile001-u-B -> origin/exh-1109-target-profile001-u-B  (forced update)\n   a6cec0c..6b9344b  exh-1109-target-profile001-u-trunk -> origin/exh-1109-target-profile001-u-trunk\n",
+  "fetch_stdout": "",
+  "read_only_remote": true,
+  "refs": {
+    "refs/heads/exh-1109-target-profile001-f-A": {
+      "commit": "a2663fd35d9bf584fd9d2f125a2e36c11ec265e3 89d3f22beb686160f92f84e892657bfb8279ca0a 1340479a47dc983c0000a8287ed7fa6bccff1bd4",
+      "equal": true,
+      "fetched": "a2663fd35d9bf584fd9d2f125a2e36c11ec265e3",
+      "ls_remote": "a2663fd35d9bf584fd9d2f125a2e36c11ec265e3"
+    },
+    "refs/heads/exh-1109-target-profile001-f-B": {
+      "commit": "e894b4244f6e7bd6faf02e1868470e6f4feffe87 c5d24bd5c3f743ed80fa138e4c49feb73ca3edcd a2663fd35d9bf584fd9d2f125a2e36c11ec265e3",
+      "equal": true,
+      "fetched": "e894b4244f6e7bd6faf02e1868470e6f4feffe87",
+      "ls_remote": "e894b4244f6e7bd6faf02e1868470e6f4feffe87"
+    },
+    "refs/heads/exh-1109-target-profile001-f-trunk": {
+      "commit": "1340479a47dc983c0000a8287ed7fa6bccff1bd4 efda636365203c6e6ab51e65ec8cbe2cd883dbef",
+      "equal": true,
+      "fetched": "1340479a47dc983c0000a8287ed7fa6bccff1bd4",
+      "ls_remote": "1340479a47dc983c0000a8287ed7fa6bccff1bd4"
+    },
+    "refs/heads/exh-1109-target-profile001-m-A": {
+      "commit": "29eaa84494a03e47a082fa94328831c8592cff36 2f4c9c987a3538016d055ce3204014d2a33a16b0 b376a928ebac3252e8175b5706336243cfe1e1c0",
+      "equal": true,
+      "fetched": "29eaa84494a03e47a082fa94328831c8592cff36",
+      "ls_remote": "29eaa84494a03e47a082fa94328831c8592cff36"
+    },
+    "refs/heads/exh-1109-target-profile001-m-B": {
+      "commit": "69a7182af37f8676f6d583b2e182c2f2e1aca89b 85f6cd9fb3b12c4bde48a329674ffb30011b956f 29eaa84494a03e47a082fa94328831c8592cff36",
+      "equal": true,
+      "fetched": "69a7182af37f8676f6d583b2e182c2f2e1aca89b",
+      "ls_remote": "69a7182af37f8676f6d583b2e182c2f2e1aca89b"
+    },
+    "refs/heads/exh-1109-target-profile001-m-trunk": {
+      "commit": "b376a928ebac3252e8175b5706336243cfe1e1c0 76a560275aa2b039ed2905b4eac273aaf667b6b9",
+      "equal": true,
+      "fetched": "b376a928ebac3252e8175b5706336243cfe1e1c0",
+      "ls_remote": "b376a928ebac3252e8175b5706336243cfe1e1c0"
+    },
+    "refs/heads/exh-1109-target-profile001-p-A": {
+      "commit": "3e44b08a3f07727a57bcf1fc9392ff560f373e49 d88ee7fcfbc8464a447885be0fe616c3b8a125b7 7380fe62999828df9a624fc1f04877b04d2eaa3a",
+      "equal": true,
+      "fetched": "3e44b08a3f07727a57bcf1fc9392ff560f373e49",
+      "ls_remote": "3e44b08a3f07727a57bcf1fc9392ff560f373e49"
+    },
+    "refs/heads/exh-1109-target-profile001-p-trunk": {
+      "commit": "7380fe62999828df9a624fc1f04877b04d2eaa3a 8c973dea8d644e1b1e2c6309db88f0a634a2bbc9",
+      "equal": true,
+      "fetched": "7380fe62999828df9a624fc1f04877b04d2eaa3a",
+      "ls_remote": "7380fe62999828df9a624fc1f04877b04d2eaa3a"
+    },
+    "refs/heads/exh-1109-target-profile001-r-A": {
+      "commit": "1a512bf73e720a21520a0d95ae66310369ab2964 e45a29ac4d36e442159f2abfba39b3588a08cfea a181f8b724143912d490e1a6bc64e519a68b2079",
+      "equal": true,
+      "fetched": "1a512bf73e720a21520a0d95ae66310369ab2964",
+      "ls_remote": "1a512bf73e720a21520a0d95ae66310369ab2964"
+    },
+    "refs/heads/exh-1109-target-profile001-r-B": {
+      "commit": "91a25f092d6ec37c4dc8f90465f29db104446bd0 85671f12136f43f265e92dde368752e4ac0a50c7 1a512bf73e720a21520a0d95ae66310369ab2964",
+      "equal": true,
+      "fetched": "91a25f092d6ec37c4dc8f90465f29db104446bd0",
+      "ls_remote": "91a25f092d6ec37c4dc8f90465f29db104446bd0"
+    },
+    "refs/heads/exh-1109-target-profile001-r-trunk": {
+      "commit": "a181f8b724143912d490e1a6bc64e519a68b2079 2f78563debc43538e5f1668bb3ddb02b2d15012f",
+      "equal": true,
+      "fetched": "a181f8b724143912d490e1a6bc64e519a68b2079",
+      "ls_remote": "a181f8b724143912d490e1a6bc64e519a68b2079"
+    },
+    "refs/heads/exh-1109-target-profile001-u-A": {
+      "commit": "434e72bf44e3afd53c376180187eb8930ac8cc5d 181ae1c238976d9785c51167571ff3f73029949a a6cec0c94f743be03509ce4abe6ec6391f9cd083",
+      "equal": true,
+      "fetched": "434e72bf44e3afd53c376180187eb8930ac8cc5d",
+      "ls_remote": "434e72bf44e3afd53c376180187eb8930ac8cc5d"
+    },
+    "refs/heads/exh-1109-target-profile001-u-B": {
+      "commit": "b833ee61b75ad99d7c4015bd61c7149d302d5d43 0ee836258681a9a7888df214e17debd77320460a 6b9344bcb9dcb97d942e6f2c995e00f42d4c1f66",
+      "equal": true,
+      "fetched": "b833ee61b75ad99d7c4015bd61c7149d302d5d43",
+      "ls_remote": "b833ee61b75ad99d7c4015bd61c7149d302d5d43"
+    },
+    "refs/heads/exh-1109-target-profile001-u-trunk": {
+      "commit": "6b9344bcb9dcb97d942e6f2c995e00f42d4c1f66 181ae1c238976d9785c51167571ff3f73029949a a6cec0c94f743be03509ce4abe6ec6391f9cd083",
+      "equal": true,
+      "fetched": "6b9344bcb9dcb97d942e6f2c995e00f42d4c1f66",
+      "ls_remote": "6b9344bcb9dcb97d942e6f2c995e00f42d4c1f66"
+    },
+    "refs/heads/exh-1109-target-profile002-e-A": {
+      "commit": "7af85df24e351963cfe662b472407dd466779033 9b8c19e8c71d0075613e87a30ace1418713a1856 6366f306d3e2cecfd517a9a04c0a845ba31394cb",
+      "equal": true,
+      "fetched": "7af85df24e351963cfe662b472407dd466779033",
+      "ls_remote": "7af85df24e351963cfe662b472407dd466779033"
+    },
+    "refs/heads/exh-1109-target-profile002-e-B": {
+      "commit": "159af50ede9b84f89071ac28f293305ce94b8bc9 56363d9fc3916ebca164fcfd71af7cb42855306b 7af85df24e351963cfe662b472407dd466779033",
+      "equal": true,
+      "fetched": "159af50ede9b84f89071ac28f293305ce94b8bc9",
+      "ls_remote": "159af50ede9b84f89071ac28f293305ce94b8bc9"
+    },
+    "refs/heads/exh-1109-target-profile002-e-trunk": {
+      "commit": "6366f306d3e2cecfd517a9a04c0a845ba31394cb 8ce36dfcdda11c25ff03e92f0d31c5197da7a1c6",
+      "equal": true,
+      "fetched": "6366f306d3e2cecfd517a9a04c0a845ba31394cb",
+      "ls_remote": "6366f306d3e2cecfd517a9a04c0a845ba31394cb"
+    }
+  },
+  "time": "2026-11-09T14:47:32.853851+00:00"
+}

@@ -1,0 +1,24 @@
+{
+  "app_actual_PUT_status": 404,
+  "app_artifact_digest_and_all_ten_extracted_JSON_members_verified": true,
+  "app_run": 42657475024,
+  "limits": "Fresh scoped reads and independent artifact byte checks; no native writes, replay, global snapshot or future-write guarantee.",
+  "partial_PRs": {
+    "A": 657,
+    "B": 658,
+    "C": 659
+  },
+  "partial_fresh_native_vector_and_canonical_membership_verified": true,
+  "partial_group": 660,
+  "refs": {
+    "refs/heads/exh-1109-workflow-gql-partial-001/A": "a8a39b61ad98ac6987183198ea308400ca507ebc",
+    "refs/heads/exh-1109-workflow-gql-partial-001/B": "57a275d012a64f38fdce84fa88d46d8e9e43a20a",
+    "refs/heads/exh-1109-workflow-gql-partial-001/C": "dca811f5d210b004f6229ea1134f3fb49f1cba44",
+    "refs/heads/exh-1109-workflow-gql-partial-001/author-source": "dca811f5d210b004f6229ea1134f3fb49f1cba44",
+    "refs/heads/exh-1109-workflow-gql-partial-001/trunk": "7dab21a9a9fe31304280abd4cf9cb55df0caa78b",
+    "refs/tags/gherrit/exh-1109-workflow-gql-partial-001-A/v1": "d73f1543202618e1eb359fb8f15751e1092ccc7f",
+    "refs/tags/gherrit/exh-1109-workflow-gql-partial-001-A/v2": "a8a39b61ad98ac6987183198ea308400ca507ebc",
+    "refs/tags/gherrit/exh-1109-workflow-gql-partial-001-B/v1": "74cd012a960d3525e00727be30dbfd6fc0b170b5",
+    "refs/tags/gherrit/exh-1109-workflow-gql-partial-001-C/v1": "dca811f5d210b004f6229ea1134f3fb49f1cba44"
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "refs": {
+    "kind": "git-read",
+    "args": [
+      "ls-remote",
+      "origin",
+      "refs/heads/exh-1109-causal-post-squash-1/*"
+    ],
+    "start": {
+      "utc": "2026-11-09T13:49:59.765224+00:00",
+      "monotonic": 8.9676365
+    },
+    "end": {
+      "utc": "2026-11-09T13:49:59.974395+00:00",
+      "monotonic": 9.176851166
+    },
+    "exit": 0,
+    "stdout": "bf6901709a632df1c4e052a7fdb6c593303b357a\trefs/heads/exh-1109-causal-post-squash-1/A\n6e63736ecb363ee6e0a9605615445869df531c2b\trefs/heads/exh-1109-causal-post-squash-1/B\n49dfa12d9329d3179caab15314dff23965c5b138\trefs/heads/exh-1109-causal-post-squash-1/trunk\n",
+    "stderr": "",
+    "refs": {
+      "refs/heads/exh-1109-causal-post-squash-1/A": "bf6901709a632df1c4e052a7fdb6c593303b357a",
+      "refs/heads/exh-1109-causal-post-squash-1/B": "6e63736ecb363ee6e0a9605615445869df531c2b",
+      "refs/heads/exh-1109-causal-post-squash-1/trunk": "49dfa12d9329d3179caab15314dff23965c5b138"
+    },
+    "object_fetch": {
+      "kind": "git-read",
+      "args": [
+        "fetch",
+        "--no-tags",
+        "origin",
+        "+refs/heads/exh-1109-causal-post-squash-1/*:refs/observed/post-squash-1/*"
+      ],
+      "start": {
+        "utc": "2026-11-09T13:49:59.976088+00:00",
+        "monotonic": 9.178496625
+      },
+      "end": {
+        "utc": "2026-11-09T13:50:00.164475+00:00",
+        "monotonic": 9.366884458
+      },
+      "exit": 0,
+      "stdout": "",
+      "stderr": "From https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08\n * [new branch]      exh-1109-causal-post-squash-1/A -> refs/observed/post-squash-1/A\n * [new branch]      exh-1109-causal-post-squash-1/B -> refs/observed/post-squash-1/B\n * [new branch]      exh-1109-causal-post-squash-1/trunk -> refs/observed/post-squash-1/trunk\n"
+    },
+    "objects": {
+      "bf6901709a632df1c4e052a7fdb6c593303b357a": {
+        "oid": "bf6901709a632df1c4e052a7fdb6c593303b357a",
+        "tree": "cb1fe5bf7352ba9eb0a80d17a6a1eda849639c68",
+        "parents": [
+          "49dfa12d9329d3179caab15314dff23965c5b138"
+        ]
+      },
+      "49dfa12d9329d3179caab15314dff23965c5b138": {
+        "oid": "49dfa12d9329d3179caab15314dff23965c5b138",
+        "tree": "4bb5ff69480839d4cf6ec9097796205fe1b5600e",
+        "parents": [
+          "3be99721cf51a146b9c47f46f0a2713f0edb2ec6"
+        ]
+      },
+      "6e63736ecb363ee6e0a9605615445869df531c2b": {
+        "oid": "6e63736ecb363ee6e0a9605615445869df531c2b",
+        "tree": "999cce9e9a6a7caa1010559fe0aea6ad2f438b33",
+        "parents": [
+          "bf6901709a632df1c4e052a7fdb6c593303b357a"
+        ]
+      }
+    }
+  },
+  "graphql": {
+    "kind": "http",
+    "method": "POST",
+    "path": "graphql",
+    "payload": {
+      "query": "query { repository(owner:\"joshlf\",name:\"gherrit-native-stack-experiments-2026-11-08\"){A:pullRequest(number:566){ number id state merged mergedAt headRefName headRefOid baseRefName baseRefOid timelineItems(last:100,itemTypes:[HEAD_REF_FORCE_PUSHED_EVENT,BASE_REF_CHANGED_EVENT,AUTOMATIC_BASE_CHANGE_SUCCEEDED_EVENT,AUTOMATIC_BASE_CHANGE_FAILED_EVENT,MERGED_EVENT]){pageInfo{hasPreviousPage} nodes{__typename\n... on HeadRefForcePushedEvent { id createdAt actor { login __typename } beforeCommit { oid } afterCommit { oid } ref { name target { oid } } }\n... on BaseRefChangedEvent { id createdAt actor { login __typename } previousRefName currentRefName }\n... on AutomaticBaseChangeSucceededEvent { id createdAt actor { login __typename } oldBase newBase }\n... on AutomaticBaseChangeFailedEvent { id createdAt actor { login __typename } oldBase newBase }\n... on MergedEvent { id createdAt actor { login __typename } commit { oid } mergeRefName }\n}}} B:pullRequest(number:567){ number id state merged mergedAt headRefName headRefOid baseRefName baseRefOid timelineItems(last:100,itemTypes:[HEAD_REF_FORCE_PUSHED_EVENT,BASE_REF_CHANGED_EVENT,AUTOMATIC_BASE_CHANGE_SUCCEEDED_EVENT,AUTOMATIC_BASE_CHANGE_FAILED_EVENT,MERGED_EVENT]){pageInfo{hasPreviousPage} nodes{__typename\n... on HeadRefForcePushedEvent { id createdAt actor { login __typename } beforeCommit { oid } afterCommit { oid } ref { name target { oid } } }\n... on BaseRefChangedEvent { id createdAt actor { login __typename } previousRefName currentRefName }\n... on AutomaticBaseChangeSucceededEvent { id createdAt actor { login __typename } oldBase newBase }\n... on AutomaticBaseChangeFailedEvent { id createdAt actor { login __typename } oldBase newBase }\n... on MergedEvent { id createdAt actor { login __typename } commit { oid } mergeRefName }\n}}}}}"
+    },
+    "start": {
+      "utc": "2026-11-09T13:49:59.765136+00:00",
+      "monotonic": 8.967550916
+    },
+    "end": {
+      "utc": "2026-11-09T13:50:00.159712+00:00",
+      "monotonic": 9.362123583
+    },
+    "exit": 0,
+    "http": 200,
+    "data": {
+      "data": {
+        "repository": {
+          "A": {
+            "number": 566,
+            "id": "PR_kwDOVnhIZ88AAAABN24xmA",
+            "state": "OPEN",
+            "merged": false,
+            "mergedAt": null,
+            "headRefName": "exh-1109-causal-post-squash-1/A",
+            "headRefOid": "bf6901709a632df1c4e052a7fdb6c593303b357a",
+            "baseRefName": "exh-1109-causal-post-squash-1/trunk",
+            "baseRefOid": "49dfa12d9329d3179caab15314dff23965c5b138",
+            "timelineItems": {
+              "pageInfo": {
+                "hasPreviousPage": false
+              },
+              "nodes": []
+            }
+          },
+          "B": {
+            "number": 567,
+            "id": "PR_kwDOVnhIZ88AAAABN240pQ",
+            "state": "OPEN",
+            "merged": false,
+            "mergedAt": null,
+            "headRefName": "exh-1109-causal-post-squash-1/B",
+            "headRefOid": "6e63736ecb363ee6e0a9605615445869df531c2b",
+            "baseRefName": "exh-1109-causal-post-squash-1/A",
+            "baseRefOid": "bf6901709a632df1c4e052a7fdb6c593303b357a",
+            "timelineItems": {
+              "pageInfo": {
+                "hasPreviousPage": false
+              },
+              "nodes": []
+            }
+          }
+        }
+      }
+    },
+    "disposition": "response-retained"
+  }
+}

@@ -1,0 +1,181 @@
+{
+  "scope": "Fresh experimental local protocol and injected effects, not production or provider guarantees",
+  "run": "runs/1794232632320218000",
+  "assertions": {
+    "passed": 188,
+    "total": 188
+  },
+  "cases": [
+    {
+      "id": "R01",
+      "experiment_status": "passed",
+      "disposition": "performed",
+      "assertions": 4,
+      "evidence": "runs/1794232632320218000/R01.json",
+      "interpretation": "ordinary-import-control-rejected"
+    },
+    {
+      "id": "R02",
+      "experiment_status": "passed",
+      "disposition": "performed",
+      "assertions": 5,
+      "evidence": "runs/1794232632320218000/R02.json",
+      "interpretation": "conflict-explicit-and-blind-restoration-control-rejected"
+    },
+    {
+      "id": "R03",
+      "experiment_status": "passed",
+      "disposition": "performed",
+      "assertions": 10,
+      "evidence": "runs/1794232632320218000/R03.json",
+      "interpretation": "candidate-v1-failed-reset; revised-guard-and-explicit-resolution-exercised"
+    },
+    {
+      "id": "R04",
+      "experiment_status": "passed",
+      "disposition": "performed",
+      "assertions": 5,
+      "evidence": "runs/1794232632320218000/R04.json",
+      "interpretation": "bounded-local-behavior-exercised"
+    },
+    {
+      "id": "R05",
+      "experiment_status": "passed",
+      "disposition": "performed",
+      "assertions": 4,
+      "evidence": "runs/1794232632320218000/R05.json",
+      "interpretation": "finite-observation-and-ABA-limit-exposed"
+    },
+    {
+      "id": "R06",
+      "experiment_status": "passed",
+      "disposition": "performed",
+      "assertions": 3,
+      "evidence": "runs/1794232632320218000/R06.json",
+      "interpretation": "bounded-policy-model-only"
+    },
+    {
+      "id": "R07",
+      "experiment_status": "passed",
+      "disposition": "performed",
+      "assertions": 3,
+      "evidence": "runs/1794232632320218000/R07.json",
+      "interpretation": "structural-overlap-excluded; no-provider-lifecycle-observation"
+    },
+    {
+      "id": "R08",
+      "experiment_status": "passed",
+      "disposition": "performed",
+      "assertions": 5,
+      "evidence": "runs/1794232632320218000/R08.json",
+      "interpretation": "bounded-local-behavior-exercised"
+    },
+    {
+      "id": "R09",
+      "experiment_status": "passed",
+      "disposition": "performed",
+      "assertions": 46,
+      "evidence": "runs/1794232632320218000/R09.json",
+      "interpretation": "process-kill-only; pre-receipt-unknowns-retained"
+    },
+    {
+      "id": "R10",
+      "experiment_status": "passed",
+      "disposition": "performed",
+      "assertions": 48,
+      "evidence": "runs/1794232632320218000/R10.json",
+      "interpretation": "bounded-local-behavior-exercised"
+    },
+    {
+      "id": "R11",
+      "experiment_status": "passed",
+      "disposition": "performed",
+      "assertions": 5,
+      "evidence": "runs/1794232632320218000/R11.json",
+      "interpretation": "injected-partial-not-Git-atomicity"
+    },
+    {
+      "id": "R12",
+      "experiment_status": "passed",
+      "disposition": "performed",
+      "assertions": 3,
+      "evidence": "runs/1794232632320218000/R12.json",
+      "interpretation": "bounded-local-behavior-exercised"
+    },
+    {
+      "id": "R13",
+      "experiment_status": "passed",
+      "disposition": "performed",
+      "assertions": 20,
+      "evidence": "runs/1794232632320218000/R13.json",
+      "interpretation": "same-host-custody-only"
+    },
+    {
+      "id": "R14",
+      "experiment_status": "passed",
+      "disposition": "performed",
+      "assertions": 4,
+      "evidence": "runs/1794232632320218000/R14.json",
+      "interpretation": "local-export-not-production-rollback"
+    },
+    {
+      "id": "R15",
+      "experiment_status": "passed",
+      "disposition": "performed",
+      "assertions": 1,
+      "evidence": "runs/1794232632320218000/R15.json",
+      "interpretation": "capability-and-assumed-model; guest-root-owned"
+    },
+    {
+      "id": "R16",
+      "experiment_status": "passed",
+      "disposition": "performed",
+      "assertions": 11,
+      "evidence": "runs/1794232632320218000/R16.json",
+      "interpretation": "unsafe-dispatch-controls-rejected-by-independent-oracles"
+    },
+    {
+      "id": "R17",
+      "experiment_status": "passed",
+      "disposition": "performed",
+      "assertions": 3,
+      "evidence": "runs/1794232632320218000/R17.json",
+      "interpretation": "explicit-test-supplied-decision-not-human-validation"
+    },
+    {
+      "id": "R18",
+      "experiment_status": "passed",
+      "disposition": "performed",
+      "assertions": 8,
+      "evidence": "runs/1794232632320218000/R18.json",
+      "interpretation": "supplied-effect-scopes-not-provider-contract"
+    }
+  ],
+  "candidate_failures": [
+    "initial old-input/latest-intent three-way restoration loses explicit reset (R03)"
+  ],
+  "preserved_earlier_failures": [
+    {
+      "run": "runs/1794232256240038000",
+      "case": "R04",
+      "cause": "Pretty-format message serialization inserted a newline; corrected to raw commit-object bytes"
+    }
+  ],
+  "meaning": "Passing probes include known-bad controls, refusal, conflict and an assumed-model sanity check; no production readiness score.",
+  "source_hashes": {
+    "PLAN.md": "ae84aa3d96a0963f99c3835bda93a096143233bf0f21f19bf1d725bde5e5478c",
+    "protocol.py": "73994fcb9747b4461bc90b17f0ae1b12e4a064eaabc862d840938e984133a7de",
+    "run.py": "42d87bcde806f3418b8658e76e5ea37900914fd4c8600fcf6271970e25f8f4a8"
+  },
+  "no_hosted_writes": true,
+  "no_production_edits": true,
+  "no_host_runtime_installation": true,
+  "guest_runtime_owner": "root; exclusively recovery/vm; separate evidence",
+  "remaining_limits": [
+    "provider last-write/arbitration contract",
+    "arbitrary uncooperative or cross-host writers",
+    "human recovery decisions and workflow cost",
+    "production implementation and migration",
+    "whole-host or physical-device power loss"
+  ]
+}

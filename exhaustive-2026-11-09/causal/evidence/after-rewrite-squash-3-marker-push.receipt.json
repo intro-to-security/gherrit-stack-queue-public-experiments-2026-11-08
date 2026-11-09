@@ -1,0 +1,29 @@
+{
+  "kind": "git-push",
+  "updates": {
+    "refs/heads/exh-1109-causal-after-rewrite-squash-3/D": "8be2c7aa1929d0c95650bbc6b17db1135f93dea4"
+  },
+  "expected": {
+    "refs/heads/exh-1109-causal-after-rewrite-squash-3/D": "9179085486aec47558614589429c87e3abb9385d"
+  },
+  "args": [
+    "push",
+    "--porcelain",
+    "--atomic",
+    "--force-with-lease=refs/heads/exh-1109-causal-after-rewrite-squash-3/D:9179085486aec47558614589429c87e3abb9385d",
+    "origin",
+    "8be2c7aa1929d0c95650bbc6b17db1135f93dea4:refs/heads/exh-1109-causal-after-rewrite-squash-3/D"
+  ],
+  "start": {
+    "utc": "2026-11-09T14:03:14.619927+00:00",
+    "monotonic": 23.221035541
+  },
+  "end": {
+    "utc": "2026-11-09T14:03:16.098734+00:00",
+    "monotonic": 24.699855833
+  },
+  "exit": 0,
+  "stdout": "To https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08.git\n \t8be2c7aa1929d0c95650bbc6b17db1135f93dea4:refs/heads/exh-1109-causal-after-rewrite-squash-3/D\t9179085..8be2c7a\nDone\n",
+  "stderr": "",
+  "disposition": "success-receipt"
+}

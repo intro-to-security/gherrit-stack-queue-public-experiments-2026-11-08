@@ -1,0 +1,14 @@
+[
+  {
+    "path": "../core.py",
+    "retained": "reviewed-inputs/core.py",
+    "sha256": "a98242dabb752a89f8da47814ea62313d1d64871afe50042f930875445e4f453",
+    "effect_audit": "Imports/constants/definitions only. Git constructors and Effects methods have explicit effects; no old driver imported or executed."
+  },
+  {
+    "path": "../effects.py",
+    "retained": "reviewed-inputs/effects.py",
+    "sha256": "20d8a34e0d04e93080f70c5bc3499fe5835cb2d45feff4c5bb95a3fed6418cc9",
+    "effect_audit": "Imports/constants/definitions only. Git constructors and Effects methods have explicit effects; no old driver imported or executed."
+  }
+]

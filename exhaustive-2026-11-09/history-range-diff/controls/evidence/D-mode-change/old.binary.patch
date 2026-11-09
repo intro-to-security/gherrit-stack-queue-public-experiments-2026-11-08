@@ -1,0 +1,10 @@
+diff --git a/script.sh b/script.sh
+old mode 100644
+new mode 100755
+index abd1b84d82403267c17bb807e1d2c012e93f6982..78ca6788f08e16394a0afb94b6fd06acf215441c
+--- a/script.sh
++++ b/script.sh
+@@ -1,2 +1,2 @@
+ #!/bin/sh
+-echo base
++echo authored

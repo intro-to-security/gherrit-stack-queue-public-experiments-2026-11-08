@@ -1,0 +1,20 @@
+{
+  "method": "PUT",
+  "path": "/repositories/1450723431/stacks/656/rebase",
+  "payload": {
+    "expected_head_oid_by_pr_number": {
+      "654": "5afe9c34540002ec9554c2e9d279f4fa895d89db",
+      "655": "11ddd6ef32afc4bca7865a22c70248a6156edee7"
+    }
+  },
+  "retry": "forbidden; reconcile unknown outcomes without re-dispatch",
+  "source": {
+    "GITHUB_ACTOR": "joshlf",
+    "GITHUB_REF": "refs/heads/exh-1109-causal-rb-app-001/runner",
+    "GITHUB_REPOSITORY": "joshlf/gherrit-native-stack-experiments-2026-11-08",
+    "GITHUB_RUN_ATTEMPT": "1",
+    "GITHUB_RUN_ID": "42657475024",
+    "GITHUB_SHA": "6f7f0d9322bc6ddaf72bc3043c15463ecbd92b6e"
+  },
+  "utc": "2026-11-09T16:42:37.020428+00:00"
+}

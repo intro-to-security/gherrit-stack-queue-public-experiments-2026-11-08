@@ -1,0 +1,661 @@
+{
+  "cases": [
+    {
+      "stage": 1,
+      "verdict": {
+        "kind": "active-valid-ignore-unpublished-temp",
+        "active": {
+          "present": true,
+          "bytes": 65672,
+          "sha256": "b7bc1dfa7401f38a1d55aa02ce22fe6704831c925475a7df8547b2f67eb1e273",
+          "valid": true,
+          "generation": 0,
+          "full_expected_bytes": true,
+          "checksum_matches": true
+        },
+        "unpublished_temporary": {
+          "present": false,
+          "valid": false
+        },
+        "scope": "local file protocol only; no hosted dispatch authority"
+      },
+      "checks": {
+        "expected_kind": true,
+        "retained_old_exact": true,
+        "unchanged_active_old_exact": true
+      },
+      "expected": true
+    },
+    {
+      "stage": 2,
+      "verdict": {
+        "kind": "active-valid-ignore-unpublished-temp",
+        "active": {
+          "present": true,
+          "bytes": 65672,
+          "sha256": "b7bc1dfa7401f38a1d55aa02ce22fe6704831c925475a7df8547b2f67eb1e273",
+          "valid": true,
+          "generation": 0,
+          "full_expected_bytes": true,
+          "checksum_matches": true
+        },
+        "unpublished_temporary": {
+          "present": true,
+          "bytes": 65672,
+          "sha256": "033372e5419729bc2c7660fe7c13cecadaa3cfae5fd292344edf3d95d0457e34",
+          "valid": true,
+          "generation": 1,
+          "full_expected_bytes": true,
+          "checksum_matches": true
+        },
+        "scope": "local file protocol only; no hosted dispatch authority"
+      },
+      "checks": {
+        "expected_kind": true,
+        "retained_old_exact": true,
+        "unchanged_active_old_exact": true
+      },
+      "expected": true
+    },
+    {
+      "stage": 3,
+      "verdict": {
+        "kind": "active-valid-ignore-unpublished-temp",
+        "active": {
+          "present": true,
+          "bytes": 65672,
+          "sha256": "b7bc1dfa7401f38a1d55aa02ce22fe6704831c925475a7df8547b2f67eb1e273",
+          "valid": true,
+          "generation": 0,
+          "full_expected_bytes": true,
+          "checksum_matches": true
+        },
+        "unpublished_temporary": {
+          "present": true,
+          "bytes": 65672,
+          "sha256": "033372e5419729bc2c7660fe7c13cecadaa3cfae5fd292344edf3d95d0457e34",
+          "valid": true,
+          "generation": 1,
+          "full_expected_bytes": true,
+          "checksum_matches": true
+        },
+        "scope": "local file protocol only; no hosted dispatch authority"
+      },
+      "checks": {
+        "expected_kind": true,
+        "retained_old_exact": true,
+        "rename_active_old_or_new_exact": true
+      },
+      "expected": true
+    },
+    {
+      "stage": 4,
+      "verdict": {
+        "kind": "active-valid-ignore-unpublished-temp",
+        "active": {
+          "present": true,
+          "bytes": 65672,
+          "sha256": "033372e5419729bc2c7660fe7c13cecadaa3cfae5fd292344edf3d95d0457e34",
+          "valid": true,
+          "generation": 1,
+          "full_expected_bytes": true,
+          "checksum_matches": true
+        },
+        "unpublished_temporary": {
+          "present": false,
+          "valid": false
+        },
+        "scope": "local file protocol only; no hosted dispatch authority"
+      },
+      "checks": {
+        "expected_kind": true,
+        "retained_old_exact": true,
+        "directory_synced_new_exact": true,
+        "renamed_temporary_absent": true
+      },
+      "expected": true
+    },
+    {
+      "stage": 5,
+      "verdict": {
+        "kind": "active-valid-ignore-unpublished-temp",
+        "active": {
+          "present": true,
+          "bytes": 65672,
+          "sha256": "b7bc1dfa7401f38a1d55aa02ce22fe6704831c925475a7df8547b2f67eb1e273",
+          "valid": true,
+          "generation": 0,
+          "full_expected_bytes": true,
+          "checksum_matches": true
+        },
+        "unpublished_temporary": {
+          "present": true,
+          "bytes": 32836,
+          "sha256": "69ab728fcefaa8e6f2fb6b1892bb4c76e054525c0f6e5ca4b460621c58f5538d",
+          "valid": false,
+          "parse_error": "Unterminated string starting at: line 1 column 50 (char 49)"
+        },
+        "scope": "local file protocol only; no hosted dispatch authority"
+      },
+      "checks": {
+        "expected_kind": true,
+        "retained_old_exact": true,
+        "unchanged_active_old_exact": true,
+        "injected_unpublished_corruption_detected": true,
+        "injected_unpublished_bytes_exact": true
+      },
+      "expected": true
+    },
+    {
+      "stage": 6,
+      "verdict": {
+        "kind": "refuse-invalid-active",
+        "active": {
+          "present": true,
+          "bytes": 32836,
+          "sha256": "69ab728fcefaa8e6f2fb6b1892bb4c76e054525c0f6e5ca4b460621c58f5538d",
+          "valid": false,
+          "parse_error": "Unterminated string starting at: line 1 column 50 (char 49)"
+        },
+        "unpublished_temporary": {
+          "present": false,
+          "valid": false
+        },
+        "scope": "local file protocol only; no hosted dispatch authority"
+      },
+      "checks": {
+        "expected_kind": true,
+        "retained_old_exact": true,
+        "injected_active_corruption_detected": true,
+        "injected_active_bytes_exact": true
+      },
+      "expected": true
+    },
+    {
+      "stage": 7,
+      "verdict": {
+        "kind": "pending-intent-only",
+        "active": {
+          "present": true,
+          "bytes": 65672,
+          "sha256": "b7bc1dfa7401f38a1d55aa02ce22fe6704831c925475a7df8547b2f67eb1e273",
+          "valid": true,
+          "generation": 0,
+          "full_expected_bytes": true,
+          "checksum_matches": true
+        },
+        "unpublished_temporary": {
+          "present": false,
+          "valid": false
+        },
+        "scope": "local file protocol only; no hosted dispatch authority",
+        "ref_generation": 0,
+        "checkpoint_generation": 0,
+        "retained_result_valid": true
+      },
+      "checks": {
+        "expected_kind": true,
+        "retained_old_exact": true,
+        "unchanged_active_old_exact": true
+      },
+      "expected": true
+    },
+    {
+      "stage": 8,
+      "verdict": {
+        "kind": "pending-output-prefix",
+        "active": {
+          "present": true,
+          "bytes": 65672,
+          "sha256": "b7bc1dfa7401f38a1d55aa02ce22fe6704831c925475a7df8547b2f67eb1e273",
+          "valid": true,
+          "generation": 0,
+          "full_expected_bytes": true,
+          "checksum_matches": true
+        },
+        "unpublished_temporary": {
+          "present": false,
+          "valid": false
+        },
+        "scope": "local file protocol only; no hosted dispatch authority",
+        "ref_generation": 1,
+        "checkpoint_generation": 0,
+        "retained_result_valid": true
+      },
+      "checks": {
+        "expected_kind": true,
+        "retained_old_exact": true,
+        "unchanged_active_old_exact": true
+      },
+      "expected": true
+    },
+    {
+      "stage": 9,
+      "verdict": {
+        "kind": "pending-finalization",
+        "active": {
+          "present": true,
+          "bytes": 65672,
+          "sha256": "b7bc1dfa7401f38a1d55aa02ce22fe6704831c925475a7df8547b2f67eb1e273",
+          "valid": true,
+          "generation": 0,
+          "full_expected_bytes": true,
+          "checksum_matches": true
+        },
+        "unpublished_temporary": {
+          "present": false,
+          "valid": false
+        },
+        "scope": "local file protocol only; no hosted dispatch authority",
+        "ref_generation": 1,
+        "checkpoint_generation": 1,
+        "retained_result_valid": true
+      },
+      "checks": {
+        "expected_kind": true,
+        "retained_old_exact": true,
+        "unchanged_active_old_exact": true
+      },
+      "expected": true
+    },
+    {
+      "stage": 10,
+      "verdict": {
+        "kind": "done-validated",
+        "active": {
+          "present": true,
+          "bytes": 65672,
+          "sha256": "b7bc1dfa7401f38a1d55aa02ce22fe6704831c925475a7df8547b2f67eb1e273",
+          "valid": true,
+          "generation": 0,
+          "full_expected_bytes": true,
+          "checksum_matches": true
+        },
+        "unpublished_temporary": {
+          "present": false,
+          "valid": false
+        },
+        "scope": "local file protocol only; no hosted dispatch authority",
+        "ref_generation": 1,
+        "checkpoint_generation": 1,
+        "retained_result_valid": true
+      },
+      "checks": {
+        "expected_kind": true,
+        "retained_old_exact": true,
+        "unchanged_active_old_exact": true
+      },
+      "expected": true
+    },
+    {
+      "stage": 11,
+      "verdict": {
+        "kind": "refuse-invalid-completion",
+        "active": {
+          "present": true,
+          "bytes": 65672,
+          "sha256": "b7bc1dfa7401f38a1d55aa02ce22fe6704831c925475a7df8547b2f67eb1e273",
+          "valid": true,
+          "generation": 0,
+          "full_expected_bytes": true,
+          "checksum_matches": true
+        },
+        "unpublished_temporary": {
+          "present": false,
+          "valid": false
+        },
+        "scope": "local file protocol only; no hosted dispatch authority",
+        "ref_generation": 1,
+        "checkpoint_generation": 0,
+        "retained_result_valid": true
+      },
+      "checks": {
+        "expected_kind": true,
+        "retained_old_exact": true,
+        "unchanged_active_old_exact": true,
+        "false_completion_control_exact": true
+      },
+      "expected": true
+    },
+    {
+      "stage": 12,
+      "verdict": {
+        "kind": "refuse-invalid-completion",
+        "active": {
+          "present": true,
+          "bytes": 65672,
+          "sha256": "b7bc1dfa7401f38a1d55aa02ce22fe6704831c925475a7df8547b2f67eb1e273",
+          "valid": true,
+          "generation": 0,
+          "full_expected_bytes": true,
+          "checksum_matches": true
+        },
+        "unpublished_temporary": {
+          "present": false,
+          "valid": false
+        },
+        "scope": "local file protocol only; no hosted dispatch authority",
+        "ref_generation": 1,
+        "checkpoint_generation": 1,
+        "retained_result_valid": false
+      },
+      "checks": {
+        "expected_kind": true,
+        "retained_old_exact": true,
+        "unchanged_active_old_exact": true,
+        "valid_JSON_checksum_corruption_observed": true
+      },
+      "expected": true
+    }
+  ],
+  "bad_done_controls": [
+    {
+      "stage": 11,
+      "bad_done_flag_accepts": true,
+      "exact_oracle": "refuse-invalid-completion"
+    },
+    {
+      "stage": 12,
+      "bad_done_flag_accepts": true,
+      "exact_oracle": "refuse-invalid-completion"
+    }
+  ],
+  "bad_generation_control": {
+    "bad_generation_only_accepts": true,
+    "exact_oracle": "refuse-invalid-completion"
+  },
+  "retained_actual_v3": [
+    {
+      "stage": 1,
+      "checks": {
+        "current_full_value": true,
+        "ref_full_value": true,
+        "checkpoint_full_value": true,
+        "temporary_full_value": true,
+        "intent_full_value": true
+      },
+      "diagnostics": {
+        "exit": 0,
+        "diagnostic_lines": [
+          "Warning: skipping journal recovery because doing a read-only filesystem check.",
+          "Free blocks count wrong (14319, counted=14316).",
+          "Fix? no",
+          "Free inodes count wrong (16373, counted=16370).",
+          "Fix? no"
+        ],
+        "clean_diagnostics": false,
+        "scope": "After stated inspector path; exit zero alone is insufficient"
+      }
+    },
+    {
+      "stage": 2,
+      "checks": {
+        "current_full_value": true,
+        "ref_full_value": true,
+        "checkpoint_full_value": true,
+        "temporary_full_value": true,
+        "intent_full_value": true
+      },
+      "diagnostics": {
+        "exit": 0,
+        "diagnostic_lines": [
+          "Warning: skipping journal recovery because doing a read-only filesystem check.",
+          "Free blocks count wrong (14319, counted=14315).",
+          "Fix? no",
+          "Free inodes count wrong (16373, counted=16369).",
+          "Fix? no"
+        ],
+        "clean_diagnostics": false,
+        "scope": "After stated inspector path; exit zero alone is insufficient"
+      }
+    },
+    {
+      "stage": 3,
+      "checks": {
+        "current_full_value": true,
+        "ref_full_value": true,
+        "checkpoint_full_value": true,
+        "temporary_full_value": true,
+        "intent_full_value": true
+      },
+      "diagnostics": {
+        "exit": 0,
+        "diagnostic_lines": [
+          "Warning: skipping journal recovery because doing a read-only filesystem check.",
+          "Free blocks count wrong (14319, counted=14315).",
+          "Fix? no",
+          "Free inodes count wrong (16373, counted=16369).",
+          "Fix? no"
+        ],
+        "clean_diagnostics": false,
+        "scope": "After stated inspector path; exit zero alone is insufficient"
+      }
+    },
+    {
+      "stage": 4,
+      "checks": {
+        "current_full_value": true,
+        "ref_full_value": true,
+        "checkpoint_full_value": true,
+        "temporary_full_value": true,
+        "intent_full_value": true
+      },
+      "diagnostics": {
+        "exit": 0,
+        "diagnostic_lines": [
+          "Warning: skipping journal recovery because doing a read-only filesystem check.",
+          "Free blocks count wrong (14319, counted=14316).",
+          "Fix? no",
+          "Free inodes count wrong (16373, counted=16370).",
+          "Fix? no"
+        ],
+        "clean_diagnostics": false,
+        "scope": "After stated inspector path; exit zero alone is insufficient"
+      }
+    },
+    {
+      "stage": 5,
+      "checks": {
+        "current_full_value": true,
+        "ref_full_value": true,
+        "checkpoint_full_value": true,
+        "temporary_full_value": true,
+        "intent_full_value": true
+      },
+      "diagnostics": {
+        "exit": 0,
+        "diagnostic_lines": [
+          "Warning: skipping journal recovery because doing a read-only filesystem check.",
+          "Free blocks count wrong (14319, counted=14316).",
+          "Fix? no",
+          "Free inodes count wrong (16373, counted=16370).",
+          "Fix? no"
+        ],
+        "clean_diagnostics": false,
+        "scope": "After stated inspector path; exit zero alone is insufficient"
+      }
+    },
+    {
+      "stage": 6,
+      "checks": {
+        "current_full_value": true,
+        "ref_full_value": true,
+        "checkpoint_full_value": true,
+        "temporary_full_value": true,
+        "intent_full_value": true
+      },
+      "diagnostics": {
+        "exit": 0,
+        "diagnostic_lines": [
+          "Warning: skipping journal recovery because doing a read-only filesystem check.",
+          "Free blocks count wrong (14319, counted=14315).",
+          "Fix? no",
+          "Free inodes count wrong (16373, counted=16369).",
+          "Fix? no"
+        ],
+        "clean_diagnostics": false,
+        "scope": "After stated inspector path; exit zero alone is insufficient"
+      }
+    },
+    {
+      "stage": 7,
+      "checks": {
+        "current_full_value": true,
+        "ref_full_value": true,
+        "checkpoint_full_value": true,
+        "temporary_full_value": true,
+        "intent_full_value": true
+      },
+      "diagnostics": {
+        "exit": 0,
+        "diagnostic_lines": [
+          "Warning: skipping journal recovery because doing a read-only filesystem check.",
+          "Free blocks count wrong (14319, counted=14315).",
+          "Fix? no",
+          "Free inodes count wrong (16373, counted=16369).",
+          "Fix? no"
+        ],
+        "clean_diagnostics": false,
+        "scope": "After stated inspector path; exit zero alone is insufficient"
+      }
+    },
+    {
+      "stage": 8,
+      "checks": {
+        "current_full_value": true,
+        "ref_full_value": true,
+        "checkpoint_full_value": true,
+        "temporary_full_value": true,
+        "intent_full_value": true
+      },
+      "diagnostics": {
+        "exit": 0,
+        "diagnostic_lines": [
+          "Warning: skipping journal recovery because doing a read-only filesystem check.",
+          "Free blocks count wrong (14319, counted=14315).",
+          "Fix? no",
+          "Free inodes count wrong (16373, counted=16369).",
+          "Fix? no"
+        ],
+        "clean_diagnostics": false,
+        "scope": "After stated inspector path; exit zero alone is insufficient"
+      }
+    }
+  ],
+  "actual_v3_boot_checks": [
+    {
+      "stage": 1,
+      "phase": "cut",
+      "pid": 3812,
+      "valid": true
+    },
+    {
+      "stage": 1,
+      "phase": "recover",
+      "pid": 3816,
+      "valid": true
+    },
+    {
+      "stage": 2,
+      "phase": "cut",
+      "pid": 3821,
+      "valid": true
+    },
+    {
+      "stage": 2,
+      "phase": "recover",
+      "pid": 3825,
+      "valid": true
+    },
+    {
+      "stage": 3,
+      "phase": "cut",
+      "pid": 3832,
+      "valid": true
+    },
+    {
+      "stage": 3,
+      "phase": "recover",
+      "pid": 3836,
+      "valid": true
+    },
+    {
+      "stage": 4,
+      "phase": "cut",
+      "pid": 3842,
+      "valid": true
+    },
+    {
+      "stage": 4,
+      "phase": "recover",
+      "pid": 3846,
+      "valid": true
+    },
+    {
+      "stage": 5,
+      "phase": "cut",
+      "pid": 3852,
+      "valid": true
+    },
+    {
+      "stage": 5,
+      "phase": "recover",
+      "pid": 3856,
+      "valid": true
+    },
+    {
+      "stage": 6,
+      "phase": "cut",
+      "pid": 3862,
+      "valid": true
+    },
+    {
+      "stage": 6,
+      "phase": "recover",
+      "pid": 3866,
+      "valid": true
+    },
+    {
+      "stage": 7,
+      "phase": "cut",
+      "pid": 3872,
+      "valid": true
+    },
+    {
+      "stage": 7,
+      "phase": "recover",
+      "pid": 3877,
+      "valid": true
+    },
+    {
+      "stage": 8,
+      "phase": "cut",
+      "pid": 3883,
+      "valid": true
+    },
+    {
+      "stage": 8,
+      "phase": "recover",
+      "pid": 3887,
+      "valid": true
+    }
+  ],
+  "bad_classifier_on_actual_v3": {
+    "actual_stage": 7,
+    "bad_reference_only_accepts": true,
+    "correct_pending": true,
+    "source": "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/recovery/vm/7e278a42e7/evidence/results-v3/case-7-result.json"
+  },
+  "full_value_probe": {
+    "present": true,
+    "bytes": 65674,
+    "sha256": "edf96d718be54e89970ccbfd58df0623ab3ea6c9d58d75b02c2a084aeac6395c",
+    "valid": false,
+    "generation": 1,
+    "full_expected_bytes": false,
+    "checksum_matches": true
+  },
+  "all_expected": true,
+  "guest_execution": false,
+  "scope": "Offline exact-byte/checksum/classifier checks plus retained actual v3 records"
+}

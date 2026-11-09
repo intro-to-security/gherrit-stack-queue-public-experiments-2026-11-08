@@ -1,0 +1,63 @@
+{
+  "at": "2026-11-09T15:28:51.841036+00:00",
+  "phase": "source-only: root review/runtime grant pending",
+  "files": [
+    {
+      "path": "OFFLINE-CHECKS.json",
+      "bytes": 1719,
+      "sha256": "72b1711c8f289a88f325315b0acb54e87850afe8dd1c577812f2f97a91a0aab9"
+    },
+    {
+      "path": "PLAN.md",
+      "bytes": 6077,
+      "sha256": "0a809c6e685c6d0cc61af949e73bd5623a3a51ab2680d6166dc3c4ce62245b6e"
+    },
+    {
+      "path": "ROOT-RECIPE.md",
+      "bytes": 5342,
+      "sha256": "73d85fe4a13e1c9897000acde6d4d6eb1431bf1b3b44c6ea00c7c601a158e751"
+    },
+    {
+      "path": "SOURCE-PINS.json",
+      "bytes": 621,
+      "sha256": "d24da130b58e0171d16aea0d51795fc0a0e1505bb3b905cd18f65e47b66dded3"
+    },
+    {
+      "path": "build-root.py",
+      "bytes": 5822,
+      "sha256": "e1d1dce730cc4d50d62d0f51b9b33fc7e04569fc93cdc423da353e3886a41993"
+    },
+    {
+      "path": "guest.py",
+      "bytes": 5367,
+      "sha256": "7893c80b62f0a7ce6854665443fb1a99c6c5fc1ee7ec7f2505f40fccc2254214"
+    },
+    {
+      "path": "init",
+      "bytes": 838,
+      "sha256": "ac2af0c5da7837477cce22c87ad60e6adeb72ff0f80bf3d60b2aa23102fe799b"
+    },
+    {
+      "path": "oracle.py",
+      "bytes": 7632,
+      "sha256": "c8619cd66e7a80912f643b89a117691c934b6731d327406e038b7b05ffc743ee"
+    },
+    {
+      "path": "source/protocol.py",
+      "bytes": 16284,
+      "sha256": "73994fcb9747b4461bc90b17f0ae1b12e4a064eaabc862d840938e984133a7de"
+    },
+    {
+      "path": "source/run.py",
+      "bytes": 38754,
+      "sha256": "42d87bcde806f3418b8658e76e5ea37900914fd4c8600fcf6271970e25f8f4a8"
+    },
+    {
+      "path": "test_offline.py",
+      "bytes": 8111,
+      "sha256": "b5034317540ee23b67e517002023f3fbf9eb3e15d13a17b1110a971235f412a7"
+    }
+  ],
+  "original_sources_unchanged": true,
+  "runtime_actions_performed": []
+}

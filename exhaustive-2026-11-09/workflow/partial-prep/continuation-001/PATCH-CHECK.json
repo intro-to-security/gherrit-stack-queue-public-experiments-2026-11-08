@@ -1,0 +1,94 @@
+{
+  "B": {
+    "PR": 658,
+    "actual_parents": [
+      "a8a39b61ad98ac6987183198ea308400ca507ebc"
+    ],
+    "actual_tree": "ae9cd4efa5e78789c8080481f3c5a835bc0d7770",
+    "body_unchanged": true,
+    "expected_parent": "a8a39b61ad98ac6987183198ea308400ca507ebc",
+    "expected_tree": "ae9cd4efa5e78789c8080481f3c5a835bc0d7770",
+    "new_head": "57a275d012a64f38fdce84fa88d46d8e9e43a20a",
+    "old_head": "74cd012a960d3525e00727be30dbfd6fc0b170b5",
+    "own_patch_after": "diff --git a/b.txt b/b.txt\nindex 573541a..d00491f 100644\n--- a/b.txt\n+++ b/b.txt\n@@ -1 +1 @@\n-0\n+1\n",
+    "own_patch_before": "diff --git a/b.txt b/b.txt\nindex 573541a..d00491f 100644\n--- a/b.txt\n+++ b/b.txt\n@@ -1 +1 @@\n-0\n+1\n",
+    "patch_equal": true
+  },
+  "B_checkpoint": {
+    "actual_parent": "a8a39b61ad98ac6987183198ea308400ca507ebc",
+    "authored_ranges": {
+      "A1": {
+        "base": "7dab21a9a9fe31304280abd4cf9cb55df0caa78b",
+        "tip": "d73f1543202618e1eb359fb8f15751e1092ccc7f"
+      },
+      "A2": {
+        "base": "7dab21a9a9fe31304280abd4cf9cb55df0caa78b",
+        "tip": "a8a39b61ad98ac6987183198ea308400ca507ebc"
+      },
+      "B1": {
+        "base": "d73f1543202618e1eb359fb8f15751e1092ccc7f",
+        "tip": "74cd012a960d3525e00727be30dbfd6fc0b170b5"
+      },
+      "C1": {
+        "base": "74cd012a960d3525e00727be30dbfd6fc0b170b5",
+        "tip": "dca811f5d210b004f6229ea1134f3fb49f1cba44"
+      }
+    },
+    "head": "57a275d012a64f38fdce84fa88d46d8e9e43a20a",
+    "patch": "diff --git a/b.txt b/b.txt\nindex 573541a..d00491f 100644\n--- a/b.txt\n+++ b/b.txt\n@@ -1 +1 @@\n-0\n+1\n",
+    "source": "dca811f5d210b004f6229ea1134f3fb49f1cba44"
+  },
+  "B_event_page_complete": true,
+  "B_force_events": [
+    {
+      "__typename": "HeadRefForcePushedEvent",
+      "actor": {
+        "login": "joshlf"
+      },
+      "afterCommit": {
+        "oid": "57a275d012a64f38fdce84fa88d46d8e9e43a20a"
+      },
+      "beforeCommit": {
+        "oid": "74cd012a960d3525e00727be30dbfd6fc0b170b5"
+      },
+      "createdAt": "2026-11-09T16:53:33Z",
+      "id": "HRFPE_lADOVnhIZ88AAAABdu-tg88AAAAISXdBsg",
+      "ref": {
+        "name": "exh-1109-workflow-gql-partial-001/B"
+      }
+    }
+  ],
+  "C": {
+    "PR": 659,
+    "actual_head": "dca811f5d210b004f6229ea1134f3fb49f1cba44",
+    "expected_unchanged_head": "dca811f5d210b004f6229ea1134f3fb49f1cba44",
+    "own_authored_patch": "diff --git a/c.txt b/c.txt\nindex 573541a..0cfbf08 100644\n--- a/c.txt\n+++ b/c.txt\n@@ -1 +1 @@\n-0\n+2\n"
+  },
+  "Git_object_check": {
+    "exit": 0,
+    "hooks": "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/workflow/partial-prep/continuation-001/empty-hooks",
+    "stderr": "",
+    "stdout": ""
+  },
+  "at": "2026-11-09T16:55:46.488757+00:00",
+  "canonical_membership": {
+    "id": "PRS_kwDOVnhIZ84AMako",
+    "members": [
+      [
+        657,
+        "PR_kwDOVnhIZ88AAAABN5WRLw"
+      ],
+      [
+        658,
+        "PR_kwDOVnhIZ88AAAABN5WSkQ"
+      ],
+      [
+        659,
+        "PR_kwDOVnhIZ88AAAABN5WURw"
+      ]
+    ],
+    "number": 660
+  },
+  "full_source_archive_vector_exact": true,
+  "original_bindings_unchanged": true
+}

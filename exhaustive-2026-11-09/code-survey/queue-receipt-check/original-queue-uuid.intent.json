@@ -1,0 +1,6 @@
+{
+  "method": "GET",
+  "url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/pulls/29/merge-async/945dccee-d22e-4ac5-bd6b-a8b222dea397",
+  "start": "2026-11-09T14:39:02.421Z",
+  "scope": "Read-only; historical fixture remains frozen."
+}

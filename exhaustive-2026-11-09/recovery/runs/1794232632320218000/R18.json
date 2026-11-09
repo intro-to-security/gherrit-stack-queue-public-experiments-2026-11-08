@@ -1,0 +1,207 @@
+{
+  "checks": [
+    {
+      "actual": "refused",
+      "expected": "refused",
+      "name": "scope admission strict-B",
+      "passed": true
+    },
+    {
+      "actual": "admitted",
+      "expected": "admitted",
+      "name": "scope admission weaker-B-explicit",
+      "passed": true
+    },
+    {
+      "actual": "refused",
+      "expected": "refused",
+      "name": "scope admission weaker-B-unaccepted",
+      "passed": true
+    },
+    {
+      "actual": "admitted",
+      "expected": "admitted",
+      "name": "scope admission fresh-F-only",
+      "passed": true
+    },
+    {
+      "actual": "refused",
+      "expected": "refused",
+      "name": "scope admission fresh-F-broad-source",
+      "passed": true
+    },
+    {
+      "actual": "refused",
+      "expected": "refused",
+      "name": "scope admission fresh-F-shared-checkpoint",
+      "passed": true
+    },
+    {
+      "actual": "refused",
+      "expected": "refused",
+      "name": "scope admission fresh-F-managed-trunk",
+      "passed": true
+    },
+    {
+      "actual": "refused",
+      "expected": "refused",
+      "name": "unknown old scope cannot be called disjoint",
+      "passed": true
+    }
+  ],
+  "details": {
+    "evidence_bound": "Scope sets supplied explicitly by experiment; this does not establish GitHub's complete future effect scope or arbitrate later writes",
+    "rows": [
+      {
+        "effect": {
+          "kind": "same-order-head-amendment",
+          "scope": [
+            "head:B"
+          ]
+        },
+        "name": "strict-B",
+        "result": {
+          "overlaps": [
+            {
+              "id": "old-A-B",
+              "shared": [
+                "head:B"
+              ]
+            }
+          ],
+          "reason": "overlapping_old_effect",
+          "status": "refused"
+        }
+      },
+      {
+        "effect": {
+          "kind": "same-order-head-amendment",
+          "scope": [
+            "head:B"
+          ]
+        },
+        "name": "weaker-B-explicit",
+        "result": {
+          "overlaps": [
+            {
+              "id": "old-A-B",
+              "shared": [
+                "head:B"
+              ]
+            }
+          ],
+          "promise": "retained-intent-and-later-detection",
+          "status": "admitted"
+        }
+      },
+      {
+        "effect": {
+          "kind": "same-order-head-amendment",
+          "scope": [
+            "head:B"
+          ]
+        },
+        "name": "weaker-B-unaccepted",
+        "result": {
+          "overlaps": [
+            {
+              "id": "old-A-B",
+              "shared": [
+                "head:B"
+              ]
+            }
+          ],
+          "reason": "outside_accepted_weaker_contract",
+          "status": "refused"
+        }
+      },
+      {
+        "effect": {
+          "kind": "first-publication",
+          "scope": [
+            "head:F",
+            "review:F",
+            "source:F",
+            "checkpoint:F"
+          ]
+        },
+        "name": "fresh-F-only",
+        "result": {
+          "overlaps": [],
+          "promise": "disjoint-scope-only",
+          "status": "admitted"
+        }
+      },
+      {
+        "effect": {
+          "kind": "first-publication",
+          "scope": [
+            "head:F",
+            "source:AB"
+          ]
+        },
+        "name": "fresh-F-broad-source",
+        "result": {
+          "overlaps": [
+            {
+              "id": "old-A-B",
+              "shared": [
+                "source:AB"
+              ]
+            }
+          ],
+          "reason": "overlapping_old_effect",
+          "status": "refused"
+        }
+      },
+      {
+        "effect": {
+          "kind": "first-publication",
+          "scope": [
+            "head:F",
+            "checkpoint:AB"
+          ]
+        },
+        "name": "fresh-F-shared-checkpoint",
+        "result": {
+          "overlaps": [
+            {
+              "id": "old-A-B",
+              "shared": [
+                "checkpoint:AB"
+              ]
+            }
+          ],
+          "reason": "overlapping_old_effect",
+          "status": "refused"
+        }
+      },
+      {
+        "effect": {
+          "kind": "first-publication",
+          "scope": [
+            "head:F",
+            "head:A"
+          ]
+        },
+        "name": "fresh-F-managed-trunk",
+        "result": {
+          "overlaps": [
+            {
+              "id": "old-A-B",
+              "shared": [
+                "head:A"
+              ]
+            }
+          ],
+          "reason": "overlapping_old_effect",
+          "status": "refused"
+        }
+      }
+    ]
+  },
+  "disposition": "performed",
+  "id": "R18",
+  "status": "passed",
+  "title": "Concrete effect-scope admission"
+}

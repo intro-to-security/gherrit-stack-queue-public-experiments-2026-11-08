@@ -1,0 +1,9 @@
+{
+  "message": "Add quantity to the item model\n\nAgent-authored-by: AI agent acting on joshlf's behalf\n",
+  "oid": "c0efc5664c2562865ed1039b2c9a0d2a1e46f69a",
+  "parent": "12f2693395e73e231b9e0e6239ed8c0aeb299921",
+  "tree": "0a6d0e578638e97728526049d39f0c1dbbfc10ab",
+  "updates": {
+    "workflow_case/model.py": "class Item:\n    def __init__(self, name, quantity=1):\n        self.name = name\n        self.quantity = quantity\n"
+  }
+}

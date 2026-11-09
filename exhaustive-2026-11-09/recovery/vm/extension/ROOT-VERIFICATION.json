@@ -1,0 +1,105 @@
+{
+  "cases": [
+    {
+      "stage": 1,
+      "metadata_matches_complete_serial_bytes": true,
+      "active_value_matches_independent_expected_hash": true,
+      "bad_active_control": false,
+      "expected_disposition": true,
+      "fsck_has_warnings": true
+    },
+    {
+      "stage": 2,
+      "metadata_matches_complete_serial_bytes": true,
+      "active_value_matches_independent_expected_hash": true,
+      "bad_active_control": false,
+      "expected_disposition": true,
+      "fsck_has_warnings": true
+    },
+    {
+      "stage": 3,
+      "metadata_matches_complete_serial_bytes": true,
+      "active_value_matches_independent_expected_hash": true,
+      "bad_active_control": false,
+      "expected_disposition": true,
+      "fsck_has_warnings": true
+    },
+    {
+      "stage": 4,
+      "metadata_matches_complete_serial_bytes": true,
+      "active_value_matches_independent_expected_hash": true,
+      "bad_active_control": false,
+      "expected_disposition": true,
+      "fsck_has_warnings": true
+    },
+    {
+      "stage": 5,
+      "metadata_matches_complete_serial_bytes": true,
+      "active_value_matches_independent_expected_hash": true,
+      "bad_active_control": false,
+      "expected_disposition": true,
+      "fsck_has_warnings": true
+    },
+    {
+      "stage": 6,
+      "metadata_matches_complete_serial_bytes": true,
+      "active_value_matches_independent_expected_hash": false,
+      "bad_active_control": true,
+      "expected_disposition": true,
+      "fsck_has_warnings": true
+    },
+    {
+      "stage": 7,
+      "metadata_matches_complete_serial_bytes": true,
+      "active_value_matches_independent_expected_hash": true,
+      "bad_active_control": false,
+      "expected_disposition": true,
+      "fsck_has_warnings": true
+    },
+    {
+      "stage": 8,
+      "metadata_matches_complete_serial_bytes": true,
+      "active_value_matches_independent_expected_hash": true,
+      "bad_active_control": false,
+      "expected_disposition": true,
+      "fsck_has_warnings": true
+    },
+    {
+      "stage": 9,
+      "metadata_matches_complete_serial_bytes": true,
+      "active_value_matches_independent_expected_hash": true,
+      "bad_active_control": false,
+      "expected_disposition": true,
+      "fsck_has_warnings": true
+    },
+    {
+      "stage": 10,
+      "metadata_matches_complete_serial_bytes": true,
+      "active_value_matches_independent_expected_hash": true,
+      "bad_active_control": false,
+      "expected_disposition": true,
+      "fsck_has_warnings": true
+    },
+    {
+      "stage": 11,
+      "metadata_matches_complete_serial_bytes": true,
+      "active_value_matches_independent_expected_hash": true,
+      "bad_active_control": false,
+      "expected_disposition": true,
+      "fsck_has_warnings": true
+    },
+    {
+      "stage": 12,
+      "metadata_matches_complete_serial_bytes": true,
+      "active_value_matches_independent_expected_hash": true,
+      "bad_active_control": false,
+      "expected_disposition": true,
+      "fsck_has_warnings": true
+    }
+  ],
+  "verified_lossless_pre_post_images": 24,
+  "clean_inspector_natural_exit": true,
+  "clean_inspector_fsck_no_warning": true,
+  "all_expected": true,
+  "limits": "Independent readback/hash checks supplement reviewed experimental oracle; file proxies and ext4 guest only, not actual Git/native-provider/host power loss."
+}

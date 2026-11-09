@@ -1,0 +1,688 @@
+{
+  "run": "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/recovery/runs/1794232632320218000",
+  "repositories": 85,
+  "rows": [
+    {
+      "repository": "runs/1794232632320218000/concurrent-workers/provider/repo",
+      "exit": 0,
+      "stdout": "",
+      "stderr": "",
+      "intentionally_corrupt_fixture": false,
+      "expected_disposition": true
+    },
+    {
+      "repository": "runs/1794232632320218000/concurrent-workers/repo",
+      "exit": 0,
+      "stdout": "",
+      "stderr": "",
+      "intentionally_corrupt_fixture": false,
+      "expected_disposition": true
+    },
+    {
+      "repository": "runs/1794232632320218000/damage-changed-intent/provider/repo",
+      "exit": 0,
+      "stdout": "",
+      "stderr": "",
+      "intentionally_corrupt_fixture": false,
+      "expected_disposition": true
+    },
+    {
+      "repository": "runs/1794232632320218000/damage-changed-intent/repo",
+      "exit": 0,
+      "stdout": "",
+      "stderr": "",
+      "intentionally_corrupt_fixture": false,
+      "expected_disposition": true
+    },
+    {
+      "repository": "runs/1794232632320218000/damage-foreign-id/provider/repo",
+      "exit": 0,
+      "stdout": "",
+      "stderr": "",
+      "intentionally_corrupt_fixture": false,
+      "expected_disposition": true
+    },
+    {
+      "repository": "runs/1794232632320218000/damage-foreign-id/repo",
+      "exit": 0,
+      "stdout": "",
+      "stderr": "",
+      "intentionally_corrupt_fixture": false,
+      "expected_disposition": true
+    },
+    {
+      "repository": "runs/1794232632320218000/damage-malformed-operation/provider/repo",
+      "exit": 0,
+      "stdout": "",
+      "stderr": "",
+      "intentionally_corrupt_fixture": false,
+      "expected_disposition": true
+    },
+    {
+      "repository": "runs/1794232632320218000/damage-malformed-operation/repo",
+      "exit": 0,
+      "stdout": "",
+      "stderr": "",
+      "intentionally_corrupt_fixture": false,
+      "expected_disposition": true
+    },
+    {
+      "repository": "runs/1794232632320218000/damage-missing-authority-link/provider/repo",
+      "exit": 0,
+      "stdout": "",
+      "stderr": "",
+      "intentionally_corrupt_fixture": false,
+      "expected_disposition": true
+    },
+    {
+      "repository": "runs/1794232632320218000/damage-missing-authority-link/repo",
+      "exit": 0,
+      "stdout": "",
+      "stderr": "",
+      "intentionally_corrupt_fixture": false,
+      "expected_disposition": true
+    },
+    {
+      "repository": "runs/1794232632320218000/damage-missing-manifest/provider/repo",
+      "exit": 0,
+      "stdout": "",
+      "stderr": "",
+      "intentionally_corrupt_fixture": false,
+      "expected_disposition": true
+    },
+    {
+      "repository": "runs/1794232632320218000/damage-missing-manifest/repo",
+      "exit": 0,
+      "stdout": "",
+      "stderr": "",
+      "intentionally_corrupt_fixture": false,
+      "expected_disposition": true
+    },
+    {
+      "repository": "runs/1794232632320218000/damage-missing-operation/provider/repo",
+      "exit": 0,
+      "stdout": "",
+      "stderr": "",
+      "intentionally_corrupt_fixture": false,
+      "expected_disposition": true
+    },
+    {
+      "repository": "runs/1794232632320218000/damage-missing-operation/repo",
+      "exit": 0,
+      "stdout": "",
+      "stderr": "",
+      "intentionally_corrupt_fixture": false,
+      "expected_disposition": true
+    },
+    {
+      "repository": "runs/1794232632320218000/damage-missing-original-checkpoint/provider/repo",
+      "exit": 0,
+      "stdout": "",
+      "stderr": "",
+      "intentionally_corrupt_fixture": false,
+      "expected_disposition": true
+    },
+    {
+      "repository": "runs/1794232632320218000/damage-missing-original-checkpoint/repo",
+      "exit": 0,
+      "stdout": "",
+      "stderr": "",
+      "intentionally_corrupt_fixture": false,
+      "expected_disposition": true
+    },
+    {
+      "repository": "runs/1794232632320218000/damage-missing-result-checkpoint/provider/repo",
+      "exit": 0,
+      "stdout": "",
+      "stderr": "",
+      "intentionally_corrupt_fixture": false,
+      "expected_disposition": true
+    },
+    {
+      "repository": "runs/1794232632320218000/damage-missing-result-checkpoint/repo",
+      "exit": 0,
+      "stdout": "",
+      "stderr": "",
+      "intentionally_corrupt_fixture": false,
+      "expected_disposition": true
+    },
+    {
+      "repository": "runs/1794232632320218000/damage-missing-result-object/provider/repo",
+      "exit": 0,
+      "stdout": "",
+      "stderr": "",
+      "intentionally_corrupt_fixture": false,
+      "expected_disposition": true
+    },
+    {
+      "repository": "runs/1794232632320218000/damage-missing-result-object/repo",
+      "exit": 2,
+      "stdout": "dangling tree 179ff0917e23b233edaf907375af25c703ab9cfe\n",
+      "stderr": "error: refs/fixtures/accepted-intent: invalid sha1 pointer 0db1fb950cda124bd1a52fc9ad24d5772b029282\nerror: refs/heads/authoring: invalid sha1 pointer 0db1fb950cda124bd1a52fc9ad24d5772b029282\nerror: refs/retained/completed-damage-missing-result-object: invalid sha1 pointer 0db1fb950cda124bd1a52fc9ad24d5772b029282\nerror: refs/retained/result: invalid sha1 pointer 0db1fb950cda124bd1a52fc9ad24d5772b029282\n",
+      "intentionally_corrupt_fixture": true,
+      "expected_disposition": true
+    },
+    {
+      "repository": "runs/1794232632320218000/damage-missing-result-ref/provider/repo",
+      "exit": 0,
+      "stdout": "",
+      "stderr": "",
+      "intentionally_corrupt_fixture": false,
+      "expected_disposition": true
+    },
+    {
+      "repository": "runs/1794232632320218000/damage-missing-result-ref/repo",
+      "exit": 0,
+      "stdout": "",
+      "stderr": "",
+      "intentionally_corrupt_fixture": false,
+      "expected_disposition": true
+    },
+    {
+      "repository": "runs/1794232632320218000/damage-missing-retained-input/provider/repo",
+      "exit": 0,
+      "stdout": "",
+      "stderr": "",
+      "intentionally_corrupt_fixture": false,
+      "expected_disposition": true
+    },
+    {
+      "repository": "runs/1794232632320218000/damage-missing-retained-input/repo",
+      "exit": 0,
+      "stdout": "",
+      "stderr": "",
+      "intentionally_corrupt_fixture": false,
+      "expected_disposition": true
+    },
+    {
+      "repository": "runs/1794232632320218000/damage-wrong-binding/provider/repo",
+      "exit": 0,
+      "stdout": "",
+      "stderr": "",
+      "intentionally_corrupt_fixture": false,
+      "expected_disposition": true
+    },
+    {
+      "repository": "runs/1794232632320218000/damage-wrong-binding/repo",
+      "exit": 0,
+      "stdout": "",
+      "stderr": "",
+      "intentionally_corrupt_fixture": false,
+      "expected_disposition": true
+    },
+    {
+      "repository": "runs/1794232632320218000/damage-wrong-receipt/provider/repo",
+      "exit": 0,
+      "stdout": "",
+      "stderr": "",
+      "intentionally_corrupt_fixture": false,
+      "expected_disposition": true
+    },
+    {
+      "repository": "runs/1794232632320218000/damage-wrong-receipt/repo",
+      "exit": 0,
+      "stdout": "",
+      "stderr": "",
+      "intentionally_corrupt_fixture": false,
+      "expected_disposition": true
+    },
+    {
+      "repository": "runs/1794232632320218000/damage-wrong-result-checkpoint/provider/repo",
+      "exit": 0,
+      "stdout": "",
+      "stderr": "",
+      "intentionally_corrupt_fixture": false,
+      "expected_disposition": true
+    },
+    {
+      "repository": "runs/1794232632320218000/damage-wrong-result-checkpoint/repo",
+      "exit": 0,
+      "stdout": "",
+      "stderr": "",
+      "intentionally_corrupt_fixture": false,
+      "expected_disposition": true
+    },
+    {
+      "repository": "runs/1794232632320218000/damage-wrong-result-ref/provider/repo",
+      "exit": 0,
+      "stdout": "",
+      "stderr": "",
+      "intentionally_corrupt_fixture": false,
+      "expected_disposition": true
+    },
+    {
+      "repository": "runs/1794232632320218000/damage-wrong-result-ref/repo",
+      "exit": 0,
+      "stdout": "",
+      "stderr": "",
+      "intentionally_corrupt_fixture": false,
+      "expected_disposition": true
+    },
+    {
+      "repository": "runs/1794232632320218000/explicit-only/provider/repo",
+      "exit": 0,
+      "stdout": "",
+      "stderr": "",
+      "intentionally_corrupt_fixture": false,
+      "expected_disposition": true
+    },
+    {
+      "repository": "runs/1794232632320218000/explicit-only/repo",
+      "exit": 0,
+      "stdout": "",
+      "stderr": "",
+      "intentionally_corrupt_fixture": false,
+      "expected_disposition": true
+    },
+    {
+      "repository": "runs/1794232632320218000/kill-acknowledged/provider/repo",
+      "exit": 0,
+      "stdout": "",
+      "stderr": "",
+      "intentionally_corrupt_fixture": false,
+      "expected_disposition": true
+    },
+    {
+      "repository": "runs/1794232632320218000/kill-acknowledged/repo",
+      "exit": 0,
+      "stdout": "",
+      "stderr": "",
+      "intentionally_corrupt_fixture": false,
+      "expected_disposition": true
+    },
+    {
+      "repository": "runs/1794232632320218000/kill-complete/provider/repo",
+      "exit": 0,
+      "stdout": "",
+      "stderr": "",
+      "intentionally_corrupt_fixture": false,
+      "expected_disposition": true
+    },
+    {
+      "repository": "runs/1794232632320218000/kill-complete/repo",
+      "exit": 0,
+      "stdout": "",
+      "stderr": "",
+      "intentionally_corrupt_fixture": false,
+      "expected_disposition": true
+    },
+    {
+      "repository": "runs/1794232632320218000/kill-marked/provider/repo",
+      "exit": 0,
+      "stdout": "",
+      "stderr": "",
+      "intentionally_corrupt_fixture": false,
+      "expected_disposition": true
+    },
+    {
+      "repository": "runs/1794232632320218000/kill-marked/repo",
+      "exit": 0,
+      "stdout": "",
+      "stderr": "",
+      "intentionally_corrupt_fixture": false,
+      "expected_disposition": true
+    },
+    {
+      "repository": "runs/1794232632320218000/kill-provider_archive/provider/repo",
+      "exit": 0,
+      "stdout": "",
+      "stderr": "",
+      "intentionally_corrupt_fixture": false,
+      "expected_disposition": true
+    },
+    {
+      "repository": "runs/1794232632320218000/kill-provider_archive/repo",
+      "exit": 0,
+      "stdout": "",
+      "stderr": "",
+      "intentionally_corrupt_fixture": false,
+      "expected_disposition": true
+    },
+    {
+      "repository": "runs/1794232632320218000/kill-provider_head/provider/repo",
+      "exit": 0,
+      "stdout": "",
+      "stderr": "",
+      "intentionally_corrupt_fixture": false,
+      "expected_disposition": true
+    },
+    {
+      "repository": "runs/1794232632320218000/kill-provider_head/repo",
+      "exit": 0,
+      "stdout": "",
+      "stderr": "",
+      "intentionally_corrupt_fixture": false,
+      "expected_disposition": true
+    },
+    {
+      "repository": "runs/1794232632320218000/kill-provider_receipt/provider/repo",
+      "exit": 0,
+      "stdout": "",
+      "stderr": "",
+      "intentionally_corrupt_fixture": false,
+      "expected_disposition": true
+    },
+    {
+      "repository": "runs/1794232632320218000/kill-provider_receipt/repo",
+      "exit": 0,
+      "stdout": "",
+      "stderr": "",
+      "intentionally_corrupt_fixture": false,
+      "expected_disposition": true
+    },
+    {
+      "repository": "runs/1794232632320218000/kill-request_logged/provider/repo",
+      "exit": 0,
+      "stdout": "",
+      "stderr": "",
+      "intentionally_corrupt_fixture": false,
+      "expected_disposition": true
+    },
+    {
+      "repository": "runs/1794232632320218000/kill-request_logged/repo",
+      "exit": 0,
+      "stdout": "",
+      "stderr": "",
+      "intentionally_corrupt_fixture": false,
+      "expected_disposition": true
+    },
+    {
+      "repository": "runs/1794232632320218000/kill-result_checkpoint/provider/repo",
+      "exit": 0,
+      "stdout": "",
+      "stderr": "",
+      "intentionally_corrupt_fixture": false,
+      "expected_disposition": true
+    },
+    {
+      "repository": "runs/1794232632320218000/kill-result_checkpoint/repo",
+      "exit": 0,
+      "stdout": "",
+      "stderr": "",
+      "intentionally_corrupt_fixture": false,
+      "expected_disposition": true
+    },
+    {
+      "repository": "runs/1794232632320218000/kill-result_ref/provider/repo",
+      "exit": 0,
+      "stdout": "",
+      "stderr": "",
+      "intentionally_corrupt_fixture": false,
+      "expected_disposition": true
+    },
+    {
+      "repository": "runs/1794232632320218000/kill-result_ref/repo",
+      "exit": 0,
+      "stdout": "",
+      "stderr": "",
+      "intentionally_corrupt_fixture": false,
+      "expected_disposition": true
+    },
+    {
+      "repository": "runs/1794232632320218000/kill-validated/provider/repo",
+      "exit": 0,
+      "stdout": "",
+      "stderr": "",
+      "intentionally_corrupt_fixture": false,
+      "expected_disposition": true
+    },
+    {
+      "repository": "runs/1794232632320218000/kill-validated/repo",
+      "exit": 0,
+      "stdout": "",
+      "stderr": "",
+      "intentionally_corrupt_fixture": false,
+      "expected_disposition": true
+    },
+    {
+      "repository": "runs/1794232632320218000/late-reversal/provider/repo",
+      "exit": 0,
+      "stdout": "",
+      "stderr": "",
+      "intentionally_corrupt_fixture": false,
+      "expected_disposition": true
+    },
+    {
+      "repository": "runs/1794232632320218000/late-reversal/repo",
+      "exit": 0,
+      "stdout": "",
+      "stderr": "",
+      "intentionally_corrupt_fixture": false,
+      "expected_disposition": true
+    },
+    {
+      "repository": "runs/1794232632320218000/layer-import/repo",
+      "exit": 0,
+      "stdout": "",
+      "stderr": "",
+      "intentionally_corrupt_fixture": false,
+      "expected_disposition": true
+    },
+    {
+      "repository": "runs/1794232632320218000/legitimate-edits/provider/repo",
+      "exit": 0,
+      "stdout": "",
+      "stderr": "",
+      "intentionally_corrupt_fixture": false,
+      "expected_disposition": true
+    },
+    {
+      "repository": "runs/1794232632320218000/legitimate-edits/repo",
+      "exit": 0,
+      "stdout": "",
+      "stderr": "",
+      "intentionally_corrupt_fixture": false,
+      "expected_disposition": true
+    },
+    {
+      "repository": "runs/1794232632320218000/local-while-pending/provider/repo",
+      "exit": 0,
+      "stdout": "",
+      "stderr": "",
+      "intentionally_corrupt_fixture": false,
+      "expected_disposition": true
+    },
+    {
+      "repository": "runs/1794232632320218000/local-while-pending/repo",
+      "exit": 0,
+      "stdout": "",
+      "stderr": "",
+      "intentionally_corrupt_fixture": false,
+      "expected_disposition": true
+    },
+    {
+      "repository": "runs/1794232632320218000/mutant-identity/provider/repo",
+      "exit": 0,
+      "stdout": "",
+      "stderr": "",
+      "intentionally_corrupt_fixture": false,
+      "expected_disposition": true
+    },
+    {
+      "repository": "runs/1794232632320218000/mutant-identity/repo",
+      "exit": 0,
+      "stdout": "",
+      "stderr": "",
+      "intentionally_corrupt_fixture": false,
+      "expected_disposition": true
+    },
+    {
+      "repository": "runs/1794232632320218000/mutant-owner/provider/repo",
+      "exit": 0,
+      "stdout": "",
+      "stderr": "",
+      "intentionally_corrupt_fixture": false,
+      "expected_disposition": true
+    },
+    {
+      "repository": "runs/1794232632320218000/mutant-owner/repo",
+      "exit": 0,
+      "stdout": "",
+      "stderr": "",
+      "intentionally_corrupt_fixture": false,
+      "expected_disposition": true
+    },
+    {
+      "repository": "runs/1794232632320218000/mutant-result/provider/repo",
+      "exit": 0,
+      "stdout": "",
+      "stderr": "",
+      "intentionally_corrupt_fixture": false,
+      "expected_disposition": true
+    },
+    {
+      "repository": "runs/1794232632320218000/mutant-result/repo",
+      "exit": 0,
+      "stdout": "",
+      "stderr": "",
+      "intentionally_corrupt_fixture": false,
+      "expected_disposition": true
+    },
+    {
+      "repository": "runs/1794232632320218000/observation-limits/provider/repo",
+      "exit": 0,
+      "stdout": "",
+      "stderr": "",
+      "intentionally_corrupt_fixture": false,
+      "expected_disposition": true
+    },
+    {
+      "repository": "runs/1794232632320218000/observation-limits/repo",
+      "exit": 0,
+      "stdout": "",
+      "stderr": "",
+      "intentionally_corrupt_fixture": false,
+      "expected_disposition": true
+    },
+    {
+      "repository": "runs/1794232632320218000/ordinary-authoring/provider/repo",
+      "exit": 0,
+      "stdout": "",
+      "stderr": "",
+      "intentionally_corrupt_fixture": false,
+      "expected_disposition": true
+    },
+    {
+      "repository": "runs/1794232632320218000/ordinary-authoring/repo",
+      "exit": 0,
+      "stdout": "",
+      "stderr": "",
+      "intentionally_corrupt_fixture": false,
+      "expected_disposition": true
+    },
+    {
+      "repository": "runs/1794232632320218000/partial-provider/provider/repo",
+      "exit": 0,
+      "stdout": "",
+      "stderr": "",
+      "intentionally_corrupt_fixture": false,
+      "expected_disposition": true
+    },
+    {
+      "repository": "runs/1794232632320218000/partial-provider/repo",
+      "exit": 0,
+      "stdout": "",
+      "stderr": "",
+      "intentionally_corrupt_fixture": false,
+      "expected_disposition": true
+    },
+    {
+      "repository": "runs/1794232632320218000/repetition/provider/repo",
+      "exit": 0,
+      "stdout": "",
+      "stderr": "",
+      "intentionally_corrupt_fixture": false,
+      "expected_disposition": true
+    },
+    {
+      "repository": "runs/1794232632320218000/repetition/repo",
+      "exit": 0,
+      "stdout": "",
+      "stderr": "",
+      "intentionally_corrupt_fixture": false,
+      "expected_disposition": true
+    },
+    {
+      "repository": "runs/1794232632320218000/rollback/provider/repo",
+      "exit": 0,
+      "stdout": "",
+      "stderr": "",
+      "intentionally_corrupt_fixture": false,
+      "expected_disposition": true
+    },
+    {
+      "repository": "runs/1794232632320218000/rollback/repo",
+      "exit": 0,
+      "stdout": "",
+      "stderr": "",
+      "intentionally_corrupt_fixture": false,
+      "expected_disposition": true
+    },
+    {
+      "repository": "runs/1794232632320218000/rollback-settled/provider/repo",
+      "exit": 0,
+      "stdout": "",
+      "stderr": "",
+      "intentionally_corrupt_fixture": false,
+      "expected_disposition": true
+    },
+    {
+      "repository": "runs/1794232632320218000/rollback-settled/repo",
+      "exit": 0,
+      "stdout": "",
+      "stderr": "",
+      "intentionally_corrupt_fixture": false,
+      "expected_disposition": true
+    },
+    {
+      "repository": "runs/1794232632320218000/structural-witness/provider/repo",
+      "exit": 0,
+      "stdout": "",
+      "stderr": "",
+      "intentionally_corrupt_fixture": false,
+      "expected_disposition": true
+    },
+    {
+      "repository": "runs/1794232632320218000/structural-witness/repo",
+      "exit": 0,
+      "stdout": "",
+      "stderr": "",
+      "intentionally_corrupt_fixture": false,
+      "expected_disposition": true
+    },
+    {
+      "repository": "runs/1794232632320218000/transfer-destination/provider/repo",
+      "exit": 0,
+      "stdout": "",
+      "stderr": "",
+      "intentionally_corrupt_fixture": false,
+      "expected_disposition": true
+    },
+    {
+      "repository": "runs/1794232632320218000/transfer-destination/repo",
+      "exit": 0,
+      "stdout": "",
+      "stderr": "",
+      "intentionally_corrupt_fixture": false,
+      "expected_disposition": true
+    },
+    {
+      "repository": "runs/1794232632320218000/transfer-source/provider/repo",
+      "exit": 0,
+      "stdout": "",
+      "stderr": "",
+      "intentionally_corrupt_fixture": false,
+      "expected_disposition": true
+    },
+    {
+      "repository": "runs/1794232632320218000/transfer-source/repo",
+      "exit": 0,
+      "stdout": "",
+      "stderr": "",
+      "intentionally_corrupt_fixture": false,
+      "expected_disposition": true
+    }
+  ],
+  "unexpected_failures": [],
+  "scope": "Object connectivity/integrity only; one intentionally removed result commit is an invalid-evidence control"
+}

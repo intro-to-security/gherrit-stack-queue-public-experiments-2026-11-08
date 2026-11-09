@@ -1,0 +1,82 @@
+{
+  "phase": "source only; exact new root grant required before execution",
+  "at": "2026-11-09T16:12:57.082384+00:00",
+  "files": [
+    {
+      "path": "INPUT-PINS.json",
+      "bytes": 2302,
+      "sha256": "7a8580374cd4f12fd11e8dc7d657696614c21fa0f2f4d55789ed6d6a7c53bd80"
+    },
+    {
+      "path": "OFFLINE-CHECKS.json",
+      "bytes": 1300,
+      "sha256": "05692570f16d66f38c36c65e031bb7b5d8b80e26f9a4e447dc8748cbf6447de5"
+    },
+    {
+      "path": "PLAN.md",
+      "bytes": 6720,
+      "sha256": "7390209f23f98dd7915c5f0778a61057c9876742f741701126fce241554a90ae"
+    },
+    {
+      "path": "continuation_controller.py",
+      "bytes": 18138,
+      "sha256": "867796c89ff237a496735e582f311396b7be79428ce5e527130b880cb9186ced"
+    },
+    {
+      "path": "reviewed-inputs/actual-results-001__STOP.json",
+      "bytes": 150,
+      "sha256": "492fa7a35953860c7a2a49766e49b0ee6edfa8048b36261aaa60e92e1fb6b508"
+    },
+    {
+      "path": "reviewed-inputs/actual-results-001__after_return-result.json",
+      "bytes": 2401,
+      "sha256": "8c56f451520394ffa3af17e74f4054f5fddaeeac52d202f597d306178e7724db"
+    },
+    {
+      "path": "reviewed-inputs/guest.py",
+      "bytes": 5367,
+      "sha256": "7893c80b62f0a7ce6854665443fb1a99c6c5fc1ee7ec7f2505f40fccc2254214"
+    },
+    {
+      "path": "reviewed-inputs/independent-audit__REPORT.md",
+      "bytes": 6979,
+      "sha256": "9d1e88fe7f0ceed0f2ea77a10cb9fb1ce33d39a1df00b7802884becdbc65f0f4"
+    },
+    {
+      "path": "reviewed-inputs/independent-audit__actual-counterexample-001__REPORT.md",
+      "bytes": 6741,
+      "sha256": "05918f426883c5312c696db21db49a852dac14b09debf57b2f051bde0a99588b"
+    },
+    {
+      "path": "reviewed-inputs/init",
+      "bytes": 838,
+      "sha256": "ac2af0c5da7837477cce22c87ad60e6adeb72ff0f80bf3d60b2aa23102fe799b"
+    },
+    {
+      "path": "reviewed-inputs/oracle.py",
+      "bytes": 8474,
+      "sha256": "d877a1a218e0585fdf0630003dd69054b3bb5dd4c4ef8a4947043dc24cbe1e07"
+    },
+    {
+      "path": "reviewed-inputs/root_controller.py",
+      "bytes": 8487,
+      "sha256": "876b7b223a87c714d1e86e161d07995e7c5ec0880e74da4d3348e2a2452c9f74"
+    },
+    {
+      "path": "reviewed-inputs/source__protocol.py",
+      "bytes": 16284,
+      "sha256": "73994fcb9747b4461bc90b17f0ae1b12e4a064eaabc862d840938e984133a7de"
+    },
+    {
+      "path": "reviewed-inputs/source__run.py",
+      "bytes": 38754,
+      "sha256": "42d87bcde806f3418b8658e76e5ea37900914fd4c8600fcf6271970e25f8f4a8"
+    },
+    {
+      "path": "test_continuation.py",
+      "bytes": 8973,
+      "sha256": "d01e3a7de9521c4a8f38ed9f5f363cb48fc4f81ac10ef661471f68b6ab71e577"
+    }
+  ],
+  "runtime_actions": []
+}

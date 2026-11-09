@@ -1,0 +1,50 @@
+{
+  "status": "prepared-source-only; no native authority",
+  "files": [
+    {
+      "file": "core.py",
+      "sha256": "a98242dabb752a89f8da47814ea62313d1d64871afe50042f930875445e4f453",
+      "bytes": 12769
+    },
+    {
+      "file": "effects.py",
+      "sha256": "20d8a34e0d04e93080f70c5bc3499fe5835cb2d45feff4c5bb95a3fed6418cc9",
+      "bytes": 16403
+    },
+    {
+      "file": "run.py",
+      "sha256": "996f4073feb7460b004f190ac95228242ad8ab0d8e8537a80fc0cb9f69d2abc0",
+      "bytes": 28254
+    },
+    {
+      "file": "PLAN.md",
+      "sha256": "03fd5642d81dd87319e7c4a48a4d367089c37eb3672dd576671e58314de83f9a",
+      "bytes": 10983
+    },
+    {
+      "file": "test_workflow.py",
+      "sha256": "4b214f5fed8e7244684b0feab0d14b849b54de60289b4f82281c71939ad3c1b7",
+      "bytes": 5435
+    },
+    {
+      "file": "test_staged_driver.py",
+      "sha256": "f785d0e6e3be422f526af758e21cd3a15d59ed5a05a94cb90e595266b3bad456",
+      "bytes": 7202
+    },
+    {
+      "file": "local_controls.py",
+      "sha256": "0e46f4302865ab94ac554b9a646dee0dd3147dc849a3fcf1a0bb64ed3551d687",
+      "bytes": 7443
+    },
+    {
+      "file": "GRANT-REQUEST.json",
+      "sha256": "8f7e1f161349f0771cb82c162e8b53bed9607e82761606c1b2682a7d019f7e64",
+      "bytes": 5417
+    },
+    {
+      "file": "PREPARATION-VERIFICATION.json",
+      "sha256": "f18700efbbe8296b7ce4c0603cd4bc743f45d8c181e743a9a5262e897a872c1b",
+      "bytes": 837
+    }
+  ]
+}

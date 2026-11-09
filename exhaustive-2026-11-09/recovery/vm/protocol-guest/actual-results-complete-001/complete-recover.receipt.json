@@ -1,0 +1,15 @@
+{
+  "pid": 5050,
+  "exit": 0,
+  "process_started": true,
+  "known_stopped": true,
+  "target": "BARRIER PROTOCOL CLEAN_RECOVERY_UNMOUNTED",
+  "reached": true,
+  "kill_issued": false,
+  "natural_shutdown": true,
+  "exact_abrupt_cut": false,
+  "bytes": 77264,
+  "errors": [],
+  "parse_errors": [],
+  "utc_seconds": 1794241452.8032646
+}

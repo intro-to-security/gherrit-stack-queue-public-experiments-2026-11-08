@@ -1,0 +1,429 @@
+{
+  "scope": "Read-only exact historical evidence; no driver replay; original model failures retained as failures",
+  "cases": [
+    {
+      "id": "L02",
+      "status": "passed",
+      "disposition": "performed",
+      "outcome": "Eighteen repeated changing-parent A/B integrations matched independent exact trees, messages and B ownership.",
+      "evidence": [
+        "followup-runs/1794194615590036000/RESULTS.json#L02-L04"
+      ],
+      "exact_evidence_files": [
+        {
+          "reference": "followup-runs/1794194615590036000/RESULTS.json#L02-L04",
+          "exists": true,
+          "bytes": 63320,
+          "sha256": "9916f3ba459a03977f50f080bd390d5321905fa0f324fcd3b0d8857d5ba9dcbe"
+        }
+      ]
+    },
+    {
+      "id": "L03",
+      "status": "passed-negative-control",
+      "disposition": "performed",
+      "outcome": "Authored-baseline reuse conflicts; accepted-local-as-hosted baseline loses pending content.",
+      "evidence": [
+        "runs/20261108T221826-1794194306177964000/results.json#integration"
+      ],
+      "exact_evidence_files": [
+        {
+          "reference": "runs/20261108T221826-1794194306177964000/results.json#integration",
+          "exists": true,
+          "bytes": 84597,
+          "sha256": "a4e10653bdd74ea01664042ab2a5ca521717896f8ee5d4cd25c560948808f5fe"
+        }
+      ]
+    },
+    {
+      "id": "L04",
+      "status": "passed",
+      "disposition": "performed",
+      "outcome": "Three unchanged imports preserve exact tree; scratch commit identities may change.",
+      "evidence": [
+        "followup-runs/1794194615590036000/RESULTS.json#L02-L04"
+      ],
+      "exact_evidence_files": [
+        {
+          "reference": "followup-runs/1794194615590036000/RESULTS.json#L02-L04",
+          "exists": true,
+          "bytes": 63320,
+          "sha256": "9916f3ba459a03977f50f080bd390d5321905fa0f324fcd3b0d8857d5ba9dcbe"
+        }
+      ]
+    },
+    {
+      "id": "L06",
+      "status": "passed",
+      "disposition": "performed",
+      "outcome": "Rename with hosted edit, executable mode with hosted edit, deletion and binary local edit preserve exact modes/blob bytes.",
+      "evidence": [
+        "followup-runs/1794194615590036000/RESULTS.json#L06-L07"
+      ],
+      "exact_evidence_files": [
+        {
+          "reference": "followup-runs/1794194615590036000/RESULTS.json#L06-L07",
+          "exists": true,
+          "bytes": 63320,
+          "sha256": "9916f3ba459a03977f50f080bd390d5321905fa0f324fcd3b0d8857d5ba9dcbe"
+        }
+      ]
+    },
+    {
+      "id": "L07",
+      "status": "passed-expected-conflicts",
+      "disposition": "performed",
+      "outcome": "Rename/rename, modify/delete and binary/binary conflict explicitly with input objects and conflict trees pinned.",
+      "evidence": [
+        "followup-runs/1794194615590036000/RESULTS.json#L06-L07"
+      ],
+      "exact_evidence_files": [
+        {
+          "reference": "followup-runs/1794194615590036000/RESULTS.json#L06-L07",
+          "exists": true,
+          "bytes": 63320,
+          "sha256": "9916f3ba459a03977f50f080bd390d5321905fa0f324fcd3b0d8857d5ba9dcbe"
+        }
+      ]
+    },
+    {
+      "id": "L08",
+      "status": "passed-with-scope-limit",
+      "disposition": "performed",
+      "outcome": "Revert as new change and explicitly accepted reset retain intended trees and original objects; intent is supplied.",
+      "evidence": [
+        "runs/20261108T221826-1794194306177964000/results.json#ordinary_git",
+        "followup-runs/1794194615590036000/RESULTS.json#L05-L08"
+      ],
+      "exact_evidence_files": [
+        {
+          "reference": "runs/20261108T221826-1794194306177964000/results.json#ordinary_git",
+          "exists": true,
+          "bytes": 84597,
+          "sha256": "a4e10653bdd74ea01664042ab2a5ca521717896f8ee5d4cd25c560948808f5fe"
+        },
+        {
+          "reference": "followup-runs/1794194615590036000/RESULTS.json#L05-L08",
+          "exists": true,
+          "bytes": 63320,
+          "sha256": "9916f3ba459a03977f50f080bd390d5321905fa0f324fcd3b0d8857d5ba9dcbe"
+        }
+      ]
+    },
+    {
+      "id": "L10",
+      "status": "passed",
+      "disposition": "performed",
+      "outcome": "Captured continuation preserves dirty/staged/untracked bytes, moving source and old checkpoint; occupied name refuses.",
+      "evidence": [
+        "runs/20261108T221826-1794194306177964000/results.json#continuation"
+      ],
+      "exact_evidence_files": [
+        {
+          "reference": "runs/20261108T221826-1794194306177964000/results.json#continuation",
+          "exists": true,
+          "bytes": 84597,
+          "sha256": "a4e10653bdd74ea01664042ab2a5ca521717896f8ee5d4cd25c560948808f5fe"
+        }
+      ]
+    },
+    {
+      "id": "L11",
+      "status": "passed",
+      "disposition": "performed",
+      "outcome": "Eight original SIGKILL states plus repeated recovery send no duplicate; indeterminate stays blocked.",
+      "evidence": [
+        "runs/20261108T221826-1794194306177964000/results.json#fault_prefixes",
+        "followup-runs/1794194615590036000/RESULTS.json#L11"
+      ],
+      "exact_evidence_files": [
+        {
+          "reference": "runs/20261108T221826-1794194306177964000/results.json#fault_prefixes",
+          "exists": true,
+          "bytes": 84597,
+          "sha256": "a4e10653bdd74ea01664042ab2a5ca521717896f8ee5d4cd25c560948808f5fe"
+        },
+        {
+          "reference": "followup-runs/1794194615590036000/RESULTS.json#L11",
+          "exists": true,
+          "bytes": 63320,
+          "sha256": "9916f3ba459a03977f50f080bd390d5321905fa0f324fcd3b0d8857d5ba9dcbe"
+        }
+      ]
+    },
+    {
+      "id": "L12",
+      "status": "passed-with-scope-limit",
+      "disposition": "performed",
+      "outcome": "Missing bindings/checkpoint/pending manifest/op record withhold cooperative admission; full custody retains unknown guard and reconciles unique local receipt without resend.",
+      "evidence": [
+        "followup-runs/1794194615590036000/RESULTS.json#L12"
+      ],
+      "exact_evidence_files": [
+        {
+          "reference": "followup-runs/1794194615590036000/RESULTS.json#L12",
+          "exists": true,
+          "bytes": 63320,
+          "sha256": "9916f3ba459a03977f50f080bd390d5321905fa0f324fcd3b0d8857d5ba9dcbe"
+        }
+      ]
+    },
+    {
+      "id": "L13",
+      "status": "model-failure",
+      "disposition": "performed",
+      "outcome": "Acknowledged wrong ref/checkpoint refuses, but complete-record recovery and admission accept a deleted continuation ref or checkpoint.",
+      "evidence": [
+        "followup-runs/1794194615590036000/RESULTS.json#L13-L14"
+      ],
+      "exact_evidence_files": [
+        {
+          "reference": "followup-runs/1794194615590036000/RESULTS.json#L13-L14",
+          "exists": true,
+          "bytes": 63320,
+          "sha256": "9916f3ba459a03977f50f080bd390d5321905fa0f324fcd3b0d8857d5ba9dcbe"
+        }
+      ]
+    },
+    {
+      "id": "L14",
+      "status": "model-failure",
+      "disposition": "performed",
+      "outcome": "Deleting applied operation record makes direct worker recreate planned intent and resend (1\u21922), bypassing separately correct admission refusal.",
+      "evidence": [
+        "followup-runs/1794194615590036000/RESULTS.json#L13-L14"
+      ],
+      "exact_evidence_files": [
+        {
+          "reference": "followup-runs/1794194615590036000/RESULTS.json#L13-L14",
+          "exists": true,
+          "bytes": 63320,
+          "sha256": "9916f3ba459a03977f50f080bd390d5321905fa0f324fcd3b0d8857d5ba9dcbe"
+        }
+      ]
+    },
+    {
+      "id": "L15",
+      "status": "passed-with-scope-limit",
+      "disposition": "performed",
+      "outcome": "Seven real SIGKILL journal replacement prefixes retain complete old/new JSON; no power-loss inference.",
+      "evidence": [
+        "followup-runs/1794194615590036000/RESULTS.json#L15"
+      ],
+      "exact_evidence_files": [
+        {
+          "reference": "followup-runs/1794194615590036000/RESULTS.json#L15",
+          "exists": true,
+          "bytes": 63320,
+          "sha256": "9916f3ba459a03977f50f080bd390d5321905fa0f324fcd3b0d8857d5ba9dcbe"
+        }
+      ]
+    },
+    {
+      "id": "L16",
+      "status": "model-failure",
+      "disposition": "performed",
+      "outcome": "Simultaneous workers have no enforced owner fence and hit shared temporary-file or ref races; an earlier retained run also recorded duplicate dispatch.",
+      "evidence": [
+        "followup-runs/1794194615590036000/RESULTS.json#L16",
+        "followup-runs/1794194513334823000/RESULTS.json#L16"
+      ],
+      "exact_evidence_files": [
+        {
+          "reference": "followup-runs/1794194615590036000/RESULTS.json#L16",
+          "exists": true,
+          "bytes": 63320,
+          "sha256": "9916f3ba459a03977f50f080bd390d5321905fa0f324fcd3b0d8857d5ba9dcbe"
+        },
+        {
+          "reference": "followup-runs/1794194513334823000/RESULTS.json#L16",
+          "exists": true,
+          "bytes": 63324,
+          "sha256": "7e582e53979fb046c1b820adf70fdf414978d3bd3860bacc8fdc15ac401fe24f"
+        }
+      ]
+    },
+    {
+      "id": "L17",
+      "status": "passed",
+      "disposition": "performed",
+      "outcome": "Two divergent concurrent head/archive writers yield one coupled winner and no partial loser ref.",
+      "evidence": [
+        "followup-runs/1794194615590036000/RESULTS.json#L17-L18"
+      ],
+      "exact_evidence_files": [
+        {
+          "reference": "followup-runs/1794194615590036000/RESULTS.json#L17-L18",
+          "exists": true,
+          "bytes": 63320,
+          "sha256": "9916f3ba459a03977f50f080bd390d5321905fa0f324fcd3b0d8857d5ba9dcbe"
+        }
+      ]
+    },
+    {
+      "id": "L18",
+      "status": "passed-negative-control",
+      "disposition": "performed",
+      "outcome": "Same-target concurrent attempts can race; after the winner, identical stale-lease retry reports both refs up to date and succeeds.",
+      "evidence": [
+        "followup-runs/1794194615590036000/RESULTS.json#L17-L18",
+        "followup-runs/1794194615590036000/commands.jsonl"
+      ],
+      "exact_evidence_files": [
+        {
+          "reference": "followup-runs/1794194615590036000/RESULTS.json#L17-L18",
+          "exists": true,
+          "bytes": 63320,
+          "sha256": "9916f3ba459a03977f50f080bd390d5321905fa0f324fcd3b0d8857d5ba9dcbe"
+        },
+        {
+          "reference": "followup-runs/1794194615590036000/commands.jsonl",
+          "exists": true,
+          "bytes": 96284,
+          "sha256": "b5e563bf74b5892136128b881c6207e9d8a4d4b06fb7834a9bb7ea443f8fd25f"
+        }
+      ]
+    },
+    {
+      "id": "L19",
+      "status": "passed",
+      "disposition": "performed",
+      "outcome": "Stale head lease atomically rejects otherwise valid archive creation.",
+      "evidence": [
+        "followup-runs/1794194615590036000/RESULTS.json#L19-L21"
+      ],
+      "exact_evidence_files": [
+        {
+          "reference": "followup-runs/1794194615590036000/RESULTS.json#L19-L21",
+          "exists": true,
+          "bytes": 63320,
+          "sha256": "9916f3ba459a03977f50f080bd390d5321905fa0f324fcd3b0d8857d5ba9dcbe"
+        }
+      ]
+    },
+    {
+      "id": "L20",
+      "status": "passed-negative-control",
+      "disposition": "performed",
+      "outcome": "Stale lease on an unchanged equal head is omitted as a guard while a new archive is written.",
+      "evidence": [
+        "followup-runs/1794194615590036000/RESULTS.json#L19-L21",
+        "followup-runs/1794194615590036000/git-equal-ref/packet.trace"
+      ],
+      "exact_evidence_files": [
+        {
+          "reference": "followup-runs/1794194615590036000/RESULTS.json#L19-L21",
+          "exists": true,
+          "bytes": 63320,
+          "sha256": "9916f3ba459a03977f50f080bd390d5321905fa0f324fcd3b0d8857d5ba9dcbe"
+        },
+        {
+          "reference": "followup-runs/1794194615590036000/git-equal-ref/packet.trace",
+          "exists": true,
+          "bytes": 1940,
+          "sha256": "ec4281b68f27669699a2d6479c1e65353d40e8e0708644ca4b5ba9c948c99b85"
+        }
+      ]
+    },
+    {
+      "id": "L21",
+      "status": "passed-negative-control",
+      "disposition": "performed",
+      "outcome": "Old\u2192intervening\u2192old ABA sequence permits old-value lease; no generation/ownership claim follows.",
+      "evidence": [
+        "followup-runs/1794194615590036000/RESULTS.json#L19-L21"
+      ],
+      "exact_evidence_files": [
+        {
+          "reference": "followup-runs/1794194615590036000/RESULTS.json#L19-L21",
+          "exists": true,
+          "bytes": 63320,
+          "sha256": "9916f3ba459a03977f50f080bd390d5321905fa0f324fcd3b0d8857d5ba9dcbe"
+        }
+      ]
+    },
+    {
+      "id": "L28",
+      "status": "model-failure",
+      "disposition": "performed",
+      "outcome": "Two real processes cache planned; first completes; stale second then resumes: both exit 0, serialized emulator records two requests.",
+      "evidence": [
+        "adversarial-runs/1794194807723389000/RESULTS.json#L28"
+      ],
+      "exact_evidence_files": [
+        {
+          "reference": "adversarial-runs/1794194807723389000/RESULTS.json#L28",
+          "exists": true,
+          "bytes": 2899,
+          "sha256": "5bff27561a89d43dccdf5644f3747a6650d9432c4931a4556bc4d9de3520164e"
+        }
+      ]
+    },
+    {
+      "id": "L29",
+      "status": "model-failure",
+      "disposition": "performed",
+      "outcome": "Custody admission permits a complete record whose operation ID disagrees with the pending manifest.",
+      "evidence": [
+        "adversarial-runs/1794194807723389000/RESULTS.json#L29"
+      ],
+      "exact_evidence_files": [
+        {
+          "reference": "adversarial-runs/1794194807723389000/RESULTS.json#L29",
+          "exists": true,
+          "bytes": 2899,
+          "sha256": "5bff27561a89d43dccdf5644f3747a6650d9432c4931a4556bc4d9de3520164e"
+        }
+      ]
+    },
+    {
+      "id": "L30",
+      "status": "passed-with-scope-limit",
+      "disposition": "performed",
+      "outcome": "File-fsync failure leaves old JSON; directory-fsync failure raises after new JSON is visible. Exceptions do not imply no effect.",
+      "evidence": [
+        "adversarial-runs/1794194807723389000/RESULTS.json#L30"
+      ],
+      "exact_evidence_files": [
+        {
+          "reference": "adversarial-runs/1794194807723389000/RESULTS.json#L30",
+          "exists": true,
+          "bytes": 2899,
+          "sha256": "5bff27561a89d43dccdf5644f3747a6650d9432c4931a4556bc4d9de3520164e"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "path": "experiments/native-stacks-followup-2026-11-08/local/RESULTS.json",
+      "bytes": 33295,
+      "sha256": "cba2a4d33a18876b8b0d0cdead724ab3794c43ebcf3b6dd529aac1fe8ed59304"
+    },
+    {
+      "path": "experiments/native-stacks-followup-2026-11-08/local/CASE-MATRIX.md",
+      "bytes": 4862,
+      "sha256": "5f81f68a4d7a17f6ef5221de6788fda3115f9351b1adec27746cdabc28a94d43"
+    },
+    {
+      "path": "experiments/native-stacks-followup-2026-11-08/local/PLAN.md",
+      "bytes": 8225,
+      "sha256": "f30aa92ed9479e3d69a6144b5563ddc79ec38cfadbffead396ac43fe10dffd94"
+    },
+    {
+      "path": "experiments/native-stacks-followup-2026-11-08/local/baseline-harness.py",
+      "bytes": 46711,
+      "sha256": "548714fe2959e48dfd61286683a4773405affc23b2591e2a48637c5c76ebb7e3"
+    },
+    {
+      "path": "experiments/native-stacks-followup-2026-11-08/local/followup.py",
+      "bytes": 32874,
+      "sha256": "e398314d5fc8a4c14a091839b3fdcd3601fd2d5d6e86f9b0a5c2c66cb4b03b83"
+    },
+    {
+      "path": "experiments/native-stacks-followup-2026-11-08/local/recovery_adversarial.py",
+      "bytes": 6111,
+      "sha256": "f949c210205d7d556cd9398ac1b5306513c5f808e4d557ff8b8acf5f4c685c3c"
+    }
+  ]
+}

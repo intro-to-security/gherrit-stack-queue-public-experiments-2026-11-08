@@ -1,0 +1,77 @@
+{
+  "at": "2026-11-09T16:55:46.460893+00:00",
+  "missing_receipts": [],
+  "new_native_mutations": [
+    {
+      "GraphQL_errors": null,
+      "ended": "2026-11-09T16:53:32.799988+00:00",
+      "exit": 0,
+      "http": 200,
+      "intent": "rebase-B-once.intent.json",
+      "kind": "update-branch",
+      "method": "POST",
+      "path": "graphql",
+      "payload": {
+        "query": "mutation WorkflowUpdate($input: UpdatePullRequestBranchInput!) {\n  updatePullRequestBranch(input: $input) {\n    clientMutationId\n    pullRequest { id number headRefOid baseRefName baseRefOid\n      stack { id number size baseRefName } }\n  }\n}",
+        "variables": {
+          "input": {
+            "clientMutationId": "exh-1109-workflow-gql-partial-001-continuation-001-B",
+            "expectedHeadOid": "74cd012a960d3525e00727be30dbfd6fc0b170b5",
+            "pullRequestId": "PR_kwDOVnhIZ88AAAABN5WSkQ",
+            "updateMethod": "REBASE"
+          }
+        }
+      },
+      "receipt": "rebase-B-once.receipt.json",
+      "started": "2026-11-09T16:53:29.947478+00:00"
+    },
+    {
+      "GraphQL_errors": [
+        {
+          "locations": [
+            {
+              "column": 3,
+              "line": 2
+            }
+          ],
+          "message": "PullRequest::RebaseConflictError",
+          "path": [
+            "updatePullRequestBranch"
+          ],
+          "type": "UNPROCESSABLE"
+        }
+      ],
+      "ended": "2026-11-09T16:53:41.761949+00:00",
+      "exit": 1,
+      "http": 200,
+      "intent": "rebase-C-once.intent.json",
+      "kind": "update-branch",
+      "method": "POST",
+      "path": "graphql",
+      "payload": {
+        "query": "mutation WorkflowUpdate($input: UpdatePullRequestBranchInput!) {\n  updatePullRequestBranch(input: $input) {\n    clientMutationId\n    pullRequest { id number headRefOid baseRefName baseRefOid\n      stack { id number size baseRefName } }\n  }\n}",
+        "variables": {
+          "input": {
+            "clientMutationId": "exh-1109-workflow-gql-partial-001-continuation-001-C",
+            "expectedHeadOid": "dca811f5d210b004f6229ea1134f3fb49f1cba44",
+            "pullRequestId": "PR_kwDOVnhIZ88AAAABN5WURw",
+            "updateMethod": "REBASE"
+          }
+        }
+      },
+      "receipt": "rebase-C-once.receipt.json",
+      "started": "2026-11-09T16:53:41.048814+00:00"
+    }
+  ],
+  "new_pushes_or_creates": 0,
+  "new_update_dispatches": 2,
+  "no_mutating_retry": true,
+  "original_six_writes_unchanged": true,
+  "total_across_separate_grants": {
+    "Git_pushes": 2,
+    "PR_creates": 3,
+    "native_group_creates": 1,
+    "selected_REBASE": 2
+  },
+  "unknown_mutating_acknowledgements": []
+}

@@ -1,0 +1,11 @@
+{
+  "at": "2026-11-09T16:51:44.580670+00:00",
+  "tests": 4,
+  "passed": true,
+  "stdout": "",
+  "stderr": "test_grant_binds_old_freeze_new_source_and_update_only_scope (test_continue.ContinuationControls) ... ok\ntest_guard_cannot_create_push_or_target_foreign_selected_member (test_continue.ContinuationControls) ... ok\ntest_original_writes_must_all_have_receipts_and_no_update_intent (test_continue.ContinuationControls) ... ok\ntest_stale_base_oid_is_only_an_observation_with_exact_actual_vector (test_continue.ContinuationControls) ... ok\n\n----------------------------------------------------------------------\nRan 4 tests in 0.038s\n\nOK\n",
+  "original_bindings_unchanged": true,
+  "original_B_C_intents": 0,
+  "native_effects": [],
+  "scope": "Retained actual projection witness and pure copied metadata/guard controls only. No network or hosted requests, no original case/log rewrite."
+}

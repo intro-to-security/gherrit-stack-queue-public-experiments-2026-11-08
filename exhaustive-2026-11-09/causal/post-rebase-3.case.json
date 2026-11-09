@@ -1,0 +1,64 @@
+{
+  "name": "post-rebase-3",
+  "prefix": "exh-1109-causal-post-rebase-3",
+  "method": "rebase",
+  "timing": "post",
+  "created": {
+    "utc": "2026-11-09T13:50:58.246029+00:00",
+    "monotonic": 0.020900916
+  },
+  "prs": {
+    "A": 569,
+    "B": 570,
+    "C": 571,
+    "D": 572
+  },
+  "heads": {
+    "A": {
+      "ref": "exh-1109-causal-post-rebase-3/A",
+      "sha": "a82ea80add95dc5deb40fadf34babb6a3a5d9e35"
+    },
+    "B": {
+      "ref": "exh-1109-causal-post-rebase-3/B",
+      "sha": "372191f4a1a9a91a9b5af44fba2d36c00c297fae"
+    },
+    "C": {
+      "ref": "exh-1109-causal-post-rebase-3/C",
+      "sha": "4a18141a06410832befedc3fdc79924a0f57a2cc"
+    },
+    "D": {
+      "ref": "exh-1109-causal-post-rebase-3/D",
+      "sha": "cd36e1197abdbd0283f8666b82f5b6aa34b4b7ca"
+    }
+  },
+  "phase": "frozen-requires-reconciliation",
+  "trunk_sha": "f9895ac040ba94578a8a23a24c397e54b1e1f037",
+  "trunk": "exh-1109-causal-post-rebase-3/trunk",
+  "stack": 573,
+  "merge_uuid": "f8686d48-7d9a-4368-87e9-243f0c475c81",
+  "terminal": {
+    "kind": "http",
+    "method": "GET",
+    "path": "repos/joshlf/gherrit-native-stack-experiments-2026-11-08/pulls/569/merge-async/f8686d48-7d9a-4368-87e9-243f0c475c81",
+    "payload": null,
+    "start": {
+      "utc": "2026-11-09T13:51:16.061422+00:00",
+      "monotonic": 17.836073208
+    },
+    "end": {
+      "utc": "2026-11-09T13:51:16.366397+00:00",
+      "monotonic": 18.141048791
+    },
+    "exit": 0,
+    "http": 200,
+    "data": {
+      "status": "merged",
+      "details": {
+        "message": "Pull request was merged.",
+        "sha": "3b73f10efc39c04495cbf10d4fe193c82d2c49a2"
+      }
+    },
+    "disposition": "response-retained"
+  },
+  "stop_reason": "Push failed or outcome uncertain; freeze and reconcile post-rebase-3-marker-push"
+}

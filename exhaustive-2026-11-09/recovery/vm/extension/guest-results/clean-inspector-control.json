@@ -1,0 +1,49 @@
+{
+  "records": {
+    "stage": 4,
+    "verdict": {
+      "kind": "active-valid-ignore-unpublished-temp",
+      "active": {
+        "present": true,
+        "bytes": 65672,
+        "sha256": "033372e5419729bc2c7660fe7c13cecadaa3cfae5fd292344edf3d95d0457e34",
+        "valid": true,
+        "generation": 1,
+        "full_expected_bytes": true,
+        "checksum_matches": true
+      },
+      "unpublished_temporary": {
+        "present": false,
+        "valid": false
+      },
+      "scope": "local file protocol only; no hosted dispatch authority"
+    },
+    "checks": {
+      "expected_kind": true,
+      "retained_old_exact": true,
+      "directory_synced_new_exact": true,
+      "renamed_temporary_absent": true
+    },
+    "expected": true
+  },
+  "fsck": {
+    "exit": 0,
+    "stdout": "Pass 1: Checking inodes, blocks, and sizes\nPass 2: Checking directory structure\nPass 3: Checking directory connectivity\nPass 4: Checking reference counts\nPass 5: Checking group summary information\n/lab/extension/results/clean-inspector-control.raw: 15/8192 files (6.7% non-contiguous), 1585/8192 blocks\n",
+    "stderr": "e2fsck 1.46.5 (30-Dec-2021)\n",
+    "repair": false,
+    "diagnostics": {
+      "exit": 0,
+      "diagnostic_lines": [],
+      "clean_diagnostics": true,
+      "scope": "After stated inspector path; exit zero alone is insufficient"
+    }
+  },
+  "archive": {
+    "raw_sha256": "9b1d3889032a0664db22040fca0588df36ee484d4ba51b74c4c7a38de4fbdd03",
+    "gzip_sha256": "21436c4d0bc19d0334ac0a86d3913eff6a3f525f6004b044371ec050e76bc48d",
+    "gzip_bytes": 152384,
+    "lossless_verified": true,
+    "path": "clean-inspector-post.raw.gz"
+  },
+  "boundary": "rw journal replay then successful guest umount and poweroff; no inspector SIGKILL"
+}

@@ -1,0 +1,65 @@
+{
+  "files": [
+    {
+      "path": "CASE-MATRIX.md",
+      "bytes": 4007,
+      "sha256": "7e3d048374ba33d777f133c6c3eebefa419b3c4169aae410e8c78889204f51de"
+    },
+    {
+      "path": "OBJECT-VERIFICATION.json",
+      "bytes": 20262,
+      "sha256": "874eb4c38a1435dbea107075d21ef858e2a987872a73ef01d5ca58f9cb73b116"
+    },
+    {
+      "path": "PLAN.md",
+      "bytes": 7150,
+      "sha256": "ae84aa3d96a0963f99c3835bda93a096143233bf0f21f19bf1d725bde5e5478c"
+    },
+    {
+      "path": "PRIOR-EVIDENCE.json",
+      "bytes": 15772,
+      "sha256": "7388316ac3ed5904c3e36696f54f7777b61d8cdfdb0d5a1ffa756216b804d1cc"
+    },
+    {
+      "path": "RESULTS.json",
+      "bytes": 5939,
+      "sha256": "cb9bb1747c1d7ffe089fb70e589dcaa8c2f24a57e29b43733a577df81c8311f8"
+    },
+    {
+      "path": "RESULTS.md",
+      "bytes": 9911,
+      "sha256": "c233432e02a0eeae2ea7fd3899f7f1127b5d46cb423b02bc1745ffa9a9655630"
+    },
+    {
+      "path": "VM-NOTES.md",
+      "bytes": 1819,
+      "sha256": "56fb440ccd56552dbef24baf582a8103902058e4f846fdda804d0f9756dd0b27"
+    },
+    {
+      "path": "VM-PLAN.md",
+      "bytes": 4762,
+      "sha256": "50e39ed9c7870ccad29d4a47d2538ba8fa6cf3cc2f71ffea1832b33daa3094e1"
+    },
+    {
+      "path": "latest-run.json",
+      "bytes": 623,
+      "sha256": "0fab9b236bfc4982659549528f20145aa6953d07bcc9c292994e5ccab00aa270"
+    },
+    {
+      "path": "protocol.py",
+      "bytes": 16284,
+      "sha256": "73994fcb9747b4461bc90b17f0ae1b12e4a064eaabc862d840938e984133a7de"
+    },
+    {
+      "path": "run.py",
+      "bytes": 38754,
+      "sha256": "42d87bcde806f3418b8658e76e5ea37900914fd4c8600fcf6271970e25f8f4a8"
+    },
+    {
+      "path": "verify.py",
+      "bytes": 1597,
+      "sha256": "851f86ef362feab635d7f155c8a6bd93d668025adc3f3b3e1ac3b181c8b0ff48"
+    }
+  ],
+  "excluded": "root-owned vm subtree and generated fixture trees; run snapshots have their own source hashes"
+}

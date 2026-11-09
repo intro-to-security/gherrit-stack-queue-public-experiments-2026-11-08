@@ -1,0 +1,36 @@
+{
+  "native_operations_retained": [
+    {
+      "layer": "A",
+      "result": {
+        "details": {
+          "message": "Pull request was merged.",
+          "sha": "83ad35f2b53fa0aadd5fb7ec229c5d1148b7a662"
+        },
+        "status": "merged"
+      },
+      "selected_sha": "c0efc5664c2562865ed1039b2c9a0d2a1e46f69a",
+      "submission": "land-old-A-submit",
+      "suffix_settlement": "not established by this experiment"
+    },
+    {
+      "layer": "F",
+      "result": {
+        "details": {
+          "message": "Pull request was merged.",
+          "sha": "cf92c03b37f17a3ba8e3bf52d4961e00e3852b4c"
+        },
+        "status": "merged"
+      },
+      "selected_sha": "9d8e469be83fd3863c92ee3dafdf0b0485806d43",
+      "submission": "land-F-submit",
+      "suffix_settlement": "not established by this experiment"
+    }
+  ],
+  "not_native_rebase_evidence": true,
+  "pending_local": {
+    "base": "cf92c03b37f17a3ba8e3bf52d4961e00e3852b4c",
+    "tip": "fd8ce6411d635cfab3b933ed2980989d2be4528a"
+  },
+  "producer": "ordinary Git synthetic collaborator control"
+}

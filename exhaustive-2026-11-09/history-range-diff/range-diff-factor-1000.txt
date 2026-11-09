@@ -1,0 +1,14 @@
+1:  577c03e ! 1:  bbdc658 History v1
+    @@ Metadata
+     Author: Josh Liebow-Feeser <hello@joshlf.com>
+     
+      ## Commit message ##
+    -    History v1
+    +    History v2
+     
+         Agent-authored-by: AI agent acting on joshlf's behalf
+     
+      ## history-change.txt (new) ##
+     @@
+    -+authored value = 1
+    ++authored value = 2

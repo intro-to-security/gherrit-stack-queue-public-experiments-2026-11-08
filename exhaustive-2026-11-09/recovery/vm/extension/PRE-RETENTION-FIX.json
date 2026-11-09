@@ -1,0 +1,5 @@
+{
+  "snapshot": "reviewed-source/1794237033542321000",
+  "manifest_sha256": "050ed0c122c0ef99fd99f29b0ad8945711b27b83684ca74cf5cd0510958c461d",
+  "meaning": "Exact source and checks reviewed before the narrow archive/directory durability and controller exit fix"
+}

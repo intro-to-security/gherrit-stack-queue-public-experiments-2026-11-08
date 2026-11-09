@@ -1,0 +1,1661 @@
+{
+  "behaviors": {},
+  "case": "gql-native-lower",
+  "checkpoints": {},
+  "checks": [
+    {
+      "actual": true,
+      "expected": true,
+      "label": "Recorded experiment assertions",
+      "passed": true
+    },
+    {
+      "actual": "PR_kwDOVnhIZ88AAAABN3kwUQ",
+      "expected": "PR_kwDOVnhIZ88AAAABN3kwUQ",
+      "label": "A canonical node",
+      "passed": true
+    },
+    {
+      "actual": "Isolated synthetic gql-native-lower fixture, layer A.\n\n*Authored by an AI agent acting on joshlf's behalf.*",
+      "expected": "Isolated synthetic gql-native-lower fixture, layer A.\n\n*Authored by an AI agent acting on joshlf's behalf.*",
+      "label": "A canonical prose",
+      "passed": true
+    },
+    {
+      "actual": "55b533c0545502593f39a628ee6e4e92ba73b73a",
+      "expected": "55b533c0545502593f39a628ee6e4e92ba73b73a",
+      "label": "A PR head agrees with ref",
+      "passed": true
+    },
+    {
+      "actual": "open",
+      "expected": "open",
+      "label": "A expected final lifecycle",
+      "passed": true
+    },
+    {
+      "actual": "PR_kwDOVnhIZ88AAAABN3kxXg",
+      "expected": "PR_kwDOVnhIZ88AAAABN3kxXg",
+      "label": "B canonical node",
+      "passed": true
+    },
+    {
+      "actual": "Isolated synthetic gql-native-lower fixture, layer B.\n\n*Authored by an AI agent acting on joshlf's behalf.*",
+      "expected": "Isolated synthetic gql-native-lower fixture, layer B.\n\n*Authored by an AI agent acting on joshlf's behalf.*",
+      "label": "B canonical prose",
+      "passed": true
+    },
+    {
+      "actual": "bbf521f8efb3d15f75afdead6d35f480a57eb82e",
+      "expected": "bbf521f8efb3d15f75afdead6d35f480a57eb82e",
+      "label": "B PR head agrees with ref",
+      "passed": true
+    },
+    {
+      "actual": "open",
+      "expected": "open",
+      "label": "B expected final lifecycle",
+      "passed": true
+    },
+    {
+      "actual": "PR_kwDOVnhIZ88AAAABN3kygQ",
+      "expected": "PR_kwDOVnhIZ88AAAABN3kygQ",
+      "label": "C canonical node",
+      "passed": true
+    },
+    {
+      "actual": "Isolated synthetic gql-native-lower fixture, layer C.\n\n*Authored by an AI agent acting on joshlf's behalf.*",
+      "expected": "Isolated synthetic gql-native-lower fixture, layer C.\n\n*Authored by an AI agent acting on joshlf's behalf.*",
+      "label": "C canonical prose",
+      "passed": true
+    },
+    {
+      "actual": "ddbd0fa24bbf1b268162a5db1e0944f6db2504e3",
+      "expected": "ddbd0fa24bbf1b268162a5db1e0944f6db2504e3",
+      "label": "C PR head agrees with ref",
+      "passed": true
+    },
+    {
+      "actual": "open",
+      "expected": "open",
+      "label": "C expected final lifecycle",
+      "passed": true
+    },
+    {
+      "actual": [],
+      "expected": [],
+      "label": "Every referenced local object retained",
+      "passed": true
+    },
+    {
+      "actual": [],
+      "expected": [],
+      "label": "Every dispatched mutation has a retained receipt",
+      "passed": true
+    },
+    {
+      "actual": 0,
+      "expected": 0,
+      "label": "Git object graph integrity",
+      "passed": true
+    }
+  ],
+  "experiment_assertion_count": 19,
+  "freeze": null,
+  "fresh_observation": {
+    "prs": {
+      "A": {
+        "graphql": {
+          "data": {
+            "repository": {
+              "pullRequest": {
+                "baseRefName": "exh-1109-workflow-gql-native-lower-71519433/trunk",
+                "baseRefOid": "87993f2018757147086c870686d36daf82cbdc2c",
+                "headRefName": "exh-1109-workflow-gql-native-lower-71519433/A",
+                "headRefOid": "55b533c0545502593f39a628ee6e4e92ba73b73a",
+                "id": "PR_kwDOVnhIZ88AAAABN3kwUQ",
+                "mergeStateStatus": "CLEAN",
+                "mergeable": "MERGEABLE",
+                "merged": false,
+                "number": 618,
+                "stack": {
+                  "baseRefName": "exh-1109-workflow-gql-native-lower-71519433/trunk",
+                  "entries": {
+                    "nodes": [
+                      {
+                        "position": 1,
+                        "pullRequest": {
+                          "baseRefName": "exh-1109-workflow-gql-native-lower-71519433/trunk",
+                          "headRefName": "exh-1109-workflow-gql-native-lower-71519433/A",
+                          "headRefOid": "55b533c0545502593f39a628ee6e4e92ba73b73a",
+                          "id": "PR_kwDOVnhIZ88AAAABN3kwUQ",
+                          "number": 618
+                        }
+                      },
+                      {
+                        "position": 2,
+                        "pullRequest": {
+                          "baseRefName": "exh-1109-workflow-gql-native-lower-71519433/A",
+                          "headRefName": "exh-1109-workflow-gql-native-lower-71519433/B",
+                          "headRefOid": "bbf521f8efb3d15f75afdead6d35f480a57eb82e",
+                          "id": "PR_kwDOVnhIZ88AAAABN3kxXg",
+                          "number": 619
+                        }
+                      },
+                      {
+                        "position": 3,
+                        "pullRequest": {
+                          "baseRefName": "exh-1109-workflow-gql-native-lower-71519433/B",
+                          "headRefName": "exh-1109-workflow-gql-native-lower-71519433/C",
+                          "headRefOid": "ddbd0fa24bbf1b268162a5db1e0944f6db2504e3",
+                          "id": "PR_kwDOVnhIZ88AAAABN3kygQ",
+                          "number": 620
+                        }
+                      }
+                    ],
+                    "pageInfo": {
+                      "endCursor": "Mw",
+                      "hasNextPage": false
+                    }
+                  },
+                  "id": "PRS_kwDOVnhIZ84AMYvX",
+                  "number": 621,
+                  "size": 3
+                },
+                "state": "OPEN",
+                "timelineItems": {
+                  "nodes": [
+                    {
+                      "__typename": "AddedToStackEvent"
+                    },
+                    {
+                      "__typename": "PullRequestCommit"
+                    },
+                    {
+                      "__typename": "HeadRefForcePushedEvent",
+                      "actor": {
+                        "login": "joshlf"
+                      },
+                      "afterCommit": {
+                        "oid": "55b533c0545502593f39a628ee6e4e92ba73b73a"
+                      },
+                      "beforeCommit": {
+                        "oid": "f91404d352a17ee81437224fe1a08080a14221b4"
+                      },
+                      "createdAt": "2026-11-09T14:39:40Z",
+                      "id": "HRFPE_lADOVnhIZ88AAAABds4v1c8AAAAISK2Dgg",
+                      "ref": {
+                        "name": "exh-1109-workflow-gql-native-lower-71519433/A"
+                      }
+                    }
+                  ],
+                  "pageInfo": {
+                    "endCursor": "Y3Vyc29yOnYyOpPPAAABocDAI-ABqzM1NTc5MDY5MzE0",
+                    "hasNextPage": false
+                  }
+                }
+              }
+            }
+          }
+        },
+        "rest": {
+          "_links": {
+            "comments": {
+              "href": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/issues/618/comments"
+            },
+            "commits": {
+              "href": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/pulls/618/commits"
+            },
+            "html": {
+              "href": "https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08/pull/618"
+            },
+            "issue": {
+              "href": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/issues/618"
+            },
+            "review_comment": {
+              "href": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/pulls/comments{/number}"
+            },
+            "review_comments": {
+              "href": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/pulls/618/comments"
+            },
+            "self": {
+              "href": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/pulls/618"
+            },
+            "statuses": {
+              "href": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/statuses/55b533c0545502593f39a628ee6e4e92ba73b73a"
+            }
+          },
+          "active_lock_reason": null,
+          "additions": 1,
+          "assignees": [],
+          "author_association": "OWNER",
+          "auto_merge": null,
+          "base": {
+            "label": "joshlf:exh-1109-workflow-gql-native-lower-71519433/trunk",
+            "ref": "exh-1109-workflow-gql-native-lower-71519433/trunk",
+            "repo": {
+              "allow_forking": true,
+              "archive_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/{archive_format}{/ref}",
+              "archived": false,
+              "assignees_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/assignees{/user}",
+              "blobs_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/git/blobs{/sha}",
+              "branches_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/branches{/branch}",
+              "clone_url": "https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08.git",
+              "collaborators_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/collaborators{/collaborator}",
+              "comments_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/comments{/number}",
+              "commits_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/commits{/sha}",
+              "compare_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/compare/{base}...{head}",
+              "contents_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/contents/{+path}",
+              "contributors_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/contributors",
+              "created_at": "2026-11-08T22:42:42Z",
+              "default_branch": "main",
+              "deployments_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/deployments",
+              "description": "Synthetic GHerrit native stacked PR experiments; evidence for joshlf/gherrit#518",
+              "disabled": false,
+              "downloads_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/downloads",
+              "events_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/events",
+              "fork": false,
+              "forks": 0,
+              "forks_count": 0,
+              "forks_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/forks",
+              "full_name": "joshlf/gherrit-native-stack-experiments-2026-11-08",
+              "git_commits_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/git/commits{/sha}",
+              "git_refs_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/git/refs{/sha}",
+              "git_tags_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/git/tags{/sha}",
+              "git_url": "git://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08.git",
+              "has_discussions": false,
+              "has_issues": true,
+              "has_pages": false,
+              "has_projects": true,
+              "has_pull_requests": true,
+              "has_wiki": true,
+              "homepage": null,
+              "hooks_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/hooks",
+              "html_url": "https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08",
+              "id": 1450723431,
+              "is_template": false,
+              "issue_comment_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/issues/comments{/number}",
+              "issue_events_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/issues/events{/number}",
+              "issues_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/issues{/number}",
+              "keys_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/keys{/key_id}",
+              "labels_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/labels{/name}",
+              "language": "Python",
+              "languages_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/languages",
+              "license": null,
+              "merges_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/merges",
+              "milestones_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/milestones{/number}",
+              "mirror_url": null,
+              "name": "gherrit-native-stack-experiments-2026-11-08",
+              "node_id": "R_kgDOVnhIZw",
+              "notifications_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/notifications{?since,all,participating}",
+              "open_issues": 496,
+              "open_issues_count": 496,
+              "owner": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1046063?v=4",
+                "events_url": "https://api.github.com/users/joshlf/events{/privacy}",
+                "followers_url": "https://api.github.com/users/joshlf/followers",
+                "following_url": "https://api.github.com/users/joshlf/following{/other_user}",
+                "gists_url": "https://api.github.com/users/joshlf/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/joshlf",
+                "id": 1046063,
+                "login": "joshlf",
+                "node_id": "MDQ6VXNlcjEwNDYwNjM=",
+                "organizations_url": "https://api.github.com/users/joshlf/orgs",
+                "received_events_url": "https://api.github.com/users/joshlf/received_events",
+                "repos_url": "https://api.github.com/users/joshlf/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/joshlf/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/joshlf/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/joshlf",
+                "user_view_type": "public"
+              },
+              "private": false,
+              "pull_request_creation_policy": "all",
+              "pulls_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/pulls{/number}",
+              "pushed_at": "2026-11-09T14:59:42Z",
+              "releases_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/releases{/id}",
+              "size": 456,
+              "ssh_url": "git@github.com:joshlf/gherrit-native-stack-experiments-2026-11-08.git",
+              "stargazers_count": 0,
+              "stargazers_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/stargazers",
+              "statuses_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/statuses/{sha}",
+              "subscribers_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/subscribers",
+              "subscription_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/subscription",
+              "svn_url": "https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08",
+              "tags_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/tags",
+              "teams_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/teams",
+              "topics": [],
+              "trees_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/git/trees{/sha}",
+              "updated_at": "2026-11-09T04:17:54Z",
+              "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08",
+              "visibility": "public",
+              "watchers": 0,
+              "watchers_count": 0,
+              "web_commit_signoff_required": false
+            },
+            "sha": "87993f2018757147086c870686d36daf82cbdc2c",
+            "user": {
+              "avatar_url": "https://avatars.githubusercontent.com/u/1046063?v=4",
+              "events_url": "https://api.github.com/users/joshlf/events{/privacy}",
+              "followers_url": "https://api.github.com/users/joshlf/followers",
+              "following_url": "https://api.github.com/users/joshlf/following{/other_user}",
+              "gists_url": "https://api.github.com/users/joshlf/gists{/gist_id}",
+              "gravatar_id": "",
+              "html_url": "https://github.com/joshlf",
+              "id": 1046063,
+              "login": "joshlf",
+              "node_id": "MDQ6VXNlcjEwNDYwNjM=",
+              "organizations_url": "https://api.github.com/users/joshlf/orgs",
+              "received_events_url": "https://api.github.com/users/joshlf/received_events",
+              "repos_url": "https://api.github.com/users/joshlf/repos",
+              "site_admin": false,
+              "starred_url": "https://api.github.com/users/joshlf/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/joshlf/subscriptions",
+              "type": "User",
+              "url": "https://api.github.com/users/joshlf",
+              "user_view_type": "public"
+            }
+          },
+          "body": "Isolated synthetic gql-native-lower fixture, layer A.\n\n*Authored by an AI agent acting on joshlf's behalf.*",
+          "changed_files": 1,
+          "closed_at": null,
+          "comments": 0,
+          "comments_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/issues/618/comments",
+          "commits": 1,
+          "commits_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/pulls/618/commits",
+          "created_at": "2026-11-09T14:39:07Z",
+          "deletions": 0,
+          "diff_url": "https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08/pull/618.diff",
+          "draft": false,
+          "head": {
+            "label": "joshlf:exh-1109-workflow-gql-native-lower-71519433/A",
+            "ref": "exh-1109-workflow-gql-native-lower-71519433/A",
+            "repo": {
+              "allow_forking": true,
+              "archive_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/{archive_format}{/ref}",
+              "archived": false,
+              "assignees_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/assignees{/user}",
+              "blobs_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/git/blobs{/sha}",
+              "branches_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/branches{/branch}",
+              "clone_url": "https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08.git",
+              "collaborators_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/collaborators{/collaborator}",
+              "comments_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/comments{/number}",
+              "commits_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/commits{/sha}",
+              "compare_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/compare/{base}...{head}",
+              "contents_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/contents/{+path}",
+              "contributors_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/contributors",
+              "created_at": "2026-11-08T22:42:42Z",
+              "default_branch": "main",
+              "deployments_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/deployments",
+              "description": "Synthetic GHerrit native stacked PR experiments; evidence for joshlf/gherrit#518",
+              "disabled": false,
+              "downloads_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/downloads",
+              "events_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/events",
+              "fork": false,
+              "forks": 0,
+              "forks_count": 0,
+              "forks_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/forks",
+              "full_name": "joshlf/gherrit-native-stack-experiments-2026-11-08",
+              "git_commits_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/git/commits{/sha}",
+              "git_refs_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/git/refs{/sha}",
+              "git_tags_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/git/tags{/sha}",
+              "git_url": "git://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08.git",
+              "has_discussions": false,
+              "has_issues": true,
+              "has_pages": false,
+              "has_projects": true,
+              "has_pull_requests": true,
+              "has_wiki": true,
+              "homepage": null,
+              "hooks_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/hooks",
+              "html_url": "https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08",
+              "id": 1450723431,
+              "is_template": false,
+              "issue_comment_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/issues/comments{/number}",
+              "issue_events_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/issues/events{/number}",
+              "issues_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/issues{/number}",
+              "keys_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/keys{/key_id}",
+              "labels_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/labels{/name}",
+              "language": "Python",
+              "languages_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/languages",
+              "license": null,
+              "merges_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/merges",
+              "milestones_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/milestones{/number}",
+              "mirror_url": null,
+              "name": "gherrit-native-stack-experiments-2026-11-08",
+              "node_id": "R_kgDOVnhIZw",
+              "notifications_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/notifications{?since,all,participating}",
+              "open_issues": 496,
+              "open_issues_count": 496,
+              "owner": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1046063?v=4",
+                "events_url": "https://api.github.com/users/joshlf/events{/privacy}",
+                "followers_url": "https://api.github.com/users/joshlf/followers",
+                "following_url": "https://api.github.com/users/joshlf/following{/other_user}",
+                "gists_url": "https://api.github.com/users/joshlf/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/joshlf",
+                "id": 1046063,
+                "login": "joshlf",
+                "node_id": "MDQ6VXNlcjEwNDYwNjM=",
+                "organizations_url": "https://api.github.com/users/joshlf/orgs",
+                "received_events_url": "https://api.github.com/users/joshlf/received_events",
+                "repos_url": "https://api.github.com/users/joshlf/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/joshlf/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/joshlf/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/joshlf",
+                "user_view_type": "public"
+              },
+              "private": false,
+              "pull_request_creation_policy": "all",
+              "pulls_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/pulls{/number}",
+              "pushed_at": "2026-11-09T14:59:42Z",
+              "releases_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/releases{/id}",
+              "size": 456,
+              "ssh_url": "git@github.com:joshlf/gherrit-native-stack-experiments-2026-11-08.git",
+              "stargazers_count": 0,
+              "stargazers_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/stargazers",
+              "statuses_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/statuses/{sha}",
+              "subscribers_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/subscribers",
+              "subscription_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/subscription",
+              "svn_url": "https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08",
+              "tags_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/tags",
+              "teams_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/teams",
+              "topics": [],
+              "trees_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/git/trees{/sha}",
+              "updated_at": "2026-11-09T04:17:54Z",
+              "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08",
+              "visibility": "public",
+              "watchers": 0,
+              "watchers_count": 0,
+              "web_commit_signoff_required": false
+            },
+            "sha": "55b533c0545502593f39a628ee6e4e92ba73b73a",
+            "user": {
+              "avatar_url": "https://avatars.githubusercontent.com/u/1046063?v=4",
+              "events_url": "https://api.github.com/users/joshlf/events{/privacy}",
+              "followers_url": "https://api.github.com/users/joshlf/followers",
+              "following_url": "https://api.github.com/users/joshlf/following{/other_user}",
+              "gists_url": "https://api.github.com/users/joshlf/gists{/gist_id}",
+              "gravatar_id": "",
+              "html_url": "https://github.com/joshlf",
+              "id": 1046063,
+              "login": "joshlf",
+              "node_id": "MDQ6VXNlcjEwNDYwNjM=",
+              "organizations_url": "https://api.github.com/users/joshlf/orgs",
+              "received_events_url": "https://api.github.com/users/joshlf/received_events",
+              "repos_url": "https://api.github.com/users/joshlf/repos",
+              "site_admin": false,
+              "starred_url": "https://api.github.com/users/joshlf/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/joshlf/subscriptions",
+              "type": "User",
+              "url": "https://api.github.com/users/joshlf",
+              "user_view_type": "public"
+            }
+          },
+          "html_url": "https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08/pull/618",
+          "id": 5225656401,
+          "issue_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/issues/618",
+          "labels": [],
+          "locked": false,
+          "maintainer_can_modify": false,
+          "mergeable": true,
+          "mergeable_state": "clean",
+          "merged": false,
+          "merged_at": null,
+          "merged_by": null,
+          "milestone": null,
+          "node_id": "PR_kwDOVnhIZ88AAAABN3kwUQ",
+          "number": 618,
+          "patch_url": "https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08/pull/618.patch",
+          "rebaseable": true,
+          "requested_reviewers": [],
+          "requested_teams": [],
+          "review_comment_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/pulls/comments{/number}",
+          "review_comments": 0,
+          "review_comments_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/pulls/618/comments",
+          "stack": {
+            "base": {
+              "ref": "exh-1109-workflow-gql-native-lower-71519433/trunk",
+              "sha": "87993f2018757147086c870686d36daf82cbdc2c"
+            },
+            "id": 3247063,
+            "number": 621,
+            "position": 1,
+            "size": 3
+          },
+          "state": "open",
+          "statuses_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/statuses/55b533c0545502593f39a628ee6e4e92ba73b73a",
+          "title": "exh-1109-workflow-gql-native-lower-71519433 A",
+          "updated_at": "2026-11-09T14:39:40Z",
+          "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/pulls/618",
+          "user": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/1046063?v=4",
+            "events_url": "https://api.github.com/users/joshlf/events{/privacy}",
+            "followers_url": "https://api.github.com/users/joshlf/followers",
+            "following_url": "https://api.github.com/users/joshlf/following{/other_user}",
+            "gists_url": "https://api.github.com/users/joshlf/gists{/gist_id}",
+            "gravatar_id": "",
+            "html_url": "https://github.com/joshlf",
+            "id": 1046063,
+            "login": "joshlf",
+            "node_id": "MDQ6VXNlcjEwNDYwNjM=",
+            "organizations_url": "https://api.github.com/users/joshlf/orgs",
+            "received_events_url": "https://api.github.com/users/joshlf/received_events",
+            "repos_url": "https://api.github.com/users/joshlf/repos",
+            "site_admin": false,
+            "starred_url": "https://api.github.com/users/joshlf/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/joshlf/subscriptions",
+            "type": "User",
+            "url": "https://api.github.com/users/joshlf",
+            "user_view_type": "public"
+          }
+        }
+      },
+      "B": {
+        "graphql": {
+          "data": {
+            "repository": {
+              "pullRequest": {
+                "baseRefName": "exh-1109-workflow-gql-native-lower-71519433/A",
+                "baseRefOid": "55b533c0545502593f39a628ee6e4e92ba73b73a",
+                "headRefName": "exh-1109-workflow-gql-native-lower-71519433/B",
+                "headRefOid": "bbf521f8efb3d15f75afdead6d35f480a57eb82e",
+                "id": "PR_kwDOVnhIZ88AAAABN3kxXg",
+                "mergeStateStatus": "CLEAN",
+                "mergeable": "MERGEABLE",
+                "merged": false,
+                "number": 619,
+                "stack": {
+                  "baseRefName": "exh-1109-workflow-gql-native-lower-71519433/trunk",
+                  "entries": {
+                    "nodes": [
+                      {
+                        "position": 1,
+                        "pullRequest": {
+                          "baseRefName": "exh-1109-workflow-gql-native-lower-71519433/trunk",
+                          "headRefName": "exh-1109-workflow-gql-native-lower-71519433/A",
+                          "headRefOid": "55b533c0545502593f39a628ee6e4e92ba73b73a",
+                          "id": "PR_kwDOVnhIZ88AAAABN3kwUQ",
+                          "number": 618
+                        }
+                      },
+                      {
+                        "position": 2,
+                        "pullRequest": {
+                          "baseRefName": "exh-1109-workflow-gql-native-lower-71519433/A",
+                          "headRefName": "exh-1109-workflow-gql-native-lower-71519433/B",
+                          "headRefOid": "bbf521f8efb3d15f75afdead6d35f480a57eb82e",
+                          "id": "PR_kwDOVnhIZ88AAAABN3kxXg",
+                          "number": 619
+                        }
+                      },
+                      {
+                        "position": 3,
+                        "pullRequest": {
+                          "baseRefName": "exh-1109-workflow-gql-native-lower-71519433/B",
+                          "headRefName": "exh-1109-workflow-gql-native-lower-71519433/C",
+                          "headRefOid": "ddbd0fa24bbf1b268162a5db1e0944f6db2504e3",
+                          "id": "PR_kwDOVnhIZ88AAAABN3kygQ",
+                          "number": 620
+                        }
+                      }
+                    ],
+                    "pageInfo": {
+                      "endCursor": "Mw",
+                      "hasNextPage": false
+                    }
+                  },
+                  "id": "PRS_kwDOVnhIZ84AMYvX",
+                  "number": 621,
+                  "size": 3
+                },
+                "state": "OPEN",
+                "timelineItems": {
+                  "nodes": [
+                    {
+                      "__typename": "AddedToStackEvent"
+                    },
+                    {
+                      "__typename": "BaseRefForcePushedEvent"
+                    },
+                    {
+                      "__typename": "PullRequestCommit"
+                    },
+                    {
+                      "__typename": "HeadRefForcePushedEvent",
+                      "actor": {
+                        "login": "joshlf"
+                      },
+                      "afterCommit": {
+                        "oid": "bbf521f8efb3d15f75afdead6d35f480a57eb82e"
+                      },
+                      "beforeCommit": {
+                        "oid": "4b03688595350b87c74e901513826297d01ed62c"
+                      },
+                      "createdAt": "2026-11-09T14:59:29Z",
+                      "id": "HRFPE_lADOVnhIZ88AAAABds4xEs8AAAAISMxy_w",
+                      "ref": {
+                        "name": "exh-1109-workflow-gql-native-lower-71519433/B"
+                      }
+                    }
+                  ],
+                  "pageInfo": {
+                    "endCursor": "Y3Vyc29yOnYyOpPPAAABocDSSGgBqzM1NTgxMDk2NzAz",
+                    "hasNextPage": false
+                  }
+                }
+              }
+            }
+          }
+        },
+        "rest": {
+          "_links": {
+            "comments": {
+              "href": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/issues/619/comments"
+            },
+            "commits": {
+              "href": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/pulls/619/commits"
+            },
+            "html": {
+              "href": "https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08/pull/619"
+            },
+            "issue": {
+              "href": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/issues/619"
+            },
+            "review_comment": {
+              "href": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/pulls/comments{/number}"
+            },
+            "review_comments": {
+              "href": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/pulls/619/comments"
+            },
+            "self": {
+              "href": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/pulls/619"
+            },
+            "statuses": {
+              "href": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/statuses/bbf521f8efb3d15f75afdead6d35f480a57eb82e"
+            }
+          },
+          "active_lock_reason": null,
+          "additions": 1,
+          "assignees": [],
+          "author_association": "OWNER",
+          "auto_merge": null,
+          "base": {
+            "label": "joshlf:exh-1109-workflow-gql-native-lower-71519433/A",
+            "ref": "exh-1109-workflow-gql-native-lower-71519433/A",
+            "repo": {
+              "allow_forking": true,
+              "archive_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/{archive_format}{/ref}",
+              "archived": false,
+              "assignees_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/assignees{/user}",
+              "blobs_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/git/blobs{/sha}",
+              "branches_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/branches{/branch}",
+              "clone_url": "https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08.git",
+              "collaborators_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/collaborators{/collaborator}",
+              "comments_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/comments{/number}",
+              "commits_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/commits{/sha}",
+              "compare_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/compare/{base}...{head}",
+              "contents_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/contents/{+path}",
+              "contributors_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/contributors",
+              "created_at": "2026-11-08T22:42:42Z",
+              "default_branch": "main",
+              "deployments_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/deployments",
+              "description": "Synthetic GHerrit native stacked PR experiments; evidence for joshlf/gherrit#518",
+              "disabled": false,
+              "downloads_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/downloads",
+              "events_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/events",
+              "fork": false,
+              "forks": 0,
+              "forks_count": 0,
+              "forks_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/forks",
+              "full_name": "joshlf/gherrit-native-stack-experiments-2026-11-08",
+              "git_commits_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/git/commits{/sha}",
+              "git_refs_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/git/refs{/sha}",
+              "git_tags_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/git/tags{/sha}",
+              "git_url": "git://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08.git",
+              "has_discussions": false,
+              "has_issues": true,
+              "has_pages": false,
+              "has_projects": true,
+              "has_pull_requests": true,
+              "has_wiki": true,
+              "homepage": null,
+              "hooks_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/hooks",
+              "html_url": "https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08",
+              "id": 1450723431,
+              "is_template": false,
+              "issue_comment_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/issues/comments{/number}",
+              "issue_events_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/issues/events{/number}",
+              "issues_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/issues{/number}",
+              "keys_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/keys{/key_id}",
+              "labels_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/labels{/name}",
+              "language": "Python",
+              "languages_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/languages",
+              "license": null,
+              "merges_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/merges",
+              "milestones_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/milestones{/number}",
+              "mirror_url": null,
+              "name": "gherrit-native-stack-experiments-2026-11-08",
+              "node_id": "R_kgDOVnhIZw",
+              "notifications_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/notifications{?since,all,participating}",
+              "open_issues": 496,
+              "open_issues_count": 496,
+              "owner": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1046063?v=4",
+                "events_url": "https://api.github.com/users/joshlf/events{/privacy}",
+                "followers_url": "https://api.github.com/users/joshlf/followers",
+                "following_url": "https://api.github.com/users/joshlf/following{/other_user}",
+                "gists_url": "https://api.github.com/users/joshlf/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/joshlf",
+                "id": 1046063,
+                "login": "joshlf",
+                "node_id": "MDQ6VXNlcjEwNDYwNjM=",
+                "organizations_url": "https://api.github.com/users/joshlf/orgs",
+                "received_events_url": "https://api.github.com/users/joshlf/received_events",
+                "repos_url": "https://api.github.com/users/joshlf/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/joshlf/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/joshlf/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/joshlf",
+                "user_view_type": "public"
+              },
+              "private": false,
+              "pull_request_creation_policy": "all",
+              "pulls_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/pulls{/number}",
+              "pushed_at": "2026-11-09T14:59:42Z",
+              "releases_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/releases{/id}",
+              "size": 456,
+              "ssh_url": "git@github.com:joshlf/gherrit-native-stack-experiments-2026-11-08.git",
+              "stargazers_count": 0,
+              "stargazers_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/stargazers",
+              "statuses_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/statuses/{sha}",
+              "subscribers_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/subscribers",
+              "subscription_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/subscription",
+              "svn_url": "https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08",
+              "tags_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/tags",
+              "teams_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/teams",
+              "topics": [],
+              "trees_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/git/trees{/sha}",
+              "updated_at": "2026-11-09T04:17:54Z",
+              "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08",
+              "visibility": "public",
+              "watchers": 0,
+              "watchers_count": 0,
+              "web_commit_signoff_required": false
+            },
+            "sha": "55b533c0545502593f39a628ee6e4e92ba73b73a",
+            "user": {
+              "avatar_url": "https://avatars.githubusercontent.com/u/1046063?v=4",
+              "events_url": "https://api.github.com/users/joshlf/events{/privacy}",
+              "followers_url": "https://api.github.com/users/joshlf/followers",
+              "following_url": "https://api.github.com/users/joshlf/following{/other_user}",
+              "gists_url": "https://api.github.com/users/joshlf/gists{/gist_id}",
+              "gravatar_id": "",
+              "html_url": "https://github.com/joshlf",
+              "id": 1046063,
+              "login": "joshlf",
+              "node_id": "MDQ6VXNlcjEwNDYwNjM=",
+              "organizations_url": "https://api.github.com/users/joshlf/orgs",
+              "received_events_url": "https://api.github.com/users/joshlf/received_events",
+              "repos_url": "https://api.github.com/users/joshlf/repos",
+              "site_admin": false,
+              "starred_url": "https://api.github.com/users/joshlf/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/joshlf/subscriptions",
+              "type": "User",
+              "url": "https://api.github.com/users/joshlf",
+              "user_view_type": "public"
+            }
+          },
+          "body": "Isolated synthetic gql-native-lower fixture, layer B.\n\n*Authored by an AI agent acting on joshlf's behalf.*",
+          "changed_files": 1,
+          "closed_at": null,
+          "comments": 0,
+          "comments_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/issues/619/comments",
+          "commits": 1,
+          "commits_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/pulls/619/commits",
+          "created_at": "2026-11-09T14:39:08Z",
+          "deletions": 0,
+          "diff_url": "https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08/pull/619.diff",
+          "draft": false,
+          "head": {
+            "label": "joshlf:exh-1109-workflow-gql-native-lower-71519433/B",
+            "ref": "exh-1109-workflow-gql-native-lower-71519433/B",
+            "repo": {
+              "allow_forking": true,
+              "archive_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/{archive_format}{/ref}",
+              "archived": false,
+              "assignees_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/assignees{/user}",
+              "blobs_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/git/blobs{/sha}",
+              "branches_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/branches{/branch}",
+              "clone_url": "https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08.git",
+              "collaborators_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/collaborators{/collaborator}",
+              "comments_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/comments{/number}",
+              "commits_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/commits{/sha}",
+              "compare_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/compare/{base}...{head}",
+              "contents_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/contents/{+path}",
+              "contributors_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/contributors",
+              "created_at": "2026-11-08T22:42:42Z",
+              "default_branch": "main",
+              "deployments_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/deployments",
+              "description": "Synthetic GHerrit native stacked PR experiments; evidence for joshlf/gherrit#518",
+              "disabled": false,
+              "downloads_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/downloads",
+              "events_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/events",
+              "fork": false,
+              "forks": 0,
+              "forks_count": 0,
+              "forks_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/forks",
+              "full_name": "joshlf/gherrit-native-stack-experiments-2026-11-08",
+              "git_commits_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/git/commits{/sha}",
+              "git_refs_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/git/refs{/sha}",
+              "git_tags_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/git/tags{/sha}",
+              "git_url": "git://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08.git",
+              "has_discussions": false,
+              "has_issues": true,
+              "has_pages": false,
+              "has_projects": true,
+              "has_pull_requests": true,
+              "has_wiki": true,
+              "homepage": null,
+              "hooks_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/hooks",
+              "html_url": "https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08",
+              "id": 1450723431,
+              "is_template": false,
+              "issue_comment_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/issues/comments{/number}",
+              "issue_events_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/issues/events{/number}",
+              "issues_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/issues{/number}",
+              "keys_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/keys{/key_id}",
+              "labels_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/labels{/name}",
+              "language": "Python",
+              "languages_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/languages",
+              "license": null,
+              "merges_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/merges",
+              "milestones_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/milestones{/number}",
+              "mirror_url": null,
+              "name": "gherrit-native-stack-experiments-2026-11-08",
+              "node_id": "R_kgDOVnhIZw",
+              "notifications_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/notifications{?since,all,participating}",
+              "open_issues": 496,
+              "open_issues_count": 496,
+              "owner": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1046063?v=4",
+                "events_url": "https://api.github.com/users/joshlf/events{/privacy}",
+                "followers_url": "https://api.github.com/users/joshlf/followers",
+                "following_url": "https://api.github.com/users/joshlf/following{/other_user}",
+                "gists_url": "https://api.github.com/users/joshlf/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/joshlf",
+                "id": 1046063,
+                "login": "joshlf",
+                "node_id": "MDQ6VXNlcjEwNDYwNjM=",
+                "organizations_url": "https://api.github.com/users/joshlf/orgs",
+                "received_events_url": "https://api.github.com/users/joshlf/received_events",
+                "repos_url": "https://api.github.com/users/joshlf/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/joshlf/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/joshlf/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/joshlf",
+                "user_view_type": "public"
+              },
+              "private": false,
+              "pull_request_creation_policy": "all",
+              "pulls_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/pulls{/number}",
+              "pushed_at": "2026-11-09T14:59:42Z",
+              "releases_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/releases{/id}",
+              "size": 456,
+              "ssh_url": "git@github.com:joshlf/gherrit-native-stack-experiments-2026-11-08.git",
+              "stargazers_count": 0,
+              "stargazers_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/stargazers",
+              "statuses_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/statuses/{sha}",
+              "subscribers_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/subscribers",
+              "subscription_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/subscription",
+              "svn_url": "https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08",
+              "tags_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/tags",
+              "teams_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/teams",
+              "topics": [],
+              "trees_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/git/trees{/sha}",
+              "updated_at": "2026-11-09T04:17:54Z",
+              "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08",
+              "visibility": "public",
+              "watchers": 0,
+              "watchers_count": 0,
+              "web_commit_signoff_required": false
+            },
+            "sha": "bbf521f8efb3d15f75afdead6d35f480a57eb82e",
+            "user": {
+              "avatar_url": "https://avatars.githubusercontent.com/u/1046063?v=4",
+              "events_url": "https://api.github.com/users/joshlf/events{/privacy}",
+              "followers_url": "https://api.github.com/users/joshlf/followers",
+              "following_url": "https://api.github.com/users/joshlf/following{/other_user}",
+              "gists_url": "https://api.github.com/users/joshlf/gists{/gist_id}",
+              "gravatar_id": "",
+              "html_url": "https://github.com/joshlf",
+              "id": 1046063,
+              "login": "joshlf",
+              "node_id": "MDQ6VXNlcjEwNDYwNjM=",
+              "organizations_url": "https://api.github.com/users/joshlf/orgs",
+              "received_events_url": "https://api.github.com/users/joshlf/received_events",
+              "repos_url": "https://api.github.com/users/joshlf/repos",
+              "site_admin": false,
+              "starred_url": "https://api.github.com/users/joshlf/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/joshlf/subscriptions",
+              "type": "User",
+              "url": "https://api.github.com/users/joshlf",
+              "user_view_type": "public"
+            }
+          },
+          "html_url": "https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08/pull/619",
+          "id": 5225656670,
+          "issue_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/issues/619",
+          "labels": [],
+          "locked": false,
+          "maintainer_can_modify": false,
+          "mergeable": true,
+          "mergeable_state": "clean",
+          "merged": false,
+          "merged_at": null,
+          "merged_by": null,
+          "milestone": null,
+          "node_id": "PR_kwDOVnhIZ88AAAABN3kxXg",
+          "number": 619,
+          "patch_url": "https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08/pull/619.patch",
+          "rebaseable": true,
+          "requested_reviewers": [],
+          "requested_teams": [],
+          "review_comment_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/pulls/comments{/number}",
+          "review_comments": 0,
+          "review_comments_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/pulls/619/comments",
+          "stack": {
+            "base": {
+              "ref": "exh-1109-workflow-gql-native-lower-71519433/trunk",
+              "sha": "87993f2018757147086c870686d36daf82cbdc2c"
+            },
+            "id": 3247063,
+            "number": 621,
+            "position": 2,
+            "size": 3
+          },
+          "state": "open",
+          "statuses_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/statuses/bbf521f8efb3d15f75afdead6d35f480a57eb82e",
+          "title": "exh-1109-workflow-gql-native-lower-71519433 B",
+          "updated_at": "2026-11-09T14:59:29Z",
+          "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/pulls/619",
+          "user": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/1046063?v=4",
+            "events_url": "https://api.github.com/users/joshlf/events{/privacy}",
+            "followers_url": "https://api.github.com/users/joshlf/followers",
+            "following_url": "https://api.github.com/users/joshlf/following{/other_user}",
+            "gists_url": "https://api.github.com/users/joshlf/gists{/gist_id}",
+            "gravatar_id": "",
+            "html_url": "https://github.com/joshlf",
+            "id": 1046063,
+            "login": "joshlf",
+            "node_id": "MDQ6VXNlcjEwNDYwNjM=",
+            "organizations_url": "https://api.github.com/users/joshlf/orgs",
+            "received_events_url": "https://api.github.com/users/joshlf/received_events",
+            "repos_url": "https://api.github.com/users/joshlf/repos",
+            "site_admin": false,
+            "starred_url": "https://api.github.com/users/joshlf/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/joshlf/subscriptions",
+            "type": "User",
+            "url": "https://api.github.com/users/joshlf",
+            "user_view_type": "public"
+          }
+        }
+      },
+      "C": {
+        "graphql": {
+          "data": {
+            "repository": {
+              "pullRequest": {
+                "baseRefName": "exh-1109-workflow-gql-native-lower-71519433/B",
+                "baseRefOid": "bbf521f8efb3d15f75afdead6d35f480a57eb82e",
+                "headRefName": "exh-1109-workflow-gql-native-lower-71519433/C",
+                "headRefOid": "ddbd0fa24bbf1b268162a5db1e0944f6db2504e3",
+                "id": "PR_kwDOVnhIZ88AAAABN3kygQ",
+                "mergeStateStatus": "CLEAN",
+                "mergeable": "MERGEABLE",
+                "merged": false,
+                "number": 620,
+                "stack": {
+                  "baseRefName": "exh-1109-workflow-gql-native-lower-71519433/trunk",
+                  "entries": {
+                    "nodes": [
+                      {
+                        "position": 1,
+                        "pullRequest": {
+                          "baseRefName": "exh-1109-workflow-gql-native-lower-71519433/trunk",
+                          "headRefName": "exh-1109-workflow-gql-native-lower-71519433/A",
+                          "headRefOid": "55b533c0545502593f39a628ee6e4e92ba73b73a",
+                          "id": "PR_kwDOVnhIZ88AAAABN3kwUQ",
+                          "number": 618
+                        }
+                      },
+                      {
+                        "position": 2,
+                        "pullRequest": {
+                          "baseRefName": "exh-1109-workflow-gql-native-lower-71519433/A",
+                          "headRefName": "exh-1109-workflow-gql-native-lower-71519433/B",
+                          "headRefOid": "bbf521f8efb3d15f75afdead6d35f480a57eb82e",
+                          "id": "PR_kwDOVnhIZ88AAAABN3kxXg",
+                          "number": 619
+                        }
+                      },
+                      {
+                        "position": 3,
+                        "pullRequest": {
+                          "baseRefName": "exh-1109-workflow-gql-native-lower-71519433/B",
+                          "headRefName": "exh-1109-workflow-gql-native-lower-71519433/C",
+                          "headRefOid": "ddbd0fa24bbf1b268162a5db1e0944f6db2504e3",
+                          "id": "PR_kwDOVnhIZ88AAAABN3kygQ",
+                          "number": 620
+                        }
+                      }
+                    ],
+                    "pageInfo": {
+                      "endCursor": "Mw",
+                      "hasNextPage": false
+                    }
+                  },
+                  "id": "PRS_kwDOVnhIZ84AMYvX",
+                  "number": 621,
+                  "size": 3
+                },
+                "state": "OPEN",
+                "timelineItems": {
+                  "nodes": [
+                    {
+                      "__typename": "AddedToStackEvent"
+                    },
+                    {
+                      "__typename": "BaseRefForcePushedEvent"
+                    },
+                    {
+                      "__typename": "PullRequestCommit"
+                    },
+                    {
+                      "__typename": "HeadRefForcePushedEvent",
+                      "actor": {
+                        "login": "joshlf"
+                      },
+                      "afterCommit": {
+                        "oid": "ddbd0fa24bbf1b268162a5db1e0944f6db2504e3"
+                      },
+                      "beforeCommit": {
+                        "oid": "ff70001f89fe387ef28b828baba09166658ceb88"
+                      },
+                      "createdAt": "2026-11-09T14:59:43Z",
+                      "id": "HRFPE_lADOVnhIZ88AAAABds4yY88AAAAISMzQBQ",
+                      "ref": {
+                        "name": "exh-1109-workflow-gql-native-lower-71519433/C"
+                      }
+                    }
+                  ],
+                  "pageInfo": {
+                    "endCursor": "Y3Vyc29yOnYyOpPPAAABocDSfxgBqzM1NTgxMTIwNTE3",
+                    "hasNextPage": false
+                  }
+                }
+              }
+            }
+          }
+        },
+        "rest": {
+          "_links": {
+            "comments": {
+              "href": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/issues/620/comments"
+            },
+            "commits": {
+              "href": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/pulls/620/commits"
+            },
+            "html": {
+              "href": "https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08/pull/620"
+            },
+            "issue": {
+              "href": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/issues/620"
+            },
+            "review_comment": {
+              "href": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/pulls/comments{/number}"
+            },
+            "review_comments": {
+              "href": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/pulls/620/comments"
+            },
+            "self": {
+              "href": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/pulls/620"
+            },
+            "statuses": {
+              "href": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/statuses/ddbd0fa24bbf1b268162a5db1e0944f6db2504e3"
+            }
+          },
+          "active_lock_reason": null,
+          "additions": 1,
+          "assignees": [],
+          "author_association": "OWNER",
+          "auto_merge": null,
+          "base": {
+            "label": "joshlf:exh-1109-workflow-gql-native-lower-71519433/B",
+            "ref": "exh-1109-workflow-gql-native-lower-71519433/B",
+            "repo": {
+              "allow_forking": true,
+              "archive_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/{archive_format}{/ref}",
+              "archived": false,
+              "assignees_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/assignees{/user}",
+              "blobs_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/git/blobs{/sha}",
+              "branches_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/branches{/branch}",
+              "clone_url": "https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08.git",
+              "collaborators_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/collaborators{/collaborator}",
+              "comments_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/comments{/number}",
+              "commits_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/commits{/sha}",
+              "compare_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/compare/{base}...{head}",
+              "contents_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/contents/{+path}",
+              "contributors_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/contributors",
+              "created_at": "2026-11-08T22:42:42Z",
+              "default_branch": "main",
+              "deployments_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/deployments",
+              "description": "Synthetic GHerrit native stacked PR experiments; evidence for joshlf/gherrit#518",
+              "disabled": false,
+              "downloads_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/downloads",
+              "events_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/events",
+              "fork": false,
+              "forks": 0,
+              "forks_count": 0,
+              "forks_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/forks",
+              "full_name": "joshlf/gherrit-native-stack-experiments-2026-11-08",
+              "git_commits_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/git/commits{/sha}",
+              "git_refs_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/git/refs{/sha}",
+              "git_tags_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/git/tags{/sha}",
+              "git_url": "git://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08.git",
+              "has_discussions": false,
+              "has_issues": true,
+              "has_pages": false,
+              "has_projects": true,
+              "has_pull_requests": true,
+              "has_wiki": true,
+              "homepage": null,
+              "hooks_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/hooks",
+              "html_url": "https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08",
+              "id": 1450723431,
+              "is_template": false,
+              "issue_comment_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/issues/comments{/number}",
+              "issue_events_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/issues/events{/number}",
+              "issues_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/issues{/number}",
+              "keys_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/keys{/key_id}",
+              "labels_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/labels{/name}",
+              "language": "Python",
+              "languages_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/languages",
+              "license": null,
+              "merges_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/merges",
+              "milestones_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/milestones{/number}",
+              "mirror_url": null,
+              "name": "gherrit-native-stack-experiments-2026-11-08",
+              "node_id": "R_kgDOVnhIZw",
+              "notifications_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/notifications{?since,all,participating}",
+              "open_issues": 496,
+              "open_issues_count": 496,
+              "owner": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1046063?v=4",
+                "events_url": "https://api.github.com/users/joshlf/events{/privacy}",
+                "followers_url": "https://api.github.com/users/joshlf/followers",
+                "following_url": "https://api.github.com/users/joshlf/following{/other_user}",
+                "gists_url": "https://api.github.com/users/joshlf/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/joshlf",
+                "id": 1046063,
+                "login": "joshlf",
+                "node_id": "MDQ6VXNlcjEwNDYwNjM=",
+                "organizations_url": "https://api.github.com/users/joshlf/orgs",
+                "received_events_url": "https://api.github.com/users/joshlf/received_events",
+                "repos_url": "https://api.github.com/users/joshlf/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/joshlf/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/joshlf/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/joshlf",
+                "user_view_type": "public"
+              },
+              "private": false,
+              "pull_request_creation_policy": "all",
+              "pulls_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/pulls{/number}",
+              "pushed_at": "2026-11-09T14:59:42Z",
+              "releases_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/releases{/id}",
+              "size": 456,
+              "ssh_url": "git@github.com:joshlf/gherrit-native-stack-experiments-2026-11-08.git",
+              "stargazers_count": 0,
+              "stargazers_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/stargazers",
+              "statuses_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/statuses/{sha}",
+              "subscribers_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/subscribers",
+              "subscription_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/subscription",
+              "svn_url": "https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08",
+              "tags_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/tags",
+              "teams_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/teams",
+              "topics": [],
+              "trees_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/git/trees{/sha}",
+              "updated_at": "2026-11-09T04:17:54Z",
+              "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08",
+              "visibility": "public",
+              "watchers": 0,
+              "watchers_count": 0,
+              "web_commit_signoff_required": false
+            },
+            "sha": "bbf521f8efb3d15f75afdead6d35f480a57eb82e",
+            "user": {
+              "avatar_url": "https://avatars.githubusercontent.com/u/1046063?v=4",
+              "events_url": "https://api.github.com/users/joshlf/events{/privacy}",
+              "followers_url": "https://api.github.com/users/joshlf/followers",
+              "following_url": "https://api.github.com/users/joshlf/following{/other_user}",
+              "gists_url": "https://api.github.com/users/joshlf/gists{/gist_id}",
+              "gravatar_id": "",
+              "html_url": "https://github.com/joshlf",
+              "id": 1046063,
+              "login": "joshlf",
+              "node_id": "MDQ6VXNlcjEwNDYwNjM=",
+              "organizations_url": "https://api.github.com/users/joshlf/orgs",
+              "received_events_url": "https://api.github.com/users/joshlf/received_events",
+              "repos_url": "https://api.github.com/users/joshlf/repos",
+              "site_admin": false,
+              "starred_url": "https://api.github.com/users/joshlf/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/joshlf/subscriptions",
+              "type": "User",
+              "url": "https://api.github.com/users/joshlf",
+              "user_view_type": "public"
+            }
+          },
+          "body": "Isolated synthetic gql-native-lower fixture, layer C.\n\n*Authored by an AI agent acting on joshlf's behalf.*",
+          "changed_files": 1,
+          "closed_at": null,
+          "comments": 0,
+          "comments_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/issues/620/comments",
+          "commits": 1,
+          "commits_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/pulls/620/commits",
+          "created_at": "2026-11-09T14:39:09Z",
+          "deletions": 0,
+          "diff_url": "https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08/pull/620.diff",
+          "draft": false,
+          "head": {
+            "label": "joshlf:exh-1109-workflow-gql-native-lower-71519433/C",
+            "ref": "exh-1109-workflow-gql-native-lower-71519433/C",
+            "repo": {
+              "allow_forking": true,
+              "archive_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/{archive_format}{/ref}",
+              "archived": false,
+              "assignees_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/assignees{/user}",
+              "blobs_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/git/blobs{/sha}",
+              "branches_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/branches{/branch}",
+              "clone_url": "https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08.git",
+              "collaborators_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/collaborators{/collaborator}",
+              "comments_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/comments{/number}",
+              "commits_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/commits{/sha}",
+              "compare_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/compare/{base}...{head}",
+              "contents_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/contents/{+path}",
+              "contributors_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/contributors",
+              "created_at": "2026-11-08T22:42:42Z",
+              "default_branch": "main",
+              "deployments_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/deployments",
+              "description": "Synthetic GHerrit native stacked PR experiments; evidence for joshlf/gherrit#518",
+              "disabled": false,
+              "downloads_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/downloads",
+              "events_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/events",
+              "fork": false,
+              "forks": 0,
+              "forks_count": 0,
+              "forks_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/forks",
+              "full_name": "joshlf/gherrit-native-stack-experiments-2026-11-08",
+              "git_commits_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/git/commits{/sha}",
+              "git_refs_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/git/refs{/sha}",
+              "git_tags_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/git/tags{/sha}",
+              "git_url": "git://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08.git",
+              "has_discussions": false,
+              "has_issues": true,
+              "has_pages": false,
+              "has_projects": true,
+              "has_pull_requests": true,
+              "has_wiki": true,
+              "homepage": null,
+              "hooks_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/hooks",
+              "html_url": "https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08",
+              "id": 1450723431,
+              "is_template": false,
+              "issue_comment_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/issues/comments{/number}",
+              "issue_events_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/issues/events{/number}",
+              "issues_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/issues{/number}",
+              "keys_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/keys{/key_id}",
+              "labels_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/labels{/name}",
+              "language": "Python",
+              "languages_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/languages",
+              "license": null,
+              "merges_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/merges",
+              "milestones_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/milestones{/number}",
+              "mirror_url": null,
+              "name": "gherrit-native-stack-experiments-2026-11-08",
+              "node_id": "R_kgDOVnhIZw",
+              "notifications_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/notifications{?since,all,participating}",
+              "open_issues": 496,
+              "open_issues_count": 496,
+              "owner": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1046063?v=4",
+                "events_url": "https://api.github.com/users/joshlf/events{/privacy}",
+                "followers_url": "https://api.github.com/users/joshlf/followers",
+                "following_url": "https://api.github.com/users/joshlf/following{/other_user}",
+                "gists_url": "https://api.github.com/users/joshlf/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/joshlf",
+                "id": 1046063,
+                "login": "joshlf",
+                "node_id": "MDQ6VXNlcjEwNDYwNjM=",
+                "organizations_url": "https://api.github.com/users/joshlf/orgs",
+                "received_events_url": "https://api.github.com/users/joshlf/received_events",
+                "repos_url": "https://api.github.com/users/joshlf/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/joshlf/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/joshlf/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/joshlf",
+                "user_view_type": "public"
+              },
+              "private": false,
+              "pull_request_creation_policy": "all",
+              "pulls_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/pulls{/number}",
+              "pushed_at": "2026-11-09T14:59:42Z",
+              "releases_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/releases{/id}",
+              "size": 456,
+              "ssh_url": "git@github.com:joshlf/gherrit-native-stack-experiments-2026-11-08.git",
+              "stargazers_count": 0,
+              "stargazers_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/stargazers",
+              "statuses_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/statuses/{sha}",
+              "subscribers_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/subscribers",
+              "subscription_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/subscription",
+              "svn_url": "https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08",
+              "tags_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/tags",
+              "teams_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/teams",
+              "topics": [],
+              "trees_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/git/trees{/sha}",
+              "updated_at": "2026-11-09T04:17:54Z",
+              "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08",
+              "visibility": "public",
+              "watchers": 0,
+              "watchers_count": 0,
+              "web_commit_signoff_required": false
+            },
+            "sha": "ddbd0fa24bbf1b268162a5db1e0944f6db2504e3",
+            "user": {
+              "avatar_url": "https://avatars.githubusercontent.com/u/1046063?v=4",
+              "events_url": "https://api.github.com/users/joshlf/events{/privacy}",
+              "followers_url": "https://api.github.com/users/joshlf/followers",
+              "following_url": "https://api.github.com/users/joshlf/following{/other_user}",
+              "gists_url": "https://api.github.com/users/joshlf/gists{/gist_id}",
+              "gravatar_id": "",
+              "html_url": "https://github.com/joshlf",
+              "id": 1046063,
+              "login": "joshlf",
+              "node_id": "MDQ6VXNlcjEwNDYwNjM=",
+              "organizations_url": "https://api.github.com/users/joshlf/orgs",
+              "received_events_url": "https://api.github.com/users/joshlf/received_events",
+              "repos_url": "https://api.github.com/users/joshlf/repos",
+              "site_admin": false,
+              "starred_url": "https://api.github.com/users/joshlf/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/joshlf/subscriptions",
+              "type": "User",
+              "url": "https://api.github.com/users/joshlf",
+              "user_view_type": "public"
+            }
+          },
+          "html_url": "https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08/pull/620",
+          "id": 5225656961,
+          "issue_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/issues/620",
+          "labels": [],
+          "locked": false,
+          "maintainer_can_modify": false,
+          "mergeable": true,
+          "mergeable_state": "clean",
+          "merged": false,
+          "merged_at": null,
+          "merged_by": null,
+          "milestone": null,
+          "node_id": "PR_kwDOVnhIZ88AAAABN3kygQ",
+          "number": 620,
+          "patch_url": "https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08/pull/620.patch",
+          "rebaseable": true,
+          "requested_reviewers": [],
+          "requested_teams": [],
+          "review_comment_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/pulls/comments{/number}",
+          "review_comments": 0,
+          "review_comments_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/pulls/620/comments",
+          "stack": {
+            "base": {
+              "ref": "exh-1109-workflow-gql-native-lower-71519433/trunk",
+              "sha": "87993f2018757147086c870686d36daf82cbdc2c"
+            },
+            "id": 3247063,
+            "number": 621,
+            "position": 3,
+            "size": 3
+          },
+          "state": "open",
+          "statuses_url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/statuses/ddbd0fa24bbf1b268162a5db1e0944f6db2504e3",
+          "title": "exh-1109-workflow-gql-native-lower-71519433 C",
+          "updated_at": "2026-11-09T14:59:43Z",
+          "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/pulls/620",
+          "user": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/1046063?v=4",
+            "events_url": "https://api.github.com/users/joshlf/events{/privacy}",
+            "followers_url": "https://api.github.com/users/joshlf/followers",
+            "following_url": "https://api.github.com/users/joshlf/following{/other_user}",
+            "gists_url": "https://api.github.com/users/joshlf/gists{/gist_id}",
+            "gravatar_id": "",
+            "html_url": "https://github.com/joshlf",
+            "id": 1046063,
+            "login": "joshlf",
+            "node_id": "MDQ6VXNlcjEwNDYwNjM=",
+            "organizations_url": "https://api.github.com/users/joshlf/orgs",
+            "received_events_url": "https://api.github.com/users/joshlf/received_events",
+            "repos_url": "https://api.github.com/users/joshlf/repos",
+            "site_admin": false,
+            "starred_url": "https://api.github.com/users/joshlf/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/joshlf/subscriptions",
+            "type": "User",
+            "url": "https://api.github.com/users/joshlf",
+            "user_view_type": "public"
+          }
+        }
+      }
+    },
+    "refs": {
+      "refs/heads/exh-1109-workflow-gql-native-lower-71519433/A": "55b533c0545502593f39a628ee6e4e92ba73b73a",
+      "refs/heads/exh-1109-workflow-gql-native-lower-71519433/B": "bbf521f8efb3d15f75afdead6d35f480a57eb82e",
+      "refs/heads/exh-1109-workflow-gql-native-lower-71519433/C": "ddbd0fa24bbf1b268162a5db1e0944f6db2504e3",
+      "refs/heads/exh-1109-workflow-gql-native-lower-71519433/trunk": "87993f2018757147086c870686d36daf82cbdc2c"
+    },
+    "utc": "2026-11-09T15:01:53.659063+00:00"
+  },
+  "fsck": {
+    "exit": 0,
+    "stderr": "",
+    "stdout": ""
+  },
+  "limit": "Fresh bounded readback and retained object evidence; no future-write exclusion or automatic retry.",
+  "mutations": [
+    {
+      "errors": null,
+      "exit": 0,
+      "http": 200,
+      "kind": "update-branch",
+      "label": "cascade-B-once.intent.json",
+      "receipt": "cascade-B-once.receipt.json"
+    },
+    {
+      "errors": null,
+      "exit": 0,
+      "http": 200,
+      "kind": "update-branch",
+      "label": "update-branch-once.intent.json",
+      "receipt": "update-branch-once.receipt.json"
+    },
+    {
+      "errors": null,
+      "exit": 0,
+      "http": null,
+      "kind": "push",
+      "label": "initial-push.intent.json",
+      "receipt": "initial-push.receipt.json"
+    },
+    {
+      "errors": null,
+      "exit": 0,
+      "http": 201,
+      "kind": "create-pr",
+      "label": "create-pr-C.intent.json",
+      "receipt": "create-pr-C.receipt.json"
+    },
+    {
+      "errors": null,
+      "exit": 0,
+      "http": 200,
+      "kind": "update-branch",
+      "label": "cascade-C-once.intent.json",
+      "receipt": "cascade-C-once.receipt.json"
+    },
+    {
+      "errors": null,
+      "exit": 0,
+      "http": 201,
+      "kind": "create-stack",
+      "label": "create-stack.intent.json",
+      "receipt": "create-stack.receipt.json"
+    },
+    {
+      "errors": null,
+      "exit": 0,
+      "http": 201,
+      "kind": "create-pr",
+      "label": "create-pr-B.intent.json",
+      "receipt": "create-pr-B.receipt.json"
+    },
+    {
+      "errors": null,
+      "exit": 0,
+      "http": 201,
+      "kind": "create-pr",
+      "label": "create-pr-A.intent.json",
+      "receipt": "create-pr-A.receipt.json"
+    },
+    {
+      "errors": null,
+      "exit": 0,
+      "http": null,
+      "kind": "push",
+      "label": "advance-parent.intent.json",
+      "receipt": "advance-parent.receipt.json"
+    }
+  ],
+  "namespace": {
+    "refs/heads/exh-1109-workflow-gql-native-lower-71519433/A": "55b533c0545502593f39a628ee6e4e92ba73b73a",
+    "refs/heads/exh-1109-workflow-gql-native-lower-71519433/B": "bbf521f8efb3d15f75afdead6d35f480a57eb82e",
+    "refs/heads/exh-1109-workflow-gql-native-lower-71519433/C": "ddbd0fa24bbf1b268162a5db1e0944f6db2504e3",
+    "refs/heads/exh-1109-workflow-gql-native-lower-71519433/trunk": "87993f2018757147086c870686d36daf82cbdc2c"
+  },
+  "objects": {
+    "4b03688595350b87c74e901513826297d01ed62c": {
+      "available": true,
+      "parent_patches": {
+        "f91404d352a17ee81437224fe1a08080a14221b4": "diff --git a/gql_B.txt b/gql_B.txt\nnew file mode 100644\nindex 0000000..223b783\n--- /dev/null\n+++ b/gql_B.txt\n@@ -0,0 +1 @@\n+B\n"
+      },
+      "parents": [
+        "f91404d352a17ee81437224fe1a08080a14221b4"
+      ],
+      "raw_commit": "tree 14f356ab8dafcff717aca9dc9ab262d15b592421\nparent f91404d352a17ee81437224fe1a08080a14221b4\nauthor Josh Liebow-Feeser <hello@joshlf.com> 1794234040 -0500\ncommitter Josh Liebow-Feeser <hello@joshlf.com> 1794234040 -0500\n\nAdd isolated layer B\n\nAgent-authored-by: AI agent acting on joshlf's behalf\n",
+      "tree": "14f356ab8dafcff717aca9dc9ab262d15b592421",
+      "type": "commit"
+    },
+    "55b533c0545502593f39a628ee6e4e92ba73b73a": {
+      "available": true,
+      "parent_patches": {
+        "87993f2018757147086c870686d36daf82cbdc2c": "diff --git a/gql_A.txt b/gql_A.txt\nnew file mode 100644\nindex 0000000..f70f10e\n--- /dev/null\n+++ b/gql_A.txt\n@@ -0,0 +1 @@\n+A\n"
+      },
+      "parents": [
+        "87993f2018757147086c870686d36daf82cbdc2c"
+      ],
+      "raw_commit": "tree 66fd705dce1b5ebf4672c8f3d684f79e72bba9ed\nparent 87993f2018757147086c870686d36daf82cbdc2c\nauthor Josh Liebow-Feeser <hello@joshlf.com> 1794234040 -0500\ncommitter Josh Liebow-Feeser <joshlf@users.noreply.github.com> 1794235178 -0500\n\nAdd isolated layer A\n\nAgent-authored-by: AI agent acting on joshlf's behalf\n",
+      "tree": "66fd705dce1b5ebf4672c8f3d684f79e72bba9ed",
+      "type": "commit"
+    },
+    "87993f2018757147086c870686d36daf82cbdc2c": {
+      "available": true,
+      "parent_patches": {
+        "a810a5f65ef9e212725a5227f43e6804a3fb691a": "diff --git a/gql_advance.txt b/gql_advance.txt\nnew file mode 100644\nindex 0000000..fe00be7\n--- /dev/null\n+++ b/gql_advance.txt\n@@ -0,0 +1 @@\n+new parent state\n"
+      },
+      "parents": [
+        "a810a5f65ef9e212725a5227f43e6804a3fb691a"
+      ],
+      "raw_commit": "tree 21ba68c4fe801e3515a4e6bdf58aabbd64f4d62c\nparent a810a5f65ef9e212725a5227f43e6804a3fb691a\nauthor Josh Liebow-Feeser <hello@joshlf.com> 1794235172 -0500\ncommitter Josh Liebow-Feeser <hello@joshlf.com> 1794235172 -0500\n\nAdvance the selected update branch's parent\n\nAgent-authored-by: AI agent acting on joshlf's behalf\n",
+      "tree": "21ba68c4fe801e3515a4e6bdf58aabbd64f4d62c",
+      "type": "commit"
+    },
+    "a810a5f65ef9e212725a5227f43e6804a3fb691a": {
+      "available": true,
+      "parent_patches": {},
+      "parents": [],
+      "raw_commit": "tree f16733295900d43ce0e5e90a72ec53cffe8a46a6\nauthor Josh Liebow-Feeser <hello@joshlf.com> 1794234040 -0500\ncommitter Josh Liebow-Feeser <hello@joshlf.com> 1794234040 -0500\n\nSeed an isolated branch-update fixture\n\nAgent-authored-by: AI agent acting on joshlf's behalf\n",
+      "tree": "f16733295900d43ce0e5e90a72ec53cffe8a46a6",
+      "type": "commit"
+    },
+    "bbf521f8efb3d15f75afdead6d35f480a57eb82e": {
+      "available": true,
+      "parent_patches": {
+        "55b533c0545502593f39a628ee6e4e92ba73b73a": "diff --git a/gql_B.txt b/gql_B.txt\nnew file mode 100644\nindex 0000000..223b783\n--- /dev/null\n+++ b/gql_B.txt\n@@ -0,0 +1 @@\n+B\n"
+      },
+      "parents": [
+        "55b533c0545502593f39a628ee6e4e92ba73b73a"
+      ],
+      "raw_commit": "tree 2744106faf1b6cc1c0c58c6e49ac1a04df306216\nparent 55b533c0545502593f39a628ee6e4e92ba73b73a\nauthor Josh Liebow-Feeser <hello@joshlf.com> 1794234040 -0500\ncommitter Josh Liebow-Feeser <joshlf@users.noreply.github.com> 1794236367 -0500\n\nAdd isolated layer B\n\nAgent-authored-by: AI agent acting on joshlf's behalf\n",
+      "tree": "2744106faf1b6cc1c0c58c6e49ac1a04df306216",
+      "type": "commit"
+    },
+    "ddbd0fa24bbf1b268162a5db1e0944f6db2504e3": {
+      "available": true,
+      "parent_patches": {
+        "bbf521f8efb3d15f75afdead6d35f480a57eb82e": "diff --git a/gql_C.txt b/gql_C.txt\nnew file mode 100644\nindex 0000000..3cc58df\n--- /dev/null\n+++ b/gql_C.txt\n@@ -0,0 +1 @@\n+C\n"
+      },
+      "parents": [
+        "bbf521f8efb3d15f75afdead6d35f480a57eb82e"
+      ],
+      "raw_commit": "tree ebc3af89b2925d196eb2a73fb7bf382137ae3017\nparent bbf521f8efb3d15f75afdead6d35f480a57eb82e\nauthor Josh Liebow-Feeser <hello@joshlf.com> 1794234040 -0500\ncommitter Josh Liebow-Feeser <joshlf@users.noreply.github.com> 1794236381 -0500\n\nAdd isolated layer C\n\nAgent-authored-by: AI agent acting on joshlf's behalf\n",
+      "tree": "ebc3af89b2925d196eb2a73fb7bf382137ae3017",
+      "type": "commit"
+    },
+    "f91404d352a17ee81437224fe1a08080a14221b4": {
+      "available": true,
+      "parent_patches": {
+        "a810a5f65ef9e212725a5227f43e6804a3fb691a": "diff --git a/gql_A.txt b/gql_A.txt\nnew file mode 100644\nindex 0000000..f70f10e\n--- /dev/null\n+++ b/gql_A.txt\n@@ -0,0 +1 @@\n+A\n"
+      },
+      "parents": [
+        "a810a5f65ef9e212725a5227f43e6804a3fb691a"
+      ],
+      "raw_commit": "tree 22fd56bf2f9847ee6c24561982bec85e22d35f52\nparent a810a5f65ef9e212725a5227f43e6804a3fb691a\nauthor Josh Liebow-Feeser <hello@joshlf.com> 1794234040 -0500\ncommitter Josh Liebow-Feeser <hello@joshlf.com> 1794234040 -0500\n\nAdd isolated layer A\n\nAgent-authored-by: AI agent acting on joshlf's behalf\n",
+      "tree": "22fd56bf2f9847ee6c24561982bec85e22d35f52",
+      "type": "commit"
+    },
+    "ff70001f89fe387ef28b828baba09166658ceb88": {
+      "available": true,
+      "parent_patches": {
+        "4b03688595350b87c74e901513826297d01ed62c": "diff --git a/gql_C.txt b/gql_C.txt\nnew file mode 100644\nindex 0000000..3cc58df\n--- /dev/null\n+++ b/gql_C.txt\n@@ -0,0 +1 @@\n+C\n"
+      },
+      "parents": [
+        "4b03688595350b87c74e901513826297d01ed62c"
+      ],
+      "raw_commit": "tree 4c1d233e81e6e13dce567378f41ad72afa2a80ec\nparent 4b03688595350b87c74e901513826297d01ed62c\nauthor Josh Liebow-Feeser <hello@joshlf.com> 1794234040 -0500\ncommitter Josh Liebow-Feeser <hello@joshlf.com> 1794234040 -0500\n\nAdd isolated layer C\n\nAgent-authored-by: AI agent acting on joshlf's behalf\n",
+      "tree": "4c1d233e81e6e13dce567378f41ad72afa2a80ec",
+      "type": "commit"
+    }
+  },
+  "passed": true,
+  "phase": "cascade-followup-complete",
+  "utc": "2026-11-09T15:01:54.488229+00:00"
+}

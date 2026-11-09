@@ -1,0 +1,15 @@
+{
+  "argv": [
+    "gh",
+    "api",
+    "--method",
+    "GET",
+    "repos/joshlf/gherrit-native-stack-experiments-2026-11-08/actions/runs/42657475024/artifacts?per_page=100"
+  ],
+  "started_utc": "2026-11-09T16:43:31.022862+00:00",
+  "ended_utc": "2026-11-09T16:43:31.289756+00:00",
+  "returncode": 0,
+  "stdout_file": "artifacts.json",
+  "stdout_sha256": "18f2120ac32dfd2f25d612eba3a1b4da27459e10cb61455b7abafdf6480842c7",
+  "stderr": ""
+}

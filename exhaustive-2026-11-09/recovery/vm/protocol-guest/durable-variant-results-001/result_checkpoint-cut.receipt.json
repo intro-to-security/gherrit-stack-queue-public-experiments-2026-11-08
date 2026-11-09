@@ -1,0 +1,10 @@
+{
+  "pid": 5019,
+  "exit": -9,
+  "target": "BARRIER PROTOCOL result_checkpoint",
+  "reached": true,
+  "natural_shutdown": false,
+  "kill_issued": true,
+  "bytes": 40754,
+  "utc_seconds": 1794241387.012774
+}

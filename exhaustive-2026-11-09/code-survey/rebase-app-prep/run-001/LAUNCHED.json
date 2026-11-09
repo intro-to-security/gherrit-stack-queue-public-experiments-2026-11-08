@@ -1,0 +1,15 @@
+{
+  "at": {
+    "utc": "2026-11-09T16:42:25.936665+00:00",
+    "monotonic_ns": 3211297083
+  },
+  "runner_commit": "6f7f0d9322bc6ddaf72bc3043c15463ecbd92b6e",
+  "runner_ref": "exh-1109-causal-rb-app-001/runner",
+  "refs": {
+    "refs/heads/exh-1109-causal-rb-app-001/A": "5afe9c34540002ec9554c2e9d279f4fa895d89db",
+    "refs/heads/exh-1109-causal-rb-app-001/B": "11ddd6ef32afc4bca7865a22c70248a6156edee7",
+    "refs/heads/exh-1109-causal-rb-app-001/runner": "6f7f0d9322bc6ddaf72bc3043c15463ecbd92b6e",
+    "refs/heads/exh-1109-causal-rb-app-001/trunk": "1eadf6cbffab4ef16d21830f06e5806cf8eb1b1a"
+  },
+  "workflow_execution": "Triggered or pending; retain exact run/permissions/artifact and reconcile read-only; never rerun/recreate"
+}

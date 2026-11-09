@@ -1,0 +1,13 @@
+{
+  "started": {
+    "utc": "2026-11-09T16:45:46.313164+00:00",
+    "monotonic_ns": 288730875
+  },
+  "finished": {
+    "utc": "2026-11-09T16:45:46.477846+00:00",
+    "monotonic_ns": 453419625
+  },
+  "returncode": 0,
+  "stdout": "",
+  "stderr": "From https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08\n * [new branch]      exh-1109-causal-rb-app-001/A -> refs/observed/app/A\n * [new branch]      exh-1109-causal-rb-app-001/B -> refs/observed/app/B\n * [new branch]      exh-1109-causal-rb-app-001/runner -> refs/observed/app/runner\n * [new branch]      exh-1109-causal-rb-app-001/trunk -> refs/observed/app/trunk\n"
+}

@@ -1,0 +1,164 @@
+{
+  "prefix": "validated",
+  "verdict": {
+    "prefix": "validated",
+    "passed": true,
+    "classification": "validated_complete",
+    "expected": "validated_complete",
+    "checks": [
+      {
+        "name": "same_fixture_directory",
+        "passed": true
+      },
+      {
+        "name": "captured_provider_directory",
+        "passed": true
+      },
+      {
+        "name": "binding_agrees_with_frozen_intent",
+        "passed": true
+      },
+      {
+        "name": "checkpoint_agrees_with_frozen_intent",
+        "passed": true
+      },
+      {
+        "name": "captured_custody_owner_and_token",
+        "passed": true
+      },
+      {
+        "name": "captured_authority_path",
+        "passed": true
+      },
+      {
+        "name": "durable_prefix_operation",
+        "passed": true
+      },
+      {
+        "name": "durable_prefix_requests",
+        "passed": true
+      },
+      {
+        "name": "durable_prefix_receipts",
+        "passed": true
+      },
+      {
+        "name": "exact_frozen_intent",
+        "passed": true
+      },
+      {
+        "name": "unchanged_authority.json",
+        "passed": true
+      },
+      {
+        "name": "unchanged_authority-link.json",
+        "passed": true
+      },
+      {
+        "name": "unchanged_manifest.json",
+        "passed": true
+      },
+      {
+        "name": "unchanged_bindings.json",
+        "passed": true
+      },
+      {
+        "name": "unchanged_original-checkpoint.json",
+        "passed": true
+      },
+      {
+        "name": "manifest_binds_intent",
+        "passed": true
+      },
+      {
+        "name": "local_all_original_git_objects_exact",
+        "passed": true
+      },
+      {
+        "name": "provider_all_original_git_objects_exact",
+        "passed": true
+      },
+      {
+        "name": "unchanged_fsck_diagnostics_local",
+        "passed": true
+      },
+      {
+        "name": "unchanged_fsck_diagnostics_provider",
+        "passed": true
+      },
+      {
+        "name": "retained_input",
+        "passed": true
+      },
+      {
+        "name": "retained_result",
+        "passed": true
+      },
+      {
+        "name": "new_dispatch_at_most_once",
+        "passed": true
+      },
+      {
+        "name": "completed_operation_state",
+        "passed": true
+      },
+      {
+        "name": "exact_local_continuation",
+        "passed": true
+      },
+      {
+        "name": "exact_local_checkpoint",
+        "passed": true
+      },
+      {
+        "name": "exact_local_receipt",
+        "passed": true
+      },
+      {
+        "name": "exact_provider_head",
+        "passed": true
+      },
+      {
+        "name": "exact_provider_archive",
+        "passed": true
+      },
+      {
+        "name": "exact_single_provider_request",
+        "passed": true
+      },
+      {
+        "name": "exact_single_provider_receipt",
+        "passed": true
+      },
+      {
+        "name": "planned_prefix_expectation",
+        "passed": true
+      }
+    ],
+    "worker_result": {
+      "status": "complete"
+    }
+  },
+  "pre_recovery": {
+    "file": "validated-pre-recovery.raw.gz",
+    "raw_bytes": 33554432,
+    "raw_sha256": "a65cacb1374812241ff4986e291b22201ab44071b4ce8958e77b2f1f0f5e352d",
+    "gzip_sha256": "0458a5166aa0938204d8e8e7e0fd838db049cf64225ffedda8eda3c73b76a547",
+    "gzip_bytes": 175257,
+    "verified_lossless": true
+  },
+  "post_recovery": {
+    "file": "validated-post-recovery.raw.gz",
+    "raw_bytes": 33554432,
+    "raw_sha256": "8334af25092993d40b5f776387b6dd30084a36a1285dde26e17f8fa5457c94d0",
+    "gzip_sha256": "82dd0a2c4ab3475b5ad551f177d89a8d0f81d0d53e99366beb4804d303388b5b",
+    "gzip_bytes": 201723,
+    "verified_lossless": true
+  },
+  "fsck": {
+    "exit": 0,
+    "stdout": "Pass 1: Checking inodes, blocks, and sizes\nPass 2: Checking directory structure\nPass 3: Checking directory connectivity\nPass 4: Checking reference counts\nPass 5: Checking group summary information\n/lab/protocol-durable/actual-results/validated.raw: 97/8192 files (1.0% non-contiguous), 1634/8192 blocks\n",
+    "stderr": "e2fsck 1.46.5 (30-Dec-2021)\n",
+    "repair": false
+  }
+}

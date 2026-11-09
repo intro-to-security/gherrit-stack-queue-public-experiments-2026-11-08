@@ -1,0 +1,29 @@
+{
+  "complete_pagination": true,
+  "counts": {
+    "cases": 7,
+    "driver_assertions_passed": 98,
+    "frozen_rejected_cases": 2,
+    "independent_verification_checks_passed": 144,
+    "local_control_checks_passed": 16,
+    "local_tests_passed": 15,
+    "mutation_attempts": 58,
+    "per_case_referenced_objects_available": 68,
+    "recorded_mutations": {
+      "create-pr": 19,
+      "create-stack": 6,
+      "merge": 4,
+      "push": 20,
+      "update-branch": 9
+    },
+    "unacknowledged_mutation_attempts": 0
+  },
+  "granted_sources_unchanged": true,
+  "index_sha256": "65d9d8726f38789e18fbb4a44424c56ac8562b95ee4e9318a4a7e3009a1b6d03",
+  "indexed_bytes": 20690379,
+  "indexed_files": 3676,
+  "report_sha256": "de7e013162afc3f862c9cfa3b9f9d0be8698adef9c8613afaf3f9298786f66e0",
+  "summary_sha256": "0addc765fee6aa123e38d5b627bcfa7c5d8bdc5077394361a83f2906330827a8",
+  "utc": "2026-11-09T15:05:15.547838+00:00",
+  "verified_hashes": true
+}

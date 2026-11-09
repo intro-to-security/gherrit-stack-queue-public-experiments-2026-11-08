@@ -1,0 +1,16 @@
+{
+  "case": "explicit-types-contrast",
+  "hashes": {
+    "FOLLOWUP-PLAN.md": "b1240ab6b6fb9b287a0cd92ae2a0b82628d8e8e6f62ce24c2103b90f64f18724",
+    "followup.py": "5c1da147d27b3559f37abc586d393822aca2ab25ec5812178f382e18c627e05b",
+    "harness.py": "ecec4ac68a478b65c45a865262dfc4e38c6d2522da4dde4197f912d2fe9084b2",
+    "minimal-ci.yml": "3b93678682cd4414ac9e247ddf641689f893bc8419b61a2ee1c50ee68cf64471"
+  },
+  "refs": [
+    "exh-1109-target-profile002-e-trunk",
+    "exh-1109-target-profile002-e-A",
+    "exh-1109-target-profile002-e-B"
+  ],
+  "snapshot": "followup-source/1794235259951286000",
+  "time": "2026-11-09T14:40:59.951217+00:00"
+}

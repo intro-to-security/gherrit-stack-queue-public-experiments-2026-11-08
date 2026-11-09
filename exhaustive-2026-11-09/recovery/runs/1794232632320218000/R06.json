@@ -1,0 +1,49 @@
+{
+  "checks": [
+    {
+      "actual": true,
+      "expected": true,
+      "name": "ordinary-import mutant witness exists",
+      "passed": true
+    },
+    {
+      "actual": true,
+      "expected": true,
+      "name": "blind-restore mutant witness exists",
+      "passed": true
+    },
+    {
+      "actual": true,
+      "expected": true,
+      "name": "unobserved drift limit witnessed",
+      "passed": true
+    }
+  ],
+  "details": {
+    "depth": 7,
+    "dimensions": "intent/remote/observed values 0,1,2; pending old input 0; up to 3 publications; one layer",
+    "excluded": "Provider ordering guarantee, arbitrary Git content, lifecycle, uncooperative writers, human decisions",
+    "invariant": "Observation and crash preserve accepted intent; current coherent drift requires review",
+    "states": 97,
+    "transitions": 586,
+    "witnesses": {
+      "blind_restore_loses_legitimate_edit": [
+        "legitimate-edit-2",
+        "observe-current",
+        "blind-restore"
+      ],
+      "drift_not_yet_observed": [
+        "old-effect-0"
+      ],
+      "ordinary_import_silent_loss": [
+        "old-effect-0",
+        "observe-current",
+        "ordinary-import"
+      ]
+    }
+  },
+  "disposition": "performed",
+  "id": "R06",
+  "status": "passed",
+  "title": "Bounded event exploration"
+}

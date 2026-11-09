@@ -1,0 +1,28 @@
+{
+  "kind": "http",
+  "method": "GET",
+  "path": "repos/joshlf/gherrit-native-stack-experiments-2026-11-08/pulls/566/merge-async/8ede2755-f6a2-475c-93d5-ccfb8f2f78dc",
+  "payload": null,
+  "start": {
+    "utc": "2026-11-09T13:50:03.732462+00:00",
+    "monotonic": 12.934861083
+  },
+  "end": {
+    "utc": "2026-11-09T13:50:03.983034+00:00",
+    "monotonic": 13.185457541
+  },
+  "exit": 0,
+  "http": 200,
+  "data": {
+    "status": "pending",
+    "details": {
+      "message": "Merge request is in progress.",
+      "uuid": "8ede2755-f6a2-475c-93d5-ccfb8f2f78dc",
+      "merge_method": "squash",
+      "merge_action": "direct_merge",
+      "expected_head_sha": "bf6901709a632df1c4e052a7fdb6c593303b357a",
+      "bypass_rules": false
+    }
+  },
+  "disposition": "response-retained"
+}

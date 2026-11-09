@@ -1,0 +1,26 @@
+{
+  "args": [
+    "ls-remote",
+    "--refs",
+    "https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08.git",
+    "refs/heads/exh-1109-workflow-gql-partial-001/A",
+    "refs/heads/exh-1109-workflow-gql-partial-001/B",
+    "refs/heads/exh-1109-workflow-gql-partial-001/C",
+    "refs/heads/exh-1109-workflow-gql-partial-001/author-source",
+    "refs/heads/exh-1109-workflow-gql-partial-001/trunk",
+    "refs/tags/gherrit/exh-1109-workflow-gql-partial-001-A/v1",
+    "refs/tags/gherrit/exh-1109-workflow-gql-partial-001-B/v1",
+    "refs/tags/gherrit/exh-1109-workflow-gql-partial-001-C/v1",
+    "refs/tags/gherrit/exh-1109-workflow-gql-partial-001-A/v2"
+  ],
+  "disposition": "command-acknowledged",
+  "ended": "2026-11-09T16:44:19.758382+00:00",
+  "exit": 0,
+  "expected": null,
+  "kind": "git-read",
+  "monotonic": 3.604048666,
+  "started": "2026-11-09T16:44:19.556614+00:00",
+  "stderr": "",
+  "stdout": "a8a39b61ad98ac6987183198ea308400ca507ebc\trefs/heads/exh-1109-workflow-gql-partial-001/A\n74cd012a960d3525e00727be30dbfd6fc0b170b5\trefs/heads/exh-1109-workflow-gql-partial-001/B\ndca811f5d210b004f6229ea1134f3fb49f1cba44\trefs/heads/exh-1109-workflow-gql-partial-001/C\ndca811f5d210b004f6229ea1134f3fb49f1cba44\trefs/heads/exh-1109-workflow-gql-partial-001/author-source\n7dab21a9a9fe31304280abd4cf9cb55df0caa78b\trefs/heads/exh-1109-workflow-gql-partial-001/trunk\nd73f1543202618e1eb359fb8f15751e1092ccc7f\trefs/tags/gherrit/exh-1109-workflow-gql-partial-001-A/v1\na8a39b61ad98ac6987183198ea308400ca507ebc\trefs/tags/gherrit/exh-1109-workflow-gql-partial-001-A/v2\n74cd012a960d3525e00727be30dbfd6fc0b170b5\trefs/tags/gherrit/exh-1109-workflow-gql-partial-001-B/v1\ndca811f5d210b004f6229ea1134f3fb49f1cba44\trefs/tags/gherrit/exh-1109-workflow-gql-partial-001-C/v1\n",
+  "updates": null
+}

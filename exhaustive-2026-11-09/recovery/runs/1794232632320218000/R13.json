@@ -1,0 +1,255 @@
+{
+  "checks": [
+    {
+      "actual": "stale_custody",
+      "expected": "stale_custody",
+      "name": "stale source custody blocked",
+      "passed": true
+    },
+    {
+      "actual": "blocked_unknown_no_resend",
+      "expected": "blocked_unknown_no_resend",
+      "name": "new owner preserves unresolved outcome without resend",
+      "passed": true
+    },
+    {
+      "actual": {
+        "accepted_local": "c7b7c5a4db0bb7bf954622df46cc0c218e798a4f",
+        "incorporated": "713d8c9e0471e8aacceca1f9d26274b93fa4bdb1"
+      },
+      "expected": {
+        "accepted_local": "c7b7c5a4db0bb7bf954622df46cc0c218e798a4f",
+        "incorporated": "713d8c9e0471e8aacceca1f9d26274b93fa4bdb1"
+      },
+      "name": "transfer exact original checkpoint",
+      "passed": true
+    },
+    {
+      "actual": {
+        "binding": {
+          "change": "A",
+          "head": "A",
+          "repository": "local-fixture",
+          "review": 1
+        },
+        "captured_checkpoint": {
+          "accepted_local": "c7b7c5a4db0bb7bf954622df46cc0c218e798a4f",
+          "incorporated": "713d8c9e0471e8aacceca1f9d26274b93fa4bdb1"
+        },
+        "continuation": "refs/retained/completed-transfer-source",
+        "expected": "713d8c9e0471e8aacceca1f9d26274b93fa4bdb1",
+        "id": "op-transfer-source",
+        "input": "713d8c9e0471e8aacceca1f9d26274b93fa4bdb1",
+        "provider": "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/recovery/runs/1794232632320218000/transfer-source/provider",
+        "result": "c7b7c5a4db0bb7bf954622df46cc0c218e798a4f",
+        "scope": [
+          "head:A",
+          "archive:transfer-source"
+        ]
+      },
+      "expected": {
+        "binding": {
+          "change": "A",
+          "head": "A",
+          "repository": "local-fixture",
+          "review": 1
+        },
+        "captured_checkpoint": {
+          "accepted_local": "c7b7c5a4db0bb7bf954622df46cc0c218e798a4f",
+          "incorporated": "713d8c9e0471e8aacceca1f9d26274b93fa4bdb1"
+        },
+        "continuation": "refs/retained/completed-transfer-source",
+        "expected": "713d8c9e0471e8aacceca1f9d26274b93fa4bdb1",
+        "id": "op-transfer-source",
+        "input": "713d8c9e0471e8aacceca1f9d26274b93fa4bdb1",
+        "provider": "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/recovery/runs/1794232632320218000/transfer-source/provider",
+        "result": "c7b7c5a4db0bb7bf954622df46cc0c218e798a4f",
+        "scope": [
+          "head:A",
+          "archive:transfer-source"
+        ]
+      },
+      "name": "transfer frozen operation input",
+      "passed": true
+    },
+    {
+      "actual": 1,
+      "expected": 1,
+      "name": "transfer provider request count",
+      "passed": true
+    },
+    {
+      "actual": "refused",
+      "expected": "refused",
+      "name": "adoption outcome wrong-api-repository",
+      "passed": true
+    },
+    {
+      "actual": false,
+      "expected": false,
+      "name": "adoption has no new mutation authority wrong-api-repository",
+      "passed": true
+    },
+    {
+      "actual": "refused",
+      "expected": "refused",
+      "name": "adoption outcome wrong-git-destination",
+      "passed": true
+    },
+    {
+      "actual": false,
+      "expected": false,
+      "name": "adoption has no new mutation authority wrong-git-destination",
+      "passed": true
+    },
+    {
+      "actual": "refused",
+      "expected": "refused",
+      "name": "adoption outcome occupied-without-adoption",
+      "passed": true
+    },
+    {
+      "actual": false,
+      "expected": false,
+      "name": "adoption has no new mutation authority occupied-without-adoption",
+      "passed": true
+    },
+    {
+      "actual": "refused",
+      "expected": "refused",
+      "name": "adoption outcome stale-adoption-value",
+      "passed": true
+    },
+    {
+      "actual": false,
+      "expected": false,
+      "name": "adoption has no new mutation authority stale-adoption-value",
+      "passed": true
+    },
+    {
+      "actual": "refused",
+      "expected": "refused",
+      "name": "adoption outcome unknown-old-writer",
+      "passed": true
+    },
+    {
+      "actual": false,
+      "expected": false,
+      "name": "adoption has no new mutation authority unknown-old-writer",
+      "passed": true
+    },
+    {
+      "actual": "refused",
+      "expected": "refused",
+      "name": "adoption outcome lost-archive-history",
+      "passed": true
+    },
+    {
+      "actual": false,
+      "expected": false,
+      "name": "adoption has no new mutation authority lost-archive-history",
+      "passed": true
+    },
+    {
+      "actual": "enrolled",
+      "expected": "enrolled",
+      "name": "adoption outcome full-custody",
+      "passed": true
+    },
+    {
+      "actual": false,
+      "expected": false,
+      "name": "adoption has no new mutation authority full-custody",
+      "passed": true
+    },
+    {
+      "actual": "refused",
+      "expected": "refused",
+      "name": "bindings-only directory cannot adopt custody",
+      "passed": true
+    }
+  ],
+  "details": {
+    "admissions": [
+      {
+        "name": "wrong-api-repository",
+        "result": {
+          "mutation_authority": false,
+          "reason": "destination_mapping_mismatch",
+          "status": "refused"
+        }
+      },
+      {
+        "name": "wrong-git-destination",
+        "result": {
+          "mutation_authority": false,
+          "reason": "destination_mapping_mismatch",
+          "status": "refused"
+        }
+      },
+      {
+        "name": "occupied-without-adoption",
+        "result": {
+          "mutation_authority": false,
+          "reason": "occupied_unadopted_head",
+          "status": "refused"
+        }
+      },
+      {
+        "name": "stale-adoption-value",
+        "result": {
+          "mutation_authority": false,
+          "reason": "adopted_head_changed",
+          "status": "refused"
+        }
+      },
+      {
+        "name": "unknown-old-writer",
+        "result": {
+          "mutation_authority": false,
+          "reason": "old_writer_not_excluded",
+          "status": "refused"
+        }
+      },
+      {
+        "name": "lost-archive-history",
+        "result": {
+          "mutation_authority": false,
+          "reason": "archive_history_mismatch",
+          "status": "refused"
+        }
+      },
+      {
+        "name": "full-custody",
+        "result": {
+          "mutation_authority": false,
+          "pending_custody": true,
+          "status": "enrolled"
+        }
+      },
+      {
+        "name": "bindings-only",
+        "result": {
+          "mutation_authority": false,
+          "reason": "missing:authority-link.json",
+          "status": "refused"
+        }
+      }
+    ],
+    "bound": "Same-host stable authority path; cross-host transfer still needs quiescence and coordinated authority handoff",
+    "destination": "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/recovery/runs/1794232632320218000/transfer-destination",
+    "provider": {
+      "receipts": [],
+      "requests": [
+        {
+          "digest": "cfa6f641cfa89663f5d41b81571b90114a38011afe5bd3493cc9a696660ac84f",
+          "id": "op-transfer-source"
+        }
+      ]
+    }
+  },
+  "disposition": "performed",
+  "id": "R13",
+  "status": "passed",
+  "title": "Custody transfer and adoption"
+}

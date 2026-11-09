@@ -1,0 +1,15 @@
+{
+  "distinct_objects_verified": [
+    {
+      "oid": "5a62bfb9a7a28166d474c1c8af3e3a19e59e262d",
+      "bytes": 15,
+      "hex": "007265766973696f6e2d6f6e65ff0a"
+    },
+    {
+      "oid": "712c2ecd69edb961f77f71c43519d7d77cbb4629",
+      "bytes": 15,
+      "hex": "007265766973696f6e2d74776ffe0a"
+    }
+  ],
+  "scope": "Independent root Git readback of source-controlled distinctbinary counterexample; no mutation."
+}

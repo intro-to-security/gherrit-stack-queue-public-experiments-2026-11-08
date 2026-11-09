@@ -1,0 +1,25 @@
+{
+  "body": {
+    "documentation_url": "https://docs.github.com/rest/pulls/stacks#rebase-a-pull-request-stack",
+    "message": "Not Found",
+    "status": "404"
+  },
+  "ended_utc": "2026-11-09T16:42:37.338531+00:00",
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "date": "Mon, 09 Nov 2026 16:42:37 GMT",
+    "x-accepted-github-permissions": "pull_requests=write,contents=write",
+    "x-github-api-version-selected": "2026-03-10",
+    "x-github-request-id": "482F:31EB6E:D73D7C:2C02F9F:6AF1F7FD"
+  },
+  "method": "PUT",
+  "path": "/repositories/1450723431/stacks/656/rebase",
+  "payload": {
+    "expected_head_oid_by_pr_number": {
+      "654": "5afe9c34540002ec9554c2e9d279f4fa895d89db",
+      "655": "11ddd6ef32afc4bca7865a22c70248a6156edee7"
+    }
+  },
+  "started_utc": "2026-11-09T16:42:37.021240+00:00",
+  "status": 404
+}

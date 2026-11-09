@@ -1,0 +1,5 @@
+{
+  "at": "2026-11-09T16:43:24.838397+00:00",
+  "error": "Base projection has not acknowledged exact parent:B",
+  "policy": "Read-only reconciliation; no repaired or repeated write"
+}

@@ -1,0 +1,13 @@
+{
+  "archives_verified": [
+    "complete-pre-recovery.raw.gz",
+    "complete-post-recovery.raw.gz"
+  ],
+  "strict_oracle_verdict_reproduced": true,
+  "verdict_remains_failed": true,
+  "runtime_recovery_result": {
+    "reason": "invalid_completed_attachment",
+    "status": "refused"
+  },
+  "limits": "Pure read-only originaloracle/archive checks; no repair/retry."
+}

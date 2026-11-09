@@ -1,0 +1,12 @@
+{
+  "repository": "joshlf/gherrit-native-stack-experiments-2026-11-08",
+  "source_commit": "e894b4244f6e7bd6faf02e1868470e6f4feffe87",
+  "path": ".github/workflows/ci.yml",
+  "local_retained_blob": "7896516952097cc09bac4f6d5ba03ad963b65743",
+  "independent_connected_file_GET_blob": "7896516952097cc09bac4f6d5ba03ad963b65743",
+  "match": true,
+  "definition": "pull_request branches exact F trunk, no explicit types",
+  "observed_run": 42634983591,
+  "observed_action": "stacked",
+  "raw_retained_definition": "evidence/f-B.commit.json#files/.github/workflows/ci.yml"
+}

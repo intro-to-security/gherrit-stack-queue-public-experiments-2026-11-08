@@ -1,0 +1,79 @@
+{
+  "checks": [
+    {
+      "actual": "unknown_partial",
+      "expected": "unknown_partial",
+      "name": "partial outcome remains unknown",
+      "passed": true
+    },
+    {
+      "actual": "80e8dcb0eb431b9bd5bcb300361e3f17c166e96a",
+      "expected": "80e8dcb0eb431b9bd5bcb300361e3f17c166e96a",
+      "name": "actual head changed",
+      "passed": true
+    },
+    {
+      "actual": "",
+      "expected": "",
+      "name": "actual archive absent",
+      "passed": true
+    },
+    {
+      "actual": "blocked_unknown_no_resend",
+      "expected": "blocked_unknown_no_resend",
+      "name": "matching head alone does not complete",
+      "passed": true
+    },
+    {
+      "actual": 1,
+      "expected": 1,
+      "name": "partial outcome no duplicate request",
+      "passed": true
+    }
+  ],
+  "details": {
+    "missing_archive": true,
+    "provider": {
+      "receipts": [],
+      "requests": [
+        {
+          "digest": "1550c8f59e33c94b2e44f9f8dc0aa973107e73baba0757822b3fcc0fc964e0df",
+          "id": "op-partial-provider"
+        }
+      ]
+    },
+    "result": {
+      "status": "unknown_partial"
+    },
+    "scope": "Injected separate effects; not evidence that Git atomic push is partial",
+    "state": {
+      "intent": {
+        "binding": {
+          "change": "A",
+          "head": "A",
+          "repository": "local-fixture",
+          "review": 1
+        },
+        "captured_checkpoint": {
+          "accepted_local": "80e8dcb0eb431b9bd5bcb300361e3f17c166e96a",
+          "incorporated": "8342bb540a5e39059949a67ecb63490c07c830a9"
+        },
+        "continuation": "refs/retained/completed-partial-provider",
+        "expected": "8342bb540a5e39059949a67ecb63490c07c830a9",
+        "id": "op-partial-provider",
+        "input": "8342bb540a5e39059949a67ecb63490c07c830a9",
+        "provider": "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/recovery/runs/1794232632320218000/partial-provider/provider",
+        "result": "80e8dcb0eb431b9bd5bcb300361e3f17c166e96a",
+        "scope": [
+          "head:A",
+          "archive:partial-provider"
+        ]
+      },
+      "state": "indeterminate"
+    }
+  },
+  "disposition": "performed",
+  "id": "R11",
+  "status": "passed",
+  "title": "Partial and unknown effect"
+}

@@ -1,0 +1,20 @@
+{
+  "actual_mutating_dispatches": 6,
+  "at": "2026-11-09T16:45:23.273768+00:00",
+  "native_group": 660,
+  "phase": "terminal frozen failed pre-mutation base-projection premise",
+  "prefix": "exh-1109-workflow-gql-partial-001",
+  "projection_limit": "Git and A own head expose Aadvanced while B REST/GQL base OID expose oldA. Cause and future duration unestablished.",
+  "prs": {
+    "A": 657,
+    "B": 658,
+    "C": 659
+  },
+  "remaining_authorized_writes": [],
+  "remaining_cleanup_obligations": [],
+  "repository": "joshlf/gherrit-native-stack-experiments-2026-11-08",
+  "retention": "All nine owned refs, three PRs, native group, original source/archives, local inputs, exact source/grant snapshot and raw receipts retained. No cleanup or continuation write authorized.",
+  "runtime": "driver exited1; read-only reconciliation exited0; no running owned process",
+  "test_disposition": "B-success/C-conflict unperformed; neither request dispatched. No public REBASE capability inference from this failed prerequisite.",
+  "unacknowledged_mutations": []
+}

@@ -1,0 +1,103 @@
+{
+  "checks": [
+    {
+      "actual": "complete",
+      "expected": "complete",
+      "name": "valid fixture completes before mutation identity",
+      "passed": true
+    },
+    {
+      "actual": "operation_identity",
+      "expected": "operation_identity",
+      "name": "unmodified dispatcher rejects mutation identity",
+      "passed": true
+    },
+    {
+      "actual": "complete",
+      "expected": "complete",
+      "name": "known-bad dispatcher reports completion identity",
+      "passed": true
+    },
+    {
+      "actual": true,
+      "expected": true,
+      "name": "independent artifact/request oracle catches unsafe completion identity",
+      "passed": true
+    },
+    {
+      "actual": "complete",
+      "expected": "complete",
+      "name": "valid fixture completes before mutation result",
+      "passed": true
+    },
+    {
+      "actual": "invalid_completed_attachment",
+      "expected": "invalid_completed_attachment",
+      "name": "unmodified dispatcher rejects mutation result",
+      "passed": true
+    },
+    {
+      "actual": "complete",
+      "expected": "complete",
+      "name": "known-bad dispatcher reports completion result",
+      "passed": true
+    },
+    {
+      "actual": true,
+      "expected": true,
+      "name": "independent artifact/request oracle catches unsafe completion result",
+      "passed": true
+    },
+    {
+      "actual": "stale_custody",
+      "expected": "stale_custody",
+      "name": "unmodified dispatcher rejects mutation owner",
+      "passed": true
+    },
+    {
+      "actual": "complete",
+      "expected": "complete",
+      "name": "known-bad dispatcher reports completion owner",
+      "passed": true
+    },
+    {
+      "actual": true,
+      "expected": true,
+      "name": "independent artifact/request oracle catches unsafe completion owner",
+      "passed": true
+    }
+  ],
+  "details": {
+    "controls": [
+      {
+        "invariant_violated": true,
+        "mutation": "identity",
+        "provider_requests": 1,
+        "unsafe_result": {
+          "status": "complete"
+        }
+      },
+      {
+        "invariant_violated": true,
+        "mutation": "result",
+        "provider_requests": 1,
+        "unsafe_result": {
+          "status": "complete"
+        }
+      },
+      {
+        "invariant_violated": true,
+        "mutation": "owner",
+        "provider_requests": 1,
+        "unsafe_result": {
+          "status": "complete"
+        }
+      }
+    ],
+    "limitation": "Protocol source and checks share edit authority; experimental falsification is not an enforced production gate"
+  },
+  "disposition": "performed",
+  "id": "R16",
+  "status": "passed",
+  "title": "Acceptance oracle mutation controls"
+}

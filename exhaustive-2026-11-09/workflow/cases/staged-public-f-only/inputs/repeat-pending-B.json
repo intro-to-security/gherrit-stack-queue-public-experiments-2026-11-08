@@ -1,0 +1,9 @@
+{
+  "message": "Capitalize the item label in the pending consumer\n\nAgent-authored-by: AI agent acting on joshlf's behalf\n",
+  "oid": "fd8ce6411d635cfab3b933ed2980989d2be4528a",
+  "parent": "cf92c03b37f17a3ba8e3bf52d4961e00e3852b4c",
+  "tree": "b0d7757565a2269fe235dec5d01a04aad8fc8035",
+  "updates": {
+    "workflow_case/consumer.py": "from model import Item\n\ndef describe(item):\n    return item.name.upper() + ':' + str(item.quantity) + ' ' + item.unit\n"
+  }
+}

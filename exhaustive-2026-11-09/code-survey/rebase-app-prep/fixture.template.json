@@ -1,0 +1,31 @@
+{
+  "schema": "native-rebase-app-one-shot-v1",
+  "root_reviewed": false,
+  "repository": "joshlf/gherrit-native-stack-experiments-2026-11-08",
+  "repository_id": 1450723431,
+  "prefix": "exh-1109-causal-rb-app-001",
+  "runner_ref": "refs/heads/exh-1109-causal-rb-app-001/runner",
+  "probe_sha256": "476029710ad48039c36e423fd6ff6c6219bd591edb96a6df82934eaec1f1e12b",
+  "stack_number": 0,
+  "stack_node_id": "",
+  "trunk": {
+    "ref": "exh-1109-causal-rb-app-001/trunk",
+    "sha": "ROOT_MUST_FILL_ADVANCED_TRUNK_SHA"
+  },
+  "members": [
+    {
+      "number": 0,
+      "node_id": "",
+      "head_ref": "exh-1109-causal-rb-app-001/A",
+      "head_oid": "ROOT_MUST_FILL_A_HEAD_SHA",
+      "base_ref": "exh-1109-causal-rb-app-001/trunk"
+    },
+    {
+      "number": 0,
+      "node_id": "",
+      "head_ref": "exh-1109-causal-rb-app-001/B",
+      "head_oid": "ROOT_MUST_FILL_B_HEAD_SHA",
+      "base_ref": "exh-1109-causal-rb-app-001/A"
+    }
+  ]
+}

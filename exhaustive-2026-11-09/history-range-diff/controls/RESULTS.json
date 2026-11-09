@@ -1,0 +1,821 @@
+{
+  "git_version": "git version 2.54.0 (Apple Git-157)",
+  "cases": [
+    {
+      "id": "A-unrelated-base",
+      "purpose": "Identical alpha edit across unrelated-file ancestry drift",
+      "old": {
+        "base": "038c50ec62e9de1537264893ccb42a952634db5f",
+        "tip": "85a5876bb890dfcad01d2778ce2e8f47510cf655"
+      },
+      "new": {
+        "base": "99eb5091ac2019c4ad51f100bb5a87bd8b928d00",
+        "tip": "f470b6c105170c53f7e04bf3e8a52e8421078bb7"
+      },
+      "range_diff": {
+        "default": "1:  85a5876 = 1:  f470b6c Update alpha\n",
+        "factor100": "1:  85a5876 = 1:  f470b6c Update alpha\n"
+      },
+      "literal_diff_of_patches": ""
+    },
+    {
+      "id": "B-context-drift",
+      "purpose": "Same value 0-to-1 authored edit; base changes adjacent context only",
+      "old": {
+        "base": "038c50ec62e9de1537264893ccb42a952634db5f",
+        "tip": "eb4b49d4258d1592e7ecf5b69776b24d09ffc5ec"
+      },
+      "new": {
+        "base": "a5fd2bf3454acdf1bd67a473108148267bd3ec62",
+        "tip": "d9c7b00dae3e248fec0304dfe2ce5a8a6c35cbe9"
+      },
+      "range_diff": {
+        "default": "1:  eb4b49d < -:  ------- Update value\n-:  ------- > 1:  d9c7b00 Update value\n",
+        "factor100": "1:  eb4b49d ! 1:  d9c7b00 Update value\n    @@ Commit message\n     \n      ## context.txt ##\n     @@\n    - context = old\n    + context = new\n     -value = 0\n     +value = 1\n      footer\n"
+      },
+      "literal_diff_of_patches": "--- old.patch\n+++ new.patch\n@@ -1,9 +1,9 @@\n diff --git a/context.txt b/context.txt\n-index efa903248b9598c3aad7ce36d0c734d904efa14c..36de0dcf6231595380e00c6c875258fd986eda2d 100644\n+index d430cfae0ca63f730ac0a674199a7241847ab28d..54d94d6ad86adc13c3d5b64f5f4c6f4bdf8c64e9 100644\n --- a/context.txt\n +++ b/context.txt\n @@ -1,3 +1,3 @@\n- context = old\n+ context = new\n -value = 0\n +value = 1\n  footer\n"
+    },
+    {
+      "id": "C-binary-change",
+      "purpose": "Different binary replacement bytes with identical metadata and paths",
+      "old": {
+        "base": "038c50ec62e9de1537264893ccb42a952634db5f",
+        "tip": "9d8255c1dd9a19f955a4d4f4069a2b29a6cea815"
+      },
+      "new": {
+        "base": "038c50ec62e9de1537264893ccb42a952634db5f",
+        "tip": "ee9af262b39cb36d9db6fd9e815b5f30f6392e79"
+      },
+      "range_diff": {
+        "default": "1:  9d8255c = 1:  ee9af26 Replace binary payload\n",
+        "factor100": "1:  9d8255c = 1:  ee9af26 Replace binary payload\n"
+      },
+      "literal_diff_of_patches": "--- old.patch\n+++ new.patch\n@@ -1,3 +1,3 @@\n diff --git a/data.bin b/data.bin\n-index f3b15f7d30b6b35b357558b73035356bf11747f5..5a62bfb9a7a28166d474c1c8af3e3a19e59e262d 100644\n+index f3b15f7d30b6b35b357558b73035356bf11747f5..712c2ecd69edb961f77f71c43519d7d77cbb4629 100644\n Binary files a/data.bin and b/data.bin differ\n"
+    },
+    {
+      "id": "D-mode-change",
+      "purpose": "Same authored text; executable mode omitted in second revision",
+      "old": {
+        "base": "038c50ec62e9de1537264893ccb42a952634db5f",
+        "tip": "e344d8c3d802f86c1813fc94e4cc412c6981199c"
+      },
+      "new": {
+        "base": "038c50ec62e9de1537264893ccb42a952634db5f",
+        "tip": "2bc030ee515ecc3f6b6ad85f89362c421c75f797"
+      },
+      "range_diff": {
+        "default": "1:  e344d8c ! 1:  2bc030e Update script\n    @@ Commit message\n     \n         Agent-authored-by: AI agent acting on joshlf's behalf\n     \n    - ## script.sh (mode change 100644 => 100755) ##\n    + ## script.sh ##\n     @@\n      #!/bin/sh\n     -echo base\n",
+        "factor100": "1:  e344d8c ! 1:  2bc030e Update script\n    @@ Commit message\n     \n         Agent-authored-by: AI agent acting on joshlf's behalf\n     \n    - ## script.sh (mode change 100644 => 100755) ##\n    + ## script.sh ##\n     @@\n      #!/bin/sh\n     -echo base\n"
+      },
+      "literal_diff_of_patches": "--- old.patch\n+++ new.patch\n@@ -1,7 +1,5 @@\n diff --git a/script.sh b/script.sh\n-old mode 100644\n-new mode 100755\n-index abd1b84d82403267c17bb807e1d2c012e93f6982..78ca6788f08e16394a0afb94b6fd06acf215441c\n+index abd1b84d82403267c17bb807e1d2c012e93f6982..78ca6788f08e16394a0afb94b6fd06acf215441c 100644\n --- a/script.sh\n +++ b/script.sh\n @@ -1,2 +1,2 @@\n"
+    },
+    {
+      "id": "E-series-reorder",
+      "purpose": "Same two disjoint edits in reversed order across unrelated base drift",
+      "old": {
+        "base": "038c50ec62e9de1537264893ccb42a952634db5f",
+        "tip": "1d1f1a10a80a80724017c54e05729ef7a9e095be"
+      },
+      "new": {
+        "base": "99eb5091ac2019c4ad51f100bb5a87bd8b928d00",
+        "tip": "f9cdcac45758ca4a887b1bf30bae7221b75bab62"
+      },
+      "range_diff": {
+        "default": "2:  1d1f1a1 = 1:  7e556b1 Update beta\n1:  85a5876 = 2:  f9cdcac Update alpha\n",
+        "factor100": "2:  1d1f1a1 = 1:  7e556b1 Update beta\n1:  85a5876 = 2:  f9cdcac Update alpha\n"
+      },
+      "literal_diff_of_patches": ""
+    }
+  ],
+  "commits": [
+    {
+      "name": "base",
+      "subject": "Create local comparison baseline",
+      "commit": "038c50ec62e9de1537264893ccb42a952634db5f",
+      "tree": "f728b41ba5d26c318fec0ddca1021c3326dd64fc",
+      "parent": null,
+      "files": {
+        "unrelated.txt": {
+          "mode": "100644",
+          "blob": "b82b33ad0b81b2b3360497f913ad32a0d7eacbba",
+          "bytes": 10,
+          "sha256": "1054ddccb23fa19d0afe51a4b75a932fc2eeda8b7dc67c281302e21569265352",
+          "hex": "7472756e6b203d20300a"
+        },
+        "context.txt": {
+          "mode": "100644",
+          "blob": "efa903248b9598c3aad7ce36d0c734d904efa14c",
+          "bytes": 31,
+          "sha256": "c7c95276150fa03bcbb625f3d9ff2e4504e6163baa492101cfaec17ca4c09c0d",
+          "hex": "636f6e74657874203d206f6c640a76616c7565203d20300a666f6f7465720a"
+        },
+        "data.bin": {
+          "mode": "100644",
+          "blob": "f3b15f7d30b6b35b357558b73035356bf11747f5",
+          "bytes": 7,
+          "sha256": "9534d9241897f9391a76a81f44e5d751bd8ea8d5c13c617832706b19496bcf26",
+          "hex": "0062617365ff0a"
+        },
+        "script.sh": {
+          "mode": "100644",
+          "blob": "abd1b84d82403267c17bb807e1d2c012e93f6982",
+          "bytes": 20,
+          "sha256": "82f36671bb46ac71d5ad557a15115879e85cb26045475d9f95936e23d972cd25",
+          "hex": "23212f62696e2f73680a6563686f20626173650a"
+        },
+        "alpha.txt": {
+          "mode": "100644",
+          "blob": "4b1baa13186285df6b68cd180990a158dfaa5d07",
+          "bytes": 10,
+          "sha256": "b9ae26eaf12162e7d570cab0b4082397b66197a3497d8de8320450c61c04014d",
+          "hex": "616c706861203d20300a"
+        },
+        "beta.txt": {
+          "mode": "100644",
+          "blob": "7efbd91562f49091c59b6a1be6b1e86cbc0aeb7d",
+          "bytes": 9,
+          "sha256": "7d30a216b4ab13ac8bf6b20a90f4b60eae2df380b1b8a273b4cd7cdb9abe6457",
+          "hex": "62657461203d20300a"
+        }
+      }
+    },
+    {
+      "name": "unrelated-base",
+      "subject": "Advance unrelated base file",
+      "commit": "99eb5091ac2019c4ad51f100bb5a87bd8b928d00",
+      "tree": "3489f599d6e4ecd6b55fc2d5434424e5128146d2",
+      "parent": "038c50ec62e9de1537264893ccb42a952634db5f",
+      "files": {
+        "unrelated.txt": {
+          "mode": "100644",
+          "blob": "af18bf13624504b2589aec6fce5ed5276d03e6bc",
+          "bytes": 10,
+          "sha256": "0d0359b9ea065a8860c1d5abc91b4e25fe999e0c6eb13e101d7d8f93a9c527f9",
+          "hex": "7472756e6b203d20310a"
+        },
+        "context.txt": {
+          "mode": "100644",
+          "blob": "efa903248b9598c3aad7ce36d0c734d904efa14c",
+          "bytes": 31,
+          "sha256": "c7c95276150fa03bcbb625f3d9ff2e4504e6163baa492101cfaec17ca4c09c0d",
+          "hex": "636f6e74657874203d206f6c640a76616c7565203d20300a666f6f7465720a"
+        },
+        "data.bin": {
+          "mode": "100644",
+          "blob": "f3b15f7d30b6b35b357558b73035356bf11747f5",
+          "bytes": 7,
+          "sha256": "9534d9241897f9391a76a81f44e5d751bd8ea8d5c13c617832706b19496bcf26",
+          "hex": "0062617365ff0a"
+        },
+        "script.sh": {
+          "mode": "100644",
+          "blob": "abd1b84d82403267c17bb807e1d2c012e93f6982",
+          "bytes": 20,
+          "sha256": "82f36671bb46ac71d5ad557a15115879e85cb26045475d9f95936e23d972cd25",
+          "hex": "23212f62696e2f73680a6563686f20626173650a"
+        },
+        "alpha.txt": {
+          "mode": "100644",
+          "blob": "4b1baa13186285df6b68cd180990a158dfaa5d07",
+          "bytes": 10,
+          "sha256": "b9ae26eaf12162e7d570cab0b4082397b66197a3497d8de8320450c61c04014d",
+          "hex": "616c706861203d20300a"
+        },
+        "beta.txt": {
+          "mode": "100644",
+          "blob": "7efbd91562f49091c59b6a1be6b1e86cbc0aeb7d",
+          "bytes": 9,
+          "sha256": "7d30a216b4ab13ac8bf6b20a90f4b60eae2df380b1b8a273b4cd7cdb9abe6457",
+          "hex": "62657461203d20300a"
+        }
+      }
+    },
+    {
+      "name": "old-alpha",
+      "subject": "Update alpha",
+      "commit": "85a5876bb890dfcad01d2778ce2e8f47510cf655",
+      "tree": "d6e2dff5b9c64064ab061c49e2f427cb755e37d3",
+      "parent": "038c50ec62e9de1537264893ccb42a952634db5f",
+      "files": {
+        "unrelated.txt": {
+          "mode": "100644",
+          "blob": "b82b33ad0b81b2b3360497f913ad32a0d7eacbba",
+          "bytes": 10,
+          "sha256": "1054ddccb23fa19d0afe51a4b75a932fc2eeda8b7dc67c281302e21569265352",
+          "hex": "7472756e6b203d20300a"
+        },
+        "context.txt": {
+          "mode": "100644",
+          "blob": "efa903248b9598c3aad7ce36d0c734d904efa14c",
+          "bytes": 31,
+          "sha256": "c7c95276150fa03bcbb625f3d9ff2e4504e6163baa492101cfaec17ca4c09c0d",
+          "hex": "636f6e74657874203d206f6c640a76616c7565203d20300a666f6f7465720a"
+        },
+        "data.bin": {
+          "mode": "100644",
+          "blob": "f3b15f7d30b6b35b357558b73035356bf11747f5",
+          "bytes": 7,
+          "sha256": "9534d9241897f9391a76a81f44e5d751bd8ea8d5c13c617832706b19496bcf26",
+          "hex": "0062617365ff0a"
+        },
+        "script.sh": {
+          "mode": "100644",
+          "blob": "abd1b84d82403267c17bb807e1d2c012e93f6982",
+          "bytes": 20,
+          "sha256": "82f36671bb46ac71d5ad557a15115879e85cb26045475d9f95936e23d972cd25",
+          "hex": "23212f62696e2f73680a6563686f20626173650a"
+        },
+        "alpha.txt": {
+          "mode": "100644",
+          "blob": "cc09c78a09a8bc168280cc940961da312d18d547",
+          "bytes": 10,
+          "sha256": "89a4ab92e5f2e0b68036f8e61f8a6885627cc239a356d27a1ca40b29f626b2cc",
+          "hex": "616c706861203d20310a"
+        },
+        "beta.txt": {
+          "mode": "100644",
+          "blob": "7efbd91562f49091c59b6a1be6b1e86cbc0aeb7d",
+          "bytes": 9,
+          "sha256": "7d30a216b4ab13ac8bf6b20a90f4b60eae2df380b1b8a273b4cd7cdb9abe6457",
+          "hex": "62657461203d20300a"
+        }
+      }
+    },
+    {
+      "name": "new-alpha",
+      "subject": "Update alpha",
+      "commit": "f470b6c105170c53f7e04bf3e8a52e8421078bb7",
+      "tree": "9150aa91b1f69f267390fc77852dbba4640fca69",
+      "parent": "99eb5091ac2019c4ad51f100bb5a87bd8b928d00",
+      "files": {
+        "unrelated.txt": {
+          "mode": "100644",
+          "blob": "af18bf13624504b2589aec6fce5ed5276d03e6bc",
+          "bytes": 10,
+          "sha256": "0d0359b9ea065a8860c1d5abc91b4e25fe999e0c6eb13e101d7d8f93a9c527f9",
+          "hex": "7472756e6b203d20310a"
+        },
+        "context.txt": {
+          "mode": "100644",
+          "blob": "efa903248b9598c3aad7ce36d0c734d904efa14c",
+          "bytes": 31,
+          "sha256": "c7c95276150fa03bcbb625f3d9ff2e4504e6163baa492101cfaec17ca4c09c0d",
+          "hex": "636f6e74657874203d206f6c640a76616c7565203d20300a666f6f7465720a"
+        },
+        "data.bin": {
+          "mode": "100644",
+          "blob": "f3b15f7d30b6b35b357558b73035356bf11747f5",
+          "bytes": 7,
+          "sha256": "9534d9241897f9391a76a81f44e5d751bd8ea8d5c13c617832706b19496bcf26",
+          "hex": "0062617365ff0a"
+        },
+        "script.sh": {
+          "mode": "100644",
+          "blob": "abd1b84d82403267c17bb807e1d2c012e93f6982",
+          "bytes": 20,
+          "sha256": "82f36671bb46ac71d5ad557a15115879e85cb26045475d9f95936e23d972cd25",
+          "hex": "23212f62696e2f73680a6563686f20626173650a"
+        },
+        "alpha.txt": {
+          "mode": "100644",
+          "blob": "cc09c78a09a8bc168280cc940961da312d18d547",
+          "bytes": 10,
+          "sha256": "89a4ab92e5f2e0b68036f8e61f8a6885627cc239a356d27a1ca40b29f626b2cc",
+          "hex": "616c706861203d20310a"
+        },
+        "beta.txt": {
+          "mode": "100644",
+          "blob": "7efbd91562f49091c59b6a1be6b1e86cbc0aeb7d",
+          "bytes": 9,
+          "sha256": "7d30a216b4ab13ac8bf6b20a90f4b60eae2df380b1b8a273b4cd7cdb9abe6457",
+          "hex": "62657461203d20300a"
+        }
+      }
+    },
+    {
+      "name": "context-old",
+      "subject": "Update value",
+      "commit": "eb4b49d4258d1592e7ecf5b69776b24d09ffc5ec",
+      "tree": "8fa3922c2bac8eb523c1d3e5cd19e59e2e88f652",
+      "parent": "038c50ec62e9de1537264893ccb42a952634db5f",
+      "files": {
+        "unrelated.txt": {
+          "mode": "100644",
+          "blob": "b82b33ad0b81b2b3360497f913ad32a0d7eacbba",
+          "bytes": 10,
+          "sha256": "1054ddccb23fa19d0afe51a4b75a932fc2eeda8b7dc67c281302e21569265352",
+          "hex": "7472756e6b203d20300a"
+        },
+        "context.txt": {
+          "mode": "100644",
+          "blob": "36de0dcf6231595380e00c6c875258fd986eda2d",
+          "bytes": 31,
+          "sha256": "5b6a91a6d27d0b097110032ef8e098e1d1ae034e2fba84725c8af25a032f17e8",
+          "hex": "636f6e74657874203d206f6c640a76616c7565203d20310a666f6f7465720a"
+        },
+        "data.bin": {
+          "mode": "100644",
+          "blob": "f3b15f7d30b6b35b357558b73035356bf11747f5",
+          "bytes": 7,
+          "sha256": "9534d9241897f9391a76a81f44e5d751bd8ea8d5c13c617832706b19496bcf26",
+          "hex": "0062617365ff0a"
+        },
+        "script.sh": {
+          "mode": "100644",
+          "blob": "abd1b84d82403267c17bb807e1d2c012e93f6982",
+          "bytes": 20,
+          "sha256": "82f36671bb46ac71d5ad557a15115879e85cb26045475d9f95936e23d972cd25",
+          "hex": "23212f62696e2f73680a6563686f20626173650a"
+        },
+        "alpha.txt": {
+          "mode": "100644",
+          "blob": "4b1baa13186285df6b68cd180990a158dfaa5d07",
+          "bytes": 10,
+          "sha256": "b9ae26eaf12162e7d570cab0b4082397b66197a3497d8de8320450c61c04014d",
+          "hex": "616c706861203d20300a"
+        },
+        "beta.txt": {
+          "mode": "100644",
+          "blob": "7efbd91562f49091c59b6a1be6b1e86cbc0aeb7d",
+          "bytes": 9,
+          "sha256": "7d30a216b4ab13ac8bf6b20a90f4b60eae2df380b1b8a273b4cd7cdb9abe6457",
+          "hex": "62657461203d20300a"
+        }
+      }
+    },
+    {
+      "name": "context-base",
+      "subject": "Advance adjacent context",
+      "commit": "a5fd2bf3454acdf1bd67a473108148267bd3ec62",
+      "tree": "eaed60c6382b42e7870d79e0f262dacdbc1236e9",
+      "parent": "038c50ec62e9de1537264893ccb42a952634db5f",
+      "files": {
+        "unrelated.txt": {
+          "mode": "100644",
+          "blob": "b82b33ad0b81b2b3360497f913ad32a0d7eacbba",
+          "bytes": 10,
+          "sha256": "1054ddccb23fa19d0afe51a4b75a932fc2eeda8b7dc67c281302e21569265352",
+          "hex": "7472756e6b203d20300a"
+        },
+        "context.txt": {
+          "mode": "100644",
+          "blob": "d430cfae0ca63f730ac0a674199a7241847ab28d",
+          "bytes": 31,
+          "sha256": "58629c0fcb509ce891527972e9114a75a1fbe8118f6c0cbabd7056edbdddc2f0",
+          "hex": "636f6e74657874203d206e65770a76616c7565203d20300a666f6f7465720a"
+        },
+        "data.bin": {
+          "mode": "100644",
+          "blob": "f3b15f7d30b6b35b357558b73035356bf11747f5",
+          "bytes": 7,
+          "sha256": "9534d9241897f9391a76a81f44e5d751bd8ea8d5c13c617832706b19496bcf26",
+          "hex": "0062617365ff0a"
+        },
+        "script.sh": {
+          "mode": "100644",
+          "blob": "abd1b84d82403267c17bb807e1d2c012e93f6982",
+          "bytes": 20,
+          "sha256": "82f36671bb46ac71d5ad557a15115879e85cb26045475d9f95936e23d972cd25",
+          "hex": "23212f62696e2f73680a6563686f20626173650a"
+        },
+        "alpha.txt": {
+          "mode": "100644",
+          "blob": "4b1baa13186285df6b68cd180990a158dfaa5d07",
+          "bytes": 10,
+          "sha256": "b9ae26eaf12162e7d570cab0b4082397b66197a3497d8de8320450c61c04014d",
+          "hex": "616c706861203d20300a"
+        },
+        "beta.txt": {
+          "mode": "100644",
+          "blob": "7efbd91562f49091c59b6a1be6b1e86cbc0aeb7d",
+          "bytes": 9,
+          "sha256": "7d30a216b4ab13ac8bf6b20a90f4b60eae2df380b1b8a273b4cd7cdb9abe6457",
+          "hex": "62657461203d20300a"
+        }
+      }
+    },
+    {
+      "name": "context-new",
+      "subject": "Update value",
+      "commit": "d9c7b00dae3e248fec0304dfe2ce5a8a6c35cbe9",
+      "tree": "fad25fdc8fe0499106153ee400b331d76a4cf865",
+      "parent": "a5fd2bf3454acdf1bd67a473108148267bd3ec62",
+      "files": {
+        "unrelated.txt": {
+          "mode": "100644",
+          "blob": "b82b33ad0b81b2b3360497f913ad32a0d7eacbba",
+          "bytes": 10,
+          "sha256": "1054ddccb23fa19d0afe51a4b75a932fc2eeda8b7dc67c281302e21569265352",
+          "hex": "7472756e6b203d20300a"
+        },
+        "context.txt": {
+          "mode": "100644",
+          "blob": "54d94d6ad86adc13c3d5b64f5f4c6f4bdf8c64e9",
+          "bytes": 31,
+          "sha256": "ecb38344f0b4d40ee589c9324c37ac49d4e9de319141e6c81ad1b6b3b9aa87ae",
+          "hex": "636f6e74657874203d206e65770a76616c7565203d20310a666f6f7465720a"
+        },
+        "data.bin": {
+          "mode": "100644",
+          "blob": "f3b15f7d30b6b35b357558b73035356bf11747f5",
+          "bytes": 7,
+          "sha256": "9534d9241897f9391a76a81f44e5d751bd8ea8d5c13c617832706b19496bcf26",
+          "hex": "0062617365ff0a"
+        },
+        "script.sh": {
+          "mode": "100644",
+          "blob": "abd1b84d82403267c17bb807e1d2c012e93f6982",
+          "bytes": 20,
+          "sha256": "82f36671bb46ac71d5ad557a15115879e85cb26045475d9f95936e23d972cd25",
+          "hex": "23212f62696e2f73680a6563686f20626173650a"
+        },
+        "alpha.txt": {
+          "mode": "100644",
+          "blob": "4b1baa13186285df6b68cd180990a158dfaa5d07",
+          "bytes": 10,
+          "sha256": "b9ae26eaf12162e7d570cab0b4082397b66197a3497d8de8320450c61c04014d",
+          "hex": "616c706861203d20300a"
+        },
+        "beta.txt": {
+          "mode": "100644",
+          "blob": "7efbd91562f49091c59b6a1be6b1e86cbc0aeb7d",
+          "bytes": 9,
+          "sha256": "7d30a216b4ab13ac8bf6b20a90f4b60eae2df380b1b8a273b4cd7cdb9abe6457",
+          "hex": "62657461203d20300a"
+        }
+      }
+    },
+    {
+      "name": "binary-old",
+      "subject": "Replace binary payload",
+      "commit": "9d8255c1dd9a19f955a4d4f4069a2b29a6cea815",
+      "tree": "356b240c5eaf82d5a2de9e86fe28ef8256b8f937",
+      "parent": "038c50ec62e9de1537264893ccb42a952634db5f",
+      "files": {
+        "unrelated.txt": {
+          "mode": "100644",
+          "blob": "b82b33ad0b81b2b3360497f913ad32a0d7eacbba",
+          "bytes": 10,
+          "sha256": "1054ddccb23fa19d0afe51a4b75a932fc2eeda8b7dc67c281302e21569265352",
+          "hex": "7472756e6b203d20300a"
+        },
+        "context.txt": {
+          "mode": "100644",
+          "blob": "efa903248b9598c3aad7ce36d0c734d904efa14c",
+          "bytes": 31,
+          "sha256": "c7c95276150fa03bcbb625f3d9ff2e4504e6163baa492101cfaec17ca4c09c0d",
+          "hex": "636f6e74657874203d206f6c640a76616c7565203d20300a666f6f7465720a"
+        },
+        "data.bin": {
+          "mode": "100644",
+          "blob": "5a62bfb9a7a28166d474c1c8af3e3a19e59e262d",
+          "bytes": 15,
+          "sha256": "12648d17835ef11319e7b162f097f76c7bf244691f02e74b3cdef19d1367c0ed",
+          "hex": "007265766973696f6e2d6f6e65ff0a"
+        },
+        "script.sh": {
+          "mode": "100644",
+          "blob": "abd1b84d82403267c17bb807e1d2c012e93f6982",
+          "bytes": 20,
+          "sha256": "82f36671bb46ac71d5ad557a15115879e85cb26045475d9f95936e23d972cd25",
+          "hex": "23212f62696e2f73680a6563686f20626173650a"
+        },
+        "alpha.txt": {
+          "mode": "100644",
+          "blob": "4b1baa13186285df6b68cd180990a158dfaa5d07",
+          "bytes": 10,
+          "sha256": "b9ae26eaf12162e7d570cab0b4082397b66197a3497d8de8320450c61c04014d",
+          "hex": "616c706861203d20300a"
+        },
+        "beta.txt": {
+          "mode": "100644",
+          "blob": "7efbd91562f49091c59b6a1be6b1e86cbc0aeb7d",
+          "bytes": 9,
+          "sha256": "7d30a216b4ab13ac8bf6b20a90f4b60eae2df380b1b8a273b4cd7cdb9abe6457",
+          "hex": "62657461203d20300a"
+        }
+      }
+    },
+    {
+      "name": "binary-new",
+      "subject": "Replace binary payload",
+      "commit": "ee9af262b39cb36d9db6fd9e815b5f30f6392e79",
+      "tree": "e6cf5bed90a487845879c6248fed1be6770350e4",
+      "parent": "038c50ec62e9de1537264893ccb42a952634db5f",
+      "files": {
+        "unrelated.txt": {
+          "mode": "100644",
+          "blob": "b82b33ad0b81b2b3360497f913ad32a0d7eacbba",
+          "bytes": 10,
+          "sha256": "1054ddccb23fa19d0afe51a4b75a932fc2eeda8b7dc67c281302e21569265352",
+          "hex": "7472756e6b203d20300a"
+        },
+        "context.txt": {
+          "mode": "100644",
+          "blob": "efa903248b9598c3aad7ce36d0c734d904efa14c",
+          "bytes": 31,
+          "sha256": "c7c95276150fa03bcbb625f3d9ff2e4504e6163baa492101cfaec17ca4c09c0d",
+          "hex": "636f6e74657874203d206f6c640a76616c7565203d20300a666f6f7465720a"
+        },
+        "data.bin": {
+          "mode": "100644",
+          "blob": "712c2ecd69edb961f77f71c43519d7d77cbb4629",
+          "bytes": 15,
+          "sha256": "d21038f621764958090f74a4be1d13dbf53a9346ce35344d96289760f85fdd44",
+          "hex": "007265766973696f6e2d74776ffe0a"
+        },
+        "script.sh": {
+          "mode": "100644",
+          "blob": "abd1b84d82403267c17bb807e1d2c012e93f6982",
+          "bytes": 20,
+          "sha256": "82f36671bb46ac71d5ad557a15115879e85cb26045475d9f95936e23d972cd25",
+          "hex": "23212f62696e2f73680a6563686f20626173650a"
+        },
+        "alpha.txt": {
+          "mode": "100644",
+          "blob": "4b1baa13186285df6b68cd180990a158dfaa5d07",
+          "bytes": 10,
+          "sha256": "b9ae26eaf12162e7d570cab0b4082397b66197a3497d8de8320450c61c04014d",
+          "hex": "616c706861203d20300a"
+        },
+        "beta.txt": {
+          "mode": "100644",
+          "blob": "7efbd91562f49091c59b6a1be6b1e86cbc0aeb7d",
+          "bytes": 9,
+          "sha256": "7d30a216b4ab13ac8bf6b20a90f4b60eae2df380b1b8a273b4cd7cdb9abe6457",
+          "hex": "62657461203d20300a"
+        }
+      }
+    },
+    {
+      "name": "mode-old",
+      "subject": "Update script",
+      "commit": "e344d8c3d802f86c1813fc94e4cc412c6981199c",
+      "tree": "53b30c8d15ec8bc8234700225ef5a46821d049ca",
+      "parent": "038c50ec62e9de1537264893ccb42a952634db5f",
+      "files": {
+        "unrelated.txt": {
+          "mode": "100644",
+          "blob": "b82b33ad0b81b2b3360497f913ad32a0d7eacbba",
+          "bytes": 10,
+          "sha256": "1054ddccb23fa19d0afe51a4b75a932fc2eeda8b7dc67c281302e21569265352",
+          "hex": "7472756e6b203d20300a"
+        },
+        "context.txt": {
+          "mode": "100644",
+          "blob": "efa903248b9598c3aad7ce36d0c734d904efa14c",
+          "bytes": 31,
+          "sha256": "c7c95276150fa03bcbb625f3d9ff2e4504e6163baa492101cfaec17ca4c09c0d",
+          "hex": "636f6e74657874203d206f6c640a76616c7565203d20300a666f6f7465720a"
+        },
+        "data.bin": {
+          "mode": "100644",
+          "blob": "f3b15f7d30b6b35b357558b73035356bf11747f5",
+          "bytes": 7,
+          "sha256": "9534d9241897f9391a76a81f44e5d751bd8ea8d5c13c617832706b19496bcf26",
+          "hex": "0062617365ff0a"
+        },
+        "script.sh": {
+          "mode": "100755",
+          "blob": "78ca6788f08e16394a0afb94b6fd06acf215441c",
+          "bytes": 24,
+          "sha256": "088d8d8180930cb20068118a04f456f206b34914cfcb890033cd447c089c1120",
+          "hex": "23212f62696e2f73680a6563686f20617574686f7265640a"
+        },
+        "alpha.txt": {
+          "mode": "100644",
+          "blob": "4b1baa13186285df6b68cd180990a158dfaa5d07",
+          "bytes": 10,
+          "sha256": "b9ae26eaf12162e7d570cab0b4082397b66197a3497d8de8320450c61c04014d",
+          "hex": "616c706861203d20300a"
+        },
+        "beta.txt": {
+          "mode": "100644",
+          "blob": "7efbd91562f49091c59b6a1be6b1e86cbc0aeb7d",
+          "bytes": 9,
+          "sha256": "7d30a216b4ab13ac8bf6b20a90f4b60eae2df380b1b8a273b4cd7cdb9abe6457",
+          "hex": "62657461203d20300a"
+        }
+      }
+    },
+    {
+      "name": "mode-new",
+      "subject": "Update script",
+      "commit": "2bc030ee515ecc3f6b6ad85f89362c421c75f797",
+      "tree": "eaabd569f550b8b01b0113115f9f89499003049c",
+      "parent": "038c50ec62e9de1537264893ccb42a952634db5f",
+      "files": {
+        "unrelated.txt": {
+          "mode": "100644",
+          "blob": "b82b33ad0b81b2b3360497f913ad32a0d7eacbba",
+          "bytes": 10,
+          "sha256": "1054ddccb23fa19d0afe51a4b75a932fc2eeda8b7dc67c281302e21569265352",
+          "hex": "7472756e6b203d20300a"
+        },
+        "context.txt": {
+          "mode": "100644",
+          "blob": "efa903248b9598c3aad7ce36d0c734d904efa14c",
+          "bytes": 31,
+          "sha256": "c7c95276150fa03bcbb625f3d9ff2e4504e6163baa492101cfaec17ca4c09c0d",
+          "hex": "636f6e74657874203d206f6c640a76616c7565203d20300a666f6f7465720a"
+        },
+        "data.bin": {
+          "mode": "100644",
+          "blob": "f3b15f7d30b6b35b357558b73035356bf11747f5",
+          "bytes": 7,
+          "sha256": "9534d9241897f9391a76a81f44e5d751bd8ea8d5c13c617832706b19496bcf26",
+          "hex": "0062617365ff0a"
+        },
+        "script.sh": {
+          "mode": "100644",
+          "blob": "78ca6788f08e16394a0afb94b6fd06acf215441c",
+          "bytes": 24,
+          "sha256": "088d8d8180930cb20068118a04f456f206b34914cfcb890033cd447c089c1120",
+          "hex": "23212f62696e2f73680a6563686f20617574686f7265640a"
+        },
+        "alpha.txt": {
+          "mode": "100644",
+          "blob": "4b1baa13186285df6b68cd180990a158dfaa5d07",
+          "bytes": 10,
+          "sha256": "b9ae26eaf12162e7d570cab0b4082397b66197a3497d8de8320450c61c04014d",
+          "hex": "616c706861203d20300a"
+        },
+        "beta.txt": {
+          "mode": "100644",
+          "blob": "7efbd91562f49091c59b6a1be6b1e86cbc0aeb7d",
+          "bytes": 9,
+          "sha256": "7d30a216b4ab13ac8bf6b20a90f4b60eae2df380b1b8a273b4cd7cdb9abe6457",
+          "hex": "62657461203d20300a"
+        }
+      }
+    },
+    {
+      "name": "series-old",
+      "subject": "Update beta",
+      "commit": "1d1f1a10a80a80724017c54e05729ef7a9e095be",
+      "tree": "c497117891334db534d1381f81f35e1529a2e4ec",
+      "parent": "85a5876bb890dfcad01d2778ce2e8f47510cf655",
+      "files": {
+        "unrelated.txt": {
+          "mode": "100644",
+          "blob": "b82b33ad0b81b2b3360497f913ad32a0d7eacbba",
+          "bytes": 10,
+          "sha256": "1054ddccb23fa19d0afe51a4b75a932fc2eeda8b7dc67c281302e21569265352",
+          "hex": "7472756e6b203d20300a"
+        },
+        "context.txt": {
+          "mode": "100644",
+          "blob": "efa903248b9598c3aad7ce36d0c734d904efa14c",
+          "bytes": 31,
+          "sha256": "c7c95276150fa03bcbb625f3d9ff2e4504e6163baa492101cfaec17ca4c09c0d",
+          "hex": "636f6e74657874203d206f6c640a76616c7565203d20300a666f6f7465720a"
+        },
+        "data.bin": {
+          "mode": "100644",
+          "blob": "f3b15f7d30b6b35b357558b73035356bf11747f5",
+          "bytes": 7,
+          "sha256": "9534d9241897f9391a76a81f44e5d751bd8ea8d5c13c617832706b19496bcf26",
+          "hex": "0062617365ff0a"
+        },
+        "script.sh": {
+          "mode": "100644",
+          "blob": "abd1b84d82403267c17bb807e1d2c012e93f6982",
+          "bytes": 20,
+          "sha256": "82f36671bb46ac71d5ad557a15115879e85cb26045475d9f95936e23d972cd25",
+          "hex": "23212f62696e2f73680a6563686f20626173650a"
+        },
+        "alpha.txt": {
+          "mode": "100644",
+          "blob": "cc09c78a09a8bc168280cc940961da312d18d547",
+          "bytes": 10,
+          "sha256": "89a4ab92e5f2e0b68036f8e61f8a6885627cc239a356d27a1ca40b29f626b2cc",
+          "hex": "616c706861203d20310a"
+        },
+        "beta.txt": {
+          "mode": "100644",
+          "blob": "b73d42cdd922481bb67c8f61a20197d213863e4c",
+          "bytes": 9,
+          "sha256": "d445c7eaed2cf9321a6ff2f8c5acf46ae1784ccd5728b14124e26cffeb7e65f3",
+          "hex": "62657461203d20310a"
+        }
+      }
+    },
+    {
+      "name": "series-new-first",
+      "subject": "Update beta",
+      "commit": "7e556b1913bde2f22f20c51eb0b8ad2562ef9cd5",
+      "tree": "2bea8686bc80672f35982bdf8860a65517c0a568",
+      "parent": "99eb5091ac2019c4ad51f100bb5a87bd8b928d00",
+      "files": {
+        "unrelated.txt": {
+          "mode": "100644",
+          "blob": "af18bf13624504b2589aec6fce5ed5276d03e6bc",
+          "bytes": 10,
+          "sha256": "0d0359b9ea065a8860c1d5abc91b4e25fe999e0c6eb13e101d7d8f93a9c527f9",
+          "hex": "7472756e6b203d20310a"
+        },
+        "context.txt": {
+          "mode": "100644",
+          "blob": "efa903248b9598c3aad7ce36d0c734d904efa14c",
+          "bytes": 31,
+          "sha256": "c7c95276150fa03bcbb625f3d9ff2e4504e6163baa492101cfaec17ca4c09c0d",
+          "hex": "636f6e74657874203d206f6c640a76616c7565203d20300a666f6f7465720a"
+        },
+        "data.bin": {
+          "mode": "100644",
+          "blob": "f3b15f7d30b6b35b357558b73035356bf11747f5",
+          "bytes": 7,
+          "sha256": "9534d9241897f9391a76a81f44e5d751bd8ea8d5c13c617832706b19496bcf26",
+          "hex": "0062617365ff0a"
+        },
+        "script.sh": {
+          "mode": "100644",
+          "blob": "abd1b84d82403267c17bb807e1d2c012e93f6982",
+          "bytes": 20,
+          "sha256": "82f36671bb46ac71d5ad557a15115879e85cb26045475d9f95936e23d972cd25",
+          "hex": "23212f62696e2f73680a6563686f20626173650a"
+        },
+        "alpha.txt": {
+          "mode": "100644",
+          "blob": "4b1baa13186285df6b68cd180990a158dfaa5d07",
+          "bytes": 10,
+          "sha256": "b9ae26eaf12162e7d570cab0b4082397b66197a3497d8de8320450c61c04014d",
+          "hex": "616c706861203d20300a"
+        },
+        "beta.txt": {
+          "mode": "100644",
+          "blob": "b73d42cdd922481bb67c8f61a20197d213863e4c",
+          "bytes": 9,
+          "sha256": "d445c7eaed2cf9321a6ff2f8c5acf46ae1784ccd5728b14124e26cffeb7e65f3",
+          "hex": "62657461203d20310a"
+        }
+      }
+    },
+    {
+      "name": "series-new",
+      "subject": "Update alpha",
+      "commit": "f9cdcac45758ca4a887b1bf30bae7221b75bab62",
+      "tree": "92a3a456349b9326e674228b46b994ca7d028b36",
+      "parent": "7e556b1913bde2f22f20c51eb0b8ad2562ef9cd5",
+      "files": {
+        "unrelated.txt": {
+          "mode": "100644",
+          "blob": "af18bf13624504b2589aec6fce5ed5276d03e6bc",
+          "bytes": 10,
+          "sha256": "0d0359b9ea065a8860c1d5abc91b4e25fe999e0c6eb13e101d7d8f93a9c527f9",
+          "hex": "7472756e6b203d20310a"
+        },
+        "context.txt": {
+          "mode": "100644",
+          "blob": "efa903248b9598c3aad7ce36d0c734d904efa14c",
+          "bytes": 31,
+          "sha256": "c7c95276150fa03bcbb625f3d9ff2e4504e6163baa492101cfaec17ca4c09c0d",
+          "hex": "636f6e74657874203d206f6c640a76616c7565203d20300a666f6f7465720a"
+        },
+        "data.bin": {
+          "mode": "100644",
+          "blob": "f3b15f7d30b6b35b357558b73035356bf11747f5",
+          "bytes": 7,
+          "sha256": "9534d9241897f9391a76a81f44e5d751bd8ea8d5c13c617832706b19496bcf26",
+          "hex": "0062617365ff0a"
+        },
+        "script.sh": {
+          "mode": "100644",
+          "blob": "abd1b84d82403267c17bb807e1d2c012e93f6982",
+          "bytes": 20,
+          "sha256": "82f36671bb46ac71d5ad557a15115879e85cb26045475d9f95936e23d972cd25",
+          "hex": "23212f62696e2f73680a6563686f20626173650a"
+        },
+        "alpha.txt": {
+          "mode": "100644",
+          "blob": "cc09c78a09a8bc168280cc940961da312d18d547",
+          "bytes": 10,
+          "sha256": "89a4ab92e5f2e0b68036f8e61f8a6885627cc239a356d27a1ca40b29f626b2cc",
+          "hex": "616c706861203d20310a"
+        },
+        "beta.txt": {
+          "mode": "100644",
+          "blob": "b73d42cdd922481bb67c8f61a20197d213863e4c",
+          "bytes": 9,
+          "sha256": "d445c7eaed2cf9321a6ff2f8c5acf46ae1784ccd5728b14124e26cffeb7e65f3",
+          "hex": "62657461203d20310a"
+        }
+      }
+    }
+  ],
+  "command_count": 101,
+  "commit_count": 14,
+  "environment": {
+    "LC_ALL": "C",
+    "GIT_CONFIG_NOSYSTEM": "1",
+    "GIT_CONFIG_GLOBAL": "/dev/null",
+    "GIT_TERMINAL_PROMPT": "0",
+    "GIT_AUTHOR_NAME": "Josh Liebow-Feeser",
+    "GIT_AUTHOR_EMAIL": "hello@joshlf.com",
+    "GIT_COMMITTER_NAME": "Josh Liebow-Feeser",
+    "GIT_COMMITTER_EMAIL": "hello@joshlf.com",
+    "GIT_AUTHOR_DATE": "2026-11-09T12:00:00+00:00",
+    "GIT_COMMITTER_DATE": "2026-11-09T12:00:00+00:00"
+  },
+  "limits": "One fresh local bare repo; explicit synthetic intent; no hosted effects or semantic equivalence oracle"
+}

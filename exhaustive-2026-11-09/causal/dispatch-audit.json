@@ -1,0 +1,459 @@
+{
+  "hosted_api_write_dispatches": 40,
+  "git_push_dispatches": 16,
+  "missing_effect_receipts": [],
+  "credential_pattern_files": [],
+  "api_writes": [
+    {
+      "file": "ordinary-sync-3-merge.intent.json",
+      "method": "PUT",
+      "path": "repos/joshlf/gherrit-native-stack-experiments-2026-11-08/pulls/595/merge-async"
+    },
+    {
+      "file": "post-merge-1-create-pr-B.intent.json",
+      "method": "POST",
+      "path": "repos/joshlf/gherrit-native-stack-experiments-2026-11-08/pulls"
+    },
+    {
+      "file": "post-rebase-3-register.intent.json",
+      "method": "POST",
+      "path": "repos/joshlf/gherrit-native-stack-experiments-2026-11-08/stacks"
+    },
+    {
+      "file": "post-squash-3-create-pr-B.intent.json",
+      "method": "POST",
+      "path": "repos/joshlf/gherrit-native-stack-experiments-2026-11-08/pulls"
+    },
+    {
+      "file": "ordinary-sync-3-create-pr-C.intent.json",
+      "method": "POST",
+      "path": "repos/joshlf/gherrit-native-stack-experiments-2026-11-08/pulls"
+    },
+    {
+      "file": "post-rebase-3-create-pr-A.intent.json",
+      "method": "POST",
+      "path": "repos/joshlf/gherrit-native-stack-experiments-2026-11-08/pulls"
+    },
+    {
+      "file": "early-squash-3-create-pr-B.intent.json",
+      "method": "POST",
+      "path": "repos/joshlf/gherrit-native-stack-experiments-2026-11-08/pulls"
+    },
+    {
+      "file": "post-rebase-3-create-pr-D.intent.json",
+      "method": "POST",
+      "path": "repos/joshlf/gherrit-native-stack-experiments-2026-11-08/pulls"
+    },
+    {
+      "file": "post-merge-1-register.intent.json",
+      "method": "POST",
+      "path": "repos/joshlf/gherrit-native-stack-experiments-2026-11-08/stacks"
+    },
+    {
+      "file": "after-rewrite-squash-3-create-pr-C.intent.json",
+      "method": "POST",
+      "path": "repos/joshlf/gherrit-native-stack-experiments-2026-11-08/pulls"
+    },
+    {
+      "file": "early-squash-3-register.intent.json",
+      "method": "POST",
+      "path": "repos/joshlf/gherrit-native-stack-experiments-2026-11-08/stacks"
+    },
+    {
+      "file": "early-squash-3-create-pr-A.intent.json",
+      "method": "POST",
+      "path": "repos/joshlf/gherrit-native-stack-experiments-2026-11-08/pulls"
+    },
+    {
+      "file": "post-squash-3-create-pr-D.intent.json",
+      "method": "POST",
+      "path": "repos/joshlf/gherrit-native-stack-experiments-2026-11-08/pulls"
+    },
+    {
+      "file": "post-rebase-3-create-pr-B.intent.json",
+      "method": "POST",
+      "path": "repos/joshlf/gherrit-native-stack-experiments-2026-11-08/pulls"
+    },
+    {
+      "file": "post-squash-3-register.intent.json",
+      "method": "POST",
+      "path": "repos/joshlf/gherrit-native-stack-experiments-2026-11-08/stacks"
+    },
+    {
+      "file": "post-squash-3-create-pr-A.intent.json",
+      "method": "POST",
+      "path": "repos/joshlf/gherrit-native-stack-experiments-2026-11-08/pulls"
+    },
+    {
+      "file": "early-squash-3-create-pr-D.intent.json",
+      "method": "POST",
+      "path": "repos/joshlf/gherrit-native-stack-experiments-2026-11-08/pulls"
+    },
+    {
+      "file": "post-merge-1-create-pr-A.intent.json",
+      "method": "POST",
+      "path": "repos/joshlf/gherrit-native-stack-experiments-2026-11-08/pulls"
+    },
+    {
+      "file": "after-rewrite-squash-3-create-pr-A.intent.json",
+      "method": "POST",
+      "path": "repos/joshlf/gherrit-native-stack-experiments-2026-11-08/pulls"
+    },
+    {
+      "file": "post-squash-1-merge.intent.json",
+      "method": "PUT",
+      "path": "repos/joshlf/gherrit-native-stack-experiments-2026-11-08/pulls/566/merge-async"
+    },
+    {
+      "file": "early-squash-3-create-pr-C.intent.json",
+      "method": "POST",
+      "path": "repos/joshlf/gherrit-native-stack-experiments-2026-11-08/pulls"
+    },
+    {
+      "file": "ordinary-sync-3-create-pr-B.intent.json",
+      "method": "POST",
+      "path": "repos/joshlf/gherrit-native-stack-experiments-2026-11-08/pulls"
+    },
+    {
+      "file": "post-squash-1-create-pr-A.intent.json",
+      "method": "POST",
+      "path": "repos/joshlf/gherrit-native-stack-experiments-2026-11-08/pulls"
+    },
+    {
+      "file": "ordinary-sync-3-register.intent.json",
+      "method": "POST",
+      "path": "repos/joshlf/gherrit-native-stack-experiments-2026-11-08/stacks"
+    },
+    {
+      "file": "post-squash-3-create-pr-C.intent.json",
+      "method": "POST",
+      "path": "repos/joshlf/gherrit-native-stack-experiments-2026-11-08/pulls"
+    },
+    {
+      "file": "after-rewrite-squash-3-create-pr-D.intent.json",
+      "method": "POST",
+      "path": "repos/joshlf/gherrit-native-stack-experiments-2026-11-08/pulls"
+    },
+    {
+      "file": "force-control-create-pr-A.intent.json",
+      "method": "POST",
+      "path": "repos/joshlf/gherrit-native-stack-experiments-2026-11-08/pulls"
+    },
+    {
+      "file": "force-control-create-pr-B.intent.json",
+      "method": "POST",
+      "path": "repos/joshlf/gherrit-native-stack-experiments-2026-11-08/pulls"
+    },
+    {
+      "file": "post-squash-1-register.intent.json",
+      "method": "POST",
+      "path": "repos/joshlf/gherrit-native-stack-experiments-2026-11-08/stacks"
+    },
+    {
+      "file": "post-squash-3-merge.intent.json",
+      "method": "PUT",
+      "path": "repos/joshlf/gherrit-native-stack-experiments-2026-11-08/pulls/580/merge-async"
+    },
+    {
+      "file": "post-rebase-3-merge.intent.json",
+      "method": "PUT",
+      "path": "repos/joshlf/gherrit-native-stack-experiments-2026-11-08/pulls/569/merge-async"
+    },
+    {
+      "file": "post-squash-1-create-pr-B.intent.json",
+      "method": "POST",
+      "path": "repos/joshlf/gherrit-native-stack-experiments-2026-11-08/pulls"
+    },
+    {
+      "file": "post-rebase-3-create-pr-C.intent.json",
+      "method": "POST",
+      "path": "repos/joshlf/gherrit-native-stack-experiments-2026-11-08/pulls"
+    },
+    {
+      "file": "early-squash-3-merge.intent.json",
+      "method": "PUT",
+      "path": "repos/joshlf/gherrit-native-stack-experiments-2026-11-08/pulls/585/merge-async"
+    },
+    {
+      "file": "ordinary-sync-3-create-pr-A.intent.json",
+      "method": "POST",
+      "path": "repos/joshlf/gherrit-native-stack-experiments-2026-11-08/pulls"
+    },
+    {
+      "file": "after-rewrite-squash-3-register.intent.json",
+      "method": "POST",
+      "path": "repos/joshlf/gherrit-native-stack-experiments-2026-11-08/stacks"
+    },
+    {
+      "file": "ordinary-sync-3-create-pr-D.intent.json",
+      "method": "POST",
+      "path": "repos/joshlf/gherrit-native-stack-experiments-2026-11-08/pulls"
+    },
+    {
+      "file": "post-merge-1-merge.intent.json",
+      "method": "PUT",
+      "path": "repos/joshlf/gherrit-native-stack-experiments-2026-11-08/pulls/574/merge-async"
+    },
+    {
+      "file": "after-rewrite-squash-3-merge.intent.json",
+      "method": "PUT",
+      "path": "repos/joshlf/gherrit-native-stack-experiments-2026-11-08/pulls/590/merge-async"
+    },
+    {
+      "file": "after-rewrite-squash-3-create-pr-B.intent.json",
+      "method": "POST",
+      "path": "repos/joshlf/gherrit-native-stack-experiments-2026-11-08/pulls"
+    }
+  ],
+  "git_pushes": [
+    {
+      "file": "post-merge-1-initial-push.intent.json",
+      "kind": "git-push",
+      "args": [
+        "push",
+        "--porcelain",
+        "--atomic",
+        "--force-with-lease=refs/heads/exh-1109-causal-post-merge-1/trunk:",
+        "--force-with-lease=refs/heads/exh-1109-causal-post-merge-1/A:",
+        "--force-with-lease=refs/heads/exh-1109-causal-post-merge-1/B:",
+        "origin",
+        "6eec718e71f9472fa5be2858bf5f23baf58de622:refs/heads/exh-1109-causal-post-merge-1/trunk",
+        "2ee11d40e27b6f162970fe7b4f46b5ad278f2c7f:refs/heads/exh-1109-causal-post-merge-1/A",
+        "728b0a72159a4229d51a4f2607e0acab9629656f:refs/heads/exh-1109-causal-post-merge-1/B"
+      ]
+    },
+    {
+      "file": "early-squash-3-initial-push.intent.json",
+      "kind": "git-push",
+      "args": [
+        "push",
+        "--porcelain",
+        "--atomic",
+        "--force-with-lease=refs/heads/exh-1109-causal-early-squash-3/trunk:",
+        "--force-with-lease=refs/heads/exh-1109-causal-early-squash-3/A:",
+        "--force-with-lease=refs/heads/exh-1109-causal-early-squash-3/B:",
+        "--force-with-lease=refs/heads/exh-1109-causal-early-squash-3/C:",
+        "--force-with-lease=refs/heads/exh-1109-causal-early-squash-3/D:",
+        "origin",
+        "96616fa50da417071d6c6dadda6d451395045f1b:refs/heads/exh-1109-causal-early-squash-3/trunk",
+        "af34e35a5c765cbd0bc88a0f5994c89f9972de37:refs/heads/exh-1109-causal-early-squash-3/A",
+        "f7576fba1c7664bbecba46d126c8d9d97fab1eb7:refs/heads/exh-1109-causal-early-squash-3/B",
+        "67c6b7aec664b92744e7c84ef277566227d1934c:refs/heads/exh-1109-causal-early-squash-3/C",
+        "19d0530b06f61f16f9863de7cc398a70c1ed05a0:refs/heads/exh-1109-causal-early-squash-3/D"
+      ]
+    },
+    {
+      "file": "force-control-initial-push.intent.json",
+      "kind": "git-push",
+      "args": [
+        "push",
+        "--porcelain",
+        "--atomic",
+        "--force-with-lease=refs/heads/exh-1109-causal-force-control/trunk:",
+        "--force-with-lease=refs/heads/exh-1109-causal-force-control/A:",
+        "--force-with-lease=refs/heads/exh-1109-causal-force-control/B:",
+        "origin",
+        "40bc934a4badb34f7c4c3c2606581a12520717bc:refs/heads/exh-1109-causal-force-control/trunk",
+        "010278c6609b85f42a0c804f3802ce38982d4cb5:refs/heads/exh-1109-causal-force-control/A",
+        "91b679b1e524d79eb1184a860d42398ac36c40c1:refs/heads/exh-1109-causal-force-control/B"
+      ]
+    },
+    {
+      "file": "force-control-marker-push.intent.json",
+      "kind": "git-push",
+      "args": [
+        "push",
+        "--porcelain",
+        "--atomic",
+        "--force-with-lease=refs/heads/exh-1109-causal-force-control/B:91b679b1e524d79eb1184a860d42398ac36c40c1",
+        "origin",
+        "395c1d662bc0ef00d0b172fe01ecb6e036b42754:refs/heads/exh-1109-causal-force-control/B"
+      ]
+    },
+    {
+      "file": "post-squash-1-marker-push.intent.json",
+      "kind": "git-push",
+      "args": [
+        "push",
+        "--porcelain",
+        "--atomic",
+        "--force-with-lease=refs/heads/exh-1109-causal-post-squash-1/B:6e63736ecb363ee6e0a9605615445869df531c2b",
+        "origin",
+        "529d204a85babe7804d94f1c0ad5a23583bffe61:refs/heads/exh-1109-causal-post-squash-1/B"
+      ]
+    },
+    {
+      "file": "post-rebase-3-initial-push.intent.json",
+      "kind": "git-push",
+      "args": [
+        "push",
+        "--porcelain",
+        "--atomic",
+        "--force-with-lease=refs/heads/exh-1109-causal-post-rebase-3/trunk:",
+        "--force-with-lease=refs/heads/exh-1109-causal-post-rebase-3/A:",
+        "--force-with-lease=refs/heads/exh-1109-causal-post-rebase-3/B:",
+        "--force-with-lease=refs/heads/exh-1109-causal-post-rebase-3/C:",
+        "--force-with-lease=refs/heads/exh-1109-causal-post-rebase-3/D:",
+        "origin",
+        "f9895ac040ba94578a8a23a24c397e54b1e1f037:refs/heads/exh-1109-causal-post-rebase-3/trunk",
+        "a82ea80add95dc5deb40fadf34babb6a3a5d9e35:refs/heads/exh-1109-causal-post-rebase-3/A",
+        "372191f4a1a9a91a9b5af44fba2d36c00c297fae:refs/heads/exh-1109-causal-post-rebase-3/B",
+        "4a18141a06410832befedc3fdc79924a0f57a2cc:refs/heads/exh-1109-causal-post-rebase-3/C",
+        "cd36e1197abdbd0283f8666b82f5b6aa34b4b7ca:refs/heads/exh-1109-causal-post-rebase-3/D"
+      ]
+    },
+    {
+      "file": "after-rewrite-squash-3-marker-push.intent.json",
+      "kind": "git-push",
+      "args": [
+        "push",
+        "--porcelain",
+        "--atomic",
+        "--force-with-lease=refs/heads/exh-1109-causal-after-rewrite-squash-3/D:9179085486aec47558614589429c87e3abb9385d",
+        "origin",
+        "8be2c7aa1929d0c95650bbc6b17db1135f93dea4:refs/heads/exh-1109-causal-after-rewrite-squash-3/D"
+      ]
+    },
+    {
+      "file": "post-squash-1-initial-push.intent.json",
+      "kind": "git-push",
+      "args": [
+        "push",
+        "--porcelain",
+        "--atomic",
+        "--force-with-lease=refs/heads/exh-1109-causal-post-squash-1/trunk:",
+        "--force-with-lease=refs/heads/exh-1109-causal-post-squash-1/A:",
+        "--force-with-lease=refs/heads/exh-1109-causal-post-squash-1/B:",
+        "origin",
+        "49dfa12d9329d3179caab15314dff23965c5b138:refs/heads/exh-1109-causal-post-squash-1/trunk",
+        "bf6901709a632df1c4e052a7fdb6c593303b357a:refs/heads/exh-1109-causal-post-squash-1/A",
+        "6e63736ecb363ee6e0a9605615445869df531c2b:refs/heads/exh-1109-causal-post-squash-1/B"
+      ]
+    },
+    {
+      "file": "after-rewrite-squash-3-initial-push.intent.json",
+      "kind": "git-push",
+      "args": [
+        "push",
+        "--porcelain",
+        "--atomic",
+        "--force-with-lease=refs/heads/exh-1109-causal-after-rewrite-squash-3/trunk:",
+        "--force-with-lease=refs/heads/exh-1109-causal-after-rewrite-squash-3/A:",
+        "--force-with-lease=refs/heads/exh-1109-causal-after-rewrite-squash-3/B:",
+        "--force-with-lease=refs/heads/exh-1109-causal-after-rewrite-squash-3/C:",
+        "--force-with-lease=refs/heads/exh-1109-causal-after-rewrite-squash-3/D:",
+        "origin",
+        "f768dc8d7a4a23153bf4a80b373768483f27a1cf:refs/heads/exh-1109-causal-after-rewrite-squash-3/trunk",
+        "6ac1fcfbc0ad1804dc90b728972ea7f61500ef35:refs/heads/exh-1109-causal-after-rewrite-squash-3/A",
+        "52ed10fdef9a0ad433fb130e68496c48ee075c0e:refs/heads/exh-1109-causal-after-rewrite-squash-3/B",
+        "a37738c0acb263697dcac416b275f114062dd79f:refs/heads/exh-1109-causal-after-rewrite-squash-3/C",
+        "8d19013d36158cec9a3e03a373d1c83719c605e5:refs/heads/exh-1109-causal-after-rewrite-squash-3/D"
+      ]
+    },
+    {
+      "file": "ordinary-sync-3-initial-push.intent.json",
+      "kind": "git-push",
+      "args": [
+        "push",
+        "--porcelain",
+        "--atomic",
+        "--force-with-lease=refs/heads/exh-1109-causal-ordinary-sync-3/trunk:",
+        "--force-with-lease=refs/heads/exh-1109-causal-ordinary-sync-3/A:",
+        "--force-with-lease=refs/heads/exh-1109-causal-ordinary-sync-3/B:",
+        "--force-with-lease=refs/heads/exh-1109-causal-ordinary-sync-3/C:",
+        "--force-with-lease=refs/heads/exh-1109-causal-ordinary-sync-3/D:",
+        "origin",
+        "ebf6b1c81672dcad1a7933212ad3aabf82aa0582:refs/heads/exh-1109-causal-ordinary-sync-3/trunk",
+        "657f97fc324ab818d114888705011b2ccf880802:refs/heads/exh-1109-causal-ordinary-sync-3/A",
+        "b11b418d8c0b4d173f3eca4a29b7669aec586fa2:refs/heads/exh-1109-causal-ordinary-sync-3/B",
+        "ebedb56d1336871c7adad5c693fcafd29c41ea12:refs/heads/exh-1109-causal-ordinary-sync-3/C",
+        "b0f489897aef2f26faf46c760065d81e600844ca:refs/heads/exh-1109-causal-ordinary-sync-3/D"
+      ]
+    },
+    {
+      "file": "post-merge-1-marker-push.intent.json",
+      "kind": "git-push",
+      "args": [
+        "push",
+        "--porcelain",
+        "--atomic",
+        "--force-with-lease=refs/heads/exh-1109-causal-post-merge-1/B:728b0a72159a4229d51a4f2607e0acab9629656f",
+        "origin",
+        "ce1a026d3c5dde49bcf7063d3f7d11a9924a66ac:refs/heads/exh-1109-causal-post-merge-1/B"
+      ]
+    },
+    {
+      "file": "post-squash-3-marker-push.intent.json",
+      "kind": "git-push",
+      "args": [
+        "push",
+        "--porcelain",
+        "--atomic",
+        "--force-with-lease=refs/heads/exh-1109-causal-post-squash-3/D:3e41d08c23ed18457b8bf3f30dfeda59d9081c3b",
+        "origin",
+        "75810bacffcb2bfbbe661a8b6dfb63cacb621d1d:refs/heads/exh-1109-causal-post-squash-3/D"
+      ]
+    },
+    {
+      "file": "post-squash-3-initial-push.intent.json",
+      "kind": "git-push",
+      "args": [
+        "push",
+        "--porcelain",
+        "--atomic",
+        "--force-with-lease=refs/heads/exh-1109-causal-post-squash-3/trunk:",
+        "--force-with-lease=refs/heads/exh-1109-causal-post-squash-3/A:",
+        "--force-with-lease=refs/heads/exh-1109-causal-post-squash-3/B:",
+        "--force-with-lease=refs/heads/exh-1109-causal-post-squash-3/C:",
+        "--force-with-lease=refs/heads/exh-1109-causal-post-squash-3/D:",
+        "origin",
+        "05e122e40e96128dcf6b1e51a865ccb58c0864c4:refs/heads/exh-1109-causal-post-squash-3/trunk",
+        "3943d987d917b5c73bd963daae64a2b4411bc611:refs/heads/exh-1109-causal-post-squash-3/A",
+        "39fdc88a75bfbbdb7d33bb25e8d10a51af95662c:refs/heads/exh-1109-causal-post-squash-3/B",
+        "1280bf67dbc95f29dfe359e321cfcd15eebdb684:refs/heads/exh-1109-causal-post-squash-3/C",
+        "3e41d08c23ed18457b8bf3f30dfeda59d9081c3b:refs/heads/exh-1109-causal-post-squash-3/D"
+      ]
+    },
+    {
+      "file": "early-squash-3-marker-push.intent.json",
+      "kind": "git-push",
+      "args": [
+        "push",
+        "--porcelain",
+        "--atomic",
+        "--force-with-lease=refs/heads/exh-1109-causal-early-squash-3/D:19d0530b06f61f16f9863de7cc398a70c1ed05a0",
+        "origin",
+        "7f0cb6d75feefdb7e76feb3b48df83bdb6c23c37:refs/heads/exh-1109-causal-early-squash-3/D"
+      ]
+    },
+    {
+      "file": "ordinary-sync-3-cli-git-1761a5ee2613.intent.json",
+      "kind": "cli-git",
+      "args": [
+        "-c",
+        "push.pushOption=pull.stacked",
+        "push",
+        "origin",
+        "--force-with-lease=refs/heads/exh-1109-causal-ordinary-sync-3/B:4e7dc76044d7c2bc9e9d3b3b679dde6f3e85e24c",
+        "--force-with-lease=refs/heads/exh-1109-causal-ordinary-sync-3/C:3ab9121da777b75d7f934c1ac9555ab2ed976208",
+        "--force-with-lease=refs/heads/exh-1109-causal-ordinary-sync-3/D:da6af1c4ac97a928270695c4bb98a8707950f4a4",
+        "--atomic",
+        "refs/heads/exh-1109-causal-ordinary-sync-3/B:refs/heads/exh-1109-causal-ordinary-sync-3/B",
+        "refs/heads/exh-1109-causal-ordinary-sync-3/C:refs/heads/exh-1109-causal-ordinary-sync-3/C",
+        "refs/heads/exh-1109-causal-ordinary-sync-3/D:refs/heads/exh-1109-causal-ordinary-sync-3/D"
+      ]
+    },
+    {
+      "file": "post-rebase-3-marker-push.intent.json",
+      "kind": "git-push",
+      "args": [
+        "push",
+        "--porcelain",
+        "--atomic",
+        "--force-with-lease=refs/heads/exh-1109-causal-post-rebase-3/D:cd36e1197abdbd0283f8666b82f5b6aa34b4b7ca",
+        "origin",
+        "0c78222d7db1a0ac05239bb8d887c24154169ad5:refs/heads/exh-1109-causal-post-rebase-3/D"
+      ]
+    }
+  ]
+}

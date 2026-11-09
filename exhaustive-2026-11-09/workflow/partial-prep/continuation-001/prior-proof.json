@@ -1,0 +1,11 @@
+{
+  "B_C_original_intents": 0,
+  "bindings": {
+    "audit_sha256": "98cf1382012b438e11a6c32c226ca46b62487091c6c84d29cb8f6c88c8932018",
+    "case_sha256": "d797d722c9f9798fc7c2fa46ca9cee916a7ef9c52370c2883e361da25ff7476f",
+    "driver_sha256": "ac332861f99eac829c8bd8419ad765f07ddf29e5cbcd254a5e065de3acfdd7a6",
+    "freeze_sha256": "69f47339ceac49ff93d0dd91f4f2f68aab23cf596f039188ffc4e776a7124e6a"
+  },
+  "scope": "New authority for known-not-sent requests; original freeze unchanged",
+  "six_writes_acknowledged": true
+}

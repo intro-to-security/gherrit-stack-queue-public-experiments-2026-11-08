@@ -1,0 +1,13 @@
+{
+  "started": {
+    "utc": "2026-11-09T16:42:22.802297+00:00",
+    "monotonic_ns": 76938083
+  },
+  "finished": {
+    "utc": "2026-11-09T16:42:22.813344+00:00",
+    "monotonic_ns": 88008083
+  },
+  "returncode": 0,
+  "stdout": "name: One-shot Actions App token native rebase capability\n\non:\n  push:\n    branches:\n      - exh-1109-causal-rb-app-001/runner\n\npermissions:\n  contents: write\n  pull-requests: write\n\nconcurrency:\n  group: exh-1109-causal-rb-app-001-one-shot\n  cancel-in-progress: false\n\njobs:\n  capability:\n    if: >-\n      github.repository == 'joshlf/gherrit-native-stack-experiments-2026-11-08' &&\n      github.actor == 'joshlf' &&\n      github.event_name == 'push' &&\n      github.event.created == true &&\n      github.event.deleted == false &&\n      github.ref == 'refs/heads/exh-1109-causal-rb-app-001/runner' &&\n      github.run_attempt == 1\n    runs-on: ubuntu-latest\n    timeout-minutes: 4\n    steps:\n      - name: Checkout only the exact triggering source\n        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683\n        with:\n          ref: ${{ github.sha }}\n          persist-credentials: false\n          fetch-depth: 1\n      - name: One guarded PUT without retries\n        env:\n          GH_TOKEN: ${{ github.token }}\n          PROBE_CONFIG_SHA256: 8a5eed309e1d98d5c9ac559fb7f05ce70f6886f3527cd963d02df629b9d31ac3\n        shell: bash\n        run: python3 probe.py fixture.json evidence\n      - name: Retain only sanitized probe files\n        if: always()\n        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02\n        with:\n          name: exh-1109-causal-rb-app-001-${{ github.run_id }}-${{ github.run_attempt }}\n          path: evidence/*.json\n          if-no-files-found: error\n          retention-days: 90\n          include-hidden-files: false\n",
+  "stderr": ""
+}

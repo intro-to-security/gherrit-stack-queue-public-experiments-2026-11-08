@@ -1,0 +1,12 @@
+--- v1 authored patch
++++ v2 authored patch
+@@ -1,7 +1,7 @@
+ diff --git a/history-change.txt b/history-change.txt
+ new file mode 100644
+-index 0000000..402ca34
++index 0000000..e9b9991
+ --- /dev/null
+ +++ b/history-change.txt
+ @@ -0,0 +1 @@
+-+authored value = 1
+++authored value = 2

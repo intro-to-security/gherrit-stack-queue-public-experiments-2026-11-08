@@ -1,0 +1,28 @@
+{
+  "key": "clean-rebase",
+  "repo": "joshlf/gherrit-native-stack-experiments-2026-11-08",
+  "refs": {
+    "trunk": "exh-1109-ui-clean-rebase-18b2b2b4-trunk",
+    "A": "exh-1109-ui-clean-rebase-18b2b2b4-a",
+    "B": "exh-1109-ui-clean-rebase-18b2b2b4-b"
+  },
+  "commits": {
+    "trunk": "fdd7a639679035969389cba55ef9a77bdb08e687",
+    "A": "f53ae402e3adc6a42785c1bc7ad5f1cd89f800be",
+    "B": "688287cec1a0ba9f13f27f7a536f4ec2db660d82"
+  },
+  "trees": {
+    "trunk": {
+      "root.txt": "Synthetic native-stack experiment.\n"
+    },
+    "A": {
+      "root.txt": "Synthetic native-stack experiment.\n",
+      "a.txt": "Synthetic layer A.\n"
+    },
+    "B": {
+      "root.txt": "Synthetic native-stack experiment.\n",
+      "a.txt": "Synthetic layer A.\n",
+      "b.txt": "Synthetic layer B.\n"
+    }
+  }
+}

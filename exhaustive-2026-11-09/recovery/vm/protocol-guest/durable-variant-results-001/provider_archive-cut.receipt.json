@@ -1,0 +1,10 @@
+{
+  "pid": 4973,
+  "exit": -9,
+  "target": "BARRIER PROTOCOL provider_archive",
+  "reached": true,
+  "natural_shutdown": false,
+  "kill_issued": true,
+  "bytes": 40021,
+  "utc_seconds": 1794241341.9355464
+}

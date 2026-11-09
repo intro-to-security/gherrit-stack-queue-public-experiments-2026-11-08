@@ -1,0 +1,12 @@
+{
+  "case": "stale-vector",
+  "reason": "Known conflicts block website preflight; exercise the documented partial-job path by advancing only this own trunk after the clean rebase modal opens. Member-head map stays unchanged.",
+  "expected_trunk": "52a1870467c04365f7bdee3b28cc1dbeca6aacd0",
+  "new_trunk": "bc45937f9611a0d2f05ab0d40920cdde2f3b7653",
+  "files": {
+    "root.txt": "Synthetic native-stack experiment.\n",
+    "trunk-progress.txt": "Independent incompatible trunk content.\n",
+    "b.txt": "Conflicting trunk B created after the website confirmation opened.\n"
+  },
+  "operation": "one exact-lease push, then one already-prepared website Rebase stack confirmation; no merge"
+}

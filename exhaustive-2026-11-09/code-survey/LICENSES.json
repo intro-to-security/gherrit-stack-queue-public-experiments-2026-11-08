@@ -1,0 +1,314 @@
+[
+  {
+    "repository": "cli/cli",
+    "ref": "736c68f674113337685e3eb1f908602a03b8f99b",
+    "repository_id": 212613049,
+    "github_license_metadata": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "retained_license_files": [
+      {
+        "path": "LICENSE",
+        "source_url": "https://github.com/cli/cli/blob/736c68f674113337685e3eb1f908602a03b8f99b/LICENSE",
+        "sha256": "6da4adc42392c8485e40b4251c7e332fc3352df1947c9ffade71dd60b14a7a4f",
+        "git_blob_sha": "b6a58a9572cbd7e4550f8205a9c4fd199cd442f2"
+      }
+    ]
+  },
+  {
+    "repository": "github/gh-stack",
+    "ref": "bd0a32504f9ae9f795875a9e6bb90ff7408fda08",
+    "repository_id": 1151630728,
+    "github_license_metadata": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "retained_license_files": [
+      {
+        "path": "LICENSE",
+        "source_url": "https://github.com/github/gh-stack/blob/bd0a32504f9ae9f795875a9e6bb90ff7408fda08/LICENSE",
+        "sha256": "2510b446bc1f0cf9702453075d20cd88631e20e5642658edb7325d9c1eb534f7",
+        "git_blob_sha": "28a50fa22639e32febe14e4ffc7a732b0ba8c90a"
+      }
+    ]
+  },
+  {
+    "repository": "openclaw/openclaw",
+    "ref": "245cbaf915c21c6cc02ba2edbe3c62e2725a133e",
+    "repository_id": 1103012935,
+    "github_license_metadata": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "retained_license_files": [
+      {
+        "path": "LICENSE",
+        "source_url": "https://github.com/openclaw/openclaw/blob/245cbaf915c21c6cc02ba2edbe3c62e2725a133e/LICENSE",
+        "sha256": "9efd316ecf1c4c60f6fd5d26433142fff2b6794d7d328e9bc6179b29bf9c82a4",
+        "git_blob_sha": "ed064819ab537575d0cad902f7e5af4a3488b1d0"
+      }
+    ]
+  },
+  {
+    "repository": "stablyai/orca",
+    "ref": "41867a2a85e6a0d3dd616472c62da6aaa58e129c",
+    "repository_id": 1183888342,
+    "github_license_metadata": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "retained_license_files": [
+      {
+        "path": "LICENSE",
+        "source_url": "https://github.com/stablyai/orca/blob/41867a2a85e6a0d3dd616472c62da6aaa58e129c/LICENSE",
+        "sha256": "ff1b611f80580d49f4b97e93a97b24eb050b0671b26b8afe16341fab699112f3",
+        "git_blob_sha": "fbf46fc17dacb1f65e03e2b6290eb53ba94b149d"
+      }
+    ]
+  },
+  {
+    "repository": "gitbutlerapp/gitbutler",
+    "ref": "523a411cebe4c1ce90cbf2555033160a51b1c9f6",
+    "repository_id": 595662105,
+    "github_license_metadata": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "retained_license_files": [
+      {
+        "path": "LICENSE.md",
+        "source_url": "https://github.com/gitbutlerapp/gitbutler/blob/523a411cebe4c1ce90cbf2555033160a51b1c9f6/LICENSE.md",
+        "sha256": "2a3154bf44e0b219014291b96249082f3305844a1d73796741468c8128c2829e",
+        "git_blob_sha": "11d87d8a56a7482062c1fa377a1f7f006c3e721b"
+      }
+    ]
+  },
+  {
+    "repository": "electron/trop",
+    "ref": "450c9687627676e02eb2e280167be0e8f074ccbf",
+    "repository_id": 124303672,
+    "github_license_metadata": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "retained_license_files": [
+      {
+        "path": "LICENSE",
+        "source_url": "https://github.com/electron/trop/blob/450c9687627676e02eb2e280167be0e8f074ccbf/LICENSE",
+        "sha256": "cb85e185bd699dcf751b36204aa4c439bfc047631f983dfbfd28c6220314efba",
+        "git_blob_sha": "37bc46a85bc27e5ce548e8a735866cb9dc97aeda"
+      }
+    ]
+  },
+  {
+    "repository": "r0adkll/clinic",
+    "ref": "0ba6f76c5d958714800cafa430a27a27a8429dbd",
+    "repository_id": 1360425015,
+    "github_license_metadata": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "retained_license_files": [
+      {
+        "path": "LICENSE",
+        "source_url": "https://github.com/r0adkll/clinic/blob/0ba6f76c5d958714800cafa430a27a27a8429dbd/LICENSE",
+        "sha256": "967f8c96c3c7fb23a065a7759a3d2204270066108d8ddecb90aa68e7ad3548dd",
+        "git_blob_sha": "67cca9999641f1dd1b78e55a16e38d1017768d48"
+      }
+    ]
+  },
+  {
+    "repository": "microsoft/vscode-pull-request-github",
+    "ref": "8bd445fbeee54d7fbb54b2712b29baa3de9356e5",
+    "repository_id": 134777298,
+    "github_license_metadata": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "retained_license_files": [
+      {
+        "path": "LICENSE",
+        "source_url": "https://github.com/microsoft/vscode-pull-request-github/blob/8bd445fbeee54d7fbb54b2712b29baa3de9356e5/LICENSE",
+        "sha256": "8f3b85643422256a936daede0159c60fe5d140ace61a4fbb7de8b912e1274260",
+        "git_blob_sha": "dc0c2ffb3dc1523bed6ab4090e9215504bd39b17"
+      }
+    ]
+  },
+  {
+    "repository": "ewhauser/ghsync",
+    "ref": "730113d924864059b28841d20c222b8f171b4af3",
+    "repository_id": 1316314042,
+    "github_license_metadata": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "retained_license_files": [
+      {
+        "path": "LICENSE",
+        "source_url": "https://github.com/ewhauser/ghsync/blob/730113d924864059b28841d20c222b8f171b4af3/LICENSE",
+        "sha256": "06f282a3630aef477c4a815e690a3dd3cc370beaf432420a48fec0b8db82bdb6",
+        "git_blob_sha": "3b4a59f7810d538acd1849bd7701e07084852d23"
+      }
+    ]
+  },
+  {
+    "repository": "google/go-github",
+    "ref": "a58c726601628c9134d5e37182a2ed98942d2239",
+    "repository_id": 10270722,
+    "github_license_metadata": {
+      "key": "bsd-3-clause",
+      "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+      "spdx_id": "BSD-3-Clause",
+      "url": "https://api.github.com/licenses/bsd-3-clause",
+      "node_id": "MDc6TGljZW5zZTU="
+    },
+    "retained_license_files": [
+      {
+        "path": "LICENSE",
+        "source_url": "https://github.com/google/go-github/blob/a58c726601628c9134d5e37182a2ed98942d2239/LICENSE",
+        "sha256": "8461c85d96b70f125b738d807b362b50d1014f16fd4ee549215eaa03d4a809a1",
+        "git_blob_sha": "28b6486f0b8eea5b7c5c36e90ce8becf23356596"
+      }
+    ]
+  },
+  {
+    "repository": "tursodatabase/turso",
+    "ref": "bc9d27537b5e7f71bedcb3535697034c2d6f8bca",
+    "repository_id": 683347556,
+    "github_license_metadata": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "retained_license_files": [
+      {
+        "path": "LICENSE.md",
+        "source_url": "https://github.com/tursodatabase/turso/blob/bc9d27537b5e7f71bedcb3535697034c2d6f8bca/LICENSE.md",
+        "sha256": "b646f9ee8bcaf87e8de75153b9df7a2861c7ac445c87e741768b3c2bccf47bc5",
+        "git_blob_sha": "9573cadaf0b69893bf64bb595f06c4be150366e3"
+      }
+    ]
+  },
+  {
+    "repository": "gitkraken/vscode-gitlens",
+    "ref": "0cf8a5a76ed1bf350758cd679de61743b475cddc",
+    "repository_id": 65212856,
+    "github_license_metadata": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "retained_license_files": [
+      {
+        "path": "LICENSE",
+        "source_url": "https://github.com/gitkraken/vscode-gitlens/blob/0cf8a5a76ed1bf350758cd679de61743b475cddc/LICENSE",
+        "sha256": "a33d89441e8643ccfb2fd59edc6d964821a9f1b01014288af51bfa3108389ea0",
+        "git_blob_sha": "ede8315b05725e506f1c63e9e20094554f7d4f42"
+      },
+      {
+        "path": "LICENSE.plus",
+        "source_url": "https://github.com/gitkraken/vscode-gitlens/blob/0cf8a5a76ed1bf350758cd679de61743b475cddc/LICENSE.plus",
+        "sha256": "240999fbc944bdaaf41bd9ce57d70eb04e5d3ec9ccc2e21d5ee4572972788f59",
+        "git_blob_sha": "3a415f7a84e51b065c6856fe22ae1b0154cbfd3f"
+      }
+    ]
+  },
+  {
+    "repository": "abhinav/git-spice",
+    "ref": "6e4c15a860f9c0e22532022ec6e9e10ffdc0f29b",
+    "repository_id": 660623402,
+    "github_license_metadata": {
+      "key": "gpl-3.0",
+      "name": "GNU General Public License v3.0",
+      "spdx_id": "GPL-3.0",
+      "url": "https://api.github.com/licenses/gpl-3.0",
+      "node_id": "MDc6TGljZW5zZTk="
+    },
+    "retained_license_files": [
+      {
+        "path": "LICENSE",
+        "source_url": "https://github.com/abhinav/git-spice/blob/6e4c15a860f9c0e22532022ec6e9e10ffdc0f29b/LICENSE",
+        "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+        "git_blob_sha": "f288702d2fa16d3cdf0035b15a9fcbc552cd88e7"
+      }
+    ]
+  },
+  {
+    "repository": "XAMPPRocky/octocrab",
+    "ref": "c2ede077f77d6b64a0bdd4b6e78e0a4714fc54e2",
+    "repository_id": 260152030,
+    "github_license_metadata": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "retained_license_files": [
+      {
+        "path": "LICENCE-APACHE",
+        "source_url": "https://github.com/XAMPPRocky/octocrab/blob/c2ede077f77d6b64a0bdd4b6e78e0a4714fc54e2/LICENCE-APACHE",
+        "sha256": "ebd8153ef4d2d160d0bdc76a1821ac2a0eb1f57e8c056f3674032f8140c41745",
+        "git_blob_sha": "edb4fd4715a4bc51827da2952627e55eeb653ea2"
+      },
+      {
+        "path": "LICENCE-MIT",
+        "source_url": "https://github.com/XAMPPRocky/octocrab/blob/c2ede077f77d6b64a0bdd4b6e78e0a4714fc54e2/LICENCE-MIT",
+        "sha256": "ee1201a73de9b44ad1ef02a2f9f82705b1350b878e2bab3c3fb6282daf038a73",
+        "git_blob_sha": "39ec9b8397de5cbfcdead9f72f9773434e925f73"
+      }
+    ]
+  },
+  {
+    "repository": "howarewoo/git-stacks",
+    "ref": "777760d2ab07681f9ecd0e46a3c6f97df8827bd5",
+    "repository_id": 1382299353,
+    "github_license_metadata": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "retained_license_files": [
+      {
+        "path": "LICENSE",
+        "source_url": "https://github.com/howarewoo/git-stacks/blob/777760d2ab07681f9ecd0e46a3c6f97df8827bd5/LICENSE",
+        "sha256": "5a146e4e5fc446bfb2680f7959982d63c54084d57c6b91d689c72e02d86ddca3",
+        "git_blob_sha": "d302aba444a091b8ffb5013bfb3af6167cf4b21f"
+      }
+    ]
+  }
+]

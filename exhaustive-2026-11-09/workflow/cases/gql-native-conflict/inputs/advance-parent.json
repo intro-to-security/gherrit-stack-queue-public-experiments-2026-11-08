@@ -1,0 +1,9 @@
+{
+  "message": "Advance the selected update branch's parent\n\nAgent-authored-by: AI agent acting on joshlf's behalf\n",
+  "oid": "4d0060ac8628a2ded4a4e516fce0ad74f9349f4e",
+  "parent": "a810a5f65ef9e212725a5227f43e6804a3fb691a",
+  "tree": "8845a1698f720ab450e698f047dca1e326cbcf8a",
+  "updates": {
+    "gql.txt": "new trunk conflict\n"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "at": {
+    "utc": "2026-11-09T16:40:32.146392+00:00",
+    "monotonic_ns": 26374375
+  },
+  "grant": "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/control/rebase-app-grant-001.json",
+  "grant_sha256": "fb68c8df2c414fd3e0b8c83fb7f35d48e87ec542cb8b5ae9ca698e1f1edb93ba"
+}

@@ -1,0 +1,18 @@
+{
+  "exit": 0,
+  "stdout": "Warning: skipping journal recovery because doing a read-only filesystem check.\nPass 1: Checking inodes, blocks, and sizes\nPass 2: Checking directory structure\nPass 3: Checking directory connectivity\nPass 4: Checking reference counts\nPass 5: Checking group summary information\nFree blocks count wrong (6643, counted=6589).\nFix? no\n\nFree inodes count wrong (8181, counted=8175).\nFix? no\n\n/lab/extension/results/case-9.raw: 11/8192 files (9.1% non-contiguous), 1549/8192 blocks\n",
+  "stderr": "e2fsck 1.46.5 (30-Dec-2021)\n",
+  "repair": false,
+  "diagnostics": {
+    "exit": 0,
+    "diagnostic_lines": [
+      "Warning: skipping journal recovery because doing a read-only filesystem check.",
+      "Free blocks count wrong (6643, counted=6589).",
+      "Fix? no",
+      "Free inodes count wrong (8181, counted=8175).",
+      "Fix? no"
+    ],
+    "clean_diagnostics": false,
+    "scope": "After stated inspector path; exit zero alone is insufficient"
+  }
+}

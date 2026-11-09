@@ -1,0 +1,100 @@
+{
+  "repository": "joshlf/gherrit-native-stack-experiments-2026-11-08",
+  "cases": [
+    {
+      "id": "T01",
+      "status": "performed",
+      "details": "See CASE-MATRIX.md; negative outcomes and retained unsafe read premise are explicit"
+    },
+    {
+      "id": "T02",
+      "status": "performed",
+      "details": "See CASE-MATRIX.md; negative outcomes and retained unsafe read premise are explicit"
+    },
+    {
+      "id": "T03",
+      "status": "performed",
+      "details": "See CASE-MATRIX.md; negative outcomes and retained unsafe read premise are explicit"
+    },
+    {
+      "id": "T04",
+      "status": "performed",
+      "details": "See CASE-MATRIX.md; negative outcomes and retained unsafe read premise are explicit"
+    },
+    {
+      "id": "T05",
+      "status": "performed",
+      "details": "See CASE-MATRIX.md; negative outcomes and retained unsafe read premise are explicit"
+    },
+    {
+      "id": "T06",
+      "status": "performed",
+      "details": "See CASE-MATRIX.md; negative outcomes and retained unsafe read premise are explicit"
+    },
+    {
+      "id": "T07",
+      "status": "performed",
+      "details": "See CASE-MATRIX.md; negative outcomes and retained unsafe read premise are explicit"
+    },
+    {
+      "id": "T08",
+      "status": "performed",
+      "details": "See CASE-MATRIX.md; negative outcomes and retained unsafe read premise are explicit"
+    },
+    {
+      "id": "T09",
+      "status": "performed",
+      "details": "See CASE-MATRIX.md; negative outcomes and retained unsafe read premise are explicit"
+    },
+    {
+      "id": "T10",
+      "status": "performed",
+      "details": "See CASE-MATRIX.md; negative outcomes and retained unsafe read premise are explicit"
+    },
+    {
+      "id": "T11",
+      "status": "performed",
+      "details": "See CASE-MATRIX.md; negative outcomes and retained unsafe read premise are explicit"
+    }
+  ],
+  "new_refs": 17,
+  "new_prs": 11,
+  "native_requests": 5,
+  "native_outcomes": {
+    "merged": 1,
+    "failed": 4,
+    "unknown": 0,
+    "queued": 0
+  },
+  "policy_restoration": {
+    "PRs_retained": true,
+    "post_absence_verified": true,
+    "refs_retained": true,
+    "restored_protections": [
+      "exh-1109-target-profile001-u-trunk",
+      "exh-1109-target-profile001-m-trunk",
+      "exh-1109-target-profile001-r-trunk",
+      "exh-1109-target-profile001-p-trunk"
+    ],
+    "restored_ruleset": 26858731,
+    "scope": "Initial absence restored only for settings created under target-grant-001",
+    "time": "2026-11-09T14:41:37.505804+00:00"
+  },
+  "guard_checks": {
+    "initial": 24,
+    "fresh_followup": 10,
+    "exact_CI_acceptance": 5
+  },
+  "not_a_readiness_score": true,
+  "retained_failures": [
+    "wait_ci accepted stale old green head; exact-input correction in EXACT-CI-ACCEPTANCE.json"
+  ],
+  "object_retention": {
+    "objects": 31,
+    "unavailable": [],
+    "tree_mismatches": 0
+  },
+  "git_fsck_exit": 0,
+  "scope": "Minimal synthetic event/policy reproduction, not full Rust CI, production implementation, migration, provider fence or queue validation",
+  "prior_records_reused": 54
+}

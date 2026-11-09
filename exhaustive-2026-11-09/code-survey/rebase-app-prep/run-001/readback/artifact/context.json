@@ -1,0 +1,18 @@
+{
+  "authentication": "Actions repository-scoped installation token; value never retained",
+  "config_sha256": "8a5eed309e1d98d5c9ac559fb7f05ce70f6886f3527cd963d02df629b9d31ac3",
+  "event": "create-only push",
+  "probe_sha256": "476029710ad48039c36e423fd6ff6c6219bd591edb96a6df82934eaec1f1e12b",
+  "requested_permissions": {
+    "contents": "write",
+    "pull-requests": "write"
+  },
+  "runner": {
+    "GITHUB_ACTOR": "joshlf",
+    "GITHUB_REF": "refs/heads/exh-1109-causal-rb-app-001/runner",
+    "GITHUB_REPOSITORY": "joshlf/gherrit-native-stack-experiments-2026-11-08",
+    "GITHUB_RUN_ATTEMPT": "1",
+    "GITHUB_RUN_ID": "42657475024",
+    "GITHUB_SHA": "6f7f0d9322bc6ddaf72bc3043c15463ecbd92b6e"
+  }
+}

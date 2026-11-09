@@ -1,0 +1,56 @@
+{
+  "checks": [
+    {
+      "actual": true,
+      "expected": true,
+      "name": "model never accepts torn JSON as completion",
+      "passed": true
+    }
+  ],
+  "details": {
+    "actual_machine_power_loss": "not performed",
+    "limit": "Model outcome sets are assumed and do not validate a filesystem",
+    "model": [
+      {
+        "assumption": "temp file fsync orders data; directory fsync orders rename; prior old record durable",
+        "modeled_recovered_generations": [
+          "old"
+        ],
+        "prefix": "temp-write"
+      },
+      {
+        "assumption": "temp file fsync orders data; directory fsync orders rename; prior old record durable",
+        "modeled_recovered_generations": [
+          "old"
+        ],
+        "prefix": "temp-fsync"
+      },
+      {
+        "assumption": "temp file fsync orders data; directory fsync orders rename; prior old record durable",
+        "modeled_recovered_generations": [
+          "new",
+          "old"
+        ],
+        "prefix": "rename"
+      },
+      {
+        "assumption": "temp file fsync orders data; directory fsync orders rename; prior old record durable",
+        "modeled_recovered_generations": [
+          "new"
+        ],
+        "prefix": "directory-fsync"
+      }
+    ],
+    "observed_hardware_behavior": false,
+    "runtime": {
+      "architecture": "aarch64",
+      "context": "orbstack",
+      "owned_guest": "pending root decision; VM-PLAN.md",
+      "server": "29.4.0"
+    }
+  },
+  "disposition": "performed",
+  "id": "R15",
+  "status": "passed",
+  "title": "Capability and persistence model"
+}

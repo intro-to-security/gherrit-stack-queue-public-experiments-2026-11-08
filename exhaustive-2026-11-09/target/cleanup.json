@@ -1,0 +1,14 @@
+{
+  "PRs_retained": true,
+  "post_absence_verified": true,
+  "refs_retained": true,
+  "restored_protections": [
+    "exh-1109-target-profile001-u-trunk",
+    "exh-1109-target-profile001-m-trunk",
+    "exh-1109-target-profile001-r-trunk",
+    "exh-1109-target-profile001-p-trunk"
+  ],
+  "restored_ruleset": 26858731,
+  "scope": "Initial absence restored only for settings created under target-grant-001",
+  "time": "2026-11-09T14:41:37.505804+00:00"
+}

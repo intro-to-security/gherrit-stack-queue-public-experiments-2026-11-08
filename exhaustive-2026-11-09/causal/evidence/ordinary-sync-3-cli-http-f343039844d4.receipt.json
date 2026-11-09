@@ -1,0 +1,31 @@
+{
+  "kind": "cli-http-unix",
+  "method": "POST",
+  "path": "/graphql",
+  "headers": {
+    "User-Agent": "go-gh",
+    "Accept": "application/vnd.github.merge-info-preview+json, application/vnd.github.nebula-preview",
+    "Content-Type": "application/json",
+    "X-Github-Api-Version": "2022-11-28"
+  },
+  "body": "{\"query\":\"query FindPRByNumber($name:String!$number:Int!$owner:String!){repository(owner: $owner, name: $name){pullRequest(number: $number){id,number,state,url,title,body,headRefName,headRefOid,baseRefName,isDraft,merged,mergeQueueEntry{id},autoMergeRequest{enabledAt}}}}\",\"variables\":{\"name\":\"gherrit-native-stack-experiments-2026-11-08\",\"number\":598,\"owner\":\"joshlf\"}}\n",
+  "permitted": true,
+  "upstream": "https://api.github.com; normal certificate verification",
+  "start": {
+    "utc": "2026-11-09T14:20:36.174862+00:00",
+    "monotonic": 42.967256583
+  },
+  "end": {
+    "utc": "2026-11-09T14:20:36.419702+00:00",
+    "monotonic": 43.212126416
+  },
+  "http": 200,
+  "response_headers": {
+    "Content-Type": "application/json; charset=utf-8",
+    "Date": "Mon, 09 Nov 2026 14:20:36 GMT",
+    "X-RateLimit-Remaining": "4648",
+    "X-GitHub-Request-Id": "F198:30F46A:11D2736:3B10711:6AF1D6B4"
+  },
+  "response_body": "{\"data\":{\"repository\":{\"pullRequest\":{\"id\":\"PR_kwDOVnhIZ88AAAABN3TOhA\",\"number\":598,\"state\":\"OPEN\",\"url\":\"https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08/pull/598\",\"title\":\"Causal experiment ordinary-sync-3 D\",\"body\":\"Synthetic causal fixture; no production changes.\\n\\n*Authored by an AI agent acting on joshlf's behalf.*\",\"headRefName\":\"exh-1109-causal-ordinary-sync-3/D\",\"headRefOid\":\"da6af1c4ac97a928270695c4bb98a8707950f4a4\",\"baseRefName\":\"exh-1109-causal-ordinary-sync-3/C\",\"isDraft\":false,\"merged\":false,\"mergeQueueEntry\":null,\"autoMergeRequest\":null}}}}",
+  "forwarded": true
+}

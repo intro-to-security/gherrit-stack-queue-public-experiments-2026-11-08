@@ -1,0 +1,331 @@
+{
+  "cases": 11,
+  "boots": 22,
+  "all_original_strict_oracle_verdicts_reproduced": true,
+  "archives": [
+    {
+      "prefix": "validated",
+      "archive": "validated-pre-recovery.raw.gz",
+      "raw_bytes": 33554432,
+      "verified": true
+    },
+    {
+      "prefix": "validated",
+      "archive": "validated-post-recovery.raw.gz",
+      "raw_bytes": 33554432,
+      "verified": true
+    },
+    {
+      "prefix": "after_return",
+      "archive": "after_return-pre-recovery.raw.gz",
+      "raw_bytes": 33554432,
+      "verified": true
+    },
+    {
+      "prefix": "after_return",
+      "archive": "after_return-post-recovery.raw.gz",
+      "raw_bytes": 33554432,
+      "verified": true
+    },
+    {
+      "prefix": "marked",
+      "archive": "marked-pre-recovery.raw.gz",
+      "raw_bytes": 33554432,
+      "verified": true
+    },
+    {
+      "prefix": "marked",
+      "archive": "marked-post-recovery.raw.gz",
+      "raw_bytes": 33554432,
+      "verified": true
+    },
+    {
+      "prefix": "request_logged",
+      "archive": "request_logged-pre-recovery.raw.gz",
+      "raw_bytes": 33554432,
+      "verified": true
+    },
+    {
+      "prefix": "request_logged",
+      "archive": "request_logged-post-recovery.raw.gz",
+      "raw_bytes": 33554432,
+      "verified": true
+    },
+    {
+      "prefix": "provider_head",
+      "archive": "provider_head-pre-recovery.raw.gz",
+      "raw_bytes": 33554432,
+      "verified": true
+    },
+    {
+      "prefix": "provider_head",
+      "archive": "provider_head-post-recovery.raw.gz",
+      "raw_bytes": 33554432,
+      "verified": true
+    },
+    {
+      "prefix": "provider_archive",
+      "archive": "provider_archive-pre-recovery.raw.gz",
+      "raw_bytes": 33554432,
+      "verified": true
+    },
+    {
+      "prefix": "provider_archive",
+      "archive": "provider_archive-post-recovery.raw.gz",
+      "raw_bytes": 33554432,
+      "verified": true
+    },
+    {
+      "prefix": "provider_receipt",
+      "archive": "provider_receipt-pre-recovery.raw.gz",
+      "raw_bytes": 33554432,
+      "verified": true
+    },
+    {
+      "prefix": "provider_receipt",
+      "archive": "provider_receipt-post-recovery.raw.gz",
+      "raw_bytes": 33554432,
+      "verified": true
+    },
+    {
+      "prefix": "acknowledged",
+      "archive": "acknowledged-pre-recovery.raw.gz",
+      "raw_bytes": 33554432,
+      "verified": true
+    },
+    {
+      "prefix": "acknowledged",
+      "archive": "acknowledged-post-recovery.raw.gz",
+      "raw_bytes": 33554432,
+      "verified": true
+    },
+    {
+      "prefix": "result_ref",
+      "archive": "result_ref-pre-recovery.raw.gz",
+      "raw_bytes": 33554432,
+      "verified": true
+    },
+    {
+      "prefix": "result_ref",
+      "archive": "result_ref-post-recovery.raw.gz",
+      "raw_bytes": 33554432,
+      "verified": true
+    },
+    {
+      "prefix": "result_checkpoint",
+      "archive": "result_checkpoint-pre-recovery.raw.gz",
+      "raw_bytes": 33554432,
+      "verified": true
+    },
+    {
+      "prefix": "result_checkpoint",
+      "archive": "result_checkpoint-post-recovery.raw.gz",
+      "raw_bytes": 33554432,
+      "verified": true
+    },
+    {
+      "prefix": "complete",
+      "archive": "complete-pre-recovery.raw.gz",
+      "raw_bytes": 33554432,
+      "verified": true
+    },
+    {
+      "prefix": "complete",
+      "archive": "complete-post-recovery.raw.gz",
+      "raw_bytes": 33554432,
+      "verified": true
+    }
+  ],
+  "runtime_and_trace_checks": [
+    {
+      "prefix": "validated",
+      "phase": "cut",
+      "trace_roles": [],
+      "attribution_verified": true,
+      "all_barrier_paths_verified": true
+    },
+    {
+      "prefix": "validated",
+      "phase": "recover",
+      "trace_roles": [
+        "provider_head",
+        "provider_archive",
+        "local_continuation"
+      ],
+      "attribution_verified": true,
+      "all_barrier_paths_verified": true
+    },
+    {
+      "prefix": "after_return",
+      "phase": "cut",
+      "trace_roles": [
+        "provider_head",
+        "provider_archive",
+        "local_continuation"
+      ],
+      "attribution_verified": true,
+      "all_barrier_paths_verified": true
+    },
+    {
+      "prefix": "after_return",
+      "phase": "recover",
+      "trace_roles": [],
+      "attribution_verified": true,
+      "all_barrier_paths_verified": true
+    },
+    {
+      "prefix": "marked",
+      "phase": "cut",
+      "trace_roles": [],
+      "attribution_verified": true,
+      "all_barrier_paths_verified": true
+    },
+    {
+      "prefix": "marked",
+      "phase": "recover",
+      "trace_roles": [],
+      "attribution_verified": true,
+      "all_barrier_paths_verified": true
+    },
+    {
+      "prefix": "request_logged",
+      "phase": "cut",
+      "trace_roles": [],
+      "attribution_verified": true,
+      "all_barrier_paths_verified": true
+    },
+    {
+      "prefix": "request_logged",
+      "phase": "recover",
+      "trace_roles": [],
+      "attribution_verified": true,
+      "all_barrier_paths_verified": true
+    },
+    {
+      "prefix": "provider_head",
+      "phase": "cut",
+      "trace_roles": [
+        "provider_head"
+      ],
+      "attribution_verified": true,
+      "all_barrier_paths_verified": true
+    },
+    {
+      "prefix": "provider_head",
+      "phase": "recover",
+      "trace_roles": [],
+      "attribution_verified": true,
+      "all_barrier_paths_verified": true
+    },
+    {
+      "prefix": "provider_archive",
+      "phase": "cut",
+      "trace_roles": [
+        "provider_head",
+        "provider_archive"
+      ],
+      "attribution_verified": true,
+      "all_barrier_paths_verified": true
+    },
+    {
+      "prefix": "provider_archive",
+      "phase": "recover",
+      "trace_roles": [],
+      "attribution_verified": true,
+      "all_barrier_paths_verified": true
+    },
+    {
+      "prefix": "provider_receipt",
+      "phase": "cut",
+      "trace_roles": [
+        "provider_head",
+        "provider_archive"
+      ],
+      "attribution_verified": true,
+      "all_barrier_paths_verified": true
+    },
+    {
+      "prefix": "provider_receipt",
+      "phase": "recover",
+      "trace_roles": [
+        "local_continuation"
+      ],
+      "attribution_verified": true,
+      "all_barrier_paths_verified": true
+    },
+    {
+      "prefix": "acknowledged",
+      "phase": "cut",
+      "trace_roles": [
+        "provider_head",
+        "provider_archive"
+      ],
+      "attribution_verified": true,
+      "all_barrier_paths_verified": true
+    },
+    {
+      "prefix": "acknowledged",
+      "phase": "recover",
+      "trace_roles": [
+        "local_continuation"
+      ],
+      "attribution_verified": true,
+      "all_barrier_paths_verified": true
+    },
+    {
+      "prefix": "result_ref",
+      "phase": "cut",
+      "trace_roles": [
+        "provider_head",
+        "provider_archive",
+        "local_continuation"
+      ],
+      "attribution_verified": true,
+      "all_barrier_paths_verified": true
+    },
+    {
+      "prefix": "result_ref",
+      "phase": "recover",
+      "trace_roles": [],
+      "attribution_verified": true,
+      "all_barrier_paths_verified": true
+    },
+    {
+      "prefix": "result_checkpoint",
+      "phase": "cut",
+      "trace_roles": [
+        "provider_head",
+        "provider_archive",
+        "local_continuation"
+      ],
+      "attribution_verified": true,
+      "all_barrier_paths_verified": true
+    },
+    {
+      "prefix": "result_checkpoint",
+      "phase": "recover",
+      "trace_roles": [],
+      "attribution_verified": true,
+      "all_barrier_paths_verified": true
+    },
+    {
+      "prefix": "complete",
+      "phase": "cut",
+      "trace_roles": [
+        "provider_head",
+        "provider_archive",
+        "local_continuation"
+      ],
+      "attribution_verified": true,
+      "all_barrier_paths_verified": true
+    },
+    {
+      "prefix": "complete",
+      "phase": "recover",
+      "trace_roles": [],
+      "attribution_verified": true,
+      "all_barrier_paths_verified": true
+    }
+  ],
+  "scope": "Exact repaired loose-ref fixture. All preexistingobjects baseline-synced; outer caches survive. No GitHub/macOS/physical-power-loss or production backend guarantee."
+}

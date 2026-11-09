@@ -1,0 +1,15 @@
+{
+  "phase": "terminal: all eight granted cases disposed",
+  "hosted_native_api_write_dispatches": 40,
+  "git_push_dispatches": 16,
+  "missing_effect_receipts": [],
+  "unacknowledged_mutating_dispatches": [],
+  "frozen_marker_rejections": ["post-squash-1", "post-rebase-3", "post-merge-1", "post-squash-3"],
+  "successful_bounded_controls": ["force-control", "early-squash-3", "after-rewrite-squash-3", "ordinary-sync-3"],
+  "future_effects_limit": "Observed operation completion, exact-lease rejections and finite coherent/quiet read windows do not establish a provider future-write fence.",
+  "remaining_write_obligations": [],
+  "remaining_cleanup_obligations": [],
+  "retention": "Synthetic refs, PRs/groups, local objects, source snapshots and raw evidence are intentionally retained for independent audit. No cleanup write is authorized or needed to stop the lane.",
+  "background_workers": "No running owned driver or recorder; the official CLI recorder socket is removed and its checkout is clean.",
+  "external_publication": "none by this lane"
+}

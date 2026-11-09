@@ -1,0 +1,92 @@
+{
+  "checks": [
+    {
+      "actual": "0\n",
+      "expected": "0\n",
+      "name": "ordinary importer silently removes confirmed x=1",
+      "passed": true
+    },
+    {
+      "actual": "needs_explicit_drift_review",
+      "expected": "needs_explicit_drift_review",
+      "name": "candidate requires a decision before incorporation",
+      "passed": true
+    },
+    {
+      "actual": {
+        "x": "1\n",
+        "z": "0\n"
+      },
+      "expected": {
+        "x": "1\n",
+        "z": "0\n"
+      },
+      "name": "restoration exact tree",
+      "passed": true
+    },
+    {
+      "actual": "refused",
+      "expected": "refused",
+      "name": "strict overlap control",
+      "passed": true
+    }
+  ],
+  "details": {
+    "authored_archive": "a2c772f8b992bb64ef1ff0165525feb4a30954b4",
+    "confirmed": "a2c772f8b992bb64ef1ff0165525feb4a30954b4",
+    "costs": {
+      "detection_requires_connected_observation": true,
+      "drift_review_decisions": 1,
+      "restoration_publications": 1,
+      "temporarily_wrong_hosted_state": true
+    },
+    "incorporated_before_review": "a2c772f8b992bb64ef1ff0165525feb4a30954b4",
+    "input": "7f9aaff4a22a14fef012f8d3612f523782706220",
+    "old_operation_unchanged": {
+      "intent": {
+        "binding": {
+          "change": "A",
+          "head": "A",
+          "repository": "local-fixture",
+          "review": 1
+        },
+        "captured_checkpoint": {
+          "accepted_local": "a2c772f8b992bb64ef1ff0165525feb4a30954b4",
+          "incorporated": "7f9aaff4a22a14fef012f8d3612f523782706220"
+        },
+        "continuation": "refs/retained/completed-late-reversal",
+        "expected": "7f9aaff4a22a14fef012f8d3612f523782706220",
+        "id": "op-late-reversal",
+        "input": "7f9aaff4a22a14fef012f8d3612f523782706220",
+        "provider": "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/recovery/runs/1794232632320218000/late-reversal/provider",
+        "result": "a2c772f8b992bb64ef1ff0165525feb4a30954b4",
+        "scope": [
+          "head:A",
+          "archive:late-reversal"
+        ]
+      },
+      "state": "planned"
+    },
+    "ordinary": "f205d0417001460b508a72c5ac799bf53f3a0604",
+    "restored": {
+      "proposed": "dd8323aff6bf41935ea4306f082105c737bda568",
+      "status": "restoration_proposal"
+    },
+    "strict_admission": {
+      "overlaps": [
+        {
+          "id": "older-native-request",
+          "shared": [
+            "head:A"
+          ]
+        }
+      ],
+      "reason": "overlapping_old_effect",
+      "status": "refused"
+    }
+  },
+  "disposition": "performed",
+  "id": "R01",
+  "status": "passed",
+  "title": "Late reversal and candidate comparison"
+}

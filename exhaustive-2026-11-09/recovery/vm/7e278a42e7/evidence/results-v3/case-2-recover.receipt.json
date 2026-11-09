@@ -1,0 +1,9 @@
+{
+  "pid": 3825,
+  "exit": -9,
+  "barrier": "BARRIER RECOVERED",
+  "reached": true,
+  "bytes": 12631,
+  "utc_seconds": 1794235480.634077,
+  "failure_boundary": "guest emulator SIGKILL; outer caches survive"
+}

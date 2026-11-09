@@ -1,0 +1,12 @@
+{
+  "exit": 0,
+  "stdout": "Pass 1: Checking inodes, blocks, and sizes\nPass 2: Checking directory structure\nPass 3: Checking directory connectivity\nPass 4: Checking reference counts\nPass 5: Checking group summary information\n/lab/extension/results/clean-inspector-control.raw: 15/8192 files (6.7% non-contiguous), 1585/8192 blocks\n",
+  "stderr": "e2fsck 1.46.5 (30-Dec-2021)\n",
+  "repair": false,
+  "diagnostics": {
+    "exit": 0,
+    "diagnostic_lines": [],
+    "clean_diagnostics": true,
+    "scope": "After stated inspector path; exit zero alone is insufficient"
+  }
+}

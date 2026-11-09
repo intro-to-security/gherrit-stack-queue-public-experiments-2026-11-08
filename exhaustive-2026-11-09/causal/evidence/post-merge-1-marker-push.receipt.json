@@ -1,0 +1,29 @@
+{
+  "kind": "git-push",
+  "updates": {
+    "refs/heads/exh-1109-causal-post-merge-1/B": "ce1a026d3c5dde49bcf7063d3f7d11a9924a66ac"
+  },
+  "expected": {
+    "refs/heads/exh-1109-causal-post-merge-1/B": "728b0a72159a4229d51a4f2607e0acab9629656f"
+  },
+  "args": [
+    "push",
+    "--porcelain",
+    "--atomic",
+    "--force-with-lease=refs/heads/exh-1109-causal-post-merge-1/B:728b0a72159a4229d51a4f2607e0acab9629656f",
+    "origin",
+    "ce1a026d3c5dde49bcf7063d3f7d11a9924a66ac:refs/heads/exh-1109-causal-post-merge-1/B"
+  ],
+  "start": {
+    "utc": "2026-11-09T13:52:16.580026+00:00",
+    "monotonic": 13.72366225
+  },
+  "end": {
+    "utc": "2026-11-09T13:52:17.104415+00:00",
+    "monotonic": 14.248072875
+  },
+  "exit": 1,
+  "stdout": "To https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08.git\n!\tce1a026d3c5dde49bcf7063d3f7d11a9924a66ac:refs/heads/exh-1109-causal-post-merge-1/B\t[rejected] (stale info)\nDone\n",
+  "stderr": "error: failed to push some refs to 'https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08.git'\n",
+  "disposition": "requires-read-only-reconciliation"
+}

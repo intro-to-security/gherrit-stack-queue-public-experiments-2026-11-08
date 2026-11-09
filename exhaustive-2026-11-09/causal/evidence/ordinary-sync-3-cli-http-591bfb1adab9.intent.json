@@ -1,0 +1,18 @@
+{
+  "kind": "cli-http-unix",
+  "method": "POST",
+  "path": "/graphql",
+  "headers": {
+    "User-Agent": "go-gh",
+    "Accept": "application/vnd.github.merge-info-preview+json, application/vnd.github.nebula-preview",
+    "Content-Type": "application/json",
+    "X-Github-Api-Version": "2022-11-28"
+  },
+  "body": "{\"query\":\"query FindPRForBranch($head:String!$name:String!$owner:String!){repository(owner: $owner, name: $name){pullRequests(headRefName: $head, states: [OPEN], first: 1){nodes{id,number,url,title,body,baseRefName,isDraft,mergeQueueEntry{id},autoMergeRequest{enabledAt}}}}}\",\"variables\":{\"head\":\"exh-1109-causal-ordinary-sync-3/A\",\"name\":\"gherrit-native-stack-experiments-2026-11-08\",\"owner\":\"joshlf\"}}\n",
+  "permitted": true,
+  "upstream": "https://api.github.com; normal certificate verification",
+  "start": {
+    "utc": "2026-11-09T14:20:10.279641+00:00",
+    "monotonic": 17.072189458
+  }
+}

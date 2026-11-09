@@ -1,0 +1,29 @@
+{
+  "kind": "git-push",
+  "updates": {
+    "refs/heads/exh-1109-causal-post-rebase-3/D": "0c78222d7db1a0ac05239bb8d887c24154169ad5"
+  },
+  "expected": {
+    "refs/heads/exh-1109-causal-post-rebase-3/D": "cd36e1197abdbd0283f8666b82f5b6aa34b4b7ca"
+  },
+  "args": [
+    "push",
+    "--porcelain",
+    "--atomic",
+    "--force-with-lease=refs/heads/exh-1109-causal-post-rebase-3/D:cd36e1197abdbd0283f8666b82f5b6aa34b4b7ca",
+    "origin",
+    "0c78222d7db1a0ac05239bb8d887c24154169ad5:refs/heads/exh-1109-causal-post-rebase-3/D"
+  ],
+  "start": {
+    "utc": "2026-11-09T13:51:16.628132+00:00",
+    "monotonic": 18.402760291
+  },
+  "end": {
+    "utc": "2026-11-09T13:51:18.073438+00:00",
+    "monotonic": 19.848110833
+  },
+  "exit": 1,
+  "stdout": "To https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08.git\n!\t0c78222d7db1a0ac05239bb8d887c24154169ad5:refs/heads/exh-1109-causal-post-rebase-3/D\t[remote rejected] (cannot lock ref 'refs/heads/exh-1109-causal-post-rebase-3/D': is at 7cc4ad3de9009002e3cd1950a7de9f80a182bfa4 but expected cd36e1197abdbd0283f8666b82f5b6aa34b4b7ca)\nDone\n",
+  "stderr": "error: failed to push some refs to 'https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08.git'\n",
+  "disposition": "requires-read-only-reconciliation"
+}

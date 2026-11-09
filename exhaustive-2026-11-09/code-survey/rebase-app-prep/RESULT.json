@@ -1,0 +1,138 @@
+{
+  "PRs": {
+    "A": {
+      "node_id": "PR_kwDOVnhIZ88AAAABN5USaw",
+      "number": 654
+    },
+    "B": {
+      "node_id": "PR_kwDOVnhIZ88AAAABN5UTrw",
+      "number": 655
+    }
+  },
+  "X_Accepted_GitHub_Permissions": "pull_requests=write,contents=write",
+  "artifact": {
+    "ZIP_sha256": "69b29179b0ec85cd73b83fd169f4a668726a554c8a2cc050e8ad3ad17147b73e",
+    "extracted_path": "run-001/readback/artifact/",
+    "id": 13693550267,
+    "validated_UTF8_JSON_file_count": 10,
+    "verification": "run-001/readback/artifact-verification.json"
+  },
+  "canonical_PRs_open_and_original_heads_at_both_observations": true,
+  "dispatched": {
+    "Actions_native_PUTs": 1,
+    "fixture_mutating_dispatches": 5,
+    "native_retries": 0,
+    "native_status_GETs_after404": 0,
+    "runner_create_only_pushes": 1,
+    "workflow_reruns": 0
+  },
+  "effective_job_permissions": {
+    "contents": "write",
+    "evidence": "run-001/readback/effective-permissions.json",
+    "metadata": "read",
+    "pull-requests": "write"
+  },
+  "exact_refs_unchanged_at_both_observations": true,
+  "exact_request_and_result": {
+    "body": {
+      "documentation_url": "https://docs.github.com/rest/pulls/stacks#rebase-a-pull-request-stack",
+      "message": "Not Found",
+      "status": "404"
+    },
+    "ended_utc": "2026-11-09T16:42:37.338531+00:00",
+    "headers": {
+      "content-type": "application/json; charset=utf-8",
+      "date": "Mon, 09 Nov 2026 16:42:37 GMT",
+      "x-accepted-github-permissions": "pull_requests=write,contents=write",
+      "x-github-api-version-selected": "2026-03-10",
+      "x-github-request-id": "482F:31EB6E:D73D7C:2C02F9F:6AF1F7FD"
+    },
+    "method": "PUT",
+    "path": "/repositories/1450723431/stacks/656/rebase",
+    "payload": {
+      "expected_head_oid_by_pr_number": {
+        "654": "5afe9c34540002ec9554c2e9d279f4fa895d89db",
+        "655": "11ddd6ef32afc4bca7865a22c70248a6156edee7"
+      }
+    },
+    "started_utc": "2026-11-09T16:42:37.021240+00:00",
+    "status": 404
+  },
+  "external_cleanup_needed": false,
+  "filled_runner_files": {
+    "fixture.json": "8a5eed309e1d98d5c9ac559fb7f05ce70f6886f3527cd963d02df629b9d31ac3",
+    "probe.py": "476029710ad48039c36e423fd6ff6c6219bd591edb96a6df82934eaec1f1e12b",
+    "workflow.yml": "4802814f96d005ee5638b6af892114b50dd2a391de953af26b2813b6913e625f"
+  },
+  "force_or_base_change_timeline_nodes": {
+    "A": 0,
+    "B": 0
+  },
+  "grants": [
+    {
+      "path": "../../control/rebase-app-grant-001.json",
+      "sha256": "fb68c8df2c414fd3e0b8c83fb7f35d48e87ec542cb8b5ae9ca698e1f1edb93ba"
+    },
+    {
+      "path": "../../control/rebase-app-grant-002.json",
+      "sha256": "4d35b6e8e2a3530ca0ee2142acb8c9f733d493f3d247c1cdc6382bda1226fa09"
+    }
+  ],
+  "limits": [
+    "One fresh two-member fixture, one Actions installation identity and one permission vector at one time; not a causal isolation of token class from time or fixture shape.",
+    "404 is a known endpoint rejection, not an admitted job, vector-guard success, provider-completion observation, universal unavailability result or future-write fence.",
+    "The two separate timed read cohorts started about189 and227seconds after the response; no continuous unchanged interval or physical event timing is established.",
+    "Matching accepted permission header and effective job grants address the contents-read confound; enrollment, routing, app identity restrictions and undisclosed policy remain unresolved.",
+    "No App-token write-positive-control was added: successful reads plus runner permission evidence are distinct from a successful native write.",
+    "Artifact and log pattern scans are bounded; all publication selections still need root review."
+  ],
+  "observation_start_separation_seconds": 38.275558,
+  "observations": [
+    {
+      "ended_utc": "2026-11-09T16:45:47.355730+00:00",
+      "path": "run-001/readback/after-0.json",
+      "seconds_after_PUT_response_end": 188.738692,
+      "started_utc": "2026-11-09T16:45:46.077223+00:00"
+    },
+    {
+      "ended_utc": "2026-11-09T16:46:25.621122+00:00",
+      "path": "run-001/readback/after-30.json",
+      "seconds_after_PUT_response_end": 227.01425,
+      "started_utc": "2026-11-09T16:46:24.352781+00:00"
+    }
+  ],
+  "own_patches_preserved": true,
+  "prefix": "exh-1109-causal-rb-app-001",
+  "remaining_authorized_mutations": [],
+  "repository": "joshlf/gherrit-native-stack-experiments-2026-11-08",
+  "repository_id": 1450723431,
+  "retention": "Synthetic PRs/group/refs/local objects, all exact sources, grants, intents, receipts, complete job log, archive and safe extracted JSON retained; no cleanup mutation proposed.",
+  "runner": {
+    "commit": "6f7f0d9322bc6ddaf72bc3043c15463ecbd92b6e",
+    "job_id": 129299740862,
+    "matching_run_count": 1,
+    "native_conclusion": "known_HTTP404; collector success is separate",
+    "ref": "exh-1109-causal-rb-app-001/runner",
+    "run_attempt": 1,
+    "tree": "e5f4fb9732ef0edf10f0a41b3f733ff317b71f24",
+    "workflow_conclusion": "success",
+    "workflow_run_id": 42657475024
+  },
+  "scope_unchanged": {
+    "A": "5afe9c34540002ec9554c2e9d279f4fa895d89db",
+    "B": "11ddd6ef32afc4bca7865a22c70248a6156edee7",
+    "trunk": "1eadf6cbffab4ef16d21830f06e5806cf8eb1b1a"
+  },
+  "sources": {
+    "control/rootlab.py": "ae1ae63d5ee8370cbca11711f5d5e76a97669881ddf8ef8911493666393d128d",
+    "fixture.template.json": "bdd0178da4fa4ed4ab83d70dd71ff7592a94c7943f75e5778b9276ec3a639772",
+    "fixture_runner.py": "07f5452aaf54ac3462da8c796705eed8c923505276dd2cb78572b253b519e071",
+    "probe.py": "476029710ad48039c36e423fd6ff6c6219bd591edb96a6df82934eaec1f1e12b",
+    "workflow.template.yml": "2d7155d36cd3960bebc6915dcbd64fd0c9f94aa10a638efda24e0971acbba7a0"
+  },
+  "stack": {
+    "node_id": "PRS_kwDOVnhIZ84AMaim",
+    "number": 656
+  },
+  "status": "terminal_known404_no_native_admission"
+}

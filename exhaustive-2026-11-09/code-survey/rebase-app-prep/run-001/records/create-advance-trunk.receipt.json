@@ -1,0 +1,13 @@
+{
+  "started": {
+    "utc": "2026-11-09T16:40:38.429936+00:00",
+    "monotonic_ns": 6309737208
+  },
+  "finished": {
+    "utc": "2026-11-09T16:40:39.891037+00:00",
+    "monotonic_ns": 7770849708
+  },
+  "returncode": 0,
+  "stdout": "",
+  "stderr": "To https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08.git\n   ed2c602..1eadf6c  1eadf6cbffab4ef16d21830f06e5806cf8eb1b1a -> exh-1109-causal-rb-app-001/trunk\n"
+}

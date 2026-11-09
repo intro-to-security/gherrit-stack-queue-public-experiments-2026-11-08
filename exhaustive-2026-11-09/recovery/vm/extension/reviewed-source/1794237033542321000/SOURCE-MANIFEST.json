@@ -1,0 +1,81 @@
+{
+  "scope": "Source-only extension prepared for root; worker performed no runtime/container action",
+  "files": {
+    "probe.c": {
+      "sha256": "c17d3c77f18482f45e0ced44dbb613a74d191ba91512c6476df5233d347b9408",
+      "bytes": 6496
+    },
+    "oracle.py": {
+      "sha256": "019509889ba3df8da958ff03a00b845dd3301c86599da09bc8e3da7ad16bc3a6",
+      "bytes": 12832
+    },
+    "controller.py": {
+      "sha256": "fe4d0c05819903b57c676691cd2df09c567ae263fa699df846d74f61a82d6ce6",
+      "bytes": 7424
+    },
+    "init": {
+      "sha256": "201d253794d166ddcad3c39de2b261b47ae2d311891ed82a8bc7cdf4ac21d8ac",
+      "bytes": 753
+    },
+    "build-extension.sh": {
+      "sha256": "6e8c61bbfdee93a5973adb50f4366bfbcd7aa4575ebf7e50a45f00c7c8ea6a0f",
+      "bytes": 652
+    },
+    "expected.h": {
+      "sha256": "f444539f7da2a2e4446b418e45f0feeb609bfeba52faf0bdd7d552804398dd0c",
+      "bytes": 389
+    },
+    "EXPECTED.json": {
+      "sha256": "d360d2f25bcb7359f811fc8b5fa3978b920da1975579b2f317627b4ae1c437f2",
+      "bytes": 979
+    },
+    "PLAN.md": {
+      "sha256": "b61a89687386280e679b31a04108257d79379f20bd76bfa7499dd0ebd7e089c1",
+      "bytes": 4930
+    },
+    "AUDIT-v3.md": {
+      "sha256": "319f364e879be8ac8e8bc8a3e2a8e8595593c57ba51cc617c0402dbe3f6d2c3d",
+      "bytes": 3343
+    }
+  },
+  "offline_checks": {
+    "path": "OFFLINE-CHECKS.json",
+    "sha256": "8936cfbd1caf0cc3421764d1835a60dbc57dac396f59a5f4d207e0c0f1de34ea",
+    "modeled_extension_cases": 12,
+    "actual_v3_cases_checked": 8,
+    "actual_v3_boot_receipts_checked": 16,
+    "bad_classifier_or_value_controls": 5,
+    "C_syntax": "cc -fsyntax-only -std=c11 -Wall -Wextra -Werror passed",
+    "shell_syntax": "bash -n build-extension.sh and sh -n init passed",
+    "Python_syntax": "compile passed"
+  },
+  "v3_source_evidence_hashes": {
+    "probe.c": "87db6f097fb6151e7aa6927577ac14877b27f8c0eb1f2b46cc8ede27e3b74bb2",
+    "init": "f7edd273a3f4f58c22e20a2faa12f442bb44bc01a7f71d2c42ba8be2dc9aaa0d",
+    "controller.py": "c76045d1eb23646ea7908a0479de6cab5a7309d275b9a2f7fe73448487cef6cf",
+    "build-guest.sh": "b629f878f4caf4948a168977cce4b0514e6a6c2309bc405eda237f89706733b7",
+    "results-v3/RESULTS.json": "72dfd32f53cec6de0e1cb87c81d3697b1c96075dd9dcb32fac5c37d9af19a67e",
+    "installed-versions-final.txt": "74a171b9a07d47f18f776e77fd41d06f492fab18ed993a0bd1603d98bbcaa926"
+  },
+  "root_build_command": "bash /lab/extension/build-extension.sh",
+  "root_run_command": "python3 /lab/extension/controller.py",
+  "resources": {
+    "new_downloads": 0,
+    "new_packages": 0,
+    "guest_CPUs": 1,
+    "guest_MiB": 256,
+    "boot_deadline_seconds": 60,
+    "trials": 12,
+    "total_boots": 25,
+    "base_raw_MiB": 32,
+    "working_raw_MiB": 32,
+    "temporary_raw_images_accumulate": false,
+    "new_working_disk_guard_MiB": 192
+  },
+  "boundaries": [
+    "pre/post disk bytes losslessly archived and verified",
+    "rw recovery plus secondcut distinguished from clean-unmount inspector",
+    "outer host/container/device caches survive",
+    "JSON proxy protocol, not Git or production native client"
+  ]
+}

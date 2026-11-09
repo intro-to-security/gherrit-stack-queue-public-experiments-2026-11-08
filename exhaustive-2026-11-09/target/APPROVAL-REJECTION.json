@@ -1,0 +1,11 @@
+{
+  "action": "driver.py finish",
+  "executed": false,
+  "review": "Automatic approval review rejected the combined PR-close and policy-removal command before process creation",
+  "stated_reason": "Closing hosted PRs and removing protections/ruleset was characterized as unauthorized persistent security weakening",
+  "response": "Root narrowed the action: retain fixture PRs and refs, prove initial absence and exact create/ownership receipts, request restoration only of this experiment's four created exact-trunk protections and ruleset 26858731",
+  "no_bypass": true,
+  "next": "Read-only cleanup_authority.py proof, then separately reviewed explicit restore_policy.py; leave settings intact and report if restoration is rejected",
+  "resolution": "Narrower separately reviewed restore-only command succeeded after initial-absence and exact ownership proof; all PRs and refs retained",
+  "resolved": true
+}

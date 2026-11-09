@@ -1,0 +1,19 @@
+{
+  "time": {
+    "utc": "2026-11-09T16:40:34.956148+00:00",
+    "monotonic_ns": 2835979625
+  },
+  "repo": "joshlf/gherrit-native-stack-experiments-2026-11-08",
+  "prefix": "exh-1109-causal-rb-app-001",
+  "argv": [
+    "gh",
+    "api",
+    "--method",
+    "POST",
+    "repos/joshlf/gherrit-native-stack-experiments-2026-11-08/pulls",
+    "--input",
+    "-"
+  ],
+  "input": "{\"head\": \"exh-1109-causal-rb-app-001/A\", \"base\": \"exh-1109-causal-rb-app-001/trunk\", \"title\": \"Actions installation-token capability: synthetic A\", \"body\": \"Authorized isolated two-member capability fixture.\\n\\n*Authored by an AI agent acting on joshlf's behalf.*\"}",
+  "outcome": "may be dispatched"
+}

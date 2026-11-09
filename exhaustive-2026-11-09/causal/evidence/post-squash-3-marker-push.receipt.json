@@ -1,0 +1,29 @@
+{
+  "kind": "git-push",
+  "updates": {
+    "refs/heads/exh-1109-causal-post-squash-3/D": "75810bacffcb2bfbbe661a8b6dfb63cacb621d1d"
+  },
+  "expected": {
+    "refs/heads/exh-1109-causal-post-squash-3/D": "3e41d08c23ed18457b8bf3f30dfeda59d9081c3b"
+  },
+  "args": [
+    "push",
+    "--porcelain",
+    "--atomic",
+    "--force-with-lease=refs/heads/exh-1109-causal-post-squash-3/D:3e41d08c23ed18457b8bf3f30dfeda59d9081c3b",
+    "origin",
+    "75810bacffcb2bfbbe661a8b6dfb63cacb621d1d:refs/heads/exh-1109-causal-post-squash-3/D"
+  ],
+  "start": {
+    "utc": "2026-11-09T14:00:24.599079+00:00",
+    "monotonic": 26.550935666
+  },
+  "end": {
+    "utc": "2026-11-09T14:00:26.017675+00:00",
+    "monotonic": 27.969565583
+  },
+  "exit": 1,
+  "stdout": "To https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08.git\n!\t75810bacffcb2bfbbe661a8b6dfb63cacb621d1d:refs/heads/exh-1109-causal-post-squash-3/D\t[remote rejected] (cannot lock ref 'refs/heads/exh-1109-causal-post-squash-3/D': is at 9e66a64bfddd8a45aac46e2542b98fae02c4251e but expected 3e41d08c23ed18457b8bf3f30dfeda59d9081c3b)\nDone\n",
+  "stderr": "error: failed to push some refs to 'https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08.git'\n",
+  "disposition": "requires-read-only-reconciliation"
+}

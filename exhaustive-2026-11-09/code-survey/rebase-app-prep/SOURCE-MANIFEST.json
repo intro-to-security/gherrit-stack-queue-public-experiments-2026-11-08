@@ -1,0 +1,109 @@
+{
+  "actual_result": {
+    "path": "RESULT.json",
+    "report": "RESULT.md",
+    "report_sha256": "3a693ea1a41eb55af88e1c780692800f9c223f27b31da9d2923689216c38a48c",
+    "result_manifest": "RESULT-MANIFEST.json",
+    "result_manifest_sha256": "e020d1b8fa0a835d2edc10a168f36ea6417474774582e1277d120831f67b975e",
+    "sha256": "72bf4b4c076c48b515980cfd6b1303b8e30c4a0328a97b2e8925957b78a837a7"
+  },
+  "execution_authority": "Root grants001/002 completed; only read-only reconciliation followed. No further mutation is authorized or pending.",
+  "files": [
+    {
+      "bytes": 1696,
+      "path": "DOC-SOURCES.json",
+      "sha256": "085796fb9feb15fab0aff37c89c089341f1dea436f0dc94603de0acb558bd603"
+    },
+    {
+      "bytes": 2155,
+      "path": "EXECUTION-STATE.json",
+      "sha256": "9b4e743290dec49bb1500546457b9e29c1dbfcf2240f08f7fa9a14649079944e"
+    },
+    {
+      "bytes": 2918,
+      "path": "OFFLINE-CHECKS.json",
+      "sha256": "7113d4f2f69fd6b047f97014a54d98e337656f19b1f790f36f3f12699b8915e8"
+    },
+    {
+      "bytes": 9431,
+      "path": "PLAN.md",
+      "sha256": "29cd68cb47376ede737d7df4cdedff2a91a88c34d0c36c6de77527b2c43cb64f"
+    },
+    {
+      "bytes": 3845,
+      "path": "READONLY-RECEIPTS.json",
+      "sha256": "41a45f69b879fa331d61c78940087ec9607a080849c4207c3ecc42668d2b3c61"
+    },
+    {
+      "bytes": 13118,
+      "path": "RESULT-MANIFEST.json",
+      "sha256": "e020d1b8fa0a835d2edc10a168f36ea6417474774582e1277d120831f67b975e"
+    },
+    {
+      "bytes": 5838,
+      "path": "RESULT.json",
+      "sha256": "72bf4b4c076c48b515980cfd6b1303b8e30c4a0328a97b2e8925957b78a837a7"
+    },
+    {
+      "bytes": 5581,
+      "path": "RESULT.md",
+      "sha256": "3a693ea1a41eb55af88e1c780692800f9c223f27b31da9d2923689216c38a48c"
+    },
+    {
+      "bytes": 5740,
+      "path": "RUNNER-GUIDE.md",
+      "sha256": "f237f312d8d956f1ac3f02ec334b6b331683642f83350a17bf5137df2fe26c19"
+    },
+    {
+      "bytes": 6074,
+      "path": "check_offline.py",
+      "sha256": "648dbf0a10957d194adea7bf4ca94b5307e0ab74b3824301b78067de9b40fc33"
+    },
+    {
+      "bytes": 944,
+      "path": "fixture.template.json",
+      "sha256": "bdd0178da4fa4ed4ab83d70dd71ff7592a94c7943f75e5778b9276ec3a639772"
+    },
+    {
+      "bytes": 15570,
+      "path": "fixture_runner.py",
+      "sha256": "07f5452aaf54ac3462da8c796705eed8c923505276dd2cb78572b253b519e071"
+    },
+    {
+      "bytes": 10396,
+      "path": "probe.py",
+      "sha256": "476029710ad48039c36e423fd6ff6c6219bd591edb96a6df82934eaec1f1e12b"
+    },
+    {
+      "bytes": 5601,
+      "path": "readback_snapshot.py",
+      "sha256": "c71b14bbf574a8cb4bb9a74ce48ce83d0ea871bb063a13e86ed6e4d4009dec62"
+    },
+    {
+      "bytes": 1553,
+      "path": "workflow.template.yml",
+      "sha256": "2d7155d36cd3960bebc6915dcbd64fd0c9f94aa10a638efda24e0971acbba7a0"
+    }
+  ],
+  "frozen_other_scope": "publication/prep/ unchanged.",
+  "local_prepared_record": {
+    "path": "run-001/PREPARED.json",
+    "sha256": "07c39be5858e2bde2923c8a7308f596c7f88b568fa8b60e650cd0d738296ed1d"
+  },
+  "prefix": "exh-1109-causal-rb-app-001",
+  "prior_prep_freeze": "history/before-contents-write-158f66a568e9/FREEZE.json",
+  "repository": "joshlf/gherrit-native-stack-experiments-2026-11-08",
+  "requested_permissions": {
+    "contents": "write",
+    "pull-requests": "write"
+  },
+  "runner_ready_record": {
+    "path": "run-001/RUNNER-READY.json",
+    "sha256": "b6ed669c2b6f989677b0e56ae5079ebece789b67a5cb7b258cd91db608179ffe"
+  },
+  "shared_helper": {
+    "path": "../../control/rootlab.py",
+    "sha256": "ae1ae63d5ee8370cbca11711f5d5e76a97669881ddf8ef8911493666393d128d"
+  },
+  "status": "TERMINAL_KNOWN404_NO_NATIVE_ADMISSION"
+}

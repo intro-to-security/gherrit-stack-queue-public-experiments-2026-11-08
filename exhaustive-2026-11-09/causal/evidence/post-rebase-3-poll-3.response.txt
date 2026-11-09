@@ -1,0 +1,29 @@
+HTTP/2.0 200 OK
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset, Warning
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Mon, 09 Nov 2026 13:51:14 GMT
+Etag: W/"f34c88c2d5fc282be7f386208b4c881ecdbd1cc9dc2f47fd0b2e360fbe415c97"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: github.com
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP,Accept-Encoding, Accept, X-Requested-With
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Api-Version-Selected: 2026-03-10
+X-Github-Edge-Region: iad
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D4CB:289A24:103BAA0:3625EA2:6AF1CFD2
+X-Oauth-Client-Id: 178c6fc778ccc68e1d6a
+X-Oauth-Scopes: gist, read:org, repo, workflow
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4974
+X-Ratelimit-Reset: 1794233064
+X-Ratelimit-Resource: core
+X-Ratelimit-Used: 26
+X-Xss-Protection: 0
+
+{"status":"pending","details":{"message":"Merge request is in progress.","uuid":"f8686d48-7d9a-4368-87e9-243f0c475c81","merge_method":"rebase","merge_action":"direct_merge","expected_head_sha":"a82ea80add95dc5deb40fadf34babb6a3a5d9e35","bypass_rules":false}}

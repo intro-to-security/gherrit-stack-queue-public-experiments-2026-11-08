@@ -1,0 +1,29 @@
+{
+  "coordinator": "root",
+  "executor": "exhaust_causal",
+  "grant_path": "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/control/workflow-partial-grant-002.json",
+  "repository": "joshlf/gherrit-native-stack-experiments-2026-11-08",
+  "cases": {
+    "gql-partial-001": {
+      "prefix": "exh-1109-workflow-gql-partial-001",
+      "actions": [
+        "partial-continuation-001"
+      ],
+      "effects": [
+        "update-branch"
+      ]
+    }
+  },
+  "harness_sha256": {
+    "core.py": "a98242dabb752a89f8da47814ea62313d1d64871afe50042f930875445e4f453",
+    "effects.py": "20d8a34e0d04e93080f70c5bc3499fe5835cb2d45feff4c5bb95a3fed6418cc9"
+  },
+  "continuation_sha256": "330f351f461c58e03e766356f54b2fd938bf653e6f36261157754f01d8b52216",
+  "original_bindings": {
+    "case_sha256": "d797d722c9f9798fc7c2fa46ca9cee916a7ef9c52370c2883e361da25ff7476f",
+    "freeze_sha256": "69f47339ceac49ff93d0dd91f4f2f68aab23cf596f039188ffc4e776a7124e6a",
+    "audit_sha256": "98cf1382012b438e11a6c32c226ca46b62487091c6c84d29cb8f6c88c8932018",
+    "driver_sha256": "ac332861f99eac829c8bd8419ad765f07ddf29e5cbcd254a5e065de3acfdd7a6"
+  },
+  "scope": "Only previouslyNEVERSENTBthenconditionalCpublicGraphQLREBASE on657/658/659group660 undernewprivatecontext. Neverclearoriginalfreeze. All6previouswritesreceipted/zerooldB-Cintents, freshlyguardall9actualrefs/canonicalhead/name/memberidentity; retainbaseOIDprojectionwithoutcurrentequalitypremise. VerifyBactualparent/tree/patchandcheckpointbeforeC. No push/create/queue/nativeasync/main/settings/oldcasewrites/retry/reentry."
+}

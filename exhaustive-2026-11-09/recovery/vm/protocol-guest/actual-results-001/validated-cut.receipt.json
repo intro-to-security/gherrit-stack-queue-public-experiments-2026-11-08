@@ -1,0 +1,10 @@
+{
+  "pid": 4776,
+  "exit": -9,
+  "target": "BARRIER PROTOCOL validated",
+  "reached": true,
+  "natural_shutdown": false,
+  "kill_issued": true,
+  "bytes": 37531,
+  "utc_seconds": 1794239311.1004975
+}

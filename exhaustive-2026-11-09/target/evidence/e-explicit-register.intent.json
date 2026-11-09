@@ -1,0 +1,42 @@
+{
+  "followup_source": {
+    "case": "explicit-types-contrast",
+    "hashes": {
+      "FOLLOWUP-PLAN.md": "b1240ab6b6fb9b287a0cd92ae2a0b82628d8e8e6f62ce24c2103b90f64f18724",
+      "followup.py": "5c1da147d27b3559f37abc586d393822aca2ab25ec5812178f382e18c627e05b",
+      "harness.py": "ecec4ac68a478b65c45a865262dfc4e38c6d2522da4dde4197f912d2fe9084b2",
+      "minimal-ci.yml": "3b93678682cd4414ac9e247ddf641689f893bc8419b61a2ee1c50ee68cf64471"
+    },
+    "refs": [
+      "exh-1109-target-profile002-e-trunk",
+      "exh-1109-target-profile002-e-A",
+      "exh-1109-target-profile002-e-B"
+    ],
+    "snapshot": "followup-source/1794235259951286000",
+    "time": "2026-11-09T14:40:59.951217+00:00"
+  },
+  "method": "POST",
+  "path": "repos/joshlf/gherrit-native-stack-experiments-2026-11-08/stacks",
+  "payload": {
+    "pull_requests": [
+      639,
+      640
+    ]
+  },
+  "source_snapshot": {
+    "grant_sha256": "09bdf6a88a55bfa845cb37de6719e5b27c9f3370d37fa4d6b3b5eb149f0ffab0",
+    "hashes": {
+      "PLAN.md": "011874b3bfd0a8e22c068d9566feb63a6e24ecc143ce2be3f6df55e8739cbad1",
+      "branch-protection.proposed.json": "ac94f2ef60462130a1dbd2d8ab3f39bcc83e82e2888afd2d893183f510106339",
+      "challenge.py": "f12c0890e4df2de88276db1262db641691a49f60d7dede0f1095042dced9b1bf",
+      "driver.py": "c4d090fd985355872a3477c4d35a63e524e664b79243e42117403eaca7b921cd",
+      "harness-outline.json": "e939cc01d0a3d0cf9bd4cf14e7d653fa73033980b5a731a17235aef062e383a3",
+      "harness.py": "ecec4ac68a478b65c45a865262dfc4e38c6d2522da4dde4197f912d2fe9084b2",
+      "minimal-ci.yml": "3b93678682cd4414ac9e247ddf641689f893bc8419b61a2ee1c50ee68cf64471",
+      "ruleset.proposed.json": "f8ee5fe42e75d84db321ca709a05f70490b276aff11d15dfff608bb791a8265a"
+    },
+    "path": "source-snapshots/1794234350971275000",
+    "time": "2026-11-09T14:25:50.972537+00:00"
+  },
+  "start": "2026-11-09T14:44:13.628563+00:00"
+}

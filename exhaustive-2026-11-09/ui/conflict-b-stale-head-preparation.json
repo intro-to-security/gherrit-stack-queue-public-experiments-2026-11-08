@@ -1,0 +1,14 @@
+{
+  "purpose": "Repurpose untouched known-conflict fixture for separate stale-member-head website control. Initial conflicting trunk and all inputs remain retained.",
+  "old_trunk": "6d01611b82b4f1c02b5e70330993717247e4ed86",
+  "new_trunk": "ba1583e089f735b9f421b0260532fcb207f07e5f",
+  "prs": {
+    "A": 632,
+    "B": 633
+  },
+  "files": {
+    "root.txt": "Synthetic native-stack experiment.\n",
+    "trunk-progress.txt": "Prepare conflict-free trunk for stale-page member-head test.\n"
+  },
+  "plan": "Load clean modal; move only own top B via exact lease; click once and capture exact request/result. No merge."
+}

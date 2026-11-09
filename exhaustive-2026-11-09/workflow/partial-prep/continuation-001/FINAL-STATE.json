@@ -1,0 +1,23 @@
+{
+  "B_head": "57a275d012a64f38fdce84fa88d46d8e9e43a20a",
+  "C_head": "dca811f5d210b004f6229ea1134f3fb49f1cba44",
+  "at": "2026-11-09T16:57:15.734359+00:00",
+  "background_workers": "none: continuation and independent readback processes exited0",
+  "limit": "Known mixed prefix across two separate public requests; no transaction, rollback, cancellation or future suffix-write fence. Projection cause/update ordering not established.",
+  "native_group": 660,
+  "new_native_update_dispatches": 2,
+  "new_push_or_create_dispatches": 0,
+  "original_case_freeze_and_audit_unchanged": true,
+  "phase": "terminal: observed B success followed by known C conflict rejection",
+  "prefix": "exh-1109-workflow-gql-partial-001",
+  "prs": {
+    "A": 657,
+    "B": 658,
+    "C": 659
+  },
+  "remaining_cleanup_obligations": [],
+  "remaining_write_obligations": [],
+  "repository": "joshlf/gherrit-native-stack-experiments-2026-11-08",
+  "retention": "Both original and new freezes, all nine refs, three canonical PRs/group, source/archive objects, exact source/grant snapshots, receipts, patch checks and readbacks retained. No cleanup or replay authorized.",
+  "unacknowledged_mutations": []
+}

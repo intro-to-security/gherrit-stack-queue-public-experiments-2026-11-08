@@ -1,0 +1,10 @@
+{
+  "pid": 4993,
+  "exit": 0,
+  "target": "BARRIER PROTOCOL CLEAN_RECOVERY_UNMOUNTED",
+  "reached": true,
+  "natural_shutdown": true,
+  "kill_issued": false,
+  "bytes": 78780,
+  "utc_seconds": 1794241358.6832755
+}

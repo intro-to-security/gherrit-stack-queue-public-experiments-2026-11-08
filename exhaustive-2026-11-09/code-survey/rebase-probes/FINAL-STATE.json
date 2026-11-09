@@ -1,0 +1,78 @@
+{
+  "at": "2026-11-09T15:17:08.782826+00:00",
+  "phase": "terminal: two separately granted known initiation rejections; fixture intentionally retained",
+  "repository": "joshlf/gherrit-native-stack-experiments-2026-11-08",
+  "repository_id": 1450723431,
+  "granted_cases": [
+    "capability",
+    "capability-named-route"
+  ],
+  "prefix": "exh-1109-causal-rb-capability",
+  "prs": [
+    650,
+    651,
+    652
+  ],
+  "native_group": 653,
+  "initiation_dispatches": 2,
+  "requests": [
+    {
+      "route": "numeric",
+      "method": "PUT",
+      "path": "repositories/1450723431/stacks/653/rebase",
+      "http": 404,
+      "start": {
+        "utc": "2026-11-09T14:56:18.077010+00:00",
+        "monotonic": 14.971196125
+      },
+      "end": {
+        "utc": "2026-11-09T14:56:19.297714+00:00",
+        "monotonic": 16.1919
+      },
+      "grant": "../../control/rebase-grant-001.json"
+    },
+    {
+      "route": "named",
+      "method": "PUT",
+      "path": "repos/joshlf/gherrit-native-stack-experiments-2026-11-08/stacks/653/rebase",
+      "http": 404,
+      "start": {
+        "utc": "2026-11-09T15:14:20.526517+00:00",
+        "monotonic": 1.507827958
+      },
+      "end": {
+        "utc": "2026-11-09T15:14:20.712607+00:00",
+        "monotonic": 1.69392025
+      },
+      "grant": "../../control/rebase-grant-002.json"
+    }
+  ],
+  "admitted_job_observed": false,
+  "native_api_write_dispatches": 6,
+  "git_push_dispatches": 2,
+  "unacknowledged_mutating_dispatches": [],
+  "marker_dispatches": 0,
+  "other_fixture_dispatches": 0,
+  "terminal_readback": "terminal-readback.json",
+  "terminal_readback_at": {
+    "utc": "2026-11-09T15:14:57.082320+00:00",
+    "monotonic": 0.573670166
+  },
+  "terminal_member_refs": "unchanged original controlled heads",
+  "terminal_trunk_ref": "unchanged deliberately advanced synthetic trunk",
+  "terminal_pr_lifecycle": "all OPEN",
+  "conditional_tests": {
+    "wrong-lower": "not run: ungranted and positive capability premise missing",
+    "wrong-upper": "not run: ungranted and positive capability premise missing",
+    "conflict-middle": "not run: ungranted and positive capability premise missing",
+    "overlap-vector": "not run: ungranted and positive capability premise missing",
+    "stale-vector": "not run: ungranted and positive capability premise missing"
+  },
+  "diagnostic_limit": "Both exact PUTs returned known404; numeric/named status GETs404 while exact repository/group GETs200. Feature gate, token class, permission, enrollment or routing differences remain unresolved. No universal absence or provider contract is inferred.",
+  "future_effects_limit": "Known HTTP rejection and unchanged finite reads do not prove unlimited provider quiescence. Neither request is an unknown client acknowledgement or an admitted pending job.",
+  "remaining_write_obligations": [],
+  "remaining_cleanup_obligations": [],
+  "retention": "Owned refs, PRs, group, authored and expected Git objects, exact source snapshots, grants and sanitized raw evidence remain intentionally available for independent audit. No cleanup write is authorized or needed.",
+  "background_workers": "none owned by these probes",
+  "next": "Root integrates the capability-limited result. No numeric retry, alternate initiation, marker or additional fixture."
+}

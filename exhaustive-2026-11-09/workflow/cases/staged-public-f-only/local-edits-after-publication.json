@@ -1,0 +1,15 @@
+{
+  "A_local_range": {
+    "base": "12f2693395e73e231b9e0e6239ed8c0aeb299921",
+    "tip": "0e76c93ad178aa9f3c7e5189d5ce8559cb03c229"
+  },
+  "B_local_range": {
+    "base": "0e76c93ad178aa9f3c7e5189d5ce8559cb03c229",
+    "tip": "5333b1e9084ef3f43263085d38fec76762eae45e"
+  },
+  "after": "5333b1e9084ef3f43263085d38fec76762eae45e",
+  "before": "4040cc4844abad8e18665f2cfc15e2d6d2def8d6",
+  "initial_publication_receipt": "initial-push.receipt.json",
+  "source_ref": "refs/heads/exh-1109-workflow-staged-public-f-only-d56b864c/author-source",
+  "utc": "2026-11-09T14:48:01.521956+00:00"
+}

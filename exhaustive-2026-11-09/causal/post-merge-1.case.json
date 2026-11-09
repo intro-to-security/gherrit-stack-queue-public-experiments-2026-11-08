@@ -1,0 +1,54 @@
+{
+  "name": "post-merge-1",
+  "prefix": "exh-1109-causal-post-merge-1",
+  "method": "merge",
+  "timing": "post",
+  "created": {
+    "utc": "2026-11-09T13:52:02.882177+00:00",
+    "monotonic": 0.026037625
+  },
+  "prs": {
+    "A": 574,
+    "B": 575
+  },
+  "heads": {
+    "A": {
+      "ref": "exh-1109-causal-post-merge-1/A",
+      "sha": "2ee11d40e27b6f162970fe7b4f46b5ad278f2c7f"
+    },
+    "B": {
+      "ref": "exh-1109-causal-post-merge-1/B",
+      "sha": "728b0a72159a4229d51a4f2607e0acab9629656f"
+    }
+  },
+  "phase": "frozen-requires-reconciliation",
+  "trunk_sha": "6eec718e71f9472fa5be2858bf5f23baf58de622",
+  "trunk": "exh-1109-causal-post-merge-1/trunk",
+  "stack": 576,
+  "merge_uuid": "6df0580c-e411-4340-a5c3-fb63417c14a8",
+  "terminal": {
+    "kind": "http",
+    "method": "GET",
+    "path": "repos/joshlf/gherrit-native-stack-experiments-2026-11-08/pulls/574/merge-async/6df0580c-e411-4340-a5c3-fb63417c14a8",
+    "payload": null,
+    "start": {
+      "utc": "2026-11-09T13:52:16.112153+00:00",
+      "monotonic": 13.255799041
+    },
+    "end": {
+      "utc": "2026-11-09T13:52:16.337459+00:00",
+      "monotonic": 13.481119333
+    },
+    "exit": 0,
+    "http": 200,
+    "data": {
+      "status": "merged",
+      "details": {
+        "message": "Pull request was merged.",
+        "sha": "08b9f4f97fe272b20bfecb8b563097dccc1125e2"
+      }
+    },
+    "disposition": "response-retained"
+  },
+  "stop_reason": "Push failed or outcome uncertain; freeze and reconcile post-merge-1-marker-push"
+}

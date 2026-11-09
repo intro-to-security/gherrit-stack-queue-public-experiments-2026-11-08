@@ -1,0 +1,6 @@
+{
+  "exit": 0,
+  "stdout": "Warning: skipping journal recovery because doing a read-only filesystem check.\nPass 1: Checking inodes, blocks, and sizes\nPass 2: Checking directory structure\nPass 3: Checking directory connectivity\nPass 4: Checking reference counts\nPass 5: Checking group summary information\nFree blocks count wrong (14319, counted=14316).\nFix? no\n\nFree inodes count wrong (16373, counted=16370).\nFix? no\n\n/lab/case-v3-5.raw: 11/16384 files (9.1% non-contiguous), 2065/16384 blocks\n",
+  "stderr": "e2fsck 1.46.5 (30-Dec-2021)\n",
+  "repair": false
+}

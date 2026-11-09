@@ -1,0 +1,14 @@
+[
+  {
+    "original": "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/recovery/protocol.py",
+    "retained": "source/protocol.py",
+    "bytes": 16284,
+    "sha256": "73994fcb9747b4461bc90b17f0ae1b12e4a064eaabc862d840938e984133a7de"
+  },
+  {
+    "original": "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/recovery/run.py",
+    "retained": "source/run.py",
+    "bytes": 38754,
+    "sha256": "42d87bcde806f3418b8658e76e5ea37900914fd4c8600fcf6271970e25f8f4a8"
+  }
+]

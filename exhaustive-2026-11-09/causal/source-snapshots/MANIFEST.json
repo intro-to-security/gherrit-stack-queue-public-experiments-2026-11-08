@@ -1,0 +1,18 @@
+{
+  "status": "First-batch driver source reconstructed after execution from retained edit history; not contemporaneously hashed at dispatch. Batch002 snapshot contemporaneous before its new dispatches.",
+  "batch001_variants": {
+    "force-control,post-squash-1": "harness-force-control-and-squash1.py",
+    "post-rebase-3,post-merge-1": "harness-rebase3-and-merge1.py"
+  },
+  "files": {
+    "batch-002-pre-dispatch/BATCH-002-PLAN.md": "3f2a77908f424978666bfe7e6a01a560b1bce8630f7e11eb4a226cfd2abf0584",
+    "batch-002-pre-dispatch/harness.py": "6a767d95c0a7d81bdc40df9a73cfb0c56800c594b2e34fd3688e372f2f97269b",
+    "batch-002-pre-dispatch/test_harness.py": "1fbb11021bcf747d35ec20ed26f31939c6217d9ec0565eb9a7990d6a02c190e4",
+    "batch-002-pre-dispatch/sync_driver.py": "ebd830d224327aeada08e5a6cef8a3c65cfbbcd71f5a83dc5251d31a33002d54",
+    "batch-002-pre-dispatch/git_gate.py": "d0747a2cacaf0f22eab1f20dab2df50122932abdf61b04a095dd8325cecfc06a",
+    "batch-002-pre-dispatch/analyze.py": "325021ffce1fdaf963c7c7c98d11c39dc9826f092f81c5e26025c6b2ba95b8b4",
+    "batch-001-reconstructed/harness-force-control-and-squash1.py": "d88a0f5e17dad9ab3a06cabec1662018f7570ca279b04820076ade35a9e32cd6",
+    "batch-001-reconstructed/test_harness.py": "a4b6af5569705c17b79f978c408f080d92ed45a335a47eb76fa72d891d80249b",
+    "batch-001-reconstructed/harness-rebase3-and-merge1.py": "edc18da32bbd22160a35f24797996ab135dfa971b4de13ed281335904e73e086"
+  }
+}

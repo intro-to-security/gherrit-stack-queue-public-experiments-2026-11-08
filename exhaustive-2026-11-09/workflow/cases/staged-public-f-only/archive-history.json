@@ -1,0 +1,38 @@
+{
+  "A1": {
+    "base": "12f2693395e73e231b9e0e6239ed8c0aeb299921",
+    "base_tree": "54f5366f3dcdd28f62cc2c7b54d4f4c3b8c37e7e",
+    "message": "Add quantity to the item model\n\nAgent-authored-by: AI agent acting on joshlf's behalf\n",
+    "patch": "diff --git a/workflow_case/model.py b/workflow_case/model.py\nindex 38a9674..1c6902d 100644\n--- a/workflow_case/model.py\n+++ b/workflow_case/model.py\n@@ -1,3 +1,4 @@\n class Item:\n-    def __init__(self, name):\n+    def __init__(self, name, quantity=1):\n         self.name = name\n+        self.quantity = quantity\n",
+    "ref": "refs/tags/gherrit/exh-1109-workflow-staged-public-f-only-d56b864c-A/v1",
+    "tip": "c0efc5664c2562865ed1039b2c9a0d2a1e46f69a",
+    "tip_tree": "0a6d0e578638e97728526049d39f0c1dbbfc10ab"
+  },
+  "B1": {
+    "base": "c0efc5664c2562865ed1039b2c9a0d2a1e46f69a",
+    "base_tree": "0a6d0e578638e97728526049d39f0c1dbbfc10ab",
+    "message": "Report item quantities\n\nAgent-authored-by: AI agent acting on joshlf's behalf\n",
+    "patch": "diff --git a/workflow_case/consumer.py b/workflow_case/consumer.py\nindex b550d2d..621745f 100644\n--- a/workflow_case/consumer.py\n+++ b/workflow_case/consumer.py\n@@ -1,4 +1,4 @@\n from model import Item\n \n def describe(item):\n-    return item.name\n+    return item.name + ':' + str(item.quantity)\n",
+    "ref": "refs/tags/gherrit/exh-1109-workflow-staged-public-f-only-d56b864c-B/v1",
+    "tip": "4040cc4844abad8e18665f2cfc15e2d6d2def8d6",
+    "tip_tree": "51547262f81102cd33897a45a51cb16db4f31f6a"
+  },
+  "B2": {
+    "base": "cf92c03b37f17a3ba8e3bf52d4961e00e3852b4c",
+    "base_tree": "0984fe41ebebe316b8da247876b4771e0dfd2719",
+    "message": "Report item quantities with their unit\n\nAgent-authored-by: AI agent acting on joshlf's behalf\n",
+    "patch": "diff --git a/workflow_case/consumer.py b/workflow_case/consumer.py\nindex b550d2d..8d2d1ee 100644\n--- a/workflow_case/consumer.py\n+++ b/workflow_case/consumer.py\n@@ -1,4 +1,4 @@\n from model import Item\n \n def describe(item):\n-    return item.name\n+    return item.name + ':' + str(item.quantity) + ' ' + item.unit\n",
+    "ref": "refs/tags/gherrit/exh-1109-workflow-staged-public-f-only-d56b864c-B/v2",
+    "tip": "7e42a00a4796d5164935e05aa45040aa98e67a92",
+    "tip_tree": "dc460a7c23fd4ab02c71539f992c7b2d6bedfc26"
+  },
+  "F1": {
+    "base": "83ad35f2b53fa0aadd5fb7ec229c5d1148b7a662",
+    "base_tree": "0a6d0e578638e97728526049d39f0c1dbbfc10ab",
+    "message": "Add a unit to the item model\n\nAgent-authored-by: AI agent acting on joshlf's behalf\n",
+    "patch": "diff --git a/workflow_case/model.py b/workflow_case/model.py\nindex 1c6902d..e02f5bb 100644\n--- a/workflow_case/model.py\n+++ b/workflow_case/model.py\n@@ -1,4 +1,5 @@\n class Item:\n-    def __init__(self, name, quantity=1):\n+    def __init__(self, name, quantity=1, unit='each'):\n         self.name = name\n         self.quantity = quantity\n+        self.unit = unit\n",
+    "ref": "refs/tags/gherrit/exh-1109-workflow-staged-public-f-only-d56b864c-F/v1",
+    "tip": "9d8e469be83fd3863c92ee3dafdf0b0485806d43",
+    "tip_tree": "0984fe41ebebe316b8da247876b4771e0dfd2719"
+  }
+}

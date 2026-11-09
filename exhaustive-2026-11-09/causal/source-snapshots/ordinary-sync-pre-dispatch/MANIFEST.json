@@ -1,0 +1,11 @@
+{
+  "harness.py": "6a767d95c0a7d81bdc40df9a73cfb0c56800c594b2e34fd3688e372f2f97269b",
+  "test_harness.py": "1fbb11021bcf747d35ec20ed26f31939c6217d9ec0565eb9a7990d6a02c190e4",
+  "sync_driver.py": "51b8a46fcb88afa05a87a1a15ba5f07d11d2c6f4bd28520cdb0e3722562c5452",
+  "git_gate.py": "d0747a2cacaf0f22eab1f20dab2df50122932abdf61b04a095dd8325cecfc06a",
+  "test_unix_api_recorder.py": "0a9309d89de2a109a9156748bbfb3e49c15cc112187b45a8298bfd454be86106",
+  "test_api_recorder.py": "d2efb30d4587b626c6cecfc1a33fc8d7f459facf60e95552e030633ce82b0586",
+  "CLI-CONTROL-PLAN.md": "6d0c9bae1e50dbeda1caa8386c594464507f9936b7d5c290eefff706b85adbac",
+  "api_recorder.py": "227cffeb1d31746446a3add2d6ab7edc806ef99b8820d8baf88b87a49e5e543b",
+  "unix_api_recorder.py": "1eef14b1a7d5680f7f68fc4ebfa64e19b76953b8d7bc3f46d258905bfeb29b60"
+}

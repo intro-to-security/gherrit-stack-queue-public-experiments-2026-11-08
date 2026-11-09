@@ -1,0 +1,5 @@
+{
+  "exit": 0,
+  "stdout": "Discarding device blocks:     0/16384\b\b\b\b\b\b\b\b\b\b\b           \b\b\b\b\b\b\b\b\b\b\bdone                            \nCreating filesystem with 16384 4k blocks and 16384 inodes\n\nAllocating group tables: 0/1\b\b\b   \b\b\bdone                            \nWriting inode tables: 0/1\b\b\b   \b\b\bdone                            \nCreating journal (1024 blocks): done\nWriting superblocks and filesystem accounting information: 0/1\b\b\b   \b\b\bdone\n\n",
+  "stderr": "mke2fs 1.46.5 (30-Dec-2021)\n"
+}

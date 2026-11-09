@@ -1,0 +1,42 @@
+{
+  "data": {
+    "data": {
+      "updatePullRequestBranch": null
+    },
+    "errors": [
+      {
+        "locations": [
+          {
+            "column": 3,
+            "line": 2
+          }
+        ],
+        "message": "PullRequest::RebaseConflictError",
+        "path": [
+          "updatePullRequestBranch"
+        ],
+        "type": "UNPROCESSABLE"
+      }
+    ]
+  },
+  "disposition": "response-retained",
+  "ended": "2026-11-09T14:43:47.963625+00:00",
+  "exit": 1,
+  "http": 200,
+  "kind": "update-branch",
+  "method": "POST",
+  "monotonic": 5.222271625,
+  "path": "graphql",
+  "payload": {
+    "query": "mutation WorkflowUpdate($input: UpdatePullRequestBranchInput!) {\n  updatePullRequestBranch(input: $input) {\n    clientMutationId\n    pullRequest { id number headRefOid baseRefName baseRefOid\n      stack { id number size baseRefName } }\n  }\n}",
+    "variables": {
+      "input": {
+        "clientMutationId": "exh-1109-workflow-gql-native-conflict-142b749e-once",
+        "expectedHeadOid": "bd21864e8b94d339af22ef5eccdc5e0b8b4f1c2b",
+        "pullRequestId": "PR_kwDOVnhIZ88AAAABN3obCA",
+        "updateMethod": "REBASE"
+      }
+    }
+  },
+  "started": "2026-11-09T14:43:47.320752+00:00"
+}

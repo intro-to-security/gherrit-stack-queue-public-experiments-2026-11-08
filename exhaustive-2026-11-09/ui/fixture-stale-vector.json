@@ -1,0 +1,28 @@
+{
+  "key": "stale-vector",
+  "repo": "joshlf/gherrit-native-stack-experiments-2026-11-08",
+  "refs": {
+    "trunk": "exh-1109-ui-stale-vector-6a2c1c7f-trunk",
+    "A": "exh-1109-ui-stale-vector-6a2c1c7f-a",
+    "B": "exh-1109-ui-stale-vector-6a2c1c7f-b"
+  },
+  "commits": {
+    "trunk": "389ee4c615b87556e3ad1d39287e266f06f4cd01",
+    "A": "36ad8fda1263914ffb0c3c2ea96d8567b28066f0",
+    "B": "595b12466169aad7b0ad8b3b2b5bacb42e62f652"
+  },
+  "trees": {
+    "trunk": {
+      "root.txt": "Synthetic native-stack experiment.\n"
+    },
+    "A": {
+      "root.txt": "Synthetic native-stack experiment.\n",
+      "a.txt": "Synthetic layer A.\n"
+    },
+    "B": {
+      "root.txt": "Synthetic native-stack experiment.\n",
+      "a.txt": "Synthetic layer A.\n",
+      "b.txt": "Synthetic layer B.\n"
+    }
+  }
+}

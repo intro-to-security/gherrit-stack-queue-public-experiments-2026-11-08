@@ -1,0 +1,11 @@
+{
+  "message": "Seed isolated partial rebase fixture\n\nAgent-authored-by: AI agent acting on joshlf's behalf\n",
+  "oid": "7dab21a9a9fe31304280abd4cf9cb55df0caa78b",
+  "parent": null,
+  "tree": "5403a1f3e584d1424aeb7e462ffaa86107e06698",
+  "updates": {
+    "a.txt": "0\n",
+    "b.txt": "0\n",
+    "c.txt": "0\n"
+  }
+}

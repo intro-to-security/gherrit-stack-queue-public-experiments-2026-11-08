@@ -1,0 +1,28 @@
+{
+  "key": "conflict-b",
+  "repo": "joshlf/gherrit-native-stack-experiments-2026-11-08",
+  "refs": {
+    "trunk": "exh-1109-ui-conflict-b-7394c6ae-trunk",
+    "A": "exh-1109-ui-conflict-b-7394c6ae-a",
+    "B": "exh-1109-ui-conflict-b-7394c6ae-b"
+  },
+  "commits": {
+    "trunk": "87a2df28da4e5991f5ba0d7c07c9d1aea0648777",
+    "A": "39c73062e5a2342e24ec2988a86e4b5c67fe6cf1",
+    "B": "aee4930ccca3ca02ae80991e53e1ce738d9f1d81"
+  },
+  "trees": {
+    "trunk": {
+      "root.txt": "Synthetic native-stack experiment.\n"
+    },
+    "A": {
+      "root.txt": "Synthetic native-stack experiment.\n",
+      "a.txt": "Synthetic layer A.\n"
+    },
+    "B": {
+      "root.txt": "Synthetic native-stack experiment.\n",
+      "a.txt": "Synthetic layer A.\n",
+      "b.txt": "Synthetic layer B.\n"
+    }
+  }
+}

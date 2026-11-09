@@ -1,0 +1,48 @@
+{
+  "grant_path": "../../control/rebase-app-grant-001.json",
+  "grant_sha256": "fb68c8df2c414fd3e0b8c83fb7f35d48e87ec542cb8b5ae9ca698e1f1edb93ba",
+  "known_receipted_fixture_dispatches": [
+    {
+      "intent_sha256": "f6143e55bff5a361b82bd5ecd8a01f27a90509063d21bd6420fda47bdfeb7e2e",
+      "label": "create-advance-trunk",
+      "receipt_sha256": "2b42a0d5256ece5cbfc8ebf407c66dea3b131b7a17a4bc52dae35bc6488521e9",
+      "returncode": 0
+    },
+    {
+      "intent_sha256": "5f29610a9549c6bdfe1909e7c025e8ec11f3ca3b237df9ab1dc335861306be03",
+      "label": "create-initial",
+      "receipt_sha256": "1210502b2b55af2d0bfb6d377a93e59be8add8f75aa30e7a3074374d5e4925a0",
+      "returncode": 0
+    },
+    {
+      "intent_sha256": "157e4dc765403a53d3d2aa0d8b30d3a070694d4e303f1be5b194c57f39888a9e",
+      "label": "create-pr-A",
+      "receipt_sha256": "226f0d60cd574646f21380d3041f0060b3d32cf3b8f720d61f70b7aed2ef0b65",
+      "returncode": 0
+    },
+    {
+      "intent_sha256": "cbde9de1b0b328c39533cc722c658ca49da4749036419c101234bc098caed1e6",
+      "label": "create-pr-B",
+      "receipt_sha256": "a33eb156b6dd0336b114c3268686bec0f0912176217a24943be585d0eb4cd278",
+      "returncode": 0
+    },
+    {
+      "intent_sha256": "a1a204afc4a522225945de530444ef8ad233156b5e8418cb995a0b8ec95c7667",
+      "label": "create-stack",
+      "receipt_sha256": "501c85431fa2e5ce485cec78255a5d654e612f64801d8962b5a1db90f48318a8",
+      "returncode": 0
+    }
+  ],
+  "launch_grant_sha256": "4d35b6e8e2a3530ca0ee2142acb8c9f733d493f3d247c1cdc6382bda1226fa09",
+  "limits": "Pattern scan is bounded. No API result, graph outcome or effective job permission exists yet for the proposed App-token PUT. Separate root launch grant remains required.",
+  "native_executor": "One guarded Actions job",
+  "native_requests_dispatched": 1,
+  "native_status": 404,
+  "phase": "terminal_known404_no_native_admission",
+  "remaining_authorized_mutations": [],
+  "result_path": "RESULT.json",
+  "runner_pushes": 1,
+  "runner_ready_sha256": "b6ed669c2b6f989677b0e56ae5079ebece789b67a5cb7b258cd91db608179ffe",
+  "token_pattern_matches_in_fixture_records": [],
+  "workflow_run_id": 42657475024
+}

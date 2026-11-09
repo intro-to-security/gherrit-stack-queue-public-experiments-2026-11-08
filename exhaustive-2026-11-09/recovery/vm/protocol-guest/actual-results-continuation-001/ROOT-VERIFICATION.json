@@ -1,0 +1,108 @@
+{
+  "archives": [
+    {
+      "prefix": "marked",
+      "archive": "marked-pre-recovery.raw.gz",
+      "raw_bytes": 33554432,
+      "verified": true
+    },
+    {
+      "prefix": "marked",
+      "archive": "marked-post-recovery.raw.gz",
+      "raw_bytes": 33554432,
+      "verified": true
+    },
+    {
+      "prefix": "request_logged",
+      "archive": "request_logged-pre-recovery.raw.gz",
+      "raw_bytes": 33554432,
+      "verified": true
+    },
+    {
+      "prefix": "request_logged",
+      "archive": "request_logged-post-recovery.raw.gz",
+      "raw_bytes": 33554432,
+      "verified": true
+    },
+    {
+      "prefix": "provider_head",
+      "archive": "provider_head-pre-recovery.raw.gz",
+      "raw_bytes": 33554432,
+      "verified": true
+    },
+    {
+      "prefix": "provider_head",
+      "archive": "provider_head-post-recovery.raw.gz",
+      "raw_bytes": 33554432,
+      "verified": true
+    },
+    {
+      "prefix": "provider_archive",
+      "archive": "provider_archive-pre-recovery.raw.gz",
+      "raw_bytes": 33554432,
+      "verified": true
+    },
+    {
+      "prefix": "provider_archive",
+      "archive": "provider_archive-post-recovery.raw.gz",
+      "raw_bytes": 33554432,
+      "verified": true
+    },
+    {
+      "prefix": "provider_receipt",
+      "archive": "provider_receipt-pre-recovery.raw.gz",
+      "raw_bytes": 33554432,
+      "verified": true
+    },
+    {
+      "prefix": "provider_receipt",
+      "archive": "provider_receipt-post-recovery.raw.gz",
+      "raw_bytes": 33554432,
+      "verified": true
+    },
+    {
+      "prefix": "acknowledged",
+      "archive": "acknowledged-pre-recovery.raw.gz",
+      "raw_bytes": 33554432,
+      "verified": true
+    },
+    {
+      "prefix": "acknowledged",
+      "archive": "acknowledged-post-recovery.raw.gz",
+      "raw_bytes": 33554432,
+      "verified": true
+    },
+    {
+      "prefix": "result_ref",
+      "archive": "result_ref-pre-recovery.raw.gz",
+      "raw_bytes": 33554432,
+      "verified": true
+    },
+    {
+      "prefix": "result_ref",
+      "archive": "result_ref-post-recovery.raw.gz",
+      "raw_bytes": 33554432,
+      "verified": true
+    },
+    {
+      "prefix": "result_checkpoint",
+      "archive": "result_checkpoint-pre-recovery.raw.gz",
+      "raw_bytes": 33554432,
+      "verified": true
+    },
+    {
+      "prefix": "result_checkpoint",
+      "archive": "result_checkpoint-post-recovery.raw.gz",
+      "raw_bytes": 33554432,
+      "verified": true
+    }
+  ],
+  "cases_observed": 8,
+  "not_run": [
+    "complete"
+  ],
+  "strict_passes": 4,
+  "failed_verdicts": 4,
+  "all_baseline_objects_preserved_in_captured_recovery_snapshot": true,
+  "limits": "Pure original-oracle replay and streaming archive/object identity verification. No mount/Git/guest/runtime/repair. Last case lacks after logical recovery; object claim uses before recovery snapshot."
+}

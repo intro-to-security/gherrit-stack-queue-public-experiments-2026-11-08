@@ -1,0 +1,16 @@
+{
+  "complete_job_log_sha256": "5721bf15846e8a09b48536abe0a1901ab1521ad715487837131e927c6bc39dcd",
+  "contents_write_observed": true,
+  "exact_Setup_job_permission_lines": [
+    "capability\tSet up job\t2026-11-09T16:42:32.0788772Z ##[group]GITHUB_TOKEN Permissions",
+    "capability\tSet up job\t2026-11-09T16:42:32.0791196Z Contents: write",
+    "capability\tSet up job\t2026-11-09T16:42:32.0791791Z Metadata: read",
+    "capability\tSet up job\t2026-11-09T16:42:32.0792330Z PullRequests: write",
+    "capability\tSet up job\t2026-11-09T16:42:32.0792873Z ##[endgroup]"
+  ],
+  "job_id": 129299740862,
+  "limits": "Setup job displays the granted permission set for this actual job. The accepted-permission header and404 remain separate observations; no token value or private account setting was inspected.",
+  "pull_requests_write_observed": true,
+  "run_id": 42657475024,
+  "source_commit": "6f7f0d9322bc6ddaf72bc3043c15463ecbd92b6e"
+}

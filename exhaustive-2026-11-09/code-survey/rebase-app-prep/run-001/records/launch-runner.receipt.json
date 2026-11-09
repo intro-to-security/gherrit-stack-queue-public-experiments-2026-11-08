@@ -1,0 +1,13 @@
+{
+  "started": {
+    "utc": "2026-11-09T16:42:24.287141+00:00",
+    "monotonic_ns": 1561781333
+  },
+  "finished": {
+    "utc": "2026-11-09T16:42:25.763130+00:00",
+    "monotonic_ns": 3037783041
+  },
+  "returncode": 0,
+  "stdout": "",
+  "stderr": "remote: \nremote: Create a pull request for 'exh-1109-causal-rb-app-001/runner' on GitHub by visiting:        \nremote:      https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08/pull/new/exh-1109-causal-rb-app-001/runner        \nremote: \nTo https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08.git\n * [new branch]      6f7f0d9322bc6ddaf72bc3043c15463ecbd92b6e -> exh-1109-causal-rb-app-001/runner\n"
+}

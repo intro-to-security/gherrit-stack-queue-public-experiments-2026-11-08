@@ -1,0 +1,178 @@
+{
+  "refs": {
+    "kind": "git-read",
+    "args": [
+      "ls-remote",
+      "origin",
+      "refs/heads/exh-1109-causal-after-rewrite-squash-3/*"
+    ],
+    "start": {
+      "utc": "2026-11-09T14:03:04.298783+00:00",
+      "monotonic": 12.89995475
+    },
+    "end": {
+      "utc": "2026-11-09T14:03:04.515801+00:00",
+      "monotonic": 13.117023208
+    },
+    "exit": 0,
+    "stdout": "6ac1fcfbc0ad1804dc90b728972ea7f61500ef35\trefs/heads/exh-1109-causal-after-rewrite-squash-3/A\n52ed10fdef9a0ad433fb130e68496c48ee075c0e\trefs/heads/exh-1109-causal-after-rewrite-squash-3/B\na37738c0acb263697dcac416b275f114062dd79f\trefs/heads/exh-1109-causal-after-rewrite-squash-3/C\n8d19013d36158cec9a3e03a373d1c83719c605e5\trefs/heads/exh-1109-causal-after-rewrite-squash-3/D\nf768dc8d7a4a23153bf4a80b373768483f27a1cf\trefs/heads/exh-1109-causal-after-rewrite-squash-3/trunk\n",
+    "stderr": "",
+    "refs": {
+      "refs/heads/exh-1109-causal-after-rewrite-squash-3/A": "6ac1fcfbc0ad1804dc90b728972ea7f61500ef35",
+      "refs/heads/exh-1109-causal-after-rewrite-squash-3/B": "52ed10fdef9a0ad433fb130e68496c48ee075c0e",
+      "refs/heads/exh-1109-causal-after-rewrite-squash-3/C": "a37738c0acb263697dcac416b275f114062dd79f",
+      "refs/heads/exh-1109-causal-after-rewrite-squash-3/D": "8d19013d36158cec9a3e03a373d1c83719c605e5",
+      "refs/heads/exh-1109-causal-after-rewrite-squash-3/trunk": "f768dc8d7a4a23153bf4a80b373768483f27a1cf"
+    },
+    "object_fetch": {
+      "kind": "git-read",
+      "args": [
+        "fetch",
+        "--no-tags",
+        "origin",
+        "+refs/heads/exh-1109-causal-after-rewrite-squash-3/*:refs/observed/after-rewrite-squash-3/*"
+      ],
+      "start": {
+        "utc": "2026-11-09T14:03:04.517644+00:00",
+        "monotonic": 13.118811416
+      },
+      "end": {
+        "utc": "2026-11-09T14:03:04.706167+00:00",
+        "monotonic": 13.307362208
+      },
+      "exit": 0,
+      "stdout": "",
+      "stderr": "From https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08\n * [new branch]      exh-1109-causal-after-rewrite-squash-3/A -> refs/observed/after-rewrite-squash-3/A\n * [new branch]      exh-1109-causal-after-rewrite-squash-3/B -> refs/observed/after-rewrite-squash-3/B\n * [new branch]      exh-1109-causal-after-rewrite-squash-3/C -> refs/observed/after-rewrite-squash-3/C\n * [new branch]      exh-1109-causal-after-rewrite-squash-3/D -> refs/observed/after-rewrite-squash-3/D\n * [new branch]      exh-1109-causal-after-rewrite-squash-3/trunk -> refs/observed/after-rewrite-squash-3/trunk\n"
+    },
+    "objects": {
+      "f768dc8d7a4a23153bf4a80b373768483f27a1cf": {
+        "oid": "f768dc8d7a4a23153bf4a80b373768483f27a1cf",
+        "tree": "a8922d3af4cda593c1d749358692ca22c4ae48da",
+        "parents": [
+          "3be99721cf51a146b9c47f46f0a2713f0edb2ec6"
+        ]
+      },
+      "a37738c0acb263697dcac416b275f114062dd79f": {
+        "oid": "a37738c0acb263697dcac416b275f114062dd79f",
+        "tree": "1c93593fd62ae03bb58833abe19017da6e4fe9d7",
+        "parents": [
+          "52ed10fdef9a0ad433fb130e68496c48ee075c0e"
+        ]
+      },
+      "52ed10fdef9a0ad433fb130e68496c48ee075c0e": {
+        "oid": "52ed10fdef9a0ad433fb130e68496c48ee075c0e",
+        "tree": "24be4703a456e54ff9a2c7374919899da36153ef",
+        "parents": [
+          "6ac1fcfbc0ad1804dc90b728972ea7f61500ef35"
+        ]
+      },
+      "8d19013d36158cec9a3e03a373d1c83719c605e5": {
+        "oid": "8d19013d36158cec9a3e03a373d1c83719c605e5",
+        "tree": "34b650a2c60052033955e83d3d5422c1e9e0a355",
+        "parents": [
+          "a37738c0acb263697dcac416b275f114062dd79f"
+        ]
+      },
+      "6ac1fcfbc0ad1804dc90b728972ea7f61500ef35": {
+        "oid": "6ac1fcfbc0ad1804dc90b728972ea7f61500ef35",
+        "tree": "f9551d190c3383ed8bd8baaf9326cc5e5899d1a3",
+        "parents": [
+          "f768dc8d7a4a23153bf4a80b373768483f27a1cf"
+        ]
+      }
+    }
+  },
+  "graphql": {
+    "kind": "http",
+    "method": "POST",
+    "path": "graphql",
+    "payload": {
+      "query": "query { repository(owner:\"joshlf\",name:\"gherrit-native-stack-experiments-2026-11-08\"){A:pullRequest(number:590){ number id state merged mergedAt headRefName headRefOid baseRefName baseRefOid timelineItems(last:100,itemTypes:[HEAD_REF_FORCE_PUSHED_EVENT,BASE_REF_CHANGED_EVENT,AUTOMATIC_BASE_CHANGE_SUCCEEDED_EVENT,AUTOMATIC_BASE_CHANGE_FAILED_EVENT,MERGED_EVENT]){pageInfo{hasPreviousPage} nodes{__typename\n... on HeadRefForcePushedEvent { id createdAt actor { login __typename } beforeCommit { oid } afterCommit { oid } ref { name target { oid } } }\n... on BaseRefChangedEvent { id createdAt actor { login __typename } previousRefName currentRefName }\n... on AutomaticBaseChangeSucceededEvent { id createdAt actor { login __typename } oldBase newBase }\n... on AutomaticBaseChangeFailedEvent { id createdAt actor { login __typename } oldBase newBase }\n... on MergedEvent { id createdAt actor { login __typename } commit { oid } mergeRefName }\n}}} B:pullRequest(number:591){ number id state merged mergedAt headRefName headRefOid baseRefName baseRefOid timelineItems(last:100,itemTypes:[HEAD_REF_FORCE_PUSHED_EVENT,BASE_REF_CHANGED_EVENT,AUTOMATIC_BASE_CHANGE_SUCCEEDED_EVENT,AUTOMATIC_BASE_CHANGE_FAILED_EVENT,MERGED_EVENT]){pageInfo{hasPreviousPage} nodes{__typename\n... on HeadRefForcePushedEvent { id createdAt actor { login __typename } beforeCommit { oid } afterCommit { oid } ref { name target { oid } } }\n... on BaseRefChangedEvent { id createdAt actor { login __typename } previousRefName currentRefName }\n... on AutomaticBaseChangeSucceededEvent { id createdAt actor { login __typename } oldBase newBase }\n... on AutomaticBaseChangeFailedEvent { id createdAt actor { login __typename } oldBase newBase }\n... on MergedEvent { id createdAt actor { login __typename } commit { oid } mergeRefName }\n}}} C:pullRequest(number:592){ number id state merged mergedAt headRefName headRefOid baseRefName baseRefOid timelineItems(last:100,itemTypes:[HEAD_REF_FORCE_PUSHED_EVENT,BASE_REF_CHANGED_EVENT,AUTOMATIC_BASE_CHANGE_SUCCEEDED_EVENT,AUTOMATIC_BASE_CHANGE_FAILED_EVENT,MERGED_EVENT]){pageInfo{hasPreviousPage} nodes{__typename\n... on HeadRefForcePushedEvent { id createdAt actor { login __typename } beforeCommit { oid } afterCommit { oid } ref { name target { oid } } }\n... on BaseRefChangedEvent { id createdAt actor { login __typename } previousRefName currentRefName }\n... on AutomaticBaseChangeSucceededEvent { id createdAt actor { login __typename } oldBase newBase }\n... on AutomaticBaseChangeFailedEvent { id createdAt actor { login __typename } oldBase newBase }\n... on MergedEvent { id createdAt actor { login __typename } commit { oid } mergeRefName }\n}}} D:pullRequest(number:593){ number id state merged mergedAt headRefName headRefOid baseRefName baseRefOid timelineItems(last:100,itemTypes:[HEAD_REF_FORCE_PUSHED_EVENT,BASE_REF_CHANGED_EVENT,AUTOMATIC_BASE_CHANGE_SUCCEEDED_EVENT,AUTOMATIC_BASE_CHANGE_FAILED_EVENT,MERGED_EVENT]){pageInfo{hasPreviousPage} nodes{__typename\n... on HeadRefForcePushedEvent { id createdAt actor { login __typename } beforeCommit { oid } afterCommit { oid } ref { name target { oid } } }\n... on BaseRefChangedEvent { id createdAt actor { login __typename } previousRefName currentRefName }\n... on AutomaticBaseChangeSucceededEvent { id createdAt actor { login __typename } oldBase newBase }\n... on AutomaticBaseChangeFailedEvent { id createdAt actor { login __typename } oldBase newBase }\n... on MergedEvent { id createdAt actor { login __typename } commit { oid } mergeRefName }\n}}}}}"
+    },
+    "start": {
+      "utc": "2026-11-09T14:03:04.298689+00:00",
+      "monotonic": 12.899864916
+    },
+    "end": {
+      "utc": "2026-11-09T14:03:04.825640+00:00",
+      "monotonic": 13.426815041
+    },
+    "exit": 0,
+    "http": 200,
+    "data": {
+      "data": {
+        "repository": {
+          "A": {
+            "number": 590,
+            "id": "PR_kwDOVnhIZ88AAAABN3Duow",
+            "state": "OPEN",
+            "merged": false,
+            "mergedAt": null,
+            "headRefName": "exh-1109-causal-after-rewrite-squash-3/A",
+            "headRefOid": "6ac1fcfbc0ad1804dc90b728972ea7f61500ef35",
+            "baseRefName": "exh-1109-causal-after-rewrite-squash-3/trunk",
+            "baseRefOid": "f768dc8d7a4a23153bf4a80b373768483f27a1cf",
+            "timelineItems": {
+              "pageInfo": {
+                "hasPreviousPage": false
+              },
+              "nodes": []
+            }
+          },
+          "B": {
+            "number": 591,
+            "id": "PR_kwDOVnhIZ88AAAABN3DwlQ",
+            "state": "OPEN",
+            "merged": false,
+            "mergedAt": null,
+            "headRefName": "exh-1109-causal-after-rewrite-squash-3/B",
+            "headRefOid": "52ed10fdef9a0ad433fb130e68496c48ee075c0e",
+            "baseRefName": "exh-1109-causal-after-rewrite-squash-3/A",
+            "baseRefOid": "6ac1fcfbc0ad1804dc90b728972ea7f61500ef35",
+            "timelineItems": {
+              "pageInfo": {
+                "hasPreviousPage": false
+              },
+              "nodes": []
+            }
+          },
+          "C": {
+            "number": 592,
+            "id": "PR_kwDOVnhIZ88AAAABN3Dykg",
+            "state": "OPEN",
+            "merged": false,
+            "mergedAt": null,
+            "headRefName": "exh-1109-causal-after-rewrite-squash-3/C",
+            "headRefOid": "a37738c0acb263697dcac416b275f114062dd79f",
+            "baseRefName": "exh-1109-causal-after-rewrite-squash-3/B",
+            "baseRefOid": "52ed10fdef9a0ad433fb130e68496c48ee075c0e",
+            "timelineItems": {
+              "pageInfo": {
+                "hasPreviousPage": false
+              },
+              "nodes": []
+            }
+          },
+          "D": {
+            "number": 593,
+            "id": "PR_kwDOVnhIZ88AAAABN3D0kw",
+            "state": "OPEN",
+            "merged": false,
+            "mergedAt": null,
+            "headRefName": "exh-1109-causal-after-rewrite-squash-3/D",
+            "headRefOid": "8d19013d36158cec9a3e03a373d1c83719c605e5",
+            "baseRefName": "exh-1109-causal-after-rewrite-squash-3/C",
+            "baseRefOid": "a37738c0acb263697dcac416b275f114062dd79f",
+            "timelineItems": {
+              "pageInfo": {
+                "hasPreviousPage": false
+              },
+              "nodes": []
+            }
+          }
+        }
+      }
+    },
+    "disposition": "response-retained"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "message": "Report item quantities with their unit\n\nAgent-authored-by: AI agent acting on joshlf's behalf\n",
+  "oid": "5333b1e9084ef3f43263085d38fec76762eae45e",
+  "parent": "0e76c93ad178aa9f3c7e5189d5ce8559cb03c229",
+  "tree": "dc460a7c23fd4ab02c71539f992c7b2d6bedfc26",
+  "updates": {
+    "workflow_case/consumer.py": "from model import Item\n\ndef describe(item):\n    return item.name + ':' + str(item.quantity) + ' ' + item.unit\n"
+  }
+}

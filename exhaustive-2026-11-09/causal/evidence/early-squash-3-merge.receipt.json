@@ -1,0 +1,32 @@
+{
+  "kind": "http",
+  "method": "PUT",
+  "path": "repos/joshlf/gherrit-native-stack-experiments-2026-11-08/pulls/585/merge-async",
+  "payload": {
+    "merge_method": "squash",
+    "merge_action": "direct_merge",
+    "sha": "af34e35a5c765cbd0bc88a0f5994c89f9972de37"
+  },
+  "start": {
+    "utc": "2026-11-09T14:01:33.883350+00:00",
+    "monotonic": 13.634994791
+  },
+  "end": {
+    "utc": "2026-11-09T14:01:34.282581+00:00",
+    "monotonic": 14.034236916
+  },
+  "exit": 0,
+  "http": 202,
+  "data": {
+    "status": "pending",
+    "details": {
+      "message": "Merge request enqueued.",
+      "uuid": "8d531ae0-602a-45fe-bd7c-00dcb79f0850",
+      "merge_method": "squash",
+      "merge_action": "direct_merge",
+      "expected_head_sha": "af34e35a5c765cbd0bc88a0f5994c89f9972de37",
+      "bypass_rules": false
+    }
+  },
+  "disposition": "response-retained"
+}

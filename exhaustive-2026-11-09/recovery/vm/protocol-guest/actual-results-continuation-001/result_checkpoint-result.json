@@ -1,0 +1,76 @@
+{
+  "prefix": "result_checkpoint",
+  "cut": {
+    "pid": 4898,
+    "exit": -9,
+    "process_started": true,
+    "known_stopped": true,
+    "target": "BARRIER PROTOCOL result_checkpoint",
+    "reached": true,
+    "kill_issued": true,
+    "natural_shutdown": false,
+    "exact_abrupt_cut": true,
+    "bytes": 38259,
+    "errors": [],
+    "parse_errors": [],
+    "utc_seconds": 1794240916.0747156
+  },
+  "matrix_continue_allowed": false,
+  "pre_recovery": {
+    "file": "result_checkpoint-pre-recovery.raw.gz",
+    "raw_bytes": 33554432,
+    "raw_sha256": "dca3d3807153e973fb6fbb41f11e5eaeba0815d0f4b317d432cf3a66e8188561",
+    "gzip_sha256": "adb58aeb057ac9637f30b5315ad480f3cf1b2b0c8be8f4f0c9d017d11e6209a0",
+    "gzip_bytes": 191950,
+    "verified_lossless": true
+  },
+  "cut_premise": {
+    "exact": true,
+    "reason": null
+  },
+  "recovery": {
+    "pid": 4902,
+    "exit": 0,
+    "process_started": true,
+    "known_stopped": true,
+    "target": "BARRIER PROTOCOL CLEAN_RECOVERY_UNMOUNTED",
+    "reached": false,
+    "kill_issued": false,
+    "natural_shutdown": false,
+    "exact_abrupt_cut": false,
+    "bytes": 47910,
+    "errors": [],
+    "parse_errors": [],
+    "utc_seconds": 1794240920.753076
+  },
+  "post_recovery": {
+    "file": "result_checkpoint-post-recovery.raw.gz",
+    "raw_bytes": 33554432,
+    "raw_sha256": "cc2e43ef5c3c7e39048675ff3edb88d1eefe42b8013c5867c564a7fde3d98f88",
+    "gzip_sha256": "a7d52f5395e78ac68a550219189c0d946ffe04d166e6b917187ef7567717fa6c",
+    "gzip_bytes": 192436,
+    "verified_lossless": true
+  },
+  "fsck": {
+    "exit": 0,
+    "stdout": "Warning: skipping journal recovery because doing a read-only filesystem check.\nPass 1: Checking inodes, blocks, and sizes\nPass 2: Checking directory structure\nPass 3: Checking directory connectivity\nPass 4: Checking reference counts\nPass 5: Checking group summary information\nFree blocks count wrong (6643, counted=6560).\nFix? no\n\nFree inodes count wrong (8181, counted=8095).\nFix? no\n\n/lab/protocol-guest/actual-results-continuation-001/result_checkpoint.raw: 11/8192 files (9.1% non-contiguous), 1549/8192 blocks\n",
+    "stderr": "e2fsck 1.46.5 (30-Dec-2021)\n",
+    "repair": false
+  },
+  "disposition": {
+    "known": false,
+    "worker_result": null,
+    "clean_unmount": false,
+    "boundary": "known stopped recovery guest; may include a second emulator cut"
+  },
+  "verdict": {
+    "passed": false,
+    "classification": "recovery_collection_diagnostic",
+    "missing": [
+      "after_recovery",
+      "recovery_result"
+    ],
+    "parse_errors": [],
+    "capture_errors": []
+  }
+}

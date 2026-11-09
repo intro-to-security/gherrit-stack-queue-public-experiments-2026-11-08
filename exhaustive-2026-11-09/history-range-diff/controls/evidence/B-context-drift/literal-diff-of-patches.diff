@@ -1,0 +1,14 @@
+--- old.patch
++++ new.patch
+@@ -1,9 +1,9 @@
+ diff --git a/context.txt b/context.txt
+-index efa903248b9598c3aad7ce36d0c734d904efa14c..36de0dcf6231595380e00c6c875258fd986eda2d 100644
++index d430cfae0ca63f730ac0a674199a7241847ab28d..54d94d6ad86adc13c3d5b64f5f4c6f4bdf8c64e9 100644
+ --- a/context.txt
+ +++ b/context.txt
+ @@ -1,3 +1,3 @@
+- context = old
++ context = new
+ -value = 0
+ +value = 1
+  footer

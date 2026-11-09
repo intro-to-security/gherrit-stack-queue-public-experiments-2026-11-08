@@ -1,0 +1,11 @@
+{
+  "kind": "read-only-diagnosis",
+  "method": "GET",
+  "path": "repositories/1450723431/stacks/653/rebase",
+  "api_version": "2022-11-28",
+  "accept": "application/vnd.github+json",
+  "start": {
+    "utc": "2026-11-09T15:00:17.721409+00:00",
+    "monotonic": 0.610427375
+  }
+}

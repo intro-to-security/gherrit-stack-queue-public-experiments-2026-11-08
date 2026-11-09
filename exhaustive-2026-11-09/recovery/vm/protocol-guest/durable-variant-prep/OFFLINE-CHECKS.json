@@ -1,0 +1,179 @@
+{
+  "pass_": true,
+  "cases": [
+    {
+      "case": "provider_head",
+      "expected_sync_order": [
+        "/state/scope/case-after_return/provider/repo/.git/refs/heads/A",
+        "/state/scope/case-after_return/provider/repo/.git/refs/heads",
+        "/state/scope/case-after_return/provider/repo/.git/refs",
+        "/state/scope/case-after_return/provider/repo/.git",
+        "/state/scope/case-after_return/provider/repo",
+        "/state/scope/case-after_return/provider",
+        "/state/scope/case-after_return"
+      ]
+    },
+    {
+      "case": "provider_archive",
+      "expected_sync_order": [
+        "/state/scope/case-after_return/provider/repo/.git/refs/archives/op-case-after_return",
+        "/state/scope/case-after_return/provider/repo/.git/refs/archives",
+        "/state/scope/case-after_return/provider/repo/.git/refs",
+        "/state/scope/case-after_return/provider/repo/.git",
+        "/state/scope/case-after_return/provider/repo",
+        "/state/scope/case-after_return/provider",
+        "/state/scope/case-after_return"
+      ]
+    },
+    {
+      "case": "local_continuation",
+      "expected_sync_order": [
+        "/state/scope/case-after_return/repo/.git/refs/retained/completed-case-after_return",
+        "/state/scope/case-after_return/repo/.git/refs/retained",
+        "/state/scope/case-after_return/repo/.git/refs",
+        "/state/scope/case-after_return/repo/.git",
+        "/state/scope/case-after_return/repo",
+        "/state/scope/case-after_return"
+      ]
+    },
+    {
+      "case": "missing_file_sync",
+      "mutated_source_sha256": "80db2eba42dbbc33fb94f70b9ad7353be7325f7cef527680d2bc4c3d461aa19e",
+      "falsely_reported_complete": true,
+      "rejected_by_observed_calls": true,
+      "observed": [
+        "/state/scope/case-after_return/provider/repo/.git/refs/archives",
+        "/state/scope/case-after_return/provider/repo/.git/refs",
+        "/state/scope/case-after_return/provider/repo/.git",
+        "/state/scope/case-after_return/provider/repo",
+        "/state/scope/case-after_return/provider",
+        "/state/scope/case-after_return"
+      ],
+      "required": [
+        "/state/scope/case-after_return/provider/repo/.git/refs/archives/op-case-after_return",
+        "/state/scope/case-after_return/provider/repo/.git/refs/archives",
+        "/state/scope/case-after_return/provider/repo/.git/refs",
+        "/state/scope/case-after_return/provider/repo/.git",
+        "/state/scope/case-after_return/provider/repo",
+        "/state/scope/case-after_return/provider",
+        "/state/scope/case-after_return"
+      ]
+    },
+    {
+      "case": "missing_new_parent_link_sync",
+      "mutated_source_sha256": "eae6b14648d3aaa23023fd1761e453250b2a8724f961f1dde359da3a79934bf3",
+      "falsely_reported_complete": true,
+      "rejected_by_observed_calls": true,
+      "observed": [
+        "/state/scope/case-after_return/provider/repo/.git/refs/archives/op-case-after_return",
+        "/state/scope/case-after_return/provider/repo/.git/refs/archives",
+        "/state/scope/case-after_return/provider/repo/.git",
+        "/state/scope/case-after_return/provider/repo",
+        "/state/scope/case-after_return/provider",
+        "/state/scope/case-after_return"
+      ],
+      "required": [
+        "/state/scope/case-after_return/provider/repo/.git/refs/archives/op-case-after_return",
+        "/state/scope/case-after_return/provider/repo/.git/refs/archives",
+        "/state/scope/case-after_return/provider/repo/.git/refs",
+        "/state/scope/case-after_return/provider/repo/.git",
+        "/state/scope/case-after_return/provider/repo",
+        "/state/scope/case-after_return/provider",
+        "/state/scope/case-after_return"
+      ]
+    },
+    {
+      "case": "missing_case_anchor_sync",
+      "mutated_source_sha256": "fba056d5336543135e9b5c768191c3d4e221b32e8233743943fe50af4cb10041",
+      "falsely_reported_complete": true,
+      "rejected_by_observed_calls": true,
+      "observed": [
+        "/state/scope/case-after_return/provider/repo/.git/refs/archives/op-case-after_return",
+        "/state/scope/case-after_return/provider/repo/.git/refs/archives",
+        "/state/scope/case-after_return/provider/repo/.git/refs",
+        "/state/scope/case-after_return/provider/repo/.git",
+        "/state/scope/case-after_return/provider/repo",
+        "/state/scope/case-after_return/provider"
+      ],
+      "required": [
+        "/state/scope/case-after_return/provider/repo/.git/refs/archives/op-case-after_return",
+        "/state/scope/case-after_return/provider/repo/.git/refs/archives",
+        "/state/scope/case-after_return/provider/repo/.git/refs",
+        "/state/scope/case-after_return/provider/repo/.git",
+        "/state/scope/case-after_return/provider/repo",
+        "/state/scope/case-after_return/provider",
+        "/state/scope/case-after_return"
+      ]
+    },
+    {
+      "case": "failed_command_raise",
+      "dispatched_once": true,
+      "barriers": 0
+    },
+    {
+      "case": "failed_command_nonzero",
+      "dispatched_once": true,
+      "barriers": 0
+    },
+    {
+      "case": "fsync_failure",
+      "at": "/state/scope/case-after_return/provider/repo/.git/refs/heads/A",
+      "acknowledgement_suppressed": true
+    },
+    {
+      "case": "fsync_failure",
+      "at": "/state/scope/case-after_return/provider/repo/.git/refs/heads",
+      "acknowledgement_suppressed": true
+    },
+    {
+      "case": "fsync_failure",
+      "at": "/state/scope/case-after_return",
+      "acknowledgement_suppressed": true
+    },
+    {
+      "case": "leaf_symlink",
+      "rejected_before_dispatch": true
+    },
+    {
+      "case": "parent_symlink",
+      "rejected_before_dispatch": true
+    },
+    {
+      "case": "hardlink",
+      "rejected_before_dispatch": true
+    },
+    {
+      "case": "foreign_owner",
+      "rejected_before_dispatch": true
+    },
+    {
+      "case": "foreign_device",
+      "rejected_before_dispatch": true
+    },
+    {
+      "case": "symbolic_ref",
+      "rejected_before_dispatch": true
+    },
+    {
+      "case": "wrong_sha",
+      "rejected_before_dispatch": true
+    },
+    {
+      "case": "trailing_bytes",
+      "rejected_before_dispatch": true
+    },
+    {
+      "case": "packed_refs",
+      "rejected_before_dispatch": true
+    },
+    {
+      "case": "commondir",
+      "rejected_before_dispatch": true
+    },
+    {
+      "case": "unsupported_forms_and_read_passthrough",
+      "scope_rejections": 6
+    }
+  ],
+  "limits": "MemoryOS only; no Git, runtime, container, network, or durability experiment executed"
+}

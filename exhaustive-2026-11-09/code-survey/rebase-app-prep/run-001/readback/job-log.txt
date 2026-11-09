@@ -1,0 +1,173 @@
+capability	Set up job	﻿2026-11-09T16:42:32.0747975Z Current runner version: '2.338.2'
+capability	Set up job	2026-11-09T16:42:32.0772941Z ##[group]Runner Image Provisioner
+capability	Set up job	2026-11-09T16:42:32.0773821Z Hosted Compute Agent
+capability	Set up job	2026-11-09T16:42:32.0774425Z Version: 20261028.624
+capability	Set up job	2026-11-09T16:42:32.0775042Z Commit: 54898b74c23fde5556c9b3c3a2290865feef0dfe
+capability	Set up job	2026-11-09T16:42:32.0775721Z Build Date: 2026-10-28T21:51:42Z
+capability	Set up job	2026-11-09T16:42:32.0776403Z Worker ID: {8afd7607-d5cd-419e-9cfe-7cf266e5896b}
+capability	Set up job	2026-11-09T16:42:32.0777068Z Region: westcentralus
+capability	Set up job	2026-11-09T16:42:32.0777600Z Cloud: Azure
+capability	Set up job	2026-11-09T16:42:32.0778175Z ##[endgroup]
+capability	Set up job	2026-11-09T16:42:32.0779903Z ##[group]Operating System
+capability	Set up job	2026-11-09T16:42:32.0780553Z Ubuntu
+capability	Set up job	2026-11-09T16:42:32.0781042Z 24.04.5
+capability	Set up job	2026-11-09T16:42:32.0781526Z LTS
+capability	Set up job	2026-11-09T16:42:32.0782045Z ##[endgroup]
+capability	Set up job	2026-11-09T16:42:32.0782559Z ##[group]Runner Image
+capability	Set up job	2026-11-09T16:42:32.0783144Z Image: ubuntu-24.04
+capability	Set up job	2026-11-09T16:42:32.0783673Z Version: 20261101.360.1
+capability	Set up job	2026-11-09T16:42:32.0784928Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20261101.360/images/ubuntu/Ubuntu2404-Readme.md
+capability	Set up job	2026-11-09T16:42:32.0786685Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20261101.360
+capability	Set up job	2026-11-09T16:42:32.0787598Z ##[endgroup]
+capability	Set up job	2026-11-09T16:42:32.0788772Z ##[group]GITHUB_TOKEN Permissions
+capability	Set up job	2026-11-09T16:42:32.0791196Z Contents: write
+capability	Set up job	2026-11-09T16:42:32.0791791Z Metadata: read
+capability	Set up job	2026-11-09T16:42:32.0792330Z PullRequests: write
+capability	Set up job	2026-11-09T16:42:32.0792873Z ##[endgroup]
+capability	Set up job	2026-11-09T16:42:32.0794855Z Secret source: Actions
+capability	Set up job	2026-11-09T16:42:32.0795733Z Cache mode: write
+capability	Set up job	2026-11-09T16:42:32.0796389Z Prepare workflow directory
+capability	Set up job	2026-11-09T16:42:32.1115636Z Prepare all required actions
+capability	Set up job	2026-11-09T16:42:32.1166039Z Getting action download info
+capability	Set up job	2026-11-09T16:42:32.4563392Z Download action repository 'actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683' (SHA:11bd71901bbe5b1630ceea73d27597364c9af683)
+capability	Set up job	2026-11-09T16:42:32.6975168Z Download action repository 'actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02' (SHA:ea165f8d65b6e75b540449e92b4886f43607fa02)
+capability	Set up job	2026-11-09T16:42:32.9725622Z Complete job name: capability
+capability	Checkout only the exact triggering source	﻿2026-11-09T16:42:33.0531920Z ##[group]Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+capability	Checkout only the exact triggering source	2026-11-09T16:42:33.0533403Z with:
+capability	Checkout only the exact triggering source	2026-11-09T16:42:33.0534279Z   ref: 6f7f0d9322bc6ddaf72bc3043c15463ecbd92b6e
+capability	Checkout only the exact triggering source	2026-11-09T16:42:33.0535267Z   persist-credentials: false
+capability	Checkout only the exact triggering source	2026-11-09T16:42:33.0536119Z   fetch-depth: 1
+capability	Checkout only the exact triggering source	2026-11-09T16:42:33.0537070Z   repository: joshlf/gherrit-native-stack-experiments-2026-11-08
+capability	Checkout only the exact triggering source	2026-11-09T16:42:33.0543511Z   token: ***
+capability	Checkout only the exact triggering source	2026-11-09T16:42:33.0544381Z   ssh-strict: true
+capability	Checkout only the exact triggering source	2026-11-09T16:42:33.0545205Z   ssh-user: git
+capability	Checkout only the exact triggering source	2026-11-09T16:42:33.0545896Z   clean: true
+capability	Checkout only the exact triggering source	2026-11-09T16:42:33.0546538Z   sparse-checkout-cone-mode: true
+capability	Checkout only the exact triggering source	2026-11-09T16:42:33.0547144Z   fetch-tags: false
+capability	Checkout only the exact triggering source	2026-11-09T16:42:33.0547708Z   show-progress: true
+capability	Checkout only the exact triggering source	2026-11-09T16:42:33.0548201Z   lfs: false
+capability	Checkout only the exact triggering source	2026-11-09T16:42:33.0548677Z   submodules: false
+capability	Checkout only the exact triggering source	2026-11-09T16:42:33.0549195Z   set-safe-directory: true
+capability	Checkout only the exact triggering source	2026-11-09T16:42:33.0550437Z ##[endgroup]
+capability	Checkout only the exact triggering source	2026-11-09T16:42:33.2876143Z Syncing repository: joshlf/gherrit-native-stack-experiments-2026-11-08
+capability	Checkout only the exact triggering source	2026-11-09T16:42:33.2880340Z ##[group]Getting Git version info
+capability	Checkout only the exact triggering source	2026-11-09T16:42:33.2881753Z Working directory is '/home/runner/work/gherrit-native-stack-experiments-2026-11-08/gherrit-native-stack-experiments-2026-11-08'
+capability	Checkout only the exact triggering source	2026-11-09T16:42:33.2883250Z [command]/usr/bin/git version
+capability	Checkout only the exact triggering source	2026-11-09T16:42:33.2947211Z git version 2.56.0
+capability	Checkout only the exact triggering source	2026-11-09T16:42:33.2967484Z ##[endgroup]
+capability	Checkout only the exact triggering source	2026-11-09T16:42:33.2982342Z Temporarily overriding HOME='/home/runner/work/_temp/45bb309e-88c0-4d01-addc-be8f5e21d4c2' before making global git config changes
+capability	Checkout only the exact triggering source	2026-11-09T16:42:33.2984806Z Adding repository directory to the temporary git global config as a safe directory
+capability	Checkout only the exact triggering source	2026-11-09T16:42:33.2987665Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/gherrit-native-stack-experiments-2026-11-08/gherrit-native-stack-experiments-2026-11-08
+capability	Checkout only the exact triggering source	2026-11-09T16:42:33.3033579Z Deleting the contents of '/home/runner/work/gherrit-native-stack-experiments-2026-11-08/gherrit-native-stack-experiments-2026-11-08'
+capability	Checkout only the exact triggering source	2026-11-09T16:42:33.3036817Z ##[group]Initializing the repository
+capability	Checkout only the exact triggering source	2026-11-09T16:42:33.3043198Z [command]/usr/bin/git init /home/runner/work/gherrit-native-stack-experiments-2026-11-08/gherrit-native-stack-experiments-2026-11-08
+capability	Checkout only the exact triggering source	2026-11-09T16:42:33.3130869Z hint: Using 'master' as the name for the initial branch. This default branch name
+capability	Checkout only the exact triggering source	2026-11-09T16:42:33.3132228Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+capability	Checkout only the exact triggering source	2026-11-09T16:42:33.3133303Z hint: to use in all of your new repositories, which will suppress this warning,
+capability	Checkout only the exact triggering source	2026-11-09T16:42:33.3134058Z hint: call:
+capability	Checkout only the exact triggering source	2026-11-09T16:42:33.3134570Z hint:
+capability	Checkout only the exact triggering source	2026-11-09T16:42:33.3135148Z hint: 	git config --global init.defaultBranch <name>
+capability	Checkout only the exact triggering source	2026-11-09T16:42:33.3135824Z hint:
+capability	Checkout only the exact triggering source	2026-11-09T16:42:33.3136454Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+capability	Checkout only the exact triggering source	2026-11-09T16:42:33.3137384Z hint: 'development'. The just-created branch can be renamed via this command:
+capability	Checkout only the exact triggering source	2026-11-09T16:42:33.3138143Z hint:
+capability	Checkout only the exact triggering source	2026-11-09T16:42:33.3138633Z hint: 	git branch -m <name>
+capability	Checkout only the exact triggering source	2026-11-09T16:42:33.3139181Z hint:
+capability	Checkout only the exact triggering source	2026-11-09T16:42:33.3140048Z hint: Disable this message with "git config set advice.defaultBranchName false"
+capability	Checkout only the exact triggering source	2026-11-09T16:42:33.3151519Z Initialized empty Git repository in /home/runner/work/gherrit-native-stack-experiments-2026-11-08/gherrit-native-stack-experiments-2026-11-08/.git/
+capability	Checkout only the exact triggering source	2026-11-09T16:42:33.3166327Z [command]/usr/bin/git remote add origin https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08
+capability	Checkout only the exact triggering source	2026-11-09T16:42:33.3203701Z ##[endgroup]
+capability	Checkout only the exact triggering source	2026-11-09T16:42:33.3205072Z ##[group]Disabling automatic garbage collection
+capability	Checkout only the exact triggering source	2026-11-09T16:42:33.3206378Z [command]/usr/bin/git config --local gc.auto 0
+capability	Checkout only the exact triggering source	2026-11-09T16:42:33.3236511Z ##[endgroup]
+capability	Checkout only the exact triggering source	2026-11-09T16:42:33.3237615Z ##[group]Setting up auth
+capability	Checkout only the exact triggering source	2026-11-09T16:42:33.3242627Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+capability	Checkout only the exact triggering source	2026-11-09T16:42:33.3272248Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+capability	Checkout only the exact triggering source	2026-11-09T16:42:33.3605583Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+capability	Checkout only the exact triggering source	2026-11-09T16:42:33.3645430Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+capability	Checkout only the exact triggering source	2026-11-09T16:42:33.3850602Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+capability	Checkout only the exact triggering source	2026-11-09T16:42:33.3906872Z ##[endgroup]
+capability	Checkout only the exact triggering source	2026-11-09T16:42:33.3907997Z ##[group]Fetching the repository
+capability	Checkout only the exact triggering source	2026-11-09T16:42:33.3919022Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin 6f7f0d9322bc6ddaf72bc3043c15463ecbd92b6e
+capability	Checkout only the exact triggering source	2026-11-09T16:42:33.8036021Z From https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08
+capability	Checkout only the exact triggering source	2026-11-09T16:42:33.8038203Z  * branch            6f7f0d9322bc6ddaf72bc3043c15463ecbd92b6e -> FETCH_HEAD
+capability	Checkout only the exact triggering source	2026-11-09T16:42:33.8043192Z ##[endgroup]
+capability	Checkout only the exact triggering source	2026-11-09T16:42:33.8046053Z ##[group]Determining the checkout info
+capability	Checkout only the exact triggering source	2026-11-09T16:42:33.8047636Z ##[endgroup]
+capability	Checkout only the exact triggering source	2026-11-09T16:42:33.8048813Z [command]/usr/bin/git sparse-checkout disable
+capability	Checkout only the exact triggering source	2026-11-09T16:42:33.8115742Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+capability	Checkout only the exact triggering source	2026-11-09T16:42:33.8149278Z ##[group]Checking out the ref
+capability	Checkout only the exact triggering source	2026-11-09T16:42:33.8154695Z [command]/usr/bin/git checkout --progress --force 6f7f0d9322bc6ddaf72bc3043c15463ecbd92b6e
+capability	Checkout only the exact triggering source	2026-11-09T16:42:33.8192150Z Note: switching to '6f7f0d9322bc6ddaf72bc3043c15463ecbd92b6e'.
+capability	Checkout only the exact triggering source	2026-11-09T16:42:33.8193449Z 
+capability	Checkout only the exact triggering source	2026-11-09T16:42:33.8194201Z You are in 'detached HEAD' state. You can look around, make experimental
+capability	Checkout only the exact triggering source	2026-11-09T16:42:33.8195933Z changes and commit them, and you can discard any commits you make in this
+capability	Checkout only the exact triggering source	2026-11-09T16:42:33.8197393Z state without impacting any branches by switching back to a branch.
+capability	Checkout only the exact triggering source	2026-11-09T16:42:33.8198450Z 
+capability	Checkout only the exact triggering source	2026-11-09T16:42:33.8199104Z If you want to create a new branch to retain commits you create, you may
+capability	Checkout only the exact triggering source	2026-11-09T16:42:33.8201034Z do so (now or later) by using -c with the switch command. Example:
+capability	Checkout only the exact triggering source	2026-11-09T16:42:33.8202196Z 
+capability	Checkout only the exact triggering source	2026-11-09T16:42:33.8202614Z   git switch -c <new-branch-name>
+capability	Checkout only the exact triggering source	2026-11-09T16:42:33.8203352Z 
+capability	Checkout only the exact triggering source	2026-11-09T16:42:33.8203620Z Or undo this operation with:
+capability	Checkout only the exact triggering source	2026-11-09T16:42:33.8204186Z 
+capability	Checkout only the exact triggering source	2026-11-09T16:42:33.8204437Z   git switch -
+capability	Checkout only the exact triggering source	2026-11-09T16:42:33.8205075Z 
+capability	Checkout only the exact triggering source	2026-11-09T16:42:33.8205695Z Turn off this advice by setting config variable advice.detachedHead to false
+capability	Checkout only the exact triggering source	2026-11-09T16:42:33.8206683Z 
+capability	Checkout only the exact triggering source	2026-11-09T16:42:33.8207592Z HEAD is now at 6f7f0d9 Probe one isolated native rebase with the Actions installation token
+capability	Checkout only the exact triggering source	2026-11-09T16:42:33.8210999Z ##[endgroup]
+capability	Checkout only the exact triggering source	2026-11-09T16:42:33.8256720Z [command]/usr/bin/git log -1 --format=%H
+capability	Checkout only the exact triggering source	2026-11-09T16:42:33.8278752Z 6f7f0d9322bc6ddaf72bc3043c15463ecbd92b6e
+capability	Checkout only the exact triggering source	2026-11-09T16:42:33.8286476Z ##[group]Removing auth
+capability	Checkout only the exact triggering source	2026-11-09T16:42:33.8290075Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+capability	Checkout only the exact triggering source	2026-11-09T16:42:33.8317945Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+capability	Checkout only the exact triggering source	2026-11-09T16:42:33.8501421Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+capability	Checkout only the exact triggering source	2026-11-09T16:42:33.8525176Z http.https://github.com/.extraheader
+capability	Checkout only the exact triggering source	2026-11-09T16:42:33.8532654Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+capability	Checkout only the exact triggering source	2026-11-09T16:42:33.8568858Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+capability	Checkout only the exact triggering source	2026-11-09T16:42:33.8747629Z ##[endgroup]
+capability	One guarded PUT without retries	﻿2026-11-09T16:42:33.8982201Z ##[group]Run python3 probe.py fixture.json evidence
+capability	One guarded PUT without retries	2026-11-09T16:42:33.8983523Z ^[[36;1mpython3 probe.py fixture.json evidence^[[0m
+capability	One guarded PUT without retries	2026-11-09T16:42:33.9003662Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+capability	One guarded PUT without retries	2026-11-09T16:42:33.9004874Z env:
+capability	One guarded PUT without retries	2026-11-09T16:42:33.9014908Z   GH_TOKEN: ***
+capability	One guarded PUT without retries	2026-11-09T16:42:33.9016078Z   PROBE_CONFIG_SHA256: 8a5eed309e1d98d5c9ac559fb7f05ce70f6886f3527cd963d02df629b9d31ac3
+capability	One guarded PUT without retries	2026-11-09T16:42:33.9017587Z ##[endgroup]
+capability	One guarded PUT without retries	2026-11-09T16:42:37.3399492Z {"scope": "exh-1109-causal-rb-app-001", "put_status": 404, "unknown_transport": false, "retry_performed": false, "completion_inferred": false}
+capability	Retain only sanitized probe files	﻿2026-11-09T16:42:37.3618497Z ##[group]Run actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+capability	Retain only sanitized probe files	2026-11-09T16:42:37.3619105Z with:
+capability	Retain only sanitized probe files	2026-11-09T16:42:37.3619695Z   name: exh-1109-causal-rb-app-001-42657475024-1
+capability	Retain only sanitized probe files	2026-11-09T16:42:37.3620174Z   path: evidence/*.json
+capability	Retain only sanitized probe files	2026-11-09T16:42:37.3620549Z   if-no-files-found: error
+capability	Retain only sanitized probe files	2026-11-09T16:42:37.3621008Z   retention-days: 90
+capability	Retain only sanitized probe files	2026-11-09T16:42:37.3621368Z   include-hidden-files: false
+capability	Retain only sanitized probe files	2026-11-09T16:42:37.3621768Z   compression-level: 6
+capability	Retain only sanitized probe files	2026-11-09T16:42:37.3622131Z   overwrite: false
+capability	Retain only sanitized probe files	2026-11-09T16:42:37.3622477Z ##[endgroup]
+capability	Retain only sanitized probe files	2026-11-09T16:42:37.5241720Z (node:2413) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+capability	Retain only sanitized probe files	2026-11-09T16:42:37.5243091Z (Use `node --trace-deprecation ...` to show where the warning was created)
+capability	Retain only sanitized probe files	2026-11-09T16:42:37.5312566Z With the provided path, there will be 10 files uploaded
+capability	Retain only sanitized probe files	2026-11-09T16:42:37.5317768Z Artifact name is valid!
+capability	Retain only sanitized probe files	2026-11-09T16:42:37.5318715Z Root directory input is valid!
+capability	Retain only sanitized probe files	2026-11-09T16:42:37.9666161Z Beginning upload of artifact content to blob storage
+capability	Retain only sanitized probe files	2026-11-09T16:42:38.0007094Z (node:2413) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+capability	Retain only sanitized probe files	2026-11-09T16:42:38.2210628Z Uploaded bytes 11963
+capability	Retain only sanitized probe files	2026-11-09T16:42:38.2796096Z Finished uploading artifact content to blob storage!
+capability	Retain only sanitized probe files	2026-11-09T16:42:38.2798413Z SHA256 digest of uploaded artifact zip is 69b29179b0ec85cd73b83fd169f4a668726a554c8a2cc050e8ad3ad17147b73e
+capability	Retain only sanitized probe files	2026-11-09T16:42:38.2799557Z Finalizing artifact upload
+capability	Retain only sanitized probe files	2026-11-09T16:42:38.7507474Z Artifact exh-1109-causal-rb-app-001-42657475024-1.zip successfully finalized. Artifact ID 13693550267
+capability	Retain only sanitized probe files	2026-11-09T16:42:38.7509191Z Artifact exh-1109-causal-rb-app-001-42657475024-1 has been successfully uploaded! Final size is 11963 bytes. Artifact ID is 13693550267
+capability	Retain only sanitized probe files	2026-11-09T16:42:38.7515973Z Artifact download URL: https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08/actions/runs/42657475024/artifacts/13693550267
+capability	Post Checkout only the exact triggering source	﻿2026-11-09T16:42:38.7730935Z Post job cleanup.
+capability	Post Checkout only the exact triggering source	2026-11-09T16:42:38.8577234Z [command]/usr/bin/git version
+capability	Post Checkout only the exact triggering source	2026-11-09T16:42:38.8618193Z git version 2.56.0
+capability	Post Checkout only the exact triggering source	2026-11-09T16:42:38.8652403Z Temporarily overriding HOME='/home/runner/work/_temp/95a23a7f-e7f4-4cbf-a353-ae5a2302d864' before making global git config changes
+capability	Post Checkout only the exact triggering source	2026-11-09T16:42:38.8654138Z Adding repository directory to the temporary git global config as a safe directory
+capability	Post Checkout only the exact triggering source	2026-11-09T16:42:38.8658038Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/gherrit-native-stack-experiments-2026-11-08/gherrit-native-stack-experiments-2026-11-08
+capability	Post Checkout only the exact triggering source	2026-11-09T16:42:38.8700715Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+capability	Post Checkout only the exact triggering source	2026-11-09T16:42:38.8730745Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+capability	Post Checkout only the exact triggering source	2026-11-09T16:42:38.8934598Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+capability	Post Checkout only the exact triggering source	2026-11-09T16:42:38.8967404Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+capability	Complete job	﻿2026-11-09T16:42:38.9369984Z Cleaning up orphan processes
+capability	Complete job	2026-11-09T16:42:38.9728597Z ##[warning]Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683, actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/

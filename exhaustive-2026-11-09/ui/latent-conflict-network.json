@@ -1,0 +1,110 @@
+{
+  "raw_private_sha256": "3e61c75ab1ff3b8903d0f0120a203679d89e4a342b2fa1ae24ef147463b81e8b",
+  "raw_entries": 344,
+  "selected_entries": [
+    {
+      "startedDateTime": "2026-11-09T14:48:18.839Z",
+      "time_ms": 240.79599999822676,
+      "method": "POST",
+      "url": "https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08/pull/636/page_data/stack_rebase",
+      "request_body": {
+        "expectedHeadOids": {
+          "635": "36ad8fda1263914ffb0c3c2ea96d8567b28066f0",
+          "636": "595b12466169aad7b0ad8b3b2b5bacb42e62f652"
+        }
+      },
+      "status": 200,
+      "response_headers": [
+        {
+          "name": "content-type",
+          "value": "application/json; charset=utf-8"
+        },
+        {
+          "name": "date",
+          "value": "Mon, 09 Nov 2026 14:48:19 GMT"
+        },
+        {
+          "name": "x-github-request-id",
+          "value": "D3D5:62ECA:57D96C:81BAF1:6AF1DD2D"
+        }
+      ],
+      "response": {}
+    },
+    {
+      "startedDateTime": "2026-11-09T14:48:19.081Z",
+      "time_ms": 152.70800003781915,
+      "method": "GET",
+      "url": "https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08/pull/636/page_data/stack_rebase_status",
+      "request_body": {},
+      "status": 200,
+      "response_headers": [
+        {
+          "name": "content-type",
+          "value": "application/json; charset=utf-8"
+        },
+        {
+          "name": "date",
+          "value": "Mon, 09 Nov 2026 14:48:19 GMT"
+        },
+        {
+          "name": "x-github-request-id",
+          "value": "D3D5:62ECA:57DA27:81BC3D:6AF1DD33"
+        }
+      ],
+      "response": {
+        "jobState": "PENDING",
+        "pullRequestStates": [
+          {
+            "number": 635,
+            "state": "PENDING",
+            "message": null
+          },
+          {
+            "number": 636,
+            "state": "PENDING",
+            "message": null
+          }
+        ]
+      }
+    },
+    {
+      "startedDateTime": "2026-11-09T14:48:20.237Z",
+      "time_ms": 155.9310001321137,
+      "method": "GET",
+      "url": "https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08/pull/636/page_data/stack_rebase_status",
+      "request_body": {},
+      "status": 200,
+      "response_headers": [
+        {
+          "name": "content-type",
+          "value": "application/json; charset=utf-8"
+        },
+        {
+          "name": "date",
+          "value": "Mon, 09 Nov 2026 14:48:20 GMT"
+        },
+        {
+          "name": "x-github-request-id",
+          "value": "D3D5:62ECA:57DDF8:81C1DB:6AF1DD33"
+        }
+      ],
+      "response": {
+        "jobState": "DONE",
+        "pullRequestStates": [
+          {
+            "number": 635,
+            "state": "SUCCEEDED",
+            "message": null
+          },
+          {
+            "number": 636,
+            "state": "CONFLICTED",
+            "message": null
+          }
+        ]
+      }
+    }
+  ],
+  "capture": "Actual native Chrome DevTools sanitized HAR, further restricted locally",
+  "user_visible": "Started0of2 rebased; reloaded before exporting; refreshed page shows A Ready, B Not ready, current-branch conflicts, no retained progress job display."
+}

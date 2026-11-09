@@ -1,0 +1,105 @@
+{
+  "archives": {},
+  "assertions": [
+    {
+      "actual": {},
+      "expected": {},
+      "label": "Every allocated remote ref was absent",
+      "passed": true
+    },
+    {
+      "actual": {
+        "refs/heads/exh-1109-workflow-gql-standalone-971327c2/A": "e00ec8db705bf5ffc53c15b1e8b1c586f6828112",
+        "refs/heads/exh-1109-workflow-gql-standalone-971327c2/trunk": "cd4822bf742e16e1d4450154c77c537966bac04a"
+      },
+      "expected": {
+        "refs/heads/exh-1109-workflow-gql-standalone-971327c2/A": "e00ec8db705bf5ffc53c15b1e8b1c586f6828112",
+        "refs/heads/exh-1109-workflow-gql-standalone-971327c2/trunk": "cd4822bf742e16e1d4450154c77c537966bac04a"
+      },
+      "label": "Initial exact ref vector",
+      "passed": true
+    },
+    {
+      "actual": true,
+      "expected": true,
+      "label": "update-basis selected branches/PRs agree",
+      "passed": true
+    }
+  ],
+  "branches": {
+    "A": "exh-1109-workflow-gql-standalone-971327c2/A",
+    "trunk": "exh-1109-workflow-gql-standalone-971327c2/trunk"
+  },
+  "case": "gql-standalone",
+  "created": "2026-11-09T14:20:39.919861+00:00",
+  "initial_pr_bodies": {
+    "A": "Isolated synthetic gql-standalone fixture, layer A.\n\n*Authored by an AI agent acting on joshlf's behalf.*"
+  },
+  "initial_refs": {
+    "refs/heads/exh-1109-workflow-gql-standalone-971327c2/A": "e00ec8db705bf5ffc53c15b1e8b1c586f6828112",
+    "refs/heads/exh-1109-workflow-gql-standalone-971327c2/trunk": "cd4822bf742e16e1d4450154c77c537966bac04a"
+  },
+  "inputs": {
+    "A0": "e00ec8db705bf5ffc53c15b1e8b1c586f6828112",
+    "trunk": "cd4822bf742e16e1d4450154c77c537966bac04a"
+  },
+  "native_operations": [],
+  "nodes": {
+    "A": "PR_kwDOVnhIZ88AAAABN3hjZQ"
+  },
+  "phase": "update-observed-no-retry",
+  "planned_pr_bases": {
+    "A": "trunk"
+  },
+  "prefix": "exh-1109-workflow-gql-standalone-971327c2",
+  "prs": {
+    "A": 613
+  },
+  "repository": "joshlf/gherrit-native-stack-experiments-2026-11-08",
+  "selected_head_before": "e00ec8db705bf5ffc53c15b1e8b1c586f6828112",
+  "update_observations": [
+    "update-after-0",
+    "update-after-1",
+    "update-after-2",
+    "update-after-3",
+    "update-after-4"
+  ],
+  "update_response": {
+    "data": {
+      "data": {
+        "updatePullRequestBranch": {
+          "clientMutationId": "exh-1109-workflow-gql-standalone-971327c2-once",
+          "pullRequest": {
+            "baseRefName": "exh-1109-workflow-gql-standalone-971327c2/trunk",
+            "baseRefOid": "cd4822bf742e16e1d4450154c77c537966bac04a",
+            "headRefOid": "e00ec8db705bf5ffc53c15b1e8b1c586f6828112",
+            "id": "PR_kwDOVnhIZ88AAAABN3hjZQ",
+            "number": 613,
+            "stack": null
+          }
+        }
+      }
+    },
+    "disposition": "response-retained",
+    "ended": "2026-11-09T14:36:03.062173+00:00",
+    "exit": 0,
+    "http": 200,
+    "kind": "update-branch",
+    "method": "POST",
+    "monotonic": 3.010545541,
+    "path": "graphql",
+    "payload": {
+      "query": "mutation WorkflowUpdate($input: UpdatePullRequestBranchInput!) {\n  updatePullRequestBranch(input: $input) {\n    clientMutationId\n    pullRequest { id number headRefOid baseRefName baseRefOid\n      stack { id number size baseRefName } }\n  }\n}",
+      "variables": {
+        "input": {
+          "clientMutationId": "exh-1109-workflow-gql-standalone-971327c2-once",
+          "expectedHeadOid": "e00ec8db705bf5ffc53c15b1e8b1c586f6828112",
+          "pullRequestId": "PR_kwDOVnhIZ88AAAABN3hjZQ",
+          "updateMethod": "REBASE"
+        }
+      }
+    },
+    "started": "2026-11-09T14:36:01.180234+00:00"
+  },
+  "update_target": "A"
+}

@@ -1,0 +1,47 @@
+{
+  "checks": [
+    {
+      "actual": "needs_explicit_drift_review",
+      "expected": "needs_explicit_drift_review",
+      "name": "explicit-only boundary stops every changed overlapping observation",
+      "passed": true
+    },
+    {
+      "actual": {
+        "x": "0\n",
+        "z": "2\n"
+      },
+      "expected": {
+        "x": "0\n",
+        "z": "2\n"
+      },
+      "name": "explicit result preserves reset and legitimate edit",
+      "passed": true
+    },
+    {
+      "actual": "planned",
+      "expected": "planned",
+      "name": "explicit-only acceptance does not complete old operation",
+      "passed": true
+    }
+  ],
+  "details": {
+    "automatic_restoration": false,
+    "comparison": {
+      "explicit_only": "Exact accepted result/observation plus decision; full drift review every time",
+      "guarded_proposal": "Additional accepted intent-path set and validator; may provide clean proposal but still needs review; reset can require extra resolution"
+    },
+    "decision": {
+      "acceptance": "Restore x=0 and retain legitimate remote z=2; exact test-supplied decision, not inferred intent",
+      "exact_accepted_result": "d20ee470d419bfdd00ed2b8d2ff2561b3db51532",
+      "observed": "d1fa170d68355d2b091761d406286002110943b5",
+      "previous_intent": "b886d3c12e7d5e676bc86cf810f9acc11f3895c3"
+    },
+    "human_cost": "Not measured; a programmatically supplied correct decision is not evidence a person notices every lost edit",
+    "inferred_intent": false
+  },
+  "disposition": "performed",
+  "id": "R17",
+  "status": "passed",
+  "title": "Explicit-only drift acceptance control"
+}

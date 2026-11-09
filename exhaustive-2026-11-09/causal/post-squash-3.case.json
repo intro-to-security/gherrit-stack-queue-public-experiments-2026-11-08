@@ -1,0 +1,64 @@
+{
+  "name": "post-squash-3",
+  "prefix": "exh-1109-causal-post-squash-3",
+  "method": "squash",
+  "timing": "post",
+  "created": {
+    "utc": "2026-11-09T13:59:58.071996+00:00",
+    "monotonic": 0.024154125
+  },
+  "prs": {
+    "A": 580,
+    "B": 581,
+    "C": 582,
+    "D": 583
+  },
+  "heads": {
+    "A": {
+      "ref": "exh-1109-causal-post-squash-3/A",
+      "sha": "3943d987d917b5c73bd963daae64a2b4411bc611"
+    },
+    "B": {
+      "ref": "exh-1109-causal-post-squash-3/B",
+      "sha": "39fdc88a75bfbbdb7d33bb25e8d10a51af95662c"
+    },
+    "C": {
+      "ref": "exh-1109-causal-post-squash-3/C",
+      "sha": "1280bf67dbc95f29dfe359e321cfcd15eebdb684"
+    },
+    "D": {
+      "ref": "exh-1109-causal-post-squash-3/D",
+      "sha": "3e41d08c23ed18457b8bf3f30dfeda59d9081c3b"
+    }
+  },
+  "phase": "frozen-requires-reconciliation",
+  "trunk_sha": "05e122e40e96128dcf6b1e51a865ccb58c0864c4",
+  "trunk": "exh-1109-causal-post-squash-3/trunk",
+  "stack": 584,
+  "merge_uuid": "dd42a1de-00b8-4c47-9f20-b6fa11e58718",
+  "terminal": {
+    "kind": "http",
+    "method": "GET",
+    "path": "repos/joshlf/gherrit-native-stack-experiments-2026-11-08/pulls/580/merge-async/dd42a1de-00b8-4c47-9f20-b6fa11e58718",
+    "payload": null,
+    "start": {
+      "utc": "2026-11-09T14:00:24.042568+00:00",
+      "monotonic": 25.994450625
+    },
+    "end": {
+      "utc": "2026-11-09T14:00:24.316970+00:00",
+      "monotonic": 26.268850083
+    },
+    "exit": 0,
+    "http": 200,
+    "data": {
+      "status": "merged",
+      "details": {
+        "message": "Pull request was merged.",
+        "sha": "5ed495ebf0ba559c633677265d61246841586a29"
+      }
+    },
+    "disposition": "response-retained"
+  },
+  "stop_reason": "Push failed or outcome uncertain; freeze and reconcile post-squash-3-marker-push"
+}

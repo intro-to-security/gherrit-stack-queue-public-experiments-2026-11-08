@@ -1,0 +1,8 @@
+{
+  "at": "2026-11-09T16:39:49.146481+00:00",
+  "passed": true,
+  "tests": 6,
+  "stdout": "",
+  "stderr": "test_foreign_scope_and_wrong_selected_member_are_rejected (test_partial.PartialControls) ... ok\ntest_fresh_full_vector_is_required_before_request (test_partial.PartialControls) ... ok\ntest_grant_pins_scope_driver_and_both_helpers (test_partial.PartialControls) ... ok\ntest_local_fixture_proves_B_patch_and_C_conflict (test_partial.PartialControls) ... ok\ntest_push_vectors_and_leases_cannot_expand (test_partial.PartialControls) ... ok\ntest_unknown_ack_is_retained_and_not_repeated (test_partial.PartialControls) ... ok\n\n----------------------------------------------------------------------\nRan 6 tests in 0.483s\n\nOK\n",
+  "scope": "Guard controls and one temporary local bare-Git conflict/patch premise with hooks disabled. All HTTP/network subprocesses mocked; no hosted mutation, API read or old driver execution."
+}

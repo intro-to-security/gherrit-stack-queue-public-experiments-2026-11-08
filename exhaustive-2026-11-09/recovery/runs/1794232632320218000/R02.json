@@ -1,0 +1,60 @@
+{
+  "checks": [
+    {
+      "actual": {
+        "x": "1\n",
+        "z": "2\n"
+      },
+      "expected": {
+        "x": "1\n",
+        "z": "2\n"
+      },
+      "name": "reviewed restoration preserves independent legitimate edit",
+      "passed": true
+    },
+    {
+      "actual": "conflict",
+      "expected": "conflict",
+      "name": "conflicting restoration cannot be accepted",
+      "passed": true
+    },
+    {
+      "actual": "2\n",
+      "expected": "2\n",
+      "name": "explicit remote acceptance changes current intent",
+      "passed": true
+    },
+    {
+      "actual": "1\n",
+      "expected": "1\n",
+      "name": "authored archive remains original submitted x=1",
+      "passed": true
+    },
+    {
+      "actual": true,
+      "expected": true,
+      "name": "blind latest-tree restoration loses legitimate z=2",
+      "passed": true
+    }
+  ],
+  "details": {
+    "attribution": "No inference whether edit is legitimate or an old native effect",
+    "conflicting": {
+      "proposed": null,
+      "status": "conflict"
+    },
+    "decision_cost": "one per changed observation; same-line conflicts require content resolution",
+    "explicit_remote_acceptance": {
+      "proposed": "a2cfa1d2aa441d233ff0909a352404d204db135d",
+      "status": "remote_explicitly_accepted"
+    },
+    "independent": {
+      "proposed": "5776207e1364a7aad65794db234cff53589757e9",
+      "status": "restoration_proposal"
+    }
+  },
+  "disposition": "performed",
+  "id": "R02",
+  "status": "passed",
+  "title": "Legitimate remote edits and conflicts"
+}

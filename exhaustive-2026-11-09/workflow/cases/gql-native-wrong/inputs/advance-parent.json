@@ -1,0 +1,9 @@
+{
+  "message": "Advance the selected update branch's parent\n\nAgent-authored-by: AI agent acting on joshlf's behalf\n",
+  "oid": "b3817bc474f1b8dee91bd9b51c9763048884e5db",
+  "parent": "a810a5f65ef9e212725a5227f43e6804a3fb691a",
+  "tree": "21ba68c4fe801e3515a4e6bdf58aabbd64f4d62c",
+  "updates": {
+    "gql_advance.txt": "new parent state\n"
+  }
+}

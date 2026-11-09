@@ -1,0 +1,114 @@
+{
+  "case": {
+    "name": "capability",
+    "prefix": "exh-1109-causal-rb-capability",
+    "repository": "joshlf/gherrit-native-stack-experiments-2026-11-08",
+    "repository_id": 1450723431,
+    "heads": {
+      "A": {
+        "ref": "exh-1109-causal-rb-capability/A",
+        "sha": "f5426f21bde544d07c71a07837961c4ff65584e0"
+      },
+      "B": {
+        "ref": "exh-1109-causal-rb-capability/B",
+        "sha": "8d8919ed957f9ac4bf0ebc371ede77843ea262f9"
+      },
+      "C": {
+        "ref": "exh-1109-causal-rb-capability/C",
+        "sha": "0f4445c43fc2b88a0c9a20ce354433bb6ed34bcf"
+      }
+    },
+    "prs": {
+      "A": 650,
+      "B": 651,
+      "C": 652
+    },
+    "phase": "request-rejected-frozen",
+    "created": {
+      "utc": "2026-11-09T14:56:03.136127+00:00",
+      "monotonic": 0.030564708
+    },
+    "trunk": "exh-1109-causal-rb-capability/trunk",
+    "trunk_sha": "8ac8462e3aaf2a1889eb718676d6ee015808246d",
+    "stack": 653,
+    "advanced_trunk_sha": "903d8671e17ed6c196f14298d906df7964310789",
+    "expected_rebased_trees": {
+      "A": "a1e235a27a47de89c973905f272a6f1869273db5",
+      "B": "a4dd839e02d228d313d10e3649ba477bb19ab5fd",
+      "C": "70af014b4f13be1147a3d61680e9f98dd26c474f"
+    },
+    "expected_vector": {
+      "expected_head_oid_by_pr_number": {
+        "650": "f5426f21bde544d07c71a07837961c4ff65584e0",
+        "651": "8d8919ed957f9ac4bf0ebc371ede77843ea262f9",
+        "652": "0f4445c43fc2b88a0c9a20ce354433bb6ed34bcf"
+      }
+    },
+    "request": {
+      "kind": "http",
+      "case": "capability",
+      "method": "PUT",
+      "path": "repositories/1450723431/stacks/653/rebase",
+      "payload": {
+        "expected_head_oid_by_pr_number": {
+          "650": "f5426f21bde544d07c71a07837961c4ff65584e0",
+          "651": "8d8919ed957f9ac4bf0ebc371ede77843ea262f9",
+          "652": "0f4445c43fc2b88a0c9a20ce354433bb6ed34bcf"
+        }
+      },
+      "start": {
+        "utc": "2026-11-09T14:56:18.077010+00:00",
+        "monotonic": 14.971196125
+      },
+      "end": {
+        "utc": "2026-11-09T14:56:19.297714+00:00",
+        "monotonic": 16.1919
+      },
+      "exit": 1,
+      "http": 404,
+      "data": {
+        "message": "Not Found",
+        "documentation_url": "https://docs.github.com/rest/pulls/stacks#rebase-a-pull-request-stack",
+        "status": "404"
+      },
+      "disposition": "response-retained"
+    },
+    "rejected_http": 404
+  },
+  "final_owned_refs": {
+    "refs/heads/exh-1109-causal-rb-capability/A": "f5426f21bde544d07c71a07837961c4ff65584e0",
+    "refs/heads/exh-1109-causal-rb-capability/B": "8d8919ed957f9ac4bf0ebc371ede77843ea262f9",
+    "refs/heads/exh-1109-causal-rb-capability/C": "0f4445c43fc2b88a0c9a20ce354433bb6ed34bcf",
+    "refs/heads/exh-1109-causal-rb-capability/trunk": "903d8671e17ed6c196f14298d906df7964310789"
+  },
+  "final_prs": {
+    "A": {
+      "number": 650,
+      "id": "PR_kwDOVnhIZ88AAAABN30m3A",
+      "state": "OPEN",
+      "headRefName": "exh-1109-causal-rb-capability/A",
+      "headRefOid": "f5426f21bde544d07c71a07837961c4ff65584e0",
+      "baseRefName": "exh-1109-causal-rb-capability/trunk"
+    },
+    "B": {
+      "number": 651,
+      "id": "PR_kwDOVnhIZ88AAAABN30prQ",
+      "state": "OPEN",
+      "headRefName": "exh-1109-causal-rb-capability/B",
+      "headRefOid": "8d8919ed957f9ac4bf0ebc371ede77843ea262f9",
+      "baseRefName": "exh-1109-causal-rb-capability/A"
+    },
+    "C": {
+      "number": 652,
+      "id": "PR_kwDOVnhIZ88AAAABN30sLA",
+      "state": "OPEN",
+      "headRefName": "exh-1109-causal-rb-capability/C",
+      "headRefOid": "0f4445c43fc2b88a0c9a20ce354433bb6ed34bcf",
+      "baseRefName": "exh-1109-causal-rb-capability/B"
+    }
+  },
+  "member_heads_unchanged": true,
+  "trunk_matches_advanced": true,
+  "capability_proof_exists": false,
+  "marker_was_published": false
+}

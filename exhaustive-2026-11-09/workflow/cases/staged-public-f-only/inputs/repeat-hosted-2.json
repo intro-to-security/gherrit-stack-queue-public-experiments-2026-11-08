@@ -1,0 +1,9 @@
+{
+  "message": "Record hosted review adjustment 2\n\nAgent-authored-by: AI agent acting on joshlf's behalf\n",
+  "oid": "df45f82b86ffa0b69a66f69ef1ca3dac98c0b808",
+  "parent": "896d97a53451034b55f2a2fe88b360850af29a78",
+  "tree": "b0dc1c182baa4a5d1828db5fdf4550789ea86cd7",
+  "updates": {
+    "workflow_case/review.txt": "hosted two\n"
+  }
+}

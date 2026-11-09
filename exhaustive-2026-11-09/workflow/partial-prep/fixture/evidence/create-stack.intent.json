@@ -1,0 +1,14 @@
+{
+  "kind": "create-stack",
+  "method": "POST",
+  "monotonic": 7.229345083,
+  "path": "repos/joshlf/gherrit-native-stack-experiments-2026-11-08/stacks",
+  "payload": {
+    "pull_requests": [
+      657,
+      658,
+      659
+    ]
+  },
+  "started": "2026-11-09T16:42:48.146198+00:00"
+}

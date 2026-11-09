@@ -1,0 +1,26 @@
+[
+  {
+    "repository": "microsoft/vscode-pull-request-github",
+    "ref": "8bd445fbeee54d7fbb54b2712b29baa3de9356e5",
+    "path": "src/github/common.ts",
+    "url": "https://github.com/microsoft/vscode-pull-request-github/blob/8bd445fbeee54d7fbb54b2712b29baa3de9356e5/src/github/common.ts",
+    "sha256": "5e8688eae6ceed558979a9246933a1f67cbcea78be4325b868d9de7022c48edf",
+    "git_blob_sha": "23a253493c560ca611cbd55cc58e2d2492091571"
+  },
+  {
+    "repository": "microsoft/vscode-pull-request-github",
+    "ref": "8bd445fbeee54d7fbb54b2712b29baa3de9356e5",
+    "path": "src/github/loggingOctokit.ts",
+    "url": "https://github.com/microsoft/vscode-pull-request-github/blob/8bd445fbeee54d7fbb54b2712b29baa3de9356e5/src/github/loggingOctokit.ts",
+    "sha256": "f96b8b20d77658bc1a8c971c09e9625f7f90c5ad929a5ecd8c8a2e04c0584527",
+    "git_blob_sha": "13f45d4dfc9885afc63e22d2869b7f26b4e87216"
+  },
+  {
+    "repository": "microsoft/vscode-pull-request-github",
+    "ref": "8bd445fbeee54d7fbb54b2712b29baa3de9356e5",
+    "path": "src/github/credentials.ts",
+    "url": "https://github.com/microsoft/vscode-pull-request-github/blob/8bd445fbeee54d7fbb54b2712b29baa3de9356e5/src/github/credentials.ts",
+    "sha256": "c19c6e4f914d4f0899518535fa429aaa78a4feca3449c3e9cfd949a60e57927f",
+    "git_blob_sha": "8d41071f822ea64be293d515ffd42f5535f89a88"
+  }
+]

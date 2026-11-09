@@ -1,0 +1,48 @@
+{
+  "paths": [
+    ".github/workflows/rb-app-probe.yml",
+    "fixture.json",
+    "probe.py"
+  ],
+  "commit_body": "tree e5f4fb9732ef0edf10f0a41b3f733ff317b71f24\nauthor Josh Liebow-Feeser <hello@joshlf.com> 1794242440 -0500\ncommitter Josh Liebow-Feeser <hello@joshlf.com> 1794242440 -0500\n\nProbe one isolated native rebase with the Actions installation token\n\nAgent-authored-by: AI agent acting on joshlf's behalf\n",
+  "exact_files_verified": true,
+  "config": {
+    "members": [
+      {
+        "base_ref": "exh-1109-causal-rb-app-001/trunk",
+        "head_oid": "5afe9c34540002ec9554c2e9d279f4fa895d89db",
+        "head_ref": "exh-1109-causal-rb-app-001/A",
+        "node_id": "PR_kwDOVnhIZ88AAAABN5USaw",
+        "number": 654
+      },
+      {
+        "base_ref": "exh-1109-causal-rb-app-001/A",
+        "head_oid": "11ddd6ef32afc4bca7865a22c70248a6156edee7",
+        "head_ref": "exh-1109-causal-rb-app-001/B",
+        "node_id": "PR_kwDOVnhIZ88AAAABN5UTrw",
+        "number": 655
+      }
+    ],
+    "prefix": "exh-1109-causal-rb-app-001",
+    "probe_sha256": "476029710ad48039c36e423fd6ff6c6219bd591edb96a6df82934eaec1f1e12b",
+    "repository": "joshlf/gherrit-native-stack-experiments-2026-11-08",
+    "repository_id": 1450723431,
+    "root_reviewed": true,
+    "runner_ref": "refs/heads/exh-1109-causal-rb-app-001/runner",
+    "schema": "native-rebase-app-one-shot-v1",
+    "stack_node_id": "PRS_kwDOVnhIZ84AMaim",
+    "stack_number": 656,
+    "trunk": {
+      "ref": "exh-1109-causal-rb-app-001/trunk",
+      "sha": "1eadf6cbffab4ef16d21830f06e5806cf8eb1b1a"
+    }
+  },
+  "workflow": "name: One-shot Actions App token native rebase capability\n\non:\n  push:\n    branches:\n      - exh-1109-causal-rb-app-001/runner\n\npermissions:\n  contents: write\n  pull-requests: write\n\nconcurrency:\n  group: exh-1109-causal-rb-app-001-one-shot\n  cancel-in-progress: false\n\njobs:\n  capability:\n    if: >-\n      github.repository == 'joshlf/gherrit-native-stack-experiments-2026-11-08' &&\n      github.actor == 'joshlf' &&\n      github.event_name == 'push' &&\n      github.event.created == true &&\n      github.event.deleted == false &&\n      github.ref == 'refs/heads/exh-1109-causal-rb-app-001/runner' &&\n      github.run_attempt == 1\n    runs-on: ubuntu-latest\n    timeout-minutes: 4\n    steps:\n      - name: Checkout only the exact triggering source\n        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683\n        with:\n          ref: ${{ github.sha }}\n          persist-credentials: false\n          fetch-depth: 1\n      - name: One guarded PUT without retries\n        env:\n          GH_TOKEN: ${{ github.token }}\n          PROBE_CONFIG_SHA256: 8a5eed309e1d98d5c9ac559fb7f05ce70f6886f3527cd963d02df629b9d31ac3\n        shell: bash\n        run: python3 probe.py fixture.json evidence\n      - name: Retain only sanitized probe files\n        if: always()\n        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02\n        with:\n          name: exh-1109-causal-rb-app-001-${{ github.run_id }}-${{ github.run_attempt }}\n          path: evidence/*.json\n          if-no-files-found: error\n          retention-days: 90\n          include-hidden-files: false\n",
+  "sources": {
+    "fixture_runner.py": "07f5452aaf54ac3462da8c796705eed8c923505276dd2cb78572b253b519e071",
+    "probe.py": "476029710ad48039c36e423fd6ff6c6219bd591edb96a6df82934eaec1f1e12b",
+    "fixture.template.json": "bdd0178da4fa4ed4ab83d70dd71ff7592a94c7943f75e5778b9276ec3a639772",
+    "workflow.template.yml": "2d7155d36cd3960bebc6915dcbd64fd0c9f94aa10a638efda24e0971acbba7a0",
+    "control/rootlab.py": "ae1ae63d5ee8370cbca11711f5d5e76a97669881ddf8ef8911493666393d128d"
+  }
+}

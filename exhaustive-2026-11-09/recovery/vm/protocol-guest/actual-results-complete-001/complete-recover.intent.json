@@ -1,0 +1,33 @@
+{
+  "command": [
+    "qemu-system-aarch64",
+    "-machine",
+    "virt",
+    "-cpu",
+    "cortex-a57",
+    "-accel",
+    "tcg",
+    "-smp",
+    "1",
+    "-m",
+    "256M",
+    "-nographic",
+    "-no-reboot",
+    "-nic",
+    "none",
+    "-kernel",
+    "/lab/boot/Image-virt",
+    "-initrd",
+    "/lab/protocol-guest/test-initramfs.gz",
+    "-append",
+    "console=ttyAMA0 panic=-1 phase=recover prefix=complete",
+    "-drive",
+    "if=none,file=/lab/protocol-guest/actual-results-complete-001/complete.raw,format=raw,cache=writeback,id=d0",
+    "-device",
+    "virtio-blk-device,drive=d0"
+  ],
+  "phase": "recover",
+  "prefix": "complete",
+  "state": "may be started",
+  "utc_seconds": 1794241447.4241102
+}

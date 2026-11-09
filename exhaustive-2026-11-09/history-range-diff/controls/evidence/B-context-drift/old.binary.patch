@@ -1,0 +1,9 @@
+diff --git a/context.txt b/context.txt
+index efa903248b9598c3aad7ce36d0c734d904efa14c..36de0dcf6231595380e00c6c875258fd986eda2d 100644
+--- a/context.txt
++++ b/context.txt
+@@ -1,3 +1,3 @@
+ context = old
+-value = 0
++value = 1
+ footer

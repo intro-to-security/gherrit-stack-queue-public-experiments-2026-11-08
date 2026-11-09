@@ -1,0 +1,77 @@
+[
+  {
+    "label": "cli",
+    "repo": "cli/cli",
+    "ref": "736c68f674113337685e3eb1f908602a03b8f99b"
+  },
+  {
+    "label": "gh-stack",
+    "repo": "github/gh-stack",
+    "ref": "bd0a32504f9ae9f795875a9e6bb90ff7408fda08"
+  },
+  {
+    "label": "openclaw",
+    "repo": "openclaw/openclaw",
+    "ref": "245cbaf915c21c6cc02ba2edbe3c62e2725a133e"
+  },
+  {
+    "label": "orca",
+    "repo": "stablyai/orca",
+    "ref": "41867a2a85e6a0d3dd616472c62da6aaa58e129c"
+  },
+  {
+    "label": "gitbutler",
+    "repo": "gitbutlerapp/gitbutler",
+    "ref": "523a411cebe4c1ce90cbf2555033160a51b1c9f6"
+  },
+  {
+    "label": "trop",
+    "repo": "electron/trop",
+    "ref": "450c9687627676e02eb2e280167be0e8f074ccbf"
+  },
+  {
+    "label": "clinic",
+    "repo": "r0adkll/clinic",
+    "ref": "0ba6f76c5d958714800cafa430a27a27a8429dbd"
+  },
+  {
+    "label": "vscode",
+    "repo": "microsoft/vscode-pull-request-github",
+    "ref": "8bd445fbeee54d7fbb54b2712b29baa3de9356e5"
+  },
+  {
+    "label": "ghsync",
+    "repo": "ewhauser/ghsync",
+    "ref": "730113d924864059b28841d20c222b8f171b4af3"
+  },
+  {
+    "label": "go-github",
+    "repo": "google/go-github",
+    "ref": "a58c726601628c9134d5e37182a2ed98942d2239"
+  },
+  {
+    "label": "turso",
+    "repo": "tursodatabase/turso",
+    "ref": "bc9d27537b5e7f71bedcb3535697034c2d6f8bca"
+  },
+  {
+    "label": "gitlens",
+    "repo": "gitkraken/vscode-gitlens",
+    "ref": "0cf8a5a76ed1bf350758cd679de61743b475cddc"
+  },
+  {
+    "label": "git-spice",
+    "repo": "abhinav/git-spice",
+    "ref": "6e4c15a860f9c0e22532022ec6e9e10ffdc0f29b"
+  },
+  {
+    "label": "octocrab",
+    "repo": "XAMPPRocky/octocrab",
+    "ref": "c2ede077f77d6b64a0bdd4b6e78e0a4714fc54e2"
+  },
+  {
+    "label": "git-stacks",
+    "repo": "howarewoo/git-stacks",
+    "ref": "777760d2ab07681f9ecd0e46a3c6f97df8827bd5"
+  }
+]

@@ -1,0 +1,34 @@
+{
+  "all_have_one_notice": true,
+  "at": "2026-11-09T16:57:15.734059+00:00",
+  "commits": {
+    "A0": {
+      "oid": "d73f1543202618e1eb359fb8f15751e1092ccc7f",
+      "trailer_count": 1
+    },
+    "A1": {
+      "oid": "a8a39b61ad98ac6987183198ea308400ca507ebc",
+      "trailer_count": 1
+    },
+    "B-expected": {
+      "oid": "82e27b1a1c501fdd1921224b0655529970d64e3a",
+      "trailer_count": 1
+    },
+    "B0": {
+      "oid": "74cd012a960d3525e00727be30dbfd6fc0b170b5",
+      "trailer_count": 1
+    },
+    "C0": {
+      "oid": "dca811f5d210b004f6229ea1134f3fb49f1cba44",
+      "trailer_count": 1
+    },
+    "hosted-B": {
+      "oid": "57a275d012a64f38fdce84fa88d46d8e9e43a20a",
+      "trailer_count": 1
+    },
+    "trunk": {
+      "oid": "7dab21a9a9fe31304280abd4cf9cb55df0caa78b",
+      "trailer_count": 1
+    }
+  }
+}

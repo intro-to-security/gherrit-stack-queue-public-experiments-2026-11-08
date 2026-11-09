@@ -1,0 +1,7 @@
+diff --git a/alpha.txt b/alpha.txt
+index 4b1baa13186285df6b68cd180990a158dfaa5d07..cc09c78a09a8bc168280cc940961da312d18d547 100644
+--- a/alpha.txt
++++ b/alpha.txt
+@@ -1 +1 @@
+-alpha = 0
++alpha = 1

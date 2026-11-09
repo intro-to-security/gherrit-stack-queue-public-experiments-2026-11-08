@@ -1,0 +1,9 @@
+{
+  "pid": 3964,
+  "exit": -9,
+  "barrier": "BARRIER CUT3",
+  "reached": true,
+  "bytes": 12663,
+  "natural_shutdown": false,
+  "failure_boundary": "Owned QEMU guest only; outer container/host/device caches survive"
+}

@@ -1,0 +1,10 @@
+{
+  "at": "2026-11-09T16:12:57.080922+00:00",
+  "status": "passed",
+  "exit": 0,
+  "stdout": "",
+  "stderr": "test_actual_failed_verdict_retained_and_known_refusal_continues (test_continuation.ContinuationControls) ... ok\ntest_boot_requires_owned_kill_and_reaps_exact_child (test_continuation.ContinuationControls) ... ok\ntest_cut_premise_or_unknown_process_stops_without_unsafe_read (test_continuation.ContinuationControls) ... ok\ntest_incomplete_snapshots_cannot_continue (test_continuation.ContinuationControls) ... ok\ntest_log_open_failure_spawns_nothing (test_continuation.ContinuationControls) ... ok\ntest_missing_or_malformed_result_is_diagnostic_and_stops (test_continuation.ContinuationControls) ... ok\ntest_original_dependencies_unchanged_and_cases_exact (test_continuation.ContinuationControls) ... ok\ntest_runtime_and_duplicate_results_cannot_be_adopted (test_continuation.ContinuationControls) ... ok\n\n----------------------------------------------------------------------\nRan 8 tests in 0.016s\n\nOK\n",
+  "test_methods": 8,
+  "effects": "Only fake processes/commands/archives and private temporary source-test files; retained guest logs parsed read-only. No Git, fixture, container, VM, install, build, network or publication actions.",
+  "original_inputs_unchanged": true
+}

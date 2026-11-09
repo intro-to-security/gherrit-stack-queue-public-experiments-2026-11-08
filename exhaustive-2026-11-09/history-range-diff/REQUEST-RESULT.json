@@ -1,0 +1,29 @@
+{
+  "argv": [
+    "git",
+    "-c",
+    "core.hooksPath=/dev/null",
+    "-c",
+    "core.pager=cat",
+    "range-diff",
+    "--no-color",
+    "--no-ext-diff",
+    "--no-textconv",
+    "ed86001d0772bad37723d34c42172793a1065def..577c03e83eee2c544e685bcf2d7158e371d8ec85",
+    "378b07ca06b99dc523d4c42b39edb0a336b6bf39..bbdc65868b6b9afb14908b888186e73382266b42"
+  ],
+  "cwd": "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-2026-11-08/cli-history/checkout",
+  "exact_ranges": {
+    "old": {
+      "base": "ed86001d0772bad37723d34c42172793a1065def",
+      "tip": "577c03e83eee2c544e685bcf2d7158e371d8ec85"
+    },
+    "new": {
+      "base": "378b07ca06b99dc523d4c42b39edb0a336b6bf39",
+      "tip": "bbdc65868b6b9afb14908b888186e73382266b42"
+    }
+  },
+  "exit": 0,
+  "stdout_sha256": "a5d390c3a0ea4ffd601863b356ff3cdb4ffa9782e32186bd21e0b92ff6e8d70f",
+  "source": "Previously frozen exact PR10 authored ranges; read-only Git, no new host fixture or remote effect."
+}

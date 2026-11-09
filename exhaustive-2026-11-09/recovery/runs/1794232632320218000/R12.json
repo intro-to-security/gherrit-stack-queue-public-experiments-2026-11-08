@@ -1,0 +1,108 @@
+{
+  "checks": [
+    {
+      "actual": {
+        "intent": {
+          "binding": {
+            "change": "A",
+            "head": "A",
+            "repository": "local-fixture",
+            "review": 1
+          },
+          "captured_checkpoint": {
+            "accepted_local": "c7b7c5a4db0bb7bf954622df46cc0c218e798a4f",
+            "incorporated": "713d8c9e0471e8aacceca1f9d26274b93fa4bdb1"
+          },
+          "continuation": "refs/retained/completed-local-while-pending",
+          "expected": "713d8c9e0471e8aacceca1f9d26274b93fa4bdb1",
+          "id": "op-local-while-pending",
+          "input": "713d8c9e0471e8aacceca1f9d26274b93fa4bdb1",
+          "provider": "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/recovery/runs/1794232632320218000/local-while-pending/provider",
+          "result": "c7b7c5a4db0bb7bf954622df46cc0c218e798a4f",
+          "scope": [
+            "head:A",
+            "archive:local-while-pending"
+          ]
+        },
+        "state": "indeterminate"
+      },
+      "expected": {
+        "intent": {
+          "binding": {
+            "change": "A",
+            "head": "A",
+            "repository": "local-fixture",
+            "review": 1
+          },
+          "captured_checkpoint": {
+            "accepted_local": "c7b7c5a4db0bb7bf954622df46cc0c218e798a4f",
+            "incorporated": "713d8c9e0471e8aacceca1f9d26274b93fa4bdb1"
+          },
+          "continuation": "refs/retained/completed-local-while-pending",
+          "expected": "713d8c9e0471e8aacceca1f9d26274b93fa4bdb1",
+          "id": "op-local-while-pending",
+          "input": "713d8c9e0471e8aacceca1f9d26274b93fa4bdb1",
+          "provider": "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/recovery/runs/1794232632320218000/local-while-pending/provider",
+          "result": "c7b7c5a4db0bb7bf954622df46cc0c218e798a4f",
+          "scope": [
+            "head:A",
+            "archive:local-while-pending"
+          ]
+        },
+        "state": "indeterminate"
+      },
+      "name": "fresh local acceptance retains old frozen pending input",
+      "passed": true
+    },
+    {
+      "actual": "blocked_unknown_no_resend",
+      "expected": "blocked_unknown_no_resend",
+      "name": "local successor does not settle old request",
+      "passed": true
+    },
+    {
+      "actual": "d5e3972ba8865f40edf7aa212ee192f1323338b4",
+      "expected": "d5e3972ba8865f40edf7aa212ee192f1323338b4",
+      "name": "local successor retained exact",
+      "passed": true
+    }
+  ],
+  "details": {
+    "old": {
+      "intent": {
+        "binding": {
+          "change": "A",
+          "head": "A",
+          "repository": "local-fixture",
+          "review": 1
+        },
+        "captured_checkpoint": {
+          "accepted_local": "c7b7c5a4db0bb7bf954622df46cc0c218e798a4f",
+          "incorporated": "713d8c9e0471e8aacceca1f9d26274b93fa4bdb1"
+        },
+        "continuation": "refs/retained/completed-local-while-pending",
+        "expected": "713d8c9e0471e8aacceca1f9d26274b93fa4bdb1",
+        "id": "op-local-while-pending",
+        "input": "713d8c9e0471e8aacceca1f9d26274b93fa4bdb1",
+        "provider": "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/recovery/runs/1794232632320218000/local-while-pending/provider",
+        "result": "c7b7c5a4db0bb7bf954622df46cc0c218e798a4f",
+        "scope": [
+          "head:A",
+          "archive:local-while-pending"
+        ]
+      },
+      "state": "indeterminate"
+    },
+    "strict_hosted_authority": false,
+    "successor": {
+      "incorporated": "c7b7c5a4db0bb7bf954622df46cc0c218e798a4f",
+      "predecessor": "c7b7c5a4db0bb7bf954622df46cc0c218e798a4f",
+      "result": "d5e3972ba8865f40edf7aa212ee192f1323338b4"
+    },
+    "weaker_authority": "requires separately accepted exact new request, never inherited from local acceptance"
+  },
+  "disposition": "performed",
+  "id": "R12",
+  "status": "passed",
+  "title": "Fresh local result while old pending"
+}

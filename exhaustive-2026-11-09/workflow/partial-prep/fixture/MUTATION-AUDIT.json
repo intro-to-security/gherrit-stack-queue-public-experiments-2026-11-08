@@ -1,0 +1,101 @@
+{
+  "B_update_dispatched": false,
+  "C_update_dispatched": false,
+  "at": "2026-11-09T16:45:23.035918+00:00",
+  "git_push_dispatches": 2,
+  "missing_receipts": [],
+  "native_HTTP_write_dispatches": 4,
+  "unknown_mutating_acknowledgements": [],
+  "writes": [
+    {
+      "exit": 0,
+      "expected": {
+        "refs/heads/exh-1109-workflow-gql-partial-001/A": "d73f1543202618e1eb359fb8f15751e1092ccc7f",
+        "refs/tags/gherrit/exh-1109-workflow-gql-partial-001-A/v2": "0000000000000000000000000000000000000000"
+      },
+      "http": null,
+      "intent": "advance-A.intent.json",
+      "kind": "push",
+      "method": null,
+      "path": null,
+      "receipt": "advance-A.receipt.json",
+      "updates": {
+        "refs/heads/exh-1109-workflow-gql-partial-001/A": "a8a39b61ad98ac6987183198ea308400ca507ebc",
+        "refs/tags/gherrit/exh-1109-workflow-gql-partial-001-A/v2": "a8a39b61ad98ac6987183198ea308400ca507ebc"
+      }
+    },
+    {
+      "exit": 0,
+      "expected": null,
+      "http": 201,
+      "intent": "create-pr-A.intent.json",
+      "kind": "create-pr",
+      "method": "POST",
+      "path": "repos/joshlf/gherrit-native-stack-experiments-2026-11-08/pulls",
+      "receipt": "create-pr-A.receipt.json",
+      "updates": null
+    },
+    {
+      "exit": 0,
+      "expected": null,
+      "http": 201,
+      "intent": "create-pr-B.intent.json",
+      "kind": "create-pr",
+      "method": "POST",
+      "path": "repos/joshlf/gherrit-native-stack-experiments-2026-11-08/pulls",
+      "receipt": "create-pr-B.receipt.json",
+      "updates": null
+    },
+    {
+      "exit": 0,
+      "expected": null,
+      "http": 201,
+      "intent": "create-pr-C.intent.json",
+      "kind": "create-pr",
+      "method": "POST",
+      "path": "repos/joshlf/gherrit-native-stack-experiments-2026-11-08/pulls",
+      "receipt": "create-pr-C.receipt.json",
+      "updates": null
+    },
+    {
+      "exit": 0,
+      "expected": null,
+      "http": 201,
+      "intent": "create-stack.intent.json",
+      "kind": "create-stack",
+      "method": "POST",
+      "path": "repos/joshlf/gherrit-native-stack-experiments-2026-11-08/stacks",
+      "receipt": "create-stack.receipt.json",
+      "updates": null
+    },
+    {
+      "exit": 0,
+      "expected": {
+        "refs/heads/exh-1109-workflow-gql-partial-001/A": "0000000000000000000000000000000000000000",
+        "refs/heads/exh-1109-workflow-gql-partial-001/B": "0000000000000000000000000000000000000000",
+        "refs/heads/exh-1109-workflow-gql-partial-001/C": "0000000000000000000000000000000000000000",
+        "refs/heads/exh-1109-workflow-gql-partial-001/author-source": "0000000000000000000000000000000000000000",
+        "refs/heads/exh-1109-workflow-gql-partial-001/trunk": "0000000000000000000000000000000000000000",
+        "refs/tags/gherrit/exh-1109-workflow-gql-partial-001-A/v1": "0000000000000000000000000000000000000000",
+        "refs/tags/gherrit/exh-1109-workflow-gql-partial-001-B/v1": "0000000000000000000000000000000000000000",
+        "refs/tags/gherrit/exh-1109-workflow-gql-partial-001-C/v1": "0000000000000000000000000000000000000000"
+      },
+      "http": null,
+      "intent": "initial-push.intent.json",
+      "kind": "push",
+      "method": null,
+      "path": null,
+      "receipt": "initial-push.receipt.json",
+      "updates": {
+        "refs/heads/exh-1109-workflow-gql-partial-001/A": "d73f1543202618e1eb359fb8f15751e1092ccc7f",
+        "refs/heads/exh-1109-workflow-gql-partial-001/B": "74cd012a960d3525e00727be30dbfd6fc0b170b5",
+        "refs/heads/exh-1109-workflow-gql-partial-001/C": "dca811f5d210b004f6229ea1134f3fb49f1cba44",
+        "refs/heads/exh-1109-workflow-gql-partial-001/author-source": "dca811f5d210b004f6229ea1134f3fb49f1cba44",
+        "refs/heads/exh-1109-workflow-gql-partial-001/trunk": "7dab21a9a9fe31304280abd4cf9cb55df0caa78b",
+        "refs/tags/gherrit/exh-1109-workflow-gql-partial-001-A/v1": "d73f1543202618e1eb359fb8f15751e1092ccc7f",
+        "refs/tags/gherrit/exh-1109-workflow-gql-partial-001-B/v1": "74cd012a960d3525e00727be30dbfd6fc0b170b5",
+        "refs/tags/gherrit/exh-1109-workflow-gql-partial-001-C/v1": "dca811f5d210b004f6229ea1134f3fb49f1cba44"
+      }
+    }
+  ]
+}

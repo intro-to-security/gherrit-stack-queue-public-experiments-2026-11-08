@@ -1,0 +1,7 @@
+{
+  "archive": "experiments/native-stacks-exhaustive-2026-11-09/recovery/vm/7e278a42e7/lab-evidence-v3.tar.gz",
+  "bytes": 429801873,
+  "sha256": "b7b7889b31f81e1b9bb0532630819669497667a0a37ed9f9512e667194dd1169",
+  "members": 437,
+  "extraction": "Only selected source, manifests and results; full archive retains all inputs/disks/metadata. Container tar compare passed before Docker copy."
+}

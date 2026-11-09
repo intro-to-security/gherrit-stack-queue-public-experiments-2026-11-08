@@ -1,0 +1,23 @@
+{
+  "scope": "Pure serial/object/ext4 image-byte audit; no execution or evidence mutation",
+  "files": [
+    {
+      "path": "audit.py",
+      "bytes": 10949,
+      "sha256": "7447e184d1a67c16b3dcb20ec4c602d79981e2161d3d36b90c219733f20db512"
+    },
+    {
+      "path": "FINDINGS.json",
+      "bytes": 25554,
+      "sha256": "14a9751432218163b49c4eba6a453743371f157d748674794819ad6c25dd60c2"
+    },
+    {
+      "path": "REPORT.md",
+      "bytes": 6741,
+      "sha256": "05918f426883c5312c696db21db49a852dac14b09debf57b2f051bde0a99588b"
+    }
+  ],
+  "input_directory": "../../actual-results-001",
+  "case_replayed": false,
+  "runtime_actions": []
+}

@@ -1,0 +1,38 @@
+{
+  "coordinator": "root",
+  "executor": "evidence_publication_inventory",
+  "grant_path": "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/control/rebase-app-grant-002.json",
+  "phase": "launch",
+  "repository": "joshlf/gherrit-native-stack-experiments-2026-11-08",
+  "repository_id": 1450723431,
+  "prefix": "exh-1109-causal-rb-app-001",
+  "run_directory": "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/code-survey/rebase-app-prep/run-001",
+  "sources": {
+    "fixture_runner.py": "07f5452aaf54ac3462da8c796705eed8c923505276dd2cb78572b253b519e071",
+    "probe.py": "476029710ad48039c36e423fd6ff6c6219bd591edb96a6df82934eaec1f1e12b",
+    "fixture.template.json": "bdd0178da4fa4ed4ab83d70dd71ff7592a94c7943f75e5778b9276ec3a639772",
+    "workflow.template.yml": "2d7155d36cd3960bebc6915dcbd64fd0c9f94aa10a638efda24e0971acbba7a0",
+    "control/rootlab.py": "ae1ae63d5ee8370cbca11711f5d5e76a97669881ddf8ef8911493666393d128d"
+  },
+  "frozen_record_sha256": "b6ed669c2b6f989677b0e56ae5079ebece789b67a5cb7b258cd91db608179ffe",
+  "effects": [
+    {
+      "kind": "create_only_runner_push_and_one_workflow",
+      "ref": "exh-1109-causal-rb-app-001/runner",
+      "expected": null,
+      "target": "6f7f0d9322bc6ddaf72bc3043c15463ecbd92b6e",
+      "request_path": "/repositories/1450723431/stacks/656/rebase",
+      "payload": {
+        "expected_head_oid_by_pr_number": {
+          "654": "5afe9c34540002ec9554c2e9d279f4fa895d89db",
+          "655": "11ddd6ef32afc4bca7865a22c70248a6156edee7"
+        }
+      },
+      "requested_permissions": {
+        "contents": "write",
+        "pull-requests": "write"
+      }
+    }
+  ],
+  "scope": "Createonly exactrunner ref once, thereby one guardedsyntheticActions token capabilitytest. No rerun/refrecreate/retry/globalsettings/defaultmain/oldfixture/extraPUT. Readonly job/artifact/permission/native-state reconciliation authorized; stop unknown."
+}

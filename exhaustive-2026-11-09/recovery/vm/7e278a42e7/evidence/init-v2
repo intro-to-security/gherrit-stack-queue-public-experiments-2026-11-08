@@ -1,0 +1,20 @@
+#!/bin/busybox sh
+export PATH=/bin:/sbin:/usr/bin:/usr/sbin
+mount -t proc proc /proc || exit 2
+mount -t sysfs sys /sys || exit 2
+mount -t devtmpfs devtmpfs /dev || exit 2
+mkdir -p /state
+modprobe virtio_mmio || exit 2
+modprobe virtio_blk || exit 2
+modprobe ext4 || exit 2
+mount -t ext4 /dev/vda /state || exit 2
+echo GUEST_KERNEL
+uname -a
+echo GUEST_MOUNTS
+cat /proc/mounts
+phase=
+for word in $(cat /proc/cmdline); do
+    case "$word" in phase=*) phase=${word#phase=};; esac
+done
+if [ -z "$phase" ]; then echo PROBE_ERROR_missing_phase; exit 2; fi
+exec /probe "$phase"

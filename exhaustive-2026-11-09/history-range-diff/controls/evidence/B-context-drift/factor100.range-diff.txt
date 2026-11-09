@@ -1,0 +1,10 @@
+1:  eb4b49d ! 1:  d9c7b00 Update value
+    @@ Commit message
+     
+      ## context.txt ##
+     @@
+    - context = old
+    + context = new
+     -value = 0
+     +value = 1
+      footer

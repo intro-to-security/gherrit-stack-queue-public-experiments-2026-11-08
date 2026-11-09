@@ -1,0 +1,6 @@
+{
+  "at": "2026-11-09T15:17:53.769523+00:00",
+  "process_inventory_exit": 0,
+  "matching_owned_driver_pids": [],
+  "scope": "Direct Python driver command lines for the owned probes/sync; command text and environments are not retained."
+}

@@ -1,0 +1,108 @@
+{
+  "errors": [],
+  "checked_extracted_blobs": [
+    {
+      "path": "extracts/cmd-merge-test.txt",
+      "git_blob_sha": "61a2166656e922dca4b15ed4aacfd7695df16216",
+      "matched": true
+    },
+    {
+      "path": "extracts/actions-events.txt",
+      "git_blob_sha": "b365cf2bc6c7f22f26ab2730928974d7eaadcc59",
+      "matched": true
+    },
+    {
+      "path": "extracts/cmd-init.txt",
+      "git_blob_sha": "fe895ee26aa4d9538876ce7b221f503f01468286",
+      "matched": true
+    },
+    {
+      "path": "extracts/cmd-utils.txt",
+      "git_blob_sha": "db43aa9363b4cc2b7143c4b837ac1f149ceb965c",
+      "matched": true
+    },
+    {
+      "path": "extracts/ci-checks.txt",
+      "git_blob_sha": "9e4ae3520cf7cbe321f1a8606fae66133b3fdb4c",
+      "matched": true
+    },
+    {
+      "path": "extracts/cli-config.txt",
+      "git_blob_sha": "acc8ec1b29ac6252e4ca25f5b4fdce27b25f0690",
+      "matched": true
+    },
+    {
+      "path": "extracts/ui-guide.txt",
+      "git_blob_sha": "53fd912c93eaa0e3630070132dd34d65362580e7",
+      "matched": true
+    },
+    {
+      "path": "extracts/docs-ci.txt",
+      "git_blob_sha": "468a59b912948cd74ad7bd2acb05999dd20a79ce",
+      "matched": true
+    },
+    {
+      "path": "extracts/cmd-merge.txt",
+      "git_blob_sha": "e7957d146dcf8ae79b4ad34e6eb15112658948d8",
+      "matched": true
+    },
+    {
+      "path": "extracts/webhooks.txt",
+      "git_blob_sha": "35883ff3bd3777282aa7ec256e9c0f16b5a230c4",
+      "matched": true
+    },
+    {
+      "path": "extracts/faq.txt",
+      "git_blob_sha": "37e1b2c0eea69ddc36202b29656c44e886c3045e",
+      "matched": true
+    },
+    {
+      "path": "extracts/cmd-sync.txt",
+      "git_blob_sha": "b5ece467deda8e7427b58829b129007e508a5194",
+      "matched": true
+    },
+    {
+      "path": "extracts/pull-request-types.txt",
+      "git_blob_sha": "442c852163274fd65d3c8474711c27bdf407d067",
+      "matched": true
+    },
+    {
+      "path": "extracts/gitops.txt",
+      "git_blob_sha": "0dd9a96f07383e6b1d40481a428fce2238363177",
+      "matched": true
+    },
+    {
+      "path": "extracts/async-test.txt",
+      "git_blob_sha": "e0f144bc8eeb42fb6f2425ebbab9d31520407f59",
+      "matched": true
+    },
+    {
+      "path": "extracts/docs-api.txt",
+      "git_blob_sha": "70e672d5bee830c6d71785cd850e30f72732a2f6",
+      "matched": true
+    },
+    {
+      "path": "extracts/cmd-trunk.txt",
+      "git_blob_sha": "d62db2f08f6ce27823a4a68d776a9c033bfa0650",
+      "matched": true
+    },
+    {
+      "path": "extracts/cli-update-branch.txt",
+      "git_blob_sha": "ca3b2c9109aa9d88a90d3fda135d7dba153a521f",
+      "matched": true
+    },
+    {
+      "path": "extracts/async.txt",
+      "git_blob_sha": "8393b2b34e80834fce86326131196998fc7c5678",
+      "matched": true
+    },
+    {
+      "path": "extracts/cmd-submit.txt",
+      "git_blob_sha": "564ffd96faaa8de30fd5deed7e7668ca59716d3d",
+      "matched": true
+    }
+  ],
+  "native_mutations": 0,
+  "external_messages": 0,
+  "generic_updatePullRequestBranch_invoked": false
+}

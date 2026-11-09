@@ -1,0 +1,239 @@
+{
+  "B_mutation_dispatched": false,
+  "C_mutation_dispatched": false,
+  "case": "gql-partial-001",
+  "inputs": {
+    "A0": "d73f1543202618e1eb359fb8f15751e1092ccc7f",
+    "A1": "a8a39b61ad98ac6987183198ea308400ca507ebc",
+    "B-expected": "82e27b1a1c501fdd1921224b0655529970d64e3a",
+    "B0": "74cd012a960d3525e00727be30dbfd6fc0b170b5",
+    "C0": "dca811f5d210b004f6229ea1134f3fb49f1cba44",
+    "trunk": "7dab21a9a9fe31304280abd4cf9cb55df0caa78b"
+  },
+  "observations": [
+    {
+      "file": "B-basis-0.observation.json",
+      "prs": {
+        "A": {
+          "GraphQL_base": "7dab21a9a9fe31304280abd4cf9cb55df0caa78b",
+          "GraphQL_base_ref": "exh-1109-workflow-gql-partial-001/trunk",
+          "GraphQL_head": "a8a39b61ad98ac6987183198ea308400ca507ebc",
+          "REST_base": "7dab21a9a9fe31304280abd4cf9cb55df0caa78b",
+          "REST_base_ref": "exh-1109-workflow-gql-partial-001/trunk",
+          "REST_head": "d73f1543202618e1eb359fb8f15751e1092ccc7f"
+        },
+        "B": {
+          "GraphQL_base": "d73f1543202618e1eb359fb8f15751e1092ccc7f",
+          "GraphQL_base_ref": "exh-1109-workflow-gql-partial-001/A",
+          "GraphQL_head": "74cd012a960d3525e00727be30dbfd6fc0b170b5",
+          "REST_base": "d73f1543202618e1eb359fb8f15751e1092ccc7f",
+          "REST_base_ref": "exh-1109-workflow-gql-partial-001/A",
+          "REST_head": "74cd012a960d3525e00727be30dbfd6fc0b170b5"
+        },
+        "C": {
+          "GraphQL_base": "74cd012a960d3525e00727be30dbfd6fc0b170b5",
+          "GraphQL_base_ref": "exh-1109-workflow-gql-partial-001/B",
+          "GraphQL_head": "dca811f5d210b004f6229ea1134f3fb49f1cba44",
+          "REST_base": "74cd012a960d3525e00727be30dbfd6fc0b170b5",
+          "REST_base_ref": "exh-1109-workflow-gql-partial-001/B",
+          "REST_head": "dca811f5d210b004f6229ea1134f3fb49f1cba44"
+        }
+      },
+      "refs": {
+        "refs/heads/exh-1109-workflow-gql-partial-001/A": "a8a39b61ad98ac6987183198ea308400ca507ebc",
+        "refs/heads/exh-1109-workflow-gql-partial-001/B": "74cd012a960d3525e00727be30dbfd6fc0b170b5",
+        "refs/heads/exh-1109-workflow-gql-partial-001/C": "dca811f5d210b004f6229ea1134f3fb49f1cba44",
+        "refs/heads/exh-1109-workflow-gql-partial-001/author-source": "dca811f5d210b004f6229ea1134f3fb49f1cba44",
+        "refs/heads/exh-1109-workflow-gql-partial-001/trunk": "7dab21a9a9fe31304280abd4cf9cb55df0caa78b"
+      },
+      "utc": "2026-11-09T16:43:01.357567+00:00"
+    },
+    {
+      "file": "B-basis-1.observation.json",
+      "prs": {
+        "A": {
+          "GraphQL_base": "7dab21a9a9fe31304280abd4cf9cb55df0caa78b",
+          "GraphQL_base_ref": "exh-1109-workflow-gql-partial-001/trunk",
+          "GraphQL_head": "a8a39b61ad98ac6987183198ea308400ca507ebc",
+          "REST_base": "7dab21a9a9fe31304280abd4cf9cb55df0caa78b",
+          "REST_base_ref": "exh-1109-workflow-gql-partial-001/trunk",
+          "REST_head": "a8a39b61ad98ac6987183198ea308400ca507ebc"
+        },
+        "B": {
+          "GraphQL_base": "d73f1543202618e1eb359fb8f15751e1092ccc7f",
+          "GraphQL_base_ref": "exh-1109-workflow-gql-partial-001/A",
+          "GraphQL_head": "74cd012a960d3525e00727be30dbfd6fc0b170b5",
+          "REST_base": "d73f1543202618e1eb359fb8f15751e1092ccc7f",
+          "REST_base_ref": "exh-1109-workflow-gql-partial-001/A",
+          "REST_head": "74cd012a960d3525e00727be30dbfd6fc0b170b5"
+        },
+        "C": {
+          "GraphQL_base": "74cd012a960d3525e00727be30dbfd6fc0b170b5",
+          "GraphQL_base_ref": "exh-1109-workflow-gql-partial-001/B",
+          "GraphQL_head": "dca811f5d210b004f6229ea1134f3fb49f1cba44",
+          "REST_base": "74cd012a960d3525e00727be30dbfd6fc0b170b5",
+          "REST_base_ref": "exh-1109-workflow-gql-partial-001/B",
+          "REST_head": "dca811f5d210b004f6229ea1134f3fb49f1cba44"
+        }
+      },
+      "refs": {
+        "refs/heads/exh-1109-workflow-gql-partial-001/A": "a8a39b61ad98ac6987183198ea308400ca507ebc",
+        "refs/heads/exh-1109-workflow-gql-partial-001/B": "74cd012a960d3525e00727be30dbfd6fc0b170b5",
+        "refs/heads/exh-1109-workflow-gql-partial-001/C": "dca811f5d210b004f6229ea1134f3fb49f1cba44",
+        "refs/heads/exh-1109-workflow-gql-partial-001/author-source": "dca811f5d210b004f6229ea1134f3fb49f1cba44",
+        "refs/heads/exh-1109-workflow-gql-partial-001/trunk": "7dab21a9a9fe31304280abd4cf9cb55df0caa78b"
+      },
+      "utc": "2026-11-09T16:43:06.065308+00:00"
+    },
+    {
+      "file": "B-basis-2.observation.json",
+      "prs": {
+        "A": {
+          "GraphQL_base": "7dab21a9a9fe31304280abd4cf9cb55df0caa78b",
+          "GraphQL_base_ref": "exh-1109-workflow-gql-partial-001/trunk",
+          "GraphQL_head": "a8a39b61ad98ac6987183198ea308400ca507ebc",
+          "REST_base": "7dab21a9a9fe31304280abd4cf9cb55df0caa78b",
+          "REST_base_ref": "exh-1109-workflow-gql-partial-001/trunk",
+          "REST_head": "a8a39b61ad98ac6987183198ea308400ca507ebc"
+        },
+        "B": {
+          "GraphQL_base": "d73f1543202618e1eb359fb8f15751e1092ccc7f",
+          "GraphQL_base_ref": "exh-1109-workflow-gql-partial-001/A",
+          "GraphQL_head": "74cd012a960d3525e00727be30dbfd6fc0b170b5",
+          "REST_base": "d73f1543202618e1eb359fb8f15751e1092ccc7f",
+          "REST_base_ref": "exh-1109-workflow-gql-partial-001/A",
+          "REST_head": "74cd012a960d3525e00727be30dbfd6fc0b170b5"
+        },
+        "C": {
+          "GraphQL_base": "74cd012a960d3525e00727be30dbfd6fc0b170b5",
+          "GraphQL_base_ref": "exh-1109-workflow-gql-partial-001/B",
+          "GraphQL_head": "dca811f5d210b004f6229ea1134f3fb49f1cba44",
+          "REST_base": "74cd012a960d3525e00727be30dbfd6fc0b170b5",
+          "REST_base_ref": "exh-1109-workflow-gql-partial-001/B",
+          "REST_head": "dca811f5d210b004f6229ea1134f3fb49f1cba44"
+        }
+      },
+      "refs": {
+        "refs/heads/exh-1109-workflow-gql-partial-001/A": "a8a39b61ad98ac6987183198ea308400ca507ebc",
+        "refs/heads/exh-1109-workflow-gql-partial-001/B": "74cd012a960d3525e00727be30dbfd6fc0b170b5",
+        "refs/heads/exh-1109-workflow-gql-partial-001/C": "dca811f5d210b004f6229ea1134f3fb49f1cba44",
+        "refs/heads/exh-1109-workflow-gql-partial-001/author-source": "dca811f5d210b004f6229ea1134f3fb49f1cba44",
+        "refs/heads/exh-1109-workflow-gql-partial-001/trunk": "7dab21a9a9fe31304280abd4cf9cb55df0caa78b"
+      },
+      "utc": "2026-11-09T16:43:10.521250+00:00"
+    },
+    {
+      "file": "B-basis-3.observation.json",
+      "prs": {
+        "A": {
+          "GraphQL_base": "7dab21a9a9fe31304280abd4cf9cb55df0caa78b",
+          "GraphQL_base_ref": "exh-1109-workflow-gql-partial-001/trunk",
+          "GraphQL_head": "a8a39b61ad98ac6987183198ea308400ca507ebc",
+          "REST_base": "7dab21a9a9fe31304280abd4cf9cb55df0caa78b",
+          "REST_base_ref": "exh-1109-workflow-gql-partial-001/trunk",
+          "REST_head": "a8a39b61ad98ac6987183198ea308400ca507ebc"
+        },
+        "B": {
+          "GraphQL_base": "d73f1543202618e1eb359fb8f15751e1092ccc7f",
+          "GraphQL_base_ref": "exh-1109-workflow-gql-partial-001/A",
+          "GraphQL_head": "74cd012a960d3525e00727be30dbfd6fc0b170b5",
+          "REST_base": "d73f1543202618e1eb359fb8f15751e1092ccc7f",
+          "REST_base_ref": "exh-1109-workflow-gql-partial-001/A",
+          "REST_head": "74cd012a960d3525e00727be30dbfd6fc0b170b5"
+        },
+        "C": {
+          "GraphQL_base": "74cd012a960d3525e00727be30dbfd6fc0b170b5",
+          "GraphQL_base_ref": "exh-1109-workflow-gql-partial-001/B",
+          "GraphQL_head": "dca811f5d210b004f6229ea1134f3fb49f1cba44",
+          "REST_base": "74cd012a960d3525e00727be30dbfd6fc0b170b5",
+          "REST_base_ref": "exh-1109-workflow-gql-partial-001/B",
+          "REST_head": "dca811f5d210b004f6229ea1134f3fb49f1cba44"
+        }
+      },
+      "refs": {
+        "refs/heads/exh-1109-workflow-gql-partial-001/A": "a8a39b61ad98ac6987183198ea308400ca507ebc",
+        "refs/heads/exh-1109-workflow-gql-partial-001/B": "74cd012a960d3525e00727be30dbfd6fc0b170b5",
+        "refs/heads/exh-1109-workflow-gql-partial-001/C": "dca811f5d210b004f6229ea1134f3fb49f1cba44",
+        "refs/heads/exh-1109-workflow-gql-partial-001/author-source": "dca811f5d210b004f6229ea1134f3fb49f1cba44",
+        "refs/heads/exh-1109-workflow-gql-partial-001/trunk": "7dab21a9a9fe31304280abd4cf9cb55df0caa78b"
+      },
+      "utc": "2026-11-09T16:43:15.082324+00:00"
+    },
+    {
+      "file": "B-basis-4.observation.json",
+      "prs": {
+        "A": {
+          "GraphQL_base": "7dab21a9a9fe31304280abd4cf9cb55df0caa78b",
+          "GraphQL_base_ref": "exh-1109-workflow-gql-partial-001/trunk",
+          "GraphQL_head": "a8a39b61ad98ac6987183198ea308400ca507ebc",
+          "REST_base": "7dab21a9a9fe31304280abd4cf9cb55df0caa78b",
+          "REST_base_ref": "exh-1109-workflow-gql-partial-001/trunk",
+          "REST_head": "a8a39b61ad98ac6987183198ea308400ca507ebc"
+        },
+        "B": {
+          "GraphQL_base": "d73f1543202618e1eb359fb8f15751e1092ccc7f",
+          "GraphQL_base_ref": "exh-1109-workflow-gql-partial-001/A",
+          "GraphQL_head": "74cd012a960d3525e00727be30dbfd6fc0b170b5",
+          "REST_base": "d73f1543202618e1eb359fb8f15751e1092ccc7f",
+          "REST_base_ref": "exh-1109-workflow-gql-partial-001/A",
+          "REST_head": "74cd012a960d3525e00727be30dbfd6fc0b170b5"
+        },
+        "C": {
+          "GraphQL_base": "74cd012a960d3525e00727be30dbfd6fc0b170b5",
+          "GraphQL_base_ref": "exh-1109-workflow-gql-partial-001/B",
+          "GraphQL_head": "dca811f5d210b004f6229ea1134f3fb49f1cba44",
+          "REST_base": "74cd012a960d3525e00727be30dbfd6fc0b170b5",
+          "REST_base_ref": "exh-1109-workflow-gql-partial-001/B",
+          "REST_head": "dca811f5d210b004f6229ea1134f3fb49f1cba44"
+        }
+      },
+      "refs": {
+        "refs/heads/exh-1109-workflow-gql-partial-001/A": "a8a39b61ad98ac6987183198ea308400ca507ebc",
+        "refs/heads/exh-1109-workflow-gql-partial-001/B": "74cd012a960d3525e00727be30dbfd6fc0b170b5",
+        "refs/heads/exh-1109-workflow-gql-partial-001/C": "dca811f5d210b004f6229ea1134f3fb49f1cba44",
+        "refs/heads/exh-1109-workflow-gql-partial-001/author-source": "dca811f5d210b004f6229ea1134f3fb49f1cba44",
+        "refs/heads/exh-1109-workflow-gql-partial-001/trunk": "7dab21a9a9fe31304280abd4cf9cb55df0caa78b"
+      },
+      "utc": "2026-11-09T16:43:19.649267+00:00"
+    },
+    {
+      "file": "B-basis-5.observation.json",
+      "prs": {
+        "A": {
+          "GraphQL_base": "7dab21a9a9fe31304280abd4cf9cb55df0caa78b",
+          "GraphQL_base_ref": "exh-1109-workflow-gql-partial-001/trunk",
+          "GraphQL_head": "a8a39b61ad98ac6987183198ea308400ca507ebc",
+          "REST_base": "7dab21a9a9fe31304280abd4cf9cb55df0caa78b",
+          "REST_base_ref": "exh-1109-workflow-gql-partial-001/trunk",
+          "REST_head": "a8a39b61ad98ac6987183198ea308400ca507ebc"
+        },
+        "B": {
+          "GraphQL_base": "d73f1543202618e1eb359fb8f15751e1092ccc7f",
+          "GraphQL_base_ref": "exh-1109-workflow-gql-partial-001/A",
+          "GraphQL_head": "74cd012a960d3525e00727be30dbfd6fc0b170b5",
+          "REST_base": "d73f1543202618e1eb359fb8f15751e1092ccc7f",
+          "REST_base_ref": "exh-1109-workflow-gql-partial-001/A",
+          "REST_head": "74cd012a960d3525e00727be30dbfd6fc0b170b5"
+        },
+        "C": {
+          "GraphQL_base": "74cd012a960d3525e00727be30dbfd6fc0b170b5",
+          "GraphQL_base_ref": "exh-1109-workflow-gql-partial-001/B",
+          "GraphQL_head": "dca811f5d210b004f6229ea1134f3fb49f1cba44",
+          "REST_base": "74cd012a960d3525e00727be30dbfd6fc0b170b5",
+          "REST_base_ref": "exh-1109-workflow-gql-partial-001/B",
+          "REST_head": "dca811f5d210b004f6229ea1134f3fb49f1cba44"
+        }
+      },
+      "refs": {
+        "refs/heads/exh-1109-workflow-gql-partial-001/A": "a8a39b61ad98ac6987183198ea308400ca507ebc",
+        "refs/heads/exh-1109-workflow-gql-partial-001/B": "74cd012a960d3525e00727be30dbfd6fc0b170b5",
+        "refs/heads/exh-1109-workflow-gql-partial-001/C": "dca811f5d210b004f6229ea1134f3fb49f1cba44",
+        "refs/heads/exh-1109-workflow-gql-partial-001/author-source": "dca811f5d210b004f6229ea1134f3fb49f1cba44",
+        "refs/heads/exh-1109-workflow-gql-partial-001/trunk": "7dab21a9a9fe31304280abd4cf9cb55df0caa78b"
+      },
+      "utc": "2026-11-09T16:43:24.836632+00:00"
+    }
+  ],
+  "phase": "frozen-no-retry",
+  "reason": "Base projection has not acknowledged exact parent:B"
+}

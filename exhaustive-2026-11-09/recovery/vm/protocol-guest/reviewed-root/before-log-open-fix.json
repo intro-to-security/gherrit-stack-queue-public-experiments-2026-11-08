@@ -1,0 +1,4 @@
+{
+  "sha256": "78eb1946c40e6be2e85ccdfdc6cfaad4dd6b080142bef5041d2ecdc42f27b281",
+  "finding": "QEMU started before exclusive serial log open; log-open failure could escape child cleanup. No guest trial ran with this controller."
+}

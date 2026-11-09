@@ -1,0 +1,12 @@
+{
+  "source_sha256": "c345e41760964d8dd01dcea549290dbe4445c62f26550b3e7bdea995e16b1855",
+  "checks": {
+    "archive_file_fsync_after_verification_before_return": true,
+    "archive_directory_fsync_before_return": true,
+    "save_file_then_directory_fsync": true,
+    "output_directory_entry_synced": true,
+    "nonzero_failure_exit_after_report_save": true
+  },
+  "all_passed": true,
+  "scope": "Python syntax and source-order checks only; no controller execution, VM or container effects"
+}

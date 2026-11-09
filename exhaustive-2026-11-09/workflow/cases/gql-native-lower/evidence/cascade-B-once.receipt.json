@@ -1,0 +1,42 @@
+{
+  "data": {
+    "data": {
+      "updatePullRequestBranch": {
+        "clientMutationId": "exh-1109-workflow-gql-native-lower-71519433-cascade-B",
+        "pullRequest": {
+          "baseRefName": "exh-1109-workflow-gql-native-lower-71519433/A",
+          "baseRefOid": "55b533c0545502593f39a628ee6e4e92ba73b73a",
+          "headRefOid": "4b03688595350b87c74e901513826297d01ed62c",
+          "id": "PR_kwDOVnhIZ88AAAABN3kxXg",
+          "number": 619,
+          "stack": {
+            "baseRefName": "exh-1109-workflow-gql-native-lower-71519433/trunk",
+            "id": "PRS_kwDOVnhIZ84AMYvX",
+            "number": 621,
+            "size": 3
+          }
+        }
+      }
+    }
+  },
+  "disposition": "response-retained",
+  "ended": "2026-11-09T14:59:28.113466+00:00",
+  "exit": 0,
+  "http": 200,
+  "kind": "update-branch",
+  "method": "POST",
+  "monotonic": 7.795374666,
+  "path": "graphql",
+  "payload": {
+    "query": "mutation WorkflowUpdate($input: UpdatePullRequestBranchInput!) {\n  updatePullRequestBranch(input: $input) {\n    clientMutationId\n    pullRequest { id number headRefOid baseRefName baseRefOid\n      stack { id number size baseRefName } }\n  }\n}",
+    "variables": {
+      "input": {
+        "clientMutationId": "exh-1109-workflow-gql-native-lower-71519433-cascade-B",
+        "expectedHeadOid": "4b03688595350b87c74e901513826297d01ed62c",
+        "pullRequestId": "PR_kwDOVnhIZ88AAAABN3kxXg",
+        "updateMethod": "REBASE"
+      }
+    }
+  },
+  "started": "2026-11-09T14:59:26.321598+00:00"
+}

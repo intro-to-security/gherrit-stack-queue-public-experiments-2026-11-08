@@ -1,0 +1,17 @@
+{
+  "at": "2026-11-09T15:16:19.089881+00:00",
+  "command": [
+    "/usr/bin/python3",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/code-survey/rebase-probes",
+    "-p",
+    "test_*.py",
+    "-v"
+  ],
+  "exit": 0,
+  "stdout": "",
+  "stderr": "test_capability_premise_checks_exact_trunk_trees_parents_and_projection (test_harness.GuardTests) ... ok\ntest_done_partial_and_unknown_results_remain_distinct (test_harness.GuardTests) ... ok\ntest_empty_admission_can_be_reconciled_by_read_without_resubmission (test_harness.GuardTests) ... ok\ntest_exact_root_control_path_and_reviewed_source_hash_are_required (test_harness.GuardTests) ... ok\ntest_existing_case_cannot_reinitialize (test_harness.GuardTests) ... ok\ntest_failed_job_cannot_authorize_marker (test_harness.GuardTests) ... ok\ntest_full_vector_and_deliberate_lower_upper_variants (test_harness.GuardTests) ... ok\ntest_numeric_repository_owned_group_and_complete_vector_are_required (test_harness.GuardTests) ... ok\ntest_push_requires_exact_owned_leases_before_any_process (test_harness.GuardTests) ... ok\ntest_unknown_write_is_retained_and_never_repeated (test_harness.GuardTests) ... ok\ntest_exact_path_and_both_reviewed_source_hashes (test_named_probe.NamedGuardTests) ... ok\ntest_named_unknown_acknowledgement_cannot_be_repeated (test_named_probe.NamedGuardTests) ... ok\ntest_retained_positive_scope_and_fresh_identity_guards (test_named_probe.NamedGuardTests) ... ok\n\n----------------------------------------------------------------------\nRan 13 tests in 0.009s\n\nOK\n"
+}

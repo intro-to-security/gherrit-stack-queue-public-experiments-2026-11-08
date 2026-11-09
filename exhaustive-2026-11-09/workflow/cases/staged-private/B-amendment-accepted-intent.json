@@ -1,0 +1,48 @@
+{
+  "canonical_pr": 627,
+  "captured_local": {
+    "base": "3eb8154fc4e875c7fb338197055f0ddbec7f8aef",
+    "tip": "e7812b116d8d8d606be4e19e3c357045e96769a4"
+  },
+  "expected": {
+    "refs/heads/exh-1109-workflow-staged-private-ee93bbfc/B": "1e5df5cf05003cc9e9a819bb97457bd70975d2a1",
+    "refs/tags/gherrit/exh-1109-workflow-staged-private-ee93bbfc-B/v2": "0000000000000000000000000000000000000000"
+  },
+  "experimental_overlap": true,
+  "incorporated_hosted": {
+    "base": "5c3deb8174b5ead6d29bec3ac531de3118ab2e91",
+    "tip": "1e5df5cf05003cc9e9a819bb97457bd70975d2a1"
+  },
+  "older_native_scope_not_cleared": [
+    {
+      "layer": "A",
+      "result": {
+        "details": {
+          "message": "Pull request was merged.",
+          "sha": "5c3deb8174b5ead6d29bec3ac531de3118ab2e91"
+        },
+        "status": "merged"
+      },
+      "selected_sha": "c0efc5664c2562865ed1039b2c9a0d2a1e46f69a",
+      "submission": "land-old-A-submit",
+      "suffix_settlement": "not established by this experiment"
+    },
+    {
+      "layer": "F",
+      "result": {
+        "details": {
+          "message": "Pull request was merged.",
+          "sha": "3eb8154fc4e875c7fb338197055f0ddbec7f8aef"
+        },
+        "status": "merged"
+      },
+      "selected_sha": "19988e928a3c45bcb706d1d5557dc555569b7768",
+      "submission": "land-F-submit",
+      "suffix_settlement": "not established by this experiment"
+    }
+  ],
+  "updates": {
+    "refs/heads/exh-1109-workflow-staged-private-ee93bbfc/B": "e7812b116d8d8d606be4e19e3c357045e96769a4",
+    "refs/tags/gherrit/exh-1109-workflow-staged-private-ee93bbfc-B/v2": "e7812b116d8d8d606be4e19e3c357045e96769a4"
+  }
+}

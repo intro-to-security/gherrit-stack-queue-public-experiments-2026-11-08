@@ -1,0 +1,13 @@
+{
+  "started": {
+    "utc": "2026-11-09T16:40:34.768531+00:00",
+    "monotonic_ns": 2648348541
+  },
+  "finished": {
+    "utc": "2026-11-09T16:40:34.953956+00:00",
+    "monotonic_ns": 2833813000
+  },
+  "returncode": 0,
+  "stdout": "5afe9c34540002ec9554c2e9d279f4fa895d89db\trefs/heads/exh-1109-causal-rb-app-001/A\n11ddd6ef32afc4bca7865a22c70248a6156edee7\trefs/heads/exh-1109-causal-rb-app-001/B\ned2c60237bed7d27262450cd6028b9dfd0fee983\trefs/heads/exh-1109-causal-rb-app-001/trunk\n",
+  "stderr": ""
+}

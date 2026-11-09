@@ -1,0 +1,25 @@
+{
+  "body": {
+    "node_id": "REF_kwDOVnhIZ9oAJ3JlZnMvaGVhZHMvZXhoLTExMDktY2F1c2FsLXJiLWFwcC0wMDEvQQ",
+    "object": {
+      "sha": "5afe9c34540002ec9554c2e9d279f4fa895d89db",
+      "type": "commit",
+      "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/git/commits/5afe9c34540002ec9554c2e9d279f4fa895d89db"
+    },
+    "ref": "refs/heads/exh-1109-causal-rb-app-001/A",
+    "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/git/refs/heads/exh-1109-causal-rb-app-001/A"
+  },
+  "ended_utc": "2026-11-09T16:42:36.109071+00:00",
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "date": "Mon, 09 Nov 2026 16:42:36 GMT",
+    "x-accepted-github-permissions": "contents=read",
+    "x-github-api-version-selected": "2026-03-10",
+    "x-github-request-id": "482C:108C63:1030355:35CF73F:6AF1F7FB"
+  },
+  "method": "GET",
+  "path": "/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/git/ref/heads/exh-1109-causal-rb-app-001/A",
+  "payload": null,
+  "started_utc": "2026-11-09T16:42:35.720595+00:00",
+  "status": 200
+}

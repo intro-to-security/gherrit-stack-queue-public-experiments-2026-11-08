@@ -1,0 +1,34 @@
+{
+  "status": "request-only-not-a-grant",
+  "repository": "joshlf/gherrit-native-stack-experiments-2026-11-08",
+  "cases": {
+    "gql-native-lower": {
+      "prefix": "exh-1109-workflow-gql-native-lower-71519433",
+      "actions": [
+        "cascade-followup"
+      ],
+      "effects": [
+        "update-branch"
+      ]
+    }
+  },
+  "harness_sha256": {
+    "core.py": "a98242dabb752a89f8da47814ea62313d1d64871afe50042f930875445e4f453",
+    "effects.py": "20d8a34e0d04e93080f70c5bc3499fe5835cb2d45feff4c5bb95a3fed6418cc9",
+    "run.py": "996f4073feb7460b004f190ac95228242ad8ab0d8e8537a80fc0cb9f69d2abc0",
+    "cascade_followup.py": "39bb03a0fe943db76e2333446f14fa76de5ee4c5475aa4e662825ade9e139361"
+  },
+  "exact_targets": [
+    {
+      "layer": "B",
+      "pr": 619,
+      "node": "PR_kwDOVnhIZ88AAAABN3kxXg"
+    },
+    {
+      "layer": "C",
+      "pr": 620,
+      "node": "PR_kwDOVnhIZ88AAAABN3kygQ"
+    }
+  ],
+  "scope": "Exactly one fresh expected-head GraphQL REBASE for B, then one for C only after a usable B result. No Git push, create, merge, membership, setting, source or archive effect. Preserve completed prefix and freeze on partial/unknown failure."
+}

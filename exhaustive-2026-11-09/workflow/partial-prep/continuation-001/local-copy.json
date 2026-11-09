@@ -1,0 +1,15 @@
+{
+  "command": [
+    "git",
+    "-c",
+    "core.hooksPath=/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/workflow/partial-prep/continuation-001/empty-hooks",
+    "--git-dir=/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/workflow/partial-prep/continuation-001/git",
+    "config",
+    "core.hooksPath",
+    "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/workflow/partial-prep/continuation-001/empty-hooks"
+  ],
+  "exit": 0,
+  "source": "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/workflow/partial-prep/fixture/git",
+  "stderr": "",
+  "stdout": ""
+}

@@ -1,0 +1,49 @@
+{
+  "source_vector": {
+    "fixture_runner.py": "07f5452aaf54ac3462da8c796705eed8c923505276dd2cb78572b253b519e071",
+    "probe.py": "476029710ad48039c36e423fd6ff6c6219bd591edb96a6df82934eaec1f1e12b",
+    "fixture.template.json": "bdd0178da4fa4ed4ab83d70dd71ff7592a94c7943f75e5778b9276ec3a639772",
+    "workflow.template.yml": "2d7155d36cd3960bebc6915dcbd64fd0c9f94aa10a638efda24e0971acbba7a0",
+    "control/rootlab.py": "ae1ae63d5ee8370cbca11711f5d5e76a97669881ddf8ef8911493666393d128d"
+  },
+  "prepared_sha256": "07c39be5858e2bde2923c8a7308f596c7f88b568fa8b60e650cd0d738296ed1d",
+  "commit_content_reviews": [
+    {
+      "name": "trunk",
+      "oid": "ed2c60237bed7d27262450cd6028b9dfd0fee983",
+      "commit": "tree 6b8a7fe1344866f07751359eacf08198feaf1172\nauthor Josh Liebow-Feeser <hello@joshlf.com> 1794242345 -0500\ncommitter Josh Liebow-Feeser <hello@joshlf.com> 1794242345 -0500\n\nRecord the isolated App-token synthetic trunk\n\nAgent-authored-by: AI agent acting on joshlf's behalf\n",
+      "paths": [
+        "root.txt"
+      ]
+    },
+    {
+      "name": "A",
+      "oid": "5afe9c34540002ec9554c2e9d279f4fa895d89db",
+      "commit": "tree 894764707dd852086d426ae91d3a9be2d20b0257\nparent ed2c60237bed7d27262450cd6028b9dfd0fee983\nauthor Josh Liebow-Feeser <hello@joshlf.com> 1794242345 -0500\ncommitter Josh Liebow-Feeser <hello@joshlf.com> 1794242345 -0500\n\nRecord synthetic App-token member A\n\nAgent-authored-by: AI agent acting on joshlf's behalf\n",
+      "paths": [
+        "a.txt",
+        "root.txt"
+      ]
+    },
+    {
+      "name": "B",
+      "oid": "11ddd6ef32afc4bca7865a22c70248a6156edee7",
+      "commit": "tree 065653bb65bec89d6af5a1574d7238f0625e1d85\nparent 5afe9c34540002ec9554c2e9d279f4fa895d89db\nauthor Josh Liebow-Feeser <hello@joshlf.com> 1794242346 -0500\ncommitter Josh Liebow-Feeser <hello@joshlf.com> 1794242346 -0500\n\nRecord synthetic App-token member B\n\nAgent-authored-by: AI agent acting on joshlf's behalf\n",
+      "paths": [
+        "a.txt",
+        "b.txt",
+        "root.txt"
+      ]
+    },
+    {
+      "name": "advanced",
+      "oid": "1eadf6cbffab4ef16d21830f06e5806cf8eb1b1a",
+      "commit": "tree 3710705620b8de2b0aaae1883ee541093a81ca11\nparent ed2c60237bed7d27262450cd6028b9dfd0fee983\nauthor Josh Liebow-Feeser <hello@joshlf.com> 1794242346 -0500\ncommitter Josh Liebow-Feeser <hello@joshlf.com> 1794242346 -0500\n\nAdvance only the App-token synthetic trunk\n\nAgent-authored-by: AI agent acting on joshlf's behalf\n",
+      "paths": [
+        "root.txt",
+        "trunk.txt"
+      ]
+    }
+  ],
+  "scope": "All4exact tinycommit trees/messages/body bytes verified byroot; no remote effects."
+}

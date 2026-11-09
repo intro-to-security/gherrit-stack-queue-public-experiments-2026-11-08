@@ -1,0 +1,42 @@
+{
+  "data": {
+    "data": {
+      "updatePullRequestBranch": null
+    },
+    "errors": [
+      {
+        "locations": [
+          {
+            "column": 3,
+            "line": 2
+          }
+        ],
+        "message": "head sha didn't match the current head ref.",
+        "path": [
+          "updatePullRequestBranch"
+        ],
+        "type": "UNPROCESSABLE"
+      }
+    ]
+  },
+  "disposition": "response-retained",
+  "ended": "2026-11-09T14:37:40.709761+00:00",
+  "exit": 1,
+  "http": 200,
+  "kind": "update-branch",
+  "method": "POST",
+  "monotonic": 5.113712708,
+  "path": "graphql",
+  "payload": {
+    "query": "mutation WorkflowUpdate($input: UpdatePullRequestBranchInput!) {\n  updatePullRequestBranch(input: $input) {\n    clientMutationId\n    pullRequest { id number headRefOid baseRefName baseRefOid\n      stack { id number size baseRefName } }\n  }\n}",
+    "variables": {
+      "input": {
+        "clientMutationId": "exh-1109-workflow-gql-native-wrong-1784bd52-once",
+        "expectedHeadOid": "0000000000000000000000000000000000000000",
+        "pullRequestId": "PR_kwDOVnhIZ88AAAABN3ix4g",
+        "updateMethod": "REBASE"
+      }
+    }
+  },
+  "started": "2026-11-09T14:37:40.293773+00:00"
+}

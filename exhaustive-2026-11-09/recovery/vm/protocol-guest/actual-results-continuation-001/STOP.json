@@ -1,0 +1,7 @@
+{
+  "state": "Unknown disposition or failed cut premise; no retry",
+  "rows_retained": 8,
+  "not_run": [
+    "complete"
+  ]
+}

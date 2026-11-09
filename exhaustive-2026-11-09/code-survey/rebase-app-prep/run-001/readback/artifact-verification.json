@@ -1,0 +1,69 @@
+{
+  "ZIP_sha256": "69b29179b0ec85cd73b83fd169f4a668726a554c8a2cc050e8ad3ad17147b73e",
+  "argv": [
+    "gh",
+    "api",
+    "--method",
+    "GET",
+    "repos/joshlf/gherrit-native-stack-experiments-2026-11-08/actions/artifacts/13693550267/zip"
+  ],
+  "artifact_id": 13693550267,
+  "ended_utc": "2026-11-09T16:44:36.019660+00:00",
+  "limits": "Archive validates exact selected sanitized bytes and run/source identities; pattern scans do not detect every possible secret format.",
+  "matches_GitHub_metadata_digest": true,
+  "returncode": 0,
+  "safe_relative_regular_UTF8_JSON_members": [
+    {
+      "bytes": 696,
+      "path": "attempt.json",
+      "sha256": "cf8be2e3bc24feeb80e19d1fe17f20d25e2a89ffadd825e3c01c980afdc39b5a"
+    },
+    {
+      "bytes": 707,
+      "path": "context.json",
+      "sha256": "c9412438567c4bf0152561d057083920584dd5874eacd486994fab45a36f1b04"
+    },
+    {
+      "bytes": 22725,
+      "path": "pr-0.json",
+      "sha256": "733c7907e58870e70f4033103ef0621ae83e5419213a180a2e31fdba064fcfcb"
+    },
+    {
+      "bytes": 22717,
+      "path": "pr-1.json",
+      "sha256": "8fc2f79fefc0b2d2d15d33966c38311ce683f9b3294b515ed8054ce6b3248b63"
+    },
+    {
+      "bytes": 852,
+      "path": "put-result.json",
+      "sha256": "496f6fce982a8b0a5d9dd1c9c341f40b935f8c99875beb66e943a96387004156"
+    },
+    {
+      "bytes": 1116,
+      "path": "ref-0.json",
+      "sha256": "272ca3b0a05dc5e10ab729bde76e7f484efef85acbed660c954e8ffb9e30635f"
+    },
+    {
+      "bytes": 1115,
+      "path": "ref-1.json",
+      "sha256": "2231e651bc642033798a9afc3cb89d33fc0ef23679f13bce3cd7dd6108486cdc"
+    },
+    {
+      "bytes": 8147,
+      "path": "repository.json",
+      "sha256": "3729a7a1513a8cefbad23ee12dd1032373031fa81bc0463e84fb11768d0d672d"
+    },
+    {
+      "bytes": 5639,
+      "path": "stack.json",
+      "sha256": "3de013ba5753e223063444ddf187c217b342b3f8ffae864d5a8899e04000d0e2"
+    },
+    {
+      "bytes": 1132,
+      "path": "trunk.json",
+      "sha256": "151dcfdc8d4ed73b33d0ba2b595c5150c1c0869576c6e7209fb67140cf7c99e4"
+    }
+  ],
+  "started_utc": "2026-11-09T16:44:35.505359+00:00",
+  "token_pattern_matches": []
+}

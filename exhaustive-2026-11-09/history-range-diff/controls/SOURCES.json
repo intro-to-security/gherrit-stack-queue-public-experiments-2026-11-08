@@ -1,0 +1,26 @@
+{
+  "primary_docs": [
+    {
+      "url": "https://git-scm.com/docs/git-range-diff",
+      "manual_revision": "2.55.0 (latest documentation at inspection)",
+      "checked": "2026-11-09",
+      "claims_used": ["explicit range forms", "patch/message/author commit pairing", "creation-factor tuning", "human-readable output stability limit"]
+    },
+    {
+      "url": "https://git-scm.com/docs/diff-format",
+      "checked": "2026-11-09",
+      "claims_used": ["raw mode and object identities"]
+    }
+  ],
+  "read_only_inputs": [
+    {
+      "path": "../REQUEST-RESULT.json",
+      "sha256": "e7a4bdffe50de94c9e4754419e924a049d732f0a7f86203fcb75df41618168cd"
+    },
+    {
+      "path": "../../../native-stacks-followup-2026-11-08/structure/git/cli-history/history-binding.json",
+      "sha256": "9049722fcb4ff485111b897e5acd0366785618672e13e8ca19d63223c45e5607"
+    }
+  ],
+  "limits": "Documentation informed interpretation; local observations are bound to Git 2.54.0 Apple Git-157, explicit inputs and retained source. No frozen-history mutation."
+}

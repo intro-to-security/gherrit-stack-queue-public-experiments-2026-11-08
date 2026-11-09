@@ -1,0 +1,76 @@
+{
+  "archive": "retained-raw-disks.tar.gz",
+  "archive_bytes": 980256,
+  "archive_sha256": "7a9f738b56393c62b4e0c65126e7feb6aee3100d7234c5164d658aa26c3792b4",
+  "files": [
+    {
+      "path": "actual-results-001/after_return.raw",
+      "bytes": 33554432,
+      "sha256": "fe4e991d31ab192566faab65da281da11c1fc8955147fc4a14ffbbb5b1904933",
+      "mode": 420,
+      "uid": 502,
+      "gid": 20,
+      "mtime_ns": 1794239326000000000,
+      "atime_ns": 1794239479140109827
+    },
+    {
+      "path": "actual-results-001/base.raw",
+      "bytes": 33554432,
+      "sha256": "f532e33d4709d0d72e8e1b1cb62c72537fd2c56ed6f6e071e32344c81b3d53ae",
+      "mode": 420,
+      "uid": 502,
+      "gid": 20,
+      "mtime_ns": 1794239305000000000,
+      "atime_ns": 1794239479140109743
+    },
+    {
+      "path": "actual-results-complete-001/base.raw",
+      "bytes": 33554432,
+      "sha256": "7bc3b1a9c2e2ed32bbd15eb2d25a89c61b7ce3262c2b857ca4c65f7f6e99069e",
+      "mode": 420,
+      "uid": 502,
+      "gid": 20,
+      "mtime_ns": 1794241441000000000,
+      "atime_ns": 1794241513732338468
+    },
+    {
+      "path": "actual-results-continuation-001/base.raw",
+      "bytes": 33554432,
+      "sha256": "ffa065a3b37b6b2b482ea931931f520813a81d894bd76e7315d4f4af325d9af4",
+      "mode": 420,
+      "uid": 502,
+      "gid": 20,
+      "mtime_ns": 1794240834000000000,
+      "atime_ns": 1794240946852273214
+    },
+    {
+      "path": "actual-results-continuation-001/result_checkpoint.raw",
+      "bytes": 33554432,
+      "sha256": "cc2e43ef5c3c7e39048675ff3edb88d1eefe42b8013c5867c564a7fde3d98f88",
+      "mode": 420,
+      "uid": 502,
+      "gid": 20,
+      "mtime_ns": 1794240917000000000,
+      "atime_ns": 1794240947419608174
+    },
+    {
+      "path": "durable-variant-results-001/base.raw",
+      "bytes": 33554432,
+      "sha256": "19ef74c5267ab715756c125bd0a25eaada3ad270d53ef661e97ca3e9f922f043",
+      "mode": 420,
+      "uid": 502,
+      "gid": 20,
+      "mtime_ns": 1794241280000000000,
+      "atime_ns": 1794241438176118824
+    }
+  ],
+  "verified_content_and_required_outer_metadata": true,
+  "consumer_check": "All guest/controller processes terminated; forensic parser consumes exact pre/post gzip images, not these redundant raw copies. Original script outputs are frozen and refuse reentry. Each raw path is restorable exactly before any manual replay.",
+  "expanded_removed": true,
+  "expanded_logical_bytes": 201326592,
+  "expanded_allocated_bytes_reported_by_stat": 201326592,
+  "measured_free_bytes_before": 40222720000,
+  "measured_free_bytes_after": 40345600000,
+  "measured_free_delta_bytes": 122880000,
+  "physical_delta_limit": "Shared host concurrent work and APFS allocation/accounting can affect this delta; do not equate it with logical bytes removed."
+}

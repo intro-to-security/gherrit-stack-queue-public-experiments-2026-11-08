@@ -1,0 +1,74 @@
+{
+  "name": "early-squash-3",
+  "prefix": "exh-1109-causal-early-squash-3",
+  "method": "squash",
+  "timing": "early",
+  "created": {
+    "utc": "2026-11-09T14:01:20.275619+00:00",
+    "monotonic": 0.027493416
+  },
+  "prs": {
+    "A": 585,
+    "B": 586,
+    "C": 587,
+    "D": 588
+  },
+  "heads": {
+    "A": {
+      "ref": "exh-1109-causal-early-squash-3/A",
+      "sha": "af34e35a5c765cbd0bc88a0f5994c89f9972de37"
+    },
+    "B": {
+      "ref": "exh-1109-causal-early-squash-3/B",
+      "sha": "f7576fba1c7664bbecba46d126c8d9d97fab1eb7"
+    },
+    "C": {
+      "ref": "exh-1109-causal-early-squash-3/C",
+      "sha": "67c6b7aec664b92744e7c84ef277566227d1934c"
+    },
+    "D": {
+      "ref": "exh-1109-causal-early-squash-3/D",
+      "sha": "19d0530b06f61f16f9863de7cc398a70c1ed05a0"
+    }
+  },
+  "phase": "bounded-observations-complete",
+  "trunk_sha": "96616fa50da417071d6c6dadda6d451395045f1b",
+  "trunk": "exh-1109-causal-early-squash-3/trunk",
+  "stack": 589,
+  "marker": {
+    "target": "D",
+    "ref": "refs/heads/exh-1109-causal-early-squash-3/D",
+    "before": "19d0530b06f61f16f9863de7cc398a70c1ed05a0",
+    "marker": "7f0cb6d75feefdb7e76feb3b48df83bdb6c23c37",
+    "nonce": "18dfc4d7fe6d4ced954826caa986ecf1"
+  },
+  "merge_uuid": "8d531ae0-602a-45fe-bd7c-00dcb79f0850",
+  "terminal": {
+    "kind": "http",
+    "method": "GET",
+    "path": "repos/joshlf/gherrit-native-stack-experiments-2026-11-08/pulls/585/merge-async/8d531ae0-602a-45fe-bd7c-00dcb79f0850",
+    "payload": null,
+    "start": {
+      "utc": "2026-11-09T14:01:38.609164+00:00",
+      "monotonic": 18.360780541
+    },
+    "end": {
+      "utc": "2026-11-09T14:01:39.932580+00:00",
+      "monotonic": 19.684200583
+    },
+    "exit": 0,
+    "http": 200,
+    "data": {
+      "status": "merged",
+      "details": {
+        "message": "Pull request was merged.",
+        "sha": "171fa5882993433ff8dec3aea36a6beba7a0f857"
+      }
+    },
+    "disposition": "response-retained"
+  },
+  "observation_end": {
+    "utc": "2026-11-09T14:02:40.430757+00:00",
+    "monotonic": 80.182020791
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "kind": "official-cli",
+  "binary": "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-2026-11-08/cli-history/bin/darwin-arm64",
+  "sha256": "70c0cb11346ad5d4f97a02a5cf5242052254d1775d356dc0759f035457873850",
+  "cwd": "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/causal/ordinary-sync-3-checkout",
+  "args": [
+    "sync",
+    "--remote",
+    "origin",
+    "--no-atomic=false"
+  ],
+  "stdin": "EOF",
+  "effect_scope": "ordinary-sync-3",
+  "catalog_and_refs": {
+    "local_refs": "657f97fc324ab818d114888705011b2ccf880802 refs/heads/exh-1109-causal-ordinary-sync-3/A\nb11b418d8c0b4d173f3eca4a29b7669aec586fa2 refs/heads/exh-1109-causal-ordinary-sync-3/B\nebedb56d1336871c7adad5c693fcafd29c41ea12 refs/heads/exh-1109-causal-ordinary-sync-3/C\nb0f489897aef2f26faf46c760065d81e600844ca refs/heads/exh-1109-causal-ordinary-sync-3/D\nebf6b1c81672dcad1a7933212ad3aabf82aa0582 refs/heads/exh-1109-causal-ordinary-sync-3/trunk\n657f97fc324ab818d114888705011b2ccf880802 refs/remotes/origin/exh-1109-causal-ordinary-sync-3/A\nb11b418d8c0b4d173f3eca4a29b7669aec586fa2 refs/remotes/origin/exh-1109-causal-ordinary-sync-3/B\nebedb56d1336871c7adad5c693fcafd29c41ea12 refs/remotes/origin/exh-1109-causal-ordinary-sync-3/C\nb0f489897aef2f26faf46c760065d81e600844ca refs/remotes/origin/exh-1109-causal-ordinary-sync-3/D\nebf6b1c81672dcad1a7933212ad3aabf82aa0582 refs/remotes/origin/exh-1109-causal-ordinary-sync-3/trunk",
+    "catalog": {
+      "gh-stack.lock": "",
+      "gh-stack": "{\n  \"schemaVersion\": 1,\n  \"repository\": \"github.com:joshlf/gherrit-native-stack-experiments-2026-11-08\",\n  \"stacks\": [\n    {\n      \"trunk\": {\n        \"branch\": \"exh-1109-causal-ordinary-sync-3/trunk\",\n        \"head\": \"ebf6b1c81672dcad1a7933212ad3aabf82aa0582\"\n      },\n      \"branches\": [\n        {\n          \"branch\": \"exh-1109-causal-ordinary-sync-3/A\",\n          \"base\": \"ebf6b1c81672dcad1a7933212ad3aabf82aa0582\",\n          \"pullRequest\": {\n            \"number\": 595,\n            \"id\": \"PR_kwDOVnhIZ88AAAABN3TGzw\",\n            \"url\": \"https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08/pull/595\"\n          }\n        },\n        {\n          \"branch\": \"exh-1109-causal-ordinary-sync-3/B\",\n          \"base\": \"657f97fc324ab818d114888705011b2ccf880802\",\n          \"pullRequest\": {\n            \"number\": 596,\n            \"id\": \"PR_kwDOVnhIZ88AAAABN3TJRQ\",\n            \"url\": \"https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08/pull/596\"\n          }\n        },\n        {\n          \"branch\": \"exh-1109-causal-ordinary-sync-3/C\",\n          \"base\": \"b11b418d8c0b4d173f3eca4a29b7669aec586fa2\",\n          \"pullRequest\": {\n            \"number\": 597,\n            \"id\": \"PR_kwDOVnhIZ88AAAABN3TLww\",\n            \"url\": \"https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08/pull/597\"\n          }\n        },\n        {\n          \"branch\": \"exh-1109-causal-ordinary-sync-3/D\",\n          \"base\": \"ebedb56d1336871c7adad5c693fcafd29c41ea12\",\n          \"pullRequest\": {\n            \"number\": 598,\n            \"id\": \"PR_kwDOVnhIZ88AAAABN3TOhA\",\n            \"url\": \"https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08/pull/598\"\n          }\n        }\n      ]\n    }\n  ]\n}",
+      "gh-stack-operation.lock": ""
+    }
+  },
+  "start": {
+    "utc": "2026-11-09T14:20:22.878124+00:00",
+    "monotonic": 29.670595666
+  }
+}

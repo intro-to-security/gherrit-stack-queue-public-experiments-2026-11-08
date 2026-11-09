@@ -1,0 +1,57 @@
+{
+  "checks": [
+    {
+      "actual": "incoherent_no_checkpoint",
+      "expected": "incoherent_no_checkpoint",
+      "name": "incoherent observation does not advance baseline",
+      "passed": true
+    },
+    {
+      "actual": "ordinary_proposal",
+      "expected": "ordinary_proposal",
+      "name": "stale coherent read can miss actual late write",
+      "passed": true
+    },
+    {
+      "actual": "needs_explicit_drift_review",
+      "expected": "needs_explicit_drift_review",
+      "name": "fresh coherent reversal triggers review",
+      "passed": true
+    },
+    {
+      "actual": "7de3c60737d8646a856981b786079089646e355a",
+      "expected": "7de3c60737d8646a856981b786079089646e355a",
+      "name": "actual Git explicit lease admits ABA-returned value",
+      "passed": true
+    }
+  ],
+  "details": {
+    "aba_unobserved": true,
+    "actual_latest": "38bfb8b5ce5b1247598f02f228587fad1b555b1b",
+    "bound": "Finite reads detect present disagreement, not all transient states or origin",
+    "observations": [
+      {
+        "git_head": "38bfb8b5ce5b1247598f02f228587fad1b555b1b",
+        "pr_head": "7de3c60737d8646a856981b786079089646e355a"
+      },
+      {
+        "git_head": "7de3c60737d8646a856981b786079089646e355a",
+        "pr_head": "7de3c60737d8646a856981b786079089646e355a"
+      },
+      {
+        "git_head": "38bfb8b5ce5b1247598f02f228587fad1b555b1b",
+        "pr_head": "38bfb8b5ce5b1247598f02f228587fad1b555b1b"
+      }
+    ],
+    "push_stdout": "To /Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/recovery/runs/1794232632320218000/observation-limits/provider/repo\n \t7de3c60737d8646a856981b786079089646e355a:refs/heads/A\t38bfb8b..7de3c60\nDone\n",
+    "statuses": [
+      "incoherent_no_checkpoint",
+      "ordinary_proposal",
+      "needs_explicit_drift_review"
+    ]
+  },
+  "disposition": "performed",
+  "id": "R05",
+  "status": "passed",
+  "title": "Inconsistent reads, stale reads and ABA"
+}

@@ -1,0 +1,107 @@
+{
+  "action_pins": [
+    {
+      "commit": "11bd71901bbe5b1630ceea73d27597364c9af683",
+      "repository": "actions/checkout",
+      "source": "https://api.github.com/repos/actions/checkout/git/ref/tags/v4.2.2",
+      "tag": "v4.2.2"
+    },
+    {
+      "commit": "ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "repository": "actions/upload-artifact",
+      "source": "https://api.github.com/repos/actions/upload-artifact/git/ref/tags/v4.6.2",
+      "tag": "v4.6.2"
+    }
+  ],
+  "effects": "GET only; no credential values requested or retained",
+  "observed_before_utc": "2026-11-09T16:23:26Z",
+  "reads": [
+    {
+      "body": {
+        "allowed_actions": "all",
+        "enabled": true,
+        "sha_pinning_required": false
+      },
+      "command": "gh api --method GET repos/joshlf/gherrit-native-stack-experiments-2026-11-08/actions/permissions",
+      "exit": 0
+    },
+    {
+      "body": {
+        "can_approve_pull_request_reviews": false,
+        "default_workflow_permissions": "read"
+      },
+      "command": "gh api --method GET repos/joshlf/gherrit-native-stack-experiments-2026-11-08/actions/permissions/workflow",
+      "exit": 0
+    },
+    {
+      "command": "gh api --method GET repos/joshlf/gherrit-native-stack-experiments-2026-11-08/actions/workflows?per_page=100 --jq {total_count,workflows:[.workflows[]|{id,name,path,state}]}",
+      "exit": 0,
+      "selected_body": {
+        "total_count": 9,
+        "workflows": [
+          {
+            "id": 411519682,
+            "name": "automation",
+            "path": ".github/workflows/automation.yml",
+            "state": "active"
+          },
+          {
+            "id": 412173471,
+            "name": "Target profile probe - minimal payload",
+            "path": ".github/workflows/ci.yml",
+            "state": "active"
+          },
+          {
+            "id": 411664237,
+            "name": "fu2-codeql",
+            "path": ".github/workflows/fu2-codeql.yml",
+            "state": "active"
+          },
+          {
+            "id": 411666667,
+            "name": "fu2-push",
+            "path": ".github/workflows/fu2-push.yml",
+            "state": "active"
+          },
+          {
+            "id": 411519683,
+            "name": "observe",
+            "path": ".github/workflows/observe.yml",
+            "state": "active"
+          },
+          {
+            "id": 411519685,
+            "name": "stacked-only",
+            "path": ".github/workflows/stacked-only.yml",
+            "state": "active"
+          },
+          {
+            "id": 411521493,
+            "name": "stacked-trunk",
+            "path": ".github/workflows/stacked-trunk.yml",
+            "state": "active"
+          },
+          {
+            "id": 411519686,
+            "name": "trunk-filter",
+            "path": ".github/workflows/trunk-filter.yml",
+            "state": "active"
+          },
+          {
+            "id": 412192359,
+            "name": "Stacked event witness - minimal payload",
+            "path": ".github/workflows/witness.yml",
+            "state": "active"
+          }
+        ]
+      }
+    }
+  ],
+  "receipt_prepared_utc": "2026-11-09T16:26:05Z",
+  "repository": "joshlf/gherrit-native-stack-experiments-2026-11-08",
+  "retrieval_limits": [
+    "Initial sandbox gh reads could not connect. The GitHub connector rejected Actions settings/workflow URLs as outside its read-only URL allowlist. Separately reviewed read-only gh calls returned the recorded values.",
+    "No upper enterprise/organization/account settings or credentials were inspected. Default permissions are not a direct measurement of a future job token.",
+    "The false create/approve-pull-request setting was observed; this probe neither creates nor approves PRs with GITHUB_TOKEN and does not change that setting. It does not prove all pull-request write paths are permitted."
+  ]
+}

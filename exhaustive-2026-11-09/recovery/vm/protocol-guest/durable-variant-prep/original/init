@@ -1,0 +1,23 @@
+#!/bin/busybox sh
+export PATH=/usr/bin:/bin:/usr/sbin:/sbin
+export PYTHONHOME=/usr PYTHONNOUSERSITE=1 PYTHONDONTWRITEBYTECODE=1
+/bin/busybox --install -s /bin || exit 2
+mount -t proc proc /proc || exit 2
+mount -t sysfs sys /sys || exit 2
+mount -t devtmpfs devtmpfs /dev || exit 2
+mkdir -p /state
+modprobe virtio_mmio || exit 2
+modprobe virtio_blk || exit 2
+modprobe ext4 || exit 2
+mount -t ext4 /dev/vda /state || exit 2
+phase= prefix=
+for word in $(cat /proc/cmdline); do
+    case "$word" in phase=*) phase=${word#phase=};; prefix=*) prefix=${word#prefix=};; esac
+done
+uname -a
+cat /proc/mounts
+/usr/bin/python3 /opt/protocol/guest.py "$phase" "$prefix" || exit 2
+if [ "$phase" != recover ]; then echo PROTOCOL_ERROR_unexpected_return; exit 2; fi
+umount /state || exit 2
+echo 'BARRIER PROTOCOL CLEAN_RECOVERY_UNMOUNTED'
+exec poweroff -f

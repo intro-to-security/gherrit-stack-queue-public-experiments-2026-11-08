@@ -1,0 +1,106 @@
+{
+  "grant": "../control/target-grant-001.json#policy_delegation/cleanup",
+  "meaning": "Restore only controls newly created for fresh synthetic trunks to their captured initial absence; retain all fixture PRs and refs; no preexisting/default/production protection changes",
+  "native_outcomes": [
+    {
+      "fixture": "u",
+      "terminal": {
+        "details": {
+          "message": "Pull request was merged.",
+          "sha": "6b9344bcb9dcb97d942e6f2c995e00f42d4c1f66"
+        },
+        "status": "merged"
+      },
+      "uuid": "888afb75-c93e-4b29-bf92-597ae364f379"
+    },
+    {
+      "fixture": "m",
+      "terminal": {
+        "details": {
+          "message": "Merge is not an allowed merge method in this repository."
+        },
+        "status": "failed"
+      },
+      "uuid": "ed88c91d-92ab-4742-b6fa-aeb3adce78ef"
+    },
+    {
+      "fixture": "r",
+      "terminal": {
+        "details": {
+          "message": "Rebase is not an allowed merge method in this repository."
+        },
+        "status": "failed"
+      },
+      "uuid": "17693f9d-54f7-4cf2-8575-d548981ca176"
+    },
+    {
+      "fixture": "p",
+      "terminal": {
+        "details": {
+          "message": "Repository rule violations found\n\nRequired status check \"Validate and Test\" was not set by the expected GitHub app.\n\n"
+        },
+        "status": "failed"
+      },
+      "uuid": "cc0dd9ef-dedb-4a63-b30a-9ad8c6d0ac50"
+    },
+    {
+      "fixture": "p",
+      "terminal": {
+        "details": {
+          "message": "Repository rule violations found\n\nRequired status check \"Validate and Test\" is in progress.\n\n"
+        },
+        "status": "failed"
+      },
+      "uuid": "ad439874-8413-42dc-908f-7ccc77b88145"
+    }
+  ],
+  "planned_PR_changes": [],
+  "protections": [
+    {
+      "before_receipt": "evidence/policy-before-u-07b717907352.receipt.json",
+      "before_sha256": "dcfb044d48382d598b7b08b374e3909776dd83d5acf4ff8b2b4a164134ddb628",
+      "create_receipt": "evidence/policy-apply-u.receipt.json",
+      "create_status": 200,
+      "initial_status": 404,
+      "trunk": "exh-1109-target-profile001-u-trunk"
+    },
+    {
+      "before_receipt": "evidence/policy-before-m-38e5b60a0450.receipt.json",
+      "before_sha256": "1fcdfa32a45faf72fb6a552dd3d884866a0900d50439628e068e5c654468383a",
+      "create_receipt": "evidence/policy-apply-m.receipt.json",
+      "create_status": 200,
+      "initial_status": 404,
+      "trunk": "exh-1109-target-profile001-m-trunk"
+    },
+    {
+      "before_receipt": "evidence/policy-before-r-3aa5690acc21.receipt.json",
+      "before_sha256": "bc243a56f1ee600958eab6d912defa7a62d2a7bddb9563bbbad4760943c36bf4",
+      "create_receipt": "evidence/policy-apply-r.receipt.json",
+      "create_status": 200,
+      "initial_status": 404,
+      "trunk": "exh-1109-target-profile001-r-trunk"
+    },
+    {
+      "before_receipt": "evidence/policy-before-p-2c8a43d01159.receipt.json",
+      "before_sha256": "3cd0e933adc4bcc7dc12cd49f26e3f37f0852ff2905d9587da9f60d38db43eaf",
+      "create_receipt": "evidence/policy-apply-p.receipt.json",
+      "create_status": 200,
+      "initial_status": 404,
+      "trunk": "exh-1109-target-profile001-p-trunk"
+    }
+  ],
+  "repository": "joshlf/gherrit-native-stack-experiments-2026-11-08",
+  "ruleset": {
+    "before_receipt": "evidence/policy-before-rulesets-1f243dbf20fc.receipt.json",
+    "create_receipt": "evidence/policy-create-ruleset.receipt.json",
+    "exact_refs": [
+      "refs/heads/exh-1109-target-profile001-u-trunk",
+      "refs/heads/exh-1109-target-profile001-m-trunk",
+      "refs/heads/exh-1109-target-profile001-r-trunk",
+      "refs/heads/exh-1109-target-profile001-p-trunk"
+    ],
+    "id": 26858731,
+    "initial_named_absence": true,
+    "name": "exh-1109-target-profile001-owned-trunks"
+  }
+}

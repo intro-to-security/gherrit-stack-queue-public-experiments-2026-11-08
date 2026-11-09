@@ -1,0 +1,18 @@
+{
+  "kind": "cli-http-unix",
+  "method": "GET",
+  "path": "/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/stacks?per_page=100&page=1",
+  "headers": {
+    "User-Agent": "go-gh",
+    "Accept": "application/vnd.github.merge-info-preview+json, application/vnd.github.nebula-preview",
+    "Content-Type": "application/json; charset=utf-8",
+    "X-Github-Api-Version": "2022-11-28"
+  },
+  "body": "",
+  "permitted": true,
+  "upstream": "https://api.github.com; normal certificate verification",
+  "start": {
+    "utc": "2026-11-09T14:20:36.631053+00:00",
+    "monotonic": 43.4234445
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "checks": [
+    {
+      "actual": [
+        "a",
+        "remote-a"
+      ],
+      "expected": [
+        "a",
+        "remote-a"
+      ],
+      "name": "A layer ownership",
+      "passed": true
+    },
+    {
+      "actual": "A-local\n\nAgent-authored-by: AI agent acting on joshlf's behalf\n",
+      "expected": "A-local\n\nAgent-authored-by: AI agent acting on joshlf's behalf\n",
+      "name": "A message bytes",
+      "passed": true
+    },
+    {
+      "actual": [
+        "b",
+        "remote-b"
+      ],
+      "expected": [
+        "b",
+        "remote-b"
+      ],
+      "name": "B layer ownership",
+      "passed": true
+    },
+    {
+      "actual": "B-local\n\nAgent-authored-by: AI agent acting on joshlf's behalf\n",
+      "expected": "B-local\n\nAgent-authored-by: AI agent acting on joshlf's behalf\n",
+      "name": "B message bytes",
+      "passed": true
+    },
+    {
+      "actual": {
+        "a": "1\n",
+        "b": "1\n",
+        "remote-a": "yes\n",
+        "remote-b": "yes\n",
+        "trunk": "2\n"
+      },
+      "expected": {
+        "a": "1\n",
+        "b": "1\n",
+        "remote-a": "yes\n",
+        "remote-b": "yes\n",
+        "trunk": "2\n"
+      },
+      "name": "cumulative independently specified tree",
+      "passed": true
+    }
+  ],
+  "details": {
+    "bounds": "Two linear one-commit layers; net trees and tip message only",
+    "results": [
+      {
+        "accepted": "8b4e8735a416baa84b3575e0234ea9eff3c9e9d0",
+        "change": "A",
+        "changed": [
+          "a",
+          "remote-a"
+        ],
+        "incorporated": {
+          "base": "441d8a39adae8d9d7d79709a77839f5e80e7146b",
+          "tip": "92d015f6be225a5208e0d372881d3dcb7deb926e"
+        }
+      },
+      {
+        "accepted": "f2089d3b3e7c9a108d4f862ef4d5a3fd046fbf11",
+        "change": "B",
+        "changed": [
+          "b",
+          "remote-b"
+        ],
+        "incorporated": {
+          "base": "92d015f6be225a5208e0d372881d3dcb7deb926e",
+          "tip": "c7772afd91052bdb157dbddf49be2f435f52e6e5"
+        }
+      }
+    ]
+  },
+  "disposition": "performed",
+  "id": "R04",
+  "status": "passed",
+  "title": "Per-layer range import"
+}

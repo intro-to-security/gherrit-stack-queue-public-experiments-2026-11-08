@@ -1,0 +1,54 @@
+{
+  "authored": {
+    "A": {
+      "base": "12f2693395e73e231b9e0e6239ed8c0aeb299921",
+      "tip": "c0efc5664c2562865ed1039b2c9a0d2a1e46f69a"
+    },
+    "B": {
+      "base": "3eb8154fc4e875c7fb338197055f0ddbec7f8aef",
+      "tip": "e7812b116d8d8d606be4e19e3c357045e96769a4"
+    },
+    "F": {
+      "base": "5c3deb8174b5ead6d29bec3ac531de3118ab2e91",
+      "tip": "19988e928a3c45bcb706d1d5557dc555569b7768"
+    }
+  },
+  "continuation": "refs/continuations/B-v2-confirmed-export",
+  "incorporated": {
+    "B": {
+      "base": "3eb8154fc4e875c7fb338197055f0ddbec7f8aef",
+      "tip": "e7812b116d8d8d606be4e19e3c357045e96769a4"
+    }
+  },
+  "kind": "local-import",
+  "old_operations": [
+    {
+      "layer": "A",
+      "result": {
+        "details": {
+          "message": "Pull request was merged.",
+          "sha": "5c3deb8174b5ead6d29bec3ac531de3118ab2e91"
+        },
+        "status": "merged"
+      },
+      "selected_sha": "c0efc5664c2562865ed1039b2c9a0d2a1e46f69a",
+      "submission": "land-old-A-submit",
+      "suffix_settlement": "not established by this experiment"
+    },
+    {
+      "layer": "F",
+      "result": {
+        "details": {
+          "message": "Pull request was merged.",
+          "sha": "3eb8154fc4e875c7fb338197055f0ddbec7f8aef"
+        },
+        "status": "merged"
+      },
+      "selected_sha": "19988e928a3c45bcb706d1d5557dc555569b7768",
+      "submission": "land-F-submit",
+      "suffix_settlement": "not established by this experiment"
+    }
+  ],
+  "result": "e7812b116d8d8d606be4e19e3c357045e96769a4",
+  "source": "e7812b116d8d8d606be4e19e3c357045e96769a4"
+}

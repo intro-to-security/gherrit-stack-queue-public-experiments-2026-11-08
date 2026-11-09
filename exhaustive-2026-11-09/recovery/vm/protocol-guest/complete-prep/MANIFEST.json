@@ -1,0 +1,37 @@
+{
+  "phase": "source only: one fresh previously NOT RUN complete prefix; exact root grant pending",
+  "at": "2026-11-09T16:21:57.084498+00:00",
+  "files": [
+    {
+      "path": "INPUT-PINS.json",
+      "bytes": 1089,
+      "sha256": "dd2d064e03179a49a3ee8344439257885f3e76e04acac328adb3f0b9cbb868a4"
+    },
+    {
+      "path": "OBSERVATIONS.md",
+      "bytes": 2790,
+      "sha256": "6ec31b33d81891f7e71272344c97c1f43e639c1a419c363b2a27e07901b08aeb"
+    },
+    {
+      "path": "OFFLINE-CHECKS.json",
+      "bytes": 1765,
+      "sha256": "21ec656402b05c62b6b5c92b4aacf5a2c1d1dc5133740a2a00209706834c5485"
+    },
+    {
+      "path": "PLAN.md",
+      "bytes": 3034,
+      "sha256": "444dec08dd3a7f00f1250a49a36664ab4ea6ccfc8ebbf7eecca76630f9db8a42"
+    },
+    {
+      "path": "complete_controller.py",
+      "bytes": 4047,
+      "sha256": "5e6bb186e7a7923bce658149b512a5b5031b6ab9264d152a09de2cb47f63a6c1"
+    },
+    {
+      "path": "test_complete.py",
+      "bytes": 4556,
+      "sha256": "6309d8e22eb0c6f8e6ecc3202d7a36a86d0509b45a86624901af22c89b11b315"
+    }
+  ],
+  "runtime_actions": []
+}

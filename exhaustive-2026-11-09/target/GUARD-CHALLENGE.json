@@ -1,0 +1,151 @@
+{
+  "checks": [
+    {
+      "actual": true,
+      "expected": true,
+      "label": "exact lower PR",
+      "passed": true
+    },
+    {
+      "actual": false,
+      "expected": false,
+      "label": "cross-fixture PR",
+      "passed": true
+    },
+    {
+      "actual": false,
+      "expected": false,
+      "label": "production mutation",
+      "passed": true
+    },
+    {
+      "actual": false,
+      "expected": false,
+      "label": "repo flags",
+      "passed": true
+    },
+    {
+      "actual": false,
+      "expected": false,
+      "label": "secret read",
+      "passed": true
+    },
+    {
+      "actual": false,
+      "expected": false,
+      "label": "queue request",
+      "passed": true
+    },
+    {
+      "actual": false,
+      "expected": false,
+      "label": "wrong selected SHA",
+      "passed": true
+    },
+    {
+      "actual": true,
+      "expected": true,
+      "label": "exact direct request",
+      "passed": true
+    },
+    {
+      "actual": true,
+      "expected": true,
+      "label": "exact order",
+      "passed": true
+    },
+    {
+      "actual": false,
+      "expected": false,
+      "label": "reversed order",
+      "passed": true
+    },
+    {
+      "actual": false,
+      "expected": false,
+      "label": "foreign PR close",
+      "passed": true
+    },
+    {
+      "actual": false,
+      "expected": false,
+      "label": "main ref",
+      "passed": true
+    },
+    {
+      "actual": false,
+      "expected": false,
+      "label": "other lane ref",
+      "passed": true
+    },
+    {
+      "actual": false,
+      "expected": false,
+      "label": "extra P layer",
+      "passed": true
+    },
+    {
+      "actual": true,
+      "expected": true,
+      "label": "exact owned ref",
+      "passed": true
+    },
+    {
+      "actual": false,
+      "expected": false,
+      "label": "main policy",
+      "passed": true
+    },
+    {
+      "actual": true,
+      "expected": true,
+      "label": "exact policy payload",
+      "passed": true
+    },
+    {
+      "actual": false,
+      "expected": false,
+      "label": "wildcard ruleset",
+      "passed": true
+    },
+    {
+      "actual": true,
+      "expected": true,
+      "label": "exact ruleset",
+      "passed": true
+    },
+    {
+      "actual": false,
+      "expected": false,
+      "label": "unowned ruleset removal",
+      "passed": true
+    },
+    {
+      "actual": false,
+      "expected": false,
+      "label": "GraphQL mutation",
+      "passed": true
+    },
+    {
+      "actual": true,
+      "expected": true,
+      "label": "GraphQL query",
+      "passed": true
+    },
+    {
+      "actual": true,
+      "expected": true,
+      "label": "first attempt marker",
+      "passed": true
+    },
+    {
+      "actual": false,
+      "expected": false,
+      "label": "duplicate attempt marker",
+      "passed": true
+    }
+  ],
+  "network_effects": 0,
+  "passed": 24,
+  "total": 24
+}

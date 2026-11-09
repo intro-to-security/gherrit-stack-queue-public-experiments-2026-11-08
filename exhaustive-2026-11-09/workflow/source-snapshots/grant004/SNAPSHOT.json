@@ -1,0 +1,11 @@
+{
+  "files": {
+    "CASCADE-GRANT-REQUEST.json": "1c9c0052d68811c2ab64c70417d93b97648b0004c60fdbb5d1179d6ec681b804",
+    "cascade_followup.py": "39bb03a0fe943db76e2333446f14fa76de5ee4c5475aa4e662825ade9e139361",
+    "core.py": "a98242dabb752a89f8da47814ea62313d1d64871afe50042f930875445e4f453",
+    "effects.py": "20d8a34e0d04e93080f70c5bc3499fe5835cb2d45feff4c5bb95a3fed6418cc9",
+    "run.py": "996f4073feb7460b004f190ac95228242ad8ab0d8e8537a80fc0cb9f69d2abc0"
+  },
+  "grant": "experiments/native-stacks-exhaustive-2026-11-09/control/workflow-grant-004.json",
+  "grant_sha256": "8014abb60871e104f28275ab9bb70c2a71e27c543aa7423a4fbe34e865608ba3"
+}

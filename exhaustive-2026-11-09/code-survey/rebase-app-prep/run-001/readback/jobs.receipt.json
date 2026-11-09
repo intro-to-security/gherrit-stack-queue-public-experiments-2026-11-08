@@ -1,0 +1,15 @@
+{
+  "argv": [
+    "gh",
+    "api",
+    "--method",
+    "GET",
+    "repos/joshlf/gherrit-native-stack-experiments-2026-11-08/actions/runs/42657475024/jobs?per_page=100"
+  ],
+  "started_utc": "2026-11-09T16:43:31.021904+00:00",
+  "ended_utc": "2026-11-09T16:43:31.417558+00:00",
+  "returncode": 0,
+  "stdout_file": "jobs.json",
+  "stdout_sha256": "99c61475eec4edda4738f8d1ad7c8098e7dffa417a2e5549dbbdee52b9bb62fd",
+  "stderr": ""
+}

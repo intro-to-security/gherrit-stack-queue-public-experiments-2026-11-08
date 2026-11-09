@@ -1,0 +1,143 @@
+{
+  "case": "gql-standalone",
+  "changes_after_mutation_basis": {
+    "A": {
+      "after_base": {
+        "ref": "exh-1109-workflow-gql-standalone-971327c2/trunk",
+        "sha": "3ee9e3e47f67f1e35cc4d52e7a6e43975e6117a4"
+      },
+      "after_ref": "99c7c88615254c0a3af6aac2b3e6d55f789b3319",
+      "before_base": {
+        "ref": "exh-1109-workflow-gql-standalone-971327c2/trunk",
+        "sha": "cd4822bf742e16e1d4450154c77c537966bac04a"
+      },
+      "before_ref": "e00ec8db705bf5ffc53c15b1e8b1c586f6828112",
+      "canonical_node_unchanged": true,
+      "head_changed": true
+    }
+  },
+  "commits": {
+    "3ee9e3e47f67f1e35cc4d52e7a6e43975e6117a4": {
+      "files": [
+        "gql.txt",
+        "gql_advance.txt"
+      ],
+      "object_available": true,
+      "parent_patches": {
+        "cd4822bf742e16e1d4450154c77c537966bac04a": "diff --git a/gql_advance.txt b/gql_advance.txt\nnew file mode 100644\nindex 0000000..fe00be7\n--- /dev/null\n+++ b/gql_advance.txt\n@@ -0,0 +1 @@\n+new parent state\n"
+      },
+      "parents": [
+        "cd4822bf742e16e1d4450154c77c537966bac04a"
+      ],
+      "raw_commit": "tree 21ba68c4fe801e3515a4e6bdf58aabbd64f4d62c\nparent cd4822bf742e16e1d4450154c77c537966bac04a\nauthor Josh Liebow-Feeser <hello@joshlf.com> 1794234958 -0500\ncommitter Josh Liebow-Feeser <hello@joshlf.com> 1794234958 -0500\n\nAdvance the selected update branch's parent\n\nAgent-authored-by: AI agent acting on joshlf's behalf\n",
+      "tree": "21ba68c4fe801e3515a4e6bdf58aabbd64f4d62c"
+    },
+    "99c7c88615254c0a3af6aac2b3e6d55f789b3319": {
+      "files": [
+        "gql.txt",
+        "gql_A.txt",
+        "gql_advance.txt"
+      ],
+      "object_available": true,
+      "parent_patches": {
+        "3ee9e3e47f67f1e35cc4d52e7a6e43975e6117a4": "diff --git a/gql_A.txt b/gql_A.txt\nnew file mode 100644\nindex 0000000..f70f10e\n--- /dev/null\n+++ b/gql_A.txt\n@@ -0,0 +1 @@\n+A\n"
+      },
+      "parents": [
+        "3ee9e3e47f67f1e35cc4d52e7a6e43975e6117a4"
+      ],
+      "raw_commit": "tree 66fd705dce1b5ebf4672c8f3d684f79e72bba9ed\nparent 3ee9e3e47f67f1e35cc4d52e7a6e43975e6117a4\nauthor Josh Liebow-Feeser <hello@joshlf.com> 1794234039 -0500\ncommitter Josh Liebow-Feeser <joshlf@users.noreply.github.com> 1794234962 -0500\n\nAdd isolated layer A\n\nAgent-authored-by: AI agent acting on joshlf's behalf\n",
+      "tree": "66fd705dce1b5ebf4672c8f3d684f79e72bba9ed"
+    },
+    "e00ec8db705bf5ffc53c15b1e8b1c586f6828112": {
+      "files": [
+        "gql.txt",
+        "gql_A.txt"
+      ],
+      "object_available": true,
+      "parent_patches": {
+        "cd4822bf742e16e1d4450154c77c537966bac04a": "diff --git a/gql_A.txt b/gql_A.txt\nnew file mode 100644\nindex 0000000..f70f10e\n--- /dev/null\n+++ b/gql_A.txt\n@@ -0,0 +1 @@\n+A\n"
+      },
+      "parents": [
+        "cd4822bf742e16e1d4450154c77c537966bac04a"
+      ],
+      "raw_commit": "tree 22fd56bf2f9847ee6c24561982bec85e22d35f52\nparent cd4822bf742e16e1d4450154c77c537966bac04a\nauthor Josh Liebow-Feeser <hello@joshlf.com> 1794234039 -0500\ncommitter Josh Liebow-Feeser <hello@joshlf.com> 1794234039 -0500\n\nAdd isolated layer A\n\nAgent-authored-by: AI agent acting on joshlf's behalf\n",
+      "tree": "22fd56bf2f9847ee6c24561982bec85e22d35f52"
+    }
+  },
+  "current_refs": {
+    "refs/heads/exh-1109-workflow-gql-standalone-971327c2/A": "99c7c88615254c0a3af6aac2b3e6d55f789b3319",
+    "refs/heads/exh-1109-workflow-gql-standalone-971327c2/trunk": "3ee9e3e47f67f1e35cc4d52e7a6e43975e6117a4"
+  },
+  "events": {
+    "HRFPE_lADOVnhIZ88AAAABds1ASc8AAAAISKgtaw": {
+      "__typename": "HeadRefForcePushedEvent",
+      "actor": {
+        "login": "joshlf"
+      },
+      "afterCommit": {
+        "oid": "99c7c88615254c0a3af6aac2b3e6d55f789b3319"
+      },
+      "beforeCommit": {
+        "oid": "e00ec8db705bf5ffc53c15b1e8b1c586f6828112"
+      },
+      "createdAt": "2026-11-09T14:36:03Z",
+      "id": "HRFPE_lADOVnhIZ88AAAABds1ASc8AAAAISKgtaw",
+      "ref": {
+        "name": "exh-1109-workflow-gql-standalone-971327c2/A"
+      }
+    }
+  },
+  "limit": "Current and bounded observed state, not future-write exclusion; mutation response fields may lag refs.",
+  "native_group": null,
+  "observation_files": [
+    "update-after-0.observation.json",
+    "update-after-1.observation.json",
+    "update-after-2.observation.json",
+    "update-after-3.observation.json",
+    "update-after-4.observation.json",
+    "update-basis-sample-0.observation.json"
+  ],
+  "phase": "update-observed-no-retry",
+  "prs": {
+    "A": 613
+  },
+  "selected_head_before": "e00ec8db705bf5ffc53c15b1e8b1c586f6828112",
+  "update_response": {
+    "data": {
+      "data": {
+        "updatePullRequestBranch": {
+          "clientMutationId": "exh-1109-workflow-gql-standalone-971327c2-once",
+          "pullRequest": {
+            "baseRefName": "exh-1109-workflow-gql-standalone-971327c2/trunk",
+            "baseRefOid": "cd4822bf742e16e1d4450154c77c537966bac04a",
+            "headRefOid": "e00ec8db705bf5ffc53c15b1e8b1c586f6828112",
+            "id": "PR_kwDOVnhIZ88AAAABN3hjZQ",
+            "number": 613,
+            "stack": null
+          }
+        }
+      }
+    },
+    "disposition": "response-retained",
+    "ended": "2026-11-09T14:36:03.062173+00:00",
+    "exit": 0,
+    "http": 200,
+    "kind": "update-branch",
+    "method": "POST",
+    "monotonic": 3.010545541,
+    "path": "graphql",
+    "payload": {
+      "query": "mutation WorkflowUpdate($input: UpdatePullRequestBranchInput!) {\n  updatePullRequestBranch(input: $input) {\n    clientMutationId\n    pullRequest { id number headRefOid baseRefName baseRefOid\n      stack { id number size baseRefName } }\n  }\n}",
+      "variables": {
+        "input": {
+          "clientMutationId": "exh-1109-workflow-gql-standalone-971327c2-once",
+          "expectedHeadOid": "e00ec8db705bf5ffc53c15b1e8b1c586f6828112",
+          "pullRequestId": "PR_kwDOVnhIZ88AAAABN3hjZQ",
+          "updateMethod": "REBASE"
+        }
+      }
+    },
+    "started": "2026-11-09T14:36:01.180234+00:00"
+  },
+  "utc": "2026-11-09T14:38:52.134497+00:00"
+}

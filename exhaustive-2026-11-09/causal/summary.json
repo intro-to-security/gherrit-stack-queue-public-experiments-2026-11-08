@@ -1,0 +1,2066 @@
+[
+  {
+    "name": "after-rewrite-squash-3",
+    "phase": "bounded-observations-complete",
+    "prs": {
+      "A": 590,
+      "B": 591,
+      "C": 592,
+      "D": 593
+    },
+    "stack": 594,
+    "merge_uuid": "e99b2bc1-8e2e-47c5-898c-b1775f2166ba",
+    "method": "squash",
+    "terminal": {
+      "status": "merged",
+      "details": {
+        "message": "Pull request was merged.",
+        "sha": "3458fa5694ed37a23a9146f38ec2272745ee4e04"
+      }
+    },
+    "marker": {
+      "target": "D",
+      "ref": "refs/heads/exh-1109-causal-after-rewrite-squash-3/D",
+      "before": "9179085486aec47558614589429c87e3abb9385d",
+      "marker": "8be2c7aa1929d0c95650bbc6b17db1135f93dea4",
+      "nonce": "07ad769ffc0f4404aaa641c462f1bec7"
+    },
+    "marker_publication_acknowledged": true,
+    "samples": 7,
+    "members": {
+      "A": {
+        "number": 590,
+        "initial_ref": "6ac1fcfbc0ad1804dc90b728972ea7f61500ef35",
+        "final_ref": "6ac1fcfbc0ad1804dc90b728972ea7f61500ef35",
+        "initial_object": {
+          "oid": "6ac1fcfbc0ad1804dc90b728972ea7f61500ef35",
+          "tree": "f9551d190c3383ed8bd8baaf9326cc5e5899d1a3",
+          "parents": [
+            "f768dc8d7a4a23153bf4a80b373768483f27a1cf"
+          ]
+        },
+        "final_object": {
+          "oid": "6ac1fcfbc0ad1804dc90b728972ea7f61500ef35",
+          "tree": "f9551d190c3383ed8bd8baaf9326cc5e5899d1a3",
+          "parents": [
+            "f768dc8d7a4a23153bf4a80b373768483f27a1cf"
+          ]
+        },
+        "initial_base": "exh-1109-causal-after-rewrite-squash-3/trunk",
+        "final_base": "exh-1109-causal-after-rewrite-squash-3/trunk",
+        "final_pr_state": "MERGED",
+        "final_pr_head": "6ac1fcfbc0ad1804dc90b728972ea7f61500ef35",
+        "pr_ref_agree_in_final_separate_reads": true
+      },
+      "B": {
+        "number": 591,
+        "initial_ref": "52ed10fdef9a0ad433fb130e68496c48ee075c0e",
+        "final_ref": "3dd6004ae0226d77dd1e4458d04a9cb48c76221c",
+        "initial_object": {
+          "oid": "52ed10fdef9a0ad433fb130e68496c48ee075c0e",
+          "tree": "24be4703a456e54ff9a2c7374919899da36153ef",
+          "parents": [
+            "6ac1fcfbc0ad1804dc90b728972ea7f61500ef35"
+          ]
+        },
+        "final_object": {
+          "oid": "3dd6004ae0226d77dd1e4458d04a9cb48c76221c",
+          "tree": "24be4703a456e54ff9a2c7374919899da36153ef",
+          "parents": [
+            "3458fa5694ed37a23a9146f38ec2272745ee4e04"
+          ]
+        },
+        "initial_base": "exh-1109-causal-after-rewrite-squash-3/A",
+        "final_base": "exh-1109-causal-after-rewrite-squash-3/trunk",
+        "final_pr_state": "OPEN",
+        "final_pr_head": "3dd6004ae0226d77dd1e4458d04a9cb48c76221c",
+        "pr_ref_agree_in_final_separate_reads": true
+      },
+      "C": {
+        "number": 592,
+        "initial_ref": "a37738c0acb263697dcac416b275f114062dd79f",
+        "final_ref": "8eb49d8d1eaae151a138150e8976a7656ca97afc",
+        "initial_object": {
+          "oid": "a37738c0acb263697dcac416b275f114062dd79f",
+          "tree": "1c93593fd62ae03bb58833abe19017da6e4fe9d7",
+          "parents": [
+            "52ed10fdef9a0ad433fb130e68496c48ee075c0e"
+          ]
+        },
+        "final_object": {
+          "oid": "8eb49d8d1eaae151a138150e8976a7656ca97afc",
+          "tree": "1c93593fd62ae03bb58833abe19017da6e4fe9d7",
+          "parents": [
+            "3dd6004ae0226d77dd1e4458d04a9cb48c76221c"
+          ]
+        },
+        "initial_base": "exh-1109-causal-after-rewrite-squash-3/B",
+        "final_base": "exh-1109-causal-after-rewrite-squash-3/B",
+        "final_pr_state": "OPEN",
+        "final_pr_head": "8eb49d8d1eaae151a138150e8976a7656ca97afc",
+        "pr_ref_agree_in_final_separate_reads": true
+      },
+      "D": {
+        "number": 593,
+        "initial_ref": "8d19013d36158cec9a3e03a373d1c83719c605e5",
+        "final_ref": "8be2c7aa1929d0c95650bbc6b17db1135f93dea4",
+        "initial_object": {
+          "oid": "8d19013d36158cec9a3e03a373d1c83719c605e5",
+          "tree": "34b650a2c60052033955e83d3d5422c1e9e0a355",
+          "parents": [
+            "a37738c0acb263697dcac416b275f114062dd79f"
+          ]
+        },
+        "final_object": {
+          "oid": "8be2c7aa1929d0c95650bbc6b17db1135f93dea4",
+          "tree": "66d95fa912bec2631f70a8edf033b178f9edf176",
+          "parents": [
+            "9179085486aec47558614589429c87e3abb9385d"
+          ]
+        },
+        "initial_base": "exh-1109-causal-after-rewrite-squash-3/C",
+        "final_base": "exh-1109-causal-after-rewrite-squash-3/C",
+        "final_pr_state": "OPEN",
+        "final_pr_head": "8be2c7aa1929d0c95650bbc6b17db1135f93dea4",
+        "pr_ref_agree_in_final_separate_reads": true
+      }
+    },
+    "events": [
+      {
+        "member": "A",
+        "first_observed_response_interval": {
+          "start": {
+            "utc": "2026-11-09T14:03:16.100608+00:00",
+            "monotonic": 24.701707958
+          },
+          "end": {
+            "utc": "2026-11-09T14:03:16.836087+00:00",
+            "monotonic": 25.437201833
+          }
+        },
+        "__typename": "MergedEvent",
+        "id": "ME_lADOVnhIZ88AAAABdsRmNM8AAAAISHdesQ",
+        "createdAt": "2026-11-09T14:03:07Z",
+        "actor": {
+          "login": "joshlf",
+          "__typename": "User"
+        },
+        "commit": {
+          "oid": "3458fa5694ed37a23a9146f38ec2272745ee4e04"
+        },
+        "mergeRefName": "exh-1109-causal-after-rewrite-squash-3/trunk"
+      },
+      {
+        "member": "B",
+        "first_observed_response_interval": {
+          "start": {
+            "utc": "2026-11-09T14:03:16.100608+00:00",
+            "monotonic": 24.701707958
+          },
+          "end": {
+            "utc": "2026-11-09T14:03:16.836087+00:00",
+            "monotonic": 25.437201833
+          }
+        },
+        "__typename": "AutomaticBaseChangeSucceededEvent",
+        "id": "ABCSE_lADOVnhIZ88AAAABdsRozc8AAAAISHdpAQ",
+        "createdAt": "2026-11-09T14:03:09Z",
+        "actor": {
+          "login": "joshlf",
+          "__typename": "User"
+        },
+        "oldBase": "exh-1109-causal-after-rewrite-squash-3/A",
+        "newBase": "exh-1109-causal-after-rewrite-squash-3/trunk"
+      },
+      {
+        "member": "B",
+        "first_observed_response_interval": {
+          "start": {
+            "utc": "2026-11-09T14:03:16.100608+00:00",
+            "monotonic": 24.701707958
+          },
+          "end": {
+            "utc": "2026-11-09T14:03:16.836087+00:00",
+            "monotonic": 25.437201833
+          }
+        },
+        "__typename": "HeadRefForcePushedEvent",
+        "id": "HRFPE_lADOVnhIZ88AAAABdsRozc8AAAAISHd64g",
+        "createdAt": "2026-11-09T14:03:12Z",
+        "actor": {
+          "login": "joshlf",
+          "__typename": "User"
+        },
+        "beforeCommit": {
+          "oid": "52ed10fdef9a0ad433fb130e68496c48ee075c0e"
+        },
+        "afterCommit": {
+          "oid": "3dd6004ae0226d77dd1e4458d04a9cb48c76221c"
+        },
+        "ref": {
+          "name": "exh-1109-causal-after-rewrite-squash-3/B",
+          "target": {
+            "oid": "3dd6004ae0226d77dd1e4458d04a9cb48c76221c"
+          }
+        }
+      },
+      {
+        "member": "C",
+        "first_observed_response_interval": {
+          "start": {
+            "utc": "2026-11-09T14:03:16.100608+00:00",
+            "monotonic": 24.701707958
+          },
+          "end": {
+            "utc": "2026-11-09T14:03:16.836087+00:00",
+            "monotonic": 25.437201833
+          }
+        },
+        "__typename": "HeadRefForcePushedEvent",
+        "id": "HRFPE_lADOVnhIZ88AAAABdsRrUs8AAAAISHd7YQ",
+        "createdAt": "2026-11-09T14:03:12Z",
+        "actor": {
+          "login": "joshlf",
+          "__typename": "User"
+        },
+        "beforeCommit": {
+          "oid": "a37738c0acb263697dcac416b275f114062dd79f"
+        },
+        "afterCommit": {
+          "oid": "8eb49d8d1eaae151a138150e8976a7656ca97afc"
+        },
+        "ref": {
+          "name": "exh-1109-causal-after-rewrite-squash-3/C",
+          "target": {
+            "oid": "8eb49d8d1eaae151a138150e8976a7656ca97afc"
+          }
+        }
+      },
+      {
+        "member": "D",
+        "first_observed_response_interval": {
+          "start": {
+            "utc": "2026-11-09T14:03:16.100608+00:00",
+            "monotonic": 24.701707958
+          },
+          "end": {
+            "utc": "2026-11-09T14:03:16.836087+00:00",
+            "monotonic": 25.437201833
+          }
+        },
+        "__typename": "HeadRefForcePushedEvent",
+        "id": "HRFPE_lADOVnhIZ88AAAABdsRtts8AAAAISHd7Ww",
+        "createdAt": "2026-11-09T14:03:12Z",
+        "actor": {
+          "login": "joshlf",
+          "__typename": "User"
+        },
+        "beforeCommit": {
+          "oid": "8d19013d36158cec9a3e03a373d1c83719c605e5"
+        },
+        "afterCommit": {
+          "oid": "9179085486aec47558614589429c87e3abb9385d"
+        },
+        "ref": {
+          "name": "exh-1109-causal-after-rewrite-squash-3/D",
+          "target": {
+            "oid": "8be2c7aa1929d0c95650bbc6b17db1135f93dea4"
+          }
+        }
+      }
+    ],
+    "marker_commit_interval": {
+      "start": {
+        "utc": "2026-11-09T14:03:14.559288+00:00",
+        "monotonic": 23.16040975
+      },
+      "end": {
+        "utc": "2026-11-09T14:03:14.619087+00:00",
+        "monotonic": 23.220213125
+      }
+    },
+    "marker_push_interval": {
+      "start": {
+        "utc": "2026-11-09T14:03:14.619927+00:00",
+        "monotonic": 23.221035541
+      },
+      "end": {
+        "utc": "2026-11-09T14:03:16.098734+00:00",
+        "monotonic": 24.699855833
+      }
+    },
+    "marker_is_final_git_head": true,
+    "force_events_from_marker": [],
+    "marker_creation_after_terminal_receipt_seconds": 3.3763795839999986,
+    "last_git_read_start_after_marker_push_seconds": 60.008598
+  },
+  {
+    "name": "early-squash-3",
+    "phase": "bounded-observations-complete",
+    "prs": {
+      "A": 585,
+      "B": 586,
+      "C": 587,
+      "D": 588
+    },
+    "stack": 589,
+    "merge_uuid": "8d531ae0-602a-45fe-bd7c-00dcb79f0850",
+    "method": "squash",
+    "terminal": {
+      "status": "merged",
+      "details": {
+        "message": "Pull request was merged.",
+        "sha": "171fa5882993433ff8dec3aea36a6beba7a0f857"
+      }
+    },
+    "marker": {
+      "target": "D",
+      "ref": "refs/heads/exh-1109-causal-early-squash-3/D",
+      "before": "19d0530b06f61f16f9863de7cc398a70c1ed05a0",
+      "marker": "7f0cb6d75feefdb7e76feb3b48df83bdb6c23c37",
+      "nonce": "18dfc4d7fe6d4ced954826caa986ecf1"
+    },
+    "marker_publication_acknowledged": true,
+    "samples": 7,
+    "members": {
+      "A": {
+        "number": 585,
+        "initial_ref": "af34e35a5c765cbd0bc88a0f5994c89f9972de37",
+        "final_ref": "af34e35a5c765cbd0bc88a0f5994c89f9972de37",
+        "initial_object": {
+          "oid": "af34e35a5c765cbd0bc88a0f5994c89f9972de37",
+          "tree": "31172ec7a087398fe4712405aa11e22e12ccd8f7",
+          "parents": [
+            "96616fa50da417071d6c6dadda6d451395045f1b"
+          ]
+        },
+        "final_object": {
+          "oid": "af34e35a5c765cbd0bc88a0f5994c89f9972de37",
+          "tree": "31172ec7a087398fe4712405aa11e22e12ccd8f7",
+          "parents": [
+            "96616fa50da417071d6c6dadda6d451395045f1b"
+          ]
+        },
+        "initial_base": "exh-1109-causal-early-squash-3/trunk",
+        "final_base": "exh-1109-causal-early-squash-3/trunk",
+        "final_pr_state": "MERGED",
+        "final_pr_head": "af34e35a5c765cbd0bc88a0f5994c89f9972de37",
+        "pr_ref_agree_in_final_separate_reads": true
+      },
+      "B": {
+        "number": 586,
+        "initial_ref": "f7576fba1c7664bbecba46d126c8d9d97fab1eb7",
+        "final_ref": "037d8c2a288ee65451980f837ddb8f299b41434f",
+        "initial_object": {
+          "oid": "f7576fba1c7664bbecba46d126c8d9d97fab1eb7",
+          "tree": "51317ea52fea936f8c286fa3f341cedd3b82a41f",
+          "parents": [
+            "af34e35a5c765cbd0bc88a0f5994c89f9972de37"
+          ]
+        },
+        "final_object": {
+          "oid": "037d8c2a288ee65451980f837ddb8f299b41434f",
+          "tree": "51317ea52fea936f8c286fa3f341cedd3b82a41f",
+          "parents": [
+            "171fa5882993433ff8dec3aea36a6beba7a0f857"
+          ]
+        },
+        "initial_base": "exh-1109-causal-early-squash-3/A",
+        "final_base": "exh-1109-causal-early-squash-3/trunk",
+        "final_pr_state": "OPEN",
+        "final_pr_head": "037d8c2a288ee65451980f837ddb8f299b41434f",
+        "pr_ref_agree_in_final_separate_reads": true
+      },
+      "C": {
+        "number": 587,
+        "initial_ref": "67c6b7aec664b92744e7c84ef277566227d1934c",
+        "final_ref": "772e3b02c77fa30e125276b2297e8dc02cd46c3b",
+        "initial_object": {
+          "oid": "67c6b7aec664b92744e7c84ef277566227d1934c",
+          "tree": "0ac5e69b4251d811ca372920bcc3f4d0c4e427a7",
+          "parents": [
+            "f7576fba1c7664bbecba46d126c8d9d97fab1eb7"
+          ]
+        },
+        "final_object": {
+          "oid": "772e3b02c77fa30e125276b2297e8dc02cd46c3b",
+          "tree": "0ac5e69b4251d811ca372920bcc3f4d0c4e427a7",
+          "parents": [
+            "037d8c2a288ee65451980f837ddb8f299b41434f"
+          ]
+        },
+        "initial_base": "exh-1109-causal-early-squash-3/B",
+        "final_base": "exh-1109-causal-early-squash-3/B",
+        "final_pr_state": "OPEN",
+        "final_pr_head": "772e3b02c77fa30e125276b2297e8dc02cd46c3b",
+        "pr_ref_agree_in_final_separate_reads": true
+      },
+      "D": {
+        "number": 588,
+        "initial_ref": "19d0530b06f61f16f9863de7cc398a70c1ed05a0",
+        "final_ref": "6f934284e5fa49f477f6916a38b5c03d936e279d",
+        "initial_object": {
+          "oid": "19d0530b06f61f16f9863de7cc398a70c1ed05a0",
+          "tree": "5c1df8155d553a26db65c94d8b9a63be639c4104",
+          "parents": [
+            "67c6b7aec664b92744e7c84ef277566227d1934c"
+          ]
+        },
+        "final_object": {
+          "oid": "6f934284e5fa49f477f6916a38b5c03d936e279d",
+          "tree": "2e8ae7266334605e2a7a1efd2c427aca90cb2b39",
+          "parents": [
+            "e1af6cc04eb1da962cf8deaf12316256d333a5b6"
+          ]
+        },
+        "initial_base": "exh-1109-causal-early-squash-3/C",
+        "final_base": "exh-1109-causal-early-squash-3/C",
+        "final_pr_state": "OPEN",
+        "final_pr_head": "6f934284e5fa49f477f6916a38b5c03d936e279d",
+        "pr_ref_agree_in_final_separate_reads": true
+      }
+    },
+    "events": [
+      {
+        "member": "A",
+        "first_observed_response_interval": {
+          "start": {
+            "utc": "2026-11-09T14:01:39.935643+00:00",
+            "monotonic": 19.68725375
+          },
+          "end": {
+            "utc": "2026-11-09T14:01:40.426359+00:00",
+            "monotonic": 20.177984958
+          }
+        },
+        "__typename": "MergedEvent",
+        "id": "ME_lADOVnhIZ88AAAABdsQECM8AAAAISHU0rA",
+        "createdAt": "2026-11-09T14:01:36Z",
+        "actor": {
+          "login": "joshlf",
+          "__typename": "User"
+        },
+        "commit": {
+          "oid": "171fa5882993433ff8dec3aea36a6beba7a0f857"
+        },
+        "mergeRefName": "exh-1109-causal-early-squash-3/trunk"
+      },
+      {
+        "member": "B",
+        "first_observed_response_interval": {
+          "start": {
+            "utc": "2026-11-09T14:01:39.935643+00:00",
+            "monotonic": 19.68725375
+          },
+          "end": {
+            "utc": "2026-11-09T14:01:40.426359+00:00",
+            "monotonic": 20.177984958
+          }
+        },
+        "__typename": "AutomaticBaseChangeSucceededEvent",
+        "id": "ABCSE_lADOVnhIZ88AAAABdsQGSM8AAAAISHU9xg",
+        "createdAt": "2026-11-09T14:01:38Z",
+        "actor": {
+          "login": "joshlf",
+          "__typename": "User"
+        },
+        "oldBase": "exh-1109-causal-early-squash-3/A",
+        "newBase": "exh-1109-causal-early-squash-3/trunk"
+      },
+      {
+        "member": "B",
+        "first_observed_response_interval": {
+          "start": {
+            "utc": "2026-11-09T14:01:42.947210+00:00",
+            "monotonic": 22.698841541
+          },
+          "end": {
+            "utc": "2026-11-09T14:01:43.757744+00:00",
+            "monotonic": 23.509352875
+          }
+        },
+        "__typename": "HeadRefForcePushedEvent",
+        "id": "HRFPE_lADOVnhIZ88AAAABdsQGSM8AAAAISHVSpA",
+        "createdAt": "2026-11-09T14:01:41Z",
+        "actor": {
+          "login": "joshlf",
+          "__typename": "User"
+        },
+        "beforeCommit": {
+          "oid": "f7576fba1c7664bbecba46d126c8d9d97fab1eb7"
+        },
+        "afterCommit": {
+          "oid": "037d8c2a288ee65451980f837ddb8f299b41434f"
+        },
+        "ref": {
+          "name": "exh-1109-causal-early-squash-3/B",
+          "target": {
+            "oid": "037d8c2a288ee65451980f837ddb8f299b41434f"
+          }
+        }
+      },
+      {
+        "member": "C",
+        "first_observed_response_interval": {
+          "start": {
+            "utc": "2026-11-09T14:01:42.947210+00:00",
+            "monotonic": 22.698841541
+          },
+          "end": {
+            "utc": "2026-11-09T14:01:43.757744+00:00",
+            "monotonic": 23.509352875
+          }
+        },
+        "__typename": "HeadRefForcePushedEvent",
+        "id": "HRFPE_lADOVnhIZ88AAAABdsQInM8AAAAISHVRpQ",
+        "createdAt": "2026-11-09T14:01:41Z",
+        "actor": {
+          "login": "joshlf",
+          "__typename": "User"
+        },
+        "beforeCommit": {
+          "oid": "67c6b7aec664b92744e7c84ef277566227d1934c"
+        },
+        "afterCommit": {
+          "oid": "772e3b02c77fa30e125276b2297e8dc02cd46c3b"
+        },
+        "ref": {
+          "name": "exh-1109-causal-early-squash-3/C",
+          "target": {
+            "oid": "772e3b02c77fa30e125276b2297e8dc02cd46c3b"
+          }
+        }
+      },
+      {
+        "member": "D",
+        "first_observed_response_interval": {
+          "start": {
+            "utc": "2026-11-09T14:01:42.947210+00:00",
+            "monotonic": 22.698841541
+          },
+          "end": {
+            "utc": "2026-11-09T14:01:43.757744+00:00",
+            "monotonic": 23.509352875
+          }
+        },
+        "__typename": "HeadRefForcePushedEvent",
+        "id": "HRFPE_lADOVnhIZ88AAAABdsQK9M8AAAAISHVSPg",
+        "createdAt": "2026-11-09T14:01:41Z",
+        "actor": {
+          "login": "joshlf",
+          "__typename": "User"
+        },
+        "beforeCommit": {
+          "oid": "7f0cb6d75feefdb7e76feb3b48df83bdb6c23c37"
+        },
+        "afterCommit": {
+          "oid": "6f934284e5fa49f477f6916a38b5c03d936e279d"
+        },
+        "ref": {
+          "name": "exh-1109-causal-early-squash-3/D",
+          "target": {
+            "oid": "6f934284e5fa49f477f6916a38b5c03d936e279d"
+          }
+        }
+      }
+    ],
+    "marker_commit_interval": {
+      "start": {
+        "utc": "2026-11-09T14:01:34.694266+00:00",
+        "monotonic": 14.445913125
+      },
+      "end": {
+        "utc": "2026-11-09T14:01:34.759769+00:00",
+        "monotonic": 14.511419083
+      }
+    },
+    "marker_push_interval": {
+      "start": {
+        "utc": "2026-11-09T14:01:34.760601+00:00",
+        "monotonic": 14.512232625
+      },
+      "end": {
+        "utc": "2026-11-09T14:01:36.170457+00:00",
+        "monotonic": 15.922134458
+      }
+    },
+    "marker_is_final_git_head": false,
+    "force_events_from_marker": [
+      {
+        "member": "D",
+        "first_observed_response_interval": {
+          "start": {
+            "utc": "2026-11-09T14:01:42.947210+00:00",
+            "monotonic": 22.698841541
+          },
+          "end": {
+            "utc": "2026-11-09T14:01:43.757744+00:00",
+            "monotonic": 23.509352875
+          }
+        },
+        "__typename": "HeadRefForcePushedEvent",
+        "id": "HRFPE_lADOVnhIZ88AAAABdsQK9M8AAAAISHVSPg",
+        "createdAt": "2026-11-09T14:01:41Z",
+        "actor": {
+          "login": "joshlf",
+          "__typename": "User"
+        },
+        "beforeCommit": {
+          "oid": "7f0cb6d75feefdb7e76feb3b48df83bdb6c23c37"
+        },
+        "afterCommit": {
+          "oid": "6f934284e5fa49f477f6916a38b5c03d936e279d"
+        },
+        "ref": {
+          "name": "exh-1109-causal-early-squash-3/D",
+          "target": {
+            "oid": "6f934284e5fa49f477f6916a38b5c03d936e279d"
+          }
+        }
+      }
+    ],
+    "marker_creation_after_terminal_receipt_seconds": -5.2382874579999985,
+    "last_git_read_start_after_marker_push_seconds": 63.771078
+  },
+  {
+    "name": "force-control",
+    "phase": "bounded-observations-complete",
+    "prs": {
+      "A": 564,
+      "B": 565
+    },
+    "stack": null,
+    "merge_uuid": null,
+    "method": null,
+    "terminal": null,
+    "marker": {
+      "target": "B",
+      "ref": "refs/heads/exh-1109-causal-force-control/B",
+      "before": "91b679b1e524d79eb1184a860d42398ac36c40c1",
+      "marker": "395c1d662bc0ef00d0b172fe01ecb6e036b42754",
+      "nonce": "3c9d48e21de94dfab399bc6d3fb52184"
+    },
+    "marker_publication_acknowledged": true,
+    "samples": 7,
+    "members": {
+      "A": {
+        "number": 564,
+        "initial_ref": "010278c6609b85f42a0c804f3802ce38982d4cb5",
+        "final_ref": "010278c6609b85f42a0c804f3802ce38982d4cb5",
+        "initial_object": {
+          "oid": "010278c6609b85f42a0c804f3802ce38982d4cb5",
+          "tree": "abc44d5806ecdf2ccac8c4a7346f707ab91f55c5",
+          "parents": [
+            "40bc934a4badb34f7c4c3c2606581a12520717bc"
+          ]
+        },
+        "final_object": {
+          "oid": "010278c6609b85f42a0c804f3802ce38982d4cb5",
+          "tree": "abc44d5806ecdf2ccac8c4a7346f707ab91f55c5",
+          "parents": [
+            "40bc934a4badb34f7c4c3c2606581a12520717bc"
+          ]
+        },
+        "initial_base": "exh-1109-causal-force-control/trunk",
+        "final_base": "exh-1109-causal-force-control/trunk",
+        "final_pr_state": "OPEN",
+        "final_pr_head": "010278c6609b85f42a0c804f3802ce38982d4cb5",
+        "pr_ref_agree_in_final_separate_reads": true
+      },
+      "B": {
+        "number": 565,
+        "initial_ref": "91b679b1e524d79eb1184a860d42398ac36c40c1",
+        "final_ref": "395c1d662bc0ef00d0b172fe01ecb6e036b42754",
+        "initial_object": {
+          "oid": "91b679b1e524d79eb1184a860d42398ac36c40c1",
+          "tree": "1ee94cebf1224f2c0b5adc40777576eaa52eb152",
+          "parents": [
+            "010278c6609b85f42a0c804f3802ce38982d4cb5"
+          ]
+        },
+        "final_object": {
+          "oid": "395c1d662bc0ef00d0b172fe01ecb6e036b42754",
+          "tree": "75f3dfa611d8acfe773d2616831bcfb5644aa395",
+          "parents": [
+            "010278c6609b85f42a0c804f3802ce38982d4cb5"
+          ]
+        },
+        "initial_base": "exh-1109-causal-force-control/A",
+        "final_base": "exh-1109-causal-force-control/A",
+        "final_pr_state": "OPEN",
+        "final_pr_head": "395c1d662bc0ef00d0b172fe01ecb6e036b42754",
+        "pr_ref_agree_in_final_separate_reads": true
+      }
+    },
+    "events": [
+      {
+        "member": "B",
+        "first_observed_response_interval": {
+          "start": {
+            "utc": "2026-11-09T13:48:43.548435+00:00",
+            "monotonic": 10.504846
+          },
+          "end": {
+            "utc": "2026-11-09T13:48:44.071615+00:00",
+            "monotonic": 11.02800825
+          }
+        },
+        "__typename": "HeadRefForcePushedEvent",
+        "id": "HRFPE_lADOVnhIZ88AAAABdsDXmc8AAAAISGM_-g",
+        "createdAt": "2026-11-09T13:48:43Z",
+        "actor": {
+          "login": "joshlf",
+          "__typename": "User"
+        },
+        "beforeCommit": {
+          "oid": "91b679b1e524d79eb1184a860d42398ac36c40c1"
+        },
+        "afterCommit": {
+          "oid": "395c1d662bc0ef00d0b172fe01ecb6e036b42754"
+        },
+        "ref": {
+          "name": "exh-1109-causal-force-control/B",
+          "target": {
+            "oid": "395c1d662bc0ef00d0b172fe01ecb6e036b42754"
+          }
+        }
+      }
+    ],
+    "marker_commit_interval": {
+      "start": {
+        "utc": "2026-11-09T13:48:41.080253+00:00",
+        "monotonic": 8.036671875
+      },
+      "end": {
+        "utc": "2026-11-09T13:48:41.138669+00:00",
+        "monotonic": 8.095087291
+      }
+    },
+    "marker_push_interval": {
+      "start": {
+        "utc": "2026-11-09T13:48:41.139400+00:00",
+        "monotonic": 8.095803541
+      },
+      "end": {
+        "utc": "2026-11-09T13:48:42.534284+00:00",
+        "monotonic": 9.490715333
+      }
+    },
+    "marker_is_final_git_head": true,
+    "force_events_from_marker": [],
+    "last_git_read_start_after_marker_push_seconds": 60.012205
+  },
+  {
+    "name": "ordinary-sync-3",
+    "phase": "bounded-observations-complete",
+    "prs": {
+      "A": 595,
+      "B": 596,
+      "C": 597,
+      "D": 598
+    },
+    "stack": 599,
+    "merge_uuid": "79f08b15-a550-47c8-8939-063c81f7abaf",
+    "method": "squash",
+    "terminal": {
+      "status": "merged",
+      "details": {
+        "message": "Pull request was merged.",
+        "sha": "6cb26ec4e14e1fa14b91c6358bf4e2bf0c736675"
+      }
+    },
+    "marker": null,
+    "marker_publication_acknowledged": false,
+    "samples": 7,
+    "members": {
+      "A": {
+        "number": 595,
+        "initial_ref": "657f97fc324ab818d114888705011b2ccf880802",
+        "final_ref": "657f97fc324ab818d114888705011b2ccf880802",
+        "initial_object": {
+          "oid": "657f97fc324ab818d114888705011b2ccf880802",
+          "tree": "9e2368272d2ea0a169c1b8202336504b4a1800d4",
+          "parents": [
+            "ebf6b1c81672dcad1a7933212ad3aabf82aa0582"
+          ]
+        },
+        "final_object": {
+          "oid": "657f97fc324ab818d114888705011b2ccf880802",
+          "tree": "9e2368272d2ea0a169c1b8202336504b4a1800d4",
+          "parents": [
+            "ebf6b1c81672dcad1a7933212ad3aabf82aa0582"
+          ]
+        },
+        "initial_base": "exh-1109-causal-ordinary-sync-3/trunk",
+        "final_base": "exh-1109-causal-ordinary-sync-3/trunk",
+        "final_pr_state": "MERGED",
+        "final_pr_head": "657f97fc324ab818d114888705011b2ccf880802",
+        "pr_ref_agree_in_final_separate_reads": true
+      },
+      "B": {
+        "number": 596,
+        "initial_ref": "b11b418d8c0b4d173f3eca4a29b7669aec586fa2",
+        "final_ref": "0029f30750ee9206dfa865f27b1d49b9b2e78cf8",
+        "initial_object": {
+          "oid": "b11b418d8c0b4d173f3eca4a29b7669aec586fa2",
+          "tree": "407be646a9a6c953cd77c858a49dd4b2aec13a1a",
+          "parents": [
+            "657f97fc324ab818d114888705011b2ccf880802"
+          ]
+        },
+        "final_object": {
+          "oid": "0029f30750ee9206dfa865f27b1d49b9b2e78cf8",
+          "tree": "407be646a9a6c953cd77c858a49dd4b2aec13a1a",
+          "parents": [
+            "6cb26ec4e14e1fa14b91c6358bf4e2bf0c736675"
+          ]
+        },
+        "initial_base": "exh-1109-causal-ordinary-sync-3/A",
+        "final_base": "exh-1109-causal-ordinary-sync-3/trunk",
+        "final_pr_state": "OPEN",
+        "final_pr_head": "0029f30750ee9206dfa865f27b1d49b9b2e78cf8",
+        "pr_ref_agree_in_final_separate_reads": true
+      },
+      "C": {
+        "number": 597,
+        "initial_ref": "ebedb56d1336871c7adad5c693fcafd29c41ea12",
+        "final_ref": "dd20932f072bd3bfd39533375dff5859cd8290be",
+        "initial_object": {
+          "oid": "ebedb56d1336871c7adad5c693fcafd29c41ea12",
+          "tree": "2771e6714f980f6ee69d95ceb7f7d4b77ecbb07f",
+          "parents": [
+            "b11b418d8c0b4d173f3eca4a29b7669aec586fa2"
+          ]
+        },
+        "final_object": {
+          "oid": "dd20932f072bd3bfd39533375dff5859cd8290be",
+          "tree": "2771e6714f980f6ee69d95ceb7f7d4b77ecbb07f",
+          "parents": [
+            "0029f30750ee9206dfa865f27b1d49b9b2e78cf8"
+          ]
+        },
+        "initial_base": "exh-1109-causal-ordinary-sync-3/B",
+        "final_base": "exh-1109-causal-ordinary-sync-3/B",
+        "final_pr_state": "OPEN",
+        "final_pr_head": "dd20932f072bd3bfd39533375dff5859cd8290be",
+        "pr_ref_agree_in_final_separate_reads": true
+      },
+      "D": {
+        "number": 598,
+        "initial_ref": "b0f489897aef2f26faf46c760065d81e600844ca",
+        "final_ref": "47a8fee99fb7fbc70ed35f495a1a98f8f77f44df",
+        "initial_object": {
+          "oid": "b0f489897aef2f26faf46c760065d81e600844ca",
+          "tree": "b68b8659cac436820d459fa7e67da34a92f5158d",
+          "parents": [
+            "ebedb56d1336871c7adad5c693fcafd29c41ea12"
+          ]
+        },
+        "final_object": {
+          "oid": "47a8fee99fb7fbc70ed35f495a1a98f8f77f44df",
+          "tree": "b68b8659cac436820d459fa7e67da34a92f5158d",
+          "parents": [
+            "dd20932f072bd3bfd39533375dff5859cd8290be"
+          ]
+        },
+        "initial_base": "exh-1109-causal-ordinary-sync-3/C",
+        "final_base": "exh-1109-causal-ordinary-sync-3/C",
+        "final_pr_state": "OPEN",
+        "final_pr_head": "47a8fee99fb7fbc70ed35f495a1a98f8f77f44df",
+        "pr_ref_agree_in_final_separate_reads": true
+      }
+    },
+    "events": [
+      {
+        "member": "A",
+        "first_observed_response_interval": {
+          "start": {
+            "utc": "2026-11-09T14:20:37.216802+00:00",
+            "monotonic": 44.00918825
+          },
+          "end": {
+            "utc": "2026-11-09T14:20:37.736678+00:00",
+            "monotonic": 44.529070125
+          }
+        },
+        "__typename": "MergedEvent",
+        "id": "ME_lADOVnhIZ88AAAABdsj7xs8AAAAISJCJGg",
+        "createdAt": "2026-11-09T14:20:16Z",
+        "actor": {
+          "login": "joshlf",
+          "__typename": "User"
+        },
+        "commit": {
+          "oid": "6cb26ec4e14e1fa14b91c6358bf4e2bf0c736675"
+        },
+        "mergeRefName": "exh-1109-causal-ordinary-sync-3/trunk"
+      },
+      {
+        "member": "B",
+        "first_observed_response_interval": {
+          "start": {
+            "utc": "2026-11-09T14:20:37.216802+00:00",
+            "monotonic": 44.00918825
+          },
+          "end": {
+            "utc": "2026-11-09T14:20:37.736678+00:00",
+            "monotonic": 44.529070125
+          }
+        },
+        "__typename": "AutomaticBaseChangeSucceededEvent",
+        "id": "ABCSE_lADOVnhIZ88AAAABdsj-qM8AAAAISJCTbA",
+        "createdAt": "2026-11-09T14:20:17Z",
+        "actor": {
+          "login": "joshlf",
+          "__typename": "User"
+        },
+        "oldBase": "exh-1109-causal-ordinary-sync-3/A",
+        "newBase": "exh-1109-causal-ordinary-sync-3/trunk"
+      },
+      {
+        "member": "B",
+        "first_observed_response_interval": {
+          "start": {
+            "utc": "2026-11-09T14:20:37.216802+00:00",
+            "monotonic": 44.00918825
+          },
+          "end": {
+            "utc": "2026-11-09T14:20:37.736678+00:00",
+            "monotonic": 44.529070125
+          }
+        },
+        "__typename": "HeadRefForcePushedEvent",
+        "id": "HRFPE_lADOVnhIZ88AAAABdsj-qM8AAAAISJCoAA",
+        "createdAt": "2026-11-09T14:20:21Z",
+        "actor": {
+          "login": "joshlf",
+          "__typename": "User"
+        },
+        "beforeCommit": {
+          "oid": "b11b418d8c0b4d173f3eca4a29b7669aec586fa2"
+        },
+        "afterCommit": {
+          "oid": "4e7dc76044d7c2bc9e9d3b3b679dde6f3e85e24c"
+        },
+        "ref": {
+          "name": "exh-1109-causal-ordinary-sync-3/B",
+          "target": {
+            "oid": "0029f30750ee9206dfa865f27b1d49b9b2e78cf8"
+          }
+        }
+      },
+      {
+        "member": "B",
+        "first_observed_response_interval": {
+          "start": {
+            "utc": "2026-11-09T14:20:37.216802+00:00",
+            "monotonic": 44.00918825
+          },
+          "end": {
+            "utc": "2026-11-09T14:20:37.736678+00:00",
+            "monotonic": 44.529070125
+          }
+        },
+        "__typename": "HeadRefForcePushedEvent",
+        "id": "HRFPE_lADOVnhIZ88AAAABdsj-qM8AAAAISJEOSg",
+        "createdAt": "2026-11-09T14:20:37Z",
+        "actor": {
+          "login": "joshlf",
+          "__typename": "User"
+        },
+        "beforeCommit": {
+          "oid": "4e7dc76044d7c2bc9e9d3b3b679dde6f3e85e24c"
+        },
+        "afterCommit": {
+          "oid": "0029f30750ee9206dfa865f27b1d49b9b2e78cf8"
+        },
+        "ref": {
+          "name": "exh-1109-causal-ordinary-sync-3/B",
+          "target": {
+            "oid": "0029f30750ee9206dfa865f27b1d49b9b2e78cf8"
+          }
+        }
+      },
+      {
+        "member": "C",
+        "first_observed_response_interval": {
+          "start": {
+            "utc": "2026-11-09T14:20:37.216802+00:00",
+            "monotonic": 44.00918825
+          },
+          "end": {
+            "utc": "2026-11-09T14:20:37.736678+00:00",
+            "monotonic": 44.529070125
+          }
+        },
+        "__typename": "HeadRefForcePushedEvent",
+        "id": "HRFPE_lADOVnhIZ88AAAABdskBn88AAAAISJCoFg",
+        "createdAt": "2026-11-09T14:20:21Z",
+        "actor": {
+          "login": "joshlf",
+          "__typename": "User"
+        },
+        "beforeCommit": {
+          "oid": "ebedb56d1336871c7adad5c693fcafd29c41ea12"
+        },
+        "afterCommit": {
+          "oid": "3ab9121da777b75d7f934c1ac9555ab2ed976208"
+        },
+        "ref": {
+          "name": "exh-1109-causal-ordinary-sync-3/C",
+          "target": {
+            "oid": "dd20932f072bd3bfd39533375dff5859cd8290be"
+          }
+        }
+      },
+      {
+        "member": "C",
+        "first_observed_response_interval": {
+          "start": {
+            "utc": "2026-11-09T14:20:37.216802+00:00",
+            "monotonic": 44.00918825
+          },
+          "end": {
+            "utc": "2026-11-09T14:20:37.736678+00:00",
+            "monotonic": 44.529070125
+          }
+        },
+        "__typename": "HeadRefForcePushedEvent",
+        "id": "HRFPE_lADOVnhIZ88AAAABdskBn88AAAAISJEN1A",
+        "createdAt": "2026-11-09T14:20:37Z",
+        "actor": {
+          "login": "joshlf",
+          "__typename": "User"
+        },
+        "beforeCommit": {
+          "oid": "3ab9121da777b75d7f934c1ac9555ab2ed976208"
+        },
+        "afterCommit": {
+          "oid": "dd20932f072bd3bfd39533375dff5859cd8290be"
+        },
+        "ref": {
+          "name": "exh-1109-causal-ordinary-sync-3/C",
+          "target": {
+            "oid": "dd20932f072bd3bfd39533375dff5859cd8290be"
+          }
+        }
+      },
+      {
+        "member": "D",
+        "first_observed_response_interval": {
+          "start": {
+            "utc": "2026-11-09T14:20:37.216802+00:00",
+            "monotonic": 44.00918825
+          },
+          "end": {
+            "utc": "2026-11-09T14:20:37.736678+00:00",
+            "monotonic": 44.529070125
+          }
+        },
+        "__typename": "HeadRefForcePushedEvent",
+        "id": "HRFPE_lADOVnhIZ88AAAABdskE6s8AAAAISJCpXw",
+        "createdAt": "2026-11-09T14:20:21Z",
+        "actor": {
+          "login": "joshlf",
+          "__typename": "User"
+        },
+        "beforeCommit": {
+          "oid": "b0f489897aef2f26faf46c760065d81e600844ca"
+        },
+        "afterCommit": {
+          "oid": "da6af1c4ac97a928270695c4bb98a8707950f4a4"
+        },
+        "ref": {
+          "name": "exh-1109-causal-ordinary-sync-3/D",
+          "target": {
+            "oid": "47a8fee99fb7fbc70ed35f495a1a98f8f77f44df"
+          }
+        }
+      },
+      {
+        "member": "D",
+        "first_observed_response_interval": {
+          "start": {
+            "utc": "2026-11-09T14:20:37.216802+00:00",
+            "monotonic": 44.00918825
+          },
+          "end": {
+            "utc": "2026-11-09T14:20:37.736678+00:00",
+            "monotonic": 44.529070125
+          }
+        },
+        "__typename": "HeadRefForcePushedEvent",
+        "id": "HRFPE_lADOVnhIZ88AAAABdskE6s8AAAAISJEOgw",
+        "createdAt": "2026-11-09T14:20:37Z",
+        "actor": {
+          "login": "joshlf",
+          "__typename": "User"
+        },
+        "beforeCommit": {
+          "oid": "da6af1c4ac97a928270695c4bb98a8707950f4a4"
+        },
+        "afterCommit": {
+          "oid": "47a8fee99fb7fbc70ed35f495a1a98f8f77f44df"
+        },
+        "ref": {
+          "name": "exh-1109-causal-ordinary-sync-3/D",
+          "target": {
+            "oid": "47a8fee99fb7fbc70ed35f495a1a98f8f77f44df"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "name": "post-merge-1",
+    "phase": "frozen-requires-reconciliation",
+    "prs": {
+      "A": 574,
+      "B": 575
+    },
+    "stack": 576,
+    "merge_uuid": "6df0580c-e411-4340-a5c3-fb63417c14a8",
+    "method": "merge",
+    "terminal": {
+      "status": "merged",
+      "details": {
+        "message": "Pull request was merged.",
+        "sha": "08b9f4f97fe272b20bfecb8b563097dccc1125e2"
+      }
+    },
+    "marker": {
+      "target": "B",
+      "ref": "refs/heads/exh-1109-causal-post-merge-1/B",
+      "before": "728b0a72159a4229d51a4f2607e0acab9629656f",
+      "marker": "ce1a026d3c5dde49bcf7063d3f7d11a9924a66ac",
+      "nonce": "deafbfde775343e8a2f338a171c584f9"
+    },
+    "marker_publication_acknowledged": false,
+    "samples": 1,
+    "members": {
+      "A": {
+        "number": 574,
+        "initial_ref": "2ee11d40e27b6f162970fe7b4f46b5ad278f2c7f",
+        "final_ref": "2ee11d40e27b6f162970fe7b4f46b5ad278f2c7f",
+        "initial_object": {
+          "oid": "2ee11d40e27b6f162970fe7b4f46b5ad278f2c7f",
+          "tree": "a5ec57c68506f71d4b5102676ed81cb939560fe1",
+          "parents": [
+            "6eec718e71f9472fa5be2858bf5f23baf58de622"
+          ]
+        },
+        "final_object": {
+          "oid": "2ee11d40e27b6f162970fe7b4f46b5ad278f2c7f",
+          "tree": "a5ec57c68506f71d4b5102676ed81cb939560fe1",
+          "parents": [
+            "6eec718e71f9472fa5be2858bf5f23baf58de622"
+          ]
+        },
+        "initial_base": "exh-1109-causal-post-merge-1/trunk",
+        "final_base": "exh-1109-causal-post-merge-1/trunk",
+        "final_pr_state": "MERGED",
+        "final_pr_head": "2ee11d40e27b6f162970fe7b4f46b5ad278f2c7f",
+        "pr_ref_agree_in_final_separate_reads": true
+      },
+      "B": {
+        "number": 575,
+        "initial_ref": "728b0a72159a4229d51a4f2607e0acab9629656f",
+        "final_ref": "06931658158737beb92b1b42cf129578d5b20795",
+        "initial_object": {
+          "oid": "728b0a72159a4229d51a4f2607e0acab9629656f",
+          "tree": "a39b69accb7606225caa39a96eef12b0c1927449",
+          "parents": [
+            "2ee11d40e27b6f162970fe7b4f46b5ad278f2c7f"
+          ]
+        },
+        "final_object": {
+          "oid": "06931658158737beb92b1b42cf129578d5b20795",
+          "tree": "a39b69accb7606225caa39a96eef12b0c1927449",
+          "parents": [
+            "08b9f4f97fe272b20bfecb8b563097dccc1125e2"
+          ]
+        },
+        "initial_base": "exh-1109-causal-post-merge-1/A",
+        "final_base": "exh-1109-causal-post-merge-1/trunk",
+        "final_pr_state": "OPEN",
+        "final_pr_head": "06931658158737beb92b1b42cf129578d5b20795",
+        "pr_ref_agree_in_final_separate_reads": true
+      }
+    },
+    "events": [
+      {
+        "member": "A",
+        "first_observed_response_interval": {
+          "start": {
+            "utc": "2026-11-09T13:53:19.094194+00:00",
+            "monotonic": 0.026284833
+          },
+          "end": {
+            "utc": "2026-11-09T13:53:19.652073+00:00",
+            "monotonic": 0.584169083
+          }
+        },
+        "__typename": "MergedEvent",
+        "id": "ME_lADOVnhIZ88AAAABdsGwKs8AAAAISGgjIQ",
+        "createdAt": "2026-11-09T13:52:14Z",
+        "actor": {
+          "login": "joshlf",
+          "__typename": "User"
+        },
+        "commit": {
+          "oid": "08b9f4f97fe272b20bfecb8b563097dccc1125e2"
+        },
+        "mergeRefName": "exh-1109-causal-post-merge-1/trunk"
+      },
+      {
+        "member": "B",
+        "first_observed_response_interval": {
+          "start": {
+            "utc": "2026-11-09T13:53:19.094194+00:00",
+            "monotonic": 0.026284833
+          },
+          "end": {
+            "utc": "2026-11-09T13:53:19.652073+00:00",
+            "monotonic": 0.584169083
+          }
+        },
+        "__typename": "AutomaticBaseChangeSucceededEvent",
+        "id": "ABCSE_lADOVnhIZ88AAAABdsGyss8AAAAISGgsFw",
+        "createdAt": "2026-11-09T13:52:15Z",
+        "actor": {
+          "login": "joshlf",
+          "__typename": "User"
+        },
+        "oldBase": "exh-1109-causal-post-merge-1/A",
+        "newBase": "exh-1109-causal-post-merge-1/trunk"
+      },
+      {
+        "member": "B",
+        "first_observed_response_interval": {
+          "start": {
+            "utc": "2026-11-09T13:53:19.094194+00:00",
+            "monotonic": 0.026284833
+          },
+          "end": {
+            "utc": "2026-11-09T13:53:19.652073+00:00",
+            "monotonic": 0.584169083
+          }
+        },
+        "__typename": "HeadRefForcePushedEvent",
+        "id": "HRFPE_lADOVnhIZ88AAAABdsGyss8AAAAISGg6Bg",
+        "createdAt": "2026-11-09T13:52:18Z",
+        "actor": {
+          "login": "joshlf",
+          "__typename": "User"
+        },
+        "beforeCommit": {
+          "oid": "728b0a72159a4229d51a4f2607e0acab9629656f"
+        },
+        "afterCommit": {
+          "oid": "06931658158737beb92b1b42cf129578d5b20795"
+        },
+        "ref": {
+          "name": "exh-1109-causal-post-merge-1/B",
+          "target": {
+            "oid": "06931658158737beb92b1b42cf129578d5b20795"
+          }
+        }
+      }
+    ],
+    "marker_commit_interval": {
+      "start": {
+        "utc": "2026-11-09T13:52:16.518761+00:00",
+        "monotonic": 13.662415833
+      },
+      "end": {
+        "utc": "2026-11-09T13:52:16.579296+00:00",
+        "monotonic": 13.722949541
+      }
+    },
+    "marker_push_interval": {
+      "start": {
+        "utc": "2026-11-09T13:52:16.580026+00:00",
+        "monotonic": 13.72366225
+      },
+      "end": {
+        "utc": "2026-11-09T13:52:17.104415+00:00",
+        "monotonic": 14.248072875
+      }
+    },
+    "marker_is_final_git_head": false,
+    "force_events_from_marker": [],
+    "marker_creation_after_terminal_receipt_seconds": 0.1812965000000002,
+    "last_git_read_start_after_marker_push_seconds": 61.989584
+  },
+  {
+    "name": "post-rebase-3",
+    "phase": "frozen-requires-reconciliation",
+    "prs": {
+      "A": 569,
+      "B": 570,
+      "C": 571,
+      "D": 572
+    },
+    "stack": 573,
+    "merge_uuid": "f8686d48-7d9a-4368-87e9-243f0c475c81",
+    "method": "rebase",
+    "terminal": {
+      "status": "merged",
+      "details": {
+        "message": "Pull request was merged.",
+        "sha": "3b73f10efc39c04495cbf10d4fe193c82d2c49a2"
+      }
+    },
+    "marker": {
+      "target": "D",
+      "ref": "refs/heads/exh-1109-causal-post-rebase-3/D",
+      "before": "cd36e1197abdbd0283f8666b82f5b6aa34b4b7ca",
+      "marker": "0c78222d7db1a0ac05239bb8d887c24154169ad5",
+      "nonce": "31417a7bb6e54d5c84de182cad1f2d87"
+    },
+    "marker_publication_acknowledged": false,
+    "samples": 1,
+    "members": {
+      "A": {
+        "number": 569,
+        "initial_ref": "a82ea80add95dc5deb40fadf34babb6a3a5d9e35",
+        "final_ref": "a82ea80add95dc5deb40fadf34babb6a3a5d9e35",
+        "initial_object": {
+          "oid": "a82ea80add95dc5deb40fadf34babb6a3a5d9e35",
+          "tree": "f5c480b53ccb97cb1c25231dbe094ad430d87023",
+          "parents": [
+            "f9895ac040ba94578a8a23a24c397e54b1e1f037"
+          ]
+        },
+        "final_object": {
+          "oid": "a82ea80add95dc5deb40fadf34babb6a3a5d9e35",
+          "tree": "f5c480b53ccb97cb1c25231dbe094ad430d87023",
+          "parents": [
+            "f9895ac040ba94578a8a23a24c397e54b1e1f037"
+          ]
+        },
+        "initial_base": "exh-1109-causal-post-rebase-3/trunk",
+        "final_base": "exh-1109-causal-post-rebase-3/trunk",
+        "final_pr_state": "MERGED",
+        "final_pr_head": "a82ea80add95dc5deb40fadf34babb6a3a5d9e35",
+        "pr_ref_agree_in_final_separate_reads": true
+      },
+      "B": {
+        "number": 570,
+        "initial_ref": "372191f4a1a9a91a9b5af44fba2d36c00c297fae",
+        "final_ref": "51a73475d07713b2d65d617667f4a94daaf6e09c",
+        "initial_object": {
+          "oid": "372191f4a1a9a91a9b5af44fba2d36c00c297fae",
+          "tree": "5af583d9294f5808dd9471d72b79bb6be89ec912",
+          "parents": [
+            "a82ea80add95dc5deb40fadf34babb6a3a5d9e35"
+          ]
+        },
+        "final_object": {
+          "oid": "51a73475d07713b2d65d617667f4a94daaf6e09c",
+          "tree": "5af583d9294f5808dd9471d72b79bb6be89ec912",
+          "parents": [
+            "3b73f10efc39c04495cbf10d4fe193c82d2c49a2"
+          ]
+        },
+        "initial_base": "exh-1109-causal-post-rebase-3/A",
+        "final_base": "exh-1109-causal-post-rebase-3/trunk",
+        "final_pr_state": "OPEN",
+        "final_pr_head": "51a73475d07713b2d65d617667f4a94daaf6e09c",
+        "pr_ref_agree_in_final_separate_reads": true
+      },
+      "C": {
+        "number": 571,
+        "initial_ref": "4a18141a06410832befedc3fdc79924a0f57a2cc",
+        "final_ref": "cc27e6cd75d20a349d7342e9e7912ad6e256ec3a",
+        "initial_object": {
+          "oid": "4a18141a06410832befedc3fdc79924a0f57a2cc",
+          "tree": "2f7b12e6369a9d3795a10d151e5fa87f00922c2b",
+          "parents": [
+            "372191f4a1a9a91a9b5af44fba2d36c00c297fae"
+          ]
+        },
+        "final_object": {
+          "oid": "cc27e6cd75d20a349d7342e9e7912ad6e256ec3a",
+          "tree": "2f7b12e6369a9d3795a10d151e5fa87f00922c2b",
+          "parents": [
+            "51a73475d07713b2d65d617667f4a94daaf6e09c"
+          ]
+        },
+        "initial_base": "exh-1109-causal-post-rebase-3/B",
+        "final_base": "exh-1109-causal-post-rebase-3/B",
+        "final_pr_state": "OPEN",
+        "final_pr_head": "cc27e6cd75d20a349d7342e9e7912ad6e256ec3a",
+        "pr_ref_agree_in_final_separate_reads": true
+      },
+      "D": {
+        "number": 572,
+        "initial_ref": "cd36e1197abdbd0283f8666b82f5b6aa34b4b7ca",
+        "final_ref": "7cc4ad3de9009002e3cd1950a7de9f80a182bfa4",
+        "initial_object": {
+          "oid": "cd36e1197abdbd0283f8666b82f5b6aa34b4b7ca",
+          "tree": "6893c8f67f2ca2933f1505abd567e64ca04dca62",
+          "parents": [
+            "4a18141a06410832befedc3fdc79924a0f57a2cc"
+          ]
+        },
+        "final_object": {
+          "oid": "7cc4ad3de9009002e3cd1950a7de9f80a182bfa4",
+          "tree": "6893c8f67f2ca2933f1505abd567e64ca04dca62",
+          "parents": [
+            "cc27e6cd75d20a349d7342e9e7912ad6e256ec3a"
+          ]
+        },
+        "initial_base": "exh-1109-causal-post-rebase-3/C",
+        "final_base": "exh-1109-causal-post-rebase-3/C",
+        "final_pr_state": "OPEN",
+        "final_pr_head": "7cc4ad3de9009002e3cd1950a7de9f80a182bfa4",
+        "pr_ref_agree_in_final_separate_reads": true
+      }
+    },
+    "events": [
+      {
+        "member": "A",
+        "first_observed_response_interval": {
+          "start": {
+            "utc": "2026-11-09T13:51:39.707758+00:00",
+            "monotonic": 0.027196583
+          },
+          "end": {
+            "utc": "2026-11-09T13:51:40.266532+00:00",
+            "monotonic": 0.585971083
+          }
+        },
+        "__typename": "MergedEvent",
+        "id": "ME_lADOVnhIZ88AAAABdsFqac8AAAAISGbDiQ",
+        "createdAt": "2026-11-09T13:51:13Z",
+        "actor": {
+          "login": "joshlf",
+          "__typename": "User"
+        },
+        "commit": {
+          "oid": "3b73f10efc39c04495cbf10d4fe193c82d2c49a2"
+        },
+        "mergeRefName": "exh-1109-causal-post-rebase-3/trunk"
+      },
+      {
+        "member": "B",
+        "first_observed_response_interval": {
+          "start": {
+            "utc": "2026-11-09T13:51:39.707758+00:00",
+            "monotonic": 0.027196583
+          },
+          "end": {
+            "utc": "2026-11-09T13:51:40.266532+00:00",
+            "monotonic": 0.585971083
+          }
+        },
+        "__typename": "AutomaticBaseChangeSucceededEvent",
+        "id": "ABCSE_lADOVnhIZ88AAAABdsFssM8AAAAISGbOiw",
+        "createdAt": "2026-11-09T13:51:15Z",
+        "actor": {
+          "login": "joshlf",
+          "__typename": "User"
+        },
+        "oldBase": "exh-1109-causal-post-rebase-3/A",
+        "newBase": "exh-1109-causal-post-rebase-3/trunk"
+      },
+      {
+        "member": "B",
+        "first_observed_response_interval": {
+          "start": {
+            "utc": "2026-11-09T13:51:39.707758+00:00",
+            "monotonic": 0.027196583
+          },
+          "end": {
+            "utc": "2026-11-09T13:51:40.266532+00:00",
+            "monotonic": 0.585971083
+          }
+        },
+        "__typename": "HeadRefForcePushedEvent",
+        "id": "HRFPE_lADOVnhIZ88AAAABdsFssM8AAAAISGblPg",
+        "createdAt": "2026-11-09T13:51:18Z",
+        "actor": {
+          "login": "joshlf",
+          "__typename": "User"
+        },
+        "beforeCommit": {
+          "oid": "372191f4a1a9a91a9b5af44fba2d36c00c297fae"
+        },
+        "afterCommit": {
+          "oid": "51a73475d07713b2d65d617667f4a94daaf6e09c"
+        },
+        "ref": {
+          "name": "exh-1109-causal-post-rebase-3/B",
+          "target": {
+            "oid": "51a73475d07713b2d65d617667f4a94daaf6e09c"
+          }
+        }
+      },
+      {
+        "member": "C",
+        "first_observed_response_interval": {
+          "start": {
+            "utc": "2026-11-09T13:51:39.707758+00:00",
+            "monotonic": 0.027196583
+          },
+          "end": {
+            "utc": "2026-11-09T13:51:40.266532+00:00",
+            "monotonic": 0.585971083
+          }
+        },
+        "__typename": "HeadRefForcePushedEvent",
+        "id": "HRFPE_lADOVnhIZ88AAAABdsFvZ88AAAAISGbnDw",
+        "createdAt": "2026-11-09T13:51:19Z",
+        "actor": {
+          "login": "joshlf",
+          "__typename": "User"
+        },
+        "beforeCommit": {
+          "oid": "4a18141a06410832befedc3fdc79924a0f57a2cc"
+        },
+        "afterCommit": {
+          "oid": "cc27e6cd75d20a349d7342e9e7912ad6e256ec3a"
+        },
+        "ref": {
+          "name": "exh-1109-causal-post-rebase-3/C",
+          "target": {
+            "oid": "cc27e6cd75d20a349d7342e9e7912ad6e256ec3a"
+          }
+        }
+      },
+      {
+        "member": "D",
+        "first_observed_response_interval": {
+          "start": {
+            "utc": "2026-11-09T13:51:39.707758+00:00",
+            "monotonic": 0.027196583
+          },
+          "end": {
+            "utc": "2026-11-09T13:51:40.266532+00:00",
+            "monotonic": 0.585971083
+          }
+        },
+        "__typename": "HeadRefForcePushedEvent",
+        "id": "HRFPE_lADOVnhIZ88AAAABdsFyEc8AAAAISGbm5A",
+        "createdAt": "2026-11-09T13:51:19Z",
+        "actor": {
+          "login": "joshlf",
+          "__typename": "User"
+        },
+        "beforeCommit": {
+          "oid": "cd36e1197abdbd0283f8666b82f5b6aa34b4b7ca"
+        },
+        "afterCommit": {
+          "oid": "7cc4ad3de9009002e3cd1950a7de9f80a182bfa4"
+        },
+        "ref": {
+          "name": "exh-1109-causal-post-rebase-3/D",
+          "target": {
+            "oid": "7cc4ad3de9009002e3cd1950a7de9f80a182bfa4"
+          }
+        }
+      }
+    ],
+    "marker_commit_interval": {
+      "start": {
+        "utc": "2026-11-09T13:51:16.566570+00:00",
+        "monotonic": 18.341214375
+      },
+      "end": {
+        "utc": "2026-11-09T13:51:16.627401+00:00",
+        "monotonic": 18.402043708
+      }
+    },
+    "marker_push_interval": {
+      "start": {
+        "utc": "2026-11-09T13:51:16.628132+00:00",
+        "monotonic": 18.402760291
+      },
+      "end": {
+        "utc": "2026-11-09T13:51:18.073438+00:00",
+        "monotonic": 19.848110833
+      }
+    },
+    "marker_is_final_git_head": false,
+    "force_events_from_marker": [],
+    "marker_creation_after_terminal_receipt_seconds": 0.2001655840000005,
+    "last_git_read_start_after_marker_push_seconds": 21.634111
+  },
+  {
+    "name": "post-squash-1",
+    "phase": "frozen-requires-reconciliation",
+    "prs": {
+      "A": 566,
+      "B": 567
+    },
+    "stack": 568,
+    "merge_uuid": "8ede2755-f6a2-475c-93d5-ccfb8f2f78dc",
+    "method": "squash",
+    "terminal": {
+      "status": "merged",
+      "details": {
+        "message": "Pull request was merged.",
+        "sha": "8bf5ca5a46d6641f78d905461e92cd8008ff157a"
+      }
+    },
+    "marker": {
+      "target": "B",
+      "ref": "refs/heads/exh-1109-causal-post-squash-1/B",
+      "before": "6e63736ecb363ee6e0a9605615445869df531c2b",
+      "marker": "529d204a85babe7804d94f1c0ad5a23583bffe61",
+      "nonce": "beeda50bede54f1db57c150a3fab8737"
+    },
+    "marker_publication_acknowledged": false,
+    "samples": 1,
+    "members": {
+      "A": {
+        "number": 566,
+        "initial_ref": "bf6901709a632df1c4e052a7fdb6c593303b357a",
+        "final_ref": "bf6901709a632df1c4e052a7fdb6c593303b357a",
+        "initial_object": {
+          "oid": "bf6901709a632df1c4e052a7fdb6c593303b357a",
+          "tree": "cb1fe5bf7352ba9eb0a80d17a6a1eda849639c68",
+          "parents": [
+            "49dfa12d9329d3179caab15314dff23965c5b138"
+          ]
+        },
+        "final_object": {
+          "oid": "bf6901709a632df1c4e052a7fdb6c593303b357a",
+          "tree": "cb1fe5bf7352ba9eb0a80d17a6a1eda849639c68",
+          "parents": [
+            "49dfa12d9329d3179caab15314dff23965c5b138"
+          ]
+        },
+        "initial_base": "exh-1109-causal-post-squash-1/trunk",
+        "final_base": "exh-1109-causal-post-squash-1/trunk",
+        "final_pr_state": "MERGED",
+        "final_pr_head": "bf6901709a632df1c4e052a7fdb6c593303b357a",
+        "pr_ref_agree_in_final_separate_reads": true
+      },
+      "B": {
+        "number": 567,
+        "initial_ref": "6e63736ecb363ee6e0a9605615445869df531c2b",
+        "final_ref": "7d5a84a514aa19b8ddbd6e4beb2b470751d2f9ec",
+        "initial_object": {
+          "oid": "6e63736ecb363ee6e0a9605615445869df531c2b",
+          "tree": "999cce9e9a6a7caa1010559fe0aea6ad2f438b33",
+          "parents": [
+            "bf6901709a632df1c4e052a7fdb6c593303b357a"
+          ]
+        },
+        "final_object": {
+          "oid": "7d5a84a514aa19b8ddbd6e4beb2b470751d2f9ec",
+          "tree": "999cce9e9a6a7caa1010559fe0aea6ad2f438b33",
+          "parents": [
+            "8bf5ca5a46d6641f78d905461e92cd8008ff157a"
+          ]
+        },
+        "initial_base": "exh-1109-causal-post-squash-1/A",
+        "final_base": "exh-1109-causal-post-squash-1/trunk",
+        "final_pr_state": "OPEN",
+        "final_pr_head": "7d5a84a514aa19b8ddbd6e4beb2b470751d2f9ec",
+        "pr_ref_agree_in_final_separate_reads": true
+      }
+    },
+    "events": [
+      {
+        "member": "A",
+        "first_observed_response_interval": {
+          "start": {
+            "utc": "2026-11-09T13:50:24.436177+00:00",
+            "monotonic": 0.028298333
+          },
+          "end": {
+            "utc": "2026-11-09T13:50:24.911872+00:00",
+            "monotonic": 0.503998875
+          }
+        },
+        "__typename": "MergedEvent",
+        "id": "ME_lADOVnhIZ88AAAABdsEkes8AAAAISGUTZw",
+        "createdAt": "2026-11-09T13:50:02Z",
+        "actor": {
+          "login": "joshlf",
+          "__typename": "User"
+        },
+        "commit": {
+          "oid": "8bf5ca5a46d6641f78d905461e92cd8008ff157a"
+        },
+        "mergeRefName": "exh-1109-causal-post-squash-1/trunk"
+      },
+      {
+        "member": "B",
+        "first_observed_response_interval": {
+          "start": {
+            "utc": "2026-11-09T13:50:24.436177+00:00",
+            "monotonic": 0.028298333
+          },
+          "end": {
+            "utc": "2026-11-09T13:50:24.911872+00:00",
+            "monotonic": 0.503998875
+          }
+        },
+        "__typename": "AutomaticBaseChangeSucceededEvent",
+        "id": "ABCSE_lADOVnhIZ88AAAABdsEoGc8AAAAISGUdvQ",
+        "createdAt": "2026-11-09T13:50:04Z",
+        "actor": {
+          "login": "joshlf",
+          "__typename": "User"
+        },
+        "oldBase": "exh-1109-causal-post-squash-1/A",
+        "newBase": "exh-1109-causal-post-squash-1/trunk"
+      },
+      {
+        "member": "B",
+        "first_observed_response_interval": {
+          "start": {
+            "utc": "2026-11-09T13:50:24.436177+00:00",
+            "monotonic": 0.028298333
+          },
+          "end": {
+            "utc": "2026-11-09T13:50:24.911872+00:00",
+            "monotonic": 0.503998875
+          }
+        },
+        "__typename": "HeadRefForcePushedEvent",
+        "id": "HRFPE_lADOVnhIZ88AAAABdsEoGc8AAAAISGUt2Q",
+        "createdAt": "2026-11-09T13:50:07Z",
+        "actor": {
+          "login": "joshlf",
+          "__typename": "User"
+        },
+        "beforeCommit": {
+          "oid": "6e63736ecb363ee6e0a9605615445869df531c2b"
+        },
+        "afterCommit": {
+          "oid": "7d5a84a514aa19b8ddbd6e4beb2b470751d2f9ec"
+        },
+        "ref": {
+          "name": "exh-1109-causal-post-squash-1/B",
+          "target": {
+            "oid": "7d5a84a514aa19b8ddbd6e4beb2b470751d2f9ec"
+          }
+        }
+      }
+    ],
+    "marker_commit_interval": {
+      "start": {
+        "utc": "2026-11-09T13:50:05.736214+00:00",
+        "monotonic": 14.938601958
+      },
+      "end": {
+        "utc": "2026-11-09T13:50:05.798767+00:00",
+        "monotonic": 15.001152916
+      }
+    },
+    "marker_push_interval": {
+      "start": {
+        "utc": "2026-11-09T13:50:05.799490+00:00",
+        "monotonic": 15.001862625
+      },
+      "end": {
+        "utc": "2026-11-09T13:50:06.422193+00:00",
+        "monotonic": 15.624588833
+      }
+    },
+    "marker_is_final_git_head": false,
+    "force_events_from_marker": [],
+    "marker_creation_after_terminal_receipt_seconds": 0.1913244169999988,
+    "last_git_read_start_after_marker_push_seconds": 18.013779
+  },
+  {
+    "name": "post-squash-3",
+    "phase": "frozen-requires-reconciliation",
+    "prs": {
+      "A": 580,
+      "B": 581,
+      "C": 582,
+      "D": 583
+    },
+    "stack": 584,
+    "merge_uuid": "dd42a1de-00b8-4c47-9f20-b6fa11e58718",
+    "method": "squash",
+    "terminal": {
+      "status": "merged",
+      "details": {
+        "message": "Pull request was merged.",
+        "sha": "5ed495ebf0ba559c633677265d61246841586a29"
+      }
+    },
+    "marker": {
+      "target": "D",
+      "ref": "refs/heads/exh-1109-causal-post-squash-3/D",
+      "before": "3e41d08c23ed18457b8bf3f30dfeda59d9081c3b",
+      "marker": "75810bacffcb2bfbbe661a8b6dfb63cacb621d1d",
+      "nonce": "a586dd936e0e425da0757d844f5b3bb7"
+    },
+    "marker_publication_acknowledged": false,
+    "samples": 1,
+    "members": {
+      "A": {
+        "number": 580,
+        "initial_ref": "3943d987d917b5c73bd963daae64a2b4411bc611",
+        "final_ref": "3943d987d917b5c73bd963daae64a2b4411bc611",
+        "initial_object": {
+          "oid": "3943d987d917b5c73bd963daae64a2b4411bc611",
+          "tree": "2d67a1a218456555908f1dd6ab9d197f1e86a252",
+          "parents": [
+            "05e122e40e96128dcf6b1e51a865ccb58c0864c4"
+          ]
+        },
+        "final_object": {
+          "oid": "3943d987d917b5c73bd963daae64a2b4411bc611",
+          "tree": "2d67a1a218456555908f1dd6ab9d197f1e86a252",
+          "parents": [
+            "05e122e40e96128dcf6b1e51a865ccb58c0864c4"
+          ]
+        },
+        "initial_base": "exh-1109-causal-post-squash-3/trunk",
+        "final_base": "exh-1109-causal-post-squash-3/trunk",
+        "final_pr_state": "MERGED",
+        "final_pr_head": "3943d987d917b5c73bd963daae64a2b4411bc611",
+        "pr_ref_agree_in_final_separate_reads": true
+      },
+      "B": {
+        "number": 581,
+        "initial_ref": "39fdc88a75bfbbdb7d33bb25e8d10a51af95662c",
+        "final_ref": "d94d00b91f8bcd645818262f4744f31194d5a0d0",
+        "initial_object": {
+          "oid": "39fdc88a75bfbbdb7d33bb25e8d10a51af95662c",
+          "tree": "fedc5fdeb9a5b30a22c884d2be3bba0145605893",
+          "parents": [
+            "3943d987d917b5c73bd963daae64a2b4411bc611"
+          ]
+        },
+        "final_object": {
+          "oid": "d94d00b91f8bcd645818262f4744f31194d5a0d0",
+          "tree": "fedc5fdeb9a5b30a22c884d2be3bba0145605893",
+          "parents": [
+            "5ed495ebf0ba559c633677265d61246841586a29"
+          ]
+        },
+        "initial_base": "exh-1109-causal-post-squash-3/A",
+        "final_base": "exh-1109-causal-post-squash-3/trunk",
+        "final_pr_state": "OPEN",
+        "final_pr_head": "d94d00b91f8bcd645818262f4744f31194d5a0d0",
+        "pr_ref_agree_in_final_separate_reads": true
+      },
+      "C": {
+        "number": 582,
+        "initial_ref": "1280bf67dbc95f29dfe359e321cfcd15eebdb684",
+        "final_ref": "3f2107bfc08c34a8489b8ca1f3053defa5077e5d",
+        "initial_object": {
+          "oid": "1280bf67dbc95f29dfe359e321cfcd15eebdb684",
+          "tree": "ec7f851ead958f25ecbe71857bd5aca4a33facec",
+          "parents": [
+            "39fdc88a75bfbbdb7d33bb25e8d10a51af95662c"
+          ]
+        },
+        "final_object": {
+          "oid": "3f2107bfc08c34a8489b8ca1f3053defa5077e5d",
+          "tree": "ec7f851ead958f25ecbe71857bd5aca4a33facec",
+          "parents": [
+            "d94d00b91f8bcd645818262f4744f31194d5a0d0"
+          ]
+        },
+        "initial_base": "exh-1109-causal-post-squash-3/B",
+        "final_base": "exh-1109-causal-post-squash-3/B",
+        "final_pr_state": "OPEN",
+        "final_pr_head": "3f2107bfc08c34a8489b8ca1f3053defa5077e5d",
+        "pr_ref_agree_in_final_separate_reads": true
+      },
+      "D": {
+        "number": 583,
+        "initial_ref": "3e41d08c23ed18457b8bf3f30dfeda59d9081c3b",
+        "final_ref": "9e66a64bfddd8a45aac46e2542b98fae02c4251e",
+        "initial_object": {
+          "oid": "3e41d08c23ed18457b8bf3f30dfeda59d9081c3b",
+          "tree": "4e9412e77594f8d8fe4bc3dec22adfc5e2f9413b",
+          "parents": [
+            "1280bf67dbc95f29dfe359e321cfcd15eebdb684"
+          ]
+        },
+        "final_object": {
+          "oid": "9e66a64bfddd8a45aac46e2542b98fae02c4251e",
+          "tree": "4e9412e77594f8d8fe4bc3dec22adfc5e2f9413b",
+          "parents": [
+            "3f2107bfc08c34a8489b8ca1f3053defa5077e5d"
+          ]
+        },
+        "initial_base": "exh-1109-causal-post-squash-3/C",
+        "final_base": "exh-1109-causal-post-squash-3/C",
+        "final_pr_state": "OPEN",
+        "final_pr_head": "9e66a64bfddd8a45aac46e2542b98fae02c4251e",
+        "pr_ref_agree_in_final_separate_reads": true
+      }
+    },
+    "events": [
+      {
+        "member": "A",
+        "first_observed_response_interval": {
+          "start": {
+            "utc": "2026-11-09T14:01:17.355506+00:00",
+            "monotonic": 0.037129041
+          },
+          "end": {
+            "utc": "2026-11-09T14:01:17.870979+00:00",
+            "monotonic": 0.552603708
+          }
+        },
+        "__typename": "MergedEvent",
+        "id": "ME_lADOVnhIZ88AAAABdsOsSM8AAAAISHNvKg",
+        "createdAt": "2026-11-09T14:00:21Z",
+        "actor": {
+          "login": "joshlf",
+          "__typename": "User"
+        },
+        "commit": {
+          "oid": "5ed495ebf0ba559c633677265d61246841586a29"
+        },
+        "mergeRefName": "exh-1109-causal-post-squash-3/trunk"
+      },
+      {
+        "member": "B",
+        "first_observed_response_interval": {
+          "start": {
+            "utc": "2026-11-09T14:01:17.355506+00:00",
+            "monotonic": 0.037129041
+          },
+          "end": {
+            "utc": "2026-11-09T14:01:17.870979+00:00",
+            "monotonic": 0.552603708
+          }
+        },
+        "__typename": "AutomaticBaseChangeSucceededEvent",
+        "id": "ABCSE_lADOVnhIZ88AAAABdsOwEM8AAAAISHN9QQ",
+        "createdAt": "2026-11-09T14:00:23Z",
+        "actor": {
+          "login": "joshlf",
+          "__typename": "User"
+        },
+        "oldBase": "exh-1109-causal-post-squash-3/A",
+        "newBase": "exh-1109-causal-post-squash-3/trunk"
+      },
+      {
+        "member": "B",
+        "first_observed_response_interval": {
+          "start": {
+            "utc": "2026-11-09T14:01:17.355506+00:00",
+            "monotonic": 0.037129041
+          },
+          "end": {
+            "utc": "2026-11-09T14:01:17.870979+00:00",
+            "monotonic": 0.552603708
+          }
+        },
+        "__typename": "HeadRefForcePushedEvent",
+        "id": "HRFPE_lADOVnhIZ88AAAABdsOwEM8AAAAISHORTA",
+        "createdAt": "2026-11-09T14:00:26Z",
+        "actor": {
+          "login": "joshlf",
+          "__typename": "User"
+        },
+        "beforeCommit": {
+          "oid": "39fdc88a75bfbbdb7d33bb25e8d10a51af95662c"
+        },
+        "afterCommit": {
+          "oid": "d94d00b91f8bcd645818262f4744f31194d5a0d0"
+        },
+        "ref": {
+          "name": "exh-1109-causal-post-squash-3/B",
+          "target": {
+            "oid": "d94d00b91f8bcd645818262f4744f31194d5a0d0"
+          }
+        }
+      },
+      {
+        "member": "C",
+        "first_observed_response_interval": {
+          "start": {
+            "utc": "2026-11-09T14:01:17.355506+00:00",
+            "monotonic": 0.037129041
+          },
+          "end": {
+            "utc": "2026-11-09T14:01:17.870979+00:00",
+            "monotonic": 0.552603708
+          }
+        },
+        "__typename": "HeadRefForcePushedEvent",
+        "id": "HRFPE_lADOVnhIZ88AAAABdsOzz88AAAAISHOVig",
+        "createdAt": "2026-11-09T14:00:27Z",
+        "actor": {
+          "login": "joshlf",
+          "__typename": "User"
+        },
+        "beforeCommit": {
+          "oid": "1280bf67dbc95f29dfe359e321cfcd15eebdb684"
+        },
+        "afterCommit": {
+          "oid": "3f2107bfc08c34a8489b8ca1f3053defa5077e5d"
+        },
+        "ref": {
+          "name": "exh-1109-causal-post-squash-3/C",
+          "target": {
+            "oid": "3f2107bfc08c34a8489b8ca1f3053defa5077e5d"
+          }
+        }
+      },
+      {
+        "member": "D",
+        "first_observed_response_interval": {
+          "start": {
+            "utc": "2026-11-09T14:01:17.355506+00:00",
+            "monotonic": 0.037129041
+          },
+          "end": {
+            "utc": "2026-11-09T14:01:17.870979+00:00",
+            "monotonic": 0.552603708
+          }
+        },
+        "__typename": "HeadRefForcePushedEvent",
+        "id": "HRFPE_lADOVnhIZ88AAAABdsO3tc8AAAAISHOQ_A",
+        "createdAt": "2026-11-09T14:00:26Z",
+        "actor": {
+          "login": "joshlf",
+          "__typename": "User"
+        },
+        "beforeCommit": {
+          "oid": "3e41d08c23ed18457b8bf3f30dfeda59d9081c3b"
+        },
+        "afterCommit": {
+          "oid": "9e66a64bfddd8a45aac46e2542b98fae02c4251e"
+        },
+        "ref": {
+          "name": "exh-1109-causal-post-squash-3/D",
+          "target": {
+            "oid": "9e66a64bfddd8a45aac46e2542b98fae02c4251e"
+          }
+        }
+      }
+    ],
+    "marker_commit_interval": {
+      "start": {
+        "utc": "2026-11-09T14:00:24.525073+00:00",
+        "monotonic": 26.476948375
+      },
+      "end": {
+        "utc": "2026-11-09T14:00:24.598136+00:00",
+        "monotonic": 26.550014708
+      }
+    },
+    "marker_push_interval": {
+      "start": {
+        "utc": "2026-11-09T14:00:24.599079+00:00",
+        "monotonic": 26.550935666
+      },
+      "end": {
+        "utc": "2026-11-09T14:00:26.017675+00:00",
+        "monotonic": 27.969565583
+      }
+    },
+    "marker_is_final_git_head": false,
+    "force_events_from_marker": [],
+    "marker_creation_after_terminal_receipt_seconds": 0.20809829199999896,
+    "last_git_read_start_after_marker_push_seconds": 51.337629
+  }
+]

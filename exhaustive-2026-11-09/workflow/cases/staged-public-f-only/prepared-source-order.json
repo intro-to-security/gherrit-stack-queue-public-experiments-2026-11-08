@@ -1,0 +1,6 @@
+{
+  "future_objects_retained": "5333b1e9084ef3f43263085d38fec76762eae45e",
+  "initial_tip": "4040cc4844abad8e18665f2cfc15e2d6d2def8d6",
+  "old_local_tip": "5333b1e9084ef3f43263085d38fec76762eae45e",
+  "reason": "Keep captured initial authoring tip at B0 until hosted publication; A-prime/B-prime objects are precomputed local fixtures only"
+}

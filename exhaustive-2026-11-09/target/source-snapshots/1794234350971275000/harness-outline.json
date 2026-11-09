@@ -1,0 +1,26 @@
+{
+  "phase": "read-only planning; waiting for exact root execution grant",
+  "repository": "joshlf/gherrit-native-stack-experiments-2026-11-08",
+  "prefix": "exh-1109-target-profile001-",
+  "fixtures": {
+    "u": {"layers": 2, "trunk": "exh-1109-target-profile001-u-trunk", "trigger": "unfiltered pull_request", "method": "squash", "root_policy": true},
+    "f": {"layers": 2, "trunk": "exh-1109-target-profile001-f-trunk", "trigger": "pull_request filtered to its own trunk", "method": null, "root_policy": false},
+    "m": {"layers": 2, "trunk": "exh-1109-target-profile001-m-trunk", "trigger": "unfiltered pull_request", "method": "merge", "root_policy": true},
+    "r": {"layers": 2, "trunk": "exh-1109-target-profile001-r-trunk", "trigger": "unfiltered pull_request", "method": "rebase", "root_policy": true},
+    "p": {"layers": 1, "trunk": "exh-1109-target-profile001-p-trunk", "trigger": "unfiltered pull_request; known context/failure variants", "method": "squash", "root_policy": true}
+  },
+  "limits": {"new_refs": 14, "new_prs": 9, "job_timeout_minutes": 3, "case_check_observation_seconds": 300, "native_poll_seconds": 300, "queue_operations": 0},
+  "proposed_effects_after_grant": [
+    "absent-expected atomic Git push of owned fixture trunks/heads",
+    "POST /repos/{repository}/pulls with exact owned head/base",
+    "POST /repos/{repository}/stacks with exact owned pull_requests",
+    "same-order amendment with explicit expected SHA",
+    "POST /repos/{repository}/statuses/{owned_sha} with synthetic producer-negative context",
+    "PUT /repos/{repository}/pulls/{owned_pr}/merge-async with exact current sha, recorded merge_method and merge_action direct_merge",
+    "close only known owned open PRs after outcome reconciliation"
+  ],
+  "root_only_effects": ["proposed exact-trunk classic protection and exact-ref ruleset application/readback/restoration"],
+  "forbidden_effects": ["production GHerrit writes", "default main writes", "repository flag changes", "queue or auto-merge", "secrets/environments", "other fixtures", "messages to humans"],
+  "unknown_write_policy": "Durable attempt before request; no retry; fresh reconciliation against retained identity; freeze ambiguous scope",
+  "implementation_status": "outline only; no hosted mutation dispatcher exists in target yet"
+}
