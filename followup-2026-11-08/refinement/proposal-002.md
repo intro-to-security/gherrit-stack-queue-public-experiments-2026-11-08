@@ -1,0 +1,7 @@
+# Candidate002 transition
+
+Pass001 accepted the common dispatch precision and evidence updates, then found scope/comparative wording that needed narrowing. Candidate002 separates three fixtures retaining existing reviews from all four yielding verified replacements, restores the exact webhook-versus-Actions source distinction, and replaces the unsupported blanket negative about generic orchestration with the narrower absence of a demonstrated burden advantage. It connects normal amend/rebase to explicit attachment acceptance at the next preparation/recovery, retaining the historical accepted result independently from the mutable source. It does not require a journal write for every Git command.
+
+These changes respond to exposed critic traces; they are design witnesses, not blind confirmations. No concrete holdout premise was exposed. The steward reported one overconstrained original oracle; its original bytes remain sealed and its result is qualified rather than converted to a pass. All eight reserves remain unexposed before pass002. No governing contract, refinement method, authority, revision role, provider handoff or production claim changes.
+
+The full completion-boundary reread is complete for pass001. Candidate002 is sent to the warm challenger, same isolated stitcher and a newly spawned unanchored Fresh Critic002. No local-convergence or full-replacement claim is made. If the second pass supports no further conceptual change, remaining implementation/provider/human obligations still constrain the stopping and delivery claims.

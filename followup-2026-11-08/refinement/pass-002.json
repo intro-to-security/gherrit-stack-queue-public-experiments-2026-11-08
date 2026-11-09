@@ -1,0 +1,26 @@
+{
+  "candidate_sha256": "84658d5380376651c9e8dd865a6f20101fa46a4d9440bcf96f5f399001bc19cb",
+  "candidate": "candidate-002.md",
+  "baseline": "outputs/github-native-stack-design-2026-11-08/post-experiment-refinement/candidate-001-corrected.md",
+  "status": "complete; new website evidence triggers finalreport re-audit",
+  "fresh_critic": "new isolated context",
+  "concrete_holdouts_exposed": false,
+  "method_changed": false,
+  "contract_changed": false,
+  "completion_boundary_full_reread": [
+    "model-refinement",
+    "swarm-model-refinement",
+    "tech-lead",
+    "durable-work-coordination",
+    "fixedcontract"
+  ],
+  "new_conceptual_changes": false,
+  "further_supported_model_improvement_found": false,
+  "remaining_required_gates": [
+    "providerhandoff/fullrepeatworkflow",
+    "productionadmission/recovery/identity/migration",
+    "humanworkflowvalidation"
+  ],
+  "local_convergence_claimed": false,
+  "holdout_premises_exposed": false
+}

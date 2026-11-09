@@ -1,0 +1,9 @@
+{
+  "exact_reviewed_candidates": {
+    "candidate-001.md": "d14c1eb884d02fc97f47b4e00a0b3c9338164c9d2b6288f8c0a7efc2a2384fd0",
+    "candidate-002.md": "84658d5380376651c9e8dd865a6f20101fa46a4d9440bcf96f5f399001bc19cb",
+    "candidate-003.md": "5b0c763bd6a706e88db644dd368013b2f95c7d3882a8ca79fb2febf487f6885f"
+  },
+  "intentional_eof": "The exact reviewed/published issue bodies end with a blank line. Preserve those bytes; check other whitespace normally.",
+  "concrete_sealed_cases_excluded": true
+}

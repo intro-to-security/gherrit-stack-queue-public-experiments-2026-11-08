@@ -1,0 +1,12 @@
+{
+  "issue": 518,
+  "candidate": "candidate-003.md",
+  "sha256": "5b0c763bd6a706e88db644dd368013b2f95c7d3882a8ca79fb2febf487f6885f",
+  "exact_issue_readback": true,
+  "evidence_source_commits": [
+    "97b993efdda40a1cbe690d317e436e32937adb85",
+    "958470f1f185e5c84ca3f5664a3136b37391be5b"
+  ],
+  "stopping": "bounded; qualified proposal delivered",
+  "production_acceptance": false
+}

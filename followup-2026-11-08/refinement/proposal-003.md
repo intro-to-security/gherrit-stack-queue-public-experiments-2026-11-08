@@ -1,0 +1,7 @@
+# Candidate003: terminal website evidence
+
+The user completed sign-in while pass002 was finishing. Root then performed the actual owner-only upper/middle website removal controls on the prepared held ABC fixture. Both confirmed actions returned visible Not Found; independent API/Git reads after each retained ABC and exact source/trunk/archives. One expressly authorized lower-A cleanup succeeded before timeout and removed all3; manual removal events and the original terminal admission UUID remain distinct evidence. No browser HTTPrequest/status/UUID was captured or inferred.
+
+Candidate003 changes only the three now-obsolete pending-website passages. It does not change semantic owners, admission/unknown rules, scope, archives, range import, continuation policy or provider handoff. New functional data are exposed design witnesses, not reserved cases or human comprehension data. The report/source must not infer that the website shares the GraphQL failure's internal cause. The new observations are already compatible with002's authority gates.
+
+Pass002 warm/fresh/stitcher reviews found no further supported conceptual change, but operational C2/C4/C5/C8 gates prevent full replacement acceptance. Full completion-boundary reread is complete. A final003 review occurs after the last feasible live experiment, with a newly isolated fresh critic, reused warm critic and unexposed28case stitcher recheck. No method/contract changes and no concrete holdout exposure. No production implementation authorized or performed.

@@ -1,0 +1,22 @@
+{
+  "at": "2026-11-09T05:46:17.718200+00:00",
+  "candidate_sha256": "5b0c763bd6a706e88db644dd368013b2f95c7d3882a8ca79fb2febf487f6885f",
+  "utf8_bytes": 65267,
+  "exact_candidate_preserved": true,
+  "size_disclosure_and_no_stale_pending_UI_checks": true,
+  "no_trailing_whitespace": true,
+  "source_navigation_finding": "resolved by two independent rechecks of519->958470f reports/index",
+  "source_index_fallback": "publication/source-index-readback-958.json",
+  "completion_boundary_full_reread": [
+    "model-refinement",
+    "swarm-model-refinement",
+    "tech-lead",
+    "durable-work-coordination",
+    "fixed C1\u2013C8 contract"
+  ],
+  "holdout_premises_exposed_to_root_or_architects": false,
+  "new_conceptual_changes_in_finalpass": false,
+  "further_supported_conceptual_improvement_found": false,
+  "stopping": "bounded stop: provider/fullworkflow/implementation/human obligations remain; qualifiedartifactdeliverable",
+  "production_acceptance": false
+}

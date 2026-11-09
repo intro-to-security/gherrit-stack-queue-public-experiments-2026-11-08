@@ -1,0 +1,11 @@
+{
+  "at": "2026-11-09T05:43:24.404341+00:00",
+  "commit": "958470f1f185e5c84ca3f5664a3136b37391be5b",
+  "path": "followup-2026-11-08/queue/SOURCE-INDEX.json",
+  "git_blob": "b939c3219f4956cf613a933acc99cd1de004a370",
+  "bytes": 1384312,
+  "sha256": "2650793692b41ed5016f3890c227cb2c9bdf24015980b9ff9d96f6bb75002ff5",
+  "remote_bytes_equal_local": true,
+  "reason": "Connector file-reader size limit; direct Git blob API read succeeded",
+  "archive_sha256": "1fd13de93a87b2318cec2e2c1310086d58bc4b7a1aab98d6f4f1edee5580c363"
+}

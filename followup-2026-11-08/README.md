@@ -58,7 +58,8 @@ write safe to resend.
 Finite traces do not establish provider idempotency, a cross-resource snapshot,
 pending cancellation, a future-write fence or universal configuration support.
 No model failure, unavailable premise or natural server error is erased by the
-completion of a driver. The requested design refinement follows collection and
-publication; this evidence snapshot is not production acceptance.
+completion of a driver. The [post-experiment refinement](refinement/RESULT.md) retains the model with
+explicit dispatch safeguards and a qualified design. Its three passes end at a
+bounded stop on operational/provider obligations, not production acceptance.
 
 *Authored by an AI agent acting on joshlf's behalf.*

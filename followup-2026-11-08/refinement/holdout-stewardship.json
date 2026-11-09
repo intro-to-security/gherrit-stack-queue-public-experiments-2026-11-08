@@ -1,0 +1,557 @@
+{
+  "role": "Execution: swarm-model-refinement; isolated holdout steward",
+  "governing_contract_path": "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/outputs/github-native-stack-design-2026-11-08/GOVERNING-CONTRACT.md",
+  "governing_contract_sha256": "2b1172e0348bfaa2af2c7511df25853df2b06c1964bba718916c712dc65b3589",
+  "construction_inputs": [
+    "Governing contract C1-C8",
+    "neutral task statement",
+    "loaded skills"
+  ],
+  "excluded_inputs": [
+    "incumbent",
+    "candidate",
+    "prior swarms and holdouts",
+    "experiment reports",
+    "coordinator conversation",
+    "worker artifacts"
+  ],
+  "provenance": "Fresh synthetic reasoning cases; no live experiments or current platform factual claims.",
+  "isolation": {
+    "context": "private agent context",
+    "filesystem": "shared filesystem; no ACL protection",
+    "premises_sent_to_coordinator": false,
+    "candidate_authors_must_not_read": "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-followup-2026-11-08/refinement/sealed"
+  },
+  "model": "inherited; effective model and reasoning effort not independently observable",
+  "workspace": "shared filesystem; exclusive sealed subdirectory assigned to steward",
+  "coverage_counts": {
+    "C1": 7,
+    "C2": 21,
+    "C3": 14,
+    "C4": 20,
+    "C5": 14,
+    "C6": 9,
+    "C7": 7,
+    "C8": 8
+  },
+  "corpora": [
+    {
+      "path": "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-followup-2026-11-08/refinement/sealed/confirmation.json",
+      "sha256": "3a18dbb2625b3a577c8e7619b75ba38d28b6735cf7ed2e8ca6cc96c6cbda997a",
+      "count": 20,
+      "cases": [
+        {
+          "id": "H01",
+          "sha256": "1ca459504f216ab0c1710d092b697ab49c6af6c80850e4b31cfd844949f6782b",
+          "obligations": [
+            "C1",
+            "C2",
+            "C5"
+          ],
+          "exposure": "unexposed-to-coordinator-and-candidate-authors",
+          "confirmation_passes": [
+            "001",
+            "002",
+            "003"
+          ]
+        },
+        {
+          "id": "H02",
+          "sha256": "154ff2340c1a6aa01e0077e59ff438d6480a1c9c2a264b24c9f5acceb015d987",
+          "obligations": [
+            "C1",
+            "C2",
+            "C4",
+            "C5"
+          ],
+          "exposure": "unexposed-to-coordinator-and-candidate-authors",
+          "confirmation_passes": [
+            "001",
+            "002",
+            "003"
+          ]
+        },
+        {
+          "id": "H03",
+          "sha256": "07c61a1346719b53c6edb2523e3a41fd326215ec510b358b5432748d3ac589bb",
+          "obligations": [
+            "C2",
+            "C3",
+            "C8"
+          ],
+          "exposure": "unexposed-to-coordinator-and-candidate-authors",
+          "confirmation_passes": [
+            "001",
+            "002",
+            "003"
+          ]
+        },
+        {
+          "id": "H04",
+          "sha256": "d178fd652573bc11f9e27868454933d1d1c8b2bb64e90e69b708d4ea52308c4e",
+          "obligations": [
+            "C2",
+            "C4",
+            "C5"
+          ],
+          "exposure": "unexposed-to-coordinator-and-candidate-authors",
+          "confirmation_passes": [
+            "001",
+            "002",
+            "003"
+          ]
+        },
+        {
+          "id": "H05",
+          "sha256": "afd56139a5b4f8e1a446c04004ec5f5e911bed579b3b927558222bcdf7f719c9",
+          "obligations": [
+            "C2",
+            "C4",
+            "C7"
+          ],
+          "exposure": "unexposed-to-coordinator-and-candidate-authors",
+          "confirmation_passes": [
+            "001",
+            "002",
+            "003"
+          ]
+        },
+        {
+          "id": "H06",
+          "sha256": "0ae2ae75fa0885b18b12072757c93b795996074d0e761d058ed0d5a09b07f0d3",
+          "obligations": [
+            "C2",
+            "C4",
+            "C7"
+          ],
+          "exposure": "unexposed-to-coordinator-and-candidate-authors",
+          "confirmation_passes": [
+            "001",
+            "002",
+            "003"
+          ]
+        },
+        {
+          "id": "H07",
+          "sha256": "c5eeeb48e43a2981fefbd8e15e905d2fb0d20936ab5b502d7a2eff966d1c2163",
+          "obligations": [
+            "C3",
+            "C4",
+            "C5",
+            "C7"
+          ],
+          "exposure": "unexposed-to-coordinator-and-candidate-authors",
+          "confirmation_passes": [
+            "001",
+            "002",
+            "003"
+          ]
+        },
+        {
+          "id": "H08",
+          "sha256": "9398a84353c7e32a3987073d4bd6b05c78dba444735ef3933ecc5f6a8ead2b67",
+          "obligations": [
+            "C2",
+            "C3",
+            "C4"
+          ],
+          "exposure": "unexposed-to-coordinator-and-candidate-authors",
+          "confirmation_passes": [
+            "001",
+            "002",
+            "003"
+          ]
+        },
+        {
+          "id": "H09",
+          "sha256": "dee9d6ad4c10230c471e2807161055692c0c612f8abfcda85e21ee75732f6c15",
+          "obligations": [
+            "C3",
+            "C4",
+            "C6"
+          ],
+          "exposure": "unexposed-to-coordinator-and-candidate-authors",
+          "confirmation_passes": [
+            "001",
+            "002",
+            "003"
+          ]
+        },
+        {
+          "id": "H10",
+          "sha256": "91c159501ff9f6450cba4574a060ab4050e8c7cf0b469cd109535522abf1f0b3",
+          "obligations": [
+            "C2",
+            "C4",
+            "C5"
+          ],
+          "exposure": "unexposed-to-coordinator-and-candidate-authors",
+          "confirmation_passes": [
+            "001",
+            "002",
+            "003"
+          ]
+        },
+        {
+          "id": "H11",
+          "sha256": "75e48407f9640ac05346a3a9a3a9599c3df38ac5badf8b4d82cd3ceca4d641dc",
+          "obligations": [
+            "C1",
+            "C2",
+            "C5",
+            "C6"
+          ],
+          "exposure": "unexposed-to-coordinator-and-candidate-authors",
+          "confirmation_passes": [
+            "001",
+            "002",
+            "003"
+          ]
+        },
+        {
+          "id": "H12",
+          "sha256": "c818a272130ef8918baf89a432fa62a8f6807ec828ffdc4258e6d9b1963b628b",
+          "obligations": [
+            "C2",
+            "C3",
+            "C4",
+            "C5"
+          ],
+          "exposure": "unexposed-to-coordinator-and-candidate-authors",
+          "confirmation_passes": [
+            "001",
+            "002",
+            "003"
+          ]
+        },
+        {
+          "id": "H13",
+          "sha256": "19615a83e0b9b032782fc922b4fecbcf1edbe20216d433a09492c85213bf4824",
+          "obligations": [
+            "C1",
+            "C2",
+            "C5",
+            "C6"
+          ],
+          "exposure": "unexposed-to-coordinator-and-candidate-authors",
+          "confirmation_passes": [
+            "001",
+            "002",
+            "003"
+          ]
+        },
+        {
+          "id": "H14",
+          "sha256": "76263d9c6ea595a083339a8d5c9df507cfb7eacf5b185975fb8d53327949991c",
+          "obligations": [
+            "C2",
+            "C3",
+            "C5",
+            "C8"
+          ],
+          "exposure": "unexposed-to-coordinator-and-candidate-authors",
+          "confirmation_passes": [
+            "001",
+            "002",
+            "003"
+          ]
+        },
+        {
+          "id": "H15",
+          "sha256": "97084da26ca6368b1e5ed429a97fa66c803c101623151a6a4b1ac72bb4c05095",
+          "obligations": [
+            "C1",
+            "C3",
+            "C4",
+            "C5"
+          ],
+          "exposure": "unexposed-to-coordinator-and-candidate-authors",
+          "confirmation_passes": [
+            "001",
+            "002",
+            "003"
+          ]
+        },
+        {
+          "id": "H16",
+          "sha256": "5979148edbdc404bf5adf96dc3bbd89b5b43590999467991e54e84805f8655a2",
+          "obligations": [
+            "C2",
+            "C4",
+            "C5"
+          ],
+          "exposure": "unexposed-to-coordinator-and-candidate-authors",
+          "confirmation_passes": [
+            "001",
+            "002",
+            "003"
+          ]
+        },
+        {
+          "id": "H17",
+          "sha256": "d406c3b711977e0f243ee1dc9d7c08c50dcaf915ed5537994bd9628201b7dadc",
+          "obligations": [
+            "C2",
+            "C4",
+            "C6",
+            "C8"
+          ],
+          "exposure": "unexposed-to-coordinator-and-candidate-authors",
+          "confirmation_passes": [
+            "001",
+            "002",
+            "003"
+          ]
+        },
+        {
+          "id": "H18",
+          "sha256": "fdb853d9b69a23ac117d3b9359380a909830fa793a3205d55a09007afaa88b4d",
+          "obligations": [
+            "C3",
+            "C4",
+            "C6",
+            "C8"
+          ],
+          "exposure": "unexposed-to-coordinator-and-candidate-authors",
+          "confirmation_passes": [
+            "001",
+            "002",
+            "003"
+          ]
+        },
+        {
+          "id": "H19",
+          "sha256": "bf47f50fa933a62405491e690cfa4fce8e727fb0f718c0eb44a8c7b85bf8a0e2",
+          "obligations": [
+            "C4",
+            "C6",
+            "C7",
+            "C8"
+          ],
+          "exposure": "unexposed-to-coordinator-and-candidate-authors",
+          "confirmation_passes": [
+            "001",
+            "002",
+            "003"
+          ]
+        },
+        {
+          "id": "H20",
+          "sha256": "140640a9009a82c7e2cb9e2a7d3fc92028bd6397c69452ba6111f3fcaf5a8380",
+          "obligations": [
+            "C3",
+            "C4",
+            "C6",
+            "C7"
+          ],
+          "exposure": "unexposed-to-coordinator-and-candidate-authors",
+          "confirmation_passes": [
+            "001",
+            "002",
+            "003"
+          ]
+        }
+      ],
+      "used_for_confirmation_passes": [
+        "001",
+        "002",
+        "003"
+      ],
+      "unused_reserve_cases": 0
+    },
+    {
+      "path": "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-followup-2026-11-08/refinement/sealed/reserve.json",
+      "sha256": "57437e55c24dc62745b1b9e420f25d3f14c5aaf78a59029c7c2007498863e58e",
+      "count": 8,
+      "cases": [
+        {
+          "id": "R01",
+          "sha256": "0f9197d3c4a011d810b447b3a15dd5d9c80b53adf0ed9b5121b278f701eefa9f",
+          "obligations": [
+            "C2",
+            "C4",
+            "C5"
+          ],
+          "exposure": "unexposed-to-coordinator-and-candidate-authors",
+          "confirmation_passes": [
+            "002",
+            "003"
+          ]
+        },
+        {
+          "id": "R02",
+          "sha256": "4ea9e50a27034cd6dcd09ef52d52b9a1f54591a9fdb0d4e36196937d6b281cca",
+          "obligations": [
+            "C2",
+            "C3",
+            "C8"
+          ],
+          "exposure": "unexposed-to-coordinator-and-candidate-authors",
+          "confirmation_passes": [
+            "002",
+            "003"
+          ]
+        },
+        {
+          "id": "R03",
+          "sha256": "6ee98b26e3ef01a31e9f6cdb2bbb885cec4b9f31767a6c1baeeca3e25ff72f4c",
+          "obligations": [
+            "C1",
+            "C2",
+            "C4"
+          ],
+          "exposure": "unexposed-to-coordinator-and-candidate-authors",
+          "confirmation_passes": [
+            "002",
+            "003"
+          ]
+        },
+        {
+          "id": "R04",
+          "sha256": "6b95fc4a92a4ceca67e1c908d04e745a1342cd75f4f5628e43e2baaddff01693",
+          "obligations": [
+            "C2",
+            "C4",
+            "C6"
+          ],
+          "exposure": "unexposed-to-coordinator-and-candidate-authors",
+          "confirmation_passes": [
+            "002",
+            "003"
+          ]
+        },
+        {
+          "id": "R05",
+          "sha256": "bcb9f257985c47f293768699affa0686e1e877b8921318a29bad2b5aebc60475",
+          "obligations": [
+            "C2",
+            "C3",
+            "C4",
+            "C5"
+          ],
+          "exposure": "unexposed-to-coordinator-and-candidate-authors",
+          "confirmation_passes": [
+            "002",
+            "003"
+          ]
+        },
+        {
+          "id": "R06",
+          "sha256": "15cc42a83ecfcfe492a3c796a1505d2be3be814327eb7b4dd003aa537fcfe15d",
+          "obligations": [
+            "C2",
+            "C3",
+            "C4",
+            "C7"
+          ],
+          "exposure": "unexposed-to-coordinator-and-candidate-authors",
+          "confirmation_passes": [
+            "002",
+            "003"
+          ]
+        },
+        {
+          "id": "R07",
+          "sha256": "dda2078882526365218fd6e948c47c009d8d077d5fda3bec197afefa4619578a",
+          "obligations": [
+            "C2",
+            "C3",
+            "C6",
+            "C8"
+          ],
+          "exposure": "unexposed-to-coordinator-and-candidate-authors",
+          "confirmation_passes": [
+            "002",
+            "003"
+          ]
+        },
+        {
+          "id": "R08",
+          "sha256": "d1d42e360c1fcc7c0b76df42365e4dcbe03c3a208cf756ca6c4d257e58643903",
+          "obligations": [
+            "C1",
+            "C3",
+            "C5",
+            "C7",
+            "C8"
+          ],
+          "exposure": "unexposed-to-coordinator-and-candidate-authors",
+          "confirmation_passes": [
+            "002",
+            "003"
+          ]
+        }
+      ],
+      "used_for_confirmation_passes": [
+        "002",
+        "003"
+      ],
+      "unused_reserve_cases": 0
+    }
+  ],
+  "evaluation_policy": "Compare incumbent and candidate under the same obligations. Do not release passing or reserve premises. Report failures first as abstract contract obligations; concrete disclosure requires exposure reclassification. No convergence verdict or external action authority delegated.",
+  "evaluations": [
+    {
+      "pass": "001",
+      "confirmation_cases_checked": 20,
+      "reserve_cases_used": 0,
+      "reserve_reread_during_pass": false,
+      "baseline_sha256": "fb1490a6c8a89b0532398e8dd1a3fdf9cde61c20068899c535c116a2288f5cfe",
+      "candidate_sha256": "d14c1eb884d02fc97f47b4e00a0b3c9338164c9d2b6288f8c0a7efc2a2384fd0",
+      "safe_report": "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-followup-2026-11-08/refinement/holdout-review-001.md",
+      "safe_report_sha256": "ef4ebf84dc4207ee7eb169d0bf84852674f800da099f6ca239cd580ec848ed9b",
+      "sealed_review": "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-followup-2026-11-08/refinement/sealed/review-001.md",
+      "sealed_review_sha256": "028302ca3b4ac0b10551b08647400166a0fe5d83e2dd979a4ffee12c14a9b6e4",
+      "premises_exposed_to_synthesizer": false,
+      "both_dispositions": {
+        "mapped_proposal_or_named_restriction": 7,
+        "expressly_open_required_gate": 11,
+        "protocol_excluded_trace": 1,
+        "partly_unsupported_oracle": 1,
+        "established_hard_contract_contradiction": 0
+      }
+    },
+    {
+      "pass": "002",
+      "confirmation_cases_rechecked": 20,
+      "fresh_reserve_cases_checked": 8,
+      "unused_reserve_cases_remaining": 0,
+      "baseline_sha256": "fb1490a6c8a89b0532398e8dd1a3fdf9cde61c20068899c535c116a2288f5cfe",
+      "candidate_sha256": "84658d5380376651c9e8dd865a6f20101fa46a4d9440bcf96f5f399001bc19cb",
+      "safe_report": "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-followup-2026-11-08/refinement/holdout-review-002.md",
+      "safe_report_sha256": "474555a2398e7ac793eaed324e87530d189f667a13935309d857c1550403d920",
+      "sealed_review": "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-followup-2026-11-08/refinement/sealed/review-002.md",
+      "sealed_review_sha256": "bf0610fa23d7323bdfee8339753ceea48ba4f3b15a14cb8e70a56c61a56e9ca3",
+      "premises_exposed_to_synthesizer": false,
+      "prior_oracle_qualification_preserved": true,
+      "both_total_dispositions": {
+        "mapped_proposal_or_named_restriction": 9,
+        "expressly_open_required_gate": 16,
+        "protocol_excluded_trace": 2,
+        "partly_unsupported_oracle": 1,
+        "established_hard_contract_contradiction": 0
+      }
+    },
+    {
+      "pass": "003",
+      "cases_rechecked": 28,
+      "fresh_cases": 0,
+      "unused_reserve_cases_remaining": 0,
+      "baseline_sha256": "fb1490a6c8a89b0532398e8dd1a3fdf9cde61c20068899c535c116a2288f5cfe",
+      "candidate_sha256": "5b0c763bd6a706e88db644dd368013b2f95c7d3882a8ca79fb2febf487f6885f",
+      "safe_report": "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-followup-2026-11-08/refinement/holdout-review-003.md",
+      "safe_report_sha256": "1f51091a601203cf0b67882d8dac542ac172774b9db9e66221a21e8a7759a726",
+      "sealed_review": "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-followup-2026-11-08/refinement/sealed/review-003.md",
+      "sealed_review_sha256": "65036c1d588b18e68ae35c414529e307d83390188fe114b64885569954a11ec9",
+      "premises_exposed_to_synthesizer": false,
+      "prior_oracle_qualification_preserved": true,
+      "both_total_dispositions": {
+        "mapped_proposal_or_named_restriction": 9,
+        "expressly_open_required_gate": 16,
+        "protocol_excluded_trace": 2,
+        "partly_unsupported_oracle": 1,
+        "established_hard_contract_contradiction": 0
+      }
+    }
+  ]
+}

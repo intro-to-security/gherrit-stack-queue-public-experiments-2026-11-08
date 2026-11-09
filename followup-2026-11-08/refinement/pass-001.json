@@ -1,0 +1,40 @@
+{
+  "candidate": "candidate-001.md",
+  "candidate_sha256": "d14c1eb884d02fc97f47b4e00a0b3c9338164c9d2b6288f8c0a7efc2a2384fd0",
+  "baseline": "outputs/github-native-stack-design-2026-11-08/post-experiment-refinement/candidate-001-corrected.md",
+  "baseline_sha256": "fb1490a6c8a89b0532398e8dd1a3fdf9cde61c20068899c535c116a2288f5cfe",
+  "contract": "outputs/github-native-stack-design-2026-11-08/GOVERNING-CONTRACT.md",
+  "architects": [
+    "architect-alpha/PROPOSAL.md",
+    "architect-beta/PROPOSAL.md",
+    "architect-gamma/PROPOSAL.md"
+  ],
+  "seals": "holdout-stewardship.json",
+  "concrete_holdouts_inspected_by_root": false,
+  "pass1_status": "complete; successor required",
+  "new_conceptual_precision": "all-entry dispatch ownership/admission/identity/result enforcement; successor pass required if retained",
+  "completion_boundary_full_reread": [
+    "model-refinement",
+    "swarm-model-refinement",
+    "tech-lead",
+    "durable-work-coordination",
+    "fixed C1\u2013C8 contract"
+  ],
+  "accepted_changes": [
+    "all-entry owner/reload/identity/result precision retained",
+    "mapping acceptance explicitly connects ordinary Git editing to successor attachment",
+    "evidence quantifier and comparative/architecture claims narrowed",
+    "stacked source distinction restored"
+  ],
+  "layer_diagnosis": {
+    "local_failure": "realization/enforcement",
+    "error_classification": "harness and explanatory precision",
+    "website_quantifier": "report scope",
+    "stacked_reference": "evidence explanation",
+    "generic_orchestration": "comparative claim",
+    "provider_handoff": "shared missing provider/contract premise; no full-workflow acceptance"
+  },
+  "holdouts_exposed": false,
+  "holdout_dispositions": "7 mapped,11 open-gate,1 excluded,1 partly unsupported oracle; no established contradiction; not a pass rate",
+  "convergence": false
+}
