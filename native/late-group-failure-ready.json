@@ -1,0 +1,302 @@
+[
+  {
+    "A": {
+      "data": {
+        "repository": {
+          "pullRequest": {
+            "id": "PR_kwDOVnmBMc8AAAABNve9hQ",
+            "number": 15,
+            "headRefOid": "6271f4d74d65aa1058c1046e2fdfe6d189880370",
+            "baseRefName": "exp/native/late-group-failure/trunk",
+            "state": "OPEN",
+            "merged": false,
+            "mergeStateStatus": "BLOCKED",
+            "mergeQueueEntry": null,
+            "commits": {
+              "nodes": [
+                {
+                  "commit": {
+                    "oid": "6271f4d74d65aa1058c1046e2fdfe6d189880370",
+                    "statusCheckRollup": {
+                      "state": "PENDING",
+                      "contexts": {
+                        "nodes": [
+                          {
+                            "name": "queue-observe",
+                            "conclusion": null,
+                            "status": "QUEUED",
+                            "detailsUrl": "https://github.com/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/actions/runs/42544672799/job/128926964216"
+                          },
+                          {
+                            "name": "queue-observe",
+                            "conclusion": null,
+                            "status": "IN_PROGRESS",
+                            "detailsUrl": "https://github.com/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/actions/runs/42544671132/job/128926958495"
+                          },
+                          {
+                            "context": "experiment/queue-release",
+                            "state": "SUCCESS",
+                            "targetUrl": null
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    "B": {
+      "data": {
+        "repository": {
+          "pullRequest": {
+            "id": "PR_kwDOVnmBMc8AAAABNve-MQ",
+            "number": 16,
+            "headRefOid": "88698e19a9aa655e6478ea4c053111c3b3ec146d",
+            "baseRefName": "exp/native/late-group-failure/A",
+            "state": "OPEN",
+            "merged": false,
+            "mergeStateStatus": "BLOCKED",
+            "mergeQueueEntry": null,
+            "commits": {
+              "nodes": [
+                {
+                  "commit": {
+                    "oid": "88698e19a9aa655e6478ea4c053111c3b3ec146d",
+                    "statusCheckRollup": {
+                      "state": "PENDING",
+                      "contexts": {
+                        "nodes": [
+                          {
+                            "name": "queue-observe",
+                            "conclusion": null,
+                            "status": "IN_PROGRESS",
+                            "detailsUrl": "https://github.com/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/actions/runs/42544672827/job/128926963707"
+                          },
+                          {
+                            "name": "queue-observe",
+                            "conclusion": null,
+                            "status": "IN_PROGRESS",
+                            "detailsUrl": "https://github.com/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/actions/runs/42544673107/job/128926964305"
+                          },
+                          {
+                            "context": "experiment/queue-release",
+                            "state": "SUCCESS",
+                            "targetUrl": null
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "A": {
+      "data": {
+        "repository": {
+          "pullRequest": {
+            "id": "PR_kwDOVnmBMc8AAAABNve9hQ",
+            "number": 15,
+            "headRefOid": "6271f4d74d65aa1058c1046e2fdfe6d189880370",
+            "baseRefName": "exp/native/late-group-failure/trunk",
+            "state": "OPEN",
+            "merged": false,
+            "mergeStateStatus": "BLOCKED",
+            "mergeQueueEntry": null,
+            "commits": {
+              "nodes": [
+                {
+                  "commit": {
+                    "oid": "6271f4d74d65aa1058c1046e2fdfe6d189880370",
+                    "statusCheckRollup": {
+                      "state": "PENDING",
+                      "contexts": {
+                        "nodes": [
+                          {
+                            "name": "queue-observe",
+                            "conclusion": null,
+                            "status": "IN_PROGRESS",
+                            "detailsUrl": "https://github.com/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/actions/runs/42544671132/job/128926958495"
+                          },
+                          {
+                            "name": "queue-observe",
+                            "conclusion": null,
+                            "status": "IN_PROGRESS",
+                            "detailsUrl": "https://github.com/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/actions/runs/42544672799/job/128926964216"
+                          },
+                          {
+                            "context": "experiment/queue-release",
+                            "state": "SUCCESS",
+                            "targetUrl": null
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    "B": {
+      "data": {
+        "repository": {
+          "pullRequest": {
+            "id": "PR_kwDOVnmBMc8AAAABNve-MQ",
+            "number": 16,
+            "headRefOid": "88698e19a9aa655e6478ea4c053111c3b3ec146d",
+            "baseRefName": "exp/native/late-group-failure/A",
+            "state": "OPEN",
+            "merged": false,
+            "mergeStateStatus": "BLOCKED",
+            "mergeQueueEntry": null,
+            "commits": {
+              "nodes": [
+                {
+                  "commit": {
+                    "oid": "88698e19a9aa655e6478ea4c053111c3b3ec146d",
+                    "statusCheckRollup": {
+                      "state": "PENDING",
+                      "contexts": {
+                        "nodes": [
+                          {
+                            "name": "queue-observe",
+                            "conclusion": null,
+                            "status": "IN_PROGRESS",
+                            "detailsUrl": "https://github.com/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/actions/runs/42544672827/job/128926963707"
+                          },
+                          {
+                            "name": "queue-observe",
+                            "conclusion": null,
+                            "status": "IN_PROGRESS",
+                            "detailsUrl": "https://github.com/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/actions/runs/42544673107/job/128926964305"
+                          },
+                          {
+                            "context": "experiment/queue-release",
+                            "state": "SUCCESS",
+                            "targetUrl": null
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "A": {
+      "data": {
+        "repository": {
+          "pullRequest": {
+            "id": "PR_kwDOVnmBMc8AAAABNve9hQ",
+            "number": 15,
+            "headRefOid": "6271f4d74d65aa1058c1046e2fdfe6d189880370",
+            "baseRefName": "exp/native/late-group-failure/trunk",
+            "state": "OPEN",
+            "merged": false,
+            "mergeStateStatus": "CLEAN",
+            "mergeQueueEntry": null,
+            "commits": {
+              "nodes": [
+                {
+                  "commit": {
+                    "oid": "6271f4d74d65aa1058c1046e2fdfe6d189880370",
+                    "statusCheckRollup": {
+                      "state": "SUCCESS",
+                      "contexts": {
+                        "nodes": [
+                          {
+                            "name": "queue-observe",
+                            "conclusion": "SUCCESS",
+                            "status": "COMPLETED",
+                            "detailsUrl": "https://github.com/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/actions/runs/42544671132/job/128926958495"
+                          },
+                          {
+                            "name": "queue-observe",
+                            "conclusion": "SUCCESS",
+                            "status": "COMPLETED",
+                            "detailsUrl": "https://github.com/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/actions/runs/42544672799/job/128926964216"
+                          },
+                          {
+                            "context": "experiment/queue-release",
+                            "state": "SUCCESS",
+                            "targetUrl": null
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    "B": {
+      "data": {
+        "repository": {
+          "pullRequest": {
+            "id": "PR_kwDOVnmBMc8AAAABNve-MQ",
+            "number": 16,
+            "headRefOid": "88698e19a9aa655e6478ea4c053111c3b3ec146d",
+            "baseRefName": "exp/native/late-group-failure/A",
+            "state": "OPEN",
+            "merged": false,
+            "mergeStateStatus": "CLEAN",
+            "mergeQueueEntry": null,
+            "commits": {
+              "nodes": [
+                {
+                  "commit": {
+                    "oid": "88698e19a9aa655e6478ea4c053111c3b3ec146d",
+                    "statusCheckRollup": {
+                      "state": "SUCCESS",
+                      "contexts": {
+                        "nodes": [
+                          {
+                            "name": "queue-observe",
+                            "conclusion": "SUCCESS",
+                            "status": "COMPLETED",
+                            "detailsUrl": "https://github.com/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/actions/runs/42544672827/job/128926963707"
+                          },
+                          {
+                            "name": "queue-observe",
+                            "conclusion": "SUCCESS",
+                            "status": "COMPLETED",
+                            "detailsUrl": "https://github.com/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/actions/runs/42544673107/job/128926964305"
+                          },
+                          {
+                            "context": "experiment/queue-release",
+                            "state": "SUCCESS",
+                            "targetUrl": null
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+]

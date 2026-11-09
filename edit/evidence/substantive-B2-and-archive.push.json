@@ -1,0 +1,24 @@
+{
+  "start": "2026-11-09T01:20:19.558250+00:00",
+  "updates": {
+    "refs/heads/exp/edit/selected-head-edit-1794187135707147000/B": "7c5baafffdc6f509a4f8996c87cfdd63835c8b7d",
+    "refs/tags/exp/edit/selected-head-edit-1794187135707147000/authored/B/v2": "7c5baafffdc6f509a4f8996c87cfdd63835c8b7d"
+  },
+  "expected": {
+    "refs/heads/exp/edit/selected-head-edit-1794187135707147000/B": "00d3461ec9cc92155ae2ff0a8f1327e982da48ad",
+    "refs/tags/exp/edit/selected-head-edit-1794187135707147000/authored/B/v2": ""
+  },
+  "args": [
+    "push",
+    "--atomic",
+    "--force-with-lease=refs/heads/exp/edit/selected-head-edit-1794187135707147000/B:00d3461ec9cc92155ae2ff0a8f1327e982da48ad",
+    "--force-with-lease=refs/tags/exp/edit/selected-head-edit-1794187135707147000/authored/B/v2:",
+    "origin",
+    "7c5baafffdc6f509a4f8996c87cfdd63835c8b7d:refs/heads/exp/edit/selected-head-edit-1794187135707147000/B",
+    "7c5baafffdc6f509a4f8996c87cfdd63835c8b7d:refs/tags/exp/edit/selected-head-edit-1794187135707147000/authored/B/v2"
+  ],
+  "end": "2026-11-09T01:20:20.794479+00:00",
+  "exit": 1,
+  "stdout": "",
+  "stderr": "remote: error: GH006: Protected branch update failed for refs/heads/exp/edit/selected-head-edit-1794187135707147000/B.        \nremote: \nremote: - A pull request for this branch has been added to a merge queue. Branches that        \nremote:   are queued for merging cannot be updated. To modify this branch, dequeue the        \nremote:   associated pull request.        \nTo https://github.com/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08.git\n ! [remote rejected] 7c5baafffdc6f509a4f8996c87cfdd63835c8b7d -> exp/edit/selected-head-edit-1794187135707147000/B (protected branch hook declined)\n ! [remote rejected] 7c5baafffdc6f509a4f8996c87cfdd63835c8b7d -> exp/edit/selected-head-edit-1794187135707147000/authored/B/v2 (atomic transaction failed)\nerror: failed to push some refs to 'https://github.com/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08.git'\n"
+}

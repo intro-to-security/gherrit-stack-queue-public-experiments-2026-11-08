@@ -1,0 +1,36 @@
+{
+  "method": "POST",
+  "path": "graphql",
+  "payload": {
+    "query": "query($owner:String!,$repo:String!,$branch:String!){repository(owner:$owner,name:$repo){mergeQueue(branch:$branch){id url entries(first:100){nodes{id position state enqueuedAt headCommit{oid} baseCommit{oid} pullRequest{id number headRefOid}} pageInfo{hasNextPage endCursor}}}}}",
+    "variables": {
+      "owner": "intro-to-security",
+      "repo": "gherrit-stack-queue-public-experiments-2026-11-08",
+      "branch": "exp/native/fresh-enabled/trunk"
+    }
+  },
+  "label": "fresh-enabled-before-explicit-requeue",
+  "start": "2026-11-09T01:20:01.302334+00:00",
+  "monotonic_start": 0.022575041,
+  "end": "2026-11-09T01:20:01.601346+00:00",
+  "monotonic_end": 0.321419208,
+  "exit": 0,
+  "http": 200,
+  "data": {
+    "data": {
+      "repository": {
+        "mergeQueue": {
+          "id": "MQ_kwDOVnmBMc4ABVNw",
+          "url": "https://github.com/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/queue/exp/native/fresh-enabled/trunk",
+          "entries": {
+            "nodes": [],
+            "pageInfo": {
+              "hasNextPage": false,
+              "endCursor": null
+            }
+          }
+        }
+      }
+    }
+  }
+}

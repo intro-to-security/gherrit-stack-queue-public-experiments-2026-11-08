@@ -1,0 +1,317 @@
+{
+  "audited_at": "2026-11-09T01:37:25.882221+00:00",
+  "checks": {
+    "prefix-happy-canonical-archives-trees-and-admission": true,
+    "fresh-enabled-canonical-archives-trees-and-admission": true,
+    "late-group-failure-canonical-archives-trees-and-admission": true,
+    "requeues-are-distinct-current-hosted-head-intents": true,
+    "B12-eventually-lands-B16-later-fails": true,
+    "early-no-group-window-not-permanent-nondispatch": true,
+    "failing-selected-source-check-rejected-before-admission": true,
+    "post-requeue-B16-has-actual-intended-MG-failure": true,
+    "manual-gate-context-is-a-real-extra-variable": true,
+    "ungated-SQUASH-reproduces-upper-ejection-with-successful-sync": true,
+    "no-unreceipted-API-intents-at-audit-cutoff": true
+  },
+  "all_checks_passed": true,
+  "cases": [
+    {
+      "case": "prefix-happy",
+      "prs": {
+        "A": 1,
+        "B": 2,
+        "C": 3
+      },
+      "initial_uuid": "352412a0-9989-43e7-83c6-c94f74a59d72",
+      "initial_admission": "enqueued",
+      "A_landed_commit": "964781d850b7c100efbea59663f9eb9d1dfdb971",
+      "first_B_removal_reason": "invalid_merge_commit",
+      "first_B_removal_at": "2026-11-09T01:21:49Z",
+      "A_merged_at": "2026-11-09T01:21:51Z",
+      "B_removal_reasons": [
+        "invalid_merge_commit"
+      ],
+      "original_uuid_after_outcome": "enqueued",
+      "final_recorded_lifecycle": {
+        "A": {
+          "merged": true,
+          "state": "closed"
+        },
+        "B": {
+          "merged": false,
+          "state": "open"
+        },
+        "C": {
+          "merged": false,
+          "state": "open"
+        }
+      }
+    },
+    {
+      "case": "fresh-enabled",
+      "prs": {
+        "A": 11,
+        "B": 12,
+        "C": 13
+      },
+      "initial_uuid": "9fb81b89-89c7-4f80-8c89-0d21b074f60d",
+      "initial_admission": "enqueued",
+      "A_landed_commit": "f2e28370a7c8a293c8806dc24bcb3e2b4a40fc2d",
+      "first_B_removal_reason": "invalid_merge_commit",
+      "first_B_removal_at": "2026-11-09T01:18:12Z",
+      "A_merged_at": "2026-11-09T01:18:14Z",
+      "B_removal_reasons": [
+        "invalid_merge_commit",
+        "merged"
+      ],
+      "original_uuid_after_outcome": "enqueued",
+      "final_recorded_lifecycle": {
+        "A": {
+          "merged": true,
+          "state": "closed"
+        },
+        "B": {
+          "merged": true,
+          "state": "closed"
+        },
+        "C": {
+          "merged": false,
+          "state": "open"
+        }
+      }
+    },
+    {
+      "case": "late-group-failure",
+      "prs": {
+        "A": 15,
+        "B": 16
+      },
+      "initial_uuid": "ff57e096-20a8-4529-94f2-84738f455310",
+      "initial_admission": "enqueued",
+      "A_landed_commit": "96442fabd4556f626f2cb80bb3ee4dacb274afc7",
+      "first_B_removal_reason": "invalid_merge_commit",
+      "first_B_removal_at": "2026-11-09T01:18:46Z",
+      "A_merged_at": "2026-11-09T01:18:48Z",
+      "B_removal_reasons": [
+        "invalid_merge_commit",
+        "failed_checks"
+      ],
+      "original_uuid_after_outcome": "enqueued",
+      "final_recorded_lifecycle": {
+        "A": {
+          "merged": true,
+          "state": "closed"
+        },
+        "B": {
+          "merged": false,
+          "state": "open"
+        }
+      }
+    }
+  ],
+  "per_layer_tree_patch_checks": [
+    {
+      "case": "prefix-happy",
+      "letter": "B",
+      "pr": 2,
+      "authored": "54a96f3828ef3bcc23ff863645f9c50750c16fd4",
+      "hosted": "36e68aa8e2c415157ac721f28cf5f68714c7cc04",
+      "tree": "524b1a34d3e2a020adce985250646fb0be54afc5",
+      "hosted_parent": "964781d850b7c100efbea59663f9eb9d1dfdb971",
+      "exact_patch_preserved": true
+    },
+    {
+      "case": "prefix-happy",
+      "letter": "C",
+      "pr": 3,
+      "authored": "eaa9d6f9500a3e654c28787d487e7aa3c77f2491",
+      "hosted": "a16d7600f40639821a030d094e01521e71cfa2df",
+      "tree": "6304b9a4640d4d01fcac85d232de6ea500f710e9",
+      "hosted_parent": "36e68aa8e2c415157ac721f28cf5f68714c7cc04",
+      "exact_patch_preserved": true
+    },
+    {
+      "case": "fresh-enabled",
+      "letter": "B",
+      "pr": 12,
+      "authored": "483d647c76e8d74f54f738a54779f3296bbad5d0",
+      "hosted": "21aa39443622f3f7295764adc7f9a8945d0eea6e",
+      "tree": "c827f2f5fc4580db5d922c8f8c8429f70f8dcdb8",
+      "hosted_parent": "f2e28370a7c8a293c8806dc24bcb3e2b4a40fc2d",
+      "exact_patch_preserved": true
+    },
+    {
+      "case": "fresh-enabled",
+      "letter": "C",
+      "pr": 13,
+      "authored": "46b34c3a5c9f80ac0cf327b1fff6005bfdd99af4",
+      "hosted": "14ce1cf8301d81d158846c87874ec64269972eaf",
+      "tree": "d4fc4b1b9bd06446f4aca96f16a98ec371ccccc7",
+      "hosted_parent": "a155b935b2f734721a42f947c3616f9ba71a6313",
+      "exact_patch_preserved": true
+    },
+    {
+      "case": "late-group-failure",
+      "letter": "B",
+      "pr": 16,
+      "authored": "88698e19a9aa655e6478ea4c053111c3b3ec146d",
+      "hosted": "280468446730a5967ec57cbf1e0211d3f2956e48",
+      "tree": "e645de0a537118c8cb412b5d5b65930229c3a784",
+      "hosted_parent": "96442fabd4556f626f2cb80bb3ee4dacb274afc7",
+      "exact_patch_preserved": true
+    }
+  ],
+  "sequential_snapshot_head_disagreements": [
+    {
+      "case": "prefix-happy",
+      "pr": 2,
+      "snapshot_start": "2026-11-09T01:21:52.430976+00:00",
+      "snapshot_end": "2026-11-09T01:21:54.382254+00:00",
+      "pr_read_head": "54a96f3828ef3bcc23ff863645f9c50750c16fd4",
+      "later_ref_read_head": "36e68aa8e2c415157ac721f28cf5f68714c7cc04"
+    },
+    {
+      "case": "prefix-happy",
+      "pr": 3,
+      "snapshot_start": "2026-11-09T01:21:52.430976+00:00",
+      "snapshot_end": "2026-11-09T01:21:54.382254+00:00",
+      "pr_read_head": "eaa9d6f9500a3e654c28787d487e7aa3c77f2491",
+      "later_ref_read_head": "a16d7600f40639821a030d094e01521e71cfa2df"
+    },
+    {
+      "case": "fresh-enabled",
+      "phase": "first-A-landing snapshot",
+      "pr": 12,
+      "snapshot_start": "2026-11-09T01:18:15.247052+00:00",
+      "snapshot_end": "2026-11-09T01:18:18.018221+00:00",
+      "pr_read_head": "483d647c76e8d74f54f738a54779f3296bbad5d0",
+      "later_ref_read_head": "21aa39443622f3f7295764adc7f9a8945d0eea6e"
+    },
+    {
+      "case": "fresh-enabled",
+      "phase": "first-A-landing snapshot",
+      "pr": 13,
+      "snapshot_start": "2026-11-09T01:18:15.247052+00:00",
+      "snapshot_end": "2026-11-09T01:18:18.018221+00:00",
+      "pr_read_head": "46b34c3a5c9f80ac0cf327b1fff6005bfdd99af4",
+      "later_ref_read_head": "7eabd3f387b47cf9093642fe976b494ae2474a18"
+    }
+  ],
+  "manual_gate_confound": [
+    {
+      "case": "prefix-happy",
+      "original_gate_targets": [
+        "0f849939f61af49a85adec364b0af8e457dc98ec",
+        "54a96f3828ef3bcc23ff863645f9c50750c16fd4",
+        "eaa9d6f9500a3e654c28787d487e7aa3c77f2491"
+      ],
+      "rewritten_B_head": "36e68aa8e2c415157ac721f28cf5f68714c7cc04",
+      "rewritten_head_not_covered_by_original_gate_writes": true
+    },
+    {
+      "case": "fresh-enabled",
+      "original_gate_targets": [
+        "46b34c3a5c9f80ac0cf327b1fff6005bfdd99af4",
+        "483d647c76e8d74f54f738a54779f3296bbad5d0",
+        "8130ef408cde2f68b3dabae65794fa533e4701e5"
+      ],
+      "rewritten_B_head": "21aa39443622f3f7295764adc7f9a8945d0eea6e",
+      "rewritten_head_not_covered_by_original_gate_writes": true
+    },
+    {
+      "case": "late-group-failure",
+      "original_gate_targets": [
+        "6271f4d74d65aa1058c1046e2fdfe6d189880370",
+        "88698e19a9aa655e6478ea4c053111c3b3ec146d"
+      ],
+      "rewritten_B_head": "280468446730a5967ec57cbf1e0211d3f2956e48",
+      "rewritten_head_not_covered_by_original_gate_writes": true
+    }
+  ],
+  "ungated_SQUASH_control": {
+    "source": "../ci/native-no-manual-gate/state.json",
+    "method": "SQUASH",
+    "prs": {
+      "A": 25,
+      "B": 26
+    },
+    "only_required_check": [
+      {
+        "context": "queue-observe",
+        "integration_id": 15368
+      }
+    ],
+    "synthetic_status_writes": 0,
+    "failure_markers_in_authored_heads": false,
+    "A_merged": true,
+    "B_initial_removal": "invalid_merge_commit",
+    "B_current_head": "faabdcba56d4b3fcbcd8e4caa585e797082f0408",
+    "B_after_sync": "CLEAN/open/unqueued",
+    "successful_sync_run": 42545595057,
+    "conclusion": "The SQUASH observation survives removal of the custom manual gate. No cross-method generalization is established by this control."
+  },
+  "prefix_happy_early_window": {
+    "samples": 40,
+    "first": "2026-11-09T01:11:42.658365+00:00",
+    "last": "2026-11-09T01:13:15.714105+00:00",
+    "no_head_in_window": true,
+    "later_successful_group_run": 42544721015,
+    "later_run_created_at": "2026-11-09T01:16:46Z"
+  },
+  "failed_admission_terminal": {
+    "status": "failed",
+    "details": {
+      "message": "Pull request has failing required statuses and Pull request Required status check \"queue-observe\" is failing."
+    }
+  },
+  "B16_actual_failed_MG_run": 42545048985,
+  "root_input_hashes": {
+    "fixtures.json": "da3e1981d767bffc83123dd6bdb9113db36295b9727cb5afe8934ca71fb41deb",
+    "removal-timelines.json": "b204a1050948f1e968ca7555f1efc5af76311ed1a33f3f41ed1a9a29ac46a013",
+    "happy-results.json": "67948534317c4b94dad7bbe02df988c68a0dd1eff32859a31d9bf56ae5af4474",
+    "prefix-happy-advance.json": "41c699656bd2bed30ca7570025bcc6b2d70e50150330fc17aab3f44991f2d33b",
+    "evidence/prefix-happy-create-A.receipt.json": "7a5dee1e3dd064767e0485d39401cf949d5e477719e1a793ca78ebb26142eca0",
+    "evidence/prefix-happy-A.commit.json": "8e3a5a76437d74c72fb6e6431bca92434fefd9afc7d33807602acf385caa1d21",
+    "evidence/prefix-happy-create-B.receipt.json": "c61927fae836aa67fc50f38c4e8bfe4e22855a9d965cf8c9167e2547fb320116",
+    "evidence/prefix-happy-B.commit.json": "8499085fc20027a8469ccfa7150336e25f14949c902866ed65727599e13f192d",
+    "evidence/prefix-happy-create-C.receipt.json": "6e3db303f39d2dcf272ee273cb50f81495a93ff74bb552415c1a370d511add90",
+    "evidence/prefix-happy-C.commit.json": "2ba90cdc77532650e36e1cc4d61beed2200e06553b32ff1a68df99b2310c14cd",
+    "fresh-enabled-results.json": "ff56ae472836f1bbbc997da7c1dffd1b4e8f3056fa8719ab34ce7c657645fdfc",
+    "fresh-enabled-advance.json": "9573bc8545d486031c5e81bb9ffdef76d78baf1c88aff0ee9031cf21a458fd71",
+    "evidence/fresh-enabled-create-A.receipt.json": "2ba4f43bcdaeaf38544fa505e08affc28d63f2ab72a2ccf61f2b1014955a1b3b",
+    "evidence/fresh-enabled-A.commit.json": "d4e843281e903b17683a00ead548863af4602c9797b2344bda858f97e0c29beb",
+    "evidence/fresh-enabled-create-B.receipt.json": "67210f6f5a37bbe6e599d58ab7fdd3d89a8eaf98d00d9eb303946c673b33e833",
+    "evidence/fresh-enabled-B.commit.json": "61a046c08526b36893e9a76a17908eb6637e87cdd7734307fe98cedce7d8a0c6",
+    "evidence/fresh-enabled-create-C.receipt.json": "85168bdec3da8e0f1b5694fd9a73ef92179f1482120ce7ae5803f94d68b2bc14",
+    "evidence/fresh-enabled-C.commit.json": "416ce6bc058af9c65b63ce401ef99043167b1accea915c6bd63cb22e5455d03e",
+    "late-group-failure-results.json": "21533c9ba9f1327eaabf9e60c2dd89e67759a683628e4d82c9f2b120750b9ce6",
+    "late-group-failure-advance.json": "d994ef1bd34525ab91d15de7d8dd673c52e328b4f93c05cfa94a06c07111acf4",
+    "evidence/late-group-failure-create-A.receipt.json": "d430588717c81fcea81e5b00f183451cc798b275332c74b4a678f8983bc5bbbc",
+    "evidence/late-group-failure-A.commit.json": "a4f39fe045b0642a6044cb3fa24d67e717236c3fea01a6749343331f24fc0e35",
+    "evidence/late-group-failure-create-B.receipt.json": "c537e95f154bf00aea9297917c2faa28e0ec6df132e54fe37d9b9be658c19a46",
+    "evidence/late-group-failure-B.commit.json": "2099b25bc4d3059c672a91490cdae5f033b18657f44106ce8abd8cc59179a149",
+    "evidence/fresh-enabled-after-advance-10.snapshot.json": "2a4b36d7e1aa95a1200d448d9ea2b67637069f8268fd4ea604700c27a2ded773",
+    "fresh-enabled-requeue-results.json": "0ab0d5f5b5571f6f232cbcc9fbf3d9f5a6d08f3a64376c7bbbf933b02d574670",
+    "late-group-failure-requeue-results.json": "f249fecda054decc4ef80671dc286576211a2fcfcf32fb26a2f1b4e0632b7c4b",
+    "build-stage-interpretation.json": "c4b477ad20b7c7b19221321b0b0a9c45299c6b99e6d23a3df05617daa80206b0",
+    "evidence/prefix-happy-group-run-42544721015.receipt.json": "93aa2831a482e64952be3289dc3fac4f5376fbe4f2e00b39595a56540ee4832f",
+    "failed-upper-admission-results.json": "5c8ed5b292235655e06227a0a3cec475768530f271ecda78a538ece69ff42acc",
+    "evidence/failed-upper-admission-create-A.receipt.json": "9e4a69785d0184b55b91c9030c9bdaf373187e000aacbf1618188d04ee1b16ab",
+    "evidence/failed-upper-admission-create-B.receipt.json": "9b9334e284f2771b80ab8005e85e7d9426bdf4fc5c8d63868b0b0053791a580f",
+    "evidence/failed-upper-admission-create-C.receipt.json": "af7d53810bb2d491f52eada84e08e3d269cc3e3c41636ae1a7d8167ffaa9c085",
+    "evidence/failed-upper-C-source-checks.receipt.json": "b585f98e92fcfbfa9a33e47d4f7708d7e381d7ae1de2b6e80c2da94f24d33930",
+    "independent-audit-evidence/requeued-B16-group-commit.json": "682dba817cc0d9f8bf42ca96f2d8baf7623e088c7cb0d4fa54708120ad47ec5a",
+    "independent-audit-evidence/requeued-B16-group-checks.json": "7f24827ba835ffccaa78d87b6c300f2ca0495b9f6d5215d4f22a6d68e0196c61",
+    "independent-audit-evidence/requeued-B16-failed-run.json": "3a53583b71af8a907e704f0816884271e3736014563a1b26a0e0745c0dc76686",
+    "evidence/happy-source-release-B-head.receipt.json": "3efb880bdd32fa7b4ebd4152fae77068085151483538988e0be2e00670d57290",
+    "evidence/happy-source-release-C-head.receipt.json": "9601e6bed36dcdbd7cd6eec3efc1f2f46dde45dc251fe5bd5e05803d53f8ead5",
+    "evidence/happy-source-release-A-head.receipt.json": "f7ed3624161bf2d098e90affc90088f5d454088199f249755012d53a24316b48",
+    "evidence/fresh-enabled-admission-A-head.receipt.json": "170f1f23c96dcfe38b3b6dff1c720d02a5ce24ccb5983137fdd804479d6da301",
+    "evidence/fresh-enabled-admission-B-head.receipt.json": "130aefafaf8017d48dfa4f063a131dd3f71663b6e6d76248bc029e5d701a4561",
+    "evidence/fresh-enabled-admission-C-head.receipt.json": "5acf168d8eec14fab804f371462677274abdb1be608e50cd9c12155673faa9e8",
+    "evidence/late-group-failure-admission-A-head.receipt.json": "c2afacc8d6ac0dc5108530cabf9b6362d2d85fd99a54f3aa2121a71b9ee25f91",
+    "evidence/late-group-failure-admission-B-head.receipt.json": "bbc1a53448037a8b1467b18ec48b05eb51ca4f48cf904072cf648552b92866de",
+    "../ci/native-no-manual-gate/state.json": "f3e3de6568c5bceac0722b840287bca88f77c73044f2f61f42c6f97eb3db4e00"
+  },
+  "scope": "Read-only audit of public synthetic native evidence and local immutable Git objects; no fixture mutation. Additional public GETs/log read only for known B16 group/run; root-authorized public CI SQUASH control read locally."
+}

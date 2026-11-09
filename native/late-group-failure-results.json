@@ -1,0 +1,156 @@
+{
+  "case": {
+    "name": "late-group-failure",
+    "prefix": "exp/native/late-group-failure",
+    "trunk": "exp/native/late-group-failure/trunk",
+    "trunk_sha": "77cf6da5ca6b0a46948c3ed0c64ce8486ca15d4e",
+    "heads": {
+      "A": {
+        "ref": "exp/native/late-group-failure/A",
+        "sha": "6271f4d74d65aa1058c1046e2fdfe6d189880370"
+      },
+      "B": {
+        "ref": "exp/native/late-group-failure/B",
+        "sha": "88698e19a9aa655e6478ea4c053111c3b3ec146d"
+      }
+    },
+    "prs": {
+      "A": 15,
+      "B": 16
+    },
+    "created": "2026-11-09T01:16:10.233829+00:00",
+    "stack": 17,
+    "ruleset": 26821780
+  },
+  "request": {
+    "method": "PUT",
+    "path": "repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/pulls/16/merge-async",
+    "payload": {
+      "merge_action": "merge_queue",
+      "sha": "88698e19a9aa655e6478ea4c053111c3b3ec146d"
+    },
+    "label": "late-group-failure-enqueue",
+    "start": "2026-11-09T01:16:28.056918+00:00",
+    "monotonic_start": 19.497136,
+    "end": "2026-11-09T01:16:28.475100+00:00",
+    "monotonic_end": 19.915331541,
+    "exit": 0,
+    "http": 202,
+    "data": {
+      "status": "pending",
+      "details": {
+        "message": "Merge request enqueued.",
+        "uuid": "ff57e096-20a8-4529-94f2-84738f455310",
+        "merge_method": "default",
+        "merge_action": "merge_queue",
+        "expected_head_sha": "88698e19a9aa655e6478ea4c053111c3b3ec146d",
+        "bypass_rules": false
+      }
+    }
+  },
+  "admission_polls": [
+    {
+      "method": "GET",
+      "path": "repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/pulls/16/merge-async/ff57e096-20a8-4529-94f2-84738f455310",
+      "payload": null,
+      "label": "late-group-failure-poll-0",
+      "start": "2026-11-09T01:16:28.475946+00:00",
+      "monotonic_start": 19.916157375,
+      "end": "2026-11-09T01:16:28.781832+00:00",
+      "monotonic_end": 20.222052916,
+      "exit": 0,
+      "http": 200,
+      "data": {
+        "status": "pending",
+        "details": {
+          "message": "Merge request is in progress.",
+          "uuid": "ff57e096-20a8-4529-94f2-84738f455310",
+          "merge_method": "default",
+          "merge_action": "merge_queue",
+          "expected_head_sha": "88698e19a9aa655e6478ea4c053111c3b3ec146d",
+          "bypass_rules": false
+        }
+      }
+    },
+    {
+      "method": "GET",
+      "path": "repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/pulls/16/merge-async/ff57e096-20a8-4529-94f2-84738f455310",
+      "payload": null,
+      "label": "late-group-failure-poll-1",
+      "start": "2026-11-09T01:16:29.792906+00:00",
+      "monotonic_start": 21.233137208,
+      "end": "2026-11-09T01:16:30.154660+00:00",
+      "monotonic_end": 21.594884041,
+      "exit": 0,
+      "http": 200,
+      "data": {
+        "status": "pending",
+        "details": {
+          "message": "Merge request is in progress.",
+          "uuid": "ff57e096-20a8-4529-94f2-84738f455310",
+          "merge_method": "default",
+          "merge_action": "merge_queue",
+          "expected_head_sha": "88698e19a9aa655e6478ea4c053111c3b3ec146d",
+          "bypass_rules": false
+        }
+      }
+    },
+    {
+      "method": "GET",
+      "path": "repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/pulls/16/merge-async/ff57e096-20a8-4529-94f2-84738f455310",
+      "payload": null,
+      "label": "late-group-failure-poll-2",
+      "start": "2026-11-09T01:16:31.163328+00:00",
+      "monotonic_start": 22.603548,
+      "end": "2026-11-09T01:16:31.471866+00:00",
+      "monotonic_end": 22.912088708,
+      "exit": 0,
+      "http": 200,
+      "data": {
+        "status": "enqueued",
+        "details": {
+          "message": "Pull request was added to the merge queue."
+        }
+      }
+    }
+  ],
+  "initial_queue": {
+    "id": "MQ_kwDOVnmBMc4ABVNy",
+    "url": "https://github.com/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/queue/exp/native/late-group-failure/trunk",
+    "entries": {
+      "nodes": [
+        {
+          "id": "MQE_lQDOVnmBMc8AAAABNve9hc4ABVNyzgPSge0",
+          "position": 1,
+          "state": "QUEUED",
+          "enqueuedAt": "2026-11-09T01:16:29Z",
+          "headCommit": null,
+          "baseCommit": null,
+          "pullRequest": {
+            "id": "PR_kwDOVnmBMc8AAAABNve9hQ",
+            "number": 15,
+            "headRefOid": "6271f4d74d65aa1058c1046e2fdfe6d189880370"
+          }
+        },
+        {
+          "id": "MQE_lQDOVnmBMc8AAAABNve-Mc4ABVNyzgPSgfE",
+          "position": 2,
+          "state": "QUEUED",
+          "enqueuedAt": "2026-11-09T01:16:30Z",
+          "headCommit": null,
+          "baseCommit": null,
+          "pullRequest": {
+            "id": "PR_kwDOVnmBMc8AAAABNve-MQ",
+            "number": 16,
+            "headRefOid": "88698e19a9aa655e6478ea4c053111c3b3ec146d"
+          }
+        }
+      ],
+      "pageInfo": {
+        "hasNextPage": false,
+        "endCursor": "Mg"
+      }
+    }
+  },
+  "prepared_at": "2026-11-09T01:16:31.926355+00:00"
+}

@@ -1,0 +1,460 @@
+{
+  "status": "completed_one_ordering_known_dequeue_rejection_then_admission",
+  "repository": "intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08",
+  "case": {
+    "name": "pending-admission-dequeue-1794187935360476000",
+    "prefix": "exp/edit/pending-admission-dequeue-1794187935360476000",
+    "trunk": "exp/edit/pending-admission-dequeue-1794187935360476000/trunk",
+    "trunk_sha": "c487b874ed00f449b3be715d1fffcb9bc384bdd6",
+    "heads": {
+      "A": {
+        "ref": "exp/edit/pending-admission-dequeue-1794187935360476000/A",
+        "sha": "efe0e3c58d419d0c3fb7496439dcad0e7d46cc33"
+      },
+      "B": {
+        "ref": "exp/edit/pending-admission-dequeue-1794187935360476000/B",
+        "sha": "7f07d3d2856d52906115d0faad892455e1079cbc"
+      }
+    },
+    "prs": {
+      "A": 34,
+      "B": 35
+    },
+    "created": "2026-11-09T01:32:17.408292+00:00",
+    "stack": 36
+  },
+  "ruleset_id": 26822309,
+  "checks_total": 55,
+  "checks_passed": 55,
+  "failed_checks": [],
+  "source_clean_interval": [
+    "2026-11-09T01:32:32.195240+00:00",
+    "2026-11-09T01:32:33.065282+00:00"
+  ],
+  "enqueue_receipt": {
+    "method": "PUT",
+    "path": "repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/pulls/35/merge-async",
+    "payload": {
+      "merge_action": "merge_queue",
+      "sha": "7f07d3d2856d52906115d0faad892455e1079cbc"
+    },
+    "label": "race-enqueue-B",
+    "start": "2026-11-09T01:32:58.342164+00:00",
+    "monotonic_start": 2.277526958,
+    "end": "2026-11-09T01:32:58.668684+00:00",
+    "monotonic_end": 2.604055,
+    "exit": 0,
+    "http": 202,
+    "data": {
+      "status": "pending",
+      "details": {
+        "message": "Merge request enqueued.",
+        "uuid": "530ad2cd-8178-4299-8d20-91eaf04b0e31",
+        "merge_method": "default",
+        "merge_action": "merge_queue",
+        "expected_head_sha": "7f07d3d2856d52906115d0faad892455e1079cbc",
+        "bypass_rules": false
+      }
+    }
+  },
+  "immediate_dequeue_receipt": {
+    "method": "POST",
+    "path": "graphql",
+    "payload": {
+      "query": "mutation($id:ID!,$nonce:String!){dequeuePullRequest(input:{id:$id,clientMutationId:$nonce}){clientMutationId}}",
+      "variables": {
+        "id": "PR_kwDOVnmBMc8AAAABNvmg3A",
+        "nonce": "pending-admission-dequeue-1794187935360476000-immediate-B"
+      }
+    },
+    "label": "race-immediate-dequeue-B",
+    "start": "2026-11-09T01:32:58.669138+00:00",
+    "monotonic_start": 2.604501375,
+    "end": "2026-11-09T01:32:58.976731+00:00",
+    "monotonic_end": 2.91211425,
+    "exit": 1,
+    "http": 200,
+    "data": {
+      "data": {
+        "dequeuePullRequest": null
+      },
+      "errors": [
+        {
+          "type": "UNPROCESSABLE",
+          "path": [
+            "dequeuePullRequest"
+          ],
+          "locations": [
+            {
+              "line": 1,
+              "column": 34
+            }
+          ],
+          "message": "No merge queue found for branch 'exp/edit/pending-admission-dequeue-1794187935360476000/A'"
+        }
+      ]
+    }
+  },
+  "client_gap_seconds": 0.0004463750000001099,
+  "original_polls": [
+    {
+      "method": "GET",
+      "path": "repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/pulls/35/merge-async/530ad2cd-8178-4299-8d20-91eaf04b0e31",
+      "payload": null,
+      "label": "race-original-poll-0",
+      "start": "2026-11-09T01:32:58.984023+00:00",
+      "monotonic_start": 2.919385583,
+      "end": "2026-11-09T01:32:59.317912+00:00",
+      "monotonic_end": 3.253281458,
+      "exit": 0,
+      "http": 200,
+      "data": {
+        "status": "pending",
+        "details": {
+          "message": "Merge request is in progress.",
+          "uuid": "530ad2cd-8178-4299-8d20-91eaf04b0e31",
+          "merge_method": "default",
+          "merge_action": "merge_queue",
+          "expected_head_sha": "7f07d3d2856d52906115d0faad892455e1079cbc",
+          "bypass_rules": false
+        }
+      }
+    },
+    {
+      "method": "GET",
+      "path": "repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/pulls/35/merge-async/530ad2cd-8178-4299-8d20-91eaf04b0e31",
+      "payload": null,
+      "label": "race-original-poll-1",
+      "start": "2026-11-09T01:33:01.329048+00:00",
+      "monotonic_start": 5.264415208,
+      "end": "2026-11-09T01:33:01.591950+00:00",
+      "monotonic_end": 5.527314583,
+      "exit": 0,
+      "http": 200,
+      "data": {
+        "status": "enqueued",
+        "details": {
+          "message": "Pull request was added to the merge queue."
+        }
+      }
+    }
+  ],
+  "original_last_result": {
+    "status": "enqueued",
+    "details": {
+      "message": "Pull request was added to the merge queue."
+    }
+  },
+  "cohorts": [
+    {
+      "start": "2026-11-09T01:33:01.592838+00:00",
+      "end": "2026-11-09T01:33:03.831940+00:00",
+      "entries": [
+        {
+          "id": "MQE_lQDOVnmBMc8AAAABNvmgU84ABVN8zgPSjd4",
+          "position": 1,
+          "state": "QUEUED",
+          "enqueuedAt": "2026-11-09T01:32:59Z",
+          "headCommit": null,
+          "baseCommit": null,
+          "pullRequest": {
+            "id": "PR_kwDOVnmBMc8AAAABNvmgUw",
+            "number": 34,
+            "headRefOid": "efe0e3c58d419d0c3fb7496439dcad0e7d46cc33"
+          }
+        },
+        {
+          "id": "MQE_lQDOVnmBMc8AAAABNvmg3M4ABVN8zgPSjeA",
+          "position": 2,
+          "state": "QUEUED",
+          "enqueuedAt": "2026-11-09T01:33:00Z",
+          "headCommit": null,
+          "baseCommit": null,
+          "pullRequest": {
+            "id": "PR_kwDOVnmBMc8AAAABNvmg3A",
+            "number": 35,
+            "headRefOid": "7f07d3d2856d52906115d0faad892455e1079cbc"
+          }
+        }
+      ],
+      "trunk": "c487b874ed00f449b3be715d1fffcb9bc384bdd6"
+    },
+    {
+      "start": "2026-11-09T01:33:06.837858+00:00",
+      "end": "2026-11-09T01:33:09.329814+00:00",
+      "entries": [
+        {
+          "id": "MQE_lQDOVnmBMc8AAAABNvmgU84ABVN8zgPSjd4",
+          "position": 1,
+          "state": "QUEUED",
+          "enqueuedAt": "2026-11-09T01:32:59Z",
+          "headCommit": null,
+          "baseCommit": null,
+          "pullRequest": {
+            "id": "PR_kwDOVnmBMc8AAAABNvmgUw",
+            "number": 34,
+            "headRefOid": "efe0e3c58d419d0c3fb7496439dcad0e7d46cc33"
+          }
+        },
+        {
+          "id": "MQE_lQDOVnmBMc8AAAABNvmg3M4ABVN8zgPSjeA",
+          "position": 2,
+          "state": "QUEUED",
+          "enqueuedAt": "2026-11-09T01:33:00Z",
+          "headCommit": null,
+          "baseCommit": null,
+          "pullRequest": {
+            "id": "PR_kwDOVnmBMc8AAAABNvmg3A",
+            "number": 35,
+            "headRefOid": "7f07d3d2856d52906115d0faad892455e1079cbc"
+          }
+        }
+      ],
+      "trunk": "c487b874ed00f449b3be715d1fffcb9bc384bdd6"
+    },
+    {
+      "start": "2026-11-09T01:33:12.342324+00:00",
+      "end": "2026-11-09T01:33:14.546657+00:00",
+      "entries": [
+        {
+          "id": "MQE_lQDOVnmBMc8AAAABNvmgU84ABVN8zgPSjd4",
+          "position": 1,
+          "state": "QUEUED",
+          "enqueuedAt": "2026-11-09T01:32:59Z",
+          "headCommit": null,
+          "baseCommit": null,
+          "pullRequest": {
+            "id": "PR_kwDOVnmBMc8AAAABNvmgUw",
+            "number": 34,
+            "headRefOid": "efe0e3c58d419d0c3fb7496439dcad0e7d46cc33"
+          }
+        },
+        {
+          "id": "MQE_lQDOVnmBMc8AAAABNvmg3M4ABVN8zgPSjeA",
+          "position": 2,
+          "state": "QUEUED",
+          "enqueuedAt": "2026-11-09T01:33:00Z",
+          "headCommit": null,
+          "baseCommit": null,
+          "pullRequest": {
+            "id": "PR_kwDOVnmBMc8AAAABNvmg3A",
+            "number": 35,
+            "headRefOid": "7f07d3d2856d52906115d0faad892455e1079cbc"
+          }
+        }
+      ],
+      "trunk": "c487b874ed00f449b3be715d1fffcb9bc384bdd6"
+    },
+    {
+      "start": "2026-11-09T01:33:17.564732+00:00",
+      "end": "2026-11-09T01:33:19.805502+00:00",
+      "entries": [
+        {
+          "id": "MQE_lQDOVnmBMc8AAAABNvmgU84ABVN8zgPSjd4",
+          "position": 1,
+          "state": "QUEUED",
+          "enqueuedAt": "2026-11-09T01:32:59Z",
+          "headCommit": null,
+          "baseCommit": null,
+          "pullRequest": {
+            "id": "PR_kwDOVnmBMc8AAAABNvmgUw",
+            "number": 34,
+            "headRefOid": "efe0e3c58d419d0c3fb7496439dcad0e7d46cc33"
+          }
+        },
+        {
+          "id": "MQE_lQDOVnmBMc8AAAABNvmg3M4ABVN8zgPSjeA",
+          "position": 2,
+          "state": "QUEUED",
+          "enqueuedAt": "2026-11-09T01:33:00Z",
+          "headCommit": null,
+          "baseCommit": null,
+          "pullRequest": {
+            "id": "PR_kwDOVnmBMc8AAAABNvmg3A",
+            "number": 35,
+            "headRefOid": "7f07d3d2856d52906115d0faad892455e1079cbc"
+          }
+        }
+      ],
+      "trunk": "c487b874ed00f449b3be715d1fffcb9bc384bdd6"
+    }
+  ],
+  "cleanup_receipt": {
+    "method": "POST",
+    "path": "graphql",
+    "payload": {
+      "query": "mutation($id:ID!,$nonce:String!){dequeuePullRequest(input:{id:$id,clientMutationId:$nonce}){clientMutationId}}",
+      "variables": {
+        "id": "PR_kwDOVnmBMc8AAAABNvmgUw",
+        "nonce": "pending-admission-dequeue-1794187935360476000-34"
+      }
+    },
+    "label": "cleanup-dequeue-34",
+    "start": "2026-11-09T01:33:20.558241+00:00",
+    "monotonic_start": 24.493471708,
+    "end": "2026-11-09T01:33:22.293655+00:00",
+    "monotonic_end": 26.228884125,
+    "exit": 0,
+    "http": 200,
+    "data": {
+      "data": {
+        "dequeuePullRequest": {
+          "clientMutationId": "pending-admission-dequeue-1794187935360476000-34"
+        }
+      }
+    }
+  },
+  "cleanup_final_read": {
+    "start": "2026-11-09T01:33:22.293998+00:00",
+    "end": "2026-11-09T01:33:23.170686+00:00",
+    "data": {
+      "mergeQueue": {
+        "id": "MQ_kwDOVnmBMc4ABVN8",
+        "entries": {
+          "totalCount": 0,
+          "pageInfo": {
+            "hasNextPage": false,
+            "endCursor": null
+          },
+          "nodes": []
+        }
+      },
+      "a": {
+        "id": "PR_kwDOVnmBMc8AAAABNvmgUw",
+        "number": 34,
+        "state": "OPEN",
+        "merged": false,
+        "headRefOid": "efe0e3c58d419d0c3fb7496439dcad0e7d46cc33",
+        "baseRefName": "exp/edit/pending-admission-dequeue-1794187935360476000/trunk",
+        "baseRefOid": "c487b874ed00f449b3be715d1fffcb9bc384bdd6",
+        "mergeStateStatus": "CLEAN",
+        "potentialMergeCommit": {
+          "oid": "33ff1ff59b1486ed92c0f5ffd273bd76d799b236"
+        },
+        "mergeQueueEntry": null,
+        "commits": {
+          "nodes": [
+            {
+              "commit": {
+                "oid": "efe0e3c58d419d0c3fb7496439dcad0e7d46cc33",
+                "statusCheckRollup": {
+                  "state": "SUCCESS",
+                  "contexts": {
+                    "nodes": [
+                      {
+                        "__typename": "CheckRun",
+                        "name": "queue-observe",
+                        "status": "COMPLETED",
+                        "conclusion": "SUCCESS",
+                        "detailsUrl": "https://github.com/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/actions/runs/42546085328/job/128931299798"
+                      },
+                      {
+                        "__typename": "CheckRun",
+                        "name": "queue-observe",
+                        "status": "COMPLETED",
+                        "conclusion": "SUCCESS",
+                        "detailsUrl": "https://github.com/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/actions/runs/42546085820/job/128931301499"
+                      },
+                      {
+                        "__typename": "StatusContext",
+                        "context": "experiment/queue-release",
+                        "state": "SUCCESS",
+                        "targetUrl": null
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      "b": {
+        "id": "PR_kwDOVnmBMc8AAAABNvmg3A",
+        "number": 35,
+        "state": "OPEN",
+        "merged": false,
+        "headRefOid": "7f07d3d2856d52906115d0faad892455e1079cbc",
+        "baseRefName": "exp/edit/pending-admission-dequeue-1794187935360476000/A",
+        "baseRefOid": "efe0e3c58d419d0c3fb7496439dcad0e7d46cc33",
+        "mergeStateStatus": "CLEAN",
+        "potentialMergeCommit": {
+          "oid": "96e7c08d40125f566c6a06eaf48f4e3ae27d9b99"
+        },
+        "mergeQueueEntry": null,
+        "commits": {
+          "nodes": [
+            {
+              "commit": {
+                "oid": "7f07d3d2856d52906115d0faad892455e1079cbc",
+                "statusCheckRollup": {
+                  "state": "SUCCESS",
+                  "contexts": {
+                    "nodes": [
+                      {
+                        "__typename": "CheckRun",
+                        "name": "queue-observe",
+                        "status": "COMPLETED",
+                        "conclusion": "SUCCESS",
+                        "detailsUrl": "https://github.com/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/actions/runs/42546087323/job/128931305705"
+                      },
+                      {
+                        "__typename": "CheckRun",
+                        "name": "queue-observe",
+                        "status": "COMPLETED",
+                        "conclusion": "SUCCESS",
+                        "detailsUrl": "https://github.com/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/actions/runs/42546087661/job/128931306492"
+                      },
+                      {
+                        "__typename": "StatusContext",
+                        "context": "experiment/queue-release",
+                        "state": "SUCCESS",
+                        "targetUrl": null
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "original_after_cleanup": {
+    "status": "enqueued",
+    "details": {
+      "message": "Pull request was added to the merge queue."
+    }
+  },
+  "final_refs": {
+    "refs/heads/exp/edit/pending-admission-dequeue-1794187935360476000/A": "efe0e3c58d419d0c3fb7496439dcad0e7d46cc33",
+    "refs/heads/exp/edit/pending-admission-dequeue-1794187935360476000/B": "7f07d3d2856d52906115d0faad892455e1079cbc",
+    "refs/heads/exp/edit/pending-admission-dequeue-1794187935360476000/trunk": "c487b874ed00f449b3be715d1fffcb9bc384bdd6",
+    "refs/tags/exp/edit/pending-admission-dequeue-1794187935360476000/authored/A/v1": "efe0e3c58d419d0c3fb7496439dcad0e7d46cc33",
+    "refs/tags/exp/edit/pending-admission-dequeue-1794187935360476000/authored/B/v1": "7f07d3d2856d52906115d0faad892455e1079cbc"
+  },
+  "interpretation": {
+    "text": "The immediate dequeue was rejected; the one original admission subsequently reported enqueued and selected B was observed queued. Record the exact rejection reason before calling it not-queued.",
+    "dequeue_errors": [
+      "No merge queue found for branch 'exp/edit/pending-admission-dequeue-1794187935360476000/A'"
+    ],
+    "dequeue_known_success": false,
+    "selected_B_seen_after_pair": true,
+    "original_status": "enqueued"
+  },
+  "source_versions": [
+    "evidence/runner-v0-syntax-error.py",
+    "evidence/runner-v1.py"
+  ],
+  "syntax_failure_scope": "Initial parse failure occurred before any execution or remote fixture creation. Corrected source was syntax-checked; only one fixture and one race were run.",
+  "source_sha256": "7bf4c99f1c7bd58c3a1c75012fcf278a57b7927a1ee816670f105b99202ecfab",
+  "limits": [
+    "The known failed immediate dequeue did not cancel the observed admission in this ordering.",
+    "The exact error names upper B direct base A; it is not relabelled as a generic not-queued error.",
+    "No control dequeued upper B after confirmed membership; cleanup had already dequeued lower A before that follow-up was suggested. Do not attribute the failure uniquely to pending timing.",
+    "No dedicated REST cancellation endpoint was used, guessed, or established.",
+    "No merge-group dispatch, landing, provider settlement, or general cancellation contract is established.",
+    "No enqueue/dequeue write was blindly retried, and no second fixture or requeue was created."
+  ]
+}

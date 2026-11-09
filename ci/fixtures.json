@@ -1,0 +1,100 @@
+{
+  "single-held-release": {
+    "name": "single-held-release",
+    "prefix": "exp/ci/single-held-release",
+    "trunk": "exp/ci/single-held-release/trunk",
+    "trunk_sha": "0e953601b9aeea3630f7e02e3308c53d7cb5ac4a",
+    "heads": {
+      "A": {
+        "ref": "exp/ci/single-held-release/A",
+        "sha": "9598ba41dda1477617af3a36c0a43abf2ec04c93"
+      }
+    },
+    "prs": {
+      "A": 5
+    },
+    "created": "2026-11-09T01:12:09.081539+00:00"
+  },
+  "single-group-failure": {
+    "name": "single-group-failure",
+    "prefix": "exp/ci/single-group-failure",
+    "trunk": "exp/ci/single-group-failure/trunk",
+    "trunk_sha": "bb8f8f8df39e03c3cabb4d8df55d5d45cf2b4f3e",
+    "heads": {
+      "A": {
+        "ref": "exp/ci/single-group-failure/A",
+        "sha": "5cd07a22622a4219c9412ff2ed43e50694158913"
+      }
+    },
+    "prs": {
+      "A": 6
+    },
+    "created": "2026-11-09T01:12:13.865396+00:00"
+  },
+  "native-no-manual-gate": {
+    "name": "native-no-manual-gate",
+    "prefix": "exp/ci/native-no-manual-gate",
+    "trunk": "exp/ci/native-no-manual-gate/trunk",
+    "trunk_sha": "6d9310de15493dc854f50b39698d314df124a588",
+    "heads": {
+      "A": {
+        "ref": "exp/ci/native-no-manual-gate/A",
+        "sha": "5544bb24c32f27b1f4efc704365d27ad37336a12"
+      },
+      "B": {
+        "ref": "exp/ci/native-no-manual-gate/B",
+        "sha": "e0bba642dfb010d659204b842391f2671c533e9b"
+      }
+    },
+    "prs": {
+      "A": 25,
+      "B": 26
+    },
+    "created": "2026-11-09T01:25:18.821668+00:00",
+    "stack": 27
+  },
+  "native-no-manual-gate-merge": {
+    "name": "native-no-manual-gate-merge",
+    "prefix": "exp/ci/native-no-manual-gate-merge",
+    "trunk": "exp/ci/native-no-manual-gate-merge/trunk",
+    "trunk_sha": "0a627446b784313ae83efe3f6e66bd74321612ac",
+    "heads": {
+      "A": {
+        "ref": "exp/ci/native-no-manual-gate-merge/A",
+        "sha": "5c50151deb726233da7e12c837c783bd1b6657c4"
+      },
+      "B": {
+        "ref": "exp/ci/native-no-manual-gate-merge/B",
+        "sha": "3cf43d654b4e916e331f52ec1a625eaae468ba3f"
+      }
+    },
+    "prs": {
+      "A": 28,
+      "B": 29
+    },
+    "created": "2026-11-09T01:31:54.992588+00:00",
+    "stack": 30
+  },
+  "native-no-manual-gate-rebase": {
+    "name": "native-no-manual-gate-rebase",
+    "prefix": "exp/ci/native-no-manual-gate-rebase",
+    "trunk": "exp/ci/native-no-manual-gate-rebase/trunk",
+    "trunk_sha": "aecb858ce2c0d6ba4e8e20dc44ac7f931f71d230",
+    "heads": {
+      "A": {
+        "ref": "exp/ci/native-no-manual-gate-rebase/A",
+        "sha": "c843bfe6c22d9a2bdecdfc8654175cf06f6ccf52"
+      },
+      "B": {
+        "ref": "exp/ci/native-no-manual-gate-rebase/B",
+        "sha": "9ec02b2d2893201be973477ebd81f2ed8e5a968e"
+      }
+    },
+    "prs": {
+      "A": 31,
+      "B": 32
+    },
+    "created": "2026-11-09T01:32:00.864993+00:00",
+    "stack": 33
+  }
+}

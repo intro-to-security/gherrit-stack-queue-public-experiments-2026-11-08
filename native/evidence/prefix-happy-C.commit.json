@@ -1,0 +1,9 @@
+{
+  "sha": "eaa9d6f9500a3e654c28787d487e7aa3c77f2491",
+  "tree": "6304b9a4640d4d01fcac85d232de6ea500f710e9",
+  "parent": "54a96f3828ef3bcc23ff863645f9c50750c16fd4",
+  "files": {
+    "prefix-happy/C.txt": "C=1\n"
+  },
+  "message": "Record synthetic prefix-happy-C\n\nAgent-authored-by: AI agent acting on joshlf's behalf\n"
+}

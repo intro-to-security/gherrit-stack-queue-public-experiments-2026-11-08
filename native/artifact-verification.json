@@ -1,0 +1,132 @@
+{
+  "at": "2026-11-09T01:32:45.140400+00:00",
+  "fixtures": {
+    "prefix-happy": {
+      "checks": {
+        "head_ref_agreement": {
+          "A": true,
+          "B": true,
+          "C": true
+        },
+        "archive_exact": {
+          "A": true,
+          "B": true,
+          "C": true
+        },
+        "canonical_identity": {
+          "A": true,
+          "B": true,
+          "C": true
+        },
+        "layer_patch": {
+          "B": true,
+          "C": true
+        },
+        "author_message": {
+          "B": true,
+          "C": true
+        },
+        "trunk_expected_tree": true
+      },
+      "merged_letters": [
+        "A"
+      ],
+      "trunk": "964781d850b7c100efbea59663f9eb9d1dfdb971",
+      "snapshot": "native/evidence/prefix-happy-final.snapshot.json"
+    },
+    "fresh-enabled": {
+      "checks": {
+        "head_ref_agreement": {
+          "A": true,
+          "B": true,
+          "C": true
+        },
+        "archive_exact": {
+          "A": true,
+          "B": true,
+          "C": true
+        },
+        "canonical_identity": {
+          "A": true,
+          "B": true,
+          "C": true
+        },
+        "layer_patch": {
+          "C": true
+        },
+        "author_message": {
+          "C": true
+        },
+        "trunk_expected_tree": true
+      },
+      "merged_letters": [
+        "A",
+        "B"
+      ],
+      "trunk": "a155b935b2f734721a42f947c3616f9ba71a6313",
+      "snapshot": "native/evidence/fresh-enabled-final.snapshot.json"
+    },
+    "late-group-failure": {
+      "checks": {
+        "head_ref_agreement": {
+          "A": true,
+          "B": true
+        },
+        "archive_exact": {
+          "A": true,
+          "B": true
+        },
+        "canonical_identity": {
+          "A": true,
+          "B": true
+        },
+        "layer_patch": {
+          "B": true
+        },
+        "author_message": {
+          "B": true
+        },
+        "trunk_expected_tree": true
+      },
+      "merged_letters": [
+        "A"
+      ],
+      "trunk": "96442fabd4556f626f2cb80bb3ee4dacb274afc7",
+      "snapshot": "native/evidence/late-group-failure-final.snapshot.json"
+    },
+    "failed-upper-admission": {
+      "checks": {
+        "head_ref_agreement": {
+          "A": true,
+          "B": true,
+          "C": true
+        },
+        "archive_exact": {
+          "A": true,
+          "B": true,
+          "C": true
+        },
+        "canonical_identity": {
+          "A": true,
+          "B": true,
+          "C": true
+        },
+        "layer_patch": {
+          "A": true,
+          "B": true,
+          "C": true
+        },
+        "author_message": {
+          "A": true,
+          "B": true,
+          "C": true
+        },
+        "trunk_expected_tree": true
+      },
+      "merged_letters": [],
+      "trunk": "2d6cd0e78dc12837e530478399c8f6a78f50f6aa",
+      "snapshot": "native/evidence/failed-upper-admission-final.snapshot.json"
+    }
+  },
+  "limits": "Finite current observations; exact retained-input and patch/tree comparisons, not provider settlement."
+}

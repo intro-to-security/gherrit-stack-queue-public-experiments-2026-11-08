@@ -1,0 +1,10 @@
+{
+  "sha": "88698e19a9aa655e6478ea4c053111c3b3ec146d",
+  "tree": "e645de0a537118c8cb412b5d5b65930229c3a784",
+  "parent": "6271f4d74d65aa1058c1046e2fdfe6d189880370",
+  "files": {
+    ".queue-experiment/FAIL_MERGE_GROUP": "synthetic group-only failure\n",
+    "late-group-failure/B.txt": "B=1\n"
+  },
+  "message": "Record synthetic late-group-failure-B\n\nAgent-authored-by: AI agent acting on joshlf's behalf\n"
+}

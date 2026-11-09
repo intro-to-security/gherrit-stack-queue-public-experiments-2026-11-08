@@ -1,0 +1,1295 @@
+{
+  "case": {
+    "name": "queued-members",
+    "prefix": "exp/locks/queued-members",
+    "trunk": "exp/locks/queued-members/trunk",
+    "trunk_sha": "5c67ceea8a77f20b71b7a5cf762bc5bcda910f55",
+    "heads": {
+      "A": {
+        "ref": "exp/locks/queued-members/A",
+        "sha": "91df75452264aace94c7ba57141128adf924931d"
+      },
+      "B": {
+        "ref": "exp/locks/queued-members/B",
+        "sha": "61d19779766cde979b3aca68f448ebc071de7b08"
+      },
+      "C": {
+        "ref": "exp/locks/queued-members/C",
+        "sha": "9b501173f0aa7f2f9d1396a8814a4dfb6fc7b55a"
+      }
+    },
+    "prs": {
+      "A": 7,
+      "B": 8,
+      "C": 9
+    },
+    "created": "2026-11-09T01:14:53.544690+00:00",
+    "stack": 10
+  },
+  "started": "2026-11-09T01:14:58.078206+00:00",
+  "phase": "complete",
+  "ruleset": {
+    "id": 26821752,
+    "name": "locks-queued-members",
+    "target": "branch",
+    "source_type": "Repository",
+    "source": "intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08",
+    "enforcement": "active",
+    "conditions": {
+      "ref_name": {
+        "exclude": [],
+        "include": [
+          "refs/heads/exp/locks/queued-members/trunk"
+        ]
+      }
+    },
+    "rules": [
+      {
+        "type": "merge_queue",
+        "parameters": {
+          "merge_method": "SQUASH",
+          "max_entries_to_build": 1,
+          "min_entries_to_merge": 1,
+          "max_entries_to_merge": 3,
+          "min_entries_to_merge_wait_minutes": 1,
+          "grouping_strategy": "ALLGREEN",
+          "check_response_timeout_minutes": 5
+        }
+      },
+      {
+        "type": "required_status_checks",
+        "parameters": {
+          "strict_required_status_checks_policy": false,
+          "do_not_enforce_on_create": false,
+          "required_status_checks": [
+            {
+              "context": "queue-observe"
+            },
+            {
+              "context": "experiment/queue-release"
+            }
+          ]
+        }
+      }
+    ],
+    "node_id": "RRS_lACqUmVwb3NpdG9yec5WeYExzgGZRHg",
+    "created_at": "2026-11-08T20:14:58.359-05:00",
+    "updated_at": "2026-11-08T20:14:58.391-05:00",
+    "bypass_actors": [],
+    "current_user_can_bypass": "never",
+    "_links": {
+      "self": {
+        "href": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/rulesets/26821752"
+      },
+      "html": {
+        "href": "https://github.com/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/rules/26821752"
+      }
+    }
+  },
+  "initial_snapshot": "evidence/queued-members-initial.snapshot.json",
+  "preflight": [
+    {
+      "at": "2026-11-09T01:15:02.982164+00:00",
+      "observation": {
+        "mergeQueue": {
+          "id": "MQ_kwDOVnmBMc4ABVNv",
+          "url": "https://github.com/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/queue/exp/locks/queued-members/trunk",
+          "entries": {
+            "nodes": [],
+            "pageInfo": {
+              "hasNextPage": false,
+              "endCursor": null
+            }
+          }
+        },
+        "A": {
+          "id": "PR_kwDOVnmBMc8AAAABNveOcw",
+          "number": 7,
+          "state": "OPEN",
+          "merged": false,
+          "mergedAt": null,
+          "headRefOid": "91df75452264aace94c7ba57141128adf924931d",
+          "baseRefName": "exp/locks/queued-members/trunk",
+          "mergeStateStatus": "BLOCKED",
+          "isInMergeQueue": false,
+          "mergeQueueEntry": null
+        },
+        "B": {
+          "id": "PR_kwDOVnmBMc8AAAABNvePRA",
+          "number": 8,
+          "state": "OPEN",
+          "merged": false,
+          "mergedAt": null,
+          "headRefOid": "61d19779766cde979b3aca68f448ebc071de7b08",
+          "baseRefName": "exp/locks/queued-members/A",
+          "mergeStateStatus": "BLOCKED",
+          "isInMergeQueue": false,
+          "mergeQueueEntry": null
+        },
+        "C": {
+          "id": "PR_kwDOVnmBMc8AAAABNveQGQ",
+          "number": 9,
+          "state": "OPEN",
+          "merged": false,
+          "mergedAt": null,
+          "headRefOid": "9b501173f0aa7f2f9d1396a8814a4dfb6fc7b55a",
+          "baseRefName": "exp/locks/queued-members/B",
+          "mergeStateStatus": "BLOCKED",
+          "isInMergeQueue": false,
+          "mergeQueueEntry": null
+        }
+      }
+    },
+    {
+      "at": "2026-11-09T01:15:08.368316+00:00",
+      "observation": {
+        "mergeQueue": {
+          "id": "MQ_kwDOVnmBMc4ABVNv",
+          "url": "https://github.com/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/queue/exp/locks/queued-members/trunk",
+          "entries": {
+            "nodes": [],
+            "pageInfo": {
+              "hasNextPage": false,
+              "endCursor": null
+            }
+          }
+        },
+        "A": {
+          "id": "PR_kwDOVnmBMc8AAAABNveOcw",
+          "number": 7,
+          "state": "OPEN",
+          "merged": false,
+          "mergedAt": null,
+          "headRefOid": "91df75452264aace94c7ba57141128adf924931d",
+          "baseRefName": "exp/locks/queued-members/trunk",
+          "mergeStateStatus": "BLOCKED",
+          "isInMergeQueue": false,
+          "mergeQueueEntry": null
+        },
+        "B": {
+          "id": "PR_kwDOVnmBMc8AAAABNvePRA",
+          "number": 8,
+          "state": "OPEN",
+          "merged": false,
+          "mergedAt": null,
+          "headRefOid": "61d19779766cde979b3aca68f448ebc071de7b08",
+          "baseRefName": "exp/locks/queued-members/A",
+          "mergeStateStatus": "BLOCKED",
+          "isInMergeQueue": false,
+          "mergeQueueEntry": null
+        },
+        "C": {
+          "id": "PR_kwDOVnmBMc8AAAABNveQGQ",
+          "number": 9,
+          "state": "OPEN",
+          "merged": false,
+          "mergedAt": null,
+          "headRefOid": "9b501173f0aa7f2f9d1396a8814a4dfb6fc7b55a",
+          "baseRefName": "exp/locks/queued-members/B",
+          "mergeStateStatus": "BLOCKED",
+          "isInMergeQueue": false,
+          "mergeQueueEntry": null
+        }
+      }
+    },
+    {
+      "at": "2026-11-09T01:15:13.412575+00:00",
+      "observation": {
+        "mergeQueue": {
+          "id": "MQ_kwDOVnmBMc4ABVNv",
+          "url": "https://github.com/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/queue/exp/locks/queued-members/trunk",
+          "entries": {
+            "nodes": [],
+            "pageInfo": {
+              "hasNextPage": false,
+              "endCursor": null
+            }
+          }
+        },
+        "A": {
+          "id": "PR_kwDOVnmBMc8AAAABNveOcw",
+          "number": 7,
+          "state": "OPEN",
+          "merged": false,
+          "mergedAt": null,
+          "headRefOid": "91df75452264aace94c7ba57141128adf924931d",
+          "baseRefName": "exp/locks/queued-members/trunk",
+          "mergeStateStatus": "CLEAN",
+          "isInMergeQueue": false,
+          "mergeQueueEntry": null
+        },
+        "B": {
+          "id": "PR_kwDOVnmBMc8AAAABNvePRA",
+          "number": 8,
+          "state": "OPEN",
+          "merged": false,
+          "mergedAt": null,
+          "headRefOid": "61d19779766cde979b3aca68f448ebc071de7b08",
+          "baseRefName": "exp/locks/queued-members/A",
+          "mergeStateStatus": "CLEAN",
+          "isInMergeQueue": false,
+          "mergeQueueEntry": null
+        },
+        "C": {
+          "id": "PR_kwDOVnmBMc8AAAABNveQGQ",
+          "number": 9,
+          "state": "OPEN",
+          "merged": false,
+          "mergedAt": null,
+          "headRefOid": "9b501173f0aa7f2f9d1396a8814a4dfb6fc7b55a",
+          "baseRefName": "exp/locks/queued-members/B",
+          "mergeStateStatus": "CLEAN",
+          "isInMergeQueue": false,
+          "mergeQueueEntry": null
+        }
+      }
+    }
+  ],
+  "admission_request": {
+    "method": "PUT",
+    "path": "repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/pulls/8/merge-async",
+    "payload": {
+      "sha": "61d19779766cde979b3aca68f448ebc071de7b08",
+      "merge_action": "merge_queue",
+      "bypass_rules": false
+    },
+    "label": "queued-members-enqueue",
+    "start": "2026-11-09T01:15:13.414069+00:00",
+    "monotonic_start": 22.093539166,
+    "end": "2026-11-09T01:15:13.869834+00:00",
+    "monotonic_end": 22.549332625,
+    "exit": 0,
+    "http": 202,
+    "data": {
+      "status": "pending",
+      "details": {
+        "message": "Merge request enqueued.",
+        "uuid": "70ce4b4f-8a53-4c09-affb-1785fd245cd3",
+        "merge_method": "default",
+        "merge_action": "merge_queue",
+        "expected_head_sha": "61d19779766cde979b3aca68f448ebc071de7b08",
+        "bypass_rules": false
+      }
+    }
+  },
+  "uuid": "70ce4b4f-8a53-4c09-affb-1785fd245cd3",
+  "admission_polls": [
+    {
+      "method": "GET",
+      "path": "repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/pulls/8/merge-async/70ce4b4f-8a53-4c09-affb-1785fd245cd3",
+      "payload": null,
+      "label": "queued-members-admission-poll-0",
+      "start": "2026-11-09T01:15:13.873343+00:00",
+      "monotonic_start": 22.552816333,
+      "end": "2026-11-09T01:15:14.136561+00:00",
+      "monotonic_end": 22.816037708,
+      "exit": 0,
+      "http": 200,
+      "data": {
+        "status": "pending",
+        "details": {
+          "message": "Merge request is in progress.",
+          "uuid": "70ce4b4f-8a53-4c09-affb-1785fd245cd3",
+          "merge_method": "default",
+          "merge_action": "merge_queue",
+          "expected_head_sha": "61d19779766cde979b3aca68f448ebc071de7b08",
+          "bypass_rules": false
+        }
+      }
+    },
+    {
+      "method": "GET",
+      "path": "repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/pulls/8/merge-async/70ce4b4f-8a53-4c09-affb-1785fd245cd3",
+      "payload": null,
+      "label": "queued-members-admission-poll-1",
+      "start": "2026-11-09T01:15:15.148714+00:00",
+      "monotonic_start": 23.828183208,
+      "end": "2026-11-09T01:15:15.530902+00:00",
+      "monotonic_end": 24.210363458,
+      "exit": 0,
+      "http": 200,
+      "data": {
+        "status": "pending",
+        "details": {
+          "message": "Merge request is in progress.",
+          "uuid": "70ce4b4f-8a53-4c09-affb-1785fd245cd3",
+          "merge_method": "default",
+          "merge_action": "merge_queue",
+          "expected_head_sha": "61d19779766cde979b3aca68f448ebc071de7b08",
+          "bypass_rules": false
+        }
+      }
+    },
+    {
+      "method": "GET",
+      "path": "repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/pulls/8/merge-async/70ce4b4f-8a53-4c09-affb-1785fd245cd3",
+      "payload": null,
+      "label": "queued-members-admission-poll-2",
+      "start": "2026-11-09T01:15:16.542304+00:00",
+      "monotonic_start": 25.22176825,
+      "end": "2026-11-09T01:15:16.913581+00:00",
+      "monotonic_end": 25.593038833,
+      "exit": 0,
+      "http": 200,
+      "data": {
+        "status": "enqueued",
+        "details": {
+          "message": "Pull request was added to the merge queue."
+        }
+      }
+    }
+  ],
+  "admission_terminal": {
+    "method": "GET",
+    "path": "repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/pulls/8/merge-async/70ce4b4f-8a53-4c09-affb-1785fd245cd3",
+    "payload": null,
+    "label": "queued-members-admission-poll-2",
+    "start": "2026-11-09T01:15:16.542304+00:00",
+    "monotonic_start": 25.22176825,
+    "end": "2026-11-09T01:15:16.913581+00:00",
+    "monotonic_end": 25.593038833,
+    "exit": 0,
+    "http": 200,
+    "data": {
+      "status": "enqueued",
+      "details": {
+        "message": "Pull request was added to the merge queue."
+      }
+    }
+  },
+  "queued_samples": [
+    {
+      "at": "2026-11-09T01:15:17.509629+00:00",
+      "observation": {
+        "mergeQueue": {
+          "id": "MQ_kwDOVnmBMc4ABVNv",
+          "url": "https://github.com/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/queue/exp/locks/queued-members/trunk",
+          "entries": {
+            "nodes": [
+              {
+                "id": "MQE_lQDOVnmBMc8AAAABNveOc84ABVNvzgPSgRc",
+                "position": 1,
+                "state": "QUEUED",
+                "enqueuedAt": "2026-11-09T01:15:14Z",
+                "headCommit": null,
+                "baseCommit": null,
+                "pullRequest": {
+                  "id": "PR_kwDOVnmBMc8AAAABNveOcw",
+                  "number": 7,
+                  "headRefOid": "91df75452264aace94c7ba57141128adf924931d"
+                }
+              },
+              {
+                "id": "MQE_lQDOVnmBMc8AAAABNvePRM4ABVNvzgPSgRo",
+                "position": 2,
+                "state": "QUEUED",
+                "enqueuedAt": "2026-11-09T01:15:15Z",
+                "headCommit": null,
+                "baseCommit": null,
+                "pullRequest": {
+                  "id": "PR_kwDOVnmBMc8AAAABNvePRA",
+                  "number": 8,
+                  "headRefOid": "61d19779766cde979b3aca68f448ebc071de7b08"
+                }
+              }
+            ],
+            "pageInfo": {
+              "hasNextPage": false,
+              "endCursor": "Mg"
+            }
+          }
+        },
+        "A": {
+          "id": "PR_kwDOVnmBMc8AAAABNveOcw",
+          "number": 7,
+          "state": "OPEN",
+          "merged": false,
+          "mergedAt": null,
+          "headRefOid": "91df75452264aace94c7ba57141128adf924931d",
+          "baseRefName": "exp/locks/queued-members/trunk",
+          "mergeStateStatus": "CLEAN",
+          "isInMergeQueue": true,
+          "mergeQueueEntry": {
+            "id": "MQE_lQDOVnmBMc8AAAABNveOc84ABVNvzgPSgRc",
+            "position": 1,
+            "state": "QUEUED",
+            "enqueuedAt": "2026-11-09T01:15:14Z",
+            "headCommit": null,
+            "baseCommit": null,
+            "pullRequest": {
+              "id": "PR_kwDOVnmBMc8AAAABNveOcw",
+              "number": 7,
+              "headRefOid": "91df75452264aace94c7ba57141128adf924931d"
+            }
+          }
+        },
+        "B": {
+          "id": "PR_kwDOVnmBMc8AAAABNvePRA",
+          "number": 8,
+          "state": "OPEN",
+          "merged": false,
+          "mergedAt": null,
+          "headRefOid": "61d19779766cde979b3aca68f448ebc071de7b08",
+          "baseRefName": "exp/locks/queued-members/A",
+          "mergeStateStatus": "CLEAN",
+          "isInMergeQueue": true,
+          "mergeQueueEntry": {
+            "id": "MQE_lQDOVnmBMc8AAAABNvePRM4ABVNvzgPSgRo",
+            "position": 2,
+            "state": "QUEUED",
+            "enqueuedAt": "2026-11-09T01:15:15Z",
+            "headCommit": null,
+            "baseCommit": null,
+            "pullRequest": {
+              "id": "PR_kwDOVnmBMc8AAAABNvePRA",
+              "number": 8,
+              "headRefOid": "61d19779766cde979b3aca68f448ebc071de7b08"
+            }
+          }
+        },
+        "C": {
+          "id": "PR_kwDOVnmBMc8AAAABNveQGQ",
+          "number": 9,
+          "state": "OPEN",
+          "merged": false,
+          "mergedAt": null,
+          "headRefOid": "9b501173f0aa7f2f9d1396a8814a4dfb6fc7b55a",
+          "baseRefName": "exp/locks/queued-members/B",
+          "mergeStateStatus": "CLEAN",
+          "isInMergeQueue": false,
+          "mergeQueueEntry": null
+        }
+      }
+    },
+    {
+      "at": "2026-11-09T01:15:21.161477+00:00",
+      "observation": {
+        "mergeQueue": {
+          "id": "MQ_kwDOVnmBMc4ABVNv",
+          "url": "https://github.com/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/queue/exp/locks/queued-members/trunk",
+          "entries": {
+            "nodes": [
+              {
+                "id": "MQE_lQDOVnmBMc8AAAABNveOc84ABVNvzgPSgRc",
+                "position": 1,
+                "state": "QUEUED",
+                "enqueuedAt": "2026-11-09T01:15:14Z",
+                "headCommit": null,
+                "baseCommit": null,
+                "pullRequest": {
+                  "id": "PR_kwDOVnmBMc8AAAABNveOcw",
+                  "number": 7,
+                  "headRefOid": "91df75452264aace94c7ba57141128adf924931d"
+                }
+              },
+              {
+                "id": "MQE_lQDOVnmBMc8AAAABNvePRM4ABVNvzgPSgRo",
+                "position": 2,
+                "state": "QUEUED",
+                "enqueuedAt": "2026-11-09T01:15:15Z",
+                "headCommit": null,
+                "baseCommit": null,
+                "pullRequest": {
+                  "id": "PR_kwDOVnmBMc8AAAABNvePRA",
+                  "number": 8,
+                  "headRefOid": "61d19779766cde979b3aca68f448ebc071de7b08"
+                }
+              }
+            ],
+            "pageInfo": {
+              "hasNextPage": false,
+              "endCursor": "Mg"
+            }
+          }
+        },
+        "A": {
+          "id": "PR_kwDOVnmBMc8AAAABNveOcw",
+          "number": 7,
+          "state": "OPEN",
+          "merged": false,
+          "mergedAt": null,
+          "headRefOid": "91df75452264aace94c7ba57141128adf924931d",
+          "baseRefName": "exp/locks/queued-members/trunk",
+          "mergeStateStatus": "CLEAN",
+          "isInMergeQueue": true,
+          "mergeQueueEntry": {
+            "id": "MQE_lQDOVnmBMc8AAAABNveOc84ABVNvzgPSgRc",
+            "position": 1,
+            "state": "QUEUED",
+            "enqueuedAt": "2026-11-09T01:15:14Z",
+            "headCommit": null,
+            "baseCommit": null,
+            "pullRequest": {
+              "id": "PR_kwDOVnmBMc8AAAABNveOcw",
+              "number": 7,
+              "headRefOid": "91df75452264aace94c7ba57141128adf924931d"
+            }
+          }
+        },
+        "B": {
+          "id": "PR_kwDOVnmBMc8AAAABNvePRA",
+          "number": 8,
+          "state": "OPEN",
+          "merged": false,
+          "mergedAt": null,
+          "headRefOid": "61d19779766cde979b3aca68f448ebc071de7b08",
+          "baseRefName": "exp/locks/queued-members/A",
+          "mergeStateStatus": "CLEAN",
+          "isInMergeQueue": true,
+          "mergeQueueEntry": {
+            "id": "MQE_lQDOVnmBMc8AAAABNvePRM4ABVNvzgPSgRo",
+            "position": 2,
+            "state": "QUEUED",
+            "enqueuedAt": "2026-11-09T01:15:15Z",
+            "headCommit": null,
+            "baseCommit": null,
+            "pullRequest": {
+              "id": "PR_kwDOVnmBMc8AAAABNvePRA",
+              "number": 8,
+              "headRefOid": "61d19779766cde979b3aca68f448ebc071de7b08"
+            }
+          }
+        },
+        "C": {
+          "id": "PR_kwDOVnmBMc8AAAABNveQGQ",
+          "number": 9,
+          "state": "OPEN",
+          "merged": false,
+          "mergedAt": null,
+          "headRefOid": "9b501173f0aa7f2f9d1396a8814a4dfb6fc7b55a",
+          "baseRefName": "exp/locks/queued-members/B",
+          "mergeStateStatus": "CLEAN",
+          "isInMergeQueue": false,
+          "mergeQueueEntry": null
+        }
+      }
+    },
+    {
+      "at": "2026-11-09T01:15:24.818733+00:00",
+      "observation": {
+        "mergeQueue": {
+          "id": "MQ_kwDOVnmBMc4ABVNv",
+          "url": "https://github.com/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/queue/exp/locks/queued-members/trunk",
+          "entries": {
+            "nodes": [
+              {
+                "id": "MQE_lQDOVnmBMc8AAAABNveOc84ABVNvzgPSgRc",
+                "position": 1,
+                "state": "QUEUED",
+                "enqueuedAt": "2026-11-09T01:15:14Z",
+                "headCommit": null,
+                "baseCommit": null,
+                "pullRequest": {
+                  "id": "PR_kwDOVnmBMc8AAAABNveOcw",
+                  "number": 7,
+                  "headRefOid": "91df75452264aace94c7ba57141128adf924931d"
+                }
+              },
+              {
+                "id": "MQE_lQDOVnmBMc8AAAABNvePRM4ABVNvzgPSgRo",
+                "position": 2,
+                "state": "QUEUED",
+                "enqueuedAt": "2026-11-09T01:15:15Z",
+                "headCommit": null,
+                "baseCommit": null,
+                "pullRequest": {
+                  "id": "PR_kwDOVnmBMc8AAAABNvePRA",
+                  "number": 8,
+                  "headRefOid": "61d19779766cde979b3aca68f448ebc071de7b08"
+                }
+              }
+            ],
+            "pageInfo": {
+              "hasNextPage": false,
+              "endCursor": "Mg"
+            }
+          }
+        },
+        "A": {
+          "id": "PR_kwDOVnmBMc8AAAABNveOcw",
+          "number": 7,
+          "state": "OPEN",
+          "merged": false,
+          "mergedAt": null,
+          "headRefOid": "91df75452264aace94c7ba57141128adf924931d",
+          "baseRefName": "exp/locks/queued-members/trunk",
+          "mergeStateStatus": "CLEAN",
+          "isInMergeQueue": true,
+          "mergeQueueEntry": {
+            "id": "MQE_lQDOVnmBMc8AAAABNveOc84ABVNvzgPSgRc",
+            "position": 1,
+            "state": "QUEUED",
+            "enqueuedAt": "2026-11-09T01:15:14Z",
+            "headCommit": null,
+            "baseCommit": null,
+            "pullRequest": {
+              "id": "PR_kwDOVnmBMc8AAAABNveOcw",
+              "number": 7,
+              "headRefOid": "91df75452264aace94c7ba57141128adf924931d"
+            }
+          }
+        },
+        "B": {
+          "id": "PR_kwDOVnmBMc8AAAABNvePRA",
+          "number": 8,
+          "state": "OPEN",
+          "merged": false,
+          "mergedAt": null,
+          "headRefOid": "61d19779766cde979b3aca68f448ebc071de7b08",
+          "baseRefName": "exp/locks/queued-members/A",
+          "mergeStateStatus": "CLEAN",
+          "isInMergeQueue": true,
+          "mergeQueueEntry": {
+            "id": "MQE_lQDOVnmBMc8AAAABNvePRM4ABVNvzgPSgRo",
+            "position": 2,
+            "state": "QUEUED",
+            "enqueuedAt": "2026-11-09T01:15:15Z",
+            "headCommit": null,
+            "baseCommit": null,
+            "pullRequest": {
+              "id": "PR_kwDOVnmBMc8AAAABNvePRA",
+              "number": 8,
+              "headRefOid": "61d19779766cde979b3aca68f448ebc071de7b08"
+            }
+          }
+        },
+        "C": {
+          "id": "PR_kwDOVnmBMc8AAAABNveQGQ",
+          "number": 9,
+          "state": "OPEN",
+          "merged": false,
+          "mergedAt": null,
+          "headRefOid": "9b501173f0aa7f2f9d1396a8814a4dfb6fc7b55a",
+          "baseRefName": "exp/locks/queued-members/B",
+          "mergeStateStatus": "CLEAN",
+          "isInMergeQueue": false,
+          "mergeQueueEntry": null
+        }
+      }
+    },
+    {
+      "at": "2026-11-09T01:15:28.657419+00:00",
+      "observation": {
+        "mergeQueue": {
+          "id": "MQ_kwDOVnmBMc4ABVNv",
+          "url": "https://github.com/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/queue/exp/locks/queued-members/trunk",
+          "entries": {
+            "nodes": [
+              {
+                "id": "MQE_lQDOVnmBMc8AAAABNveOc84ABVNvzgPSgRc",
+                "position": 1,
+                "state": "QUEUED",
+                "enqueuedAt": "2026-11-09T01:15:14Z",
+                "headCommit": null,
+                "baseCommit": null,
+                "pullRequest": {
+                  "id": "PR_kwDOVnmBMc8AAAABNveOcw",
+                  "number": 7,
+                  "headRefOid": "91df75452264aace94c7ba57141128adf924931d"
+                }
+              },
+              {
+                "id": "MQE_lQDOVnmBMc8AAAABNvePRM4ABVNvzgPSgRo",
+                "position": 2,
+                "state": "QUEUED",
+                "enqueuedAt": "2026-11-09T01:15:15Z",
+                "headCommit": null,
+                "baseCommit": null,
+                "pullRequest": {
+                  "id": "PR_kwDOVnmBMc8AAAABNvePRA",
+                  "number": 8,
+                  "headRefOid": "61d19779766cde979b3aca68f448ebc071de7b08"
+                }
+              }
+            ],
+            "pageInfo": {
+              "hasNextPage": false,
+              "endCursor": "Mg"
+            }
+          }
+        },
+        "A": {
+          "id": "PR_kwDOVnmBMc8AAAABNveOcw",
+          "number": 7,
+          "state": "OPEN",
+          "merged": false,
+          "mergedAt": null,
+          "headRefOid": "91df75452264aace94c7ba57141128adf924931d",
+          "baseRefName": "exp/locks/queued-members/trunk",
+          "mergeStateStatus": "CLEAN",
+          "isInMergeQueue": true,
+          "mergeQueueEntry": {
+            "id": "MQE_lQDOVnmBMc8AAAABNveOc84ABVNvzgPSgRc",
+            "position": 1,
+            "state": "QUEUED",
+            "enqueuedAt": "2026-11-09T01:15:14Z",
+            "headCommit": null,
+            "baseCommit": null,
+            "pullRequest": {
+              "id": "PR_kwDOVnmBMc8AAAABNveOcw",
+              "number": 7,
+              "headRefOid": "91df75452264aace94c7ba57141128adf924931d"
+            }
+          }
+        },
+        "B": {
+          "id": "PR_kwDOVnmBMc8AAAABNvePRA",
+          "number": 8,
+          "state": "OPEN",
+          "merged": false,
+          "mergedAt": null,
+          "headRefOid": "61d19779766cde979b3aca68f448ebc071de7b08",
+          "baseRefName": "exp/locks/queued-members/A",
+          "mergeStateStatus": "CLEAN",
+          "isInMergeQueue": true,
+          "mergeQueueEntry": {
+            "id": "MQE_lQDOVnmBMc8AAAABNvePRM4ABVNvzgPSgRo",
+            "position": 2,
+            "state": "QUEUED",
+            "enqueuedAt": "2026-11-09T01:15:15Z",
+            "headCommit": null,
+            "baseCommit": null,
+            "pullRequest": {
+              "id": "PR_kwDOVnmBMc8AAAABNvePRA",
+              "number": 8,
+              "headRefOid": "61d19779766cde979b3aca68f448ebc071de7b08"
+            }
+          }
+        },
+        "C": {
+          "id": "PR_kwDOVnmBMc8AAAABNveQGQ",
+          "number": 9,
+          "state": "OPEN",
+          "merged": false,
+          "mergedAt": null,
+          "headRefOid": "9b501173f0aa7f2f9d1396a8814a4dfb6fc7b55a",
+          "baseRefName": "exp/locks/queued-members/B",
+          "mergeStateStatus": "CLEAN",
+          "isInMergeQueue": false,
+          "mergeQueueEntry": null
+        }
+      }
+    },
+    {
+      "at": "2026-11-09T01:15:32.681737+00:00",
+      "observation": {
+        "mergeQueue": {
+          "id": "MQ_kwDOVnmBMc4ABVNv",
+          "url": "https://github.com/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/queue/exp/locks/queued-members/trunk",
+          "entries": {
+            "nodes": [
+              {
+                "id": "MQE_lQDOVnmBMc8AAAABNveOc84ABVNvzgPSgRc",
+                "position": 1,
+                "state": "AWAITING_CHECKS",
+                "enqueuedAt": "2026-11-09T01:15:14Z",
+                "headCommit": {
+                  "oid": "619ca82c4f51c60a9bd90ee410650a6b181a0778"
+                },
+                "baseCommit": {
+                  "oid": "5c67ceea8a77f20b71b7a5cf762bc5bcda910f55"
+                },
+                "pullRequest": {
+                  "id": "PR_kwDOVnmBMc8AAAABNveOcw",
+                  "number": 7,
+                  "headRefOid": "91df75452264aace94c7ba57141128adf924931d"
+                }
+              },
+              {
+                "id": "MQE_lQDOVnmBMc8AAAABNvePRM4ABVNvzgPSgRo",
+                "position": 2,
+                "state": "QUEUED",
+                "enqueuedAt": "2026-11-09T01:15:15Z",
+                "headCommit": null,
+                "baseCommit": null,
+                "pullRequest": {
+                  "id": "PR_kwDOVnmBMc8AAAABNvePRA",
+                  "number": 8,
+                  "headRefOid": "61d19779766cde979b3aca68f448ebc071de7b08"
+                }
+              }
+            ],
+            "pageInfo": {
+              "hasNextPage": false,
+              "endCursor": "Mg"
+            }
+          }
+        },
+        "A": {
+          "id": "PR_kwDOVnmBMc8AAAABNveOcw",
+          "number": 7,
+          "state": "OPEN",
+          "merged": false,
+          "mergedAt": null,
+          "headRefOid": "91df75452264aace94c7ba57141128adf924931d",
+          "baseRefName": "exp/locks/queued-members/trunk",
+          "mergeStateStatus": "CLEAN",
+          "isInMergeQueue": true,
+          "mergeQueueEntry": {
+            "id": "MQE_lQDOVnmBMc8AAAABNveOc84ABVNvzgPSgRc",
+            "position": 1,
+            "state": "AWAITING_CHECKS",
+            "enqueuedAt": "2026-11-09T01:15:14Z",
+            "headCommit": {
+              "oid": "619ca82c4f51c60a9bd90ee410650a6b181a0778"
+            },
+            "baseCommit": {
+              "oid": "5c67ceea8a77f20b71b7a5cf762bc5bcda910f55"
+            },
+            "pullRequest": {
+              "id": "PR_kwDOVnmBMc8AAAABNveOcw",
+              "number": 7,
+              "headRefOid": "91df75452264aace94c7ba57141128adf924931d"
+            }
+          }
+        },
+        "B": {
+          "id": "PR_kwDOVnmBMc8AAAABNvePRA",
+          "number": 8,
+          "state": "OPEN",
+          "merged": false,
+          "mergedAt": null,
+          "headRefOid": "61d19779766cde979b3aca68f448ebc071de7b08",
+          "baseRefName": "exp/locks/queued-members/A",
+          "mergeStateStatus": "CLEAN",
+          "isInMergeQueue": true,
+          "mergeQueueEntry": {
+            "id": "MQE_lQDOVnmBMc8AAAABNvePRM4ABVNvzgPSgRo",
+            "position": 2,
+            "state": "QUEUED",
+            "enqueuedAt": "2026-11-09T01:15:15Z",
+            "headCommit": null,
+            "baseCommit": null,
+            "pullRequest": {
+              "id": "PR_kwDOVnmBMc8AAAABNvePRA",
+              "number": 8,
+              "headRefOid": "61d19779766cde979b3aca68f448ebc071de7b08"
+            }
+          }
+        },
+        "C": {
+          "id": "PR_kwDOVnmBMc8AAAABNveQGQ",
+          "number": 9,
+          "state": "OPEN",
+          "merged": false,
+          "mergedAt": null,
+          "headRefOid": "9b501173f0aa7f2f9d1396a8814a4dfb6fc7b55a",
+          "baseRefName": "exp/locks/queued-members/B",
+          "mergeStateStatus": "CLEAN",
+          "isInMergeQueue": false,
+          "mergeQueueEntry": null
+        }
+      }
+    }
+  ],
+  "group_heads_before_unstack": [
+    {
+      "oid": "619ca82c4f51c60a9bd90ee410650a6b181a0778"
+    },
+    null
+  ],
+  "queued_unstack": {
+    "method": "POST",
+    "path": "repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/stacks/10/unstack",
+    "payload": null,
+    "label": "queued-members-unstack-while-queued",
+    "start": "2026-11-09T01:15:34.949172+00:00",
+    "monotonic_start": 43.628510708,
+    "end": "2026-11-09T01:15:35.631915+00:00",
+    "monotonic_end": 44.311281583,
+    "exit": 0,
+    "http": 200,
+    "data": {
+      "id": 3222745,
+      "number": 10,
+      "node_id": "PRS_kwDOVnmBMc4AMSzZ",
+      "url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/stacks/10",
+      "base": {
+        "ref": "exp/locks/queued-members/trunk"
+      },
+      "open": true,
+      "created_at": "2026-11-09T01:14:57Z",
+      "pull_requests": [
+        {
+          "url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/pulls/7",
+          "id": 5217160819,
+          "number": 7,
+          "head": {
+            "ref": "exp/locks/queued-members/A",
+            "sha": "91df75452264aace94c7ba57141128adf924931d",
+            "repo": {
+              "id": 1450803505,
+              "url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08",
+              "name": "gherrit-stack-queue-public-experiments-2026-11-08"
+            }
+          },
+          "base": {
+            "ref": "exp/locks/queued-members/trunk",
+            "sha": "5c67ceea8a77f20b71b7a5cf762bc5bcda910f55",
+            "repo": {
+              "id": 1450803505,
+              "url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08",
+              "name": "gherrit-stack-queue-public-experiments-2026-11-08"
+            }
+          },
+          "node_id": "PR_kwDOVnmBMc8AAAABNveOcw",
+          "title": "Synthetic queue experiment queued-members: A",
+          "state": "open",
+          "merged_at": null,
+          "draft": false,
+          "html_url": "https://github.com/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/pull/7",
+          "user": {
+            "login": "joshlf",
+            "id": 1046063,
+            "node_id": "MDQ6VXNlcjEwNDYwNjM=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1046063?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/joshlf",
+            "html_url": "https://github.com/joshlf",
+            "followers_url": "https://api.github.com/users/joshlf/followers",
+            "following_url": "https://api.github.com/users/joshlf/following{/other_user}",
+            "gists_url": "https://api.github.com/users/joshlf/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/joshlf/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/joshlf/subscriptions",
+            "organizations_url": "https://api.github.com/users/joshlf/orgs",
+            "repos_url": "https://api.github.com/users/joshlf/repos",
+            "events_url": "https://api.github.com/users/joshlf/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/joshlf/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/pulls/8",
+          "id": 5217161028,
+          "number": 8,
+          "head": {
+            "ref": "exp/locks/queued-members/B",
+            "sha": "61d19779766cde979b3aca68f448ebc071de7b08",
+            "repo": {
+              "id": 1450803505,
+              "url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08",
+              "name": "gherrit-stack-queue-public-experiments-2026-11-08"
+            }
+          },
+          "base": {
+            "ref": "exp/locks/queued-members/A",
+            "sha": "91df75452264aace94c7ba57141128adf924931d",
+            "repo": {
+              "id": 1450803505,
+              "url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08",
+              "name": "gherrit-stack-queue-public-experiments-2026-11-08"
+            }
+          },
+          "node_id": "PR_kwDOVnmBMc8AAAABNvePRA",
+          "title": "Synthetic queue experiment queued-members: B",
+          "state": "open",
+          "merged_at": null,
+          "draft": false,
+          "html_url": "https://github.com/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/pull/8",
+          "user": {
+            "login": "joshlf",
+            "id": 1046063,
+            "node_id": "MDQ6VXNlcjEwNDYwNjM=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1046063?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/joshlf",
+            "html_url": "https://github.com/joshlf",
+            "followers_url": "https://api.github.com/users/joshlf/followers",
+            "following_url": "https://api.github.com/users/joshlf/following{/other_user}",
+            "gists_url": "https://api.github.com/users/joshlf/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/joshlf/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/joshlf/subscriptions",
+            "organizations_url": "https://api.github.com/users/joshlf/orgs",
+            "repos_url": "https://api.github.com/users/joshlf/repos",
+            "events_url": "https://api.github.com/users/joshlf/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/joshlf/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        }
+      ]
+    }
+  },
+  "after_queued_unstack_graph": {
+    "mergeQueue": {
+      "id": "MQ_kwDOVnmBMc4ABVNv",
+      "url": "https://github.com/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/queue/exp/locks/queued-members/trunk",
+      "entries": {
+        "nodes": [
+          {
+            "id": "MQE_lQDOVnmBMc8AAAABNveOc84ABVNvzgPSgRc",
+            "position": 1,
+            "state": "AWAITING_CHECKS",
+            "enqueuedAt": "2026-11-09T01:15:14Z",
+            "headCommit": {
+              "oid": "619ca82c4f51c60a9bd90ee410650a6b181a0778"
+            },
+            "baseCommit": {
+              "oid": "5c67ceea8a77f20b71b7a5cf762bc5bcda910f55"
+            },
+            "pullRequest": {
+              "id": "PR_kwDOVnmBMc8AAAABNveOcw",
+              "number": 7,
+              "headRefOid": "91df75452264aace94c7ba57141128adf924931d"
+            }
+          },
+          {
+            "id": "MQE_lQDOVnmBMc8AAAABNvePRM4ABVNvzgPSgRo",
+            "position": 2,
+            "state": "QUEUED",
+            "enqueuedAt": "2026-11-09T01:15:15Z",
+            "headCommit": null,
+            "baseCommit": null,
+            "pullRequest": {
+              "id": "PR_kwDOVnmBMc8AAAABNvePRA",
+              "number": 8,
+              "headRefOid": "61d19779766cde979b3aca68f448ebc071de7b08"
+            }
+          }
+        ],
+        "pageInfo": {
+          "hasNextPage": false,
+          "endCursor": "Mg"
+        }
+      }
+    },
+    "A": {
+      "id": "PR_kwDOVnmBMc8AAAABNveOcw",
+      "number": 7,
+      "state": "OPEN",
+      "merged": false,
+      "mergedAt": null,
+      "headRefOid": "91df75452264aace94c7ba57141128adf924931d",
+      "baseRefName": "exp/locks/queued-members/trunk",
+      "mergeStateStatus": "CLEAN",
+      "isInMergeQueue": true,
+      "mergeQueueEntry": {
+        "id": "MQE_lQDOVnmBMc8AAAABNveOc84ABVNvzgPSgRc",
+        "position": 1,
+        "state": "AWAITING_CHECKS",
+        "enqueuedAt": "2026-11-09T01:15:14Z",
+        "headCommit": {
+          "oid": "619ca82c4f51c60a9bd90ee410650a6b181a0778"
+        },
+        "baseCommit": {
+          "oid": "5c67ceea8a77f20b71b7a5cf762bc5bcda910f55"
+        },
+        "pullRequest": {
+          "id": "PR_kwDOVnmBMc8AAAABNveOcw",
+          "number": 7,
+          "headRefOid": "91df75452264aace94c7ba57141128adf924931d"
+        }
+      }
+    },
+    "B": {
+      "id": "PR_kwDOVnmBMc8AAAABNvePRA",
+      "number": 8,
+      "state": "OPEN",
+      "merged": false,
+      "mergedAt": null,
+      "headRefOid": "61d19779766cde979b3aca68f448ebc071de7b08",
+      "baseRefName": "exp/locks/queued-members/A",
+      "mergeStateStatus": "CLEAN",
+      "isInMergeQueue": true,
+      "mergeQueueEntry": {
+        "id": "MQE_lQDOVnmBMc8AAAABNvePRM4ABVNvzgPSgRo",
+        "position": 2,
+        "state": "QUEUED",
+        "enqueuedAt": "2026-11-09T01:15:15Z",
+        "headCommit": null,
+        "baseCommit": null,
+        "pullRequest": {
+          "id": "PR_kwDOVnmBMc8AAAABNvePRA",
+          "number": 8,
+          "headRefOid": "61d19779766cde979b3aca68f448ebc071de7b08"
+        }
+      }
+    },
+    "C": {
+      "id": "PR_kwDOVnmBMc8AAAABNveQGQ",
+      "number": 9,
+      "state": "OPEN",
+      "merged": false,
+      "mergedAt": null,
+      "headRefOid": "9b501173f0aa7f2f9d1396a8814a4dfb6fc7b55a",
+      "baseRefName": "exp/locks/queued-members/B",
+      "mergeStateStatus": "BLOCKED",
+      "isInMergeQueue": false,
+      "mergeQueueEntry": null
+    }
+  },
+  "dequeue_response": {
+    "method": "POST",
+    "path": "graphql",
+    "payload": {
+      "query": "mutation($id:ID!,$receipt:String!){dequeuePullRequest(input:{id:$id,clientMutationId:$receipt}){clientMutationId mergeQueueEntry{id position state pullRequest{id number}}}}",
+      "variables": {
+        "id": "PR_kwDOVnmBMc8AAAABNveOcw",
+        "receipt": "queued-members-dequeue-A"
+      }
+    },
+    "label": "queued-members-dequeue-A",
+    "start": "2026-11-09T01:15:38.781255+00:00",
+    "monotonic_start": 47.460572958,
+    "end": "2026-11-09T01:15:40.190031+00:00",
+    "monotonic_end": 48.869342375,
+    "exit": 0,
+    "http": 200,
+    "data": {
+      "data": {
+        "dequeuePullRequest": {
+          "clientMutationId": "queued-members-dequeue-A",
+          "mergeQueueEntry": {
+            "id": "MQE_lQDOVnmBMc8AAAABNveOc84ABVNvzgPSgRc",
+            "position": 1,
+            "state": "AWAITING_CHECKS",
+            "pullRequest": {
+              "id": "PR_kwDOVnmBMc8AAAABNveOcw",
+              "number": 7
+            }
+          }
+        }
+      }
+    }
+  },
+  "dequeue_observations": [
+    {
+      "at": "2026-11-09T01:15:41.228871+00:00",
+      "observation": {
+        "mergeQueue": {
+          "id": "MQ_kwDOVnmBMc4ABVNv",
+          "url": "https://github.com/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/queue/exp/locks/queued-members/trunk",
+          "entries": {
+            "nodes": [],
+            "pageInfo": {
+              "hasNextPage": false,
+              "endCursor": null
+            }
+          }
+        },
+        "A": {
+          "id": "PR_kwDOVnmBMc8AAAABNveOcw",
+          "number": 7,
+          "state": "OPEN",
+          "merged": false,
+          "mergedAt": null,
+          "headRefOid": "91df75452264aace94c7ba57141128adf924931d",
+          "baseRefName": "exp/locks/queued-members/trunk",
+          "mergeStateStatus": "CLEAN",
+          "isInMergeQueue": false,
+          "mergeQueueEntry": null
+        },
+        "B": {
+          "id": "PR_kwDOVnmBMc8AAAABNvePRA",
+          "number": 8,
+          "state": "OPEN",
+          "merged": false,
+          "mergedAt": null,
+          "headRefOid": "61d19779766cde979b3aca68f448ebc071de7b08",
+          "baseRefName": "exp/locks/queued-members/A",
+          "mergeStateStatus": "CLEAN",
+          "isInMergeQueue": false,
+          "mergeQueueEntry": null
+        },
+        "C": {
+          "id": "PR_kwDOVnmBMc8AAAABNveQGQ",
+          "number": 9,
+          "state": "OPEN",
+          "merged": false,
+          "mergedAt": null,
+          "headRefOid": "9b501173f0aa7f2f9d1396a8814a4dfb6fc7b55a",
+          "baseRefName": "exp/locks/queued-members/B",
+          "mergeStateStatus": "CLEAN",
+          "isInMergeQueue": false,
+          "mergeQueueEntry": null
+        }
+      }
+    }
+  ],
+  "queue_empty_after_A_dequeue": true,
+  "old_admission_uuid_after_dequeue": {
+    "method": "GET",
+    "path": "repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/pulls/8/merge-async/70ce4b4f-8a53-4c09-affb-1785fd245cd3",
+    "payload": null,
+    "label": "queued-members-old-uuid-after-dequeue",
+    "start": "2026-11-09T01:15:41.233208+00:00",
+    "monotonic_start": 49.912508833,
+    "end": "2026-11-09T01:15:41.593642+00:00",
+    "monotonic_end": 50.272950708,
+    "exit": 0,
+    "http": 200,
+    "data": {
+      "status": "enqueued",
+      "details": {
+        "message": "Pull request was added to the merge queue."
+      }
+    }
+  },
+  "eligible_unstack": {
+    "method": "POST",
+    "path": "repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/stacks/10/unstack",
+    "payload": null,
+    "label": "queued-members-unstack-after-dequeue",
+    "start": "2026-11-09T01:15:41.596344+00:00",
+    "monotonic_start": 50.275643958,
+    "end": "2026-11-09T01:15:42.025573+00:00",
+    "monotonic_end": 50.70488525,
+    "exit": 0,
+    "http": 204,
+    "data": null
+  },
+  "final_graph": {
+    "mergeQueue": {
+      "id": "MQ_kwDOVnmBMc4ABVNv",
+      "url": "https://github.com/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/queue/exp/locks/queued-members/trunk",
+      "entries": {
+        "nodes": [],
+        "pageInfo": {
+          "hasNextPage": false,
+          "endCursor": null
+        }
+      }
+    },
+    "A": {
+      "id": "PR_kwDOVnmBMc8AAAABNveOcw",
+      "number": 7,
+      "state": "OPEN",
+      "merged": false,
+      "mergedAt": null,
+      "headRefOid": "91df75452264aace94c7ba57141128adf924931d",
+      "baseRefName": "exp/locks/queued-members/trunk",
+      "mergeStateStatus": "CLEAN",
+      "isInMergeQueue": false,
+      "mergeQueueEntry": null
+    },
+    "B": {
+      "id": "PR_kwDOVnmBMc8AAAABNvePRA",
+      "number": 8,
+      "state": "OPEN",
+      "merged": false,
+      "mergedAt": null,
+      "headRefOid": "61d19779766cde979b3aca68f448ebc071de7b08",
+      "baseRefName": "exp/locks/queued-members/A",
+      "mergeStateStatus": "CLEAN",
+      "isInMergeQueue": false,
+      "mergeQueueEntry": null
+    },
+    "C": {
+      "id": "PR_kwDOVnmBMc8AAAABNveQGQ",
+      "number": 9,
+      "state": "OPEN",
+      "merged": false,
+      "mergedAt": null,
+      "headRefOid": "9b501173f0aa7f2f9d1396a8814a4dfb6fc7b55a",
+      "baseRefName": "exp/locks/queued-members/B",
+      "mergeStateStatus": "CLEAN",
+      "isInMergeQueue": false,
+      "mergeQueueEntry": null
+    }
+  },
+  "final_snapshot": "evidence/queued-members-final.snapshot.json",
+  "finished": "2026-11-09T01:15:44.798802+00:00"
+}

@@ -1,0 +1,5 @@
+{
+  "recorded_stage_name": "BUILT",
+  "observed_group": false,
+  "interpretation": "Ruleset update acknowledged. No group head observed during bounded first build interval; runner stage label was not a validated build result. Continue read-only observations; no enqueue resend."
+}

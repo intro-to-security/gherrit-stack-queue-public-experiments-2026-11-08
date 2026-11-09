@@ -1,0 +1,30 @@
+{
+  "start": "2026-11-09T01:16:08.799784+00:00",
+  "updates": {
+    "refs/heads/exp/native/late-group-failure/trunk": "77cf6da5ca6b0a46948c3ed0c64ce8486ca15d4e",
+    "refs/heads/exp/native/late-group-failure/A": "6271f4d74d65aa1058c1046e2fdfe6d189880370",
+    "refs/tags/exp/native/late-group-failure/authored/A/v1": "6271f4d74d65aa1058c1046e2fdfe6d189880370",
+    "refs/heads/exp/native/late-group-failure/B": "88698e19a9aa655e6478ea4c053111c3b3ec146d",
+    "refs/tags/exp/native/late-group-failure/authored/B/v1": "88698e19a9aa655e6478ea4c053111c3b3ec146d"
+  },
+  "expected": {},
+  "args": [
+    "push",
+    "--atomic",
+    "--force-with-lease=refs/heads/exp/native/late-group-failure/trunk:",
+    "--force-with-lease=refs/heads/exp/native/late-group-failure/A:",
+    "--force-with-lease=refs/tags/exp/native/late-group-failure/authored/A/v1:",
+    "--force-with-lease=refs/heads/exp/native/late-group-failure/B:",
+    "--force-with-lease=refs/tags/exp/native/late-group-failure/authored/B/v1:",
+    "origin",
+    "77cf6da5ca6b0a46948c3ed0c64ce8486ca15d4e:refs/heads/exp/native/late-group-failure/trunk",
+    "6271f4d74d65aa1058c1046e2fdfe6d189880370:refs/heads/exp/native/late-group-failure/A",
+    "6271f4d74d65aa1058c1046e2fdfe6d189880370:refs/tags/exp/native/late-group-failure/authored/A/v1",
+    "88698e19a9aa655e6478ea4c053111c3b3ec146d:refs/heads/exp/native/late-group-failure/B",
+    "88698e19a9aa655e6478ea4c053111c3b3ec146d:refs/tags/exp/native/late-group-failure/authored/B/v1"
+  ],
+  "end": "2026-11-09T01:16:10.232626+00:00",
+  "exit": 0,
+  "stdout": "",
+  "stderr": "To https://github.com/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08.git\n * [new branch]      77cf6da5ca6b0a46948c3ed0c64ce8486ca15d4e -> exp/native/late-group-failure/trunk\n * [new branch]      6271f4d74d65aa1058c1046e2fdfe6d189880370 -> exp/native/late-group-failure/A\n * [new tag]         6271f4d74d65aa1058c1046e2fdfe6d189880370 -> exp/native/late-group-failure/authored/A/v1\n * [new branch]      88698e19a9aa655e6478ea4c053111c3b3ec146d -> exp/native/late-group-failure/B\n * [new tag]         88698e19a9aa655e6478ea4c053111c3b3ec146d -> exp/native/late-group-failure/authored/B/v1\n"
+}

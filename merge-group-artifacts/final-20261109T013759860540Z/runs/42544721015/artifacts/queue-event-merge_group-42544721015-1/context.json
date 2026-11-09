@@ -1,0 +1,39 @@
+{
+  "env": {
+    "GITHUB_EVENT_NAME": "merge_group",
+    "GITHUB_SHA": "964781d850b7c100efbea59663f9eb9d1dfdb971",
+    "GITHUB_REF": "refs/heads/gh-readonly-queue/exp/native/prefix-happy/trunk/pr-1-2429464350b2940454fd021345d243ec2add8844",
+    "GITHUB_HEAD_REF": "",
+    "GITHUB_BASE_REF": "",
+    "GITHUB_RUN_ID": "42544721015",
+    "GITHUB_RUN_ATTEMPT": "1",
+    "GITHUB_JOB": "queue-observe",
+    "GITHUB_WORKFLOW": "queue-observe",
+    "GITHUB_WORKFLOW_REF": "intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/.github/workflows/queue-observe.yml@refs/heads/gh-readonly-queue/exp/native/prefix-happy/trunk/pr-1-2429464350b2940454fd021345d243ec2add8844",
+    "GITHUB_WORKFLOW_SHA": "964781d850b7c100efbea59663f9eb9d1dfdb971",
+    "GITHUB_REPOSITORY": "intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08",
+    "GITHUB_ACTOR": "joshlf",
+    "GITHUB_TRIGGERING_ACTOR": "joshlf",
+    "RUNNER_OS": "Linux",
+    "RUNNER_ARCH": "X64"
+  },
+  "python": "3.14.4 (main, Aug 20 2026, 10:41:58) [GCC 15.2.0]",
+  "platform": "Linux-7.0.0-1019-azure-x86_64-with-glibc2.43",
+  "head": "964781d850b7c100efbea59663f9eb9d1dfdb971",
+  "tree": "a0bf629d15e22acdb5405140d182e57ac58d1fca",
+  "parents": "964781d850b7c100efbea59663f9eb9d1dfdb971 2429464350b2940454fd021345d243ec2add8844",
+  "graph": "96442fabd4556f626f2cb80bb3ee4dacb274afc7 77cf6da5ca6b0a46948c3ed0c64ce8486ca15d4e Record synthetic late-group-failure-A (#15)\n6271f4d74d65aa1058c1046e2fdfe6d189880370 77cf6da5ca6b0a46948c3ed0c64ce8486ca15d4e Record synthetic late-group-failure-A\n88698e19a9aa655e6478ea4c053111c3b3ec146d 6271f4d74d65aa1058c1046e2fdfe6d189880370 Record synthetic late-group-failure-B\n77cf6da5ca6b0a46948c3ed0c64ce8486ca15d4e 3a9df32f515072950fac44b3f0bb9ab2b549170e Record synthetic late-group-failure-trunk\nf2e28370a7c8a293c8806dc24bcb3e2b4a40fc2d e7bc26061f584629d2044a800577de5f8756d537 Record synthetic fresh-enabled-A (#11)\n8130ef408cde2f68b3dabae65794fa533e4701e5 e7bc26061f584629d2044a800577de5f8756d537 Record synthetic fresh-enabled-A\n483d647c76e8d74f54f738a54779f3296bbad5d0 8130ef408cde2f68b3dabae65794fa533e4701e5 Record synthetic fresh-enabled-B\n46b34c3a5c9f80ac0cf327b1fff6005bfdd99af4 483d647c76e8d74f54f738a54779f3296bbad5d0 Record synthetic fresh-enabled-C\ne7bc26061f584629d2044a800577de5f8756d537 3a9df32f515072950fac44b3f0bb9ab2b549170e Record synthetic fresh-enabled-trunk\n91df75452264aace94c7ba57141128adf924931d 5c67ceea8a77f20b71b7a5cf762bc5bcda910f55 Record synthetic queued-members-A\n61d19779766cde979b3aca68f448ebc071de7b08 91df75452264aace94c7ba57141128adf924931d Record synthetic queued-members-B\n9b501173f0aa7f2f9d1396a8814a4dfb6fc7b55a 61d19779766cde979b3aca68f448ebc071de7b08 Record synthetic queued-members-C\n5c67ceea8a77f20b71b7a5cf762bc5bcda910f55 3a9df32f515072950fac44b3f0bb9ab2b549170e Record synthetic queued-members-trunk\n4f7a5a72b1e974577dec4a2154c96e5daad0636f 0e953601b9aeea3630f7e02e3308c53d7cb5ac4a Record synthetic single-held-release-A (#5)\n5cd07a22622a4219c9412ff2ed43e50694158913 bb8f8f8df39e03c3cabb4d8df55d5d45cf2b4f3e Record synthetic single-group-failure-A\nbb8f8f8df39e03c3cabb4d8df55d5d45cf2b4f3e 3a9df32f515072950fac44b3f0bb9ab2b549170e Record synthetic single-group-failure-trunk\n9598ba41dda1477617af3a36c0a43abf2ec04c93 0e953601b9aeea3630f7e02e3308c53d7cb5ac4a Record synthetic single-held-release-A\n0e953601b9aeea3630f7e02e3308c53d7cb5ac4a 3a9df32f515072950fac44b3f0bb9ab2b549170e Record synthetic single-held-release-trunk\n964781d850b7c100efbea59663f9eb9d1dfdb971 2429464350b2940454fd021345d243ec2add8844 Record synthetic prefix-happy-A (#1)\n0f849939f61af49a85adec364b0af8e457dc98ec 2429464350b2940454fd021345d243ec2add8844 Record synthetic prefix-happy-A\n54a96f3828ef3bcc23ff863645f9c50750c16fd4 0f849939f61af49a85adec364b0af8e457dc98ec Record synthetic prefix-happy-B\neaa9d6f9500a3e654c28787d487e7aa3c77f2491 54a96f3828ef3bcc23ff863645f9c50750c16fd4 Record synthetic prefix-happy-C\n2429464350b2940454fd021345d243ec2add8844 3a9df32f515072950fac44b3f0bb9ab2b549170e Record synthetic prefix-happy-trunk\n3a9df32f515072950fac44b3f0bb9ab2b549170e  Add synthetic queue event fixtures",
+  "workflow_blob": "5d1d518b8c24c8651d127018f2f6817c7eb1c221",
+  "observer_blob": "89abf9e243c65f621b90277415eaf059e4849683",
+  "tracked_markers": {
+    "pull_request": "",
+    "merge_group": ""
+  },
+  "decision": "success",
+  "reasons": [],
+  "release_status": {
+    "context": "experiment/queue-release",
+    "merge_group_target_sha": "964781d850b7c100efbea59663f9eb9d1dfdb971",
+    "posted_by_workflow": false
+  }
+}

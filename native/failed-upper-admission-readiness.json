@@ -1,0 +1,293 @@
+[
+  {
+    "at": "2026-11-09T01:24:54.804554+00:00",
+    "states": {
+      "A": "CLEAN",
+      "B": "CLEAN",
+      "C": "BLOCKED"
+    },
+    "checks": {
+      "total_count": 2,
+      "check_runs": [
+        {
+          "id": 128928958515,
+          "name": "queue-observe",
+          "node_id": "CR_kwDOVnmBMc8AAAAeBMPIMw",
+          "head_sha": "467ac1438f5ee04c7557e6ae20bd3a0aca746370",
+          "external_id": "22c7e9a9-17e9-5f9f-b74f-463dd28aa5b4",
+          "url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/check-runs/128928958515",
+          "html_url": "https://github.com/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/actions/runs/42545327281/job/128928958515",
+          "details_url": "https://github.com/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/actions/runs/42545327281/job/128928958515",
+          "status": "completed",
+          "conclusion": "failure",
+          "started_at": "2026-11-09T01:23:34Z",
+          "completed_at": "2026-11-09T01:23:41Z",
+          "output": {
+            "title": null,
+            "summary": null,
+            "text": null,
+            "annotations_count": 3,
+            "annotations_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/check-runs/128928958515/annotations"
+          },
+          "check_suite": {
+            "id": 115241300024
+          },
+          "app": {
+            "id": 15368,
+            "client_id": "Iv1.05c79e9ad1f6bdfa",
+            "slug": "github-actions",
+            "node_id": "MDM6QXBwMTUzNjg=",
+            "owner": {
+              "login": "github",
+              "id": 9919,
+              "node_id": "MDEyOk9yZ2FuaXphdGlvbjk5MTk=",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/github",
+              "html_url": "https://github.com/github",
+              "followers_url": "https://api.github.com/users/github/followers",
+              "following_url": "https://api.github.com/users/github/following{/other_user}",
+              "gists_url": "https://api.github.com/users/github/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/github/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/github/subscriptions",
+              "organizations_url": "https://api.github.com/users/github/orgs",
+              "repos_url": "https://api.github.com/users/github/repos",
+              "events_url": "https://api.github.com/users/github/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/github/received_events",
+              "type": "Organization",
+              "user_view_type": "public",
+              "site_admin": false
+            },
+            "name": "GitHub Actions",
+            "description": "Automate your workflow from idea to production",
+            "external_url": "https://help.github.com/en/actions",
+            "html_url": "https://github.com/apps/github-actions",
+            "created_at": "2018-07-30T09:30:17Z",
+            "updated_at": "2026-06-18T16:17:48Z",
+            "permissions": {
+              "actions": "write",
+              "administration": "read",
+              "artifact_metadata": "write",
+              "attestations": "write",
+              "checks": "write",
+              "code_quality": "write",
+              "contents": "write",
+              "copilot_requests": "write",
+              "deployments": "write",
+              "discussions": "write",
+              "drives": "write",
+              "issues": "write",
+              "merge_queues": "write",
+              "metadata": "read",
+              "models": "read",
+              "packages": "write",
+              "pages": "write",
+              "pull_requests": "write",
+              "repository_hooks": "write",
+              "repository_projects": "write",
+              "security_events": "write",
+              "statuses": "write",
+              "vulnerability_alerts": "read"
+            },
+            "events": [
+              "branch_protection_rule",
+              "check_run",
+              "check_suite",
+              "create",
+              "delete",
+              "deployment",
+              "deployment_status",
+              "discussion",
+              "discussion_comment",
+              "fork",
+              "gollum",
+              "issues",
+              "issue_comment",
+              "label",
+              "merge_group",
+              "milestone",
+              "page_build",
+              "public",
+              "pull_request",
+              "pull_request_review",
+              "pull_request_review_comment",
+              "push",
+              "registry_package",
+              "release",
+              "repository",
+              "repository_dispatch",
+              "status",
+              "watch",
+              "workflow_dispatch",
+              "workflow_run"
+            ]
+          },
+          "pull_requests": [
+            {
+              "url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/pulls/23",
+              "id": 5217232323,
+              "number": 23,
+              "head": {
+                "ref": "exp/native/failed-upper-admission/C",
+                "sha": "467ac1438f5ee04c7557e6ae20bd3a0aca746370",
+                "repo": {
+                  "id": 1450803505,
+                  "url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08",
+                  "name": "gherrit-stack-queue-public-experiments-2026-11-08"
+                }
+              },
+              "base": {
+                "ref": "exp/native/failed-upper-admission/B",
+                "sha": "930a95811869cb7ca9c68fae67ffb462810a6516",
+                "repo": {
+                  "id": 1450803505,
+                  "url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08",
+                  "name": "gherrit-stack-queue-public-experiments-2026-11-08"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 128928958495,
+          "name": "queue-observe",
+          "node_id": "CR_kwDOVnmBMc8AAAAeBMPIHw",
+          "head_sha": "467ac1438f5ee04c7557e6ae20bd3a0aca746370",
+          "external_id": "f9173897-a729-591f-858a-9dd52a34349c",
+          "url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/check-runs/128928958495",
+          "html_url": "https://github.com/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/actions/runs/42545327180/job/128928958495",
+          "details_url": "https://github.com/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/actions/runs/42545327180/job/128928958495",
+          "status": "completed",
+          "conclusion": "failure",
+          "started_at": "2026-11-09T01:23:35Z",
+          "completed_at": "2026-11-09T01:23:42Z",
+          "output": {
+            "title": null,
+            "summary": null,
+            "text": null,
+            "annotations_count": 3,
+            "annotations_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/check-runs/128928958495/annotations"
+          },
+          "check_suite": {
+            "id": 115241299806
+          },
+          "app": {
+            "id": 15368,
+            "client_id": "Iv1.05c79e9ad1f6bdfa",
+            "slug": "github-actions",
+            "node_id": "MDM6QXBwMTUzNjg=",
+            "owner": {
+              "login": "github",
+              "id": 9919,
+              "node_id": "MDEyOk9yZ2FuaXphdGlvbjk5MTk=",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/github",
+              "html_url": "https://github.com/github",
+              "followers_url": "https://api.github.com/users/github/followers",
+              "following_url": "https://api.github.com/users/github/following{/other_user}",
+              "gists_url": "https://api.github.com/users/github/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/github/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/github/subscriptions",
+              "organizations_url": "https://api.github.com/users/github/orgs",
+              "repos_url": "https://api.github.com/users/github/repos",
+              "events_url": "https://api.github.com/users/github/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/github/received_events",
+              "type": "Organization",
+              "user_view_type": "public",
+              "site_admin": false
+            },
+            "name": "GitHub Actions",
+            "description": "Automate your workflow from idea to production",
+            "external_url": "https://help.github.com/en/actions",
+            "html_url": "https://github.com/apps/github-actions",
+            "created_at": "2018-07-30T09:30:17Z",
+            "updated_at": "2026-06-18T16:17:48Z",
+            "permissions": {
+              "actions": "write",
+              "administration": "read",
+              "artifact_metadata": "write",
+              "attestations": "write",
+              "checks": "write",
+              "code_quality": "write",
+              "contents": "write",
+              "copilot_requests": "write",
+              "deployments": "write",
+              "discussions": "write",
+              "drives": "write",
+              "issues": "write",
+              "merge_queues": "write",
+              "metadata": "read",
+              "models": "read",
+              "packages": "write",
+              "pages": "write",
+              "pull_requests": "write",
+              "repository_hooks": "write",
+              "repository_projects": "write",
+              "security_events": "write",
+              "statuses": "write",
+              "vulnerability_alerts": "read"
+            },
+            "events": [
+              "branch_protection_rule",
+              "check_run",
+              "check_suite",
+              "create",
+              "delete",
+              "deployment",
+              "deployment_status",
+              "discussion",
+              "discussion_comment",
+              "fork",
+              "gollum",
+              "issues",
+              "issue_comment",
+              "label",
+              "merge_group",
+              "milestone",
+              "page_build",
+              "public",
+              "pull_request",
+              "pull_request_review",
+              "pull_request_review_comment",
+              "push",
+              "registry_package",
+              "release",
+              "repository",
+              "repository_dispatch",
+              "status",
+              "watch",
+              "workflow_dispatch",
+              "workflow_run"
+            ]
+          },
+          "pull_requests": [
+            {
+              "url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/pulls/23",
+              "id": 5217232323,
+              "number": 23,
+              "head": {
+                "ref": "exp/native/failed-upper-admission/C",
+                "sha": "467ac1438f5ee04c7557e6ae20bd3a0aca746370",
+                "repo": {
+                  "id": 1450803505,
+                  "url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08",
+                  "name": "gherrit-stack-queue-public-experiments-2026-11-08"
+                }
+              },
+              "base": {
+                "ref": "exp/native/failed-upper-admission/B",
+                "sha": "930a95811869cb7ca9c68fae67ffb462810a6516",
+                "repo": {
+                  "id": 1450803505,
+                  "url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08",
+                  "name": "gherrit-stack-queue-public-experiments-2026-11-08"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

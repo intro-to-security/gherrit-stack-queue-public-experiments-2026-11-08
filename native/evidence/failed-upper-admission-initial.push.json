@@ -1,0 +1,36 @@
+{
+  "start": "2026-11-09T01:23:23.554374+00:00",
+  "updates": {
+    "refs/heads/exp/native/failed-upper-admission/trunk": "2d6cd0e78dc12837e530478399c8f6a78f50f6aa",
+    "refs/heads/exp/native/failed-upper-admission/A": "4dda5e3dd63c15aac66e5fbe77d02150c2c79bbd",
+    "refs/tags/exp/native/failed-upper-admission/authored/A/v1": "4dda5e3dd63c15aac66e5fbe77d02150c2c79bbd",
+    "refs/heads/exp/native/failed-upper-admission/B": "930a95811869cb7ca9c68fae67ffb462810a6516",
+    "refs/tags/exp/native/failed-upper-admission/authored/B/v1": "930a95811869cb7ca9c68fae67ffb462810a6516",
+    "refs/heads/exp/native/failed-upper-admission/C": "467ac1438f5ee04c7557e6ae20bd3a0aca746370",
+    "refs/tags/exp/native/failed-upper-admission/authored/C/v1": "467ac1438f5ee04c7557e6ae20bd3a0aca746370"
+  },
+  "expected": {},
+  "args": [
+    "push",
+    "--atomic",
+    "--force-with-lease=refs/heads/exp/native/failed-upper-admission/trunk:",
+    "--force-with-lease=refs/heads/exp/native/failed-upper-admission/A:",
+    "--force-with-lease=refs/tags/exp/native/failed-upper-admission/authored/A/v1:",
+    "--force-with-lease=refs/heads/exp/native/failed-upper-admission/B:",
+    "--force-with-lease=refs/tags/exp/native/failed-upper-admission/authored/B/v1:",
+    "--force-with-lease=refs/heads/exp/native/failed-upper-admission/C:",
+    "--force-with-lease=refs/tags/exp/native/failed-upper-admission/authored/C/v1:",
+    "origin",
+    "2d6cd0e78dc12837e530478399c8f6a78f50f6aa:refs/heads/exp/native/failed-upper-admission/trunk",
+    "4dda5e3dd63c15aac66e5fbe77d02150c2c79bbd:refs/heads/exp/native/failed-upper-admission/A",
+    "4dda5e3dd63c15aac66e5fbe77d02150c2c79bbd:refs/tags/exp/native/failed-upper-admission/authored/A/v1",
+    "930a95811869cb7ca9c68fae67ffb462810a6516:refs/heads/exp/native/failed-upper-admission/B",
+    "930a95811869cb7ca9c68fae67ffb462810a6516:refs/tags/exp/native/failed-upper-admission/authored/B/v1",
+    "467ac1438f5ee04c7557e6ae20bd3a0aca746370:refs/heads/exp/native/failed-upper-admission/C",
+    "467ac1438f5ee04c7557e6ae20bd3a0aca746370:refs/tags/exp/native/failed-upper-admission/authored/C/v1"
+  ],
+  "end": "2026-11-09T01:23:25.058240+00:00",
+  "exit": 0,
+  "stdout": "",
+  "stderr": "To https://github.com/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08.git\n * [new branch]      2d6cd0e78dc12837e530478399c8f6a78f50f6aa -> exp/native/failed-upper-admission/trunk\n * [new branch]      4dda5e3dd63c15aac66e5fbe77d02150c2c79bbd -> exp/native/failed-upper-admission/A\n * [new tag]         4dda5e3dd63c15aac66e5fbe77d02150c2c79bbd -> exp/native/failed-upper-admission/authored/A/v1\n * [new branch]      930a95811869cb7ca9c68fae67ffb462810a6516 -> exp/native/failed-upper-admission/B\n * [new tag]         930a95811869cb7ca9c68fae67ffb462810a6516 -> exp/native/failed-upper-admission/authored/B/v1\n * [new branch]      467ac1438f5ee04c7557e6ae20bd3a0aca746370 -> exp/native/failed-upper-admission/C\n * [new tag]         467ac1438f5ee04c7557e6ae20bd3a0aca746370 -> exp/native/failed-upper-admission/authored/C/v1\n"
+}

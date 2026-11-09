@@ -1,0 +1,180 @@
+{
+  "scope": "Three fresh real-CI-only native queue traces; no synthetic statuses, no future-write guarantee",
+  "cases": [
+    {
+      "method": "SQUASH",
+      "case": "native-no-manual-gate",
+      "prs": {
+        "A": 25,
+        "B": 26
+      },
+      "stack": 27,
+      "A_merged": true,
+      "B_merged": false,
+      "B_head_before": "e0bba642dfb010d659204b842391f2671c533e9b",
+      "B_head_after": "faabdcba56d4b3fcbcd8e4caa585e797082f0408",
+      "B_removals": [
+        {
+          "__typename": "RemovedFromMergeQueueEvent",
+          "id": "RFMQE_lADOVnmBMc8AAAABdjUzW88AAAAIRXsnew",
+          "createdAt": "2026-11-09T01:26:27Z",
+          "reason": "invalid_merge_commit",
+          "beforeCommit": null,
+          "actor": {
+            "login": "github-merge-queue"
+          }
+        }
+      ],
+      "groups": [
+        {
+          "run_id": 42545538666,
+          "sha": "f2ed13bbdd7839e5e83e1ac131cff4ddd542d32d",
+          "parents": [
+            "6d9310de15493dc854f50b39698d314df124a588"
+          ],
+          "tree": "51f300c61becb218c89757aa9902b9be9afe2847",
+          "checks": [
+            {
+              "id": 128929605521,
+              "name": "queue-observe",
+              "head_sha": "f2ed13bbdd7839e5e83e1ac131cff4ddd542d32d",
+              "status": "completed",
+              "conclusion": "success",
+              "details_url": "https://github.com/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/actions/runs/42545538666/job/128929605521"
+            }
+          ]
+        }
+      ],
+      "last_observation": "2026-11-09T01:38:51.234632+00:00",
+      "all_queue_entries_null": true,
+      "raw_patch_bytes_equal": true,
+      "tree_equal": true,
+      "author_equal": true,
+      "message_equal": true
+    },
+    {
+      "method": "MERGE",
+      "case": "native-no-manual-gate-merge",
+      "prs": {
+        "A": 28,
+        "B": 29
+      },
+      "stack": 30,
+      "A_merged": true,
+      "B_merged": true,
+      "B_head_before": "3cf43d654b4e916e331f52ec1a625eaae468ba3f",
+      "B_head_after": "3cf43d654b4e916e331f52ec1a625eaae468ba3f",
+      "B_removals": [
+        {
+          "__typename": "RemovedFromMergeQueueEvent",
+          "id": "RFMQE_lADOVnmBMc8AAAABdjYYzc8AAAAIRYDANg",
+          "createdAt": "2026-11-09T01:34:11Z",
+          "reason": "merged",
+          "beforeCommit": {
+            "oid": "02444078e1e831ce079965c858d146303df4c407"
+          },
+          "actor": {
+            "login": "github-merge-queue"
+          }
+        }
+      ],
+      "groups": [
+        {
+          "run_id": 42546199671,
+          "sha": "02444078e1e831ce079965c858d146303df4c407",
+          "parents": [
+            "085c7014c13f3dff3fe9526499915a387778bbe9",
+            "3cf43d654b4e916e331f52ec1a625eaae468ba3f"
+          ],
+          "tree": "88692cc9bd6e0686a964767bd03a94107a8a6194",
+          "checks": [
+            {
+              "id": 128931638177,
+              "name": "queue-observe",
+              "head_sha": "02444078e1e831ce079965c858d146303df4c407",
+              "status": "completed",
+              "conclusion": "success",
+              "details_url": "https://github.com/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/actions/runs/42546199671/job/128931638177"
+            }
+          ]
+        },
+        {
+          "run_id": 42546148963,
+          "sha": "085c7014c13f3dff3fe9526499915a387778bbe9",
+          "parents": [
+            "0a627446b784313ae83efe3f6e66bd74321612ac",
+            "5c50151deb726233da7e12c837c783bd1b6657c4"
+          ],
+          "tree": "862bfe524f91558d0898461f3d58920a95b96374",
+          "checks": [
+            {
+              "id": 128931489295,
+              "name": "queue-observe",
+              "head_sha": "085c7014c13f3dff3fe9526499915a387778bbe9",
+              "status": "completed",
+              "conclusion": "success",
+              "details_url": "https://github.com/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/actions/runs/42546148963/job/128931489295"
+            }
+          ]
+        }
+      ],
+      "last_observation": "2026-11-09T01:38:54.883905+00:00",
+      "all_queue_entries_null": true,
+      "raw_patch_bytes_equal": true,
+      "tree_equal": true,
+      "author_equal": true,
+      "message_equal": true
+    },
+    {
+      "method": "REBASE",
+      "case": "native-no-manual-gate-rebase",
+      "prs": {
+        "A": 31,
+        "B": 32
+      },
+      "stack": 33,
+      "A_merged": true,
+      "B_merged": false,
+      "B_head_before": "9ec02b2d2893201be973477ebd81f2ed8e5a968e",
+      "B_head_after": "9c41d21f6f29969d33a71b1c633c73f68fa877c1",
+      "B_removals": [
+        {
+          "__typename": "RemovedFromMergeQueueEvent",
+          "id": "RFMQE_lADOVnmBMc8AAAABdjYcI88AAAAIRYBmmQ",
+          "createdAt": "2026-11-09T01:33:43Z",
+          "reason": "invalid_merge_commit",
+          "beforeCommit": null,
+          "actor": {
+            "login": "github-merge-queue"
+          }
+        }
+      ],
+      "groups": [
+        {
+          "run_id": 42546156039,
+          "sha": "36ea8be012efdf8019d08fa7822a3ae4b4721d81",
+          "parents": [
+            "aecb858ce2c0d6ba4e8e20dc44ac7f931f71d230"
+          ],
+          "tree": "da7aef3c9eef8610d0009905a65e1bab43fc2b46",
+          "checks": [
+            {
+              "id": 128931510604,
+              "name": "queue-observe",
+              "head_sha": "36ea8be012efdf8019d08fa7822a3ae4b4721d81",
+              "status": "completed",
+              "conclusion": "success",
+              "details_url": "https://github.com/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/actions/runs/42546156039/job/128931510604"
+            }
+          ]
+        }
+      ],
+      "last_observation": "2026-11-09T01:38:55.776253+00:00",
+      "all_queue_entries_null": true,
+      "raw_patch_bytes_equal": true,
+      "tree_equal": true,
+      "author_equal": true,
+      "message_equal": true
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+[
+  {
+    "A": {
+      "data": {
+        "repository": {
+          "pullRequest": {
+            "id": "PR_kwDOVnmBMc8AAAABNveRog",
+            "number": 11,
+            "headRefOid": "8130ef408cde2f68b3dabae65794fa533e4701e5",
+            "baseRefName": "exp/native/fresh-enabled/trunk",
+            "state": "MERGED",
+            "merged": true,
+            "mergeStateStatus": "UNKNOWN",
+            "mergeQueueEntry": null,
+            "commits": {
+              "nodes": [
+                {
+                  "commit": {
+                    "oid": "8130ef408cde2f68b3dabae65794fa533e4701e5",
+                    "statusCheckRollup": {
+                      "state": "SUCCESS",
+                      "contexts": {
+                        "nodes": [
+                          {
+                            "name": "queue-observe",
+                            "conclusion": "SUCCESS",
+                            "status": "COMPLETED",
+                            "detailsUrl": "https://github.com/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/actions/runs/42544551564/job/128926609746"
+                          },
+                          {
+                            "name": "queue-observe",
+                            "conclusion": "SUCCESS",
+                            "status": "COMPLETED",
+                            "detailsUrl": "https://github.com/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/actions/runs/42544556026/job/128926621318"
+                          },
+                          {
+                            "context": "experiment/queue-release",
+                            "state": "SUCCESS",
+                            "targetUrl": null
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    "B": {
+      "data": {
+        "repository": {
+          "pullRequest": {
+            "id": "PR_kwDOVnmBMc8AAAABNveSbw",
+            "number": 12,
+            "headRefOid": "21aa39443622f3f7295764adc7f9a8945d0eea6e",
+            "baseRefName": "exp/native/fresh-enabled/trunk",
+            "state": "OPEN",
+            "merged": false,
+            "mergeStateStatus": "CLEAN",
+            "mergeQueueEntry": null,
+            "commits": {
+              "nodes": [
+                {
+                  "commit": {
+                    "oid": "21aa39443622f3f7295764adc7f9a8945d0eea6e",
+                    "statusCheckRollup": {
+                      "state": "SUCCESS",
+                      "contexts": {
+                        "nodes": [
+                          {
+                            "name": "queue-observe",
+                            "conclusion": "SUCCESS",
+                            "status": "COMPLETED",
+                            "detailsUrl": "https://github.com/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/actions/runs/42544863001/job/128927537299"
+                          },
+                          {
+                            "context": "experiment/queue-release",
+                            "state": "SUCCESS",
+                            "targetUrl": null
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    "C": {
+      "data": {
+        "repository": {
+          "pullRequest": {
+            "id": "PR_kwDOVnmBMc8AAAABNveS9w",
+            "number": 13,
+            "headRefOid": "7eabd3f387b47cf9093642fe976b494ae2474a18",
+            "baseRefName": "exp/native/fresh-enabled/B",
+            "state": "OPEN",
+            "merged": false,
+            "mergeStateStatus": "BLOCKED",
+            "mergeQueueEntry": null,
+            "commits": {
+              "nodes": [
+                {
+                  "commit": {
+                    "oid": "7eabd3f387b47cf9093642fe976b494ae2474a18",
+                    "statusCheckRollup": {
+                      "state": "SUCCESS",
+                      "contexts": {
+                        "nodes": [
+                          {
+                            "name": "queue-observe",
+                            "conclusion": "SUCCESS",
+                            "status": "COMPLETED",
+                            "detailsUrl": "https://github.com/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/actions/runs/42544863960/job/128927539263"
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+]

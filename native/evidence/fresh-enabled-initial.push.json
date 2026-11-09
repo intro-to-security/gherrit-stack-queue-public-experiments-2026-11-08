@@ -1,0 +1,36 @@
+{
+  "start": "2026-11-09T01:14:56.872307+00:00",
+  "updates": {
+    "refs/heads/exp/native/fresh-enabled/trunk": "e7bc26061f584629d2044a800577de5f8756d537",
+    "refs/heads/exp/native/fresh-enabled/A": "8130ef408cde2f68b3dabae65794fa533e4701e5",
+    "refs/tags/exp/native/fresh-enabled/authored/A/v1": "8130ef408cde2f68b3dabae65794fa533e4701e5",
+    "refs/heads/exp/native/fresh-enabled/B": "483d647c76e8d74f54f738a54779f3296bbad5d0",
+    "refs/tags/exp/native/fresh-enabled/authored/B/v1": "483d647c76e8d74f54f738a54779f3296bbad5d0",
+    "refs/heads/exp/native/fresh-enabled/C": "46b34c3a5c9f80ac0cf327b1fff6005bfdd99af4",
+    "refs/tags/exp/native/fresh-enabled/authored/C/v1": "46b34c3a5c9f80ac0cf327b1fff6005bfdd99af4"
+  },
+  "expected": {},
+  "args": [
+    "push",
+    "--atomic",
+    "--force-with-lease=refs/heads/exp/native/fresh-enabled/trunk:",
+    "--force-with-lease=refs/heads/exp/native/fresh-enabled/A:",
+    "--force-with-lease=refs/tags/exp/native/fresh-enabled/authored/A/v1:",
+    "--force-with-lease=refs/heads/exp/native/fresh-enabled/B:",
+    "--force-with-lease=refs/tags/exp/native/fresh-enabled/authored/B/v1:",
+    "--force-with-lease=refs/heads/exp/native/fresh-enabled/C:",
+    "--force-with-lease=refs/tags/exp/native/fresh-enabled/authored/C/v1:",
+    "origin",
+    "e7bc26061f584629d2044a800577de5f8756d537:refs/heads/exp/native/fresh-enabled/trunk",
+    "8130ef408cde2f68b3dabae65794fa533e4701e5:refs/heads/exp/native/fresh-enabled/A",
+    "8130ef408cde2f68b3dabae65794fa533e4701e5:refs/tags/exp/native/fresh-enabled/authored/A/v1",
+    "483d647c76e8d74f54f738a54779f3296bbad5d0:refs/heads/exp/native/fresh-enabled/B",
+    "483d647c76e8d74f54f738a54779f3296bbad5d0:refs/tags/exp/native/fresh-enabled/authored/B/v1",
+    "46b34c3a5c9f80ac0cf327b1fff6005bfdd99af4:refs/heads/exp/native/fresh-enabled/C",
+    "46b34c3a5c9f80ac0cf327b1fff6005bfdd99af4:refs/tags/exp/native/fresh-enabled/authored/C/v1"
+  ],
+  "end": "2026-11-09T01:14:58.510149+00:00",
+  "exit": 0,
+  "stdout": "",
+  "stderr": "To https://github.com/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08.git\n * [new branch]      e7bc26061f584629d2044a800577de5f8756d537 -> exp/native/fresh-enabled/trunk\n * [new branch]      8130ef408cde2f68b3dabae65794fa533e4701e5 -> exp/native/fresh-enabled/A\n * [new tag]         8130ef408cde2f68b3dabae65794fa533e4701e5 -> exp/native/fresh-enabled/authored/A/v1\n * [new branch]      483d647c76e8d74f54f738a54779f3296bbad5d0 -> exp/native/fresh-enabled/B\n * [new tag]         483d647c76e8d74f54f738a54779f3296bbad5d0 -> exp/native/fresh-enabled/authored/B/v1\n * [new branch]      46b34c3a5c9f80ac0cf327b1fff6005bfdd99af4 -> exp/native/fresh-enabled/C\n * [new tag]         46b34c3a5c9f80ac0cf327b1fff6005bfdd99af4 -> exp/native/fresh-enabled/authored/C/v1\n"
+}

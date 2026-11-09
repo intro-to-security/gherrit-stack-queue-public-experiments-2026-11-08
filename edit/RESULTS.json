@@ -1,0 +1,246 @@
+{
+  "status": "completed_observed_queued_edit_rejection",
+  "repository": "intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08",
+  "case": {
+    "name": "selected-head-edit-1794187135707147000",
+    "prefix": "exp/edit/selected-head-edit-1794187135707147000",
+    "trunk": "exp/edit/selected-head-edit-1794187135707147000/trunk",
+    "trunk_sha": "9e89e98c71df5d763887ff827af7c12e11555345",
+    "heads": {
+      "A": {
+        "ref": "exp/edit/selected-head-edit-1794187135707147000/A",
+        "sha": "421ebcc5668832bb51751412ba17a18a9e0d1ea1"
+      },
+      "B": {
+        "ref": "exp/edit/selected-head-edit-1794187135707147000/B",
+        "sha": "00d3461ec9cc92155ae2ff0a8f1327e982da48ad"
+      }
+    },
+    "prs": {
+      "A": 18,
+      "B": 19
+    },
+    "created": "2026-11-09T01:18:57.457790+00:00",
+    "stack": 20
+  },
+  "ruleset_id": 26821828,
+  "checks_total": 96,
+  "checks_passed": 95,
+  "retained_failed_checks": [
+    {
+      "at": "2026-11-09T01:20:20.796468+00:00",
+      "label": "B2 and archive atomic push succeeds",
+      "actual": 1,
+      "expected": 0,
+      "passed": false,
+      "required": true
+    }
+  ],
+  "initial_release_shas": [
+    "00d3461ec9cc92155ae2ff0a8f1327e982da48ad",
+    "421ebcc5668832bb51751412ba17a18a9e0d1ea1",
+    "96e39b7d23227a2f68bb4e00c73456099752f12f",
+    "b982493f52947d595222cdad9587c6897b960db8"
+  ],
+  "source_clean": {
+    "start": "2026-11-09T01:19:16.905840+00:00",
+    "end": "2026-11-09T01:19:17.709420+00:00",
+    "A": "CLEAN",
+    "B": "CLEAN"
+  },
+  "admission_request": {
+    "method": "PUT",
+    "path": "repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/pulls/19/merge-async",
+    "payload": {
+      "merge_action": "merge_queue",
+      "sha": "00d3461ec9cc92155ae2ff0a8f1327e982da48ad"
+    },
+    "label": "enqueue-selected-B",
+    "start": "2026-11-09T01:20:14.261410+00:00",
+    "monotonic_start": 2.460388083,
+    "end": "2026-11-09T01:20:14.773913+00:00",
+    "monotonic_end": 2.972922375,
+    "exit": 0,
+    "http": 202,
+    "data": {
+      "status": "pending",
+      "details": {
+        "message": "Merge request enqueued.",
+        "uuid": "04cf64a9-76b6-4b8b-b819-8a7529285b67",
+        "merge_method": "default",
+        "merge_action": "merge_queue",
+        "expected_head_sha": "00d3461ec9cc92155ae2ff0a8f1327e982da48ad",
+        "bypass_rules": false
+      }
+    }
+  },
+  "terminal_admission": {
+    "status": "enqueued",
+    "details": {
+      "message": "Pull request was added to the merge queue."
+    }
+  },
+  "uuid": "04cf64a9-76b6-4b8b-b819-8a7529285b67",
+  "proposed_B2": "7c5baafffdc6f509a4f8996c87cfdd63835c8b7d",
+  "push_receipt": "evidence/substantive-B2-and-archive.push.json",
+  "queue_observations": [
+    {
+      "start": "2026-11-09T01:22:19.792941+00:00",
+      "end": "2026-11-09T01:22:22.175911+00:00",
+      "entry_ids": [
+        "MQE_lQDOVnmBMc8AAAABNvgiGc4ABVNzzgPShJs",
+        "MQE_lQDOVnmBMc8AAAABNvgiys4ABVNzzgPShJ4"
+      ],
+      "entry_states": [
+        "QUEUED",
+        "QUEUED"
+      ],
+      "order": [
+        18,
+        19
+      ],
+      "trunk": "9e89e98c71df5d763887ff827af7c12e11555345"
+    },
+    {
+      "start": "2026-11-09T01:22:25.189027+00:00",
+      "end": "2026-11-09T01:22:27.543417+00:00",
+      "entry_ids": [
+        "MQE_lQDOVnmBMc8AAAABNvgiGc4ABVNzzgPShJs",
+        "MQE_lQDOVnmBMc8AAAABNvgiys4ABVNzzgPShJ4"
+      ],
+      "entry_states": [
+        "QUEUED",
+        "QUEUED"
+      ],
+      "order": [
+        18,
+        19
+      ],
+      "trunk": "9e89e98c71df5d763887ff827af7c12e11555345"
+    },
+    {
+      "start": "2026-11-09T01:22:30.553773+00:00",
+      "end": "2026-11-09T01:22:32.963787+00:00",
+      "entry_ids": [
+        "MQE_lQDOVnmBMc8AAAABNvgiGc4ABVNzzgPShJs",
+        "MQE_lQDOVnmBMc8AAAABNvgiys4ABVNzzgPShJ4"
+      ],
+      "entry_states": [
+        "QUEUED",
+        "QUEUED"
+      ],
+      "order": [
+        18,
+        19
+      ],
+      "trunk": "9e89e98c71df5d763887ff827af7c12e11555345"
+    },
+    {
+      "start": "2026-11-09T01:22:35.973914+00:00",
+      "end": "2026-11-09T01:22:38.666674+00:00",
+      "entry_ids": [
+        "MQE_lQDOVnmBMc8AAAABNvgiGc4ABVNzzgPShJs",
+        "MQE_lQDOVnmBMc8AAAABNvgiys4ABVNzzgPShJ4"
+      ],
+      "entry_states": [
+        "QUEUED",
+        "QUEUED"
+      ],
+      "order": [
+        18,
+        19
+      ],
+      "trunk": "9e89e98c71df5d763887ff827af7c12e11555345"
+    },
+    {
+      "start": "2026-11-09T01:22:43.678233+00:00",
+      "end": "2026-11-09T01:22:45.905253+00:00",
+      "entry_ids": [
+        "MQE_lQDOVnmBMc8AAAABNvgiGc4ABVNzzgPShJs",
+        "MQE_lQDOVnmBMc8AAAABNvgiys4ABVNzzgPShJ4"
+      ],
+      "entry_states": [
+        "QUEUED",
+        "QUEUED"
+      ],
+      "order": [
+        18,
+        19
+      ],
+      "trunk": "9e89e98c71df5d763887ff827af7c12e11555345"
+    },
+    {
+      "start": "2026-11-09T01:22:50.916566+00:00",
+      "end": "2026-11-09T01:22:53.160578+00:00",
+      "entry_ids": [
+        "MQE_lQDOVnmBMc8AAAABNvgiGc4ABVNzzgPShJs",
+        "MQE_lQDOVnmBMc8AAAABNvgiys4ABVNzzgPShJ4"
+      ],
+      "entry_states": [
+        "QUEUED",
+        "QUEUED"
+      ],
+      "order": [
+        18,
+        19
+      ],
+      "trunk": "9e89e98c71df5d763887ff827af7c12e11555345"
+    },
+    {
+      "start": "2026-11-09T01:22:58.171634+00:00",
+      "end": "2026-11-09T01:23:00.371427+00:00",
+      "entry_ids": [
+        "MQE_lQDOVnmBMc8AAAABNvgiGc4ABVNzzgPShJs",
+        "MQE_lQDOVnmBMc8AAAABNvgiys4ABVNzzgPShJ4"
+      ],
+      "entry_states": [
+        "QUEUED",
+        "QUEUED"
+      ],
+      "order": [
+        18,
+        19
+      ],
+      "trunk": "9e89e98c71df5d763887ff827af7c12e11555345"
+    }
+  ],
+  "old_async_after_rejection": {
+    "status": "enqueued",
+    "details": {
+      "message": "Pull request was added to the merge queue."
+    }
+  },
+  "old_async_after_cleanup": {
+    "status": "enqueued",
+    "details": {
+      "message": "Pull request was added to the merge queue."
+    }
+  },
+  "cleanup": {
+    "status": "own_queue_empty",
+    "last_read_start": "2026-11-09T01:23:02.669759+00:00",
+    "last_read_end": "2026-11-09T01:23:03.312428+00:00",
+    "dequeue_dispatches": 1,
+    "target_PR": 18,
+    "remaining_entries": 0
+  },
+  "final_refs": {
+    "refs/heads/exp/edit/selected-head-edit-1794187135707147000/A": "421ebcc5668832bb51751412ba17a18a9e0d1ea1",
+    "refs/heads/exp/edit/selected-head-edit-1794187135707147000/B": "00d3461ec9cc92155ae2ff0a8f1327e982da48ad",
+    "refs/heads/exp/edit/selected-head-edit-1794187135707147000/trunk": "9e89e98c71df5d763887ff827af7c12e11555345",
+    "refs/tags/exp/edit/selected-head-edit-1794187135707147000/authored/A/v1": "421ebcc5668832bb51751412ba17a18a9e0d1ea1",
+    "refs/tags/exp/edit/selected-head-edit-1794187135707147000/authored/B/v1": "00d3461ec9cc92155ae2ff0a8f1327e982da48ad"
+  },
+  "source_versions": [
+    "evidence/runner-v1.py",
+    "evidence/runner-v2.py"
+  ],
+  "artifact_verification": "evidence/artifact-verification.json",
+  "limits": [
+    "The substantive head update was rejected; removal or requeue behavior after a successful queued edit was not exercised.",
+    "The admission SHA matched; this is not a stale-selected-SHA rejection or all-prefix snapshot test.",
+    "Build zero and null candidate commits mean no merge-group dispatch/check or landing was exercised.",
+    "A terminal enqueued result describes admission, not current queue membership or provider settlement.",
+    "No bypass, fallback, push retry, requeue, unrelated lane read/write, or private membership inspection."
+  ]
+}

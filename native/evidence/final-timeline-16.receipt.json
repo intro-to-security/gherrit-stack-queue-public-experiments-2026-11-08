@@ -1,0 +1,89 @@
+{
+  "method": "POST",
+  "path": "graphql",
+  "payload": {
+    "query": "query($owner:String!,$repo:String!,$n:Int!){repository(owner:$owner,name:$repo){pullRequest(number:$n){id number state merged headRefOid baseRefName mergeQueueEntry{id state} timelineItems(last:40){nodes{__typename ...on RemovedFromMergeQueueEvent{createdAt reason beforeCommit{oid} actor{login} enqueuer{login}} ...on MergedEvent{createdAt commit{oid}} ...on HeadRefForcePushedEvent{createdAt beforeCommit{oid} afterCommit{oid}}}}}}}",
+    "variables": {
+      "owner": "intro-to-security",
+      "repo": "gherrit-stack-queue-public-experiments-2026-11-08",
+      "n": 16
+    }
+  },
+  "label": "final-timeline-16",
+  "start": "2026-11-09T01:25:37.685859+00:00",
+  "monotonic_start": 2.709139583,
+  "end": "2026-11-09T01:25:38.136419+00:00",
+  "monotonic_end": 3.159701333,
+  "exit": 0,
+  "http": 200,
+  "data": {
+    "data": {
+      "repository": {
+        "pullRequest": {
+          "id": "PR_kwDOVnmBMc8AAAABNve-MQ",
+          "number": 16,
+          "state": "OPEN",
+          "merged": false,
+          "headRefOid": "280468446730a5967ec57cbf1e0211d3f2956e48",
+          "baseRefName": "exp/native/late-group-failure/trunk",
+          "mergeQueueEntry": null,
+          "timelineItems": {
+            "nodes": [
+              {
+                "__typename": "AddedToStackEvent"
+              },
+              {
+                "__typename": "AddedToMergeQueueEvent"
+              },
+              {
+                "__typename": "RemovedFromMergeQueueEvent",
+                "createdAt": "2026-11-09T01:18:46Z",
+                "reason": "invalid_merge_commit",
+                "beforeCommit": null,
+                "actor": {
+                  "login": "github-merge-queue"
+                },
+                "enqueuer": {
+                  "login": "github-merge-queue[bot]"
+                }
+              },
+              {
+                "__typename": "AutomaticBaseChangeSucceededEvent"
+              },
+              {
+                "__typename": "PullRequestCommit"
+              },
+              {
+                "__typename": "HeadRefForcePushedEvent",
+                "createdAt": "2026-11-09T01:18:49Z",
+                "beforeCommit": {
+                  "oid": "88698e19a9aa655e6478ea4c053111c3b3ec146d"
+                },
+                "afterCommit": {
+                  "oid": "280468446730a5967ec57cbf1e0211d3f2956e48"
+                }
+              },
+              {
+                "__typename": "AddedToMergeQueueEvent"
+              },
+              {
+                "__typename": "RemovedFromMergeQueueEvent",
+                "createdAt": "2026-11-09T01:20:53Z",
+                "reason": "failed_checks",
+                "beforeCommit": {
+                  "oid": "3309d1cb9083bd35bd81fe7330cad225f239315e"
+                },
+                "actor": {
+                  "login": "github-merge-queue"
+                },
+                "enqueuer": {
+                  "login": "github-merge-queue[bot]"
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

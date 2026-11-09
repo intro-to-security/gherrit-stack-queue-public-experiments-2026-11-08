@@ -1,0 +1,180 @@
+{
+  "status": "passed",
+  "local_inputs": {
+    "A": {
+      "sha": "421ebcc5668832bb51751412ba17a18a9e0d1ea1",
+      "header": "tree f8529b8e406d560bae7c488cdcedc010851616b1\nparent 9e89e98c71df5d763887ff827af7c12e11555345\nauthor Josh Liebow-Feeser <hello@joshlf.com> 1794187135 -0500\ncommitter Josh Liebow-Feeser <hello@joshlf.com> 1794187135 -0500",
+      "message": "Record synthetic selected-head-edit-1794187135707147000-A\n\nAgent-authored-by: AI agent acting on joshlf's behalf",
+      "tree": "f8529b8e406d560bae7c488cdcedc010851616b1"
+    },
+    "B": {
+      "sha": "00d3461ec9cc92155ae2ff0a8f1327e982da48ad",
+      "header": "tree 9170d484143aeffc85daac62a36b0662a7d47499\nparent 421ebcc5668832bb51751412ba17a18a9e0d1ea1\nauthor Josh Liebow-Feeser <hello@joshlf.com> 1794187135 -0500\ncommitter Josh Liebow-Feeser <hello@joshlf.com> 1794187135 -0500",
+      "message": "Record synthetic selected-head-edit-1794187135707147000-B\n\nAgent-authored-by: AI agent acting on joshlf's behalf",
+      "tree": "9170d484143aeffc85daac62a36b0662a7d47499"
+    },
+    "B2": {
+      "sha": "7c5baafffdc6f509a4f8996c87cfdd63835c8b7d",
+      "header": "tree 30f0e88c6f346ddcbc8b7dcb5f23ca07585fe052\nparent 421ebcc5668832bb51751412ba17a18a9e0d1ea1\nauthor Josh Liebow-Feeser <hello@joshlf.com> 1794187219 -0500\ncommitter Josh Liebow-Feeser <hello@joshlf.com> 1794187219 -0500",
+      "message": "Record synthetic selected-head-edit-1794187135707147000-B2\n\nAgent-authored-by: AI agent acting on joshlf's behalf",
+      "tree": "30f0e88c6f346ddcbc8b7dcb5f23ca07585fe052"
+    },
+    "trunk": {
+      "sha": "9e89e98c71df5d763887ff827af7c12e11555345",
+      "header": "tree c625aad3b06bedb6bede2cd3fb27d532448a1f3b\nparent 3a9df32f515072950fac44b3f0bb9ab2b549170e\nauthor Josh Liebow-Feeser <hello@joshlf.com> 1794187135 -0500\ncommitter Josh Liebow-Feeser <hello@joshlf.com> 1794187135 -0500",
+      "message": "Record synthetic selected-head-edit-1794187135707147000-trunk\n\nAgent-authored-by: AI agent acting on joshlf's behalf",
+      "tree": "c625aad3b06bedb6bede2cd3fb27d532448a1f3b"
+    }
+  },
+  "B2_diff_paths": [
+    "selected-head-edit-1794187135707147000/B.txt"
+  ],
+  "B2_parent_is_original_A": true,
+  "post_rejection_cohorts": [
+    {
+      "start": "2026-11-09T01:22:19.792941+00:00",
+      "end": "2026-11-09T01:22:22.175911+00:00",
+      "entry_ids": [
+        "MQE_lQDOVnmBMc8AAAABNvgiGc4ABVNzzgPShJs",
+        "MQE_lQDOVnmBMc8AAAABNvgiys4ABVNzzgPShJ4"
+      ],
+      "entry_states": [
+        "QUEUED",
+        "QUEUED"
+      ],
+      "order": [
+        18,
+        19
+      ],
+      "trunk": "9e89e98c71df5d763887ff827af7c12e11555345"
+    },
+    {
+      "start": "2026-11-09T01:22:25.189027+00:00",
+      "end": "2026-11-09T01:22:27.543417+00:00",
+      "entry_ids": [
+        "MQE_lQDOVnmBMc8AAAABNvgiGc4ABVNzzgPShJs",
+        "MQE_lQDOVnmBMc8AAAABNvgiys4ABVNzzgPShJ4"
+      ],
+      "entry_states": [
+        "QUEUED",
+        "QUEUED"
+      ],
+      "order": [
+        18,
+        19
+      ],
+      "trunk": "9e89e98c71df5d763887ff827af7c12e11555345"
+    },
+    {
+      "start": "2026-11-09T01:22:30.553773+00:00",
+      "end": "2026-11-09T01:22:32.963787+00:00",
+      "entry_ids": [
+        "MQE_lQDOVnmBMc8AAAABNvgiGc4ABVNzzgPShJs",
+        "MQE_lQDOVnmBMc8AAAABNvgiys4ABVNzzgPShJ4"
+      ],
+      "entry_states": [
+        "QUEUED",
+        "QUEUED"
+      ],
+      "order": [
+        18,
+        19
+      ],
+      "trunk": "9e89e98c71df5d763887ff827af7c12e11555345"
+    },
+    {
+      "start": "2026-11-09T01:22:35.973914+00:00",
+      "end": "2026-11-09T01:22:38.666674+00:00",
+      "entry_ids": [
+        "MQE_lQDOVnmBMc8AAAABNvgiGc4ABVNzzgPShJs",
+        "MQE_lQDOVnmBMc8AAAABNvgiys4ABVNzzgPShJ4"
+      ],
+      "entry_states": [
+        "QUEUED",
+        "QUEUED"
+      ],
+      "order": [
+        18,
+        19
+      ],
+      "trunk": "9e89e98c71df5d763887ff827af7c12e11555345"
+    },
+    {
+      "start": "2026-11-09T01:22:43.678233+00:00",
+      "end": "2026-11-09T01:22:45.905253+00:00",
+      "entry_ids": [
+        "MQE_lQDOVnmBMc8AAAABNvgiGc4ABVNzzgPShJs",
+        "MQE_lQDOVnmBMc8AAAABNvgiys4ABVNzzgPShJ4"
+      ],
+      "entry_states": [
+        "QUEUED",
+        "QUEUED"
+      ],
+      "order": [
+        18,
+        19
+      ],
+      "trunk": "9e89e98c71df5d763887ff827af7c12e11555345"
+    },
+    {
+      "start": "2026-11-09T01:22:50.916566+00:00",
+      "end": "2026-11-09T01:22:53.160578+00:00",
+      "entry_ids": [
+        "MQE_lQDOVnmBMc8AAAABNvgiGc4ABVNzzgPShJs",
+        "MQE_lQDOVnmBMc8AAAABNvgiys4ABVNzzgPShJ4"
+      ],
+      "entry_states": [
+        "QUEUED",
+        "QUEUED"
+      ],
+      "order": [
+        18,
+        19
+      ],
+      "trunk": "9e89e98c71df5d763887ff827af7c12e11555345"
+    },
+    {
+      "start": "2026-11-09T01:22:58.171634+00:00",
+      "end": "2026-11-09T01:23:00.371427+00:00",
+      "entry_ids": [
+        "MQE_lQDOVnmBMc8AAAABNvgiGc4ABVNzzgPShJs",
+        "MQE_lQDOVnmBMc8AAAABNvgiys4ABVNzzgPShJ4"
+      ],
+      "entry_states": [
+        "QUEUED",
+        "QUEUED"
+      ],
+      "order": [
+        18,
+        19
+      ],
+      "trunk": "9e89e98c71df5d763887ff827af7c12e11555345"
+    }
+  ],
+  "canonical_native_membership_retained": true,
+  "both_PRs_open_unmerged_original_heads_after_cleanup": true,
+  "one_lower_dequeue_emptied_both_entries": true,
+  "cleanup_mutations": [
+    {
+      "label": "cleanup-dequeue-18",
+      "start": "2026-11-09T01:23:01.440689+00:00",
+      "end": "2026-11-09T01:23:02.668000+00:00",
+      "request": {
+        "query": "mutation($id:ID!,$nonce:String!){dequeuePullRequest(input:{id:$id,clientMutationId:$nonce}){clientMutationId}}",
+        "variables": {
+          "id": "PR_kwDOVnmBMc8AAAABNvgiGQ",
+          "nonce": "selected-head-edit-1794187135707147000-18"
+        }
+      },
+      "response": {
+        "data": {
+          "dequeuePullRequest": {
+            "clientMutationId": "selected-head-edit-1794187135707147000-18"
+          }
+        }
+      }
+    }
+  ],
+  "fsck_exit": 0,
+  "post_rejection_entry_ids_equal_admitted_ids": true
+}

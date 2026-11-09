@@ -1,0 +1,88 @@
+{
+  "prefix-happy": {
+    "at": "2026-11-09T01:16:21.767467+00:00",
+    "queue": {
+      "id": "MQ_kwDOVnmBMc4ABVNo",
+      "url": "https://github.com/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/queue/exp/native/prefix-happy/trunk",
+      "entries": {
+        "nodes": [
+          {
+            "id": "MQE_lQDOVnmBMc8AAAABNvcNFs4ABVNozgPSfmo",
+            "position": 1,
+            "state": "QUEUED",
+            "enqueuedAt": "2026-11-09T01:11:13Z",
+            "headCommit": null,
+            "baseCommit": null,
+            "pullRequest": {
+              "id": "PR_kwDOVnmBMc8AAAABNvcNFg",
+              "number": 1,
+              "headRefOid": "0f849939f61af49a85adec364b0af8e457dc98ec"
+            }
+          },
+          {
+            "id": "MQE_lQDOVnmBMc8AAAABNvcN7s4ABVNozgPSfms",
+            "position": 2,
+            "state": "QUEUED",
+            "enqueuedAt": "2026-11-09T01:11:13Z",
+            "headCommit": null,
+            "baseCommit": null,
+            "pullRequest": {
+              "id": "PR_kwDOVnmBMc8AAAABNvcN7g",
+              "number": 2,
+              "headRefOid": "54a96f3828ef3bcc23ff863645f9c50750c16fd4"
+            }
+          }
+        ],
+        "pageInfo": {
+          "hasNextPage": false,
+          "endCursor": "Mg"
+        }
+      }
+    }
+  },
+  "fresh-enabled": {
+    "at": "2026-11-09T01:16:22.297938+00:00",
+    "queue": {
+      "id": "MQ_kwDOVnmBMc4ABVNw",
+      "url": "https://github.com/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/queue/exp/native/fresh-enabled/trunk",
+      "entries": {
+        "nodes": [
+          {
+            "id": "MQE_lQDOVnmBMc8AAAABNveRos4ABVNwzgPSgSo",
+            "position": 1,
+            "state": "AWAITING_CHECKS",
+            "enqueuedAt": "2026-11-09T01:15:18Z",
+            "headCommit": {
+              "oid": "f2e28370a7c8a293c8806dc24bcb3e2b4a40fc2d"
+            },
+            "baseCommit": {
+              "oid": "e7bc26061f584629d2044a800577de5f8756d537"
+            },
+            "pullRequest": {
+              "id": "PR_kwDOVnmBMc8AAAABNveRog",
+              "number": 11,
+              "headRefOid": "8130ef408cde2f68b3dabae65794fa533e4701e5"
+            }
+          },
+          {
+            "id": "MQE_lQDOVnmBMc8AAAABNveSb84ABVNwzgPSgS0",
+            "position": 2,
+            "state": "QUEUED",
+            "enqueuedAt": "2026-11-09T01:15:19Z",
+            "headCommit": null,
+            "baseCommit": null,
+            "pullRequest": {
+              "id": "PR_kwDOVnmBMc8AAAABNveSbw",
+              "number": 12,
+              "headRefOid": "483d647c76e8d74f54f738a54779f3296bbad5d0"
+            }
+          }
+        ],
+        "pageInfo": {
+          "hasNextPage": false,
+          "endCursor": "Mg"
+        }
+      }
+    }
+  }
+}

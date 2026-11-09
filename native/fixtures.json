@@ -1,0 +1,109 @@
+{
+  "prefix-happy": {
+    "name": "prefix-happy",
+    "prefix": "exp/native/prefix-happy",
+    "trunk": "exp/native/prefix-happy/trunk",
+    "trunk_sha": "2429464350b2940454fd021345d243ec2add8844",
+    "heads": {
+      "A": {
+        "ref": "exp/native/prefix-happy/A",
+        "sha": "0f849939f61af49a85adec364b0af8e457dc98ec"
+      },
+      "B": {
+        "ref": "exp/native/prefix-happy/B",
+        "sha": "54a96f3828ef3bcc23ff863645f9c50750c16fd4"
+      },
+      "C": {
+        "ref": "exp/native/prefix-happy/C",
+        "sha": "eaa9d6f9500a3e654c28787d487e7aa3c77f2491"
+      }
+    },
+    "prs": {
+      "A": 1,
+      "B": 2,
+      "C": 3
+    },
+    "created": "2026-11-09T01:10:54.406569+00:00",
+    "stack": 4,
+    "ruleset": 26821663
+  },
+  "fresh-enabled": {
+    "name": "fresh-enabled",
+    "prefix": "exp/native/fresh-enabled",
+    "trunk": "exp/native/fresh-enabled/trunk",
+    "trunk_sha": "e7bc26061f584629d2044a800577de5f8756d537",
+    "heads": {
+      "A": {
+        "ref": "exp/native/fresh-enabled/A",
+        "sha": "8130ef408cde2f68b3dabae65794fa533e4701e5"
+      },
+      "B": {
+        "ref": "exp/native/fresh-enabled/B",
+        "sha": "483d647c76e8d74f54f738a54779f3296bbad5d0"
+      },
+      "C": {
+        "ref": "exp/native/fresh-enabled/C",
+        "sha": "46b34c3a5c9f80ac0cf327b1fff6005bfdd99af4"
+      }
+    },
+    "prs": {
+      "A": 11,
+      "B": 12,
+      "C": 13
+    },
+    "created": "2026-11-09T01:14:58.511253+00:00",
+    "stack": 14,
+    "ruleset": 26821755
+  },
+  "late-group-failure": {
+    "name": "late-group-failure",
+    "prefix": "exp/native/late-group-failure",
+    "trunk": "exp/native/late-group-failure/trunk",
+    "trunk_sha": "77cf6da5ca6b0a46948c3ed0c64ce8486ca15d4e",
+    "heads": {
+      "A": {
+        "ref": "exp/native/late-group-failure/A",
+        "sha": "6271f4d74d65aa1058c1046e2fdfe6d189880370"
+      },
+      "B": {
+        "ref": "exp/native/late-group-failure/B",
+        "sha": "88698e19a9aa655e6478ea4c053111c3b3ec146d"
+      }
+    },
+    "prs": {
+      "A": 15,
+      "B": 16
+    },
+    "created": "2026-11-09T01:16:10.233829+00:00",
+    "stack": 17,
+    "ruleset": 26821780
+  },
+  "failed-upper-admission": {
+    "name": "failed-upper-admission",
+    "prefix": "exp/native/failed-upper-admission",
+    "trunk": "exp/native/failed-upper-admission/trunk",
+    "trunk_sha": "2d6cd0e78dc12837e530478399c8f6a78f50f6aa",
+    "heads": {
+      "A": {
+        "ref": "exp/native/failed-upper-admission/A",
+        "sha": "4dda5e3dd63c15aac66e5fbe77d02150c2c79bbd"
+      },
+      "B": {
+        "ref": "exp/native/failed-upper-admission/B",
+        "sha": "930a95811869cb7ca9c68fae67ffb462810a6516"
+      },
+      "C": {
+        "ref": "exp/native/failed-upper-admission/C",
+        "sha": "467ac1438f5ee04c7557e6ae20bd3a0aca746370"
+      }
+    },
+    "prs": {
+      "A": 21,
+      "B": 22,
+      "C": 23
+    },
+    "created": "2026-11-09T01:23:25.059848+00:00",
+    "stack": 24,
+    "ruleset": 26821903
+  }
+}

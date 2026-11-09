@@ -1,0 +1,9 @@
+{
+  "sha": "6271f4d74d65aa1058c1046e2fdfe6d189880370",
+  "tree": "8e36878fcfd65b0d7ceab8e60894038c0f280af8",
+  "parent": "77cf6da5ca6b0a46948c3ed0c64ce8486ca15d4e",
+  "files": {
+    "late-group-failure/A.txt": "A=1\n"
+  },
+  "message": "Record synthetic late-group-failure-A\n\nAgent-authored-by: AI agent acting on joshlf's behalf\n"
+}

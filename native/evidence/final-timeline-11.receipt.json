@@ -1,0 +1,71 @@
+{
+  "method": "POST",
+  "path": "graphql",
+  "payload": {
+    "query": "query($owner:String!,$repo:String!,$n:Int!){repository(owner:$owner,name:$repo){pullRequest(number:$n){id number state merged headRefOid baseRefName mergeQueueEntry{id state} timelineItems(last:40){nodes{__typename ...on RemovedFromMergeQueueEvent{createdAt reason beforeCommit{oid} actor{login} enqueuer{login}} ...on MergedEvent{createdAt commit{oid}} ...on HeadRefForcePushedEvent{createdAt beforeCommit{oid} afterCommit{oid}}}}}}}",
+    "variables": {
+      "owner": "intro-to-security",
+      "repo": "gherrit-stack-queue-public-experiments-2026-11-08",
+      "n": 11
+    }
+  },
+  "label": "final-timeline-11",
+  "start": "2026-11-09T01:25:36.020231+00:00",
+  "monotonic_start": 1.043510833,
+  "end": "2026-11-09T01:25:36.536931+00:00",
+  "monotonic_end": 1.560216583,
+  "exit": 0,
+  "http": 200,
+  "data": {
+    "data": {
+      "repository": {
+        "pullRequest": {
+          "id": "PR_kwDOVnmBMc8AAAABNveRog",
+          "number": 11,
+          "state": "MERGED",
+          "merged": true,
+          "headRefOid": "8130ef408cde2f68b3dabae65794fa533e4701e5",
+          "baseRefName": "exp/native/fresh-enabled/trunk",
+          "mergeQueueEntry": null,
+          "timelineItems": {
+            "nodes": [
+              {
+                "__typename": "PullRequestCommit"
+              },
+              {
+                "__typename": "AddedToStackEvent"
+              },
+              {
+                "__typename": "AddedToMergeQueueEvent"
+              },
+              {
+                "__typename": "RemovedFromMergeQueueEvent",
+                "createdAt": "2026-11-09T01:18:12Z",
+                "reason": "merged",
+                "beforeCommit": {
+                  "oid": "f2e28370a7c8a293c8806dc24bcb3e2b4a40fc2d"
+                },
+                "actor": {
+                  "login": "github-merge-queue"
+                },
+                "enqueuer": {
+                  "login": "github-merge-queue[bot]"
+                }
+              },
+              {
+                "__typename": "MergedEvent",
+                "createdAt": "2026-11-09T01:18:14Z",
+                "commit": {
+                  "oid": "f2e28370a7c8a293c8806dc24bcb3e2b4a40fc2d"
+                }
+              },
+              {
+                "__typename": "ClosedEvent"
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "method": "POST",
+  "path": "graphql",
+  "payload": {
+    "query": "query($owner:String!,$repo:String!,$n:Int!){repository(owner:$owner,name:$repo){pullRequest(number:$n){id number state merged headRefOid baseRefName mergeQueueEntry{id state} timelineItems(last:40){nodes{__typename ...on RemovedFromMergeQueueEvent{createdAt reason beforeCommit{oid} actor{login} enqueuer{login}} ...on MergedEvent{createdAt commit{oid}} ...on HeadRefForcePushedEvent{createdAt beforeCommit{oid} afterCommit{oid}}}}}}}",
+    "variables": {
+      "owner": "intro-to-security",
+      "repo": "gherrit-stack-queue-public-experiments-2026-11-08",
+      "n": 15
+    }
+  },
+  "label": "final-timeline-15",
+  "start": "2026-11-09T01:25:37.247530+00:00",
+  "monotonic_start": 2.270800666,
+  "end": "2026-11-09T01:25:37.684191+00:00",
+  "monotonic_end": 2.707490416,
+  "exit": 0,
+  "http": 200,
+  "data": {
+    "data": {
+      "repository": {
+        "pullRequest": {
+          "id": "PR_kwDOVnmBMc8AAAABNve9hQ",
+          "number": 15,
+          "state": "MERGED",
+          "merged": true,
+          "headRefOid": "6271f4d74d65aa1058c1046e2fdfe6d189880370",
+          "baseRefName": "exp/native/late-group-failure/trunk",
+          "mergeQueueEntry": null,
+          "timelineItems": {
+            "nodes": [
+              {
+                "__typename": "PullRequestCommit"
+              },
+              {
+                "__typename": "AddedToStackEvent"
+              },
+              {
+                "__typename": "AddedToMergeQueueEvent"
+              },
+              {
+                "__typename": "RemovedFromMergeQueueEvent",
+                "createdAt": "2026-11-09T01:18:47Z",
+                "reason": "merged",
+                "beforeCommit": {
+                  "oid": "96442fabd4556f626f2cb80bb3ee4dacb274afc7"
+                },
+                "actor": {
+                  "login": "github-merge-queue"
+                },
+                "enqueuer": {
+                  "login": "github-merge-queue[bot]"
+                }
+              },
+              {
+                "__typename": "MergedEvent",
+                "createdAt": "2026-11-09T01:18:48Z",
+                "commit": {
+                  "oid": "96442fabd4556f626f2cb80bb3ee4dacb274afc7"
+                }
+              },
+              {
+                "__typename": "ClosedEvent"
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

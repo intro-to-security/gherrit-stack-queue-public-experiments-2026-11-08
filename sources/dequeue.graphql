@@ -1,0 +1,6 @@
+mutation Dequeue($id: ID!, $receipt: String!) {
+  dequeuePullRequest(input: { id: $id, clientMutationId: $receipt }) {
+    clientMutationId
+    mergeQueueEntry { id position state pullRequest { id number } }
+  }
+}

@@ -1,0 +1,187 @@
+{
+  "status": "passed",
+  "one_fixture": true,
+  "one_enqueue_receipt": true,
+  "sequence_verified": "enqueue end <= immediate dequeue start < dequeue end <= first original poll start",
+  "client_gap_seconds": 0.0004463750000001099,
+  "cohorts": [
+    {
+      "start": "2026-11-09T01:33:01.592838+00:00",
+      "end": "2026-11-09T01:33:03.831940+00:00",
+      "entries": [
+        {
+          "id": "MQE_lQDOVnmBMc8AAAABNvmgU84ABVN8zgPSjd4",
+          "position": 1,
+          "state": "QUEUED",
+          "enqueuedAt": "2026-11-09T01:32:59Z",
+          "headCommit": null,
+          "baseCommit": null,
+          "pullRequest": {
+            "id": "PR_kwDOVnmBMc8AAAABNvmgUw",
+            "number": 34,
+            "headRefOid": "efe0e3c58d419d0c3fb7496439dcad0e7d46cc33"
+          }
+        },
+        {
+          "id": "MQE_lQDOVnmBMc8AAAABNvmg3M4ABVN8zgPSjeA",
+          "position": 2,
+          "state": "QUEUED",
+          "enqueuedAt": "2026-11-09T01:33:00Z",
+          "headCommit": null,
+          "baseCommit": null,
+          "pullRequest": {
+            "id": "PR_kwDOVnmBMc8AAAABNvmg3A",
+            "number": 35,
+            "headRefOid": "7f07d3d2856d52906115d0faad892455e1079cbc"
+          }
+        }
+      ],
+      "trunk": "c487b874ed00f449b3be715d1fffcb9bc384bdd6"
+    },
+    {
+      "start": "2026-11-09T01:33:06.837858+00:00",
+      "end": "2026-11-09T01:33:09.329814+00:00",
+      "entries": [
+        {
+          "id": "MQE_lQDOVnmBMc8AAAABNvmgU84ABVN8zgPSjd4",
+          "position": 1,
+          "state": "QUEUED",
+          "enqueuedAt": "2026-11-09T01:32:59Z",
+          "headCommit": null,
+          "baseCommit": null,
+          "pullRequest": {
+            "id": "PR_kwDOVnmBMc8AAAABNvmgUw",
+            "number": 34,
+            "headRefOid": "efe0e3c58d419d0c3fb7496439dcad0e7d46cc33"
+          }
+        },
+        {
+          "id": "MQE_lQDOVnmBMc8AAAABNvmg3M4ABVN8zgPSjeA",
+          "position": 2,
+          "state": "QUEUED",
+          "enqueuedAt": "2026-11-09T01:33:00Z",
+          "headCommit": null,
+          "baseCommit": null,
+          "pullRequest": {
+            "id": "PR_kwDOVnmBMc8AAAABNvmg3A",
+            "number": 35,
+            "headRefOid": "7f07d3d2856d52906115d0faad892455e1079cbc"
+          }
+        }
+      ],
+      "trunk": "c487b874ed00f449b3be715d1fffcb9bc384bdd6"
+    },
+    {
+      "start": "2026-11-09T01:33:12.342324+00:00",
+      "end": "2026-11-09T01:33:14.546657+00:00",
+      "entries": [
+        {
+          "id": "MQE_lQDOVnmBMc8AAAABNvmgU84ABVN8zgPSjd4",
+          "position": 1,
+          "state": "QUEUED",
+          "enqueuedAt": "2026-11-09T01:32:59Z",
+          "headCommit": null,
+          "baseCommit": null,
+          "pullRequest": {
+            "id": "PR_kwDOVnmBMc8AAAABNvmgUw",
+            "number": 34,
+            "headRefOid": "efe0e3c58d419d0c3fb7496439dcad0e7d46cc33"
+          }
+        },
+        {
+          "id": "MQE_lQDOVnmBMc8AAAABNvmg3M4ABVN8zgPSjeA",
+          "position": 2,
+          "state": "QUEUED",
+          "enqueuedAt": "2026-11-09T01:33:00Z",
+          "headCommit": null,
+          "baseCommit": null,
+          "pullRequest": {
+            "id": "PR_kwDOVnmBMc8AAAABNvmg3A",
+            "number": 35,
+            "headRefOid": "7f07d3d2856d52906115d0faad892455e1079cbc"
+          }
+        }
+      ],
+      "trunk": "c487b874ed00f449b3be715d1fffcb9bc384bdd6"
+    },
+    {
+      "start": "2026-11-09T01:33:17.564732+00:00",
+      "end": "2026-11-09T01:33:19.805502+00:00",
+      "entries": [
+        {
+          "id": "MQE_lQDOVnmBMc8AAAABNvmgU84ABVN8zgPSjd4",
+          "position": 1,
+          "state": "QUEUED",
+          "enqueuedAt": "2026-11-09T01:32:59Z",
+          "headCommit": null,
+          "baseCommit": null,
+          "pullRequest": {
+            "id": "PR_kwDOVnmBMc8AAAABNvmgUw",
+            "number": 34,
+            "headRefOid": "efe0e3c58d419d0c3fb7496439dcad0e7d46cc33"
+          }
+        },
+        {
+          "id": "MQE_lQDOVnmBMc8AAAABNvmg3M4ABVN8zgPSjeA",
+          "position": 2,
+          "state": "QUEUED",
+          "enqueuedAt": "2026-11-09T01:33:00Z",
+          "headCommit": null,
+          "baseCommit": null,
+          "pullRequest": {
+            "id": "PR_kwDOVnmBMc8AAAABNvmg3A",
+            "number": 35,
+            "headRefOid": "7f07d3d2856d52906115d0faad892455e1079cbc"
+          }
+        }
+      ],
+      "trunk": "c487b874ed00f449b3be715d1fffcb9bc384bdd6"
+    }
+  ],
+  "cleanup": {
+    "method": "POST",
+    "path": "graphql",
+    "payload": {
+      "query": "mutation($id:ID!,$nonce:String!){dequeuePullRequest(input:{id:$id,clientMutationId:$nonce}){clientMutationId}}",
+      "variables": {
+        "id": "PR_kwDOVnmBMc8AAAABNvmgUw",
+        "nonce": "pending-admission-dequeue-1794187935360476000-34"
+      }
+    },
+    "label": "cleanup-dequeue-34",
+    "start": "2026-11-09T01:33:20.558241+00:00",
+    "monotonic_start": 24.493471708,
+    "end": "2026-11-09T01:33:22.293655+00:00",
+    "monotonic_end": 26.228884125,
+    "exit": 0,
+    "http": 200,
+    "data": {
+      "data": {
+        "dequeuePullRequest": {
+          "clientMutationId": "pending-admission-dequeue-1794187935360476000-34"
+        }
+      }
+    }
+  },
+  "final_queue_empty": true,
+  "final_refs_unchanged": true,
+  "native_membership_retained": true,
+  "local_input_identity_and_trailers": {
+    "trunk": {
+      "sha": "c487b874ed00f449b3be715d1fffcb9bc384bdd6",
+      "header": "tree 4823fd121fac03ec9b8146257e6b0a2682cc33cc\nparent 3a9df32f515072950fac44b3f0bb9ab2b549170e\nauthor Josh Liebow-Feeser <hello@joshlf.com> 1794187935 -0500\ncommitter Josh Liebow-Feeser <hello@joshlf.com> 1794187935 -0500",
+      "message": "Record synthetic pending-admission-dequeue-1794187935360476000-trunk\n\nAgent-authored-by: AI agent acting on joshlf's behalf"
+    },
+    "A": {
+      "sha": "efe0e3c58d419d0c3fb7496439dcad0e7d46cc33",
+      "header": "tree 4006a1e44c169b15e005ada31768c0ab42851ff1\nparent c487b874ed00f449b3be715d1fffcb9bc384bdd6\nauthor Josh Liebow-Feeser <hello@joshlf.com> 1794187935 -0500\ncommitter Josh Liebow-Feeser <hello@joshlf.com> 1794187935 -0500",
+      "message": "Record synthetic pending-admission-dequeue-1794187935360476000-A\n\nAgent-authored-by: AI agent acting on joshlf's behalf"
+    },
+    "B": {
+      "sha": "7f07d3d2856d52906115d0faad892455e1079cbc",
+      "header": "tree 300f7807bb77412774641f6d2206b919505565bf\nparent efe0e3c58d419d0c3fb7496439dcad0e7d46cc33\nauthor Josh Liebow-Feeser <hello@joshlf.com> 1794187935 -0500\ncommitter Josh Liebow-Feeser <hello@joshlf.com> 1794187935 -0500",
+      "message": "Record synthetic pending-admission-dequeue-1794187935360476000-B\n\nAgent-authored-by: AI agent acting on joshlf's behalf"
+    }
+  },
+  "fsck_exit": 0
+}

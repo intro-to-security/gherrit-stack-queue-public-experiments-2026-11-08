@@ -1,0 +1,34 @@
+{
+  "all_checks_passed": true,
+  "prs": {
+    "A": 7,
+    "B": 8,
+    "C": 9
+  },
+  "stack_before": 10,
+  "ruleset_id": 26821752,
+  "native_selected_prefix_queue_order_observed": [
+    7,
+    8
+  ],
+  "unqueued_suffix_released_by_unstack": 9,
+  "queued_members_retained_by_first_unstack": true,
+  "queue_entry_ids_preserved_by_first_unstack": true,
+  "dequeue_lower_removed_selected_and_dependent_upper": true,
+  "old_uuid_after_dequeue": "enqueued",
+  "second_unstack_http": 204,
+  "final_group_get_http": 404,
+  "owned_refs_and_pr_bases_unchanged": true,
+  "all_prs_open_unmerged_unstacked_unqueued": true,
+  "queue_group_sha": "619ca82c4f51c60a9bd90ee410650a6b181a0778",
+  "queue_group_has_exact_lower_patch_tree": true,
+  "actual_merge_group_event_and_successful_workflow_captured": true,
+  "release_context_never_posted_to_group": true,
+  "group_locally_retained_at": "refs/experiment-inputs/queued-members-group-0",
+  "unresolved_api_intents": [],
+  "limitations": [
+    "Queued removal was tested after terminal admission, not cancellation of a still-pending background enqueue.",
+    "Only one small held native prefix; no universal provider handoff or no-delayed-write guarantee.",
+    "No group release or landing was attempted by this lane."
+  ]
+}

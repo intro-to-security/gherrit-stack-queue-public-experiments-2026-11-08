@@ -1,0 +1,9 @@
+{
+  "sha": "8130ef408cde2f68b3dabae65794fa533e4701e5",
+  "tree": "ef33a1d70ede2e24b5303d82419c56859dd66592",
+  "parent": "e7bc26061f584629d2044a800577de5f8756d537",
+  "files": {
+    "fresh-enabled/A.txt": "A=1\n"
+  },
+  "message": "Record synthetic fresh-enabled-A\n\nAgent-authored-by: AI agent acting on joshlf's behalf\n"
+}

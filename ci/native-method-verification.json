@@ -1,0 +1,79 @@
+{
+  "scope": "Artifact fidelity and recorded outcomes only; not provider settlement or universal behavior",
+  "native_method_cases": [
+    {
+      "method": "SQUASH",
+      "groups": [
+        {
+          "member": "A",
+          "run_id": 42545538666,
+          "group_sha": "f2ed13bbdd7839e5e83e1ac131cff4ddd542d32d",
+          "source_and_candidate_tree": "51f300c61becb218c89757aa9902b9be9afe2847",
+          "check_ids": [
+            128929605521
+          ]
+        }
+      ],
+      "B_patch_sha256": "d9a28725ae2bdc201308cdbb49ce053db0d0311517b6dd26b0a5e218defb2bff",
+      "A_merged": true,
+      "B_merged": false,
+      "all_queue_entries_null": true,
+      "status_writes_observed": false
+    },
+    {
+      "method": "MERGE",
+      "groups": [
+        {
+          "member": "B",
+          "run_id": 42546199671,
+          "group_sha": "02444078e1e831ce079965c858d146303df4c407",
+          "source_and_candidate_tree": "88692cc9bd6e0686a964767bd03a94107a8a6194",
+          "check_ids": [
+            128931638177
+          ]
+        },
+        {
+          "member": "A",
+          "run_id": 42546148963,
+          "group_sha": "085c7014c13f3dff3fe9526499915a387778bbe9",
+          "source_and_candidate_tree": "862bfe524f91558d0898461f3d58920a95b96374",
+          "check_ids": [
+            128931489295
+          ]
+        }
+      ],
+      "B_patch_sha256": "3f73ae2ef505321515666899d50f5cd68b886b69c77f2fa75e8c00f12862e53e",
+      "A_merged": true,
+      "B_merged": true,
+      "all_queue_entries_null": true,
+      "status_writes_observed": false
+    },
+    {
+      "method": "REBASE",
+      "groups": [
+        {
+          "member": "A",
+          "run_id": 42546156039,
+          "group_sha": "36ea8be012efdf8019d08fa7822a3ae4b4721d81",
+          "source_and_candidate_tree": "da7aef3c9eef8610d0009905a65e1bab43fc2b46",
+          "check_ids": [
+            128931510604
+          ]
+        }
+      ],
+      "B_patch_sha256": "f154249c98fd306a299af6c9c7c45ba6771f09ea04658d16d4c7af6595011e1c",
+      "A_merged": true,
+      "B_merged": false,
+      "all_queue_entries_null": true,
+      "status_writes_observed": false
+    }
+  ],
+  "final_collection": "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-2026-11-08/public-org-queue-2026-11-08/merge-group-artifacts/final-20261109T013759860540Z/summary.json",
+  "collection_started": "2026-11-09T01:37:59.860807+00:00",
+  "collection_finished": "2026-11-09T01:38:43.868790+00:00",
+  "completed_group_runs": 10,
+  "group_conclusions": {
+    "success": 9,
+    "failure": 1
+  }
+}

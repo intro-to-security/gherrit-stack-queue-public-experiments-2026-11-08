@@ -1,0 +1,9 @@
+{
+  "sha": "46b34c3a5c9f80ac0cf327b1fff6005bfdd99af4",
+  "tree": "d4fc4b1b9bd06446f4aca96f16a98ec371ccccc7",
+  "parent": "483d647c76e8d74f54f738a54779f3296bbad5d0",
+  "files": {
+    "fresh-enabled/C.txt": "C=1\n"
+  },
+  "message": "Record synthetic fresh-enabled-C\n\nAgent-authored-by: AI agent acting on joshlf's behalf\n"
+}

@@ -1,0 +1,72 @@
+{
+  "method": "POST",
+  "path": "graphql",
+  "payload": {
+    "query": "query($owner:String!,$repo:String!,$n:Int!){repository(owner:$owner,name:$repo){pullRequest(number:$n){id number state merged headRefOid baseRefName mergeQueueEntry{id state} timelineItems(last:40){nodes{__typename ...on RemovedFromMergeQueueEvent{createdAt reason beforeCommit{oid} actor{login} enqueuer{login}} ...on MergedEvent{createdAt commit{oid}} ...on HeadRefForcePushedEvent{createdAt beforeCommit{oid} afterCommit{oid}}}}}}}",
+    "variables": {
+      "owner": "intro-to-security",
+      "repo": "gherrit-stack-queue-public-experiments-2026-11-08",
+      "n": 2
+    }
+  },
+  "label": "final-timeline-2",
+  "start": "2026-11-09T01:25:35.554796+00:00",
+  "monotonic_start": 0.578073458,
+  "end": "2026-11-09T01:25:36.018874+00:00",
+  "monotonic_end": 1.042183,
+  "exit": 0,
+  "http": 200,
+  "data": {
+    "data": {
+      "repository": {
+        "pullRequest": {
+          "id": "PR_kwDOVnmBMc8AAAABNvcN7g",
+          "number": 2,
+          "state": "OPEN",
+          "merged": false,
+          "headRefOid": "36e68aa8e2c415157ac721f28cf5f68714c7cc04",
+          "baseRefName": "exp/native/prefix-happy/trunk",
+          "mergeQueueEntry": null,
+          "timelineItems": {
+            "nodes": [
+              {
+                "__typename": "AddedToStackEvent"
+              },
+              {
+                "__typename": "AddedToMergeQueueEvent"
+              },
+              {
+                "__typename": "RemovedFromMergeQueueEvent",
+                "createdAt": "2026-11-09T01:21:49Z",
+                "reason": "invalid_merge_commit",
+                "beforeCommit": null,
+                "actor": {
+                  "login": "github-merge-queue"
+                },
+                "enqueuer": {
+                  "login": "github-merge-queue[bot]"
+                }
+              },
+              {
+                "__typename": "AutomaticBaseChangeSucceededEvent"
+              },
+              {
+                "__typename": "PullRequestCommit"
+              },
+              {
+                "__typename": "HeadRefForcePushedEvent",
+                "createdAt": "2026-11-09T01:21:54Z",
+                "beforeCommit": {
+                  "oid": "54a96f3828ef3bcc23ff863645f9c50750c16fd4"
+                },
+                "afterCommit": {
+                  "oid": "36e68aa8e2c415157ac721f28cf5f68714c7cc04"
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

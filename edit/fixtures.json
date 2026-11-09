@@ -1,0 +1,24 @@
+{
+  "selected-head-edit-1794187135707147000": {
+    "name": "selected-head-edit-1794187135707147000",
+    "prefix": "exp/edit/selected-head-edit-1794187135707147000",
+    "trunk": "exp/edit/selected-head-edit-1794187135707147000/trunk",
+    "trunk_sha": "9e89e98c71df5d763887ff827af7c12e11555345",
+    "heads": {
+      "A": {
+        "ref": "exp/edit/selected-head-edit-1794187135707147000/A",
+        "sha": "421ebcc5668832bb51751412ba17a18a9e0d1ea1"
+      },
+      "B": {
+        "ref": "exp/edit/selected-head-edit-1794187135707147000/B",
+        "sha": "00d3461ec9cc92155ae2ff0a8f1327e982da48ad"
+      }
+    },
+    "prs": {
+      "A": 18,
+      "B": 19
+    },
+    "created": "2026-11-09T01:18:57.457790+00:00",
+    "stack": 20
+  }
+}

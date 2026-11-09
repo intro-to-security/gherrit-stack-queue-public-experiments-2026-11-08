@@ -1,0 +1,150 @@
+{
+  "case": {
+    "name": "fresh-enabled",
+    "prefix": "exp/native/fresh-enabled",
+    "trunk": "exp/native/fresh-enabled/trunk",
+    "trunk_sha": "e7bc26061f584629d2044a800577de5f8756d537",
+    "heads": {
+      "A": {
+        "ref": "exp/native/fresh-enabled/A",
+        "sha": "8130ef408cde2f68b3dabae65794fa533e4701e5"
+      },
+      "B": {
+        "ref": "exp/native/fresh-enabled/B",
+        "sha": "483d647c76e8d74f54f738a54779f3296bbad5d0"
+      },
+      "C": {
+        "ref": "exp/native/fresh-enabled/C",
+        "sha": "46b34c3a5c9f80ac0cf327b1fff6005bfdd99af4"
+      }
+    },
+    "prs": {
+      "A": 11,
+      "B": 12,
+      "C": 13
+    },
+    "created": "2026-11-09T01:14:58.511253+00:00",
+    "stack": 14,
+    "ruleset": 26821755
+  },
+  "current_head": "21aa39443622f3f7295764adc7f9a8945d0eea6e",
+  "request": {
+    "method": "PUT",
+    "path": "repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/pulls/12/merge-async",
+    "payload": {
+      "merge_action": "merge_queue",
+      "sha": "21aa39443622f3f7295764adc7f9a8945d0eea6e"
+    },
+    "label": "fresh-enabled-explicit-requeue",
+    "start": "2026-11-09T01:20:04.775546+00:00",
+    "monotonic_start": 3.495593875,
+    "end": "2026-11-09T01:20:05.175049+00:00",
+    "monotonic_end": 3.895099833,
+    "exit": 0,
+    "http": 202,
+    "data": {
+      "status": "pending",
+      "details": {
+        "message": "Merge request enqueued.",
+        "uuid": "6447986c-0787-478a-af03-de48eaadbf32",
+        "merge_method": "default",
+        "merge_action": "merge_queue",
+        "expected_head_sha": "21aa39443622f3f7295764adc7f9a8945d0eea6e",
+        "bypass_rules": false
+      }
+    }
+  },
+  "polls": [
+    {
+      "method": "GET",
+      "path": "repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/pulls/12/merge-async/6447986c-0787-478a-af03-de48eaadbf32",
+      "payload": null,
+      "label": "fresh-enabled-requeue-poll-0",
+      "start": "2026-11-09T01:20:05.175717+00:00",
+      "monotonic_start": 3.895759916,
+      "end": "2026-11-09T01:20:05.440593+00:00",
+      "monotonic_end": 4.160640791,
+      "exit": 0,
+      "http": 200,
+      "data": {
+        "status": "pending",
+        "details": {
+          "message": "Merge request is in progress.",
+          "uuid": "6447986c-0787-478a-af03-de48eaadbf32",
+          "merge_method": "default",
+          "merge_action": "merge_queue",
+          "expected_head_sha": "21aa39443622f3f7295764adc7f9a8945d0eea6e",
+          "bypass_rules": false
+        }
+      }
+    },
+    {
+      "method": "GET",
+      "path": "repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/pulls/12/merge-async/6447986c-0787-478a-af03-de48eaadbf32",
+      "payload": null,
+      "label": "fresh-enabled-requeue-poll-1",
+      "start": "2026-11-09T01:20:06.446426+00:00",
+      "monotonic_start": 5.166480291,
+      "end": "2026-11-09T01:20:06.796597+00:00",
+      "monotonic_end": 5.516651208,
+      "exit": 0,
+      "http": 200,
+      "data": {
+        "status": "pending",
+        "details": {
+          "message": "Merge request is in progress.",
+          "uuid": "6447986c-0787-478a-af03-de48eaadbf32",
+          "merge_method": "default",
+          "merge_action": "merge_queue",
+          "expected_head_sha": "21aa39443622f3f7295764adc7f9a8945d0eea6e",
+          "bypass_rules": false
+        }
+      }
+    },
+    {
+      "method": "GET",
+      "path": "repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/pulls/12/merge-async/6447986c-0787-478a-af03-de48eaadbf32",
+      "payload": null,
+      "label": "fresh-enabled-requeue-poll-2",
+      "start": "2026-11-09T01:20:07.803054+00:00",
+      "monotonic_start": 6.523108958,
+      "end": "2026-11-09T01:20:08.076775+00:00",
+      "monotonic_end": 6.796804791,
+      "exit": 0,
+      "http": 200,
+      "data": {
+        "status": "enqueued",
+        "details": {
+          "message": "Pull request was added to the merge queue."
+        }
+      }
+    }
+  ],
+  "queue": {
+    "id": "MQ_kwDOVnmBMc4ABVNw",
+    "url": "https://github.com/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/queue/exp/native/fresh-enabled/trunk",
+    "entries": {
+      "nodes": [
+        {
+          "id": "MQE_lQDOVnmBMc8AAAABNveSb84ABVNwzgPShHU",
+          "position": 1,
+          "state": "QUEUED",
+          "enqueuedAt": "2026-11-09T01:20:06Z",
+          "headCommit": null,
+          "baseCommit": null,
+          "pullRequest": {
+            "id": "PR_kwDOVnmBMc8AAAABNveSbw",
+            "number": 12,
+            "headRefOid": "21aa39443622f3f7295764adc7f9a8945d0eea6e"
+          }
+        }
+      ],
+      "pageInfo": {
+        "hasNextPage": false,
+        "endCursor": "MQ"
+      }
+    }
+  },
+  "scope": "New explicit operation after observed ejection; no branch publication or new authored archive",
+  "at": "2026-11-09T01:20:08.460202+00:00"
+}

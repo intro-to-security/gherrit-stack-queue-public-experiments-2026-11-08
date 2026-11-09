@@ -1,0 +1,43 @@
+{
+  "id": 26821551,
+  "name": "public-queue-capability-2026-11-08",
+  "target": "branch",
+  "source_type": "Repository",
+  "source": "intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08",
+  "enforcement": "active",
+  "conditions": {
+    "ref_name": {
+      "exclude": [],
+      "include": [
+        "refs/heads/exp/queue/capability/trunk"
+      ]
+    }
+  },
+  "rules": [
+    {
+      "type": "merge_queue",
+      "parameters": {
+        "merge_method": "SQUASH",
+        "max_entries_to_build": 1,
+        "min_entries_to_merge": 1,
+        "max_entries_to_merge": 5,
+        "min_entries_to_merge_wait_minutes": 1,
+        "grouping_strategy": "ALLGREEN",
+        "check_response_timeout_minutes": 5
+      }
+    }
+  ],
+  "node_id": "RRS_lACqUmVwb3NpdG9yec5WeYExzgGZQ68",
+  "created_at": "2026-11-08T20:06:49.631-05:00",
+  "updated_at": "2026-11-08T20:06:49.668-05:00",
+  "bypass_actors": [],
+  "current_user_can_bypass": "never",
+  "_links": {
+    "self": {
+      "href": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/rulesets/26821551"
+    },
+    "html": {
+      "href": "https://github.com/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/rules/26821551"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "start": "2026-11-09T01:10:52.884626+00:00",
+  "updates": {
+    "refs/heads/exp/native/prefix-happy/trunk": "2429464350b2940454fd021345d243ec2add8844",
+    "refs/heads/exp/native/prefix-happy/A": "0f849939f61af49a85adec364b0af8e457dc98ec",
+    "refs/tags/exp/native/prefix-happy/authored/A/v1": "0f849939f61af49a85adec364b0af8e457dc98ec",
+    "refs/heads/exp/native/prefix-happy/B": "54a96f3828ef3bcc23ff863645f9c50750c16fd4",
+    "refs/tags/exp/native/prefix-happy/authored/B/v1": "54a96f3828ef3bcc23ff863645f9c50750c16fd4",
+    "refs/heads/exp/native/prefix-happy/C": "eaa9d6f9500a3e654c28787d487e7aa3c77f2491",
+    "refs/tags/exp/native/prefix-happy/authored/C/v1": "eaa9d6f9500a3e654c28787d487e7aa3c77f2491"
+  },
+  "expected": {},
+  "args": [
+    "push",
+    "--atomic",
+    "--force-with-lease=refs/heads/exp/native/prefix-happy/trunk:",
+    "--force-with-lease=refs/heads/exp/native/prefix-happy/A:",
+    "--force-with-lease=refs/tags/exp/native/prefix-happy/authored/A/v1:",
+    "--force-with-lease=refs/heads/exp/native/prefix-happy/B:",
+    "--force-with-lease=refs/tags/exp/native/prefix-happy/authored/B/v1:",
+    "--force-with-lease=refs/heads/exp/native/prefix-happy/C:",
+    "--force-with-lease=refs/tags/exp/native/prefix-happy/authored/C/v1:",
+    "origin",
+    "2429464350b2940454fd021345d243ec2add8844:refs/heads/exp/native/prefix-happy/trunk",
+    "0f849939f61af49a85adec364b0af8e457dc98ec:refs/heads/exp/native/prefix-happy/A",
+    "0f849939f61af49a85adec364b0af8e457dc98ec:refs/tags/exp/native/prefix-happy/authored/A/v1",
+    "54a96f3828ef3bcc23ff863645f9c50750c16fd4:refs/heads/exp/native/prefix-happy/B",
+    "54a96f3828ef3bcc23ff863645f9c50750c16fd4:refs/tags/exp/native/prefix-happy/authored/B/v1",
+    "eaa9d6f9500a3e654c28787d487e7aa3c77f2491:refs/heads/exp/native/prefix-happy/C",
+    "eaa9d6f9500a3e654c28787d487e7aa3c77f2491:refs/tags/exp/native/prefix-happy/authored/C/v1"
+  ],
+  "end": "2026-11-09T01:10:54.404761+00:00",
+  "exit": 0,
+  "stdout": "",
+  "stderr": "To https://github.com/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08.git\n * [new branch]      2429464350b2940454fd021345d243ec2add8844 -> exp/native/prefix-happy/trunk\n * [new branch]      0f849939f61af49a85adec364b0af8e457dc98ec -> exp/native/prefix-happy/A\n * [new tag]         0f849939f61af49a85adec364b0af8e457dc98ec -> exp/native/prefix-happy/authored/A/v1\n * [new branch]      54a96f3828ef3bcc23ff863645f9c50750c16fd4 -> exp/native/prefix-happy/B\n * [new tag]         54a96f3828ef3bcc23ff863645f9c50750c16fd4 -> exp/native/prefix-happy/authored/B/v1\n * [new branch]      eaa9d6f9500a3e654c28787d487e7aa3c77f2491 -> exp/native/prefix-happy/C\n * [new tag]         eaa9d6f9500a3e654c28787d487e7aa3c77f2491 -> exp/native/prefix-happy/authored/C/v1\n"
+}

@@ -1,0 +1,29 @@
+{
+  "queued-members": {
+    "name": "queued-members",
+    "prefix": "exp/locks/queued-members",
+    "trunk": "exp/locks/queued-members/trunk",
+    "trunk_sha": "5c67ceea8a77f20b71b7a5cf762bc5bcda910f55",
+    "heads": {
+      "A": {
+        "ref": "exp/locks/queued-members/A",
+        "sha": "91df75452264aace94c7ba57141128adf924931d"
+      },
+      "B": {
+        "ref": "exp/locks/queued-members/B",
+        "sha": "61d19779766cde979b3aca68f448ebc071de7b08"
+      },
+      "C": {
+        "ref": "exp/locks/queued-members/C",
+        "sha": "9b501173f0aa7f2f9d1396a8814a4dfb6fc7b55a"
+      }
+    },
+    "prs": {
+      "A": 7,
+      "B": 8,
+      "C": 9
+    },
+    "created": "2026-11-09T01:14:53.544690+00:00",
+    "stack": 10
+  }
+}

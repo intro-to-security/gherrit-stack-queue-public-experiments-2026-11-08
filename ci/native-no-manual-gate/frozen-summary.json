@@ -1,0 +1,814 @@
+{
+  "started": "2026-11-09T01:40:40.332117+00:00",
+  "finished": "2026-11-09T01:40:46.480207+00:00",
+  "method": "SQUASH",
+  "case": {
+    "name": "native-no-manual-gate",
+    "prefix": "exp/ci/native-no-manual-gate",
+    "trunk": "exp/ci/native-no-manual-gate/trunk",
+    "trunk_sha": "6d9310de15493dc854f50b39698d314df124a588",
+    "heads": {
+      "A": {
+        "ref": "exp/ci/native-no-manual-gate/A",
+        "sha": "5544bb24c32f27b1f4efc704365d27ad37336a12"
+      },
+      "B": {
+        "ref": "exp/ci/native-no-manual-gate/B",
+        "sha": "e0bba642dfb010d659204b842391f2671c533e9b"
+      }
+    },
+    "prs": {
+      "A": 25,
+      "B": 26
+    },
+    "created": "2026-11-09T01:25:18.821668+00:00",
+    "stack": 27
+  },
+  "effective_rules": [
+    {
+      "type": "merge_queue",
+      "parameters": {
+        "merge_method": "SQUASH",
+        "max_entries_to_build": 1,
+        "min_entries_to_merge": 1,
+        "max_entries_to_merge": 5,
+        "min_entries_to_merge_wait_minutes": 1,
+        "grouping_strategy": "ALLGREEN",
+        "check_response_timeout_minutes": 5
+      },
+      "ruleset_source_type": "Repository",
+      "ruleset_source": "intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08",
+      "ruleset_id": 26821953
+    },
+    {
+      "type": "required_status_checks",
+      "parameters": {
+        "strict_required_status_checks_policy": false,
+        "do_not_enforce_on_create": false,
+        "required_status_checks": [
+          {
+            "context": "queue-observe",
+            "integration_id": 15368
+          }
+        ]
+      },
+      "ruleset_source_type": "Repository",
+      "ruleset_source": "intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08",
+      "ruleset_id": 26821953
+    }
+  ],
+  "selected_head": "e0bba642dfb010d659204b842391f2671c533e9b",
+  "request": {
+    "method": "PUT",
+    "path": "repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/pulls/26/merge-async",
+    "payload": {
+      "sha": "e0bba642dfb010d659204b842391f2671c533e9b",
+      "merge_action": "merge_queue"
+    },
+    "label": "nmg-enqueue-selected-B",
+    "start": "2026-11-09T01:25:36.150335+00:00",
+    "monotonic_start": 0.652497583,
+    "end": "2026-11-09T01:25:36.517482+00:00",
+    "monotonic_end": 1.01967375,
+    "exit": 0,
+    "http": 202,
+    "data": {
+      "status": "pending",
+      "details": {
+        "message": "Merge request enqueued.",
+        "uuid": "a3549937-89c0-479c-b1a0-460eb14bf611",
+        "merge_method": "default",
+        "merge_action": "merge_queue",
+        "expected_head_sha": "e0bba642dfb010d659204b842391f2671c533e9b",
+        "bypass_rules": false
+      }
+    }
+  },
+  "admission_terminal": {
+    "status": "enqueued",
+    "details": {
+      "message": "Pull request was added to the merge queue."
+    }
+  },
+  "old_receipt_after": {
+    "status": "enqueued",
+    "details": {
+      "message": "Pull request was added to the merge queue."
+    }
+  },
+  "last_queue_observation": {
+    "started": "2026-11-09T01:38:50.674213+00:00",
+    "finished": "2026-11-09T01:38:51.234632+00:00",
+    "data": {
+      "mergeQueue": {
+        "id": "MQ_kwDOVnmBMc4ABVN2",
+        "entries": {
+          "pageInfo": {
+            "hasNextPage": false
+          },
+          "nodes": []
+        }
+      },
+      "a": {
+        "id": "PR_kwDOVnmBMc8AAAABNvja9w",
+        "number": 25,
+        "state": "MERGED",
+        "merged": true,
+        "mergedAt": "2026-11-09T01:26:29Z",
+        "headRefOid": "5544bb24c32f27b1f4efc704365d27ad37336a12",
+        "baseRefName": "exp/ci/native-no-manual-gate/trunk",
+        "baseRefOid": "6d9310de15493dc854f50b39698d314df124a588",
+        "mergeStateStatus": "UNKNOWN",
+        "mergeQueueEntry": null,
+        "commits": {
+          "nodes": [
+            {
+              "commit": {
+                "oid": "5544bb24c32f27b1f4efc704365d27ad37336a12",
+                "statusCheckRollup": {
+                  "state": "SUCCESS",
+                  "contexts": {
+                    "nodes": [
+                      {
+                        "__typename": "CheckRun",
+                        "name": "queue-observe",
+                        "status": "COMPLETED",
+                        "conclusion": "SUCCESS",
+                        "detailsUrl": "https://github.com/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/actions/runs/42545490702/job/128929454072"
+                      },
+                      {
+                        "__typename": "CheckRun",
+                        "name": "queue-observe",
+                        "status": "COMPLETED",
+                        "conclusion": "SUCCESS",
+                        "detailsUrl": "https://github.com/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/actions/runs/42545493991/job/128929464546"
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      "b": {
+        "id": "PR_kwDOVnmBMc8AAAABNvjb2Q",
+        "number": 26,
+        "state": "OPEN",
+        "merged": false,
+        "mergedAt": null,
+        "headRefOid": "faabdcba56d4b3fcbcd8e4caa585e797082f0408",
+        "baseRefName": "exp/ci/native-no-manual-gate/trunk",
+        "baseRefOid": "f2ed13bbdd7839e5e83e1ac131cff4ddd542d32d",
+        "mergeStateStatus": "CLEAN",
+        "mergeQueueEntry": null,
+        "commits": {
+          "nodes": [
+            {
+              "commit": {
+                "oid": "faabdcba56d4b3fcbcd8e4caa585e797082f0408",
+                "statusCheckRollup": {
+                  "state": "SUCCESS",
+                  "contexts": {
+                    "nodes": [
+                      {
+                        "__typename": "CheckRun",
+                        "name": "queue-observe",
+                        "status": "COMPLETED",
+                        "conclusion": "SUCCESS",
+                        "detailsUrl": "https://github.com/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/actions/runs/42545595057/job/128929782104"
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "refs_started": "2026-11-09T01:38:51.235849+00:00",
+    "refs": "5544bb24c32f27b1f4efc704365d27ad37336a12\trefs/heads/exp/ci/native-no-manual-gate/A\nfaabdcba56d4b3fcbcd8e4caa585e797082f0408\trefs/heads/exp/ci/native-no-manual-gate/B\nf2ed13bbdd7839e5e83e1ac131cff4ddd542d32d\trefs/heads/exp/ci/native-no-manual-gate/trunk\n5544bb24c32f27b1f4efc704365d27ad37336a12\trefs/tags/exp/ci/native-no-manual-gate/authored/A/v1\ne0bba642dfb010d659204b842391f2671c533e9b\trefs/tags/exp/ci/native-no-manual-gate/authored/B/v1",
+    "refs_finished": "2026-11-09T01:38:51.429028+00:00"
+  },
+  "fresh_prs": {
+    "A": {
+      "number": 25,
+      "node_id": "PR_kwDOVnmBMc8AAAABNvja9w",
+      "state": "closed",
+      "merged": true,
+      "merged_at": "2026-11-09T01:26:29Z",
+      "head": "5544bb24c32f27b1f4efc704365d27ad37336a12",
+      "base": "exp/ci/native-no-manual-gate/trunk",
+      "base_sha": "6d9310de15493dc854f50b39698d314df124a588"
+    },
+    "B": {
+      "number": 26,
+      "node_id": "PR_kwDOVnmBMc8AAAABNvjb2Q",
+      "state": "open",
+      "merged": false,
+      "merged_at": null,
+      "head": "faabdcba56d4b3fcbcd8e4caa585e797082f0408",
+      "base": "exp/ci/native-no-manual-gate/trunk",
+      "base_sha": "f2ed13bbdd7839e5e83e1ac131cff4ddd542d32d"
+    }
+  },
+  "refs_started": "2026-11-09T01:40:42.892538+00:00",
+  "refs_finished": "2026-11-09T01:40:43.045516+00:00",
+  "refs": {
+    "refs/heads/exp/ci/native-no-manual-gate/A": "5544bb24c32f27b1f4efc704365d27ad37336a12",
+    "refs/heads/exp/ci/native-no-manual-gate/B": "faabdcba56d4b3fcbcd8e4caa585e797082f0408",
+    "refs/heads/exp/ci/native-no-manual-gate/trunk": "f2ed13bbdd7839e5e83e1ac131cff4ddd542d32d",
+    "refs/tags/exp/ci/native-no-manual-gate/authored/A/v1": "5544bb24c32f27b1f4efc704365d27ad37336a12",
+    "refs/tags/exp/ci/native-no-manual-gate/authored/B/v1": "e0bba642dfb010d659204b842391f2671c533e9b"
+  },
+  "commits": {
+    "original_A": {
+      "sha": "5544bb24c32f27b1f4efc704365d27ad37336a12",
+      "node_id": "C_kwDOVnmBMdoAKDU1NDRiYjI0YzMyZjI3YjFmNGVmYzcwNDM2NWQyN2FkMzczMzZhMTI",
+      "url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/git/commits/5544bb24c32f27b1f4efc704365d27ad37336a12",
+      "html_url": "https://github.com/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/commit/5544bb24c32f27b1f4efc704365d27ad37336a12",
+      "author": {
+        "name": "Josh Liebow-Feeser",
+        "email": "hello@joshlf.com",
+        "date": "2026-11-09T01:25:17Z"
+      },
+      "committer": {
+        "name": "Josh Liebow-Feeser",
+        "email": "hello@joshlf.com",
+        "date": "2026-11-09T01:25:17Z"
+      },
+      "tree": {
+        "sha": "51f300c61becb218c89757aa9902b9be9afe2847",
+        "url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/git/trees/51f300c61becb218c89757aa9902b9be9afe2847"
+      },
+      "message": "Record synthetic native-no-manual-gate-A\n\nAgent-authored-by: AI agent acting on joshlf's behalf",
+      "parents": [
+        {
+          "sha": "6d9310de15493dc854f50b39698d314df124a588",
+          "url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/git/commits/6d9310de15493dc854f50b39698d314df124a588",
+          "html_url": "https://github.com/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/commit/6d9310de15493dc854f50b39698d314df124a588"
+        }
+      ],
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "original_B": {
+      "sha": "e0bba642dfb010d659204b842391f2671c533e9b",
+      "node_id": "C_kwDOVnmBMdoAKGUwYmJhNjQyZGZiMDEwZDY1OTIwNGI4NDIzOTFmMjY3MWM1MzNlOWI",
+      "url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/git/commits/e0bba642dfb010d659204b842391f2671c533e9b",
+      "html_url": "https://github.com/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/commit/e0bba642dfb010d659204b842391f2671c533e9b",
+      "author": {
+        "name": "Josh Liebow-Feeser",
+        "email": "hello@joshlf.com",
+        "date": "2026-11-09T01:25:17Z"
+      },
+      "committer": {
+        "name": "Josh Liebow-Feeser",
+        "email": "hello@joshlf.com",
+        "date": "2026-11-09T01:25:17Z"
+      },
+      "tree": {
+        "sha": "91c2d9e055293c29b09824b178d88aa42e1257e8",
+        "url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/git/trees/91c2d9e055293c29b09824b178d88aa42e1257e8"
+      },
+      "message": "Record synthetic native-no-manual-gate-B\n\nAgent-authored-by: AI agent acting on joshlf's behalf",
+      "parents": [
+        {
+          "sha": "5544bb24c32f27b1f4efc704365d27ad37336a12",
+          "url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/git/commits/5544bb24c32f27b1f4efc704365d27ad37336a12",
+          "html_url": "https://github.com/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/commit/5544bb24c32f27b1f4efc704365d27ad37336a12"
+        }
+      ],
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "current_B": {
+      "sha": "faabdcba56d4b3fcbcd8e4caa585e797082f0408",
+      "node_id": "C_kwDOVnmBMdoAKGZhYWJkY2JhNTZkNGIzZmNiY2Q4ZTRjYWE1ODVlNzk3MDgyZjA0MDg",
+      "url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/git/commits/faabdcba56d4b3fcbcd8e4caa585e797082f0408",
+      "html_url": "https://github.com/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/commit/faabdcba56d4b3fcbcd8e4caa585e797082f0408",
+      "author": {
+        "name": "Josh Liebow-Feeser",
+        "email": "hello@joshlf.com",
+        "date": "2026-11-09T01:25:17Z"
+      },
+      "committer": {
+        "name": "Josh Liebow-Feeser",
+        "email": "joshlf@users.noreply.github.com",
+        "date": "2026-11-09T01:26:29Z"
+      },
+      "tree": {
+        "sha": "91c2d9e055293c29b09824b178d88aa42e1257e8",
+        "url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/git/trees/91c2d9e055293c29b09824b178d88aa42e1257e8"
+      },
+      "message": "Record synthetic native-no-manual-gate-B\n\nAgent-authored-by: AI agent acting on joshlf's behalf",
+      "parents": [
+        {
+          "sha": "f2ed13bbdd7839e5e83e1ac131cff4ddd542d32d",
+          "url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/git/commits/f2ed13bbdd7839e5e83e1ac131cff4ddd542d32d",
+          "html_url": "https://github.com/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/commit/f2ed13bbdd7839e5e83e1ac131cff4ddd542d32d"
+        }
+      ],
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "current_trunk": {
+      "sha": "f2ed13bbdd7839e5e83e1ac131cff4ddd542d32d",
+      "node_id": "C_kwDOVnmBMdoAKGYyZWQxM2JiZGQ3ODM5ZTVlODNlMWFjMTMxY2ZmNGRkZDU0MmQzMmQ",
+      "url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/git/commits/f2ed13bbdd7839e5e83e1ac131cff4ddd542d32d",
+      "html_url": "https://github.com/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/commit/f2ed13bbdd7839e5e83e1ac131cff4ddd542d32d",
+      "author": {
+        "name": "Josh Liebow-Feeser",
+        "email": "joshlf@users.noreply.github.com",
+        "date": "2026-11-09T01:25:37Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2026-11-09T01:25:37Z"
+      },
+      "tree": {
+        "sha": "51f300c61becb218c89757aa9902b9be9afe2847",
+        "url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/git/trees/51f300c61becb218c89757aa9902b9be9afe2847"
+      },
+      "message": "Record synthetic native-no-manual-gate-A (#25)\n\nAgent-authored-by: AI agent acting on joshlf's behalf",
+      "parents": [
+        {
+          "sha": "6d9310de15493dc854f50b39698d314df124a588",
+          "url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/git/commits/6d9310de15493dc854f50b39698d314df124a588",
+          "html_url": "https://github.com/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/commit/6d9310de15493dc854f50b39698d314df124a588"
+        }
+      ],
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJq8SEiCRC1aQ7uu5UhlAAAZZ4QAKcdyGsfkwU+0n0Dbd5TvsIV\n1hc1Qc3b46/0Ai89r6CKrv5BVdl5OB2ph7ggZY4qQf13glIK/Lh3EBuiwVAxhhxj\nD4m+zoHefEdr6iSlR2A7ESLAp42fxBDTGH4A2j97pLWZdWmLV7LwjFYnmQ5vlH7N\nqJYs+s9eeq+DhUYuTORbvowgZiamLzcPI4rz+mfFPtQ8XDGRiODU3qyd5UP7xhe4\nKPlvRNkB6LxTiEHHJ7vZaRhqioXMIaFzhbYPNgKRdXEShgmOF+ohVO2io+hekYMQ\n1w4VwsNUi6JPktlkCd3A16nS5qfqjTM37/JUhOSkFks02oCvcz0tDU0rcEscUrwe\nydFOrjfN22Xo9vJToTORzkSxNs78o/9+Dzt3L2Yi+sEhXPSMqcvdFwTHjqEkO76i\nwFTEcrwZVd/DfFkFk1G8GCfFHi8xOsk8tROPPvtFl3z8oFXxG6KZrvuTZeXRnpuS\n02X0BsQtfuvymSOkNu2PUFUhBU/0lg05lq9qOZ9UzWRvUsofxRcFT1l2DH3o7T8R\nLRMA8lnAxXFubBL344jtVEp+tYMt3yfx2pNigD2UkPVh268uJqpPrQMrAVr/4Atj\nnFcQtVxiAiLBG7JYDlIpbGnaLO9nBfBcq0Ag6poO1yWuMBjvifuCZKiXPtvTS74K\n9z0yPVPt4B9hm8zLD5Vp\n=qYcb\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 51f300c61becb218c89757aa9902b9be9afe2847\nparent 6d9310de15493dc854f50b39698d314df124a588\nauthor Josh Liebow-Feeser <joshlf@users.noreply.github.com> 1794187537 +0000\ncommitter GitHub <noreply@github.com> 1794187537 +0000\n\nRecord synthetic native-no-manual-gate-A (#25)\n\nAgent-authored-by: AI agent acting on joshlf's behalf",
+        "verified_at": "2026-11-09T01:25:54Z"
+      }
+    }
+  },
+  "B_comparison": {
+    "old_B": "e0bba642dfb010d659204b842391f2671c533e9b",
+    "new_B": "faabdcba56d4b3fcbcd8e4caa585e797082f0408",
+    "old_parent": "5544bb24c32f27b1f4efc704365d27ad37336a12",
+    "new_parent": "f2ed13bbdd7839e5e83e1ac131cff4ddd542d32d",
+    "raw_patch_bytes_equal": true,
+    "old_patch_sha256": "d9a28725ae2bdc201308cdbb49ce053db0d0311517b6dd26b0a5e218defb2bff",
+    "new_patch_sha256": "d9a28725ae2bdc201308cdbb49ce053db0d0311517b6dd26b0a5e218defb2bff",
+    "tree_equal": true,
+    "author_equal": true,
+    "message_equal": true,
+    "old_verified": false,
+    "new_verified": false
+  },
+  "groups": [
+    {
+      "run_id": 42545538666,
+      "event": {
+        "base_ref": "refs/heads/exp/ci/native-no-manual-gate/trunk",
+        "base_sha": "6d9310de15493dc854f50b39698d314df124a588",
+        "head_commit": {
+          "author": {
+            "email": "joshlf@users.noreply.github.com",
+            "name": "Josh Liebow-Feeser"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub"
+          },
+          "id": "f2ed13bbdd7839e5e83e1ac131cff4ddd542d32d",
+          "message": "Record synthetic native-no-manual-gate-A (#25)\n\nAgent-authored-by: AI agent acting on joshlf's behalf",
+          "timestamp": "2026-11-09T01:25:37Z",
+          "tree_id": "51f300c61becb218c89757aa9902b9be9afe2847"
+        },
+        "head_ref": "refs/heads/gh-readonly-queue/exp/ci/native-no-manual-gate/trunk/pr-25-6d9310de15493dc854f50b39698d314df124a588",
+        "head_sha": "f2ed13bbdd7839e5e83e1ac131cff4ddd542d32d"
+      },
+      "context": {
+        "env": {
+          "GITHUB_EVENT_NAME": "merge_group",
+          "GITHUB_SHA": "f2ed13bbdd7839e5e83e1ac131cff4ddd542d32d",
+          "GITHUB_REF": "refs/heads/gh-readonly-queue/exp/ci/native-no-manual-gate/trunk/pr-25-6d9310de15493dc854f50b39698d314df124a588",
+          "GITHUB_HEAD_REF": "",
+          "GITHUB_BASE_REF": "",
+          "GITHUB_RUN_ID": "42545538666",
+          "GITHUB_RUN_ATTEMPT": "1",
+          "GITHUB_JOB": "queue-observe",
+          "GITHUB_WORKFLOW": "queue-observe",
+          "GITHUB_WORKFLOW_REF": "intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/.github/workflows/queue-observe.yml@refs/heads/gh-readonly-queue/exp/ci/native-no-manual-gate/trunk/pr-25-6d9310de15493dc854f50b39698d314df124a588",
+          "GITHUB_WORKFLOW_SHA": "f2ed13bbdd7839e5e83e1ac131cff4ddd542d32d",
+          "GITHUB_REPOSITORY": "intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08",
+          "GITHUB_ACTOR": "joshlf",
+          "GITHUB_TRIGGERING_ACTOR": "joshlf",
+          "RUNNER_OS": "Linux",
+          "RUNNER_ARCH": "X64"
+        },
+        "python": "3.14.4 (main, Aug 20 2026, 10:41:58) [GCC 15.2.0]",
+        "platform": "Linux-7.0.0-1019-azure-x86_64-with-glibc2.43",
+        "head": "f2ed13bbdd7839e5e83e1ac131cff4ddd542d32d",
+        "tree": "51f300c61becb218c89757aa9902b9be9afe2847",
+        "parents": "f2ed13bbdd7839e5e83e1ac131cff4ddd542d32d 6d9310de15493dc854f50b39698d314df124a588",
+        "graph": "f2ed13bbdd7839e5e83e1ac131cff4ddd542d32d 6d9310de15493dc854f50b39698d314df124a588 Record synthetic native-no-manual-gate-A (#25)\n5544bb24c32f27b1f4efc704365d27ad37336a12 6d9310de15493dc854f50b39698d314df124a588 Record synthetic native-no-manual-gate-A\ne0bba642dfb010d659204b842391f2671c533e9b 5544bb24c32f27b1f4efc704365d27ad37336a12 Record synthetic native-no-manual-gate-B\n6d9310de15493dc854f50b39698d314df124a588 3a9df32f515072950fac44b3f0bb9ab2b549170e Record synthetic native-no-manual-gate-trunk\n4dda5e3dd63c15aac66e5fbe77d02150c2c79bbd 2d6cd0e78dc12837e530478399c8f6a78f50f6aa Record synthetic failed-upper-admission-A\n930a95811869cb7ca9c68fae67ffb462810a6516 4dda5e3dd63c15aac66e5fbe77d02150c2c79bbd Record synthetic failed-upper-admission-B\n467ac1438f5ee04c7557e6ae20bd3a0aca746370 930a95811869cb7ca9c68fae67ffb462810a6516 Record synthetic failed-upper-admission-C\n2d6cd0e78dc12837e530478399c8f6a78f50f6aa 3a9df32f515072950fac44b3f0bb9ab2b549170e Record synthetic failed-upper-admission-trunk\n14ce1cf8301d81d158846c87874ec64269972eaf a155b935b2f734721a42f947c3616f9ba71a6313 Record synthetic fresh-enabled-C\na16d7600f40639821a030d094e01521e71cfa2df 36e68aa8e2c415157ac721f28cf5f68714c7cc04 Record synthetic prefix-happy-C\n36e68aa8e2c415157ac721f28cf5f68714c7cc04 964781d850b7c100efbea59663f9eb9d1dfdb971 Record synthetic prefix-happy-B\na155b935b2f734721a42f947c3616f9ba71a6313 f2e28370a7c8a293c8806dc24bcb3e2b4a40fc2d Record synthetic fresh-enabled-B (#12)\n421ebcc5668832bb51751412ba17a18a9e0d1ea1 9e89e98c71df5d763887ff827af7c12e11555345 Record synthetic selected-head-edit-1794187135707147000-A\n00d3461ec9cc92155ae2ff0a8f1327e982da48ad 421ebcc5668832bb51751412ba17a18a9e0d1ea1 Record synthetic selected-head-edit-1794187135707147000-B\n9e89e98c71df5d763887ff827af7c12e11555345 3a9df32f515072950fac44b3f0bb9ab2b549170e Record synthetic selected-head-edit-1794187135707147000-trunk\n280468446730a5967ec57cbf1e0211d3f2956e48 96442fabd4556f626f2cb80bb3ee4dacb274afc7 Record synthetic late-group-failure-B\n21aa39443622f3f7295764adc7f9a8945d0eea6e f2e28370a7c8a293c8806dc24bcb3e2b4a40fc2d Record synthetic fresh-enabled-B\n96442fabd4556f626f2cb80bb3ee4dacb274afc7 77cf6da5ca6b0a46948c3ed0c64ce8486ca15d4e Record synthetic late-group-failure-A (#15)\n6271f4d74d65aa1058c1046e2fdfe6d189880370 77cf6da5ca6b0a46948c3ed0c64ce8486ca15d4e Record synthetic late-group-failure-A\n88698e19a9aa655e6478ea4c053111c3b3ec146d 6271f4d74d65aa1058c1046e2fdfe6d189880370 Record synthetic late-group-failure-B\n77cf6da5ca6b0a46948c3ed0c64ce8486ca15d4e 3a9df32f515072950fac44b3f0bb9ab2b549170e Record synthetic late-group-failure-trunk\nf2e28370a7c8a293c8806dc24bcb3e2b4a40fc2d e7bc26061f584629d2044a800577de5f8756d537 Record synthetic fresh-enabled-A (#11)\n8130ef408cde2f68b3dabae65794fa533e4701e5 e7bc26061f584629d2044a800577de5f8756d537 Record synthetic fresh-enabled-A\n483d647c76e8d74f54f738a54779f3296bbad5d0 8130ef408cde2f68b3dabae65794fa533e4701e5 Record synthetic fresh-enabled-B\n46b34c3a5c9f80ac0cf327b1fff6005bfdd99af4 483d647c76e8d74f54f738a54779f3296bbad5d0 Record synthetic fresh-enabled-C\ne7bc26061f584629d2044a800577de5f8756d537 3a9df32f515072950fac44b3f0bb9ab2b549170e Record synthetic fresh-enabled-trunk\n91df75452264aace94c7ba57141128adf924931d 5c67ceea8a77f20b71b7a5cf762bc5bcda910f55 Record synthetic queued-members-A\n61d19779766cde979b3aca68f448ebc071de7b08 91df75452264aace94c7ba57141128adf924931d Record synthetic queued-members-B\n9b501173f0aa7f2f9d1396a8814a4dfb6fc7b55a 61d19779766cde979b3aca68f448ebc071de7b08 Record synthetic queued-members-C\n5c67ceea8a77f20b71b7a5cf762bc5bcda910f55 3a9df32f515072950fac44b3f0bb9ab2b549170e Record synthetic queued-members-trunk\n4f7a5a72b1e974577dec4a2154c96e5daad0636f 0e953601b9aeea3630f7e02e3308c53d7cb5ac4a Record synthetic single-held-release-A (#5)\n5cd07a22622a4219c9412ff2ed43e50694158913 bb8f8f8df39e03c3cabb4d8df55d5d45cf2b4f3e Record synthetic single-group-failure-A\nbb8f8f8df39e03c3cabb4d8df55d5d45cf2b4f3e 3a9df32f515072950fac44b3f0bb9ab2b549170e Record synthetic single-group-failure-trunk\n9598ba41dda1477617af3a36c0a43abf2ec04c93 0e953601b9aeea3630f7e02e3308c53d7cb5ac4a Record synthetic single-held-release-A\n0e953601b9aeea3630f7e02e3308c53d7cb5ac4a 3a9df32f515072950fac44b3f0bb9ab2b549170e Record synthetic single-held-release-trunk\n964781d850b7c100efbea59663f9eb9d1dfdb971 2429464350b2940454fd021345d243ec2add8844 Record synthetic prefix-happy-A (#1)\n0f849939f61af49a85adec364b0af8e457dc98ec 2429464350b2940454fd021345d243ec2add8844 Record synthetic prefix-happy-A\n54a96f3828ef3bcc23ff863645f9c50750c16fd4 0f849939f61af49a85adec364b0af8e457dc98ec Record synthetic prefix-happy-B\neaa9d6f9500a3e654c28787d487e7aa3c77f2491 54a96f3828ef3bcc23ff863645f9c50750c16fd4 Record synthetic prefix-happy-C\n2429464350b2940454fd021345d243ec2add8844 3a9df32f515072950fac44b3f0bb9ab2b549170e Record synthetic prefix-happy-trunk\n3a9df32f515072950fac44b3f0bb9ab2b549170e  Add synthetic queue event fixtures",
+        "workflow_blob": "5d1d518b8c24c8651d127018f2f6817c7eb1c221",
+        "observer_blob": "89abf9e243c65f621b90277415eaf059e4849683",
+        "tracked_markers": {
+          "pull_request": "",
+          "merge_group": ""
+        },
+        "decision": "success",
+        "reasons": [],
+        "release_status": {
+          "context": "experiment/queue-release",
+          "merge_group_target_sha": "f2ed13bbdd7839e5e83e1ac131cff4ddd542d32d",
+          "posted_by_workflow": false
+        }
+      },
+      "commit": {
+        "sha": "f2ed13bbdd7839e5e83e1ac131cff4ddd542d32d",
+        "node_id": "C_kwDOVnmBMdoAKGYyZWQxM2JiZGQ3ODM5ZTVlODNlMWFjMTMxY2ZmNGRkZDU0MmQzMmQ",
+        "url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/git/commits/f2ed13bbdd7839e5e83e1ac131cff4ddd542d32d",
+        "html_url": "https://github.com/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/commit/f2ed13bbdd7839e5e83e1ac131cff4ddd542d32d",
+        "author": {
+          "name": "Josh Liebow-Feeser",
+          "email": "joshlf@users.noreply.github.com",
+          "date": "2026-11-09T01:25:37Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2026-11-09T01:25:37Z"
+        },
+        "tree": {
+          "sha": "51f300c61becb218c89757aa9902b9be9afe2847",
+          "url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/git/trees/51f300c61becb218c89757aa9902b9be9afe2847"
+        },
+        "message": "Record synthetic native-no-manual-gate-A (#25)\n\nAgent-authored-by: AI agent acting on joshlf's behalf",
+        "parents": [
+          {
+            "sha": "6d9310de15493dc854f50b39698d314df124a588",
+            "url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/git/commits/6d9310de15493dc854f50b39698d314df124a588",
+            "html_url": "https://github.com/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/commit/6d9310de15493dc854f50b39698d314df124a588"
+          }
+        ],
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJq8SEiCRC1aQ7uu5UhlAAAZZ4QAKcdyGsfkwU+0n0Dbd5TvsIV\n1hc1Qc3b46/0Ai89r6CKrv5BVdl5OB2ph7ggZY4qQf13glIK/Lh3EBuiwVAxhhxj\nD4m+zoHefEdr6iSlR2A7ESLAp42fxBDTGH4A2j97pLWZdWmLV7LwjFYnmQ5vlH7N\nqJYs+s9eeq+DhUYuTORbvowgZiamLzcPI4rz+mfFPtQ8XDGRiODU3qyd5UP7xhe4\nKPlvRNkB6LxTiEHHJ7vZaRhqioXMIaFzhbYPNgKRdXEShgmOF+ohVO2io+hekYMQ\n1w4VwsNUi6JPktlkCd3A16nS5qfqjTM37/JUhOSkFks02oCvcz0tDU0rcEscUrwe\nydFOrjfN22Xo9vJToTORzkSxNs78o/9+Dzt3L2Yi+sEhXPSMqcvdFwTHjqEkO76i\nwFTEcrwZVd/DfFkFk1G8GCfFHi8xOsk8tROPPvtFl3z8oFXxG6KZrvuTZeXRnpuS\n02X0BsQtfuvymSOkNu2PUFUhBU/0lg05lq9qOZ9UzWRvUsofxRcFT1l2DH3o7T8R\nLRMA8lnAxXFubBL344jtVEp+tYMt3yfx2pNigD2UkPVh268uJqpPrQMrAVr/4Atj\nnFcQtVxiAiLBG7JYDlIpbGnaLO9nBfBcq0Ag6poO1yWuMBjvifuCZKiXPtvTS74K\n9z0yPVPt4B9hm8zLD5Vp\n=qYcb\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 51f300c61becb218c89757aa9902b9be9afe2847\nparent 6d9310de15493dc854f50b39698d314df124a588\nauthor Josh Liebow-Feeser <joshlf@users.noreply.github.com> 1794187537 +0000\ncommitter GitHub <noreply@github.com> 1794187537 +0000\n\nRecord synthetic native-no-manual-gate-A (#25)\n\nAgent-authored-by: AI agent acting on joshlf's behalf",
+          "verified_at": "2026-11-09T01:25:54Z"
+        }
+      },
+      "check_runs": [
+        {
+          "id": 128929605521,
+          "name": "queue-observe",
+          "head_sha": "f2ed13bbdd7839e5e83e1ac131cff4ddd542d32d",
+          "status": "completed",
+          "conclusion": "success",
+          "details_url": "https://github.com/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/actions/runs/42545538666/job/128929605521"
+        }
+      ]
+    }
+  ],
+  "workflow_events": [
+    {
+      "run_id": 42545595057,
+      "event": "pull_request",
+      "action": "synchronize",
+      "run_head_sha": "faabdcba56d4b3fcbcd8e4caa585e797082f0408",
+      "checkout": {
+        "env": {
+          "GITHUB_EVENT_NAME": "pull_request",
+          "GITHUB_SHA": "ee2ca110c7e40bae733eaa34e8c18ad287830c71",
+          "GITHUB_REF": "refs/pull/26/merge",
+          "GITHUB_HEAD_REF": "exp/ci/native-no-manual-gate/B",
+          "GITHUB_BASE_REF": "exp/ci/native-no-manual-gate/trunk",
+          "GITHUB_RUN_ID": "42545595057",
+          "GITHUB_RUN_ATTEMPT": "1",
+          "GITHUB_JOB": "queue-observe",
+          "GITHUB_WORKFLOW": "queue-observe",
+          "GITHUB_WORKFLOW_REF": "intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/.github/workflows/queue-observe.yml@refs/pull/26/merge",
+          "GITHUB_WORKFLOW_SHA": "ee2ca110c7e40bae733eaa34e8c18ad287830c71",
+          "GITHUB_REPOSITORY": "intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08",
+          "GITHUB_ACTOR": "joshlf",
+          "GITHUB_TRIGGERING_ACTOR": "joshlf",
+          "RUNNER_OS": "Linux",
+          "RUNNER_ARCH": "X64"
+        },
+        "python": "3.14.4 (main, Aug 20 2026, 10:41:58) [GCC 15.2.0]",
+        "platform": "Linux-7.0.0-1019-azure-x86_64-with-glibc2.43",
+        "head": "ee2ca110c7e40bae733eaa34e8c18ad287830c71",
+        "tree": "91c2d9e055293c29b09824b178d88aa42e1257e8",
+        "parents": "ee2ca110c7e40bae733eaa34e8c18ad287830c71 f2ed13bbdd7839e5e83e1ac131cff4ddd542d32d faabdcba56d4b3fcbcd8e4caa585e797082f0408",
+        "graph": "ee2ca110c7e40bae733eaa34e8c18ad287830c71 f2ed13bbdd7839e5e83e1ac131cff4ddd542d32d faabdcba56d4b3fcbcd8e4caa585e797082f0408 Merge faabdcba56d4b3fcbcd8e4caa585e797082f0408 into f2ed13bbdd7839e5e83e1ac131cff4ddd542d32d\nfaabdcba56d4b3fcbcd8e4caa585e797082f0408 f2ed13bbdd7839e5e83e1ac131cff4ddd542d32d Record synthetic native-no-manual-gate-B\nf2ed13bbdd7839e5e83e1ac131cff4ddd542d32d 6d9310de15493dc854f50b39698d314df124a588 Record synthetic native-no-manual-gate-A (#25)\n5544bb24c32f27b1f4efc704365d27ad37336a12 6d9310de15493dc854f50b39698d314df124a588 Record synthetic native-no-manual-gate-A\ne0bba642dfb010d659204b842391f2671c533e9b 5544bb24c32f27b1f4efc704365d27ad37336a12 Record synthetic native-no-manual-gate-B\n6d9310de15493dc854f50b39698d314df124a588 3a9df32f515072950fac44b3f0bb9ab2b549170e Record synthetic native-no-manual-gate-trunk\n4dda5e3dd63c15aac66e5fbe77d02150c2c79bbd 2d6cd0e78dc12837e530478399c8f6a78f50f6aa Record synthetic failed-upper-admission-A\n930a95811869cb7ca9c68fae67ffb462810a6516 4dda5e3dd63c15aac66e5fbe77d02150c2c79bbd Record synthetic failed-upper-admission-B\n467ac1438f5ee04c7557e6ae20bd3a0aca746370 930a95811869cb7ca9c68fae67ffb462810a6516 Record synthetic failed-upper-admission-C\n2d6cd0e78dc12837e530478399c8f6a78f50f6aa 3a9df32f515072950fac44b3f0bb9ab2b549170e Record synthetic failed-upper-admission-trunk\n14ce1cf8301d81d158846c87874ec64269972eaf a155b935b2f734721a42f947c3616f9ba71a6313 Record synthetic fresh-enabled-C\na16d7600f40639821a030d094e01521e71cfa2df 36e68aa8e2c415157ac721f28cf5f68714c7cc04 Record synthetic prefix-happy-C\n36e68aa8e2c415157ac721f28cf5f68714c7cc04 964781d850b7c100efbea59663f9eb9d1dfdb971 Record synthetic prefix-happy-B\na155b935b2f734721a42f947c3616f9ba71a6313 f2e28370a7c8a293c8806dc24bcb3e2b4a40fc2d Record synthetic fresh-enabled-B (#12)\n421ebcc5668832bb51751412ba17a18a9e0d1ea1 9e89e98c71df5d763887ff827af7c12e11555345 Record synthetic selected-head-edit-1794187135707147000-A\n00d3461ec9cc92155ae2ff0a8f1327e982da48ad 421ebcc5668832bb51751412ba17a18a9e0d1ea1 Record synthetic selected-head-edit-1794187135707147000-B\n9e89e98c71df5d763887ff827af7c12e11555345 3a9df32f515072950fac44b3f0bb9ab2b549170e Record synthetic selected-head-edit-1794187135707147000-trunk\n280468446730a5967ec57cbf1e0211d3f2956e48 96442fabd4556f626f2cb80bb3ee4dacb274afc7 Record synthetic late-group-failure-B\n21aa39443622f3f7295764adc7f9a8945d0eea6e f2e28370a7c8a293c8806dc24bcb3e2b4a40fc2d Record synthetic fresh-enabled-B\n96442fabd4556f626f2cb80bb3ee4dacb274afc7 77cf6da5ca6b0a46948c3ed0c64ce8486ca15d4e Record synthetic late-group-failure-A (#15)\n6271f4d74d65aa1058c1046e2fdfe6d189880370 77cf6da5ca6b0a46948c3ed0c64ce8486ca15d4e Record synthetic late-group-failure-A\n88698e19a9aa655e6478ea4c053111c3b3ec146d 6271f4d74d65aa1058c1046e2fdfe6d189880370 Record synthetic late-group-failure-B\n77cf6da5ca6b0a46948c3ed0c64ce8486ca15d4e 3a9df32f515072950fac44b3f0bb9ab2b549170e Record synthetic late-group-failure-trunk\nf2e28370a7c8a293c8806dc24bcb3e2b4a40fc2d e7bc26061f584629d2044a800577de5f8756d537 Record synthetic fresh-enabled-A (#11)\n8130ef408cde2f68b3dabae65794fa533e4701e5 e7bc26061f584629d2044a800577de5f8756d537 Record synthetic fresh-enabled-A\n483d647c76e8d74f54f738a54779f3296bbad5d0 8130ef408cde2f68b3dabae65794fa533e4701e5 Record synthetic fresh-enabled-B\n46b34c3a5c9f80ac0cf327b1fff6005bfdd99af4 483d647c76e8d74f54f738a54779f3296bbad5d0 Record synthetic fresh-enabled-C\ne7bc26061f584629d2044a800577de5f8756d537 3a9df32f515072950fac44b3f0bb9ab2b549170e Record synthetic fresh-enabled-trunk\n91df75452264aace94c7ba57141128adf924931d 5c67ceea8a77f20b71b7a5cf762bc5bcda910f55 Record synthetic queued-members-A\n61d19779766cde979b3aca68f448ebc071de7b08 91df75452264aace94c7ba57141128adf924931d Record synthetic queued-members-B\n9b501173f0aa7f2f9d1396a8814a4dfb6fc7b55a 61d19779766cde979b3aca68f448ebc071de7b08 Record synthetic queued-members-C\n5c67ceea8a77f20b71b7a5cf762bc5bcda910f55 3a9df32f515072950fac44b3f0bb9ab2b549170e Record synthetic queued-members-trunk\n4f7a5a72b1e974577dec4a2154c96e5daad0636f 0e953601b9aeea3630f7e02e3308c53d7cb5ac4a Record synthetic single-held-release-A (#5)\n5cd07a22622a4219c9412ff2ed43e50694158913 bb8f8f8df39e03c3cabb4d8df55d5d45cf2b4f3e Record synthetic single-group-failure-A\nbb8f8f8df39e03c3cabb4d8df55d5d45cf2b4f3e 3a9df32f515072950fac44b3f0bb9ab2b549170e Record synthetic single-group-failure-trunk\n9598ba41dda1477617af3a36c0a43abf2ec04c93 0e953601b9aeea3630f7e02e3308c53d7cb5ac4a Record synthetic single-held-release-A\n0e953601b9aeea3630f7e02e3308c53d7cb5ac4a 3a9df32f515072950fac44b3f0bb9ab2b549170e Record synthetic single-held-release-trunk\n964781d850b7c100efbea59663f9eb9d1dfdb971 2429464350b2940454fd021345d243ec2add8844 Record synthetic prefix-happy-A (#1)\n0f849939f61af49a85adec364b0af8e457dc98ec 2429464350b2940454fd021345d243ec2add8844 Record synthetic prefix-happy-A\n54a96f3828ef3bcc23ff863645f9c50750c16fd4 0f849939f61af49a85adec364b0af8e457dc98ec Record synthetic prefix-happy-B\neaa9d6f9500a3e654c28787d487e7aa3c77f2491 54a96f3828ef3bcc23ff863645f9c50750c16fd4 Record synthetic prefix-happy-C\n2429464350b2940454fd021345d243ec2add8844 3a9df32f515072950fac44b3f0bb9ab2b549170e Record synthetic prefix-happy-trunk\n3a9df32f515072950fac44b3f0bb9ab2b549170e  Add synthetic queue event fixtures",
+        "workflow_blob": "5d1d518b8c24c8651d127018f2f6817c7eb1c221",
+        "observer_blob": "89abf9e243c65f621b90277415eaf059e4849683",
+        "tracked_markers": {
+          "pull_request": "",
+          "merge_group": ""
+        },
+        "decision": "success",
+        "reasons": [],
+        "release_status": {
+          "context": "experiment/queue-release",
+          "merge_group_target_sha": null,
+          "posted_by_workflow": false
+        }
+      },
+      "pr_number": 26,
+      "event_pr_head": "faabdcba56d4b3fcbcd8e4caa585e797082f0408"
+    },
+    {
+      "run_id": 42545538666,
+      "event": "merge_group",
+      "action": "checks_requested",
+      "run_head_sha": "f2ed13bbdd7839e5e83e1ac131cff4ddd542d32d",
+      "checkout": {
+        "env": {
+          "GITHUB_EVENT_NAME": "merge_group",
+          "GITHUB_SHA": "f2ed13bbdd7839e5e83e1ac131cff4ddd542d32d",
+          "GITHUB_REF": "refs/heads/gh-readonly-queue/exp/ci/native-no-manual-gate/trunk/pr-25-6d9310de15493dc854f50b39698d314df124a588",
+          "GITHUB_HEAD_REF": "",
+          "GITHUB_BASE_REF": "",
+          "GITHUB_RUN_ID": "42545538666",
+          "GITHUB_RUN_ATTEMPT": "1",
+          "GITHUB_JOB": "queue-observe",
+          "GITHUB_WORKFLOW": "queue-observe",
+          "GITHUB_WORKFLOW_REF": "intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/.github/workflows/queue-observe.yml@refs/heads/gh-readonly-queue/exp/ci/native-no-manual-gate/trunk/pr-25-6d9310de15493dc854f50b39698d314df124a588",
+          "GITHUB_WORKFLOW_SHA": "f2ed13bbdd7839e5e83e1ac131cff4ddd542d32d",
+          "GITHUB_REPOSITORY": "intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08",
+          "GITHUB_ACTOR": "joshlf",
+          "GITHUB_TRIGGERING_ACTOR": "joshlf",
+          "RUNNER_OS": "Linux",
+          "RUNNER_ARCH": "X64"
+        },
+        "python": "3.14.4 (main, Aug 20 2026, 10:41:58) [GCC 15.2.0]",
+        "platform": "Linux-7.0.0-1019-azure-x86_64-with-glibc2.43",
+        "head": "f2ed13bbdd7839e5e83e1ac131cff4ddd542d32d",
+        "tree": "51f300c61becb218c89757aa9902b9be9afe2847",
+        "parents": "f2ed13bbdd7839e5e83e1ac131cff4ddd542d32d 6d9310de15493dc854f50b39698d314df124a588",
+        "graph": "f2ed13bbdd7839e5e83e1ac131cff4ddd542d32d 6d9310de15493dc854f50b39698d314df124a588 Record synthetic native-no-manual-gate-A (#25)\n5544bb24c32f27b1f4efc704365d27ad37336a12 6d9310de15493dc854f50b39698d314df124a588 Record synthetic native-no-manual-gate-A\ne0bba642dfb010d659204b842391f2671c533e9b 5544bb24c32f27b1f4efc704365d27ad37336a12 Record synthetic native-no-manual-gate-B\n6d9310de15493dc854f50b39698d314df124a588 3a9df32f515072950fac44b3f0bb9ab2b549170e Record synthetic native-no-manual-gate-trunk\n4dda5e3dd63c15aac66e5fbe77d02150c2c79bbd 2d6cd0e78dc12837e530478399c8f6a78f50f6aa Record synthetic failed-upper-admission-A\n930a95811869cb7ca9c68fae67ffb462810a6516 4dda5e3dd63c15aac66e5fbe77d02150c2c79bbd Record synthetic failed-upper-admission-B\n467ac1438f5ee04c7557e6ae20bd3a0aca746370 930a95811869cb7ca9c68fae67ffb462810a6516 Record synthetic failed-upper-admission-C\n2d6cd0e78dc12837e530478399c8f6a78f50f6aa 3a9df32f515072950fac44b3f0bb9ab2b549170e Record synthetic failed-upper-admission-trunk\n14ce1cf8301d81d158846c87874ec64269972eaf a155b935b2f734721a42f947c3616f9ba71a6313 Record synthetic fresh-enabled-C\na16d7600f40639821a030d094e01521e71cfa2df 36e68aa8e2c415157ac721f28cf5f68714c7cc04 Record synthetic prefix-happy-C\n36e68aa8e2c415157ac721f28cf5f68714c7cc04 964781d850b7c100efbea59663f9eb9d1dfdb971 Record synthetic prefix-happy-B\na155b935b2f734721a42f947c3616f9ba71a6313 f2e28370a7c8a293c8806dc24bcb3e2b4a40fc2d Record synthetic fresh-enabled-B (#12)\n421ebcc5668832bb51751412ba17a18a9e0d1ea1 9e89e98c71df5d763887ff827af7c12e11555345 Record synthetic selected-head-edit-1794187135707147000-A\n00d3461ec9cc92155ae2ff0a8f1327e982da48ad 421ebcc5668832bb51751412ba17a18a9e0d1ea1 Record synthetic selected-head-edit-1794187135707147000-B\n9e89e98c71df5d763887ff827af7c12e11555345 3a9df32f515072950fac44b3f0bb9ab2b549170e Record synthetic selected-head-edit-1794187135707147000-trunk\n280468446730a5967ec57cbf1e0211d3f2956e48 96442fabd4556f626f2cb80bb3ee4dacb274afc7 Record synthetic late-group-failure-B\n21aa39443622f3f7295764adc7f9a8945d0eea6e f2e28370a7c8a293c8806dc24bcb3e2b4a40fc2d Record synthetic fresh-enabled-B\n96442fabd4556f626f2cb80bb3ee4dacb274afc7 77cf6da5ca6b0a46948c3ed0c64ce8486ca15d4e Record synthetic late-group-failure-A (#15)\n6271f4d74d65aa1058c1046e2fdfe6d189880370 77cf6da5ca6b0a46948c3ed0c64ce8486ca15d4e Record synthetic late-group-failure-A\n88698e19a9aa655e6478ea4c053111c3b3ec146d 6271f4d74d65aa1058c1046e2fdfe6d189880370 Record synthetic late-group-failure-B\n77cf6da5ca6b0a46948c3ed0c64ce8486ca15d4e 3a9df32f515072950fac44b3f0bb9ab2b549170e Record synthetic late-group-failure-trunk\nf2e28370a7c8a293c8806dc24bcb3e2b4a40fc2d e7bc26061f584629d2044a800577de5f8756d537 Record synthetic fresh-enabled-A (#11)\n8130ef408cde2f68b3dabae65794fa533e4701e5 e7bc26061f584629d2044a800577de5f8756d537 Record synthetic fresh-enabled-A\n483d647c76e8d74f54f738a54779f3296bbad5d0 8130ef408cde2f68b3dabae65794fa533e4701e5 Record synthetic fresh-enabled-B\n46b34c3a5c9f80ac0cf327b1fff6005bfdd99af4 483d647c76e8d74f54f738a54779f3296bbad5d0 Record synthetic fresh-enabled-C\ne7bc26061f584629d2044a800577de5f8756d537 3a9df32f515072950fac44b3f0bb9ab2b549170e Record synthetic fresh-enabled-trunk\n91df75452264aace94c7ba57141128adf924931d 5c67ceea8a77f20b71b7a5cf762bc5bcda910f55 Record synthetic queued-members-A\n61d19779766cde979b3aca68f448ebc071de7b08 91df75452264aace94c7ba57141128adf924931d Record synthetic queued-members-B\n9b501173f0aa7f2f9d1396a8814a4dfb6fc7b55a 61d19779766cde979b3aca68f448ebc071de7b08 Record synthetic queued-members-C\n5c67ceea8a77f20b71b7a5cf762bc5bcda910f55 3a9df32f515072950fac44b3f0bb9ab2b549170e Record synthetic queued-members-trunk\n4f7a5a72b1e974577dec4a2154c96e5daad0636f 0e953601b9aeea3630f7e02e3308c53d7cb5ac4a Record synthetic single-held-release-A (#5)\n5cd07a22622a4219c9412ff2ed43e50694158913 bb8f8f8df39e03c3cabb4d8df55d5d45cf2b4f3e Record synthetic single-group-failure-A\nbb8f8f8df39e03c3cabb4d8df55d5d45cf2b4f3e 3a9df32f515072950fac44b3f0bb9ab2b549170e Record synthetic single-group-failure-trunk\n9598ba41dda1477617af3a36c0a43abf2ec04c93 0e953601b9aeea3630f7e02e3308c53d7cb5ac4a Record synthetic single-held-release-A\n0e953601b9aeea3630f7e02e3308c53d7cb5ac4a 3a9df32f515072950fac44b3f0bb9ab2b549170e Record synthetic single-held-release-trunk\n964781d850b7c100efbea59663f9eb9d1dfdb971 2429464350b2940454fd021345d243ec2add8844 Record synthetic prefix-happy-A (#1)\n0f849939f61af49a85adec364b0af8e457dc98ec 2429464350b2940454fd021345d243ec2add8844 Record synthetic prefix-happy-A\n54a96f3828ef3bcc23ff863645f9c50750c16fd4 0f849939f61af49a85adec364b0af8e457dc98ec Record synthetic prefix-happy-B\neaa9d6f9500a3e654c28787d487e7aa3c77f2491 54a96f3828ef3bcc23ff863645f9c50750c16fd4 Record synthetic prefix-happy-C\n2429464350b2940454fd021345d243ec2add8844 3a9df32f515072950fac44b3f0bb9ab2b549170e Record synthetic prefix-happy-trunk\n3a9df32f515072950fac44b3f0bb9ab2b549170e  Add synthetic queue event fixtures",
+        "workflow_blob": "5d1d518b8c24c8651d127018f2f6817c7eb1c221",
+        "observer_blob": "89abf9e243c65f621b90277415eaf059e4849683",
+        "tracked_markers": {
+          "pull_request": "",
+          "merge_group": ""
+        },
+        "decision": "success",
+        "reasons": [],
+        "release_status": {
+          "context": "experiment/queue-release",
+          "merge_group_target_sha": "f2ed13bbdd7839e5e83e1ac131cff4ddd542d32d",
+          "posted_by_workflow": false
+        }
+      },
+      "pr_number": null,
+      "event_pr_head": null
+    },
+    {
+      "run_id": 42545494933,
+      "event": "pull_request",
+      "action": "stacked",
+      "run_head_sha": "e0bba642dfb010d659204b842391f2671c533e9b",
+      "checkout": {
+        "env": {
+          "GITHUB_EVENT_NAME": "pull_request",
+          "GITHUB_SHA": "bc099dfc3261f7692a95e8a3ec92af0b00a6e936",
+          "GITHUB_REF": "refs/pull/26/merge",
+          "GITHUB_HEAD_REF": "exp/ci/native-no-manual-gate/B",
+          "GITHUB_BASE_REF": "exp/ci/native-no-manual-gate/trunk",
+          "GITHUB_RUN_ID": "42545494933",
+          "GITHUB_RUN_ATTEMPT": "1",
+          "GITHUB_JOB": "queue-observe",
+          "GITHUB_WORKFLOW": "queue-observe",
+          "GITHUB_WORKFLOW_REF": "intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/.github/workflows/queue-observe.yml@refs/pull/26/merge",
+          "GITHUB_WORKFLOW_SHA": "bc099dfc3261f7692a95e8a3ec92af0b00a6e936",
+          "GITHUB_REPOSITORY": "intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08",
+          "GITHUB_ACTOR": "joshlf",
+          "GITHUB_TRIGGERING_ACTOR": "joshlf",
+          "RUNNER_OS": "Linux",
+          "RUNNER_ARCH": "X64"
+        },
+        "python": "3.14.4 (main, Aug 20 2026, 10:41:58) [GCC 15.2.0]",
+        "platform": "Linux-7.0.0-1019-azure-x86_64-with-glibc2.43",
+        "head": "bc099dfc3261f7692a95e8a3ec92af0b00a6e936",
+        "tree": "91c2d9e055293c29b09824b178d88aa42e1257e8",
+        "parents": "bc099dfc3261f7692a95e8a3ec92af0b00a6e936 658b5e101a14d05084eddf3f3b56e76d1851ec49 e0bba642dfb010d659204b842391f2671c533e9b",
+        "graph": "bc099dfc3261f7692a95e8a3ec92af0b00a6e936 658b5e101a14d05084eddf3f3b56e76d1851ec49 e0bba642dfb010d659204b842391f2671c533e9b Merge e0bba642dfb010d659204b842391f2671c533e9b into 658b5e101a14d05084eddf3f3b56e76d1851ec49\n658b5e101a14d05084eddf3f3b56e76d1851ec49 6d9310de15493dc854f50b39698d314df124a588 5544bb24c32f27b1f4efc704365d27ad37336a12 Merge 5544bb24c32f27b1f4efc704365d27ad37336a12 into 6d9310de15493dc854f50b39698d314df124a588\n5544bb24c32f27b1f4efc704365d27ad37336a12 6d9310de15493dc854f50b39698d314df124a588 Record synthetic native-no-manual-gate-A\ne0bba642dfb010d659204b842391f2671c533e9b 5544bb24c32f27b1f4efc704365d27ad37336a12 Record synthetic native-no-manual-gate-B\n6d9310de15493dc854f50b39698d314df124a588 3a9df32f515072950fac44b3f0bb9ab2b549170e Record synthetic native-no-manual-gate-trunk\n4dda5e3dd63c15aac66e5fbe77d02150c2c79bbd 2d6cd0e78dc12837e530478399c8f6a78f50f6aa Record synthetic failed-upper-admission-A\n930a95811869cb7ca9c68fae67ffb462810a6516 4dda5e3dd63c15aac66e5fbe77d02150c2c79bbd Record synthetic failed-upper-admission-B\n467ac1438f5ee04c7557e6ae20bd3a0aca746370 930a95811869cb7ca9c68fae67ffb462810a6516 Record synthetic failed-upper-admission-C\n2d6cd0e78dc12837e530478399c8f6a78f50f6aa 3a9df32f515072950fac44b3f0bb9ab2b549170e Record synthetic failed-upper-admission-trunk\n14ce1cf8301d81d158846c87874ec64269972eaf a155b935b2f734721a42f947c3616f9ba71a6313 Record synthetic fresh-enabled-C\na16d7600f40639821a030d094e01521e71cfa2df 36e68aa8e2c415157ac721f28cf5f68714c7cc04 Record synthetic prefix-happy-C\n36e68aa8e2c415157ac721f28cf5f68714c7cc04 964781d850b7c100efbea59663f9eb9d1dfdb971 Record synthetic prefix-happy-B\na155b935b2f734721a42f947c3616f9ba71a6313 f2e28370a7c8a293c8806dc24bcb3e2b4a40fc2d Record synthetic fresh-enabled-B (#12)\n421ebcc5668832bb51751412ba17a18a9e0d1ea1 9e89e98c71df5d763887ff827af7c12e11555345 Record synthetic selected-head-edit-1794187135707147000-A\n00d3461ec9cc92155ae2ff0a8f1327e982da48ad 421ebcc5668832bb51751412ba17a18a9e0d1ea1 Record synthetic selected-head-edit-1794187135707147000-B\n9e89e98c71df5d763887ff827af7c12e11555345 3a9df32f515072950fac44b3f0bb9ab2b549170e Record synthetic selected-head-edit-1794187135707147000-trunk\n280468446730a5967ec57cbf1e0211d3f2956e48 96442fabd4556f626f2cb80bb3ee4dacb274afc7 Record synthetic late-group-failure-B\n21aa39443622f3f7295764adc7f9a8945d0eea6e f2e28370a7c8a293c8806dc24bcb3e2b4a40fc2d Record synthetic fresh-enabled-B\n96442fabd4556f626f2cb80bb3ee4dacb274afc7 77cf6da5ca6b0a46948c3ed0c64ce8486ca15d4e Record synthetic late-group-failure-A (#15)\n6271f4d74d65aa1058c1046e2fdfe6d189880370 77cf6da5ca6b0a46948c3ed0c64ce8486ca15d4e Record synthetic late-group-failure-A\n88698e19a9aa655e6478ea4c053111c3b3ec146d 6271f4d74d65aa1058c1046e2fdfe6d189880370 Record synthetic late-group-failure-B\n77cf6da5ca6b0a46948c3ed0c64ce8486ca15d4e 3a9df32f515072950fac44b3f0bb9ab2b549170e Record synthetic late-group-failure-trunk\nf2e28370a7c8a293c8806dc24bcb3e2b4a40fc2d e7bc26061f584629d2044a800577de5f8756d537 Record synthetic fresh-enabled-A (#11)\n8130ef408cde2f68b3dabae65794fa533e4701e5 e7bc26061f584629d2044a800577de5f8756d537 Record synthetic fresh-enabled-A\n483d647c76e8d74f54f738a54779f3296bbad5d0 8130ef408cde2f68b3dabae65794fa533e4701e5 Record synthetic fresh-enabled-B\n46b34c3a5c9f80ac0cf327b1fff6005bfdd99af4 483d647c76e8d74f54f738a54779f3296bbad5d0 Record synthetic fresh-enabled-C\ne7bc26061f584629d2044a800577de5f8756d537 3a9df32f515072950fac44b3f0bb9ab2b549170e Record synthetic fresh-enabled-trunk\n91df75452264aace94c7ba57141128adf924931d 5c67ceea8a77f20b71b7a5cf762bc5bcda910f55 Record synthetic queued-members-A\n61d19779766cde979b3aca68f448ebc071de7b08 91df75452264aace94c7ba57141128adf924931d Record synthetic queued-members-B\n9b501173f0aa7f2f9d1396a8814a4dfb6fc7b55a 61d19779766cde979b3aca68f448ebc071de7b08 Record synthetic queued-members-C\n5c67ceea8a77f20b71b7a5cf762bc5bcda910f55 3a9df32f515072950fac44b3f0bb9ab2b549170e Record synthetic queued-members-trunk\n4f7a5a72b1e974577dec4a2154c96e5daad0636f 0e953601b9aeea3630f7e02e3308c53d7cb5ac4a Record synthetic single-held-release-A (#5)\n5cd07a22622a4219c9412ff2ed43e50694158913 bb8f8f8df39e03c3cabb4d8df55d5d45cf2b4f3e Record synthetic single-group-failure-A\nbb8f8f8df39e03c3cabb4d8df55d5d45cf2b4f3e 3a9df32f515072950fac44b3f0bb9ab2b549170e Record synthetic single-group-failure-trunk\n9598ba41dda1477617af3a36c0a43abf2ec04c93 0e953601b9aeea3630f7e02e3308c53d7cb5ac4a Record synthetic single-held-release-A\n0e953601b9aeea3630f7e02e3308c53d7cb5ac4a 3a9df32f515072950fac44b3f0bb9ab2b549170e Record synthetic single-held-release-trunk\n964781d850b7c100efbea59663f9eb9d1dfdb971 2429464350b2940454fd021345d243ec2add8844 Record synthetic prefix-happy-A (#1)\n0f849939f61af49a85adec364b0af8e457dc98ec 2429464350b2940454fd021345d243ec2add8844 Record synthetic prefix-happy-A\n54a96f3828ef3bcc23ff863645f9c50750c16fd4 0f849939f61af49a85adec364b0af8e457dc98ec Record synthetic prefix-happy-B\neaa9d6f9500a3e654c28787d487e7aa3c77f2491 54a96f3828ef3bcc23ff863645f9c50750c16fd4 Record synthetic prefix-happy-C\n2429464350b2940454fd021345d243ec2add8844 3a9df32f515072950fac44b3f0bb9ab2b549170e Record synthetic prefix-happy-trunk\n3a9df32f515072950fac44b3f0bb9ab2b549170e  Add synthetic queue event fixtures",
+        "workflow_blob": "5d1d518b8c24c8651d127018f2f6817c7eb1c221",
+        "observer_blob": "89abf9e243c65f621b90277415eaf059e4849683",
+        "tracked_markers": {
+          "pull_request": "",
+          "merge_group": ""
+        },
+        "decision": "success",
+        "reasons": [],
+        "release_status": {
+          "context": "experiment/queue-release",
+          "merge_group_target_sha": null,
+          "posted_by_workflow": false
+        }
+      },
+      "pr_number": 26,
+      "event_pr_head": "e0bba642dfb010d659204b842391f2671c533e9b"
+    },
+    {
+      "run_id": 42545494686,
+      "event": "pull_request",
+      "action": "opened",
+      "run_head_sha": "e0bba642dfb010d659204b842391f2671c533e9b",
+      "checkout": {
+        "env": {
+          "GITHUB_EVENT_NAME": "pull_request",
+          "GITHUB_SHA": "bc099dfc3261f7692a95e8a3ec92af0b00a6e936",
+          "GITHUB_REF": "refs/pull/26/merge",
+          "GITHUB_HEAD_REF": "exp/ci/native-no-manual-gate/B",
+          "GITHUB_BASE_REF": "exp/ci/native-no-manual-gate/trunk",
+          "GITHUB_RUN_ID": "42545494686",
+          "GITHUB_RUN_ATTEMPT": "1",
+          "GITHUB_JOB": "queue-observe",
+          "GITHUB_WORKFLOW": "queue-observe",
+          "GITHUB_WORKFLOW_REF": "intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/.github/workflows/queue-observe.yml@refs/pull/26/merge",
+          "GITHUB_WORKFLOW_SHA": "bc099dfc3261f7692a95e8a3ec92af0b00a6e936",
+          "GITHUB_REPOSITORY": "intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08",
+          "GITHUB_ACTOR": "joshlf",
+          "GITHUB_TRIGGERING_ACTOR": "joshlf",
+          "RUNNER_OS": "Linux",
+          "RUNNER_ARCH": "X64"
+        },
+        "python": "3.14.4 (main, Aug 20 2026, 10:41:58) [GCC 15.2.0]",
+        "platform": "Linux-7.0.0-1019-azure-x86_64-with-glibc2.43",
+        "head": "bc099dfc3261f7692a95e8a3ec92af0b00a6e936",
+        "tree": "91c2d9e055293c29b09824b178d88aa42e1257e8",
+        "parents": "bc099dfc3261f7692a95e8a3ec92af0b00a6e936 658b5e101a14d05084eddf3f3b56e76d1851ec49 e0bba642dfb010d659204b842391f2671c533e9b",
+        "graph": "bc099dfc3261f7692a95e8a3ec92af0b00a6e936 658b5e101a14d05084eddf3f3b56e76d1851ec49 e0bba642dfb010d659204b842391f2671c533e9b Merge e0bba642dfb010d659204b842391f2671c533e9b into 658b5e101a14d05084eddf3f3b56e76d1851ec49\n658b5e101a14d05084eddf3f3b56e76d1851ec49 6d9310de15493dc854f50b39698d314df124a588 5544bb24c32f27b1f4efc704365d27ad37336a12 Merge 5544bb24c32f27b1f4efc704365d27ad37336a12 into 6d9310de15493dc854f50b39698d314df124a588\n5544bb24c32f27b1f4efc704365d27ad37336a12 6d9310de15493dc854f50b39698d314df124a588 Record synthetic native-no-manual-gate-A\ne0bba642dfb010d659204b842391f2671c533e9b 5544bb24c32f27b1f4efc704365d27ad37336a12 Record synthetic native-no-manual-gate-B\n6d9310de15493dc854f50b39698d314df124a588 3a9df32f515072950fac44b3f0bb9ab2b549170e Record synthetic native-no-manual-gate-trunk\n4dda5e3dd63c15aac66e5fbe77d02150c2c79bbd 2d6cd0e78dc12837e530478399c8f6a78f50f6aa Record synthetic failed-upper-admission-A\n930a95811869cb7ca9c68fae67ffb462810a6516 4dda5e3dd63c15aac66e5fbe77d02150c2c79bbd Record synthetic failed-upper-admission-B\n467ac1438f5ee04c7557e6ae20bd3a0aca746370 930a95811869cb7ca9c68fae67ffb462810a6516 Record synthetic failed-upper-admission-C\n2d6cd0e78dc12837e530478399c8f6a78f50f6aa 3a9df32f515072950fac44b3f0bb9ab2b549170e Record synthetic failed-upper-admission-trunk\n14ce1cf8301d81d158846c87874ec64269972eaf a155b935b2f734721a42f947c3616f9ba71a6313 Record synthetic fresh-enabled-C\na16d7600f40639821a030d094e01521e71cfa2df 36e68aa8e2c415157ac721f28cf5f68714c7cc04 Record synthetic prefix-happy-C\n36e68aa8e2c415157ac721f28cf5f68714c7cc04 964781d850b7c100efbea59663f9eb9d1dfdb971 Record synthetic prefix-happy-B\na155b935b2f734721a42f947c3616f9ba71a6313 f2e28370a7c8a293c8806dc24bcb3e2b4a40fc2d Record synthetic fresh-enabled-B (#12)\n421ebcc5668832bb51751412ba17a18a9e0d1ea1 9e89e98c71df5d763887ff827af7c12e11555345 Record synthetic selected-head-edit-1794187135707147000-A\n00d3461ec9cc92155ae2ff0a8f1327e982da48ad 421ebcc5668832bb51751412ba17a18a9e0d1ea1 Record synthetic selected-head-edit-1794187135707147000-B\n9e89e98c71df5d763887ff827af7c12e11555345 3a9df32f515072950fac44b3f0bb9ab2b549170e Record synthetic selected-head-edit-1794187135707147000-trunk\n280468446730a5967ec57cbf1e0211d3f2956e48 96442fabd4556f626f2cb80bb3ee4dacb274afc7 Record synthetic late-group-failure-B\n21aa39443622f3f7295764adc7f9a8945d0eea6e f2e28370a7c8a293c8806dc24bcb3e2b4a40fc2d Record synthetic fresh-enabled-B\n96442fabd4556f626f2cb80bb3ee4dacb274afc7 77cf6da5ca6b0a46948c3ed0c64ce8486ca15d4e Record synthetic late-group-failure-A (#15)\n6271f4d74d65aa1058c1046e2fdfe6d189880370 77cf6da5ca6b0a46948c3ed0c64ce8486ca15d4e Record synthetic late-group-failure-A\n88698e19a9aa655e6478ea4c053111c3b3ec146d 6271f4d74d65aa1058c1046e2fdfe6d189880370 Record synthetic late-group-failure-B\n77cf6da5ca6b0a46948c3ed0c64ce8486ca15d4e 3a9df32f515072950fac44b3f0bb9ab2b549170e Record synthetic late-group-failure-trunk\nf2e28370a7c8a293c8806dc24bcb3e2b4a40fc2d e7bc26061f584629d2044a800577de5f8756d537 Record synthetic fresh-enabled-A (#11)\n8130ef408cde2f68b3dabae65794fa533e4701e5 e7bc26061f584629d2044a800577de5f8756d537 Record synthetic fresh-enabled-A\n483d647c76e8d74f54f738a54779f3296bbad5d0 8130ef408cde2f68b3dabae65794fa533e4701e5 Record synthetic fresh-enabled-B\n46b34c3a5c9f80ac0cf327b1fff6005bfdd99af4 483d647c76e8d74f54f738a54779f3296bbad5d0 Record synthetic fresh-enabled-C\ne7bc26061f584629d2044a800577de5f8756d537 3a9df32f515072950fac44b3f0bb9ab2b549170e Record synthetic fresh-enabled-trunk\n91df75452264aace94c7ba57141128adf924931d 5c67ceea8a77f20b71b7a5cf762bc5bcda910f55 Record synthetic queued-members-A\n61d19779766cde979b3aca68f448ebc071de7b08 91df75452264aace94c7ba57141128adf924931d Record synthetic queued-members-B\n9b501173f0aa7f2f9d1396a8814a4dfb6fc7b55a 61d19779766cde979b3aca68f448ebc071de7b08 Record synthetic queued-members-C\n5c67ceea8a77f20b71b7a5cf762bc5bcda910f55 3a9df32f515072950fac44b3f0bb9ab2b549170e Record synthetic queued-members-trunk\n4f7a5a72b1e974577dec4a2154c96e5daad0636f 0e953601b9aeea3630f7e02e3308c53d7cb5ac4a Record synthetic single-held-release-A (#5)\n5cd07a22622a4219c9412ff2ed43e50694158913 bb8f8f8df39e03c3cabb4d8df55d5d45cf2b4f3e Record synthetic single-group-failure-A\nbb8f8f8df39e03c3cabb4d8df55d5d45cf2b4f3e 3a9df32f515072950fac44b3f0bb9ab2b549170e Record synthetic single-group-failure-trunk\n9598ba41dda1477617af3a36c0a43abf2ec04c93 0e953601b9aeea3630f7e02e3308c53d7cb5ac4a Record synthetic single-held-release-A\n0e953601b9aeea3630f7e02e3308c53d7cb5ac4a 3a9df32f515072950fac44b3f0bb9ab2b549170e Record synthetic single-held-release-trunk\n964781d850b7c100efbea59663f9eb9d1dfdb971 2429464350b2940454fd021345d243ec2add8844 Record synthetic prefix-happy-A (#1)\n0f849939f61af49a85adec364b0af8e457dc98ec 2429464350b2940454fd021345d243ec2add8844 Record synthetic prefix-happy-A\n54a96f3828ef3bcc23ff863645f9c50750c16fd4 0f849939f61af49a85adec364b0af8e457dc98ec Record synthetic prefix-happy-B\neaa9d6f9500a3e654c28787d487e7aa3c77f2491 54a96f3828ef3bcc23ff863645f9c50750c16fd4 Record synthetic prefix-happy-C\n2429464350b2940454fd021345d243ec2add8844 3a9df32f515072950fac44b3f0bb9ab2b549170e Record synthetic prefix-happy-trunk\n3a9df32f515072950fac44b3f0bb9ab2b549170e  Add synthetic queue event fixtures",
+        "workflow_blob": "5d1d518b8c24c8651d127018f2f6817c7eb1c221",
+        "observer_blob": "89abf9e243c65f621b90277415eaf059e4849683",
+        "tracked_markers": {
+          "pull_request": "",
+          "merge_group": ""
+        },
+        "decision": "success",
+        "reasons": [],
+        "release_status": {
+          "context": "experiment/queue-release",
+          "merge_group_target_sha": null,
+          "posted_by_workflow": false
+        }
+      },
+      "pr_number": 26,
+      "event_pr_head": "e0bba642dfb010d659204b842391f2671c533e9b"
+    },
+    {
+      "run_id": 42545493991,
+      "event": "pull_request",
+      "action": "stacked",
+      "run_head_sha": "5544bb24c32f27b1f4efc704365d27ad37336a12",
+      "checkout": {
+        "env": {
+          "GITHUB_EVENT_NAME": "pull_request",
+          "GITHUB_SHA": "658b5e101a14d05084eddf3f3b56e76d1851ec49",
+          "GITHUB_REF": "refs/pull/25/merge",
+          "GITHUB_HEAD_REF": "exp/ci/native-no-manual-gate/A",
+          "GITHUB_BASE_REF": "exp/ci/native-no-manual-gate/trunk",
+          "GITHUB_RUN_ID": "42545493991",
+          "GITHUB_RUN_ATTEMPT": "1",
+          "GITHUB_JOB": "queue-observe",
+          "GITHUB_WORKFLOW": "queue-observe",
+          "GITHUB_WORKFLOW_REF": "intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/.github/workflows/queue-observe.yml@refs/pull/25/merge",
+          "GITHUB_WORKFLOW_SHA": "658b5e101a14d05084eddf3f3b56e76d1851ec49",
+          "GITHUB_REPOSITORY": "intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08",
+          "GITHUB_ACTOR": "joshlf",
+          "GITHUB_TRIGGERING_ACTOR": "joshlf",
+          "RUNNER_OS": "Linux",
+          "RUNNER_ARCH": "X64"
+        },
+        "python": "3.14.4 (main, Aug 20 2026, 10:41:58) [GCC 15.2.0]",
+        "platform": "Linux-7.0.0-1019-azure-x86_64-with-glibc2.43",
+        "head": "658b5e101a14d05084eddf3f3b56e76d1851ec49",
+        "tree": "51f300c61becb218c89757aa9902b9be9afe2847",
+        "parents": "658b5e101a14d05084eddf3f3b56e76d1851ec49 6d9310de15493dc854f50b39698d314df124a588 5544bb24c32f27b1f4efc704365d27ad37336a12",
+        "graph": "658b5e101a14d05084eddf3f3b56e76d1851ec49 6d9310de15493dc854f50b39698d314df124a588 5544bb24c32f27b1f4efc704365d27ad37336a12 Merge 5544bb24c32f27b1f4efc704365d27ad37336a12 into 6d9310de15493dc854f50b39698d314df124a588\n5544bb24c32f27b1f4efc704365d27ad37336a12 6d9310de15493dc854f50b39698d314df124a588 Record synthetic native-no-manual-gate-A\ne0bba642dfb010d659204b842391f2671c533e9b 5544bb24c32f27b1f4efc704365d27ad37336a12 Record synthetic native-no-manual-gate-B\n6d9310de15493dc854f50b39698d314df124a588 3a9df32f515072950fac44b3f0bb9ab2b549170e Record synthetic native-no-manual-gate-trunk\n4dda5e3dd63c15aac66e5fbe77d02150c2c79bbd 2d6cd0e78dc12837e530478399c8f6a78f50f6aa Record synthetic failed-upper-admission-A\n930a95811869cb7ca9c68fae67ffb462810a6516 4dda5e3dd63c15aac66e5fbe77d02150c2c79bbd Record synthetic failed-upper-admission-B\n467ac1438f5ee04c7557e6ae20bd3a0aca746370 930a95811869cb7ca9c68fae67ffb462810a6516 Record synthetic failed-upper-admission-C\n2d6cd0e78dc12837e530478399c8f6a78f50f6aa 3a9df32f515072950fac44b3f0bb9ab2b549170e Record synthetic failed-upper-admission-trunk\n14ce1cf8301d81d158846c87874ec64269972eaf a155b935b2f734721a42f947c3616f9ba71a6313 Record synthetic fresh-enabled-C\na16d7600f40639821a030d094e01521e71cfa2df 36e68aa8e2c415157ac721f28cf5f68714c7cc04 Record synthetic prefix-happy-C\n36e68aa8e2c415157ac721f28cf5f68714c7cc04 964781d850b7c100efbea59663f9eb9d1dfdb971 Record synthetic prefix-happy-B\na155b935b2f734721a42f947c3616f9ba71a6313 f2e28370a7c8a293c8806dc24bcb3e2b4a40fc2d Record synthetic fresh-enabled-B (#12)\n421ebcc5668832bb51751412ba17a18a9e0d1ea1 9e89e98c71df5d763887ff827af7c12e11555345 Record synthetic selected-head-edit-1794187135707147000-A\n00d3461ec9cc92155ae2ff0a8f1327e982da48ad 421ebcc5668832bb51751412ba17a18a9e0d1ea1 Record synthetic selected-head-edit-1794187135707147000-B\n9e89e98c71df5d763887ff827af7c12e11555345 3a9df32f515072950fac44b3f0bb9ab2b549170e Record synthetic selected-head-edit-1794187135707147000-trunk\n280468446730a5967ec57cbf1e0211d3f2956e48 96442fabd4556f626f2cb80bb3ee4dacb274afc7 Record synthetic late-group-failure-B\n21aa39443622f3f7295764adc7f9a8945d0eea6e f2e28370a7c8a293c8806dc24bcb3e2b4a40fc2d Record synthetic fresh-enabled-B\n96442fabd4556f626f2cb80bb3ee4dacb274afc7 77cf6da5ca6b0a46948c3ed0c64ce8486ca15d4e Record synthetic late-group-failure-A (#15)\n6271f4d74d65aa1058c1046e2fdfe6d189880370 77cf6da5ca6b0a46948c3ed0c64ce8486ca15d4e Record synthetic late-group-failure-A\n88698e19a9aa655e6478ea4c053111c3b3ec146d 6271f4d74d65aa1058c1046e2fdfe6d189880370 Record synthetic late-group-failure-B\n77cf6da5ca6b0a46948c3ed0c64ce8486ca15d4e 3a9df32f515072950fac44b3f0bb9ab2b549170e Record synthetic late-group-failure-trunk\nf2e28370a7c8a293c8806dc24bcb3e2b4a40fc2d e7bc26061f584629d2044a800577de5f8756d537 Record synthetic fresh-enabled-A (#11)\n8130ef408cde2f68b3dabae65794fa533e4701e5 e7bc26061f584629d2044a800577de5f8756d537 Record synthetic fresh-enabled-A\n483d647c76e8d74f54f738a54779f3296bbad5d0 8130ef408cde2f68b3dabae65794fa533e4701e5 Record synthetic fresh-enabled-B\n46b34c3a5c9f80ac0cf327b1fff6005bfdd99af4 483d647c76e8d74f54f738a54779f3296bbad5d0 Record synthetic fresh-enabled-C\ne7bc26061f584629d2044a800577de5f8756d537 3a9df32f515072950fac44b3f0bb9ab2b549170e Record synthetic fresh-enabled-trunk\n91df75452264aace94c7ba57141128adf924931d 5c67ceea8a77f20b71b7a5cf762bc5bcda910f55 Record synthetic queued-members-A\n61d19779766cde979b3aca68f448ebc071de7b08 91df75452264aace94c7ba57141128adf924931d Record synthetic queued-members-B\n9b501173f0aa7f2f9d1396a8814a4dfb6fc7b55a 61d19779766cde979b3aca68f448ebc071de7b08 Record synthetic queued-members-C\n5c67ceea8a77f20b71b7a5cf762bc5bcda910f55 3a9df32f515072950fac44b3f0bb9ab2b549170e Record synthetic queued-members-trunk\n4f7a5a72b1e974577dec4a2154c96e5daad0636f 0e953601b9aeea3630f7e02e3308c53d7cb5ac4a Record synthetic single-held-release-A (#5)\n5cd07a22622a4219c9412ff2ed43e50694158913 bb8f8f8df39e03c3cabb4d8df55d5d45cf2b4f3e Record synthetic single-group-failure-A\nbb8f8f8df39e03c3cabb4d8df55d5d45cf2b4f3e 3a9df32f515072950fac44b3f0bb9ab2b549170e Record synthetic single-group-failure-trunk\n9598ba41dda1477617af3a36c0a43abf2ec04c93 0e953601b9aeea3630f7e02e3308c53d7cb5ac4a Record synthetic single-held-release-A\n0e953601b9aeea3630f7e02e3308c53d7cb5ac4a 3a9df32f515072950fac44b3f0bb9ab2b549170e Record synthetic single-held-release-trunk\n964781d850b7c100efbea59663f9eb9d1dfdb971 2429464350b2940454fd021345d243ec2add8844 Record synthetic prefix-happy-A (#1)\n0f849939f61af49a85adec364b0af8e457dc98ec 2429464350b2940454fd021345d243ec2add8844 Record synthetic prefix-happy-A\n54a96f3828ef3bcc23ff863645f9c50750c16fd4 0f849939f61af49a85adec364b0af8e457dc98ec Record synthetic prefix-happy-B\neaa9d6f9500a3e654c28787d487e7aa3c77f2491 54a96f3828ef3bcc23ff863645f9c50750c16fd4 Record synthetic prefix-happy-C\n2429464350b2940454fd021345d243ec2add8844 3a9df32f515072950fac44b3f0bb9ab2b549170e Record synthetic prefix-happy-trunk\n3a9df32f515072950fac44b3f0bb9ab2b549170e  Add synthetic queue event fixtures",
+        "workflow_blob": "5d1d518b8c24c8651d127018f2f6817c7eb1c221",
+        "observer_blob": "89abf9e243c65f621b90277415eaf059e4849683",
+        "tracked_markers": {
+          "pull_request": "",
+          "merge_group": ""
+        },
+        "decision": "success",
+        "reasons": [],
+        "release_status": {
+          "context": "experiment/queue-release",
+          "merge_group_target_sha": null,
+          "posted_by_workflow": false
+        }
+      },
+      "pr_number": 25,
+      "event_pr_head": "5544bb24c32f27b1f4efc704365d27ad37336a12"
+    },
+    {
+      "run_id": 42545490702,
+      "event": "pull_request",
+      "action": "opened",
+      "run_head_sha": "5544bb24c32f27b1f4efc704365d27ad37336a12",
+      "checkout": {
+        "env": {
+          "GITHUB_EVENT_NAME": "pull_request",
+          "GITHUB_SHA": "658b5e101a14d05084eddf3f3b56e76d1851ec49",
+          "GITHUB_REF": "refs/pull/25/merge",
+          "GITHUB_HEAD_REF": "exp/ci/native-no-manual-gate/A",
+          "GITHUB_BASE_REF": "exp/ci/native-no-manual-gate/trunk",
+          "GITHUB_RUN_ID": "42545490702",
+          "GITHUB_RUN_ATTEMPT": "1",
+          "GITHUB_JOB": "queue-observe",
+          "GITHUB_WORKFLOW": "queue-observe",
+          "GITHUB_WORKFLOW_REF": "intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/.github/workflows/queue-observe.yml@refs/pull/25/merge",
+          "GITHUB_WORKFLOW_SHA": "658b5e101a14d05084eddf3f3b56e76d1851ec49",
+          "GITHUB_REPOSITORY": "intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08",
+          "GITHUB_ACTOR": "joshlf",
+          "GITHUB_TRIGGERING_ACTOR": "joshlf",
+          "RUNNER_OS": "Linux",
+          "RUNNER_ARCH": "X64"
+        },
+        "python": "3.14.4 (main, Aug 20 2026, 10:41:58) [GCC 15.2.0]",
+        "platform": "Linux-7.0.0-1019-azure-x86_64-with-glibc2.43",
+        "head": "658b5e101a14d05084eddf3f3b56e76d1851ec49",
+        "tree": "51f300c61becb218c89757aa9902b9be9afe2847",
+        "parents": "658b5e101a14d05084eddf3f3b56e76d1851ec49 6d9310de15493dc854f50b39698d314df124a588 5544bb24c32f27b1f4efc704365d27ad37336a12",
+        "graph": "658b5e101a14d05084eddf3f3b56e76d1851ec49 6d9310de15493dc854f50b39698d314df124a588 5544bb24c32f27b1f4efc704365d27ad37336a12 Merge 5544bb24c32f27b1f4efc704365d27ad37336a12 into 6d9310de15493dc854f50b39698d314df124a588\n5544bb24c32f27b1f4efc704365d27ad37336a12 6d9310de15493dc854f50b39698d314df124a588 Record synthetic native-no-manual-gate-A\ne0bba642dfb010d659204b842391f2671c533e9b 5544bb24c32f27b1f4efc704365d27ad37336a12 Record synthetic native-no-manual-gate-B\n6d9310de15493dc854f50b39698d314df124a588 3a9df32f515072950fac44b3f0bb9ab2b549170e Record synthetic native-no-manual-gate-trunk\n4dda5e3dd63c15aac66e5fbe77d02150c2c79bbd 2d6cd0e78dc12837e530478399c8f6a78f50f6aa Record synthetic failed-upper-admission-A\n930a95811869cb7ca9c68fae67ffb462810a6516 4dda5e3dd63c15aac66e5fbe77d02150c2c79bbd Record synthetic failed-upper-admission-B\n467ac1438f5ee04c7557e6ae20bd3a0aca746370 930a95811869cb7ca9c68fae67ffb462810a6516 Record synthetic failed-upper-admission-C\n2d6cd0e78dc12837e530478399c8f6a78f50f6aa 3a9df32f515072950fac44b3f0bb9ab2b549170e Record synthetic failed-upper-admission-trunk\n14ce1cf8301d81d158846c87874ec64269972eaf a155b935b2f734721a42f947c3616f9ba71a6313 Record synthetic fresh-enabled-C\na16d7600f40639821a030d094e01521e71cfa2df 36e68aa8e2c415157ac721f28cf5f68714c7cc04 Record synthetic prefix-happy-C\n36e68aa8e2c415157ac721f28cf5f68714c7cc04 964781d850b7c100efbea59663f9eb9d1dfdb971 Record synthetic prefix-happy-B\na155b935b2f734721a42f947c3616f9ba71a6313 f2e28370a7c8a293c8806dc24bcb3e2b4a40fc2d Record synthetic fresh-enabled-B (#12)\n421ebcc5668832bb51751412ba17a18a9e0d1ea1 9e89e98c71df5d763887ff827af7c12e11555345 Record synthetic selected-head-edit-1794187135707147000-A\n00d3461ec9cc92155ae2ff0a8f1327e982da48ad 421ebcc5668832bb51751412ba17a18a9e0d1ea1 Record synthetic selected-head-edit-1794187135707147000-B\n9e89e98c71df5d763887ff827af7c12e11555345 3a9df32f515072950fac44b3f0bb9ab2b549170e Record synthetic selected-head-edit-1794187135707147000-trunk\n280468446730a5967ec57cbf1e0211d3f2956e48 96442fabd4556f626f2cb80bb3ee4dacb274afc7 Record synthetic late-group-failure-B\n21aa39443622f3f7295764adc7f9a8945d0eea6e f2e28370a7c8a293c8806dc24bcb3e2b4a40fc2d Record synthetic fresh-enabled-B\n96442fabd4556f626f2cb80bb3ee4dacb274afc7 77cf6da5ca6b0a46948c3ed0c64ce8486ca15d4e Record synthetic late-group-failure-A (#15)\n6271f4d74d65aa1058c1046e2fdfe6d189880370 77cf6da5ca6b0a46948c3ed0c64ce8486ca15d4e Record synthetic late-group-failure-A\n88698e19a9aa655e6478ea4c053111c3b3ec146d 6271f4d74d65aa1058c1046e2fdfe6d189880370 Record synthetic late-group-failure-B\n77cf6da5ca6b0a46948c3ed0c64ce8486ca15d4e 3a9df32f515072950fac44b3f0bb9ab2b549170e Record synthetic late-group-failure-trunk\nf2e28370a7c8a293c8806dc24bcb3e2b4a40fc2d e7bc26061f584629d2044a800577de5f8756d537 Record synthetic fresh-enabled-A (#11)\n8130ef408cde2f68b3dabae65794fa533e4701e5 e7bc26061f584629d2044a800577de5f8756d537 Record synthetic fresh-enabled-A\n483d647c76e8d74f54f738a54779f3296bbad5d0 8130ef408cde2f68b3dabae65794fa533e4701e5 Record synthetic fresh-enabled-B\n46b34c3a5c9f80ac0cf327b1fff6005bfdd99af4 483d647c76e8d74f54f738a54779f3296bbad5d0 Record synthetic fresh-enabled-C\ne7bc26061f584629d2044a800577de5f8756d537 3a9df32f515072950fac44b3f0bb9ab2b549170e Record synthetic fresh-enabled-trunk\n91df75452264aace94c7ba57141128adf924931d 5c67ceea8a77f20b71b7a5cf762bc5bcda910f55 Record synthetic queued-members-A\n61d19779766cde979b3aca68f448ebc071de7b08 91df75452264aace94c7ba57141128adf924931d Record synthetic queued-members-B\n9b501173f0aa7f2f9d1396a8814a4dfb6fc7b55a 61d19779766cde979b3aca68f448ebc071de7b08 Record synthetic queued-members-C\n5c67ceea8a77f20b71b7a5cf762bc5bcda910f55 3a9df32f515072950fac44b3f0bb9ab2b549170e Record synthetic queued-members-trunk\n4f7a5a72b1e974577dec4a2154c96e5daad0636f 0e953601b9aeea3630f7e02e3308c53d7cb5ac4a Record synthetic single-held-release-A (#5)\n5cd07a22622a4219c9412ff2ed43e50694158913 bb8f8f8df39e03c3cabb4d8df55d5d45cf2b4f3e Record synthetic single-group-failure-A\nbb8f8f8df39e03c3cabb4d8df55d5d45cf2b4f3e 3a9df32f515072950fac44b3f0bb9ab2b549170e Record synthetic single-group-failure-trunk\n9598ba41dda1477617af3a36c0a43abf2ec04c93 0e953601b9aeea3630f7e02e3308c53d7cb5ac4a Record synthetic single-held-release-A\n0e953601b9aeea3630f7e02e3308c53d7cb5ac4a 3a9df32f515072950fac44b3f0bb9ab2b549170e Record synthetic single-held-release-trunk\n964781d850b7c100efbea59663f9eb9d1dfdb971 2429464350b2940454fd021345d243ec2add8844 Record synthetic prefix-happy-A (#1)\n0f849939f61af49a85adec364b0af8e457dc98ec 2429464350b2940454fd021345d243ec2add8844 Record synthetic prefix-happy-A\n54a96f3828ef3bcc23ff863645f9c50750c16fd4 0f849939f61af49a85adec364b0af8e457dc98ec Record synthetic prefix-happy-B\neaa9d6f9500a3e654c28787d487e7aa3c77f2491 54a96f3828ef3bcc23ff863645f9c50750c16fd4 Record synthetic prefix-happy-C\n2429464350b2940454fd021345d243ec2add8844 3a9df32f515072950fac44b3f0bb9ab2b549170e Record synthetic prefix-happy-trunk\n3a9df32f515072950fac44b3f0bb9ab2b549170e  Add synthetic queue event fixtures",
+        "workflow_blob": "5d1d518b8c24c8651d127018f2f6817c7eb1c221",
+        "observer_blob": "89abf9e243c65f621b90277415eaf059e4849683",
+        "tracked_markers": {
+          "pull_request": "",
+          "merge_group": ""
+        },
+        "decision": "success",
+        "reasons": [],
+        "release_status": {
+          "context": "experiment/queue-release",
+          "merge_group_target_sha": null,
+          "posted_by_workflow": false
+        }
+      },
+      "pr_number": 25,
+      "event_pr_head": "5544bb24c32f27b1f4efc704365d27ad37336a12"
+    }
+  ],
+  "removals": {
+    "A": [
+      {
+        "__typename": "RemovedFromMergeQueueEvent",
+        "id": "RFMQE_lADOVnmBMc8AAAABdjUyRM8AAAAIRXsqog",
+        "createdAt": "2026-11-09T01:26:28Z",
+        "reason": "merged",
+        "beforeCommit": {
+          "oid": "f2ed13bbdd7839e5e83e1ac131cff4ddd542d32d"
+        },
+        "actor": {
+          "login": "github-merge-queue"
+        }
+      }
+    ],
+    "B": [
+      {
+        "__typename": "RemovedFromMergeQueueEvent",
+        "id": "RFMQE_lADOVnmBMc8AAAABdjUzW88AAAAIRXsnew",
+        "createdAt": "2026-11-09T01:26:27Z",
+        "reason": "invalid_merge_commit",
+        "beforeCommit": null,
+        "actor": {
+          "login": "github-merge-queue"
+        }
+      }
+    ]
+  },
+  "commit_status_lists": {
+    "e0bba642dfb010d659204b842391f2671c533e9b": [],
+    "5544bb24c32f27b1f4efc704365d27ad37336a12": [],
+    "f2ed13bbdd7839e5e83e1ac131cff4ddd542d32d": [],
+    "faabdcba56d4b3fcbcd8e4caa585e797082f0408": []
+  },
+  "status_write_receipts": [],
+  "local_pins": {
+    "refs/experiment-inputs/native-no-manual-gate-frozen-current-B": "faabdcba56d4b3fcbcd8e4caa585e797082f0408",
+    "refs/experiment-inputs/native-no-manual-gate-frozen-current-trunk": "f2ed13bbdd7839e5e83e1ac131cff4ddd542d32d"
+  },
+  "limits": "One fresh fixture per method; read intervals are not atomic; no future-write or provider-settlement guarantee"
+}

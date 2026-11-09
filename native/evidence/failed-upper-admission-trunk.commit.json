@@ -1,0 +1,9 @@
+{
+  "sha": "2d6cd0e78dc12837e530478399c8f6a78f50f6aa",
+  "tree": "7dc204245268811f1330d33e3b1ce4b6911f11ee",
+  "parent": "3a9df32f515072950fac44b3f0bb9ab2b549170e",
+  "files": {
+    "failed-upper-admission/base.txt": "baseline=1\n"
+  },
+  "message": "Record synthetic failed-upper-admission-trunk\n\nAgent-authored-by: AI agent acting on joshlf's behalf\n"
+}

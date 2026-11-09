@@ -1,0 +1,26 @@
+{
+  "method": "PUT",
+  "path": "repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/pulls/23/merge-async",
+  "payload": {
+    "merge_action": "merge_queue",
+    "sha": "467ac1438f5ee04c7557e6ae20bd3a0aca746370"
+  },
+  "label": "failed-upper-admission-enqueue",
+  "start": "2026-11-09T01:24:57.049188+00:00",
+  "monotonic_start": 6.551825833,
+  "end": "2026-11-09T01:24:57.488309+00:00",
+  "monotonic_end": 6.990960083,
+  "exit": 0,
+  "http": 202,
+  "data": {
+    "status": "pending",
+    "details": {
+      "message": "Merge request enqueued.",
+      "uuid": "ed7a079d-408a-4b09-9f23-9149a761e568",
+      "merge_method": "default",
+      "merge_action": "merge_queue",
+      "expected_head_sha": "467ac1438f5ee04c7557e6ae20bd3a0aca746370",
+      "bypass_rules": false
+    }
+  }
+}

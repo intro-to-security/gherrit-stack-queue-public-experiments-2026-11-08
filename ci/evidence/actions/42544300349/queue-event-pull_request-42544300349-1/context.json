@@ -1,0 +1,39 @@
+{
+  "env": {
+    "GITHUB_EVENT_NAME": "pull_request",
+    "GITHUB_SHA": "28411d148594eaa0382db8421f92ccc5678e0f9a",
+    "GITHUB_REF": "refs/pull/6/merge",
+    "GITHUB_HEAD_REF": "exp/ci/single-group-failure/A",
+    "GITHUB_BASE_REF": "exp/ci/single-group-failure/trunk",
+    "GITHUB_RUN_ID": "42544300349",
+    "GITHUB_RUN_ATTEMPT": "1",
+    "GITHUB_JOB": "queue-observe",
+    "GITHUB_WORKFLOW": "queue-observe",
+    "GITHUB_WORKFLOW_REF": "intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/.github/workflows/queue-observe.yml@refs/pull/6/merge",
+    "GITHUB_WORKFLOW_SHA": "28411d148594eaa0382db8421f92ccc5678e0f9a",
+    "GITHUB_REPOSITORY": "intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08",
+    "GITHUB_ACTOR": "joshlf",
+    "GITHUB_TRIGGERING_ACTOR": "joshlf",
+    "RUNNER_OS": "Linux",
+    "RUNNER_ARCH": "X64"
+  },
+  "python": "3.14.4 (main, Aug 20 2026, 10:41:58) [GCC 15.2.0]",
+  "platform": "Linux-7.0.0-1019-azure-x86_64-with-glibc2.43",
+  "head": "28411d148594eaa0382db8421f92ccc5678e0f9a",
+  "tree": "b243f98bda2b3bd7d4ee64365ced2f3ce2e57bc0",
+  "parents": "28411d148594eaa0382db8421f92ccc5678e0f9a bb8f8f8df39e03c3cabb4d8df55d5d45cf2b4f3e 5cd07a22622a4219c9412ff2ed43e50694158913",
+  "graph": "28411d148594eaa0382db8421f92ccc5678e0f9a bb8f8f8df39e03c3cabb4d8df55d5d45cf2b4f3e 5cd07a22622a4219c9412ff2ed43e50694158913 Merge 5cd07a22622a4219c9412ff2ed43e50694158913 into bb8f8f8df39e03c3cabb4d8df55d5d45cf2b4f3e\n5cd07a22622a4219c9412ff2ed43e50694158913 bb8f8f8df39e03c3cabb4d8df55d5d45cf2b4f3e Record synthetic single-group-failure-A\nbb8f8f8df39e03c3cabb4d8df55d5d45cf2b4f3e 3a9df32f515072950fac44b3f0bb9ab2b549170e Record synthetic single-group-failure-trunk\n9598ba41dda1477617af3a36c0a43abf2ec04c93 0e953601b9aeea3630f7e02e3308c53d7cb5ac4a Record synthetic single-held-release-A\n0e953601b9aeea3630f7e02e3308c53d7cb5ac4a 3a9df32f515072950fac44b3f0bb9ab2b549170e Record synthetic single-held-release-trunk\n0f849939f61af49a85adec364b0af8e457dc98ec 2429464350b2940454fd021345d243ec2add8844 Record synthetic prefix-happy-A\n54a96f3828ef3bcc23ff863645f9c50750c16fd4 0f849939f61af49a85adec364b0af8e457dc98ec Record synthetic prefix-happy-B\neaa9d6f9500a3e654c28787d487e7aa3c77f2491 54a96f3828ef3bcc23ff863645f9c50750c16fd4 Record synthetic prefix-happy-C\n2429464350b2940454fd021345d243ec2add8844 3a9df32f515072950fac44b3f0bb9ab2b549170e Record synthetic prefix-happy-trunk\n3a9df32f515072950fac44b3f0bb9ab2b549170e  Add synthetic queue event fixtures",
+  "workflow_blob": "5d1d518b8c24c8651d127018f2f6817c7eb1c221",
+  "observer_blob": "89abf9e243c65f621b90277415eaf059e4849683",
+  "tracked_markers": {
+    "pull_request": "",
+    "merge_group": "100644 blob 7e53176735d9d1fe7722e2c49a73c6af5c24bcc9\t.queue-experiment/FAIL_MERGE_GROUP"
+  },
+  "decision": "success",
+  "reasons": [],
+  "release_status": {
+    "context": "experiment/queue-release",
+    "merge_group_target_sha": null,
+    "posted_by_workflow": false
+  }
+}

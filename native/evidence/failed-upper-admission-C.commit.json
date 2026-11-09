@@ -1,0 +1,10 @@
+{
+  "sha": "467ac1438f5ee04c7557e6ae20bd3a0aca746370",
+  "tree": "7969c6489c849c88ca3aae524c12bdcd000d9874",
+  "parent": "930a95811869cb7ca9c68fae67ffb462810a6516",
+  "files": {
+    ".queue-experiment/FAIL_PR": "synthetic PR-only failure\n",
+    "failed-upper-admission/C.txt": "C=1\n"
+  },
+  "message": "Record synthetic failed-upper-admission-C\n\nAgent-authored-by: AI agent acting on joshlf's behalf\n"
+}
