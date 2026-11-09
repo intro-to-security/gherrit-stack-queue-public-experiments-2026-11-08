@@ -74,9 +74,9 @@ retained. It was not repaired or replayed into a passing fixture.
 
 ## Evidence and limits
 
-- [Fixture manifests and process/checkpoint traces](fixtures/) bind canonical PRs,
+- [Fixture manifests and process/checkpoint traces](https://github.com/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/raw/97b993efdda40a1cbe690d317e436e32937adb85/followup-2026-11-08/structure/evidence.tar.gz) bind canonical PRs,
   exact planned effects, custody hashes, original/new ranges and selected kills.
-- [Raw intents, receipts and independent readbacks](evidence/) retain each request,
+- [Raw intents, receipts and independent readbacks](https://github.com/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/raw/97b993efdda40a1cbe690d317e436e32937adb85/followup-2026-11-08/structure/evidence.tar.gz) retain each request,
   response, atomic-push result and phase snapshot. REST version was `2026-03-10`;
   mutations were sequential and paced at least two seconds apart.
 - [lab.py](lab.py), [run.py](run.py), [audit.py](audit.py) and
@@ -86,7 +86,7 @@ retained. It was not repaired or replayed into a passing fixture.
   harness correction, and no mutation remained unreceipted.
 
 This adds hosted interruption/restart evidence to the
-[prior structural sequence](../../native-stacks-2026-11-08/api/RESULTS.md).
+[prior structural sequence](https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08/blob/ade319107e71b6eff646a1574139e2c15486fe6d/api/RESULTS.md).
 Prior safe drop, fold and trunk changes remain prior evidence; this lane makes
 no new interrupted-recovery claim for those operations. The
 [local recovery failures](../local/RESULTS.md) remain findings about that separate

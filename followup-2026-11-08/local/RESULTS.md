@@ -43,7 +43,7 @@ The unchanged baseline also exercises actual `commit --amend`, `rebase` and
 `revert`. Author mapping/reset intent remains an input, not an inferred policy.
 
 The baseline rerun retains F-before-B ownership and workspace protection. The
-prior [hosted integration](../../native-stacks-2026-11-08/local-git/hosted-integration/RESULTS.md)
+prior [hosted integration](https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08/blob/ade319107e71b6eff646a1574139e2c15486fe6d/local-git/hosted-integration/RESULTS.md)
 is reused for the executable dependency: B succeeds with F below it and fails
 specifically for the missing field without F. That earlier hosted sequence also
 retains its inconsistent observation and corrected status oracle; it is not
@@ -138,7 +138,7 @@ Five `link --help` subprocess samples took approximately 12–13 ms each here.
 This measures local startup/help cost only. Network, live validation, API calls,
 transport and human work are excluded. Exact samples, source hashes, the release
 versus inspected-source relationship and source/license copies are retained.
-The earlier [CLI effects](../../native-stacks-2026-11-08/cli-history/RESULTS.md)
+The earlier [CLI effects](https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08/blob/ade319107e71b6eff646a1574139e2c15486fe6d/cli-history/RESULTS.md)
 remain the evidence that canonical URLs can still repair bases, `--open` can
 change readiness before failure, and broad submit does not publish GHerrit's
 archive tags. The local validator does not make those writes atomic or supply a

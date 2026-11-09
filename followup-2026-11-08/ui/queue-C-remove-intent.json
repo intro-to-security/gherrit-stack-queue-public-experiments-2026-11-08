@@ -1,0 +1,10 @@
+{
+  "at": "2026-11-09T05:31:29.288343+00:00",
+  "repo": "intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08",
+  "pr": 122,
+  "action": "website Remove from queue",
+  "basis": "user confirms sign-in; owner controls visible; fresh page says Queued; ABC allQueued; worker independently confirms all3admitted",
+  "original_admission_uuid": "9a496f02-2b84-49a4-89dc-820e2a7ab989",
+  "scope": "upper C removal; no head/base/status writes",
+  "retry": "no blind repeat after uncertain click"
+}

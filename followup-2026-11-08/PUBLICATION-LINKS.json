@@ -1,0 +1,102 @@
+{
+  "reason": "Repair navigation in published report copies; all original reports remain byte-exact within lane archives or locally retained planning records. Archive indexes describe archive contents, not these link-adjusted display copies.",
+  "changes": [
+    {
+      "file": "planning/COVERAGE-FINAL.md",
+      "old_link": "../../../outputs/github-native-stack-design-2026-11-08/post-experiment-refinement/OPEN-QUESTIONS-BY-RESOLUTION.md",
+      "published_link": "https://github.com/joshlf/gherrit/issues/518"
+    },
+    {
+      "file": "planning/COVERAGE-FINAL.md",
+      "old_link": "audit/REPORT-FINAL.md",
+      "published_link": "../audit/REPORT-FINAL.md"
+    },
+    {
+      "file": "planning/COVERAGE-FINAL.md",
+      "old_link": "audit/REPORT.md",
+      "published_link": "../audit/REPORT.md"
+    },
+    {
+      "file": "planning/COVERAGE-FINAL.md",
+      "old_link": "../../native-stacks-2026-11-08/api/RESULTS.md",
+      "published_link": "https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08/blob/ade319107e71b6eff646a1574139e2c15486fe6d/api/RESULTS.md"
+    },
+    {
+      "file": "planning/COVERAGE-FINAL.md",
+      "old_link": "../../native-stacks-2026-11-08/local-git/hosted-integration/RESULTS.md",
+      "published_link": "https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08/blob/ade319107e71b6eff646a1574139e2c15486fe6d/local-git/hosted-integration/RESULTS.md"
+    },
+    {
+      "file": "planning/COVERAGE-FINAL.md",
+      "old_link": "../../native-stacks-2026-11-08/cli-history/RESULTS.md",
+      "published_link": "https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08/blob/ade319107e71b6eff646a1574139e2c15486fe6d/cli-history/RESULTS.md"
+    },
+    {
+      "file": "planning/COVERAGE-FINAL.md",
+      "old_link": "../../native-stacks-2026-11-08/cli-history/CONCURRENT-HISTORY.md",
+      "published_link": "https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08/blob/ade319107e71b6eff646a1574139e2c15486fe6d/cli-history/CONCURRENT-HISTORY.md"
+    },
+    {
+      "file": "planning/COVERAGE-FINAL.md",
+      "old_link": "../queue/ui-removal/PLAN-UI.md",
+      "published_link": "https://github.com/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/raw/97b993efdda40a1cbe690d317e436e32937adb85/followup-2026-11-08/queue/evidence.tar.gz"
+    },
+    {
+      "file": "planning/COVERAGE-FINAL.md",
+      "old_link": "../queue/ui-removal/state.json",
+      "published_link": "https://github.com/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/raw/97b993efdda40a1cbe690d317e436e32937adb85/followup-2026-11-08/queue/evidence.tar.gz"
+    },
+    {
+      "file": "local/RESULTS.md",
+      "old_link": "../../native-stacks-2026-11-08/local-git/hosted-integration/RESULTS.md",
+      "published_link": "https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08/blob/ade319107e71b6eff646a1574139e2c15486fe6d/local-git/hosted-integration/RESULTS.md"
+    },
+    {
+      "file": "local/RESULTS.md",
+      "old_link": "../../native-stacks-2026-11-08/cli-history/RESULTS.md",
+      "published_link": "https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08/blob/ade319107e71b6eff646a1574139e2c15486fe6d/cli-history/RESULTS.md"
+    },
+    {
+      "file": "structure/RESULTS.md",
+      "old_link": "fixtures/",
+      "published_link": "https://github.com/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/raw/97b993efdda40a1cbe690d317e436e32937adb85/followup-2026-11-08/structure/evidence.tar.gz"
+    },
+    {
+      "file": "structure/RESULTS.md",
+      "old_link": "evidence/",
+      "published_link": "https://github.com/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/raw/97b993efdda40a1cbe690d317e436e32937adb85/followup-2026-11-08/structure/evidence.tar.gz"
+    },
+    {
+      "file": "structure/RESULTS.md",
+      "old_link": "../../native-stacks-2026-11-08/api/RESULTS.md",
+      "published_link": "https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08/blob/ade319107e71b6eff646a1574139e2c15486fe6d/api/RESULTS.md"
+    },
+    {
+      "file": "audit/REPORT.md",
+      "old_link": "../../queue/RESULTS.md",
+      "published_link": "../queue/RESULTS.md"
+    },
+    {
+      "file": "audit/REPORT.md",
+      "old_link": "../../queue/CLAIM-CORRECTIONS.md",
+      "published_link": "../queue/CLAIM-CORRECTIONS.md"
+    },
+    {
+      "file": "audit/REPORT.md",
+      "old_link": "../../local/baseline-harness.py",
+      "published_link": "../local/baseline-harness.py"
+    },
+    {
+      "file": "audit/REPORT.md",
+      "old_link": "../../local/RESULTS.md",
+      "published_link": "../local/RESULTS.md"
+    }
+  ],
+  "additional_display_copy": {
+    "path": "planning/COVERAGE-FINAL-UI.md",
+    "source": "planning/COVERAGE-FINAL-UI.md",
+    "source_sha256": "aa6343f230233f414f89781e9d7467804155b9c7665902b5d11fcfb88ae9d70b",
+    "display_sha256": "68886bf616ede2d94caea880b2f4063938b5c821ea1906e5028e28dfbcb24336",
+    "edits": "Local old-campaign and contract links point to their published sources; audit paths adjusted to the published layout."
+  }
+}

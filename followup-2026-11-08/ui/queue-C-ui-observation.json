@@ -1,0 +1,9 @@
+{
+  "at": "2026-11-09T05:32:23.825041+00:00",
+  "pr": 122,
+  "action": "Remove from queue, then confirm Remove from the queue",
+  "result": "Not Found",
+  "page_state": "Queued; C/B/A allQueued",
+  "request_uuid": "not exposed",
+  "transcript": "CUA native AX; initial stale element lookup failed before click, refreshed validbutton then opened and confirmeddialog once"
+}

@@ -50,6 +50,11 @@
   ],
   "indexed_case_ids": 130,
   "counts_are_not_a_correctness_score": true,
-  "authenticated_queue_extension": "prepared, unadmitted; separate extension not in130",
+  "authenticated_queue_extension": {
+    "indexed_case_ids": 5,
+    "index": "queue/ui-removal/case-index.json",
+    "state": "performed; upper/middle website errors, independentlyverified unchangedmembership; singlelowercleanup complete",
+    "count_unit": "grouped preparation/admission/action/cleanup dispositions, not independent success trials"
+  },
   "human_usability": "not established"
 }

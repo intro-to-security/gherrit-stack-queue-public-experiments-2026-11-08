@@ -57,4 +57,8 @@ of GitHub with no saved credential offered; the user was asked to sign in direct
 for owner-only queue controls. That handoff is pending. A fresh held-queue fixture
 is prepared but unadmitted, so waiting for login cannot leave it armed.
 
+## Completed authenticated extension
+
+The user subsequently confirmed sign-in as joshlf. Native Chrome exposed owner controls on the fresh public fixture. After one API admission, actual upper and middle website removal confirmations each returned visible “Not Found”. Independent API/Git reads after each retained ABC. A single authorized lower-A cleanup removed all three manually before timeout, leaving the queue empty and PRs open/unmerged with exact source/trunk/archives. [Browser observations](QUEUE-BROWSER-RESULTS.md) and the [API result](../queue/ui-removal/RESULTS-UI.md) supersede the earlier pending-login checkpoint. No website HTTP status, initiating UUID or internal routing cause was captured or inferred. The CUA part ended with its observed-error summary.
+
 *Authored by an AI agent acting on joshlf's behalf.*

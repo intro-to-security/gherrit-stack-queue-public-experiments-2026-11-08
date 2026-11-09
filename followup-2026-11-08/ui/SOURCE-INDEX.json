@@ -3,10 +3,10 @@
   "files": [
     {
       "path": "ACCESS-ATTEMPTS.md",
-      "bytes": 3487,
-      "sha256": "9b929e1c250c8c7e1060b76c856397dc271d8a45b3be7391547e5e877368aeca",
+      "bytes": 4268,
+      "sha256": "402c059119bb0f5dc09457a04fe5809eb522a36ef664cfae687d94022485bd5e",
       "mode": 420,
-      "mtime_seconds": 1794200103
+      "mtime_seconds": 1794202646
     },
     {
       "path": "HISTORY-BROWSER-RESULTS.md",
@@ -23,6 +23,41 @@
       "mtime_seconds": 1794198026
     },
     {
+      "path": "QUEUE-BROWSER-RESULTS.md",
+      "bytes": 2571,
+      "sha256": "410a9c985646b852b8ca5ce186ac8986fcecaf730c0c316f4ebaa548b1c9d654",
+      "mode": 420,
+      "mtime_seconds": 1794202646
+    },
+    {
+      "path": "queue-B-remove-intent.json",
+      "bytes": 300,
+      "sha256": "f1777a5c1165e400987b9e511331b913e13126bccd28633e6b57abf77409c4b0",
+      "mode": 420,
+      "mtime_seconds": 1794202343
+    },
+    {
+      "path": "queue-B-ui-observation.json",
+      "bytes": 408,
+      "sha256": "bd87f3ecd207dbccba651459ddadbe214173cba2127de686f4b6ac73bc7c3227",
+      "mode": 420,
+      "mtime_seconds": 1794202411
+    },
+    {
+      "path": "queue-C-remove-intent.json",
+      "bytes": 504,
+      "sha256": "cfddf9f0dfef0961d268aaaa342cc1e6bf84302d796d18b9515d19a76a9f9e0f",
+      "mode": 420,
+      "mtime_seconds": 1794202289
+    },
+    {
+      "path": "queue-C-ui-observation.json",
+      "bytes": 373,
+      "sha256": "137d54f61985579f8ab71eca5725f8caac6fccac75638801db7d0ddbf9db0628",
+      "mode": 420,
+      "mtime_seconds": 1794202343
+    },
+    {
       "path": "user-rebase-128.json",
       "bytes": 550,
       "sha256": "82e6184b2172e4a1b68ebeaaf47e3b79ac4ea4dd9a77b8254bf130138862b530",
@@ -30,10 +65,10 @@
       "mtime_seconds": 1794199425
     }
   ],
-  "file_count": 4,
-  "expanded_bytes": 8697,
-  "archive_bytes": 4122,
-  "archive_sha256": "5be5a5147f75892ace11278dc7a2ec07bcbeb58cfbd25ffe8a5554bf7d8a3161",
+  "file_count": 9,
+  "expanded_bytes": 13634,
+  "archive_bytes": 5987,
+  "archive_sha256": "c5ac977e25cd414221b216809a0f4b29f69824d59a036ec86799a6880f92d95f",
   "verified": true,
   "scope": "UTF-8 source/reports/evidence only; local Git databases, executables, working trees and nontext payloads are retained locally, not removed",
   "restore": "In a new empty directory: tar -xzf /path/to/evidence.tar.gz; verify every entry against SOURCE-INDEX.json before use."

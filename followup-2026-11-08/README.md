@@ -8,8 +8,9 @@ The five completed automated/website lanes retain **130 indexed case IDs**.
 That index includes fresh experiments, explicit prior controls, scoped unavailable
 premises and a replaced failed premise; it is not 130 independent fresh successes.
 Four website rebases were performed by the user and independently checked through
-API/Git evidence. A separate authenticated website queue-removal extension is
-prepared but unadmitted while browser login is pending. Human usability and
+API/Git evidence. A separate five-disposition authenticated website queue-removal extension is
+now complete: upper/middle controls returned “Not Found”, independent reads retained
+ABC, and one lower removal cleared the held fixture before timeout. Human usability and
 machine power-loss claims remain separate from these functional observations.
 
 ## Read the results
@@ -21,9 +22,10 @@ machine power-loss claims remain separate from these functional observations.
 | [Local results](local/RESULTS.md) / [case index](local/CASE-MATRIX.md) | Broader import checks passed; recovery probes exposed completion, missing-evidence, stale-worker and identity gaps in the prototype. Driver success does not turn those failures into correctness. |
 | [Transport and boundary results](protocol/RESULTS.md) / [case index](protocol/matrix.json) | Genuine missing acknowledgements produced effects; 99/100-member creates returned 504/502 despite creating groups; clean incremental append reached 100 and rejected 101. The original blind retry and corrected guard are retained. |
 | [Structural restart results](structure/RESULTS.md) / [case index](structure/CASE-MATRIX.md) | Nine actual after-ack SIGKILL/restart recoveries preserved canonical reviews/archives; missing-receipt and stale-state controls refused before dispatch. |
+| [Authenticated queue-removal extension](queue/ui-removal/RESULTS-UI.md) / [browser observations](ui/QUEUE-BROWSER-RESULTS.md) | Actual upper/middle website errors retained admitted membership; one lower cleanup removed dependents. No website HTTP status, UUID or internal cause was inferred. |
 | [Browser history walkthrough](ui/HISTORY-BROWSER-RESULTS.md) | Actual public links rendered exact patch versus parent-drift comparison. This was an informed agent walkthrough, not a human comprehension study. |
 
-The [coverage plan](PLAN.md) records the material factors and decision mapping.
+The [final question-by-question coverage map](planning/COVERAGE-FINAL-UI.md) separates completed observations from remaining engineering, provider and human questions. The [coverage plan](PLAN.md) records the material factors and decision mapping.
 Each lane's own plan preceded its mutations. Later controls and report/oracle
 corrections preserve their original evidence. Read report limits and the case
 dispositions before interpreting a result.
@@ -31,7 +33,7 @@ dispositions before interpreting a result.
 ## Source and exact evidence
 
 Each lane exposes its reports, machine case index and top-level Python source.
-Its `evidence.tar.gz` is a lossless copy of the UTF-8 source and raw evidence,
+Report display copies have navigation links repaired as recorded in [PUBLICATION-LINKS.json](PUBLICATION-LINKS.json); original report bytes remain inside the archives. Its `evidence.tar.gz` is a lossless copy of the UTF-8 source and raw evidence,
 with a per-file content/mode/timestamp inventory in `SOURCE-INDEX.json`.
 All archive entries were reopened and checked against their original bytes and
 needed file metadata. Expanded local copies and Git stores remain retained;

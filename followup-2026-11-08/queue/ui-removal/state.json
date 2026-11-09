@@ -1,0 +1,3029 @@
+{
+  "name": "ui-removal-20261109a",
+  "phase": "cleaned",
+  "observations": [
+    {
+      "label": "source-ready",
+      "start": "2026-11-09T04:53:14.130987+00:00",
+      "end": "2026-11-09T04:53:15.533950+00:00",
+      "graphql_receipt": "source-ready",
+      "entries": [],
+      "prs": {
+        "A": {
+          "id": "PR_kwDOVnmBMc8AAAABNxJQlA",
+          "number": 120,
+          "state": "OPEN",
+          "merged": false,
+          "mergedAt": null,
+          "headRefOid": "dedc68f2283419882f05599a1c363fef8ee84786",
+          "baseRefName": "exp/fu2/queue/ui-removal-20261109a/trunk",
+          "mergeStateStatus": "BLOCKED",
+          "isInMergeQueue": false,
+          "mergeQueueEntry": null,
+          "timelineItems": {
+            "nodes": [
+              {
+                "__typename": "PullRequestCommit"
+              },
+              {
+                "__typename": "AddedToStackEvent"
+              }
+            ]
+          }
+        },
+        "B": {
+          "id": "PR_kwDOVnmBMc8AAAABNxJRLg",
+          "number": 121,
+          "state": "OPEN",
+          "merged": false,
+          "mergedAt": null,
+          "headRefOid": "3aad3a2488ca080d1bd7408337a5bbcb74523345",
+          "baseRefName": "exp/fu2/queue/ui-removal-20261109a/A",
+          "mergeStateStatus": "BLOCKED",
+          "isInMergeQueue": false,
+          "mergeQueueEntry": null,
+          "timelineItems": {
+            "nodes": [
+              {
+                "__typename": "PullRequestCommit"
+              },
+              {
+                "__typename": "AddedToStackEvent"
+              }
+            ]
+          }
+        },
+        "C": {
+          "id": "PR_kwDOVnmBMc8AAAABNxJR5A",
+          "number": 122,
+          "state": "OPEN",
+          "merged": false,
+          "mergedAt": null,
+          "headRefOid": "a107cd90fb95f5bcd11d59a3f1599be78c4fbf19",
+          "baseRefName": "exp/fu2/queue/ui-removal-20261109a/B",
+          "mergeStateStatus": "BLOCKED",
+          "isInMergeQueue": false,
+          "mergeQueueEntry": null,
+          "timelineItems": {
+            "nodes": [
+              {
+                "__typename": "PullRequestCommit"
+              },
+              {
+                "__typename": "AddedToStackEvent"
+              }
+            ]
+          }
+        }
+      },
+      "refs_start": "2026-11-09T04:53:15.535345+00:00",
+      "refs": "dedc68f2283419882f05599a1c363fef8ee84786\trefs/heads/exp/fu2/queue/ui-removal-20261109a/A\n3aad3a2488ca080d1bd7408337a5bbcb74523345\trefs/heads/exp/fu2/queue/ui-removal-20261109a/B\na107cd90fb95f5bcd11d59a3f1599be78c4fbf19\trefs/heads/exp/fu2/queue/ui-removal-20261109a/C\neb6f13d837b350ff3eb567149069b2fc037f5a62\trefs/heads/exp/fu2/queue/ui-removal-20261109a/trunk\ndedc68f2283419882f05599a1c363fef8ee84786\trefs/tags/exp/fu2/queue/ui-removal-20261109a/authored/A/v1\n3aad3a2488ca080d1bd7408337a5bbcb74523345\trefs/tags/exp/fu2/queue/ui-removal-20261109a/authored/B/v1\na107cd90fb95f5bcd11d59a3f1599be78c4fbf19\trefs/tags/exp/fu2/queue/ui-removal-20261109a/authored/C/v1",
+      "refs_end": "2026-11-09T04:53:15.733131+00:00"
+    },
+    {
+      "label": "source-ready",
+      "start": "2026-11-09T04:53:20.736863+00:00",
+      "end": "2026-11-09T04:53:21.907561+00:00",
+      "graphql_receipt": "source-ready-read-2",
+      "entries": [],
+      "prs": {
+        "A": {
+          "id": "PR_kwDOVnmBMc8AAAABNxJQlA",
+          "number": 120,
+          "state": "OPEN",
+          "merged": false,
+          "mergedAt": null,
+          "headRefOid": "dedc68f2283419882f05599a1c363fef8ee84786",
+          "baseRefName": "exp/fu2/queue/ui-removal-20261109a/trunk",
+          "mergeStateStatus": "BLOCKED",
+          "isInMergeQueue": false,
+          "mergeQueueEntry": null,
+          "timelineItems": {
+            "nodes": [
+              {
+                "__typename": "PullRequestCommit"
+              },
+              {
+                "__typename": "AddedToStackEvent"
+              }
+            ]
+          }
+        },
+        "B": {
+          "id": "PR_kwDOVnmBMc8AAAABNxJRLg",
+          "number": 121,
+          "state": "OPEN",
+          "merged": false,
+          "mergedAt": null,
+          "headRefOid": "3aad3a2488ca080d1bd7408337a5bbcb74523345",
+          "baseRefName": "exp/fu2/queue/ui-removal-20261109a/A",
+          "mergeStateStatus": "BLOCKED",
+          "isInMergeQueue": false,
+          "mergeQueueEntry": null,
+          "timelineItems": {
+            "nodes": [
+              {
+                "__typename": "PullRequestCommit"
+              },
+              {
+                "__typename": "AddedToStackEvent"
+              }
+            ]
+          }
+        },
+        "C": {
+          "id": "PR_kwDOVnmBMc8AAAABNxJR5A",
+          "number": 122,
+          "state": "OPEN",
+          "merged": false,
+          "mergedAt": null,
+          "headRefOid": "a107cd90fb95f5bcd11d59a3f1599be78c4fbf19",
+          "baseRefName": "exp/fu2/queue/ui-removal-20261109a/B",
+          "mergeStateStatus": "BLOCKED",
+          "isInMergeQueue": false,
+          "mergeQueueEntry": null,
+          "timelineItems": {
+            "nodes": [
+              {
+                "__typename": "PullRequestCommit"
+              },
+              {
+                "__typename": "AddedToStackEvent"
+              }
+            ]
+          }
+        }
+      },
+      "refs_start": "2026-11-09T04:53:21.908801+00:00",
+      "refs": "dedc68f2283419882f05599a1c363fef8ee84786\trefs/heads/exp/fu2/queue/ui-removal-20261109a/A\n3aad3a2488ca080d1bd7408337a5bbcb74523345\trefs/heads/exp/fu2/queue/ui-removal-20261109a/B\na107cd90fb95f5bcd11d59a3f1599be78c4fbf19\trefs/heads/exp/fu2/queue/ui-removal-20261109a/C\neb6f13d837b350ff3eb567149069b2fc037f5a62\trefs/heads/exp/fu2/queue/ui-removal-20261109a/trunk\ndedc68f2283419882f05599a1c363fef8ee84786\trefs/tags/exp/fu2/queue/ui-removal-20261109a/authored/A/v1\n3aad3a2488ca080d1bd7408337a5bbcb74523345\trefs/tags/exp/fu2/queue/ui-removal-20261109a/authored/B/v1\na107cd90fb95f5bcd11d59a3f1599be78c4fbf19\trefs/tags/exp/fu2/queue/ui-removal-20261109a/authored/C/v1",
+      "refs_end": "2026-11-09T04:53:22.080660+00:00"
+    },
+    {
+      "label": "source-ready",
+      "start": "2026-11-09T04:53:27.083929+00:00",
+      "end": "2026-11-09T04:53:28.501214+00:00",
+      "graphql_receipt": "source-ready-read-3",
+      "entries": [],
+      "prs": {
+        "A": {
+          "id": "PR_kwDOVnmBMc8AAAABNxJQlA",
+          "number": 120,
+          "state": "OPEN",
+          "merged": false,
+          "mergedAt": null,
+          "headRefOid": "dedc68f2283419882f05599a1c363fef8ee84786",
+          "baseRefName": "exp/fu2/queue/ui-removal-20261109a/trunk",
+          "mergeStateStatus": "CLEAN",
+          "isInMergeQueue": false,
+          "mergeQueueEntry": null,
+          "timelineItems": {
+            "nodes": [
+              {
+                "__typename": "PullRequestCommit"
+              },
+              {
+                "__typename": "AddedToStackEvent"
+              }
+            ]
+          }
+        },
+        "B": {
+          "id": "PR_kwDOVnmBMc8AAAABNxJRLg",
+          "number": 121,
+          "state": "OPEN",
+          "merged": false,
+          "mergedAt": null,
+          "headRefOid": "3aad3a2488ca080d1bd7408337a5bbcb74523345",
+          "baseRefName": "exp/fu2/queue/ui-removal-20261109a/A",
+          "mergeStateStatus": "CLEAN",
+          "isInMergeQueue": false,
+          "mergeQueueEntry": null,
+          "timelineItems": {
+            "nodes": [
+              {
+                "__typename": "PullRequestCommit"
+              },
+              {
+                "__typename": "AddedToStackEvent"
+              }
+            ]
+          }
+        },
+        "C": {
+          "id": "PR_kwDOVnmBMc8AAAABNxJR5A",
+          "number": 122,
+          "state": "OPEN",
+          "merged": false,
+          "mergedAt": null,
+          "headRefOid": "a107cd90fb95f5bcd11d59a3f1599be78c4fbf19",
+          "baseRefName": "exp/fu2/queue/ui-removal-20261109a/B",
+          "mergeStateStatus": "CLEAN",
+          "isInMergeQueue": false,
+          "mergeQueueEntry": null,
+          "timelineItems": {
+            "nodes": [
+              {
+                "__typename": "PullRequestCommit"
+              },
+              {
+                "__typename": "AddedToStackEvent"
+              }
+            ]
+          }
+        }
+      },
+      "refs_start": "2026-11-09T04:53:28.502289+00:00",
+      "refs": "dedc68f2283419882f05599a1c363fef8ee84786\trefs/heads/exp/fu2/queue/ui-removal-20261109a/A\n3aad3a2488ca080d1bd7408337a5bbcb74523345\trefs/heads/exp/fu2/queue/ui-removal-20261109a/B\na107cd90fb95f5bcd11d59a3f1599be78c4fbf19\trefs/heads/exp/fu2/queue/ui-removal-20261109a/C\neb6f13d837b350ff3eb567149069b2fc037f5a62\trefs/heads/exp/fu2/queue/ui-removal-20261109a/trunk\ndedc68f2283419882f05599a1c363fef8ee84786\trefs/tags/exp/fu2/queue/ui-removal-20261109a/authored/A/v1\n3aad3a2488ca080d1bd7408337a5bbcb74523345\trefs/tags/exp/fu2/queue/ui-removal-20261109a/authored/B/v1\na107cd90fb95f5bcd11d59a3f1599be78c4fbf19\trefs/tags/exp/fu2/queue/ui-removal-20261109a/authored/C/v1",
+      "refs_end": "2026-11-09T04:53:28.700800+00:00"
+    },
+    {
+      "label": "before-admission",
+      "start": "2026-11-09T05:30:58.914237+00:00",
+      "end": "2026-11-09T05:31:00.323926+00:00",
+      "graphql_receipt": "before-admission",
+      "entries": [],
+      "prs": {
+        "A": {
+          "id": "PR_kwDOVnmBMc8AAAABNxJQlA",
+          "number": 120,
+          "state": "OPEN",
+          "merged": false,
+          "mergedAt": null,
+          "headRefOid": "dedc68f2283419882f05599a1c363fef8ee84786",
+          "baseRefName": "exp/fu2/queue/ui-removal-20261109a/trunk",
+          "mergeStateStatus": "CLEAN",
+          "isInMergeQueue": false,
+          "mergeQueueEntry": null,
+          "timelineItems": {
+            "nodes": [
+              {
+                "__typename": "PullRequestCommit"
+              },
+              {
+                "__typename": "AddedToStackEvent"
+              }
+            ]
+          }
+        },
+        "B": {
+          "id": "PR_kwDOVnmBMc8AAAABNxJRLg",
+          "number": 121,
+          "state": "OPEN",
+          "merged": false,
+          "mergedAt": null,
+          "headRefOid": "3aad3a2488ca080d1bd7408337a5bbcb74523345",
+          "baseRefName": "exp/fu2/queue/ui-removal-20261109a/A",
+          "mergeStateStatus": "CLEAN",
+          "isInMergeQueue": false,
+          "mergeQueueEntry": null,
+          "timelineItems": {
+            "nodes": [
+              {
+                "__typename": "PullRequestCommit"
+              },
+              {
+                "__typename": "AddedToStackEvent"
+              }
+            ]
+          }
+        },
+        "C": {
+          "id": "PR_kwDOVnmBMc8AAAABNxJR5A",
+          "number": 122,
+          "state": "OPEN",
+          "merged": false,
+          "mergedAt": null,
+          "headRefOid": "a107cd90fb95f5bcd11d59a3f1599be78c4fbf19",
+          "baseRefName": "exp/fu2/queue/ui-removal-20261109a/B",
+          "mergeStateStatus": "CLEAN",
+          "isInMergeQueue": false,
+          "mergeQueueEntry": null,
+          "timelineItems": {
+            "nodes": [
+              {
+                "__typename": "PullRequestCommit"
+              },
+              {
+                "__typename": "AddedToStackEvent"
+              }
+            ]
+          }
+        }
+      },
+      "refs_start": "2026-11-09T05:31:00.325308+00:00",
+      "refs": "dedc68f2283419882f05599a1c363fef8ee84786\trefs/heads/exp/fu2/queue/ui-removal-20261109a/A\n3aad3a2488ca080d1bd7408337a5bbcb74523345\trefs/heads/exp/fu2/queue/ui-removal-20261109a/B\na107cd90fb95f5bcd11d59a3f1599be78c4fbf19\trefs/heads/exp/fu2/queue/ui-removal-20261109a/C\neb6f13d837b350ff3eb567149069b2fc037f5a62\trefs/heads/exp/fu2/queue/ui-removal-20261109a/trunk\ndedc68f2283419882f05599a1c363fef8ee84786\trefs/tags/exp/fu2/queue/ui-removal-20261109a/authored/A/v1\n3aad3a2488ca080d1bd7408337a5bbcb74523345\trefs/tags/exp/fu2/queue/ui-removal-20261109a/authored/B/v1\na107cd90fb95f5bcd11d59a3f1599be78c4fbf19\trefs/tags/exp/fu2/queue/ui-removal-20261109a/authored/C/v1",
+      "refs_end": "2026-11-09T05:31:00.538470+00:00"
+    },
+    {
+      "label": "confirmed-membership",
+      "start": "2026-11-09T05:31:07.511341+00:00",
+      "end": "2026-11-09T05:31:08.661694+00:00",
+      "graphql_receipt": "confirmed-membership",
+      "entries": [
+        {
+          "id": "MQE_lQDOVnmBMc8AAAABNxJQlM4ABVSOzgPTP7E",
+          "position": 1,
+          "state": "QUEUED",
+          "enqueuedAt": "2026-11-09T05:31:02Z",
+          "headCommit": null,
+          "baseCommit": null,
+          "pullRequest": {
+            "id": "PR_kwDOVnmBMc8AAAABNxJQlA",
+            "number": 120,
+            "headRefOid": "dedc68f2283419882f05599a1c363fef8ee84786"
+          }
+        },
+        {
+          "id": "MQE_lQDOVnmBMc8AAAABNxJRLs4ABVSOzgPTP7U",
+          "position": 2,
+          "state": "QUEUED",
+          "enqueuedAt": "2026-11-09T05:31:03Z",
+          "headCommit": null,
+          "baseCommit": null,
+          "pullRequest": {
+            "id": "PR_kwDOVnmBMc8AAAABNxJRLg",
+            "number": 121,
+            "headRefOid": "3aad3a2488ca080d1bd7408337a5bbcb74523345"
+          }
+        },
+        {
+          "id": "MQE_lQDOVnmBMc8AAAABNxJR5M4ABVSOzgPTP7k",
+          "position": 3,
+          "state": "QUEUED",
+          "enqueuedAt": "2026-11-09T05:31:04Z",
+          "headCommit": null,
+          "baseCommit": null,
+          "pullRequest": {
+            "id": "PR_kwDOVnmBMc8AAAABNxJR5A",
+            "number": 122,
+            "headRefOid": "a107cd90fb95f5bcd11d59a3f1599be78c4fbf19"
+          }
+        }
+      ],
+      "prs": {
+        "A": {
+          "id": "PR_kwDOVnmBMc8AAAABNxJQlA",
+          "number": 120,
+          "state": "OPEN",
+          "merged": false,
+          "mergedAt": null,
+          "headRefOid": "dedc68f2283419882f05599a1c363fef8ee84786",
+          "baseRefName": "exp/fu2/queue/ui-removal-20261109a/trunk",
+          "mergeStateStatus": "CLEAN",
+          "isInMergeQueue": true,
+          "mergeQueueEntry": {
+            "id": "MQE_lQDOVnmBMc8AAAABNxJQlM4ABVSOzgPTP7E",
+            "position": 1,
+            "state": "QUEUED",
+            "enqueuedAt": "2026-11-09T05:31:02Z",
+            "headCommit": null,
+            "baseCommit": null,
+            "pullRequest": {
+              "id": "PR_kwDOVnmBMc8AAAABNxJQlA",
+              "number": 120,
+              "headRefOid": "dedc68f2283419882f05599a1c363fef8ee84786"
+            }
+          },
+          "timelineItems": {
+            "nodes": [
+              {
+                "__typename": "PullRequestCommit"
+              },
+              {
+                "__typename": "AddedToStackEvent"
+              },
+              {
+                "__typename": "AddedToMergeQueueEvent"
+              }
+            ]
+          }
+        },
+        "B": {
+          "id": "PR_kwDOVnmBMc8AAAABNxJRLg",
+          "number": 121,
+          "state": "OPEN",
+          "merged": false,
+          "mergedAt": null,
+          "headRefOid": "3aad3a2488ca080d1bd7408337a5bbcb74523345",
+          "baseRefName": "exp/fu2/queue/ui-removal-20261109a/A",
+          "mergeStateStatus": "CLEAN",
+          "isInMergeQueue": true,
+          "mergeQueueEntry": {
+            "id": "MQE_lQDOVnmBMc8AAAABNxJRLs4ABVSOzgPTP7U",
+            "position": 2,
+            "state": "QUEUED",
+            "enqueuedAt": "2026-11-09T05:31:03Z",
+            "headCommit": null,
+            "baseCommit": null,
+            "pullRequest": {
+              "id": "PR_kwDOVnmBMc8AAAABNxJRLg",
+              "number": 121,
+              "headRefOid": "3aad3a2488ca080d1bd7408337a5bbcb74523345"
+            }
+          },
+          "timelineItems": {
+            "nodes": [
+              {
+                "__typename": "PullRequestCommit"
+              },
+              {
+                "__typename": "AddedToStackEvent"
+              },
+              {
+                "__typename": "AddedToMergeQueueEvent"
+              }
+            ]
+          }
+        },
+        "C": {
+          "id": "PR_kwDOVnmBMc8AAAABNxJR5A",
+          "number": 122,
+          "state": "OPEN",
+          "merged": false,
+          "mergedAt": null,
+          "headRefOid": "a107cd90fb95f5bcd11d59a3f1599be78c4fbf19",
+          "baseRefName": "exp/fu2/queue/ui-removal-20261109a/B",
+          "mergeStateStatus": "CLEAN",
+          "isInMergeQueue": true,
+          "mergeQueueEntry": {
+            "id": "MQE_lQDOVnmBMc8AAAABNxJR5M4ABVSOzgPTP7k",
+            "position": 3,
+            "state": "QUEUED",
+            "enqueuedAt": "2026-11-09T05:31:04Z",
+            "headCommit": null,
+            "baseCommit": null,
+            "pullRequest": {
+              "id": "PR_kwDOVnmBMc8AAAABNxJR5A",
+              "number": 122,
+              "headRefOid": "a107cd90fb95f5bcd11d59a3f1599be78c4fbf19"
+            }
+          },
+          "timelineItems": {
+            "nodes": [
+              {
+                "__typename": "PullRequestCommit"
+              },
+              {
+                "__typename": "AddedToStackEvent"
+              },
+              {
+                "__typename": "AddedToMergeQueueEvent"
+              }
+            ]
+          }
+        }
+      },
+      "refs_start": "2026-11-09T05:31:08.662795+00:00",
+      "refs": "dedc68f2283419882f05599a1c363fef8ee84786\trefs/heads/exp/fu2/queue/ui-removal-20261109a/A\n3aad3a2488ca080d1bd7408337a5bbcb74523345\trefs/heads/exp/fu2/queue/ui-removal-20261109a/B\na107cd90fb95f5bcd11d59a3f1599be78c4fbf19\trefs/heads/exp/fu2/queue/ui-removal-20261109a/C\neb6f13d837b350ff3eb567149069b2fc037f5a62\trefs/heads/exp/fu2/queue/ui-removal-20261109a/trunk\ndedc68f2283419882f05599a1c363fef8ee84786\trefs/tags/exp/fu2/queue/ui-removal-20261109a/authored/A/v1\n3aad3a2488ca080d1bd7408337a5bbcb74523345\trefs/tags/exp/fu2/queue/ui-removal-20261109a/authored/B/v1\na107cd90fb95f5bcd11d59a3f1599be78c4fbf19\trefs/tags/exp/fu2/queue/ui-removal-20261109a/authored/C/v1",
+      "refs_end": "2026-11-09T05:31:08.904407+00:00",
+      "original_uuid_receipt": {
+        "method": "GET",
+        "path": "repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/pulls/122/merge-async/9a496f02-2b84-49a4-89dc-820e2a7ab989",
+        "payload": null,
+        "label": "confirmed-membership-original-uuid",
+        "start": "2026-11-09T05:31:08.905175+00:00",
+        "monotonic_start": 10.023389291,
+        "end": "2026-11-09T05:31:09.354420+00:00",
+        "monotonic_end": 10.472647083,
+        "exit": 0,
+        "http": 200,
+        "data": {
+          "status": "enqueued",
+          "details": {
+            "message": "Pull request was added to the merge queue."
+          }
+        }
+      }
+    },
+    {
+      "label": "after-root-upper-ui",
+      "start": "2026-11-09T05:32:08.814984+00:00",
+      "end": "2026-11-09T05:32:10.024658+00:00",
+      "graphql_receipt": "after-root-upper-ui-read-2",
+      "entries": [
+        {
+          "id": "MQE_lQDOVnmBMc8AAAABNxJQlM4ABVSOzgPTP7E",
+          "position": 1,
+          "state": "AWAITING_CHECKS",
+          "enqueuedAt": "2026-11-09T05:31:02Z",
+          "headCommit": {
+            "oid": "2033840eb934841346734cb6f4510f410fb7dbd2"
+          },
+          "baseCommit": {
+            "oid": "eb6f13d837b350ff3eb567149069b2fc037f5a62"
+          },
+          "pullRequest": {
+            "id": "PR_kwDOVnmBMc8AAAABNxJQlA",
+            "number": 120,
+            "headRefOid": "dedc68f2283419882f05599a1c363fef8ee84786"
+          }
+        },
+        {
+          "id": "MQE_lQDOVnmBMc8AAAABNxJRLs4ABVSOzgPTP7U",
+          "position": 2,
+          "state": "QUEUED",
+          "enqueuedAt": "2026-11-09T05:31:03Z",
+          "headCommit": null,
+          "baseCommit": null,
+          "pullRequest": {
+            "id": "PR_kwDOVnmBMc8AAAABNxJRLg",
+            "number": 121,
+            "headRefOid": "3aad3a2488ca080d1bd7408337a5bbcb74523345"
+          }
+        },
+        {
+          "id": "MQE_lQDOVnmBMc8AAAABNxJR5M4ABVSOzgPTP7k",
+          "position": 3,
+          "state": "QUEUED",
+          "enqueuedAt": "2026-11-09T05:31:04Z",
+          "headCommit": null,
+          "baseCommit": null,
+          "pullRequest": {
+            "id": "PR_kwDOVnmBMc8AAAABNxJR5A",
+            "number": 122,
+            "headRefOid": "a107cd90fb95f5bcd11d59a3f1599be78c4fbf19"
+          }
+        }
+      ],
+      "prs": {
+        "A": {
+          "id": "PR_kwDOVnmBMc8AAAABNxJQlA",
+          "number": 120,
+          "state": "OPEN",
+          "merged": false,
+          "mergedAt": null,
+          "headRefOid": "dedc68f2283419882f05599a1c363fef8ee84786",
+          "baseRefName": "exp/fu2/queue/ui-removal-20261109a/trunk",
+          "mergeStateStatus": "CLEAN",
+          "isInMergeQueue": true,
+          "mergeQueueEntry": {
+            "id": "MQE_lQDOVnmBMc8AAAABNxJQlM4ABVSOzgPTP7E",
+            "position": 1,
+            "state": "AWAITING_CHECKS",
+            "enqueuedAt": "2026-11-09T05:31:02Z",
+            "headCommit": {
+              "oid": "2033840eb934841346734cb6f4510f410fb7dbd2"
+            },
+            "baseCommit": {
+              "oid": "eb6f13d837b350ff3eb567149069b2fc037f5a62"
+            },
+            "pullRequest": {
+              "id": "PR_kwDOVnmBMc8AAAABNxJQlA",
+              "number": 120,
+              "headRefOid": "dedc68f2283419882f05599a1c363fef8ee84786"
+            }
+          },
+          "timelineItems": {
+            "nodes": [
+              {
+                "__typename": "PullRequestCommit"
+              },
+              {
+                "__typename": "AddedToStackEvent"
+              },
+              {
+                "__typename": "AddedToMergeQueueEvent"
+              }
+            ]
+          }
+        },
+        "B": {
+          "id": "PR_kwDOVnmBMc8AAAABNxJRLg",
+          "number": 121,
+          "state": "OPEN",
+          "merged": false,
+          "mergedAt": null,
+          "headRefOid": "3aad3a2488ca080d1bd7408337a5bbcb74523345",
+          "baseRefName": "exp/fu2/queue/ui-removal-20261109a/A",
+          "mergeStateStatus": "CLEAN",
+          "isInMergeQueue": true,
+          "mergeQueueEntry": {
+            "id": "MQE_lQDOVnmBMc8AAAABNxJRLs4ABVSOzgPTP7U",
+            "position": 2,
+            "state": "QUEUED",
+            "enqueuedAt": "2026-11-09T05:31:03Z",
+            "headCommit": null,
+            "baseCommit": null,
+            "pullRequest": {
+              "id": "PR_kwDOVnmBMc8AAAABNxJRLg",
+              "number": 121,
+              "headRefOid": "3aad3a2488ca080d1bd7408337a5bbcb74523345"
+            }
+          },
+          "timelineItems": {
+            "nodes": [
+              {
+                "__typename": "PullRequestCommit"
+              },
+              {
+                "__typename": "AddedToStackEvent"
+              },
+              {
+                "__typename": "AddedToMergeQueueEvent"
+              }
+            ]
+          }
+        },
+        "C": {
+          "id": "PR_kwDOVnmBMc8AAAABNxJR5A",
+          "number": 122,
+          "state": "OPEN",
+          "merged": false,
+          "mergedAt": null,
+          "headRefOid": "a107cd90fb95f5bcd11d59a3f1599be78c4fbf19",
+          "baseRefName": "exp/fu2/queue/ui-removal-20261109a/B",
+          "mergeStateStatus": "CLEAN",
+          "isInMergeQueue": true,
+          "mergeQueueEntry": {
+            "id": "MQE_lQDOVnmBMc8AAAABNxJR5M4ABVSOzgPTP7k",
+            "position": 3,
+            "state": "QUEUED",
+            "enqueuedAt": "2026-11-09T05:31:04Z",
+            "headCommit": null,
+            "baseCommit": null,
+            "pullRequest": {
+              "id": "PR_kwDOVnmBMc8AAAABNxJR5A",
+              "number": 122,
+              "headRefOid": "a107cd90fb95f5bcd11d59a3f1599be78c4fbf19"
+            }
+          },
+          "timelineItems": {
+            "nodes": [
+              {
+                "__typename": "PullRequestCommit"
+              },
+              {
+                "__typename": "AddedToStackEvent"
+              },
+              {
+                "__typename": "AddedToMergeQueueEvent"
+              }
+            ]
+          }
+        }
+      },
+      "refs_start": "2026-11-09T05:32:10.025105+00:00",
+      "refs": "dedc68f2283419882f05599a1c363fef8ee84786\trefs/heads/exp/fu2/queue/ui-removal-20261109a/A\n3aad3a2488ca080d1bd7408337a5bbcb74523345\trefs/heads/exp/fu2/queue/ui-removal-20261109a/B\na107cd90fb95f5bcd11d59a3f1599be78c4fbf19\trefs/heads/exp/fu2/queue/ui-removal-20261109a/C\neb6f13d837b350ff3eb567149069b2fc037f5a62\trefs/heads/exp/fu2/queue/ui-removal-20261109a/trunk\n2033840eb934841346734cb6f4510f410fb7dbd2\trefs/heads/gh-readonly-queue/exp/fu2/queue/ui-removal-20261109a/trunk/pr-120-eb6f13d837b350ff3eb567149069b2fc037f5a62\ndedc68f2283419882f05599a1c363fef8ee84786\trefs/tags/exp/fu2/queue/ui-removal-20261109a/authored/A/v1\n3aad3a2488ca080d1bd7408337a5bbcb74523345\trefs/tags/exp/fu2/queue/ui-removal-20261109a/authored/B/v1\na107cd90fb95f5bcd11d59a3f1599be78c4fbf19\trefs/tags/exp/fu2/queue/ui-removal-20261109a/authored/C/v1",
+      "refs_end": "2026-11-09T05:32:10.201570+00:00",
+      "original_uuid_receipt": {
+        "method": "GET",
+        "path": "repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/pulls/122/merge-async/9a496f02-2b84-49a4-89dc-820e2a7ab989",
+        "payload": null,
+        "label": "after-root-upper-ui-original-uuid",
+        "start": "2026-11-09T05:32:10.201762+00:00",
+        "monotonic_start": 1.409082125,
+        "end": "2026-11-09T05:32:10.640853+00:00",
+        "monotonic_end": 1.848193,
+        "exit": 0,
+        "http": 200,
+        "data": {
+          "status": "enqueued",
+          "details": {
+            "message": "Pull request was added to the merge queue."
+          }
+        }
+      }
+    },
+    {
+      "label": "after-root-middle-ui",
+      "start": "2026-11-09T05:33:54.801155+00:00",
+      "end": "2026-11-09T05:33:56.228641+00:00",
+      "graphql_receipt": "after-root-middle-ui",
+      "entries": [
+        {
+          "id": "MQE_lQDOVnmBMc8AAAABNxJQlM4ABVSOzgPTP7E",
+          "position": 1,
+          "state": "AWAITING_CHECKS",
+          "enqueuedAt": "2026-11-09T05:31:02Z",
+          "headCommit": {
+            "oid": "2033840eb934841346734cb6f4510f410fb7dbd2"
+          },
+          "baseCommit": {
+            "oid": "eb6f13d837b350ff3eb567149069b2fc037f5a62"
+          },
+          "pullRequest": {
+            "id": "PR_kwDOVnmBMc8AAAABNxJQlA",
+            "number": 120,
+            "headRefOid": "dedc68f2283419882f05599a1c363fef8ee84786"
+          }
+        },
+        {
+          "id": "MQE_lQDOVnmBMc8AAAABNxJRLs4ABVSOzgPTP7U",
+          "position": 2,
+          "state": "QUEUED",
+          "enqueuedAt": "2026-11-09T05:31:03Z",
+          "headCommit": null,
+          "baseCommit": null,
+          "pullRequest": {
+            "id": "PR_kwDOVnmBMc8AAAABNxJRLg",
+            "number": 121,
+            "headRefOid": "3aad3a2488ca080d1bd7408337a5bbcb74523345"
+          }
+        },
+        {
+          "id": "MQE_lQDOVnmBMc8AAAABNxJR5M4ABVSOzgPTP7k",
+          "position": 3,
+          "state": "QUEUED",
+          "enqueuedAt": "2026-11-09T05:31:04Z",
+          "headCommit": null,
+          "baseCommit": null,
+          "pullRequest": {
+            "id": "PR_kwDOVnmBMc8AAAABNxJR5A",
+            "number": 122,
+            "headRefOid": "a107cd90fb95f5bcd11d59a3f1599be78c4fbf19"
+          }
+        }
+      ],
+      "prs": {
+        "A": {
+          "id": "PR_kwDOVnmBMc8AAAABNxJQlA",
+          "number": 120,
+          "state": "OPEN",
+          "merged": false,
+          "mergedAt": null,
+          "headRefOid": "dedc68f2283419882f05599a1c363fef8ee84786",
+          "baseRefName": "exp/fu2/queue/ui-removal-20261109a/trunk",
+          "mergeStateStatus": "CLEAN",
+          "isInMergeQueue": true,
+          "mergeQueueEntry": {
+            "id": "MQE_lQDOVnmBMc8AAAABNxJQlM4ABVSOzgPTP7E",
+            "position": 1,
+            "state": "AWAITING_CHECKS",
+            "enqueuedAt": "2026-11-09T05:31:02Z",
+            "headCommit": {
+              "oid": "2033840eb934841346734cb6f4510f410fb7dbd2"
+            },
+            "baseCommit": {
+              "oid": "eb6f13d837b350ff3eb567149069b2fc037f5a62"
+            },
+            "pullRequest": {
+              "id": "PR_kwDOVnmBMc8AAAABNxJQlA",
+              "number": 120,
+              "headRefOid": "dedc68f2283419882f05599a1c363fef8ee84786"
+            }
+          },
+          "timelineItems": {
+            "nodes": [
+              {
+                "__typename": "PullRequestCommit"
+              },
+              {
+                "__typename": "AddedToStackEvent"
+              },
+              {
+                "__typename": "AddedToMergeQueueEvent"
+              }
+            ]
+          }
+        },
+        "B": {
+          "id": "PR_kwDOVnmBMc8AAAABNxJRLg",
+          "number": 121,
+          "state": "OPEN",
+          "merged": false,
+          "mergedAt": null,
+          "headRefOid": "3aad3a2488ca080d1bd7408337a5bbcb74523345",
+          "baseRefName": "exp/fu2/queue/ui-removal-20261109a/A",
+          "mergeStateStatus": "CLEAN",
+          "isInMergeQueue": true,
+          "mergeQueueEntry": {
+            "id": "MQE_lQDOVnmBMc8AAAABNxJRLs4ABVSOzgPTP7U",
+            "position": 2,
+            "state": "QUEUED",
+            "enqueuedAt": "2026-11-09T05:31:03Z",
+            "headCommit": null,
+            "baseCommit": null,
+            "pullRequest": {
+              "id": "PR_kwDOVnmBMc8AAAABNxJRLg",
+              "number": 121,
+              "headRefOid": "3aad3a2488ca080d1bd7408337a5bbcb74523345"
+            }
+          },
+          "timelineItems": {
+            "nodes": [
+              {
+                "__typename": "PullRequestCommit"
+              },
+              {
+                "__typename": "AddedToStackEvent"
+              },
+              {
+                "__typename": "AddedToMergeQueueEvent"
+              }
+            ]
+          }
+        },
+        "C": {
+          "id": "PR_kwDOVnmBMc8AAAABNxJR5A",
+          "number": 122,
+          "state": "OPEN",
+          "merged": false,
+          "mergedAt": null,
+          "headRefOid": "a107cd90fb95f5bcd11d59a3f1599be78c4fbf19",
+          "baseRefName": "exp/fu2/queue/ui-removal-20261109a/B",
+          "mergeStateStatus": "CLEAN",
+          "isInMergeQueue": true,
+          "mergeQueueEntry": {
+            "id": "MQE_lQDOVnmBMc8AAAABNxJR5M4ABVSOzgPTP7k",
+            "position": 3,
+            "state": "QUEUED",
+            "enqueuedAt": "2026-11-09T05:31:04Z",
+            "headCommit": null,
+            "baseCommit": null,
+            "pullRequest": {
+              "id": "PR_kwDOVnmBMc8AAAABNxJR5A",
+              "number": 122,
+              "headRefOid": "a107cd90fb95f5bcd11d59a3f1599be78c4fbf19"
+            }
+          },
+          "timelineItems": {
+            "nodes": [
+              {
+                "__typename": "PullRequestCommit"
+              },
+              {
+                "__typename": "AddedToStackEvent"
+              },
+              {
+                "__typename": "AddedToMergeQueueEvent"
+              }
+            ]
+          }
+        }
+      },
+      "refs_start": "2026-11-09T05:33:56.229979+00:00",
+      "refs": "dedc68f2283419882f05599a1c363fef8ee84786\trefs/heads/exp/fu2/queue/ui-removal-20261109a/A\n3aad3a2488ca080d1bd7408337a5bbcb74523345\trefs/heads/exp/fu2/queue/ui-removal-20261109a/B\na107cd90fb95f5bcd11d59a3f1599be78c4fbf19\trefs/heads/exp/fu2/queue/ui-removal-20261109a/C\neb6f13d837b350ff3eb567149069b2fc037f5a62\trefs/heads/exp/fu2/queue/ui-removal-20261109a/trunk\n2033840eb934841346734cb6f4510f410fb7dbd2\trefs/heads/gh-readonly-queue/exp/fu2/queue/ui-removal-20261109a/trunk/pr-120-eb6f13d837b350ff3eb567149069b2fc037f5a62\ndedc68f2283419882f05599a1c363fef8ee84786\trefs/tags/exp/fu2/queue/ui-removal-20261109a/authored/A/v1\n3aad3a2488ca080d1bd7408337a5bbcb74523345\trefs/tags/exp/fu2/queue/ui-removal-20261109a/authored/B/v1\na107cd90fb95f5bcd11d59a3f1599be78c4fbf19\trefs/tags/exp/fu2/queue/ui-removal-20261109a/authored/C/v1",
+      "refs_end": "2026-11-09T05:33:56.413101+00:00",
+      "original_uuid_receipt": {
+        "method": "GET",
+        "path": "repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/pulls/122/merge-async/9a496f02-2b84-49a4-89dc-820e2a7ab989",
+        "payload": null,
+        "label": "after-root-middle-ui-original-uuid",
+        "start": "2026-11-09T05:33:56.413508+00:00",
+        "monotonic_start": 1.638395291,
+        "end": "2026-11-09T05:33:56.873288+00:00",
+        "monotonic_end": 2.09818225,
+        "exit": 0,
+        "http": 200,
+        "data": {
+          "status": "enqueued",
+          "details": {
+            "message": "Pull request was added to the merge queue."
+          }
+        }
+      }
+    },
+    {
+      "label": "after-single-lower-cleanup",
+      "start": "2026-11-09T05:33:59.626176+00:00",
+      "end": "2026-11-09T05:34:00.871933+00:00",
+      "graphql_receipt": "after-single-lower-cleanup",
+      "entries": [],
+      "prs": {
+        "A": {
+          "id": "PR_kwDOVnmBMc8AAAABNxJQlA",
+          "number": 120,
+          "state": "OPEN",
+          "merged": false,
+          "mergedAt": null,
+          "headRefOid": "dedc68f2283419882f05599a1c363fef8ee84786",
+          "baseRefName": "exp/fu2/queue/ui-removal-20261109a/trunk",
+          "mergeStateStatus": "CLEAN",
+          "isInMergeQueue": false,
+          "mergeQueueEntry": null,
+          "timelineItems": {
+            "nodes": [
+              {
+                "__typename": "PullRequestCommit"
+              },
+              {
+                "__typename": "AddedToStackEvent"
+              },
+              {
+                "__typename": "AddedToMergeQueueEvent"
+              },
+              {
+                "__typename": "RemovedFromMergeQueueEvent",
+                "createdAt": "2026-11-09T05:33:58Z",
+                "reason": "manual",
+                "beforeCommit": {
+                  "oid": "2033840eb934841346734cb6f4510f410fb7dbd2"
+                },
+                "actor": {
+                  "login": "joshlf"
+                }
+              }
+            ]
+          }
+        },
+        "B": {
+          "id": "PR_kwDOVnmBMc8AAAABNxJRLg",
+          "number": 121,
+          "state": "OPEN",
+          "merged": false,
+          "mergedAt": null,
+          "headRefOid": "3aad3a2488ca080d1bd7408337a5bbcb74523345",
+          "baseRefName": "exp/fu2/queue/ui-removal-20261109a/A",
+          "mergeStateStatus": "CLEAN",
+          "isInMergeQueue": false,
+          "mergeQueueEntry": null,
+          "timelineItems": {
+            "nodes": [
+              {
+                "__typename": "PullRequestCommit"
+              },
+              {
+                "__typename": "AddedToStackEvent"
+              },
+              {
+                "__typename": "AddedToMergeQueueEvent"
+              },
+              {
+                "__typename": "RemovedFromMergeQueueEvent",
+                "createdAt": "2026-11-09T05:33:58Z",
+                "reason": "manual",
+                "beforeCommit": null,
+                "actor": {
+                  "login": "joshlf"
+                }
+              }
+            ]
+          }
+        },
+        "C": {
+          "id": "PR_kwDOVnmBMc8AAAABNxJR5A",
+          "number": 122,
+          "state": "OPEN",
+          "merged": false,
+          "mergedAt": null,
+          "headRefOid": "a107cd90fb95f5bcd11d59a3f1599be78c4fbf19",
+          "baseRefName": "exp/fu2/queue/ui-removal-20261109a/B",
+          "mergeStateStatus": "CLEAN",
+          "isInMergeQueue": false,
+          "mergeQueueEntry": null,
+          "timelineItems": {
+            "nodes": [
+              {
+                "__typename": "PullRequestCommit"
+              },
+              {
+                "__typename": "AddedToStackEvent"
+              },
+              {
+                "__typename": "AddedToMergeQueueEvent"
+              },
+              {
+                "__typename": "RemovedFromMergeQueueEvent",
+                "createdAt": "2026-11-09T05:33:58Z",
+                "reason": "manual",
+                "beforeCommit": null,
+                "actor": {
+                  "login": "joshlf"
+                }
+              }
+            ]
+          }
+        }
+      },
+      "refs_start": "2026-11-09T05:34:00.873106+00:00",
+      "refs": "dedc68f2283419882f05599a1c363fef8ee84786\trefs/heads/exp/fu2/queue/ui-removal-20261109a/A\n3aad3a2488ca080d1bd7408337a5bbcb74523345\trefs/heads/exp/fu2/queue/ui-removal-20261109a/B\na107cd90fb95f5bcd11d59a3f1599be78c4fbf19\trefs/heads/exp/fu2/queue/ui-removal-20261109a/C\neb6f13d837b350ff3eb567149069b2fc037f5a62\trefs/heads/exp/fu2/queue/ui-removal-20261109a/trunk\ndedc68f2283419882f05599a1c363fef8ee84786\trefs/tags/exp/fu2/queue/ui-removal-20261109a/authored/A/v1\n3aad3a2488ca080d1bd7408337a5bbcb74523345\trefs/tags/exp/fu2/queue/ui-removal-20261109a/authored/B/v1\na107cd90fb95f5bcd11d59a3f1599be78c4fbf19\trefs/tags/exp/fu2/queue/ui-removal-20261109a/authored/C/v1",
+      "refs_end": "2026-11-09T05:34:01.052721+00:00",
+      "original_uuid_receipt": {
+        "method": "GET",
+        "path": "repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/pulls/122/merge-async/9a496f02-2b84-49a4-89dc-820e2a7ab989",
+        "payload": null,
+        "label": "after-single-lower-cleanup-original-uuid",
+        "start": "2026-11-09T05:34:01.053310+00:00",
+        "monotonic_start": 6.278179291,
+        "end": "2026-11-09T05:34:01.535522+00:00",
+        "monotonic_end": 6.760393625,
+        "exit": 0,
+        "http": 200,
+        "data": {
+          "status": "enqueued",
+          "details": {
+            "message": "Pull request was added to the merge queue."
+          }
+        }
+      }
+    }
+  ],
+  "admission_authority": "awaiting root authenticated browser confirmation and explicit admit request",
+  "case": {
+    "name": "ui-removal-20261109a",
+    "prefix": "exp/fu2/queue/ui-removal-20261109a",
+    "trunk": "exp/fu2/queue/ui-removal-20261109a/trunk",
+    "trunk_sha": "eb6f13d837b350ff3eb567149069b2fc037f5a62",
+    "heads": {
+      "A": {
+        "ref": "exp/fu2/queue/ui-removal-20261109a/A",
+        "sha": "dedc68f2283419882f05599a1c363fef8ee84786"
+      },
+      "B": {
+        "ref": "exp/fu2/queue/ui-removal-20261109a/B",
+        "sha": "3aad3a2488ca080d1bd7408337a5bbcb74523345"
+      },
+      "C": {
+        "ref": "exp/fu2/queue/ui-removal-20261109a/C",
+        "sha": "a107cd90fb95f5bcd11d59a3f1599be78c4fbf19"
+      }
+    },
+    "prs": {
+      "A": 120,
+      "B": 121,
+      "C": 122
+    },
+    "created": "2026-11-09T04:53:04.924773+00:00",
+    "stack": 123
+  },
+  "rule": {
+    "id": 26830517,
+    "name": "gherrit-fu2-queue-ui-removal-20261109a",
+    "target": "branch",
+    "source_type": "Repository",
+    "source": "intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08",
+    "enforcement": "active",
+    "conditions": {
+      "ref_name": {
+        "exclude": [],
+        "include": [
+          "refs/heads/exp/fu2/queue/ui-removal-20261109a/trunk"
+        ]
+      }
+    },
+    "rules": [
+      {
+        "type": "merge_queue",
+        "parameters": {
+          "merge_method": "MERGE",
+          "max_entries_to_build": 1,
+          "min_entries_to_merge": 1,
+          "max_entries_to_merge": 3,
+          "min_entries_to_merge_wait_minutes": 1,
+          "grouping_strategy": "ALLGREEN",
+          "check_response_timeout_minutes": 5
+        }
+      },
+      {
+        "type": "required_status_checks",
+        "parameters": {
+          "strict_required_status_checks_policy": false,
+          "do_not_enforce_on_create": false,
+          "required_status_checks": [
+            {
+              "context": "queue-observe",
+              "integration_id": 15368
+            },
+            {
+              "context": "experiment/ui-removal-release"
+            }
+          ]
+        }
+      }
+    ],
+    "node_id": "RRS_lACqUmVwb3NpdG9yec5WeYExzgGZZrU",
+    "created_at": "2026-11-08T23:53:10.925-05:00",
+    "updated_at": "2026-11-08T23:53:11.058-05:00",
+    "bypass_actors": [],
+    "current_user_can_bypass": "never",
+    "_links": {
+      "self": {
+        "href": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/rulesets/26830517"
+      },
+      "html": {
+        "href": "https://github.com/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/rules/26830517"
+      }
+    }
+  },
+  "source_ready": {
+    "label": "source-ready",
+    "start": "2026-11-09T04:53:27.083929+00:00",
+    "end": "2026-11-09T04:53:28.501214+00:00",
+    "graphql_receipt": "source-ready-read-3",
+    "entries": [],
+    "prs": {
+      "A": {
+        "id": "PR_kwDOVnmBMc8AAAABNxJQlA",
+        "number": 120,
+        "state": "OPEN",
+        "merged": false,
+        "mergedAt": null,
+        "headRefOid": "dedc68f2283419882f05599a1c363fef8ee84786",
+        "baseRefName": "exp/fu2/queue/ui-removal-20261109a/trunk",
+        "mergeStateStatus": "CLEAN",
+        "isInMergeQueue": false,
+        "mergeQueueEntry": null,
+        "timelineItems": {
+          "nodes": [
+            {
+              "__typename": "PullRequestCommit"
+            },
+            {
+              "__typename": "AddedToStackEvent"
+            }
+          ]
+        }
+      },
+      "B": {
+        "id": "PR_kwDOVnmBMc8AAAABNxJRLg",
+        "number": 121,
+        "state": "OPEN",
+        "merged": false,
+        "mergedAt": null,
+        "headRefOid": "3aad3a2488ca080d1bd7408337a5bbcb74523345",
+        "baseRefName": "exp/fu2/queue/ui-removal-20261109a/A",
+        "mergeStateStatus": "CLEAN",
+        "isInMergeQueue": false,
+        "mergeQueueEntry": null,
+        "timelineItems": {
+          "nodes": [
+            {
+              "__typename": "PullRequestCommit"
+            },
+            {
+              "__typename": "AddedToStackEvent"
+            }
+          ]
+        }
+      },
+      "C": {
+        "id": "PR_kwDOVnmBMc8AAAABNxJR5A",
+        "number": 122,
+        "state": "OPEN",
+        "merged": false,
+        "mergedAt": null,
+        "headRefOid": "a107cd90fb95f5bcd11d59a3f1599be78c4fbf19",
+        "baseRefName": "exp/fu2/queue/ui-removal-20261109a/B",
+        "mergeStateStatus": "CLEAN",
+        "isInMergeQueue": false,
+        "mergeQueueEntry": null,
+        "timelineItems": {
+          "nodes": [
+            {
+              "__typename": "PullRequestCommit"
+            },
+            {
+              "__typename": "AddedToStackEvent"
+            }
+          ]
+        }
+      }
+    },
+    "refs_start": "2026-11-09T04:53:28.502289+00:00",
+    "refs": "dedc68f2283419882f05599a1c363fef8ee84786\trefs/heads/exp/fu2/queue/ui-removal-20261109a/A\n3aad3a2488ca080d1bd7408337a5bbcb74523345\trefs/heads/exp/fu2/queue/ui-removal-20261109a/B\na107cd90fb95f5bcd11d59a3f1599be78c4fbf19\trefs/heads/exp/fu2/queue/ui-removal-20261109a/C\neb6f13d837b350ff3eb567149069b2fc037f5a62\trefs/heads/exp/fu2/queue/ui-removal-20261109a/trunk\ndedc68f2283419882f05599a1c363fef8ee84786\trefs/tags/exp/fu2/queue/ui-removal-20261109a/authored/A/v1\n3aad3a2488ca080d1bd7408337a5bbcb74523345\trefs/tags/exp/fu2/queue/ui-removal-20261109a/authored/B/v1\na107cd90fb95f5bcd11d59a3f1599be78c4fbf19\trefs/tags/exp/fu2/queue/ui-removal-20261109a/authored/C/v1",
+    "refs_end": "2026-11-09T04:53:28.700800+00:00"
+  },
+  "ready_at": "2026-11-09T04:53:28.701944+00:00",
+  "source_readiness_checks": {
+    "A": {
+      "check_runs": {
+        "total_count": 2,
+        "check_runs": [
+          {
+            "id": 128987039460,
+            "name": "queue-observe",
+            "node_id": "CR_kwDOVnmBMc8AAAAeCDoG5A",
+            "head_sha": "dedc68f2283419882f05599a1c363fef8ee84786",
+            "external_id": "3f5e6a12-f1e1-542f-89a5-5a51f2d183bf",
+            "url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/check-runs/128987039460",
+            "html_url": "https://github.com/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/actions/runs/42564205608/job/128987039460",
+            "details_url": "https://github.com/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/actions/runs/42564205608/job/128987039460",
+            "status": "completed",
+            "conclusion": "success",
+            "started_at": "2026-11-09T04:53:15Z",
+            "completed_at": "2026-11-09T04:53:22Z",
+            "output": {
+              "title": null,
+              "summary": null,
+              "text": null,
+              "annotations_count": 2,
+              "annotations_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/check-runs/128987039460/annotations"
+            },
+            "check_suite": {
+              "id": 115289135678
+            },
+            "app": {
+              "id": 15368,
+              "client_id": "Iv1.05c79e9ad1f6bdfa",
+              "slug": "github-actions",
+              "node_id": "MDM6QXBwMTUzNjg=",
+              "owner": {
+                "login": "github",
+                "id": 9919,
+                "node_id": "MDEyOk9yZ2FuaXphdGlvbjk5MTk=",
+                "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4",
+                "gravatar_id": "",
+                "url": "https://api.github.com/users/github",
+                "html_url": "https://github.com/github",
+                "followers_url": "https://api.github.com/users/github/followers",
+                "following_url": "https://api.github.com/users/github/following{/other_user}",
+                "gists_url": "https://api.github.com/users/github/gists{/gist_id}",
+                "starred_url": "https://api.github.com/users/github/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/github/subscriptions",
+                "organizations_url": "https://api.github.com/users/github/orgs",
+                "repos_url": "https://api.github.com/users/github/repos",
+                "events_url": "https://api.github.com/users/github/events{/privacy}",
+                "received_events_url": "https://api.github.com/users/github/received_events",
+                "type": "Organization",
+                "user_view_type": "public",
+                "site_admin": false
+              },
+              "name": "GitHub Actions",
+              "description": "Automate your workflow from idea to production",
+              "external_url": "https://help.github.com/en/actions",
+              "html_url": "https://github.com/apps/github-actions",
+              "created_at": "2018-07-30T09:30:17Z",
+              "updated_at": "2026-06-18T16:17:48Z",
+              "permissions": {
+                "actions": "write",
+                "administration": "read",
+                "artifact_metadata": "write",
+                "attestations": "write",
+                "checks": "write",
+                "code_quality": "write",
+                "contents": "write",
+                "copilot_requests": "write",
+                "deployments": "write",
+                "discussions": "write",
+                "drives": "write",
+                "issues": "write",
+                "merge_queues": "write",
+                "metadata": "read",
+                "models": "read",
+                "packages": "write",
+                "pages": "write",
+                "pull_requests": "write",
+                "repository_hooks": "write",
+                "repository_projects": "write",
+                "security_events": "write",
+                "statuses": "write",
+                "vulnerability_alerts": "read"
+              },
+              "events": [
+                "branch_protection_rule",
+                "check_run",
+                "check_suite",
+                "create",
+                "delete",
+                "deployment",
+                "deployment_status",
+                "discussion",
+                "discussion_comment",
+                "fork",
+                "gollum",
+                "issues",
+                "issue_comment",
+                "label",
+                "merge_group",
+                "milestone",
+                "page_build",
+                "public",
+                "pull_request",
+                "pull_request_review",
+                "pull_request_review_comment",
+                "push",
+                "registry_package",
+                "release",
+                "repository",
+                "repository_dispatch",
+                "status",
+                "watch",
+                "workflow_dispatch",
+                "workflow_run"
+              ]
+            },
+            "pull_requests": [
+              {
+                "url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/pulls/120",
+                "id": 5218914452,
+                "number": 120,
+                "head": {
+                  "ref": "exp/fu2/queue/ui-removal-20261109a/A",
+                  "sha": "dedc68f2283419882f05599a1c363fef8ee84786",
+                  "repo": {
+                    "id": 1450803505,
+                    "url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08",
+                    "name": "gherrit-stack-queue-public-experiments-2026-11-08"
+                  }
+                },
+                "base": {
+                  "ref": "exp/fu2/queue/ui-removal-20261109a/trunk",
+                  "sha": "eb6f13d837b350ff3eb567149069b2fc037f5a62",
+                  "repo": {
+                    "id": 1450803505,
+                    "url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08",
+                    "name": "gherrit-stack-queue-public-experiments-2026-11-08"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "id": 128987029428,
+            "name": "queue-observe",
+            "node_id": "CR_kwDOVnmBMc8AAAAeCDnftA",
+            "head_sha": "dedc68f2283419882f05599a1c363fef8ee84786",
+            "external_id": "94fce347-c9c6-5edb-87fd-1f369f52086b",
+            "url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/check-runs/128987029428",
+            "html_url": "https://github.com/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/actions/runs/42564202512/job/128987029428",
+            "details_url": "https://github.com/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/actions/runs/42564202512/job/128987029428",
+            "status": "completed",
+            "conclusion": "success",
+            "started_at": "2026-11-09T04:53:13Z",
+            "completed_at": "2026-11-09T04:53:18Z",
+            "output": {
+              "title": null,
+              "summary": null,
+              "text": null,
+              "annotations_count": 2,
+              "annotations_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/check-runs/128987029428/annotations"
+            },
+            "check_suite": {
+              "id": 115289127739
+            },
+            "app": {
+              "id": 15368,
+              "client_id": "Iv1.05c79e9ad1f6bdfa",
+              "slug": "github-actions",
+              "node_id": "MDM6QXBwMTUzNjg=",
+              "owner": {
+                "login": "github",
+                "id": 9919,
+                "node_id": "MDEyOk9yZ2FuaXphdGlvbjk5MTk=",
+                "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4",
+                "gravatar_id": "",
+                "url": "https://api.github.com/users/github",
+                "html_url": "https://github.com/github",
+                "followers_url": "https://api.github.com/users/github/followers",
+                "following_url": "https://api.github.com/users/github/following{/other_user}",
+                "gists_url": "https://api.github.com/users/github/gists{/gist_id}",
+                "starred_url": "https://api.github.com/users/github/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/github/subscriptions",
+                "organizations_url": "https://api.github.com/users/github/orgs",
+                "repos_url": "https://api.github.com/users/github/repos",
+                "events_url": "https://api.github.com/users/github/events{/privacy}",
+                "received_events_url": "https://api.github.com/users/github/received_events",
+                "type": "Organization",
+                "user_view_type": "public",
+                "site_admin": false
+              },
+              "name": "GitHub Actions",
+              "description": "Automate your workflow from idea to production",
+              "external_url": "https://help.github.com/en/actions",
+              "html_url": "https://github.com/apps/github-actions",
+              "created_at": "2018-07-30T09:30:17Z",
+              "updated_at": "2026-06-18T16:17:48Z",
+              "permissions": {
+                "actions": "write",
+                "administration": "read",
+                "artifact_metadata": "write",
+                "attestations": "write",
+                "checks": "write",
+                "code_quality": "write",
+                "contents": "write",
+                "copilot_requests": "write",
+                "deployments": "write",
+                "discussions": "write",
+                "drives": "write",
+                "issues": "write",
+                "merge_queues": "write",
+                "metadata": "read",
+                "models": "read",
+                "packages": "write",
+                "pages": "write",
+                "pull_requests": "write",
+                "repository_hooks": "write",
+                "repository_projects": "write",
+                "security_events": "write",
+                "statuses": "write",
+                "vulnerability_alerts": "read"
+              },
+              "events": [
+                "branch_protection_rule",
+                "check_run",
+                "check_suite",
+                "create",
+                "delete",
+                "deployment",
+                "deployment_status",
+                "discussion",
+                "discussion_comment",
+                "fork",
+                "gollum",
+                "issues",
+                "issue_comment",
+                "label",
+                "merge_group",
+                "milestone",
+                "page_build",
+                "public",
+                "pull_request",
+                "pull_request_review",
+                "pull_request_review_comment",
+                "push",
+                "registry_package",
+                "release",
+                "repository",
+                "repository_dispatch",
+                "status",
+                "watch",
+                "workflow_dispatch",
+                "workflow_run"
+              ]
+            },
+            "pull_requests": [
+              {
+                "url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/pulls/120",
+                "id": 5218914452,
+                "number": 120,
+                "head": {
+                  "ref": "exp/fu2/queue/ui-removal-20261109a/A",
+                  "sha": "dedc68f2283419882f05599a1c363fef8ee84786",
+                  "repo": {
+                    "id": 1450803505,
+                    "url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08",
+                    "name": "gherrit-stack-queue-public-experiments-2026-11-08"
+                  }
+                },
+                "base": {
+                  "ref": "exp/fu2/queue/ui-removal-20261109a/trunk",
+                  "sha": "eb6f13d837b350ff3eb567149069b2fc037f5a62",
+                  "repo": {
+                    "id": 1450803505,
+                    "url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08",
+                    "name": "gherrit-stack-queue-public-experiments-2026-11-08"
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "combined_status": {
+        "state": "success",
+        "statuses": [
+          {
+            "url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/statuses/dedc68f2283419882f05599a1c363fef8ee84786",
+            "avatar_url": "https://avatars.githubusercontent.com/oa/1157143?v=4",
+            "id": 58394723327,
+            "node_id": "SC_kwDOVnmBMc8AAAANmJjD_w",
+            "state": "success",
+            "description": "Synthetic experiment controller gate",
+            "target_url": null,
+            "context": "experiment/ui-removal-release",
+            "created_at": "2026-11-09T04:53:12Z",
+            "updated_at": "2026-11-09T04:53:12Z"
+          }
+        ],
+        "sha": "dedc68f2283419882f05599a1c363fef8ee84786",
+        "total_count": 1,
+        "repository": {
+          "id": 1450803505,
+          "node_id": "R_kgDOVnmBMQ",
+          "name": "gherrit-stack-queue-public-experiments-2026-11-08",
+          "full_name": "intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08",
+          "private": false,
+          "owner": {
+            "login": "intro-to-security",
+            "id": 156474365,
+            "node_id": "O_kgDOCVOb_Q",
+            "avatar_url": "https://avatars.githubusercontent.com/u/156474365?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/intro-to-security",
+            "html_url": "https://github.com/intro-to-security",
+            "followers_url": "https://api.github.com/users/intro-to-security/followers",
+            "following_url": "https://api.github.com/users/intro-to-security/following{/other_user}",
+            "gists_url": "https://api.github.com/users/intro-to-security/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/intro-to-security/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/intro-to-security/subscriptions",
+            "organizations_url": "https://api.github.com/users/intro-to-security/orgs",
+            "repos_url": "https://api.github.com/users/intro-to-security/repos",
+            "events_url": "https://api.github.com/users/intro-to-security/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/intro-to-security/received_events",
+            "type": "Organization",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "html_url": "https://github.com/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08",
+          "description": "Synthetic public GHerrit native-stack merge-queue experiments; fixture-only repository.",
+          "fork": false,
+          "url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08",
+          "forks_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/forks",
+          "keys_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/keys{/key_id}",
+          "collaborators_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/collaborators{/collaborator}",
+          "teams_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/teams",
+          "hooks_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/hooks",
+          "issue_events_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/issues/events{/number}",
+          "events_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/events",
+          "assignees_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/assignees{/user}",
+          "branches_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/branches{/branch}",
+          "tags_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/tags",
+          "blobs_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/git/blobs{/sha}",
+          "git_tags_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/git/tags{/sha}",
+          "git_refs_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/git/refs{/sha}",
+          "trees_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/git/trees{/sha}",
+          "statuses_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/statuses/{sha}",
+          "languages_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/languages",
+          "stargazers_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/stargazers",
+          "contributors_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/contributors",
+          "subscribers_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/subscribers",
+          "subscription_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/subscription",
+          "commits_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/commits{/sha}",
+          "git_commits_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/git/commits{/sha}",
+          "comments_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/comments{/number}",
+          "issue_comment_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/issues/comments{/number}",
+          "contents_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/contents/{+path}",
+          "compare_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/compare/{base}...{head}",
+          "merges_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/merges",
+          "archive_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/{archive_format}{/ref}",
+          "downloads_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/downloads",
+          "issues_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/issues{/number}",
+          "pulls_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/pulls{/number}",
+          "milestones_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/milestones{/number}",
+          "notifications_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/notifications{?since,all,participating}",
+          "labels_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/labels{/name}",
+          "releases_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/releases{/id}",
+          "deployments_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/deployments"
+        },
+        "commit_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/commits/dedc68f2283419882f05599a1c363fef8ee84786",
+        "url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/commits/dedc68f2283419882f05599a1c363fef8ee84786/status"
+      }
+    },
+    "B": {
+      "check_runs": {
+        "total_count": 2,
+        "check_runs": [
+          {
+            "id": 128987038593,
+            "name": "queue-observe",
+            "node_id": "CR_kwDOVnmBMc8AAAAeCDoDgQ",
+            "head_sha": "3aad3a2488ca080d1bd7408337a5bbcb74523345",
+            "external_id": "9bb62ef1-3ed4-519f-bee4-c4ddafa34fad",
+            "url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/check-runs/128987038593",
+            "html_url": "https://github.com/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/actions/runs/42564205479/job/128987038593",
+            "details_url": "https://github.com/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/actions/runs/42564205479/job/128987038593",
+            "status": "completed",
+            "conclusion": "success",
+            "started_at": "2026-11-09T04:53:15Z",
+            "completed_at": "2026-11-09T04:53:22Z",
+            "output": {
+              "title": null,
+              "summary": null,
+              "text": null,
+              "annotations_count": 2,
+              "annotations_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/check-runs/128987038593/annotations"
+            },
+            "check_suite": {
+              "id": 115289135307
+            },
+            "app": {
+              "id": 15368,
+              "client_id": "Iv1.05c79e9ad1f6bdfa",
+              "slug": "github-actions",
+              "node_id": "MDM6QXBwMTUzNjg=",
+              "owner": {
+                "login": "github",
+                "id": 9919,
+                "node_id": "MDEyOk9yZ2FuaXphdGlvbjk5MTk=",
+                "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4",
+                "gravatar_id": "",
+                "url": "https://api.github.com/users/github",
+                "html_url": "https://github.com/github",
+                "followers_url": "https://api.github.com/users/github/followers",
+                "following_url": "https://api.github.com/users/github/following{/other_user}",
+                "gists_url": "https://api.github.com/users/github/gists{/gist_id}",
+                "starred_url": "https://api.github.com/users/github/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/github/subscriptions",
+                "organizations_url": "https://api.github.com/users/github/orgs",
+                "repos_url": "https://api.github.com/users/github/repos",
+                "events_url": "https://api.github.com/users/github/events{/privacy}",
+                "received_events_url": "https://api.github.com/users/github/received_events",
+                "type": "Organization",
+                "user_view_type": "public",
+                "site_admin": false
+              },
+              "name": "GitHub Actions",
+              "description": "Automate your workflow from idea to production",
+              "external_url": "https://help.github.com/en/actions",
+              "html_url": "https://github.com/apps/github-actions",
+              "created_at": "2018-07-30T09:30:17Z",
+              "updated_at": "2026-06-18T16:17:48Z",
+              "permissions": {
+                "actions": "write",
+                "administration": "read",
+                "artifact_metadata": "write",
+                "attestations": "write",
+                "checks": "write",
+                "code_quality": "write",
+                "contents": "write",
+                "copilot_requests": "write",
+                "deployments": "write",
+                "discussions": "write",
+                "drives": "write",
+                "issues": "write",
+                "merge_queues": "write",
+                "metadata": "read",
+                "models": "read",
+                "packages": "write",
+                "pages": "write",
+                "pull_requests": "write",
+                "repository_hooks": "write",
+                "repository_projects": "write",
+                "security_events": "write",
+                "statuses": "write",
+                "vulnerability_alerts": "read"
+              },
+              "events": [
+                "branch_protection_rule",
+                "check_run",
+                "check_suite",
+                "create",
+                "delete",
+                "deployment",
+                "deployment_status",
+                "discussion",
+                "discussion_comment",
+                "fork",
+                "gollum",
+                "issues",
+                "issue_comment",
+                "label",
+                "merge_group",
+                "milestone",
+                "page_build",
+                "public",
+                "pull_request",
+                "pull_request_review",
+                "pull_request_review_comment",
+                "push",
+                "registry_package",
+                "release",
+                "repository",
+                "repository_dispatch",
+                "status",
+                "watch",
+                "workflow_dispatch",
+                "workflow_run"
+              ]
+            },
+            "pull_requests": [
+              {
+                "url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/pulls/121",
+                "id": 5218914606,
+                "number": 121,
+                "head": {
+                  "ref": "exp/fu2/queue/ui-removal-20261109a/B",
+                  "sha": "3aad3a2488ca080d1bd7408337a5bbcb74523345",
+                  "repo": {
+                    "id": 1450803505,
+                    "url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08",
+                    "name": "gherrit-stack-queue-public-experiments-2026-11-08"
+                  }
+                },
+                "base": {
+                  "ref": "exp/fu2/queue/ui-removal-20261109a/A",
+                  "sha": "dedc68f2283419882f05599a1c363fef8ee84786",
+                  "repo": {
+                    "id": 1450803505,
+                    "url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08",
+                    "name": "gherrit-stack-queue-public-experiments-2026-11-08"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "id": 128987034985,
+            "name": "queue-observe",
+            "node_id": "CR_kwDOVnmBMc8AAAAeCDn1aQ",
+            "head_sha": "3aad3a2488ca080d1bd7408337a5bbcb74523345",
+            "external_id": "1eb157f0-54eb-5bca-a842-2ebfa67e776c",
+            "url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/check-runs/128987034985",
+            "html_url": "https://github.com/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/actions/runs/42564204268/job/128987034985",
+            "details_url": "https://github.com/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/actions/runs/42564204268/job/128987034985",
+            "status": "completed",
+            "conclusion": "success",
+            "started_at": "2026-11-09T04:53:13Z",
+            "completed_at": "2026-11-09T04:53:19Z",
+            "output": {
+              "title": null,
+              "summary": null,
+              "text": null,
+              "annotations_count": 2,
+              "annotations_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/check-runs/128987034985/annotations"
+            },
+            "check_suite": {
+              "id": 115289132302
+            },
+            "app": {
+              "id": 15368,
+              "client_id": "Iv1.05c79e9ad1f6bdfa",
+              "slug": "github-actions",
+              "node_id": "MDM6QXBwMTUzNjg=",
+              "owner": {
+                "login": "github",
+                "id": 9919,
+                "node_id": "MDEyOk9yZ2FuaXphdGlvbjk5MTk=",
+                "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4",
+                "gravatar_id": "",
+                "url": "https://api.github.com/users/github",
+                "html_url": "https://github.com/github",
+                "followers_url": "https://api.github.com/users/github/followers",
+                "following_url": "https://api.github.com/users/github/following{/other_user}",
+                "gists_url": "https://api.github.com/users/github/gists{/gist_id}",
+                "starred_url": "https://api.github.com/users/github/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/github/subscriptions",
+                "organizations_url": "https://api.github.com/users/github/orgs",
+                "repos_url": "https://api.github.com/users/github/repos",
+                "events_url": "https://api.github.com/users/github/events{/privacy}",
+                "received_events_url": "https://api.github.com/users/github/received_events",
+                "type": "Organization",
+                "user_view_type": "public",
+                "site_admin": false
+              },
+              "name": "GitHub Actions",
+              "description": "Automate your workflow from idea to production",
+              "external_url": "https://help.github.com/en/actions",
+              "html_url": "https://github.com/apps/github-actions",
+              "created_at": "2018-07-30T09:30:17Z",
+              "updated_at": "2026-06-18T16:17:48Z",
+              "permissions": {
+                "actions": "write",
+                "administration": "read",
+                "artifact_metadata": "write",
+                "attestations": "write",
+                "checks": "write",
+                "code_quality": "write",
+                "contents": "write",
+                "copilot_requests": "write",
+                "deployments": "write",
+                "discussions": "write",
+                "drives": "write",
+                "issues": "write",
+                "merge_queues": "write",
+                "metadata": "read",
+                "models": "read",
+                "packages": "write",
+                "pages": "write",
+                "pull_requests": "write",
+                "repository_hooks": "write",
+                "repository_projects": "write",
+                "security_events": "write",
+                "statuses": "write",
+                "vulnerability_alerts": "read"
+              },
+              "events": [
+                "branch_protection_rule",
+                "check_run",
+                "check_suite",
+                "create",
+                "delete",
+                "deployment",
+                "deployment_status",
+                "discussion",
+                "discussion_comment",
+                "fork",
+                "gollum",
+                "issues",
+                "issue_comment",
+                "label",
+                "merge_group",
+                "milestone",
+                "page_build",
+                "public",
+                "pull_request",
+                "pull_request_review",
+                "pull_request_review_comment",
+                "push",
+                "registry_package",
+                "release",
+                "repository",
+                "repository_dispatch",
+                "status",
+                "watch",
+                "workflow_dispatch",
+                "workflow_run"
+              ]
+            },
+            "pull_requests": [
+              {
+                "url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/pulls/121",
+                "id": 5218914606,
+                "number": 121,
+                "head": {
+                  "ref": "exp/fu2/queue/ui-removal-20261109a/B",
+                  "sha": "3aad3a2488ca080d1bd7408337a5bbcb74523345",
+                  "repo": {
+                    "id": 1450803505,
+                    "url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08",
+                    "name": "gherrit-stack-queue-public-experiments-2026-11-08"
+                  }
+                },
+                "base": {
+                  "ref": "exp/fu2/queue/ui-removal-20261109a/A",
+                  "sha": "dedc68f2283419882f05599a1c363fef8ee84786",
+                  "repo": {
+                    "id": 1450803505,
+                    "url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08",
+                    "name": "gherrit-stack-queue-public-experiments-2026-11-08"
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "combined_status": {
+        "state": "success",
+        "statuses": [
+          {
+            "url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/statuses/3aad3a2488ca080d1bd7408337a5bbcb74523345",
+            "avatar_url": "https://avatars.githubusercontent.com/oa/1157143?v=4",
+            "id": 58394723745,
+            "node_id": "SC_kwDOVnmBMc8AAAANmJjFoQ",
+            "state": "success",
+            "description": "Synthetic experiment controller gate",
+            "target_url": null,
+            "context": "experiment/ui-removal-release",
+            "created_at": "2026-11-09T04:53:13Z",
+            "updated_at": "2026-11-09T04:53:13Z"
+          }
+        ],
+        "sha": "3aad3a2488ca080d1bd7408337a5bbcb74523345",
+        "total_count": 1,
+        "repository": {
+          "id": 1450803505,
+          "node_id": "R_kgDOVnmBMQ",
+          "name": "gherrit-stack-queue-public-experiments-2026-11-08",
+          "full_name": "intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08",
+          "private": false,
+          "owner": {
+            "login": "intro-to-security",
+            "id": 156474365,
+            "node_id": "O_kgDOCVOb_Q",
+            "avatar_url": "https://avatars.githubusercontent.com/u/156474365?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/intro-to-security",
+            "html_url": "https://github.com/intro-to-security",
+            "followers_url": "https://api.github.com/users/intro-to-security/followers",
+            "following_url": "https://api.github.com/users/intro-to-security/following{/other_user}",
+            "gists_url": "https://api.github.com/users/intro-to-security/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/intro-to-security/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/intro-to-security/subscriptions",
+            "organizations_url": "https://api.github.com/users/intro-to-security/orgs",
+            "repos_url": "https://api.github.com/users/intro-to-security/repos",
+            "events_url": "https://api.github.com/users/intro-to-security/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/intro-to-security/received_events",
+            "type": "Organization",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "html_url": "https://github.com/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08",
+          "description": "Synthetic public GHerrit native-stack merge-queue experiments; fixture-only repository.",
+          "fork": false,
+          "url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08",
+          "forks_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/forks",
+          "keys_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/keys{/key_id}",
+          "collaborators_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/collaborators{/collaborator}",
+          "teams_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/teams",
+          "hooks_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/hooks",
+          "issue_events_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/issues/events{/number}",
+          "events_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/events",
+          "assignees_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/assignees{/user}",
+          "branches_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/branches{/branch}",
+          "tags_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/tags",
+          "blobs_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/git/blobs{/sha}",
+          "git_tags_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/git/tags{/sha}",
+          "git_refs_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/git/refs{/sha}",
+          "trees_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/git/trees{/sha}",
+          "statuses_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/statuses/{sha}",
+          "languages_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/languages",
+          "stargazers_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/stargazers",
+          "contributors_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/contributors",
+          "subscribers_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/subscribers",
+          "subscription_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/subscription",
+          "commits_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/commits{/sha}",
+          "git_commits_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/git/commits{/sha}",
+          "comments_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/comments{/number}",
+          "issue_comment_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/issues/comments{/number}",
+          "contents_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/contents/{+path}",
+          "compare_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/compare/{base}...{head}",
+          "merges_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/merges",
+          "archive_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/{archive_format}{/ref}",
+          "downloads_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/downloads",
+          "issues_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/issues{/number}",
+          "pulls_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/pulls{/number}",
+          "milestones_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/milestones{/number}",
+          "notifications_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/notifications{?since,all,participating}",
+          "labels_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/labels{/name}",
+          "releases_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/releases{/id}",
+          "deployments_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/deployments"
+        },
+        "commit_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/commits/3aad3a2488ca080d1bd7408337a5bbcb74523345",
+        "url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/commits/3aad3a2488ca080d1bd7408337a5bbcb74523345/status"
+      }
+    },
+    "C": {
+      "check_runs": {
+        "total_count": 2,
+        "check_runs": [
+          {
+            "id": 128987043701,
+            "name": "queue-observe",
+            "node_id": "CR_kwDOVnmBMc8AAAAeCDoXdQ",
+            "head_sha": "a107cd90fb95f5bcd11d59a3f1599be78c4fbf19",
+            "external_id": "865e22dd-5faa-5e5d-9ec1-52372c4d540e",
+            "url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/check-runs/128987043701",
+            "html_url": "https://github.com/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/actions/runs/42564207240/job/128987043701",
+            "details_url": "https://github.com/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/actions/runs/42564207240/job/128987043701",
+            "status": "completed",
+            "conclusion": "success",
+            "started_at": "2026-11-09T04:53:16Z",
+            "completed_at": "2026-11-09T04:53:22Z",
+            "output": {
+              "title": null,
+              "summary": null,
+              "text": null,
+              "annotations_count": 2,
+              "annotations_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/check-runs/128987043701/annotations"
+            },
+            "check_suite": {
+              "id": 115289139496
+            },
+            "app": {
+              "id": 15368,
+              "client_id": "Iv1.05c79e9ad1f6bdfa",
+              "slug": "github-actions",
+              "node_id": "MDM6QXBwMTUzNjg=",
+              "owner": {
+                "login": "github",
+                "id": 9919,
+                "node_id": "MDEyOk9yZ2FuaXphdGlvbjk5MTk=",
+                "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4",
+                "gravatar_id": "",
+                "url": "https://api.github.com/users/github",
+                "html_url": "https://github.com/github",
+                "followers_url": "https://api.github.com/users/github/followers",
+                "following_url": "https://api.github.com/users/github/following{/other_user}",
+                "gists_url": "https://api.github.com/users/github/gists{/gist_id}",
+                "starred_url": "https://api.github.com/users/github/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/github/subscriptions",
+                "organizations_url": "https://api.github.com/users/github/orgs",
+                "repos_url": "https://api.github.com/users/github/repos",
+                "events_url": "https://api.github.com/users/github/events{/privacy}",
+                "received_events_url": "https://api.github.com/users/github/received_events",
+                "type": "Organization",
+                "user_view_type": "public",
+                "site_admin": false
+              },
+              "name": "GitHub Actions",
+              "description": "Automate your workflow from idea to production",
+              "external_url": "https://help.github.com/en/actions",
+              "html_url": "https://github.com/apps/github-actions",
+              "created_at": "2018-07-30T09:30:17Z",
+              "updated_at": "2026-06-18T16:17:48Z",
+              "permissions": {
+                "actions": "write",
+                "administration": "read",
+                "artifact_metadata": "write",
+                "attestations": "write",
+                "checks": "write",
+                "code_quality": "write",
+                "contents": "write",
+                "copilot_requests": "write",
+                "deployments": "write",
+                "discussions": "write",
+                "drives": "write",
+                "issues": "write",
+                "merge_queues": "write",
+                "metadata": "read",
+                "models": "read",
+                "packages": "write",
+                "pages": "write",
+                "pull_requests": "write",
+                "repository_hooks": "write",
+                "repository_projects": "write",
+                "security_events": "write",
+                "statuses": "write",
+                "vulnerability_alerts": "read"
+              },
+              "events": [
+                "branch_protection_rule",
+                "check_run",
+                "check_suite",
+                "create",
+                "delete",
+                "deployment",
+                "deployment_status",
+                "discussion",
+                "discussion_comment",
+                "fork",
+                "gollum",
+                "issues",
+                "issue_comment",
+                "label",
+                "merge_group",
+                "milestone",
+                "page_build",
+                "public",
+                "pull_request",
+                "pull_request_review",
+                "pull_request_review_comment",
+                "push",
+                "registry_package",
+                "release",
+                "repository",
+                "repository_dispatch",
+                "status",
+                "watch",
+                "workflow_dispatch",
+                "workflow_run"
+              ]
+            },
+            "pull_requests": [
+              {
+                "url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/pulls/122",
+                "id": 5218914788,
+                "number": 122,
+                "head": {
+                  "ref": "exp/fu2/queue/ui-removal-20261109a/C",
+                  "sha": "a107cd90fb95f5bcd11d59a3f1599be78c4fbf19",
+                  "repo": {
+                    "id": 1450803505,
+                    "url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08",
+                    "name": "gherrit-stack-queue-public-experiments-2026-11-08"
+                  }
+                },
+                "base": {
+                  "ref": "exp/fu2/queue/ui-removal-20261109a/B",
+                  "sha": "3aad3a2488ca080d1bd7408337a5bbcb74523345",
+                  "repo": {
+                    "id": 1450803505,
+                    "url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08",
+                    "name": "gherrit-stack-queue-public-experiments-2026-11-08"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "id": 128987043204,
+            "name": "queue-observe",
+            "node_id": "CR_kwDOVnmBMc8AAAAeCDoVhA",
+            "head_sha": "a107cd90fb95f5bcd11d59a3f1599be78c4fbf19",
+            "external_id": "94a8613b-17aa-5203-ad74-b12a50898e2d",
+            "url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/check-runs/128987043204",
+            "html_url": "https://github.com/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/actions/runs/42564207003/job/128987043204",
+            "details_url": "https://github.com/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/actions/runs/42564207003/job/128987043204",
+            "status": "completed",
+            "conclusion": "success",
+            "started_at": "2026-11-09T04:53:16Z",
+            "completed_at": "2026-11-09T04:53:21Z",
+            "output": {
+              "title": null,
+              "summary": null,
+              "text": null,
+              "annotations_count": 2,
+              "annotations_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/check-runs/128987043204/annotations"
+            },
+            "check_suite": {
+              "id": 115289139096
+            },
+            "app": {
+              "id": 15368,
+              "client_id": "Iv1.05c79e9ad1f6bdfa",
+              "slug": "github-actions",
+              "node_id": "MDM6QXBwMTUzNjg=",
+              "owner": {
+                "login": "github",
+                "id": 9919,
+                "node_id": "MDEyOk9yZ2FuaXphdGlvbjk5MTk=",
+                "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4",
+                "gravatar_id": "",
+                "url": "https://api.github.com/users/github",
+                "html_url": "https://github.com/github",
+                "followers_url": "https://api.github.com/users/github/followers",
+                "following_url": "https://api.github.com/users/github/following{/other_user}",
+                "gists_url": "https://api.github.com/users/github/gists{/gist_id}",
+                "starred_url": "https://api.github.com/users/github/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/github/subscriptions",
+                "organizations_url": "https://api.github.com/users/github/orgs",
+                "repos_url": "https://api.github.com/users/github/repos",
+                "events_url": "https://api.github.com/users/github/events{/privacy}",
+                "received_events_url": "https://api.github.com/users/github/received_events",
+                "type": "Organization",
+                "user_view_type": "public",
+                "site_admin": false
+              },
+              "name": "GitHub Actions",
+              "description": "Automate your workflow from idea to production",
+              "external_url": "https://help.github.com/en/actions",
+              "html_url": "https://github.com/apps/github-actions",
+              "created_at": "2018-07-30T09:30:17Z",
+              "updated_at": "2026-06-18T16:17:48Z",
+              "permissions": {
+                "actions": "write",
+                "administration": "read",
+                "artifact_metadata": "write",
+                "attestations": "write",
+                "checks": "write",
+                "code_quality": "write",
+                "contents": "write",
+                "copilot_requests": "write",
+                "deployments": "write",
+                "discussions": "write",
+                "drives": "write",
+                "issues": "write",
+                "merge_queues": "write",
+                "metadata": "read",
+                "models": "read",
+                "packages": "write",
+                "pages": "write",
+                "pull_requests": "write",
+                "repository_hooks": "write",
+                "repository_projects": "write",
+                "security_events": "write",
+                "statuses": "write",
+                "vulnerability_alerts": "read"
+              },
+              "events": [
+                "branch_protection_rule",
+                "check_run",
+                "check_suite",
+                "create",
+                "delete",
+                "deployment",
+                "deployment_status",
+                "discussion",
+                "discussion_comment",
+                "fork",
+                "gollum",
+                "issues",
+                "issue_comment",
+                "label",
+                "merge_group",
+                "milestone",
+                "page_build",
+                "public",
+                "pull_request",
+                "pull_request_review",
+                "pull_request_review_comment",
+                "push",
+                "registry_package",
+                "release",
+                "repository",
+                "repository_dispatch",
+                "status",
+                "watch",
+                "workflow_dispatch",
+                "workflow_run"
+              ]
+            },
+            "pull_requests": [
+              {
+                "url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/pulls/122",
+                "id": 5218914788,
+                "number": 122,
+                "head": {
+                  "ref": "exp/fu2/queue/ui-removal-20261109a/C",
+                  "sha": "a107cd90fb95f5bcd11d59a3f1599be78c4fbf19",
+                  "repo": {
+                    "id": 1450803505,
+                    "url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08",
+                    "name": "gherrit-stack-queue-public-experiments-2026-11-08"
+                  }
+                },
+                "base": {
+                  "ref": "exp/fu2/queue/ui-removal-20261109a/B",
+                  "sha": "3aad3a2488ca080d1bd7408337a5bbcb74523345",
+                  "repo": {
+                    "id": 1450803505,
+                    "url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08",
+                    "name": "gherrit-stack-queue-public-experiments-2026-11-08"
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "combined_status": {
+        "state": "success",
+        "statuses": [
+          {
+            "url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/statuses/a107cd90fb95f5bcd11d59a3f1599be78c4fbf19",
+            "avatar_url": "https://avatars.githubusercontent.com/oa/1157143?v=4",
+            "id": 58394724180,
+            "node_id": "SC_kwDOVnmBMc8AAAANmJjHVA",
+            "state": "success",
+            "description": "Synthetic experiment controller gate",
+            "target_url": null,
+            "context": "experiment/ui-removal-release",
+            "created_at": "2026-11-09T04:53:13Z",
+            "updated_at": "2026-11-09T04:53:13Z"
+          }
+        ],
+        "sha": "a107cd90fb95f5bcd11d59a3f1599be78c4fbf19",
+        "total_count": 1,
+        "repository": {
+          "id": 1450803505,
+          "node_id": "R_kgDOVnmBMQ",
+          "name": "gherrit-stack-queue-public-experiments-2026-11-08",
+          "full_name": "intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08",
+          "private": false,
+          "owner": {
+            "login": "intro-to-security",
+            "id": 156474365,
+            "node_id": "O_kgDOCVOb_Q",
+            "avatar_url": "https://avatars.githubusercontent.com/u/156474365?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/intro-to-security",
+            "html_url": "https://github.com/intro-to-security",
+            "followers_url": "https://api.github.com/users/intro-to-security/followers",
+            "following_url": "https://api.github.com/users/intro-to-security/following{/other_user}",
+            "gists_url": "https://api.github.com/users/intro-to-security/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/intro-to-security/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/intro-to-security/subscriptions",
+            "organizations_url": "https://api.github.com/users/intro-to-security/orgs",
+            "repos_url": "https://api.github.com/users/intro-to-security/repos",
+            "events_url": "https://api.github.com/users/intro-to-security/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/intro-to-security/received_events",
+            "type": "Organization",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "html_url": "https://github.com/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08",
+          "description": "Synthetic public GHerrit native-stack merge-queue experiments; fixture-only repository.",
+          "fork": false,
+          "url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08",
+          "forks_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/forks",
+          "keys_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/keys{/key_id}",
+          "collaborators_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/collaborators{/collaborator}",
+          "teams_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/teams",
+          "hooks_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/hooks",
+          "issue_events_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/issues/events{/number}",
+          "events_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/events",
+          "assignees_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/assignees{/user}",
+          "branches_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/branches{/branch}",
+          "tags_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/tags",
+          "blobs_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/git/blobs{/sha}",
+          "git_tags_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/git/tags{/sha}",
+          "git_refs_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/git/refs{/sha}",
+          "trees_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/git/trees{/sha}",
+          "statuses_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/statuses/{sha}",
+          "languages_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/languages",
+          "stargazers_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/stargazers",
+          "contributors_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/contributors",
+          "subscribers_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/subscribers",
+          "subscription_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/subscription",
+          "commits_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/commits{/sha}",
+          "git_commits_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/git/commits{/sha}",
+          "comments_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/comments{/number}",
+          "issue_comment_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/issues/comments{/number}",
+          "contents_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/contents/{+path}",
+          "compare_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/compare/{base}...{head}",
+          "merges_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/merges",
+          "archive_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/{archive_format}{/ref}",
+          "downloads_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/downloads",
+          "issues_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/issues{/number}",
+          "pulls_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/pulls{/number}",
+          "milestones_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/milestones{/number}",
+          "notifications_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/notifications{?since,all,participating}",
+          "labels_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/labels{/name}",
+          "releases_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/releases{/id}",
+          "deployments_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/deployments"
+        },
+        "commit_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/commits/a107cd90fb95f5bcd11d59a3f1599be78c4fbf19",
+        "url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/commits/a107cd90fb95f5bcd11d59a3f1599be78c4fbf19/status"
+      }
+    }
+  },
+  "root_admission_authority": {
+    "at": "2026-11-09T05:30:58.912994+00:00",
+    "message": "Root confirmed joshlf authenticated owner controls on C#122, ABC Ready, Enqueue stack(3), queue empty; browser ready NOW; execute only one current-exact-C-head admit then stop all native mutations for root website removal."
+  },
+  "admission": {
+    "method": "PUT",
+    "path": "repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/pulls/122/merge-async",
+    "payload": {
+      "sha": "a107cd90fb95f5bcd11d59a3f1599be78c4fbf19",
+      "merge_action": "merge_queue"
+    },
+    "label": "selected-C-admission",
+    "start": "2026-11-09T05:31:00.542531+00:00",
+    "monotonic_start": 1.660782125,
+    "end": "2026-11-09T05:31:01.084542+00:00",
+    "monotonic_end": 2.202805458,
+    "exit": 0,
+    "http": 202,
+    "data": {
+      "status": "pending",
+      "details": {
+        "message": "Merge request enqueued.",
+        "uuid": "9a496f02-2b84-49a4-89dc-820e2a7ab989",
+        "merge_method": "default",
+        "merge_action": "merge_queue",
+        "expected_head_sha": "a107cd90fb95f5bcd11d59a3f1599be78c4fbf19",
+        "bypass_rules": false
+      }
+    }
+  },
+  "uuid": "9a496f02-2b84-49a4-89dc-820e2a7ab989",
+  "admission_polls": [
+    {
+      "method": "GET",
+      "path": "repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/pulls/122/merge-async/9a496f02-2b84-49a4-89dc-820e2a7ab989",
+      "payload": null,
+      "label": "admission-poll",
+      "start": "2026-11-09T05:31:01.091947+00:00",
+      "monotonic_start": 2.210197208,
+      "end": "2026-11-09T05:31:01.565876+00:00",
+      "monotonic_end": 2.684124666,
+      "exit": 0,
+      "http": 200,
+      "data": {
+        "status": "pending",
+        "details": {
+          "message": "Merge request is in progress.",
+          "uuid": "9a496f02-2b84-49a4-89dc-820e2a7ab989",
+          "merge_method": "default",
+          "merge_action": "merge_queue",
+          "expected_head_sha": "a107cd90fb95f5bcd11d59a3f1599be78c4fbf19",
+          "bypass_rules": false
+        }
+      }
+    },
+    {
+      "method": "GET",
+      "path": "repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/pulls/122/merge-async/9a496f02-2b84-49a4-89dc-820e2a7ab989",
+      "payload": null,
+      "label": "admission-poll-read-2",
+      "start": "2026-11-09T05:31:03.575137+00:00",
+      "monotonic_start": 4.693398541,
+      "end": "2026-11-09T05:31:05.034986+00:00",
+      "monotonic_end": 6.153222708,
+      "exit": 0,
+      "http": 200,
+      "data": {
+        "status": "pending",
+        "details": {
+          "message": "Merge request is in progress.",
+          "uuid": "9a496f02-2b84-49a4-89dc-820e2a7ab989",
+          "merge_method": "default",
+          "merge_action": "merge_queue",
+          "expected_head_sha": "a107cd90fb95f5bcd11d59a3f1599be78c4fbf19",
+          "bypass_rules": false
+        }
+      }
+    },
+    {
+      "method": "GET",
+      "path": "repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/pulls/122/merge-async/9a496f02-2b84-49a4-89dc-820e2a7ab989",
+      "payload": null,
+      "label": "admission-poll-read-3",
+      "start": "2026-11-09T05:31:07.043242+00:00",
+      "monotonic_start": 8.161472791,
+      "end": "2026-11-09T05:31:07.507692+00:00",
+      "monotonic_end": 8.625914458,
+      "exit": 0,
+      "http": 200,
+      "data": {
+        "status": "enqueued",
+        "details": {
+          "message": "Pull request was added to the merge queue."
+        }
+      }
+    }
+  ],
+  "ui_handoff_at": "2026-11-09T05:31:09.359505+00:00",
+  "candidate_hold_after_upper": {
+    "sha": "2033840eb934841346734cb6f4510f410fb7dbd2",
+    "status": {
+      "state": "pending",
+      "statuses": [],
+      "sha": "2033840eb934841346734cb6f4510f410fb7dbd2",
+      "total_count": 0,
+      "repository": {
+        "id": 1450803505,
+        "node_id": "R_kgDOVnmBMQ",
+        "name": "gherrit-stack-queue-public-experiments-2026-11-08",
+        "full_name": "intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08",
+        "private": false,
+        "owner": {
+          "login": "intro-to-security",
+          "id": 156474365,
+          "node_id": "O_kgDOCVOb_Q",
+          "avatar_url": "https://avatars.githubusercontent.com/u/156474365?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/intro-to-security",
+          "html_url": "https://github.com/intro-to-security",
+          "followers_url": "https://api.github.com/users/intro-to-security/followers",
+          "following_url": "https://api.github.com/users/intro-to-security/following{/other_user}",
+          "gists_url": "https://api.github.com/users/intro-to-security/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/intro-to-security/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/intro-to-security/subscriptions",
+          "organizations_url": "https://api.github.com/users/intro-to-security/orgs",
+          "repos_url": "https://api.github.com/users/intro-to-security/repos",
+          "events_url": "https://api.github.com/users/intro-to-security/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/intro-to-security/received_events",
+          "type": "Organization",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "html_url": "https://github.com/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08",
+        "description": "Synthetic public GHerrit native-stack merge-queue experiments; fixture-only repository.",
+        "fork": false,
+        "url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08",
+        "forks_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/forks",
+        "keys_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/keys{/key_id}",
+        "collaborators_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/collaborators{/collaborator}",
+        "teams_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/teams",
+        "hooks_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/hooks",
+        "issue_events_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/issues/events{/number}",
+        "events_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/events",
+        "assignees_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/assignees{/user}",
+        "branches_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/branches{/branch}",
+        "tags_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/tags",
+        "blobs_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/git/blobs{/sha}",
+        "git_tags_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/git/tags{/sha}",
+        "git_refs_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/git/refs{/sha}",
+        "trees_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/git/trees{/sha}",
+        "statuses_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/statuses/{sha}",
+        "languages_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/languages",
+        "stargazers_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/stargazers",
+        "contributors_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/contributors",
+        "subscribers_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/subscribers",
+        "subscription_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/subscription",
+        "commits_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/commits{/sha}",
+        "git_commits_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/git/commits{/sha}",
+        "comments_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/comments{/number}",
+        "issue_comment_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/issues/comments{/number}",
+        "contents_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/contents/{+path}",
+        "compare_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/compare/{base}...{head}",
+        "merges_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/merges",
+        "archive_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/{archive_format}{/ref}",
+        "downloads_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/downloads",
+        "issues_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/issues{/number}",
+        "pulls_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/pulls{/number}",
+        "milestones_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/milestones{/number}",
+        "notifications_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/notifications{?since,all,participating}",
+        "labels_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/labels{/name}",
+        "releases_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/releases{/id}",
+        "deployments_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/deployments"
+      },
+      "commit_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/commits/2033840eb934841346734cb6f4510f410fb7dbd2",
+      "url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/commits/2033840eb934841346734cb6f4510f410fb7dbd2/status"
+    },
+    "checks": {
+      "total_count": 1,
+      "check_runs": [
+        {
+          "id": 128998029590,
+          "name": "queue-observe",
+          "node_id": "CR_kwDOVnmBMc8AAAAeCOG5Fg",
+          "head_sha": "2033840eb934841346734cb6f4510f410fb7dbd2",
+          "external_id": "d189d6a9-a9df-5fdd-8fa8-0ce28b278aa4",
+          "url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/check-runs/128998029590",
+          "html_url": "https://github.com/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/actions/runs/42567795054/job/128998029590",
+          "details_url": "https://github.com/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/actions/runs/42567795054/job/128998029590",
+          "status": "completed",
+          "conclusion": "success",
+          "started_at": "2026-11-09T05:31:26Z",
+          "completed_at": "2026-11-09T05:31:32Z",
+          "output": {
+            "title": null,
+            "summary": null,
+            "text": null,
+            "annotations_count": 2,
+            "annotations_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/check-runs/128998029590/annotations"
+          },
+          "check_suite": {
+            "id": 115298175361
+          },
+          "app": {
+            "id": 15368,
+            "client_id": "Iv1.05c79e9ad1f6bdfa",
+            "slug": "github-actions",
+            "node_id": "MDM6QXBwMTUzNjg=",
+            "owner": {
+              "login": "github",
+              "id": 9919,
+              "node_id": "MDEyOk9yZ2FuaXphdGlvbjk5MTk=",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/github",
+              "html_url": "https://github.com/github",
+              "followers_url": "https://api.github.com/users/github/followers",
+              "following_url": "https://api.github.com/users/github/following{/other_user}",
+              "gists_url": "https://api.github.com/users/github/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/github/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/github/subscriptions",
+              "organizations_url": "https://api.github.com/users/github/orgs",
+              "repos_url": "https://api.github.com/users/github/repos",
+              "events_url": "https://api.github.com/users/github/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/github/received_events",
+              "type": "Organization",
+              "user_view_type": "public",
+              "site_admin": false
+            },
+            "name": "GitHub Actions",
+            "description": "Automate your workflow from idea to production",
+            "external_url": "https://help.github.com/en/actions",
+            "html_url": "https://github.com/apps/github-actions",
+            "created_at": "2018-07-30T09:30:17Z",
+            "updated_at": "2026-06-18T16:17:48Z",
+            "permissions": {
+              "actions": "write",
+              "administration": "read",
+              "artifact_metadata": "write",
+              "attestations": "write",
+              "checks": "write",
+              "code_quality": "write",
+              "contents": "write",
+              "copilot_requests": "write",
+              "deployments": "write",
+              "discussions": "write",
+              "drives": "write",
+              "issues": "write",
+              "merge_queues": "write",
+              "metadata": "read",
+              "models": "read",
+              "packages": "write",
+              "pages": "write",
+              "pull_requests": "write",
+              "repository_hooks": "write",
+              "repository_projects": "write",
+              "security_events": "write",
+              "statuses": "write",
+              "vulnerability_alerts": "read"
+            },
+            "events": [
+              "branch_protection_rule",
+              "check_run",
+              "check_suite",
+              "create",
+              "delete",
+              "deployment",
+              "deployment_status",
+              "discussion",
+              "discussion_comment",
+              "fork",
+              "gollum",
+              "issues",
+              "issue_comment",
+              "label",
+              "merge_group",
+              "milestone",
+              "page_build",
+              "public",
+              "pull_request",
+              "pull_request_review",
+              "pull_request_review_comment",
+              "push",
+              "registry_package",
+              "release",
+              "repository",
+              "repository_dispatch",
+              "status",
+              "watch",
+              "workflow_dispatch",
+              "workflow_run"
+            ]
+          },
+          "pull_requests": []
+        }
+      ]
+    }
+  },
+  "root_reported_ui_actions": [
+    {
+      "recorded_at": "2026-11-09T05:32:43.669458+00:00",
+      "source": "root message; worker did not operate or directly observe browser",
+      "action": "upper C #122 website Remove from queue, confirmation dialog confirmed once",
+      "reported_result": "Visible Not Found error; page still showed C/B/A Queued",
+      "pre_action_tool_issue": "One earlier stale AX lookup failed before a fresh button; root reports no click occurred for that lookup.",
+      "independent_observation_label": "after-root-upper-ui",
+      "interpretation_limit": "Browser action/error attributed to root; native read demonstrates retained membership, not an internal request cause."
+    },
+    {
+      "recorded_at": "2026-11-09T05:33:56.878527+00:00",
+      "source": "root message; worker did not operate or directly observe browser",
+      "action": "middle B #121 website Remove from queue, confirmation dialog confirmed once",
+      "reported_result": "Visible Not Found text; B and C/B/A still Queued",
+      "independent_observation_label": "after-root-middle-ui",
+      "interpretation_limit": "No HTTP status or initiating request UUID inferred from website text."
+    }
+  ],
+  "middle_ui_preservation": {
+    "source_heads_exact": {
+      "A": true,
+      "B": true,
+      "C": true
+    },
+    "archives_exact": {
+      "A": true,
+      "B": true,
+      "C": true
+    },
+    "trunk_exact": true,
+    "open_unmerged": {
+      "A": true,
+      "B": true,
+      "C": true
+    }
+  },
+  "candidate_hold_after_middle": {
+    "sha": "2033840eb934841346734cb6f4510f410fb7dbd2",
+    "status": {
+      "state": "pending",
+      "statuses": [],
+      "sha": "2033840eb934841346734cb6f4510f410fb7dbd2",
+      "total_count": 0,
+      "repository": {
+        "id": 1450803505,
+        "node_id": "R_kgDOVnmBMQ",
+        "name": "gherrit-stack-queue-public-experiments-2026-11-08",
+        "full_name": "intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08",
+        "private": false,
+        "owner": {
+          "login": "intro-to-security",
+          "id": 156474365,
+          "node_id": "O_kgDOCVOb_Q",
+          "avatar_url": "https://avatars.githubusercontent.com/u/156474365?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/intro-to-security",
+          "html_url": "https://github.com/intro-to-security",
+          "followers_url": "https://api.github.com/users/intro-to-security/followers",
+          "following_url": "https://api.github.com/users/intro-to-security/following{/other_user}",
+          "gists_url": "https://api.github.com/users/intro-to-security/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/intro-to-security/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/intro-to-security/subscriptions",
+          "organizations_url": "https://api.github.com/users/intro-to-security/orgs",
+          "repos_url": "https://api.github.com/users/intro-to-security/repos",
+          "events_url": "https://api.github.com/users/intro-to-security/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/intro-to-security/received_events",
+          "type": "Organization",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "html_url": "https://github.com/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08",
+        "description": "Synthetic public GHerrit native-stack merge-queue experiments; fixture-only repository.",
+        "fork": false,
+        "url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08",
+        "forks_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/forks",
+        "keys_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/keys{/key_id}",
+        "collaborators_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/collaborators{/collaborator}",
+        "teams_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/teams",
+        "hooks_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/hooks",
+        "issue_events_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/issues/events{/number}",
+        "events_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/events",
+        "assignees_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/assignees{/user}",
+        "branches_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/branches{/branch}",
+        "tags_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/tags",
+        "blobs_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/git/blobs{/sha}",
+        "git_tags_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/git/tags{/sha}",
+        "git_refs_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/git/refs{/sha}",
+        "trees_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/git/trees{/sha}",
+        "statuses_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/statuses/{sha}",
+        "languages_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/languages",
+        "stargazers_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/stargazers",
+        "contributors_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/contributors",
+        "subscribers_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/subscribers",
+        "subscription_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/subscription",
+        "commits_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/commits{/sha}",
+        "git_commits_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/git/commits{/sha}",
+        "comments_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/comments{/number}",
+        "issue_comment_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/issues/comments{/number}",
+        "contents_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/contents/{+path}",
+        "compare_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/compare/{base}...{head}",
+        "merges_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/merges",
+        "archive_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/{archive_format}{/ref}",
+        "downloads_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/downloads",
+        "issues_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/issues{/number}",
+        "pulls_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/pulls{/number}",
+        "milestones_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/milestones{/number}",
+        "notifications_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/notifications{?since,all,participating}",
+        "labels_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/labels{/name}",
+        "releases_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/releases{/id}",
+        "deployments_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/deployments"
+      },
+      "commit_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/commits/2033840eb934841346734cb6f4510f410fb7dbd2",
+      "url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/commits/2033840eb934841346734cb6f4510f410fb7dbd2/status"
+    },
+    "checks": {
+      "total_count": 1,
+      "check_runs": [
+        {
+          "id": 128998029590,
+          "name": "queue-observe",
+          "node_id": "CR_kwDOVnmBMc8AAAAeCOG5Fg",
+          "head_sha": "2033840eb934841346734cb6f4510f410fb7dbd2",
+          "external_id": "d189d6a9-a9df-5fdd-8fa8-0ce28b278aa4",
+          "url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/check-runs/128998029590",
+          "html_url": "https://github.com/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/actions/runs/42567795054/job/128998029590",
+          "details_url": "https://github.com/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/actions/runs/42567795054/job/128998029590",
+          "status": "completed",
+          "conclusion": "success",
+          "started_at": "2026-11-09T05:31:26Z",
+          "completed_at": "2026-11-09T05:31:32Z",
+          "output": {
+            "title": null,
+            "summary": null,
+            "text": null,
+            "annotations_count": 2,
+            "annotations_url": "https://api.github.com/repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/check-runs/128998029590/annotations"
+          },
+          "check_suite": {
+            "id": 115298175361
+          },
+          "app": {
+            "id": 15368,
+            "client_id": "Iv1.05c79e9ad1f6bdfa",
+            "slug": "github-actions",
+            "node_id": "MDM6QXBwMTUzNjg=",
+            "owner": {
+              "login": "github",
+              "id": 9919,
+              "node_id": "MDEyOk9yZ2FuaXphdGlvbjk5MTk=",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/github",
+              "html_url": "https://github.com/github",
+              "followers_url": "https://api.github.com/users/github/followers",
+              "following_url": "https://api.github.com/users/github/following{/other_user}",
+              "gists_url": "https://api.github.com/users/github/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/github/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/github/subscriptions",
+              "organizations_url": "https://api.github.com/users/github/orgs",
+              "repos_url": "https://api.github.com/users/github/repos",
+              "events_url": "https://api.github.com/users/github/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/github/received_events",
+              "type": "Organization",
+              "user_view_type": "public",
+              "site_admin": false
+            },
+            "name": "GitHub Actions",
+            "description": "Automate your workflow from idea to production",
+            "external_url": "https://help.github.com/en/actions",
+            "html_url": "https://github.com/apps/github-actions",
+            "created_at": "2018-07-30T09:30:17Z",
+            "updated_at": "2026-06-18T16:17:48Z",
+            "permissions": {
+              "actions": "write",
+              "administration": "read",
+              "artifact_metadata": "write",
+              "attestations": "write",
+              "checks": "write",
+              "code_quality": "write",
+              "contents": "write",
+              "copilot_requests": "write",
+              "deployments": "write",
+              "discussions": "write",
+              "drives": "write",
+              "issues": "write",
+              "merge_queues": "write",
+              "metadata": "read",
+              "models": "read",
+              "packages": "write",
+              "pages": "write",
+              "pull_requests": "write",
+              "repository_hooks": "write",
+              "repository_projects": "write",
+              "security_events": "write",
+              "statuses": "write",
+              "vulnerability_alerts": "read"
+            },
+            "events": [
+              "branch_protection_rule",
+              "check_run",
+              "check_suite",
+              "create",
+              "delete",
+              "deployment",
+              "deployment_status",
+              "discussion",
+              "discussion_comment",
+              "fork",
+              "gollum",
+              "issues",
+              "issue_comment",
+              "label",
+              "merge_group",
+              "milestone",
+              "page_build",
+              "public",
+              "pull_request",
+              "pull_request_review",
+              "pull_request_review_comment",
+              "push",
+              "registry_package",
+              "release",
+              "repository",
+              "repository_dispatch",
+              "status",
+              "watch",
+              "workflow_dispatch",
+              "workflow_run"
+            ]
+          },
+          "pull_requests": []
+        }
+      ]
+    }
+  },
+  "single_cleanup_pre_dispatch": {
+    "authority": {
+      "at": "2026-11-09T05:33:57.929454+00:00",
+      "root_instruction": "After after-root-middle-ui read, if A120 still queued, send ONE normal lower-A dequeue; never release gates/change refs; independently verify cleanup."
+    },
+    "snapshot": "after-root-middle-ui",
+    "pr": 120,
+    "id": "PR_kwDOVnmBMc8AAAABNxJQlA"
+  },
+  "single_cleanup_receipt": {
+    "method": "POST",
+    "path": "graphql",
+    "payload": {
+      "query": "mutation($id:ID!,$receipt:String!){dequeuePullRequest(input:{id:$id,clientMutationId:$receipt}){clientMutationId mergeQueueEntry{id position state pullRequest{number}}}}",
+      "variables": {
+        "id": "PR_kwDOVnmBMc8AAAABNxJQlA",
+        "receipt": "ui-removal-20261109a-root-authorized-single-lower-A-dequeue"
+      }
+    },
+    "label": "root-authorized-single-lower-A-dequeue",
+    "start": "2026-11-09T05:33:57.931888+00:00",
+    "monotonic_start": 3.156766083,
+    "end": "2026-11-09T05:33:59.621662+00:00",
+    "monotonic_end": 4.846543416,
+    "exit": 0,
+    "http": 200,
+    "data": {
+      "data": {
+        "dequeuePullRequest": {
+          "clientMutationId": "ui-removal-20261109a-root-authorized-single-lower-A-dequeue",
+          "mergeQueueEntry": {
+            "id": "MQE_lQDOVnmBMc8AAAABNxJQlM4ABVSOzgPTP7E",
+            "position": 1,
+            "state": "AWAITING_CHECKS",
+            "pullRequest": {
+              "number": 120
+            }
+          }
+        }
+      }
+    }
+  },
+  "cleanup_final": {
+    "label": "after-single-lower-cleanup",
+    "start": "2026-11-09T05:33:59.626176+00:00",
+    "end": "2026-11-09T05:34:00.871933+00:00",
+    "graphql_receipt": "after-single-lower-cleanup",
+    "entries": [],
+    "prs": {
+      "A": {
+        "id": "PR_kwDOVnmBMc8AAAABNxJQlA",
+        "number": 120,
+        "state": "OPEN",
+        "merged": false,
+        "mergedAt": null,
+        "headRefOid": "dedc68f2283419882f05599a1c363fef8ee84786",
+        "baseRefName": "exp/fu2/queue/ui-removal-20261109a/trunk",
+        "mergeStateStatus": "CLEAN",
+        "isInMergeQueue": false,
+        "mergeQueueEntry": null,
+        "timelineItems": {
+          "nodes": [
+            {
+              "__typename": "PullRequestCommit"
+            },
+            {
+              "__typename": "AddedToStackEvent"
+            },
+            {
+              "__typename": "AddedToMergeQueueEvent"
+            },
+            {
+              "__typename": "RemovedFromMergeQueueEvent",
+              "createdAt": "2026-11-09T05:33:58Z",
+              "reason": "manual",
+              "beforeCommit": {
+                "oid": "2033840eb934841346734cb6f4510f410fb7dbd2"
+              },
+              "actor": {
+                "login": "joshlf"
+              }
+            }
+          ]
+        }
+      },
+      "B": {
+        "id": "PR_kwDOVnmBMc8AAAABNxJRLg",
+        "number": 121,
+        "state": "OPEN",
+        "merged": false,
+        "mergedAt": null,
+        "headRefOid": "3aad3a2488ca080d1bd7408337a5bbcb74523345",
+        "baseRefName": "exp/fu2/queue/ui-removal-20261109a/A",
+        "mergeStateStatus": "CLEAN",
+        "isInMergeQueue": false,
+        "mergeQueueEntry": null,
+        "timelineItems": {
+          "nodes": [
+            {
+              "__typename": "PullRequestCommit"
+            },
+            {
+              "__typename": "AddedToStackEvent"
+            },
+            {
+              "__typename": "AddedToMergeQueueEvent"
+            },
+            {
+              "__typename": "RemovedFromMergeQueueEvent",
+              "createdAt": "2026-11-09T05:33:58Z",
+              "reason": "manual",
+              "beforeCommit": null,
+              "actor": {
+                "login": "joshlf"
+              }
+            }
+          ]
+        }
+      },
+      "C": {
+        "id": "PR_kwDOVnmBMc8AAAABNxJR5A",
+        "number": 122,
+        "state": "OPEN",
+        "merged": false,
+        "mergedAt": null,
+        "headRefOid": "a107cd90fb95f5bcd11d59a3f1599be78c4fbf19",
+        "baseRefName": "exp/fu2/queue/ui-removal-20261109a/B",
+        "mergeStateStatus": "CLEAN",
+        "isInMergeQueue": false,
+        "mergeQueueEntry": null,
+        "timelineItems": {
+          "nodes": [
+            {
+              "__typename": "PullRequestCommit"
+            },
+            {
+              "__typename": "AddedToStackEvent"
+            },
+            {
+              "__typename": "AddedToMergeQueueEvent"
+            },
+            {
+              "__typename": "RemovedFromMergeQueueEvent",
+              "createdAt": "2026-11-09T05:33:58Z",
+              "reason": "manual",
+              "beforeCommit": null,
+              "actor": {
+                "login": "joshlf"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "refs_start": "2026-11-09T05:34:00.873106+00:00",
+    "refs": "dedc68f2283419882f05599a1c363fef8ee84786\trefs/heads/exp/fu2/queue/ui-removal-20261109a/A\n3aad3a2488ca080d1bd7408337a5bbcb74523345\trefs/heads/exp/fu2/queue/ui-removal-20261109a/B\na107cd90fb95f5bcd11d59a3f1599be78c4fbf19\trefs/heads/exp/fu2/queue/ui-removal-20261109a/C\neb6f13d837b350ff3eb567149069b2fc037f5a62\trefs/heads/exp/fu2/queue/ui-removal-20261109a/trunk\ndedc68f2283419882f05599a1c363fef8ee84786\trefs/tags/exp/fu2/queue/ui-removal-20261109a/authored/A/v1\n3aad3a2488ca080d1bd7408337a5bbcb74523345\trefs/tags/exp/fu2/queue/ui-removal-20261109a/authored/B/v1\na107cd90fb95f5bcd11d59a3f1599be78c4fbf19\trefs/tags/exp/fu2/queue/ui-removal-20261109a/authored/C/v1",
+    "refs_end": "2026-11-09T05:34:01.052721+00:00",
+    "original_uuid_receipt": {
+      "method": "GET",
+      "path": "repos/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08/pulls/122/merge-async/9a496f02-2b84-49a4-89dc-820e2a7ab989",
+      "payload": null,
+      "label": "after-single-lower-cleanup-original-uuid",
+      "start": "2026-11-09T05:34:01.053310+00:00",
+      "monotonic_start": 6.278179291,
+      "end": "2026-11-09T05:34:01.535522+00:00",
+      "monotonic_end": 6.760393625,
+      "exit": 0,
+      "http": 200,
+      "data": {
+        "status": "enqueued",
+        "details": {
+          "message": "Pull request was added to the merge queue."
+        }
+      }
+    }
+  },
+  "final_preservation": {
+    "source_heads_exact": {
+      "A": true,
+      "B": true,
+      "C": true
+    },
+    "archives_exact": {
+      "A": true,
+      "B": true,
+      "C": true
+    },
+    "trunk_exact": true,
+    "open_unmerged": {
+      "A": true,
+      "B": true,
+      "C": true
+    }
+  },
+  "finished_at": "2026-11-09T05:34:01.541027+00:00"
+}

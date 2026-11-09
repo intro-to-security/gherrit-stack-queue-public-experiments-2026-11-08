@@ -1,0 +1,117 @@
+{
+  "generated_at": "2026-11-09T05:35:20.915124+00:00",
+  "cases": [
+    {
+      "id": "UI-Q0",
+      "disposition": "performed",
+      "outcome": "ABC CLEAN with actual required source Actions/gate success; queue empty and no admission until explicit authenticated browser handoff.",
+      "evidence": [
+        "state.json#source_ready",
+        "state.json#source_readiness_checks",
+        "evidence/rule-readback.receipt.json"
+      ]
+    },
+    {
+      "id": "UI-Q1",
+      "disposition": "performed",
+      "outcome": "One exact-C-head async admission; UUID terminal enqueued and actual ABC queue membership. A candidate real Actions success and required manual gate absent.",
+      "uuid": "9a496f02-2b84-49a4-89dc-820e2a7ab989",
+      "evidence": [
+        "evidence/selected-C-admission.intent.json",
+        "evidence/selected-C-admission.receipt.json",
+        "state.json#admission_polls",
+        "state.json#candidate_hold_after_upper",
+        "state.json#candidate_hold_after_middle"
+      ]
+    },
+    {
+      "id": "UI-Q2",
+      "disposition": "performed",
+      "outcome": "Root-attested upper-C website confirmation displayed Not Found; independent read retained ABC membership and exact owned refs.",
+      "website_evidence_authority": "root browser observations; worker did not operate or directly observe browser",
+      "website_http_status": "not established",
+      "website_initiating_operation_id": "not established",
+      "evidence": [
+        "state.json#root_reported_ui_actions",
+        "evidence/after-root-upper-ui-read-2.receipt.json",
+        "state.json#observations/after-root-upper-ui"
+      ]
+    },
+    {
+      "id": "UI-Q3",
+      "disposition": "performed",
+      "outcome": "Root-attested middle-B website confirmation displayed Not Found; independent read retained ABC membership and exact owned refs.",
+      "website_evidence_authority": "root browser observations; worker did not operate or directly observe browser",
+      "website_http_status": "not established",
+      "website_initiating_operation_id": "not established",
+      "evidence": [
+        "state.json#root_reported_ui_actions",
+        "evidence/after-root-middle-ui.receipt.json",
+        "state.json#observations/after-root-middle-ui"
+      ]
+    },
+    {
+      "id": "UI-Q4",
+      "disposition": "performed",
+      "outcome": "One explicitly authorized normal lower-A dequeue; final queue empty, all ABC open/unmerged and exact source/trunk/archive refs. Removal events manual at 05:33:58Z; original admission UUID remains enqueued.",
+      "evidence": [
+        "state.json#single_cleanup_pre_dispatch",
+        "evidence/root-authorized-single-lower-A-dequeue.intent.json",
+        "evidence/root-authorized-single-lower-A-dequeue.receipt.json",
+        "state.json#cleanup_final",
+        "state.json#final_preservation"
+      ]
+    }
+  ],
+  "unresolved_dispatch_intents": [],
+  "final_phase": "cleaned",
+  "final_queue_empty": true,
+  "final_preservation": {
+    "source_heads_exact": {
+      "A": true,
+      "B": true,
+      "C": true
+    },
+    "archives_exact": {
+      "A": true,
+      "B": true,
+      "C": true
+    },
+    "trunk_exact": true,
+    "open_unmerged": {
+      "A": true,
+      "B": true,
+      "C": true
+    }
+  },
+  "original_uuid_final": {
+    "status": "enqueued",
+    "details": {
+      "message": "Pull request was added to the merge queue."
+    }
+  },
+  "root_reported_ui_actions": [
+    {
+      "recorded_at": "2026-11-09T05:32:43.669458+00:00",
+      "source": "root message; worker did not operate or directly observe browser",
+      "action": "upper C #122 website Remove from queue, confirmation dialog confirmed once",
+      "reported_result": "Visible Not Found error; page still showed C/B/A Queued",
+      "pre_action_tool_issue": "One earlier stale AX lookup failed before a fresh button; root reports no click occurred for that lookup.",
+      "independent_observation_label": "after-root-upper-ui",
+      "interpretation_limit": "Browser action/error attributed to root; native read demonstrates retained membership, not an internal request cause."
+    },
+    {
+      "recorded_at": "2026-11-09T05:33:56.878527+00:00",
+      "source": "root message; worker did not operate or directly observe browser",
+      "action": "middle B #121 website Remove from queue, confirmation dialog confirmed once",
+      "reported_result": "Visible Not Found text; B and C/B/A still Queued",
+      "independent_observation_label": "after-root-middle-ui",
+      "interpretation_limit": "No HTTP status or initiating request UUID inferred from website text."
+    }
+  ],
+  "limits": [
+    "Website visible text does not establish HTTP status, request UUID or internal cause.",
+    "The failed upper/middle controls do not establish the dependency behavior of a successful upper/middle removal.",
+    "Finite reads and terminal enqueued receipts do not prove no future provider write remains."
+  ]
+}

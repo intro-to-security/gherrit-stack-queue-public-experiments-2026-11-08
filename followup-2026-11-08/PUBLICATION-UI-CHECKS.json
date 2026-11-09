@@ -1,0 +1,38 @@
+{
+  "at": "2026-11-09T05:38:35.537331+00:00",
+  "archive_indexes": [
+    {
+      "lane": "queue",
+      "archive_sha256": "1fd13de93a87b2318cec2e2c1310086d58bc4b7a1aab98d6f4f1edee5580c363",
+      "files": 5691
+    },
+    {
+      "lane": "local",
+      "archive_sha256": "b518ab92bdf9044cbb0bd26919fd5960e2449e46df2779b4a41d12cfe7dcf7b1",
+      "files": 1329
+    },
+    {
+      "lane": "structure",
+      "archive_sha256": "c51e18e0a4f6b1ed03b5c0c0cbaadfdedaf9e088cf9e92b22198611827b4a087",
+      "files": 2776
+    },
+    {
+      "lane": "ci-reviews",
+      "archive_sha256": "8c825c317146a4691b2a1d6f60da475bdde851399b87235aa8997e9725dd27f7",
+      "files": 5681
+    },
+    {
+      "lane": "protocol",
+      "archive_sha256": "9c0d23f527ba02ca2bd06a06526ef7b65c3fd5b9822d5eb6351b7dec8d98a899",
+      "files": 1579
+    },
+    {
+      "lane": "ui",
+      "archive_sha256": "c5ac977e25cd414221b216809a0f4b29f69824d59a036ec86799a6880f92d95f",
+      "files": 9
+    }
+  ],
+  "website_observations": "native CUA signed-in confirmation actions; no capturedHTTP status/UUID",
+  "cleanup": "independentemptyqueue/openunmerged/exactrefs; manualremovals beforetimeout",
+  "raw_lanes_frozen": true
+}

@@ -1,6 +1,6 @@
 # Native queue follow-up results
 
-The expanded tests changed the earlier merge-method conclusion: **SQUASH landed both native members when build concurrency was two, while its concurrency-one controls ejected the upper member.** MERGE landed both in every tested matrix cell. REBASE ejected the upper member in all tested cells, including concurrency two. These are observed configurations, not a claim about GitHub's internal cause or a permanent method guarantee.
+The expanded tests extend the earlier build-concurrency-one evidence: **SQUASH landed both native members when build concurrency was two, while its concurrency-one controls ejected the upper member.** MERGE landed both in every tested matrix cell. REBASE ejected the upper member in all tested cells, including concurrency two. These are observed configurations, not a claim about GitHub's internal cause or a permanent method guarantee.
 
 The experiments used only new synthetic resources in [the authorized public repository](https://github.com/intro-to-security/gherrit-stack-queue-public-experiments-2026-11-08), under `exp/fu2/queue/**` and exact `gherrit-fu2-queue-*` rules. Existing fixtures, main, shared Actions workflow, repository merge-method settings and organization settings were unchanged. The plan preceded the first native mutation; recorded adjustments retain confounded attempts and observation-bound corrections.
 
