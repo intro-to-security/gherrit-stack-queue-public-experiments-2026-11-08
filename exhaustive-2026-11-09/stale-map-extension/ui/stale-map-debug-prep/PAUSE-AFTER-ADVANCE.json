@@ -1,0 +1,22 @@
+{
+  "coordinator": "root",
+  "at": {
+    "utc": "2026-11-09T18:11:39.955015+00:00",
+    "monotonic_ns": 18134375
+  },
+  "prefix": "exh-1109-ui-stale-debug-c536c6f390",
+  "state": "same initiation still paused before dispatch",
+  "source_location": "fetch-patch.ts:11 column32",
+  "url": "https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08/pull/662/page_data/stack_rebase",
+  "method": "POST",
+  "body": {
+    "expectedHeadOids": {
+      "661": "5594964d25db4275eef1f1f7890f49946ac03980",
+      "662": "47456f450de5028a2667629b92cd45ef00e0b585"
+    }
+  },
+  "resume_toggle": 1,
+  "advanced_sha256": "be3bc33031972955d95b9eee21df30cb4888bd1c55950b48d309c2fe9178fb53",
+  "actual_git_B": "219b947d8d655e8104e89ebba49c38253f79f0ce",
+  "provenance": "Exact transcription of native CUA AX observation after acknowledged atomic push and independent seven-ref readback. No Resume, step, reload or second initiation occurred."
+}

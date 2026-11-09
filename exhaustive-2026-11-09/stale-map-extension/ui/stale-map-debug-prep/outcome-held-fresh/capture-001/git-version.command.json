@@ -1,0 +1,18 @@
+{
+  "label": "git-version",
+  "argv": [
+    "git",
+    "--version"
+  ],
+  "started": {
+    "utc": "2026-11-09T19:13:00.461314+00:00",
+    "monotonic_ns": 34729708
+  },
+  "ended": {
+    "utc": "2026-11-09T19:13:00.470896+00:00",
+    "monotonic_ns": 44327166
+  },
+  "exit": 0,
+  "stdout_sha256": "2aa6da9ca331dc6de6fe72460146b9d1ebc22c8df24f3eb2a4c4f7c3c41b93ca",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

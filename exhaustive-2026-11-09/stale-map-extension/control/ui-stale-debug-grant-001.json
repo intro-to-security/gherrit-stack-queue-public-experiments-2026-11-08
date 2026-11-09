@@ -1,0 +1,28 @@
+{
+  "coordinator": "root",
+  "grant_path": "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/control/ui-stale-debug-grant-001.json",
+  "action": "prepare",
+  "at": {
+    "utc": "2026-11-09T18:07:09.617983+00:00",
+    "monotonic_ns": 16924041
+  },
+  "repository": "joshlf/gherrit-native-stack-experiments-2026-11-08",
+  "prefix": "exh-1109-ui-stale-debug-c536c6f390",
+  "inputs_sha256": "e9c786d3e7ed59457eaf0b39cbda54bc937005ba27dce5305b0258bd8daf5a3a",
+  "source_sha256": "e008d3c59c18ee499d6b6c5e44fe66369ceb79ade176a093189afa6666524e53",
+  "helper_sha256": "ae1ae63d5ee8370cbca11711f5d5e76a97669881ddf8ef8911493666393d128d",
+  "authority": "User requests remaining synthetic native-stack experiments and has restored Mac access. Root reviewed complete source/helper and independently verified all8objects/trees/parents/trailers.",
+  "allowed_effects": [
+    "One create-only atomic push of six exact fresh owned refs to T0/A0/B0 source and archive inputs",
+    "Create two synthetic PRs A on ownedtrunk and B on A, with disclosed captured bodies",
+    "Register those two PRs once as one native stack",
+    "One exact-leased ownedtrunk T0 to T1 push",
+    "Read exact owned refs and preserve READY/receipts/source snapshots"
+  ],
+  "forbidden": [
+    "B0 to B2 publication before separate paused-dispatch grant",
+    "main, oldfixtures, settings, workflows, queue, merge, deletion, other refs, browser initiation or private endpoint replay",
+    "Any automatic retry or repair after ambiguous native effect"
+  ],
+  "failure_rule": "Exclusive durable intents before each dispatch; freeze unknown/failed scope and reconcile read-only."
+}

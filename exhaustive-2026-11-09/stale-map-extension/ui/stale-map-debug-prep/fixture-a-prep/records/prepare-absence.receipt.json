@@ -1,0 +1,13 @@
+{
+  "started": {
+    "utc": "2026-11-09T18:18:23.815027+00:00",
+    "monotonic_ns": 58846708
+  },
+  "finished": {
+    "utc": "2026-11-09T18:18:23.982339+00:00",
+    "monotonic_ns": 226159750
+  },
+  "returncode": 0,
+  "stdout": "",
+  "stderr": ""
+}

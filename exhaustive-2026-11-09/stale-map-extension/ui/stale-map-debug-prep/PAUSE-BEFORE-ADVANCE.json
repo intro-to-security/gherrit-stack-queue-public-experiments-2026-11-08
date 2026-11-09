@@ -1,0 +1,31 @@
+{
+  "coordinator": "root",
+  "prefix": "exh-1109-ui-stale-debug-c536c6f390",
+  "state": "paused-before-dispatch",
+  "at": {
+    "utc": "2026-11-09T18:10:53.066595+00:00",
+    "monotonic_ns": 16947625
+  },
+  "repository": "joshlf/gherrit-native-stack-experiments-2026-11-08",
+  "prs": {
+    "A": 661,
+    "B": 662
+  },
+  "stack": 663,
+  "observed_ui": {
+    "pause_reason": "Paused on XHR or fetch https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08/pull/662/page_data/stack_rebase",
+    "call_frame": "fetch-patch.ts:11, column32, call to globalFetch(input,init)",
+    "method": "POST",
+    "input": "/joshlf/gherrit-native-stack-experiments-2026-11-08/pull/662/page_data/stack_rebase",
+    "body": {
+      "expectedHeadOids": {
+        "661": "5594964d25db4275eef1f1f7890f49946ac03980",
+        "662": "47456f450de5028a2667629b92cd45ef00e0b585"
+      }
+    },
+    "resume_toggle": 1,
+    "scope": "Expanded only request options t; headers array remained collapsed"
+  },
+  "provenance": "Manual exact transcription of native CUA accessibility observations. No JS evaluation/injection/CDP/private-endpoint replay. Full request body observed at row772 after expansion; pause URL/frame at previous observation.",
+  "ordering": "Single final confirmation; exact initiation held before dispatch. No Resume/step/reload or other request initiation between this observation and advance. HAR start is not physical send time."
+}

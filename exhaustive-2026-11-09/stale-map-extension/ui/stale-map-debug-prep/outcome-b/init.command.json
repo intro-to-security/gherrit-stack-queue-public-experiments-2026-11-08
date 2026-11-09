@@ -1,0 +1,30 @@
+{
+  "label": "init",
+  "argv": [
+    "git",
+    "-c",
+    "core.hooksPath=/dev/null",
+    "-c",
+    "core.pager=cat",
+    "-c",
+    "gc.auto=0",
+    "-c",
+    "maintenance.auto=false",
+    "--git-dir=/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/ui/stale-map-debug-prep/outcome-b/objects.git",
+    "init",
+    "--bare",
+    "--template=",
+    "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/ui/stale-map-debug-prep/outcome-b/objects.git"
+  ],
+  "started": {
+    "utc": "2026-11-09T18:17:07.409938+00:00",
+    "monotonic_ns": 18684500
+  },
+  "ended": {
+    "utc": "2026-11-09T18:17:07.420030+00:00",
+    "monotonic_ns": 28783583
+  },
+  "exit": 0,
+  "stdout_sha256": "ed88b49489736f35c01a06e3fa0a0bfe1b49a496fd291412e1f49ccb0dfdfacd",
+  "stderr_sha256": "3e70934f1909b0f5a846d62237fcc1509d733b9fb0321187024723dfc67176d3"
+}

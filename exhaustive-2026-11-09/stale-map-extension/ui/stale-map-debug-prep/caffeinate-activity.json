@@ -1,0 +1,14 @@
+{
+  "pid": 6207,
+  "argv": [
+    "/usr/bin/caffeinate",
+    "-u",
+    "-t",
+    "7200"
+  ],
+  "started": {
+    "utc": "2026-11-09T18:26:02.701681+00:00",
+    "monotonic_ns": 17745458
+  },
+  "scope": "User-authorized temporary session activity assertion; paired with recorded display/idle assertion; stop both owned processes after browser tests or2hour expiry"
+}

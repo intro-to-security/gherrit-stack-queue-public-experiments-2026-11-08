@@ -1,0 +1,22 @@
+{
+  "READY.json": {
+    "bytes": 13806,
+    "sha256": "c5dd5091b56524e75f7ca8c0b6812519085e8fe1c63c1537abb11380b8449fe2"
+  },
+  "LOCAL-INPUTS.json": {
+    "bytes": 7665,
+    "sha256": "4d9a1b51af135c7583eecf8290f42225581d8c71fdf884eaaa7a8266e0ebc570"
+  },
+  "fixture.py": {
+    "bytes": 7629,
+    "sha256": "7681ce6e8649619d79c1ba3f0db4005c1ab197fcb98b3ab27142d68faa3dc000"
+  },
+  "NETWORK-A-FRESH.json": {
+    "bytes": 4730,
+    "sha256": "6d9b894a8568c6333d6f0e8321e88a42189885bcbe65487f87cdcb3844f5fa29"
+  },
+  "observer.py": {
+    "bytes": 10517,
+    "sha256": "0c77ae4659f221bce43f08d8fb22b967b13f5fd84a11ff24e7299c73055acf46"
+  }
+}

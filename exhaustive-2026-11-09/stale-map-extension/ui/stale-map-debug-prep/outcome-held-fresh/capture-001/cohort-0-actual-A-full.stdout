@@ -1,0 +1,14 @@
+diff --git a/a.txt b/a.txt
+new file mode 100644
+index 0000000000000000000000000000000000000000..8d8fd0ede9fc2c06acb8e5d3461b622e1e09984d
+--- /dev/null
++++ b/a.txt
+@@ -0,0 +1 @@
++Disjoint A exh-1109-ui-stale-debug-held-fresh-0a10ffe99c
+diff --git a/late-a-marker.txt b/late-a-marker.txt
+new file mode 100644
+index 0000000000000000000000000000000000000000..edb022dad1b9ef18cbc97a31997f6ae3851240d2
+--- /dev/null
++++ b/late-a-marker.txt
+@@ -0,0 +1 @@
++Pre-load lower-A publication marker exh-1109-ui-stale-debug-held-fresh-0a10ffe99c

@@ -1,0 +1,65 @@
+{
+  "passed": true,
+  "rows": [
+    {
+      "index": 0,
+      "started": {
+        "utc": "2026-11-09T18:33:12.235138+00:00",
+        "monotonic_ns": 40419166
+      },
+      "ended": {
+        "utc": "2026-11-09T18:33:13.113348+00:00",
+        "monotonic_ns": 918624125
+      },
+      "seven_refs_exact": true,
+      "immutable_commit_bodies_match": true,
+      "canonical_open_order_exact": true,
+      "A_v2_marker_retained": true,
+      "REST_A_base_is_old_T0": true,
+      "actual_trunk_is_T1": true,
+      "REST_B_base_is_old_A0": true,
+      "actual_A_is_A2": true
+    },
+    {
+      "index": 1,
+      "started": {
+        "utc": "2026-11-09T18:33:22.240221+00:00",
+        "monotonic_ns": 10045464791
+      },
+      "ended": {
+        "utc": "2026-11-09T18:33:23.047961+00:00",
+        "monotonic_ns": 10853185916
+      },
+      "seven_refs_exact": true,
+      "immutable_commit_bodies_match": true,
+      "canonical_open_order_exact": true,
+      "A_v2_marker_retained": true,
+      "REST_A_base_is_old_T0": true,
+      "actual_trunk_is_T1": true,
+      "REST_B_base_is_old_A0": true,
+      "actual_A_is_A2": true
+    },
+    {
+      "index": 2,
+      "started": {
+        "utc": "2026-11-09T18:33:42.240337+00:00",
+        "monotonic_ns": 30045483625
+      },
+      "ended": {
+        "utc": "2026-11-09T18:33:43.107699+00:00",
+        "monotonic_ns": 30912818083
+      },
+      "seven_refs_exact": true,
+      "immutable_commit_bodies_match": true,
+      "canonical_open_order_exact": true,
+      "A_v2_marker_retained": true,
+      "REST_A_base_is_old_T0": true,
+      "actual_trunk_is_T1": true,
+      "REST_B_base_is_old_A0": true,
+      "actual_A_is_A2": true
+    }
+  ],
+  "git_fsck_exit": 0,
+  "source_results_sha256": "0edb815e2b642c27d7790fed23efddf32a9e4e1327907af5e073d2ab444b25ab",
+  "limits": "Pure retained-readback check; no HAR/job-status/remote query; no future-write or continuous-silence inference"
+}

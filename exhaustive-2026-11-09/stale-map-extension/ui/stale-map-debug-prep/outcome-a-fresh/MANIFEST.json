@@ -1,0 +1,1698 @@
+{
+  "format": "owned-text-evidence-v1",
+  "scope": "Completed read-only fresh-A outcome capture; every own source/report/command/stdout/stderr/result file, excluding Git store. Not an external publication or root manual-byte-approval receipt.",
+  "files": [
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/CHECKS.json",
+      "bytes": 3724,
+      "sha256": "c04a45bff12b0b46a8901ede76d5c7db88f3c4d1eafc95cdf4988f63bd892102"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/EFFECT-AUDIT.json",
+      "bytes": 12862,
+      "sha256": "8251688e1ee7eb2db00ba7d804517be6b3dc5ed41770ab50665fcd3b3c2570a9"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/RESULTS.md",
+      "bytes": 3928,
+      "sha256": "b03f17858c1f9e9a628780057d37cd015e758fefc52075cc867900035879d54d"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/SCOPE.md",
+      "bytes": 1551,
+      "sha256": "78bef05f26233b388d1629eae64a2d7b17d1be4a9306e0bb0d5d074d3c3c95bc"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/observer.py",
+      "bytes": 10517,
+      "sha256": "0c77ae4659f221bce43f08d8fb22b967b13f5fd84a11ff24e7299c73055acf46"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/verify.py",
+      "bytes": 4805,
+      "sha256": "936d9cf40baebedbc91f2ecc4e1e5f6d1263c13fe92a47ce3498784973d614b2"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/INPUT-PINS.json",
+      "bytes": 638,
+      "sha256": "45a054394c3d8abf34ccfce4507d47efe02ae81353f25136176d4acb4869f71a"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/RESULTS.json",
+      "bytes": 215217,
+      "sha256": "5d1e189c5d884a737c94c821b28eca04ac6980d1cc3ae74b93842d0a50950bcc"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/START.json",
+      "bytes": 948,
+      "sha256": "1161ea63bfb67698d964e9c1bac6562e0d506555711e39bf48b3e48b4aeff906"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-0-A-full-range.command.json",
+      "bytes": 916,
+      "sha256": "bcfc653bc52084c2ec379a0190a7922b9ae20ef6a6ea5ce27bc181c2ebb93063"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-0-A-full-range.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-0-A-full-range.stdout",
+      "bytes": 82,
+      "sha256": "1ffbf32df4f2c78df6faed3c798308a149da0b98d64da7c0e9219e8a282c5320"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-0-B-full-range.command.json",
+      "bytes": 916,
+      "sha256": "f49415c3285138f2d3f1e98cd4da9135b155cc06746b1b091b3a1c712f93e253"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-0-B-full-range.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-0-B-full-range.stdout",
+      "bytes": 41,
+      "sha256": "59d5319a4671659b0251c40d023f781ce03e48d0a2c56e5d9a68310d6bfdae7c"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-0-actual-A-full.command.json",
+      "bytes": 992,
+      "sha256": "c2707f87ef5f6219d444a3b2142b33774c295d0a6021f790a9588afe2d10f64d"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-0-actual-A-full.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-0-actual-A-full.stdout",
+      "bytes": 525,
+      "sha256": "cf8a408e6ae0025de918e1347440877901da90579f3a59f0b653d1dd24b5ab09"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-0-actual-B-full.command.json",
+      "bytes": 992,
+      "sha256": "1e035e347c8c8f2bfbf0e082b7bde8cace45f352363b424a79eca974ee447a0d"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-0-actual-B-full.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-0-actual-B-full.stdout",
+      "bytes": 232,
+      "sha256": "bbe7e44de1f9a00076962f6482bdd26b4ddb81ac42363598c330f35e65f9b93a"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-0-fetch.command.json",
+      "bytes": 1926,
+      "sha256": "059befd018744e9ff46b39b092e8a2ee8b0e5ecead2892a5c7413d13cafefaab"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-0-fetch.stderr",
+      "bytes": 1117,
+      "sha256": "cf32158eb83affec5fbb79bf45f3477c13ffc110e8f29de70485bbf3706b8666"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-0-fetch.stdout",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-0-marker-A.command.json",
+      "bytes": 770,
+      "sha256": "92e5356454275c5b5297a0dc71677c05e194c155a62fd64b23ce746b964aa362"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-0-marker-A.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-0-marker-A.stdout",
+      "bytes": 79,
+      "sha256": "6c8e6fdf3d345c0a6cd300a6fdfbb7782e96abecb71c5678a5dc1e1c4953cfc5"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-0-marker-B.command.json",
+      "bytes": 770,
+      "sha256": "d7a8dbc18e2f7989c73c4f69e25abc5535cc188bbf09f4299a66a5d21d2d67e2"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-0-marker-B.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-0-marker-B.stdout",
+      "bytes": 79,
+      "sha256": "6c8e6fdf3d345c0a6cd300a6fdfbb7782e96abecb71c5678a5dc1e1c4953cfc5"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-0-object-0-raw.command.json",
+      "bytes": 871,
+      "sha256": "8d3817ee63abded2993072a8b37eca99cdd072f88e69804bb2f6ac7f5dea4a2b"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-0-object-0-raw.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-0-object-0-raw.stdout",
+      "bytes": 321,
+      "sha256": "5cf566aea596a88f5233087f3561de82faeb9aa4abadc8a806d6359dd1a86c4c"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-0-object-0-tree.command.json",
+      "bytes": 867,
+      "sha256": "482c14ff6479424b7c45a17ee23aa2d23f01046ddb8934404d4b84a8ae12c399"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-0-object-0-tree.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-0-object-0-tree.stdout",
+      "bytes": 134,
+      "sha256": "3a1128c5c46e84b67dfcbb1a390286b32fa4c705286329c6681403e6e693400f"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-0-object-1-raw.command.json",
+      "bytes": 871,
+      "sha256": "a1f5747f824795e6f50922c7d772016e081a92ef1003fb20685c500d2794ad75"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-0-object-1-raw.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-0-object-1-raw.stdout",
+      "bytes": 1136,
+      "sha256": "ec4c3527672a4266e76977a76fde92c530ae02a018c219eccf3b684271a37131"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-0-object-1-tree.command.json",
+      "bytes": 867,
+      "sha256": "ea67fe9159267a26ac035cc491e91ecbc075516f5b75047f9a5e45eabd5a55aa"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-0-object-1-tree.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-0-object-1-tree.stdout",
+      "bytes": 264,
+      "sha256": "958a8547b5716dfaf035a04360d94ef37bdb5b72f554ca1f58f1e10278798150"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-0-object-2-raw.command.json",
+      "bytes": 871,
+      "sha256": "335a00ff5bba2256fcc163109499a1c6b3a22712a7243ade9cef106490d50ce3"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-0-object-2-raw.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-0-object-2-raw.stdout",
+      "bytes": 1136,
+      "sha256": "b460097bb9b5ff21c834983ec697f8797f1665a2fcbdd7bc57a8ff3f4c2e3ba8"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-0-object-2-tree.command.json",
+      "bytes": 867,
+      "sha256": "54caf66b9bfce6981a725c8a79334bb75168a084e39628cc89299cb9d31be050"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-0-object-2-tree.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-0-object-2-tree.stdout",
+      "bytes": 323,
+      "sha256": "d553ecf70b0c6bd0c60dae185da19a6ff75292ffc3f3a295b09a5a9e3c7bd21d"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-0-object-3-raw.command.json",
+      "bytes": 871,
+      "sha256": "446d65051e3701ed43a47a17e7e156553d1d05e370cae4999b905f13051c202e"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-0-object-3-raw.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-0-object-3-raw.stdout",
+      "bytes": 321,
+      "sha256": "f2f092d79ad557d5fdba0c9c1189f11616b8816cea66817257b63a8100eb1768"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-0-object-3-tree.command.json",
+      "bytes": 867,
+      "sha256": "33c5415b95892301501d8ed436e3df20b54551d8f3e436acf9b261479885e5b3"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-0-object-3-tree.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-0-object-3-tree.stdout",
+      "bytes": 180,
+      "sha256": "80370b4caf249ff0fe9e90f8574bcd17359dc81cb89bfb4bc5026aa77a130eb7"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-0-object-4-raw.command.json",
+      "bytes": 871,
+      "sha256": "0dc62cfbbb69e64131ab5fea65f086f63777b2202974e06bfa73f15a63fe4426"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-0-object-4-raw.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-0-object-4-raw.stdout",
+      "bytes": 321,
+      "sha256": "515c509f1ef44536aad6ab79a44fe9694a269be7760b8b55339901821c8d413f"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-0-object-4-tree.command.json",
+      "bytes": 867,
+      "sha256": "5dcd894fb2cca60db02d9ac898a6b96333f2f4f95a7aa5d166ba8914cafcf4a2"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-0-object-4-tree.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-0-object-4-tree.stdout",
+      "bytes": 121,
+      "sha256": "c2f8cc9ecbfa40a27c21cd5b2349382a4088eeefd68798a0f6dcac855e2ce953"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-0-object-5-raw.command.json",
+      "bytes": 871,
+      "sha256": "b2d52a1e8da77e08565b1c2eb8eb0fa2b23d45799b9e8cf19a8b9a9435a7771a"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-0-object-5-raw.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-0-object-5-raw.stdout",
+      "bytes": 321,
+      "sha256": "a726b211597f9c4cad2076a156b1e571991d09811f15c5ea9376f225de01536e"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-0-object-5-tree.command.json",
+      "bytes": 867,
+      "sha256": "45e8391543a5d8e444bd866321bf64120bad34248de66d74653ac790c39027e6"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-0-object-5-tree.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-0-object-5-tree.stdout",
+      "bytes": 192,
+      "sha256": "9181b37fa322b2b85a9998b105dcb5a95db766502cab850cf90b645c8866c40e"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-0-object-6-raw.command.json",
+      "bytes": 871,
+      "sha256": "48de8595cf18b62f25fcf605dd6dc510fe43e5d7844968187b3acd1df462f838"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-0-object-6-raw.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-0-object-6-raw.stdout",
+      "bytes": 1136,
+      "sha256": "69f828b6aa8a0df74cc6ffb83d2c62da9729a9b7c2ef274c9e64de1547de22e2"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-0-object-6-tree.command.json",
+      "bytes": 867,
+      "sha256": "a8158d48095f3e1642ad847905f69cb6307e763d45b3135699f309d294361378"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-0-object-6-tree.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-0-object-6-tree.stdout",
+      "bytes": 193,
+      "sha256": "a54f68b7648392d91d51583d009b19f81e8d531669ba55c24a6a8a8e6eec2a73"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-0-pr-A.command.json",
+      "bytes": 691,
+      "sha256": "cf9dcf567330322cd253139158f201dc5ac298571f99b74a1eb8bb808d46a423"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-0-pr-A.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-0-pr-A.stdout",
+      "bytes": 18950,
+      "sha256": "c5ffe73151d48900e6f50d4f68ce8d0c43c30ee938ee14c6b2da5a8b840a06a5"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-0-pr-B.command.json",
+      "bytes": 691,
+      "sha256": "d003b0ead5a48a8b315ba40aa3d2aae73966b9860fcb15110d1436bd1f309b9d"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-0-pr-B.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-0-pr-B.stdout",
+      "bytes": 18942,
+      "sha256": "e5cdb7440034e6f49a8b68e738f2ecffc71ac347458f33183c5860ab880866d6"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-0-refs.command.json",
+      "bytes": 1382,
+      "sha256": "67f369df4dcb601e8d6f495d249f2da074030203f0040c1dc0ce9866ca64aadc"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-0-refs.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-0-refs.stdout",
+      "bytes": 724,
+      "sha256": "cd85c8af95501705843fcc9e334ed888b60a06096cd75cd64b1977b2f74d397f"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-0-resolve-0.command.json",
+      "bytes": 901,
+      "sha256": "a7fb8172855e92e8bef6f18237f320d12a5dbd7bf5ab95b60b96fc3a86c5ac23"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-0-resolve-0.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-0-resolve-0.stdout",
+      "bytes": 41,
+      "sha256": "7b8ed2e2b37f047e83947317bdc1afd1c66d8e08105b85629457d6bad23bcfa1"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-0-resolve-1.command.json",
+      "bytes": 897,
+      "sha256": "709a54e626557bbf4fdd0b655756efe37d96fe72281c251496816e96816c14d3"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-0-resolve-1.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-0-resolve-1.stdout",
+      "bytes": 41,
+      "sha256": "ecf90d919ce6fdc1809cf0e817bc27577d451fffb87a8f428b836b44c3aed6f7"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-0-resolve-2.command.json",
+      "bytes": 897,
+      "sha256": "f469832720d70561bdb7cd335056d4edddf3e95b35058f703ea36732ea5a6511"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-0-resolve-2.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-0-resolve-2.stdout",
+      "bytes": 41,
+      "sha256": "59d5319a4671659b0251c40d023f781ce03e48d0a2c56e5d9a68310d6bfdae7c"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-0-resolve-3.command.json",
+      "bytes": 905,
+      "sha256": "52c7fdb05dae55f7904361c0fbcaffb38a7d7e4cdf13d741ecb05538222cfc90"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-0-resolve-3.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-0-resolve-3.stdout",
+      "bytes": 41,
+      "sha256": "4d3b00cc6c4853d0efe21461dbc39253895081c991804c6106a36f925f9ee2d8"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-0-resolve-4.command.json",
+      "bytes": 908,
+      "sha256": "019272248ee37f11f30a793a9041b60f582174b2876f618f2b86fbe0e7291c22"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-0-resolve-4.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-0-resolve-4.stdout",
+      "bytes": 41,
+      "sha256": "31a43f67b3006cb59b2e79c34c0296d4e4176e5f14d031b562377f8a901b1421"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-0-resolve-5.command.json",
+      "bytes": 908,
+      "sha256": "0e861cd0c31ed6d0c7b0f882f37eaa9cb52ba6172e4de0e6e324e67b7bd42980"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-0-resolve-5.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-0-resolve-5.stdout",
+      "bytes": 41,
+      "sha256": "4d3b00cc6c4853d0efe21461dbc39253895081c991804c6106a36f925f9ee2d8"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-0-resolve-6.command.json",
+      "bytes": 908,
+      "sha256": "a3e1149ebadaf688a71055161f376bfe1e002a951f49697290ebe70e358fbb03"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-0-resolve-6.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-0-resolve-6.stdout",
+      "bytes": 41,
+      "sha256": "452a3f3dee3355d3d20fc4cf93d32e1c43563abc0ba403901f2a81508a36354c"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-0-source-A-full.command.json",
+      "bytes": 991,
+      "sha256": "28f240337414329724f79f42ee1f08e66141f5710da7a9dc154136b6f94103d3"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-0-source-A-full.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-0-source-A-full.stdout",
+      "bytes": 525,
+      "sha256": "cf8a408e6ae0025de918e1347440877901da90579f3a59f0b653d1dd24b5ab09"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-0-source-B-full.command.json",
+      "bytes": 992,
+      "sha256": "1728b201af12f5deb7302bbab7517333add1996e0a6a0362603e4f3d352e4c3b"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-0-source-B-full.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-0-source-B-full.stdout",
+      "bytes": 232,
+      "sha256": "bbe7e44de1f9a00076962f6482bdd26b4ddb81ac42363598c330f35e65f9b93a"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-0-stack.command.json",
+      "bytes": 693,
+      "sha256": "9b45c8eba994ae50a3a0a19616839ee370500ee150e877632cb5d894f86a1fc1"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-0-stack.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-0-stack.stdout",
+      "bytes": 3953,
+      "sha256": "831fa0cea3d4c138bed8b0d87e6e2ce4eb8233bbd7b0d85cf4d520487cf4c840"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-0.json",
+      "bytes": 67349,
+      "sha256": "13f020d243380baaad2ac700f4e68344197006bba1762f88944a03b4bcaceed4"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-1-A-full-range.command.json",
+      "bytes": 920,
+      "sha256": "814d90dd68aa38945a3c1bd3930197e5f237a574bfaeed5311130b4deb3c623a"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-1-A-full-range.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-1-A-full-range.stdout",
+      "bytes": 82,
+      "sha256": "1ffbf32df4f2c78df6faed3c798308a149da0b98d64da7c0e9219e8a282c5320"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-1-B-full-range.command.json",
+      "bytes": 920,
+      "sha256": "6db270d47c46d9787d43cab9ed24b0f00e862b7330e78f68c4189a1504d358d6"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-1-B-full-range.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-1-B-full-range.stdout",
+      "bytes": 41,
+      "sha256": "59d5319a4671659b0251c40d023f781ce03e48d0a2c56e5d9a68310d6bfdae7c"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-1-actual-A-full.command.json",
+      "bytes": 994,
+      "sha256": "883250bd198008c09129e0afe94b7b1b5ebfabd8fbf6fef6031aca173bf9bddb"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-1-actual-A-full.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-1-actual-A-full.stdout",
+      "bytes": 525,
+      "sha256": "cf8a408e6ae0025de918e1347440877901da90579f3a59f0b653d1dd24b5ab09"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-1-actual-B-full.command.json",
+      "bytes": 994,
+      "sha256": "3f99c01b224145d9369fadfd2ed654a96731d6c944555c170aca4b2db621640a"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-1-actual-B-full.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-1-actual-B-full.stdout",
+      "bytes": 232,
+      "sha256": "bbe7e44de1f9a00076962f6482bdd26b4ddb81ac42363598c330f35e65f9b93a"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-1-fetch.command.json",
+      "bytes": 1930,
+      "sha256": "88a3d25b8df37ab88770a9471e9f2104f89b446c3a4ce9d129b8954ddfb6d3ce"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-1-fetch.stderr",
+      "bytes": 1117,
+      "sha256": "fe6d3f0f962816dac580629aada535fff1c2f905f3d2ce8c73cb16b9073e9456"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-1-fetch.stdout",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-1-marker-A.command.json",
+      "bytes": 772,
+      "sha256": "296be13c9aa3a1688cc5da441b0b46f4a5a1d50c3d77a51c769333056bfd57be"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-1-marker-A.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-1-marker-A.stdout",
+      "bytes": 79,
+      "sha256": "6c8e6fdf3d345c0a6cd300a6fdfbb7782e96abecb71c5678a5dc1e1c4953cfc5"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-1-marker-B.command.json",
+      "bytes": 772,
+      "sha256": "d0aaec8efa4ddab5cf2ad51a09e85740b1be638b580ba9eadd047825371d6a98"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-1-marker-B.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-1-marker-B.stdout",
+      "bytes": 79,
+      "sha256": "6c8e6fdf3d345c0a6cd300a6fdfbb7782e96abecb71c5678a5dc1e1c4953cfc5"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-1-object-0-raw.command.json",
+      "bytes": 875,
+      "sha256": "959fe7607e668cfd012890b4f375479c4e0e9bdb8fabe85b597c358690ac0edc"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-1-object-0-raw.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-1-object-0-raw.stdout",
+      "bytes": 321,
+      "sha256": "5cf566aea596a88f5233087f3561de82faeb9aa4abadc8a806d6359dd1a86c4c"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-1-object-0-tree.command.json",
+      "bytes": 871,
+      "sha256": "27960ad0ce8754116bd6aeea16913acee09e08918d4c400c3993b8731f67cd44"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-1-object-0-tree.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-1-object-0-tree.stdout",
+      "bytes": 134,
+      "sha256": "3a1128c5c46e84b67dfcbb1a390286b32fa4c705286329c6681403e6e693400f"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-1-object-1-raw.command.json",
+      "bytes": 875,
+      "sha256": "b8c656d90ee87f4e385bf0af4a4d7885334abe26bdb2aa2dbdb5d0ba75df0bc5"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-1-object-1-raw.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-1-object-1-raw.stdout",
+      "bytes": 1136,
+      "sha256": "ec4c3527672a4266e76977a76fde92c530ae02a018c219eccf3b684271a37131"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-1-object-1-tree.command.json",
+      "bytes": 871,
+      "sha256": "0fc05ea5878ca375693c42445380869d99da980361a7b39f94348c0dd59c112f"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-1-object-1-tree.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-1-object-1-tree.stdout",
+      "bytes": 264,
+      "sha256": "958a8547b5716dfaf035a04360d94ef37bdb5b72f554ca1f58f1e10278798150"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-1-object-2-raw.command.json",
+      "bytes": 875,
+      "sha256": "adee646a8479882c27ec5bced557fd12feaef241cfd37eb770d2ebb56cd87710"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-1-object-2-raw.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-1-object-2-raw.stdout",
+      "bytes": 1136,
+      "sha256": "b460097bb9b5ff21c834983ec697f8797f1665a2fcbdd7bc57a8ff3f4c2e3ba8"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-1-object-2-tree.command.json",
+      "bytes": 871,
+      "sha256": "d29ded91f36f232a107c997d959017674ab41c6caece72570714b2d547233cdb"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-1-object-2-tree.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-1-object-2-tree.stdout",
+      "bytes": 323,
+      "sha256": "d553ecf70b0c6bd0c60dae185da19a6ff75292ffc3f3a295b09a5a9e3c7bd21d"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-1-object-3-raw.command.json",
+      "bytes": 875,
+      "sha256": "b667b82ef911322b1c46f41d61157cb72be641ce41373eb8bcc538d37cec9741"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-1-object-3-raw.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-1-object-3-raw.stdout",
+      "bytes": 321,
+      "sha256": "f2f092d79ad557d5fdba0c9c1189f11616b8816cea66817257b63a8100eb1768"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-1-object-3-tree.command.json",
+      "bytes": 871,
+      "sha256": "68ba433f654e631be05c7c410bbb5707b32b89138e4df39c518d9ba37dc39d75"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-1-object-3-tree.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-1-object-3-tree.stdout",
+      "bytes": 180,
+      "sha256": "80370b4caf249ff0fe9e90f8574bcd17359dc81cb89bfb4bc5026aa77a130eb7"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-1-object-4-raw.command.json",
+      "bytes": 875,
+      "sha256": "018911bb9ddf43dda56d7f1963c83277bdc788bdc73e91bfe8690a4870321212"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-1-object-4-raw.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-1-object-4-raw.stdout",
+      "bytes": 321,
+      "sha256": "515c509f1ef44536aad6ab79a44fe9694a269be7760b8b55339901821c8d413f"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-1-object-4-tree.command.json",
+      "bytes": 871,
+      "sha256": "7cb0a7e51a2e4371cdc77a585b363f400aafdb406dea7e9b68ed33168491a85c"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-1-object-4-tree.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-1-object-4-tree.stdout",
+      "bytes": 121,
+      "sha256": "c2f8cc9ecbfa40a27c21cd5b2349382a4088eeefd68798a0f6dcac855e2ce953"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-1-object-5-raw.command.json",
+      "bytes": 875,
+      "sha256": "8f201b4496c5bfa405d85329ec10d1ac35b5341843cc1b00e96e6411cbb46ce7"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-1-object-5-raw.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-1-object-5-raw.stdout",
+      "bytes": 321,
+      "sha256": "a726b211597f9c4cad2076a156b1e571991d09811f15c5ea9376f225de01536e"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-1-object-5-tree.command.json",
+      "bytes": 871,
+      "sha256": "2d841663b2716c3376a84c428b88ccc3c6d9176959dca5255d3746e1a91de3aa"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-1-object-5-tree.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-1-object-5-tree.stdout",
+      "bytes": 192,
+      "sha256": "9181b37fa322b2b85a9998b105dcb5a95db766502cab850cf90b645c8866c40e"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-1-object-6-raw.command.json",
+      "bytes": 875,
+      "sha256": "888bb16ab6df664420e390bb9d00a0dd5cd626ae95472e5936bdc27eb20b8bb9"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-1-object-6-raw.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-1-object-6-raw.stdout",
+      "bytes": 1136,
+      "sha256": "69f828b6aa8a0df74cc6ffb83d2c62da9729a9b7c2ef274c9e64de1547de22e2"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-1-object-6-tree.command.json",
+      "bytes": 871,
+      "sha256": "54a62069e00cc8e3f1396054a1755e27a792126a7ad08afdc5b2ee53aff6ec22"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-1-object-6-tree.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-1-object-6-tree.stdout",
+      "bytes": 193,
+      "sha256": "a54f68b7648392d91d51583d009b19f81e8d531669ba55c24a6a8a8e6eec2a73"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-1-pr-A.command.json",
+      "bytes": 696,
+      "sha256": "f7ad94e1423addb4a0042edc595893e60b1dab8908c95b929180be1ecc869eb9"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-1-pr-A.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-1-pr-A.stdout",
+      "bytes": 18950,
+      "sha256": "c5ffe73151d48900e6f50d4f68ce8d0c43c30ee938ee14c6b2da5a8b840a06a5"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-1-pr-B.command.json",
+      "bytes": 696,
+      "sha256": "250ef2a3e517d9e80c8db6cc996d155d37ea2d5aaee07316c9ef3a2eb57057db"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-1-pr-B.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-1-pr-B.stdout",
+      "bytes": 18942,
+      "sha256": "e5cdb7440034e6f49a8b68e738f2ecffc71ac347458f33183c5860ab880866d6"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-1-refs.command.json",
+      "bytes": 1387,
+      "sha256": "0c767a8073d7b44910c291ec6db9976a148e9b6491d3f8a8e159db20df076374"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-1-refs.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-1-refs.stdout",
+      "bytes": 724,
+      "sha256": "cd85c8af95501705843fcc9e334ed888b60a06096cd75cd64b1977b2f74d397f"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-1-resolve-0.command.json",
+      "bytes": 905,
+      "sha256": "c642868a7e13fbf925ecb74ba8ff786629487b62e16340a68ea2db0c79326c10"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-1-resolve-0.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-1-resolve-0.stdout",
+      "bytes": 41,
+      "sha256": "7b8ed2e2b37f047e83947317bdc1afd1c66d8e08105b85629457d6bad23bcfa1"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-1-resolve-1.command.json",
+      "bytes": 901,
+      "sha256": "3379707e4d12bd9040db7400d3ed86b58954c5fa306e7d5075438922241de705"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-1-resolve-1.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-1-resolve-1.stdout",
+      "bytes": 41,
+      "sha256": "ecf90d919ce6fdc1809cf0e817bc27577d451fffb87a8f428b836b44c3aed6f7"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-1-resolve-2.command.json",
+      "bytes": 901,
+      "sha256": "3bf12cae69a852df576ec8941a6d62004ffdf1c11ebfea8c27460cfe682da4a7"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-1-resolve-2.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-1-resolve-2.stdout",
+      "bytes": 41,
+      "sha256": "59d5319a4671659b0251c40d023f781ce03e48d0a2c56e5d9a68310d6bfdae7c"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-1-resolve-3.command.json",
+      "bytes": 909,
+      "sha256": "17b5d2ef41df5bc79acaa8d6cb1999cf0a9f066b450b1cedfbda04baf8c3e80d"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-1-resolve-3.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-1-resolve-3.stdout",
+      "bytes": 41,
+      "sha256": "4d3b00cc6c4853d0efe21461dbc39253895081c991804c6106a36f925f9ee2d8"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-1-resolve-4.command.json",
+      "bytes": 912,
+      "sha256": "815531c9d10bfa2122cb31cf72baf178456551d1322a52e90eb7093846052451"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-1-resolve-4.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-1-resolve-4.stdout",
+      "bytes": 41,
+      "sha256": "31a43f67b3006cb59b2e79c34c0296d4e4176e5f14d031b562377f8a901b1421"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-1-resolve-5.command.json",
+      "bytes": 912,
+      "sha256": "9e7f3c63104e60ad438f958dfa6ee764c479fceb36820831fb18e48f3728f3aa"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-1-resolve-5.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-1-resolve-5.stdout",
+      "bytes": 41,
+      "sha256": "4d3b00cc6c4853d0efe21461dbc39253895081c991804c6106a36f925f9ee2d8"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-1-resolve-6.command.json",
+      "bytes": 912,
+      "sha256": "c4d596f1d592a1543c9de5ebc7a2c1ff12c9a074cb9f95b8b13d2a4d5530568b"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-1-resolve-6.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-1-resolve-6.stdout",
+      "bytes": 41,
+      "sha256": "452a3f3dee3355d3d20fc4cf93d32e1c43563abc0ba403901f2a81508a36354c"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-1-source-A-full.command.json",
+      "bytes": 994,
+      "sha256": "efe6ae36a69452f9c33bf112edb99869fb884ecb464cf22464142f4cb6efc754"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-1-source-A-full.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-1-source-A-full.stdout",
+      "bytes": 525,
+      "sha256": "cf8a408e6ae0025de918e1347440877901da90579f3a59f0b653d1dd24b5ab09"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-1-source-B-full.command.json",
+      "bytes": 994,
+      "sha256": "413c6e95eee11fe2e2402c9398725e0fdba6cd5bcf340429167efb0f3fa69c1f"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-1-source-B-full.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-1-source-B-full.stdout",
+      "bytes": 232,
+      "sha256": "bbe7e44de1f9a00076962f6482bdd26b4ddb81ac42363598c330f35e65f9b93a"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-1-stack.command.json",
+      "bytes": 698,
+      "sha256": "29581a8b14a509d8d141d91661642d11216751d9820fed5bbec6fd55c3e584dc"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-1-stack.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-1-stack.stdout",
+      "bytes": 3953,
+      "sha256": "831fa0cea3d4c138bed8b0d87e6e2ce4eb8233bbd7b0d85cf4d520487cf4c840"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-1.json",
+      "bytes": 67354,
+      "sha256": "15e8628453257f7e81cbe5abdedfcbbb03e1d236297606b039c5c3468ae116e7"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-2-A-full-range.command.json",
+      "bytes": 920,
+      "sha256": "7673b487ac1ced91a7f2d22e1c89d4e89ab90b6d26760cd72acbdac580d1ca8d"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-2-A-full-range.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-2-A-full-range.stdout",
+      "bytes": 82,
+      "sha256": "1ffbf32df4f2c78df6faed3c798308a149da0b98d64da7c0e9219e8a282c5320"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-2-B-full-range.command.json",
+      "bytes": 920,
+      "sha256": "dddd2f75549589e133d065449514bc6c63ee712910950b8ebf46947144ef831a"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-2-B-full-range.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-2-B-full-range.stdout",
+      "bytes": 41,
+      "sha256": "59d5319a4671659b0251c40d023f781ce03e48d0a2c56e5d9a68310d6bfdae7c"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-2-actual-A-full.command.json",
+      "bytes": 994,
+      "sha256": "0d24756e009df69c17cc5ba7424e1a96412afbb0cd7f005bc20f28b2d11de3ef"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-2-actual-A-full.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-2-actual-A-full.stdout",
+      "bytes": 525,
+      "sha256": "cf8a408e6ae0025de918e1347440877901da90579f3a59f0b653d1dd24b5ab09"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-2-actual-B-full.command.json",
+      "bytes": 994,
+      "sha256": "64d02c67e87bba6834e578f3ebc9d77b7ca8d5107c906ea8cbbeef77ec9d6a99"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-2-actual-B-full.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-2-actual-B-full.stdout",
+      "bytes": 232,
+      "sha256": "bbe7e44de1f9a00076962f6482bdd26b4ddb81ac42363598c330f35e65f9b93a"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-2-fetch.command.json",
+      "bytes": 1930,
+      "sha256": "40afac016deb63543fd8b5fd7e708e9ebf60f0d779a57e891cfa8ca4e36a1839"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-2-fetch.stderr",
+      "bytes": 1117,
+      "sha256": "3acf488f849b48225b9c9f46aa8920c418d26d7107d2ee63f9a19ffb19dbb40e"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-2-fetch.stdout",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-2-marker-A.command.json",
+      "bytes": 772,
+      "sha256": "a93729dadc87aaa46ee0319ecec7c366b545d3b7846a5ade16648f0e8e5170b4"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-2-marker-A.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-2-marker-A.stdout",
+      "bytes": 79,
+      "sha256": "6c8e6fdf3d345c0a6cd300a6fdfbb7782e96abecb71c5678a5dc1e1c4953cfc5"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-2-marker-B.command.json",
+      "bytes": 772,
+      "sha256": "eca9a57d6d433ab287759ce18a2cc418b0e4ea5908d2977bac5649ef644d13c2"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-2-marker-B.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-2-marker-B.stdout",
+      "bytes": 79,
+      "sha256": "6c8e6fdf3d345c0a6cd300a6fdfbb7782e96abecb71c5678a5dc1e1c4953cfc5"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-2-object-0-raw.command.json",
+      "bytes": 875,
+      "sha256": "4b69c25a0a53860e3b0300a9b9dc086173f8d3a8e0b735f45f7d6ef341fc2034"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-2-object-0-raw.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-2-object-0-raw.stdout",
+      "bytes": 321,
+      "sha256": "5cf566aea596a88f5233087f3561de82faeb9aa4abadc8a806d6359dd1a86c4c"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-2-object-0-tree.command.json",
+      "bytes": 871,
+      "sha256": "b796fac7c669693449c11f1c280dd774e856c01c78b7d1899a5b66568f23063e"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-2-object-0-tree.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-2-object-0-tree.stdout",
+      "bytes": 134,
+      "sha256": "3a1128c5c46e84b67dfcbb1a390286b32fa4c705286329c6681403e6e693400f"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-2-object-1-raw.command.json",
+      "bytes": 875,
+      "sha256": "9bfcdc969c4c291574612efa93261183659dc7162209a8de4221559089deec89"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-2-object-1-raw.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-2-object-1-raw.stdout",
+      "bytes": 1136,
+      "sha256": "ec4c3527672a4266e76977a76fde92c530ae02a018c219eccf3b684271a37131"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-2-object-1-tree.command.json",
+      "bytes": 871,
+      "sha256": "b87257bb6c0617806bb3e8dfd65dbf4120eebe0e6c99958b825c50b546559bd7"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-2-object-1-tree.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-2-object-1-tree.stdout",
+      "bytes": 264,
+      "sha256": "958a8547b5716dfaf035a04360d94ef37bdb5b72f554ca1f58f1e10278798150"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-2-object-2-raw.command.json",
+      "bytes": 875,
+      "sha256": "eb24c99b6b7ad978b5716f6328e886b405949b80c80716bbb1572891a229e0a7"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-2-object-2-raw.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-2-object-2-raw.stdout",
+      "bytes": 1136,
+      "sha256": "b460097bb9b5ff21c834983ec697f8797f1665a2fcbdd7bc57a8ff3f4c2e3ba8"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-2-object-2-tree.command.json",
+      "bytes": 871,
+      "sha256": "9df1a6f2c435efda3b9a378af4bfe861f45527bf13cd3fa6ab3e0aa290bfb998"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-2-object-2-tree.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-2-object-2-tree.stdout",
+      "bytes": 323,
+      "sha256": "d553ecf70b0c6bd0c60dae185da19a6ff75292ffc3f3a295b09a5a9e3c7bd21d"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-2-object-3-raw.command.json",
+      "bytes": 875,
+      "sha256": "6badefb91910110bce05e64857152d3bf2b884fff0403805c00bc89c125c84db"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-2-object-3-raw.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-2-object-3-raw.stdout",
+      "bytes": 321,
+      "sha256": "f2f092d79ad557d5fdba0c9c1189f11616b8816cea66817257b63a8100eb1768"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-2-object-3-tree.command.json",
+      "bytes": 871,
+      "sha256": "e07f0784a5f9051a27ca102dd63e593a5eaa33fe43916f87d07115168e465313"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-2-object-3-tree.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-2-object-3-tree.stdout",
+      "bytes": 180,
+      "sha256": "80370b4caf249ff0fe9e90f8574bcd17359dc81cb89bfb4bc5026aa77a130eb7"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-2-object-4-raw.command.json",
+      "bytes": 875,
+      "sha256": "7583cef48e56633dfb715cafa9d85e2ccd84a6e52f4f5dca6022af89b1ee6856"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-2-object-4-raw.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-2-object-4-raw.stdout",
+      "bytes": 321,
+      "sha256": "515c509f1ef44536aad6ab79a44fe9694a269be7760b8b55339901821c8d413f"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-2-object-4-tree.command.json",
+      "bytes": 871,
+      "sha256": "237ffd45f230f5cfe96afa558876bd1967ef1e96ea4ef98b10fc59f0beb48705"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-2-object-4-tree.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-2-object-4-tree.stdout",
+      "bytes": 121,
+      "sha256": "c2f8cc9ecbfa40a27c21cd5b2349382a4088eeefd68798a0f6dcac855e2ce953"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-2-object-5-raw.command.json",
+      "bytes": 875,
+      "sha256": "e4b59cd6aa0f04a850d6c9b0861d8410fd934956d6805c975db1da9f9b80f818"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-2-object-5-raw.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-2-object-5-raw.stdout",
+      "bytes": 321,
+      "sha256": "a726b211597f9c4cad2076a156b1e571991d09811f15c5ea9376f225de01536e"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-2-object-5-tree.command.json",
+      "bytes": 871,
+      "sha256": "c60c4775baab588ddc412122cb21f648840d84764245fc4eddb352319ec68a21"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-2-object-5-tree.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-2-object-5-tree.stdout",
+      "bytes": 192,
+      "sha256": "9181b37fa322b2b85a9998b105dcb5a95db766502cab850cf90b645c8866c40e"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-2-object-6-raw.command.json",
+      "bytes": 875,
+      "sha256": "bfea4fea4afd451df9261330507db02a3e2506554fcc0b7c6b3400bdf6b9ebac"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-2-object-6-raw.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-2-object-6-raw.stdout",
+      "bytes": 1136,
+      "sha256": "69f828b6aa8a0df74cc6ffb83d2c62da9729a9b7c2ef274c9e64de1547de22e2"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-2-object-6-tree.command.json",
+      "bytes": 871,
+      "sha256": "a294068b51da9f994b4360eeaf6e19565882524b3546d1cad603f308614cfb31"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-2-object-6-tree.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-2-object-6-tree.stdout",
+      "bytes": 193,
+      "sha256": "a54f68b7648392d91d51583d009b19f81e8d531669ba55c24a6a8a8e6eec2a73"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-2-pr-A.command.json",
+      "bytes": 696,
+      "sha256": "2e5313fe9358db279d510189dabe45801a8fce8b688c24c8aaca33fdc5cb6098"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-2-pr-A.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-2-pr-A.stdout",
+      "bytes": 18950,
+      "sha256": "c5ffe73151d48900e6f50d4f68ce8d0c43c30ee938ee14c6b2da5a8b840a06a5"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-2-pr-B.command.json",
+      "bytes": 696,
+      "sha256": "78eb89b53c84370c77f79b3bb7611cb36c238502926410d83db2e030f3b67b28"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-2-pr-B.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-2-pr-B.stdout",
+      "bytes": 18942,
+      "sha256": "e5cdb7440034e6f49a8b68e738f2ecffc71ac347458f33183c5860ab880866d6"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-2-refs.command.json",
+      "bytes": 1387,
+      "sha256": "e7dfd98f352c2240125f4b8507ee57420605c7e62bf9dfb7ca29ed09b58b236e"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-2-refs.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-2-refs.stdout",
+      "bytes": 724,
+      "sha256": "cd85c8af95501705843fcc9e334ed888b60a06096cd75cd64b1977b2f74d397f"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-2-resolve-0.command.json",
+      "bytes": 905,
+      "sha256": "b70ba68660263d8ff4cb09bdfa06fb674680d39a67eeb7a70f92022f23df6ed2"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-2-resolve-0.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-2-resolve-0.stdout",
+      "bytes": 41,
+      "sha256": "7b8ed2e2b37f047e83947317bdc1afd1c66d8e08105b85629457d6bad23bcfa1"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-2-resolve-1.command.json",
+      "bytes": 901,
+      "sha256": "25c6505ecb910a98690da7b12aa9ec6a840821047162be13e7688a41c1a1db15"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-2-resolve-1.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-2-resolve-1.stdout",
+      "bytes": 41,
+      "sha256": "ecf90d919ce6fdc1809cf0e817bc27577d451fffb87a8f428b836b44c3aed6f7"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-2-resolve-2.command.json",
+      "bytes": 901,
+      "sha256": "5e0ff6710ae19d9915296ecf3a7d1b95a0ebaca3dd7a138a7d05b5cad605b8da"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-2-resolve-2.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-2-resolve-2.stdout",
+      "bytes": 41,
+      "sha256": "59d5319a4671659b0251c40d023f781ce03e48d0a2c56e5d9a68310d6bfdae7c"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-2-resolve-3.command.json",
+      "bytes": 909,
+      "sha256": "c187c003a177d4cb0e43a0937fa360d128ee9130e80ac8c7612b3e746b492826"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-2-resolve-3.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-2-resolve-3.stdout",
+      "bytes": 41,
+      "sha256": "4d3b00cc6c4853d0efe21461dbc39253895081c991804c6106a36f925f9ee2d8"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-2-resolve-4.command.json",
+      "bytes": 912,
+      "sha256": "6edef3a2d11da8e5fb602285902881b1d1c3eb9d983ff2709f26be124c4b2426"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-2-resolve-4.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-2-resolve-4.stdout",
+      "bytes": 41,
+      "sha256": "31a43f67b3006cb59b2e79c34c0296d4e4176e5f14d031b562377f8a901b1421"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-2-resolve-5.command.json",
+      "bytes": 912,
+      "sha256": "8c675f6c87eb6b1df7f901c8a56bf24cf85affbc2ded2a46277c3e8838db1b8c"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-2-resolve-5.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-2-resolve-5.stdout",
+      "bytes": 41,
+      "sha256": "4d3b00cc6c4853d0efe21461dbc39253895081c991804c6106a36f925f9ee2d8"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-2-resolve-6.command.json",
+      "bytes": 912,
+      "sha256": "46d25cab9f2238572c8733acd78032ed8bddafe9c794b580e274ce2a181c810c"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-2-resolve-6.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-2-resolve-6.stdout",
+      "bytes": 41,
+      "sha256": "452a3f3dee3355d3d20fc4cf93d32e1c43563abc0ba403901f2a81508a36354c"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-2-source-A-full.command.json",
+      "bytes": 994,
+      "sha256": "f064c06cac16070f798ad14ece2ba759f39637b7b2fc225c971a88508d4a7746"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-2-source-A-full.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-2-source-A-full.stdout",
+      "bytes": 525,
+      "sha256": "cf8a408e6ae0025de918e1347440877901da90579f3a59f0b653d1dd24b5ab09"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-2-source-B-full.command.json",
+      "bytes": 994,
+      "sha256": "d9e4b74ada22c862ebfee0bccffac1b886326ee7e937bf2146a25634068a79e4"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-2-source-B-full.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-2-source-B-full.stdout",
+      "bytes": 232,
+      "sha256": "bbe7e44de1f9a00076962f6482bdd26b4ddb81ac42363598c330f35e65f9b93a"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-2-stack.command.json",
+      "bytes": 698,
+      "sha256": "929eb03ec6ce62ff88de715293f71c038ba4b27474bfb38f6aa85e1774d78773"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-2-stack.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-2-stack.stdout",
+      "bytes": 3953,
+      "sha256": "831fa0cea3d4c138bed8b0d87e6e2ce4eb8233bbd7b0d85cf4d520487cf4c840"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/cohort-2.json",
+      "bytes": 67354,
+      "sha256": "76bdea0c10cdd10acc57dd50b98160169704e0826307803272c3166298fc1da8"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/fsck.command.json",
+      "bytes": 827,
+      "sha256": "329fe736448f7bd0fb4922777774e11fd3c75b4e81f4ace7706a1061bb9cb471"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/fsck.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/fsck.stdout",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/gh-version.command.json",
+      "bytes": 448,
+      "sha256": "871140170d64ab45010d4932cb89cf975ac45ac03163fa771d5599bbc0b9d0ad"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/gh-version.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/gh-version.stdout",
+      "bytes": 81,
+      "sha256": "a679442459bed23fdc13efb977dec3b17c3c923d8d48abc0d8e522182250955f"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/git-version.command.json",
+      "bytes": 450,
+      "sha256": "6136d2ba1e6cf917f952a8a1be66b1feb6bedae6f632f7f0a5d61825798c7f46"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/git-version.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/git-version.stdout",
+      "bytes": 35,
+      "sha256": "2aa6da9ca331dc6de6fe72460146b9d1ebc22c8df24f3eb2a4c4f7c3c41b93ca"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/init.command.json",
+      "bytes": 1016,
+      "sha256": "0e8c3c824a73f1f32f330edb1e9e850911b8c9e7d5761e63f9e82bfb2b616ab6"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/init.stderr",
+      "bytes": 586,
+      "sha256": "3e70934f1909b0f5a846d62237fcc1509d733b9fb0321187024723dfc67176d3"
+    },
+    {
+      "path": "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/init.stdout",
+      "bytes": 227,
+      "sha256": "f021d6ecf70944fd00b80d89cd772f01b3ee80e321dbf09cdb06afd674e99336"
+    }
+  ],
+  "file_count": 330,
+  "total_bytes": 709412,
+  "max_file_bytes": 215217,
+  "json_parsed": 114,
+  "executed_source_sha256": "0c77ae4659f221bce43f08d8fb22b967b13f5fd84a11ff24e7299c73055acf46",
+  "pinned_inputs": {
+    "READY.json": {
+      "bytes": 13806,
+      "sha256": "c5dd5091b56524e75f7ca8c0b6812519085e8fe1c63c1537abb11380b8449fe2"
+    },
+    "LOCAL-INPUTS.json": {
+      "bytes": 7665,
+      "sha256": "4d9a1b51af135c7583eecf8290f42225581d8c71fdf884eaaa7a8266e0ebc570"
+    },
+    "fixture.py": {
+      "bytes": 7629,
+      "sha256": "7681ce6e8649619d79c1ba3f0db4005c1ab197fcb98b3ab27142d68faa3dc000"
+    },
+    "NETWORK-A-FRESH.json": {
+      "bytes": 4730,
+      "sha256": "6d9b894a8568c6333d6f0e8321e88a42189885bcbe65487f87cdcb3844f5fa29"
+    },
+    "observer.py": {
+      "bytes": 10517,
+      "sha256": "0c77ae4659f221bce43f08d8fb22b967b13f5fd84a11ff24e7299c73055acf46"
+    }
+  },
+  "exclusions": [
+    "capture-001/objects.git/ (not traversed for this manifest)",
+    "Private HAR or browser contents",
+    "Other fixtures/canonical reports",
+    "MANIFEST.json self-entry"
+  ],
+  "checks": {
+    "all_UTF8": true,
+    "NUL_files": 0,
+    "symlinks": 0,
+    "credential_literal_pattern_matches": 0,
+    "retained_byte_verifier": "CHECKS.json passed",
+    "command_audit": "EFFECT-AUDIT.json: 106 commands,9API GETs,0remote mutations"
+  },
+  "limits": "Structural/pattern/source-and-key-field checks; no signature cryptographic verification, claim of every-byte human review, public compatibility promise or future-write fence."
+}

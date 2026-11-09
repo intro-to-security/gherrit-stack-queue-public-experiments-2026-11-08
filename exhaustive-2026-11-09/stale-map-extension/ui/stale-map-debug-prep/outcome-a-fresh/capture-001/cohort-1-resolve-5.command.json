@@ -1,0 +1,29 @@
+{
+  "label": "cohort-1-resolve-5",
+  "argv": [
+    "git",
+    "-c",
+    "core.hooksPath=/dev/null",
+    "-c",
+    "core.pager=cat",
+    "-c",
+    "gc.auto=0",
+    "-c",
+    "maintenance.auto=false",
+    "--git-dir=/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/ui/stale-map-debug-prep/outcome-a-fresh/capture-001/objects.git",
+    "rev-parse",
+    "--verify",
+    "refs/observed/fresh-1/exh-1109-ui-stale-debug-a-fresh-0a2893d4d4-archive-b-v1"
+  ],
+  "started": {
+    "utc": "2026-11-09T18:36:54.609727+00:00",
+    "monotonic_ns": 10769330625
+  },
+  "ended": {
+    "utc": "2026-11-09T18:36:54.619129+00:00",
+    "monotonic_ns": 10778747333
+  },
+  "exit": 0,
+  "stdout_sha256": "4d3b00cc6c4853d0efe21461dbc39253895081c991804c6106a36f925f9ee2d8",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

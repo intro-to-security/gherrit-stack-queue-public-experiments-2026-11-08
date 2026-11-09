@@ -1,0 +1,12 @@
+{
+  "pid": 6045,
+  "argv": [
+    "/usr/bin/caffeinate",
+    "-di",
+    "-t",
+    "7200"
+  ],
+  "started_utc": "2026-11-09T18:25:05.991135+00:00",
+  "scope": "User explicitly requested temporary session keep-awake; root-owned process, maximum2hours; stop with verifiedPID when browser tests finish",
+  "no_persistent_setting_change": true
+}

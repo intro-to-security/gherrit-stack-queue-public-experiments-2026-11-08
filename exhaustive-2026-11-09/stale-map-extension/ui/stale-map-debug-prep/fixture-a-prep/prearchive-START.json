@@ -1,0 +1,21 @@
+{
+  "at": {
+    "utc": "2026-11-09T18:26:06.715755+00:00",
+    "monotonic_ns": 25509375
+  },
+  "grant": {
+    "coordinator": "root",
+    "action": "prearchive",
+    "prefix": "exh-1109-ui-stale-debug-a-5949ea0a29",
+    "at": {
+      "utc": "2026-11-09T18:26:02.713370+00:00",
+      "monotonic_ns": 29356791
+    },
+    "source_sha256": "38fd6af51bf95e6706c1f5bed99d303201ccb3d9309062a3e505a9a754962699",
+    "inputs_sha256": "db41a6aba4751aa2e69914b4bdd80ad2267cfa1fd10b42ce920003c1eda7dfe3",
+    "ready_sha256": "cbe415312de1c37d77c35b1beff5b66f680426ab4d6a3ca4e585486b3cc78609",
+    "allowed": "One create-only immutable archiveA2 push before any Afixture browser load; exact six-ref before/seven-refafter checks. No member ref change.",
+    "reason": "Remove extra archivecreation as a concurrentrefchange in paused A trial. Original advance-a action is unused and superseded; nogrant forit exists. Original source/READY remainretained.",
+    "failure": "No retry; preserveSTART/intent/receipt and reconcile read-only."
+  }
+}

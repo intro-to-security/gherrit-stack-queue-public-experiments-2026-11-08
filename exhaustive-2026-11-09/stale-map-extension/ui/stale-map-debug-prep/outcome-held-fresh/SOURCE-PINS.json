@@ -1,0 +1,15 @@
+{
+  "method": "Literal prior positive observer/verifier with fixture/prefix/network/PR/group/ref-namespace constants changed only",
+  "files": [
+    {
+      "path": "observer.py",
+      "original_sha256": "0c77ae4659f221bce43f08d8fb22b967b13f5fd84a11ff24e7299c73055acf46",
+      "new_sha256": "3aec2747548330961223938f82fa11106a1dd39658d97201c46ead0d5a8bbc55"
+    },
+    {
+      "path": "verify.py",
+      "original_sha256": "936d9cf40baebedbc91f2ecc4e1e5f6d1263c13fe92a47ce3498784973d614b2",
+      "new_sha256": "398f105d3b539aa6d0d3b0b49b2575c59794d4a8a7b88f5802db56a82eaf221b"
+    }
+  ]
+}

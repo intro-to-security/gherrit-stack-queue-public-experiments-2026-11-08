@@ -1,0 +1,59 @@
+{
+  "capture": "Actual nativeChromeDevTools sanitizedHAR with active stack_rebase filter, furtherminimizedlocally; complete filteredrawexportprivate0600",
+  "at": {
+    "utc": "2026-11-09T18:31:30.047726+00:00",
+    "monotonic_ns": 23237083
+  },
+  "raw_local_sha256": "082b56213fa4d6eec415ded87d57ea94ac683c9d3fd9df7d20ea08bfe64e0d06",
+  "raw_bytes": 18537,
+  "raw_entries": 1,
+  "selected_entries": [
+    {
+      "har_startedDateTime": "2026-11-09T18:30:05.094Z",
+      "har_time_ms": 285.30099999563396,
+      "timings": {
+        "blocked": 0.5190000875294208,
+        "dns": 44.964,
+        "ssl": 15.170000000000002,
+        "connect": 76.121,
+        "send": 0.14400000000000546,
+        "wait": 162.25100000575185,
+        "receive": 1.3019999023526907,
+        "_blocked_queueing": 0.40900008752942085,
+        "_workerStart": -1,
+        "_workerReady": -1,
+        "_workerFetchStart": -1,
+        "_workerRespondWithSettled": -1
+      },
+      "method": "POST",
+      "url": "https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08/pull/665/page_data/stack_rebase",
+      "request_body": {
+        "expectedHeadOids": {
+          "664": "843359d9d586da7f11a03ef4ff98bf746cbac233",
+          "665": "0d139c885ed973bb1a932e8c6771abd056d93f55"
+        }
+      },
+      "status": 409,
+      "response_headers": [
+        {
+          "name": "content-type",
+          "value": "application/json; charset=utf-8"
+        },
+        {
+          "name": "date",
+          "value": "Mon, 09 Nov 2026 18:30:05 GMT"
+        },
+        {
+          "name": "x-github-request-id",
+          "value": "FA4D:2ACABF:17AB4A5:2286910:6AF2112D"
+        }
+      ],
+      "response_content": "{\"error\":\"Stack contents have changed\"}"
+    }
+  ],
+  "whole_tab_request_count_observed": 6,
+  "causal_order": "Actual original-map initiation heldpre-send across exactA-onlyleasedpush and7refread; samepause/oldbodyafterack; breakpointdisabled; oneResume; capturedPOSTstilloldA/unchangedselectedB and409. HARstartisnotphysicalsendtime.",
+  "nonmember_archive": "ArchiveA2createdbeforebrowserload undergrant006; noarchive/newrefduringpause; originalunusedadvance-aactionneverdispatched",
+  "ui_outcome": "Genericnetworkerror;AandBSkipped",
+  "cleanup": "Ownedbreakpointremoved; Nobreakpoints/Notpausedobserved; Saveexportdialogclosed; CUAcompletion_summarysubmitted; no repeatinitiation."
+}

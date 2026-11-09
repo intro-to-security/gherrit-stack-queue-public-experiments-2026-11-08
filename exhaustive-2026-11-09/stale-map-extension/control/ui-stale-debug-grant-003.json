@@ -1,0 +1,26 @@
+{
+  "coordinator": "root",
+  "grant_path": "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/control/ui-stale-debug-grant-003.json",
+  "action": "prepare",
+  "at": {
+    "utc": "2026-11-09T18:18:20.751695+00:00",
+    "monotonic_ns": 464625416
+  },
+  "repository": "joshlf/gherrit-native-stack-experiments-2026-11-08",
+  "prefix": "exh-1109-ui-stale-debug-a-5949ea0a29",
+  "source_sha256": "91c4a317145202a640cc348f2cef6358518589e5db495f0e8d2f3d70cc814dfc",
+  "helper_sha256": "ae1ae63d5ee8370cbca11711f5d5e76a97669881ddf8ef8911493666393d128d",
+  "inputs_sha256": "db41a6aba4751aa2e69914b4bdd80ad2267cfa1fd10b42ce920003c1eda7dfe3",
+  "authority": "Same authorized synthetic campaign; root verified exact literal Avariant and all9objects; no firstfixture mutation.",
+  "allowed_effects": [
+    "Create-only atomic push6exactfreshownedrefs",
+    "Create two disclosed synthetic PRs and register them once",
+    "Exact leased ownedtrunk T0 toT1 push; scoped readback/READY"
+  ],
+  "forbidden": [
+    "Aadvance until separate bound actualpause grant",
+    "main,oldfixtures,settings,workflows,merge,queue,deletion,otherrefs",
+    "Unknown effect retry/repair; private endpoint replay"
+  ],
+  "failure_rule": "Freeze and reconcile read-only after any failure/unknown."
+}

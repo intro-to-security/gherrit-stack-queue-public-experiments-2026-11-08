@@ -1,0 +1,19 @@
+{
+  "coordinator": "root",
+  "action": "advance-only-a",
+  "prefix": "exh-1109-ui-stale-debug-a-5949ea0a29",
+  "at": {
+    "utc": "2026-11-09T18:29:19.427499+00:00",
+    "monotonic_ns": 20853041
+  },
+  "source_sha256": "38fd6af51bf95e6706c1f5bed99d303201ccb3d9309062a3e505a9a754962699",
+  "inputs_sha256": "db41a6aba4751aa2e69914b4bdd80ad2267cfa1fd10b42ce920003c1eda7dfe3",
+  "ready_sha256": "6f5cb4dbdfd660db90611eae78defd2c6f96df66e9f66ed3f6cd636da42d096e",
+  "pause_evidence": {
+    "path": "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/ui/stale-map-debug-prep/PAUSE-A-BEFORE-ADVANCE.json",
+    "sha256": "17aeb527a609fe859b950e81859e231f743f3f10167f3097c34bca3b2d694645"
+  },
+  "allowed": "One exactleased existingA0\u2192A2 memberrefpush; selectedB0 and allsixotherrefsunchanged; independent7refreadbackbeforeResume",
+  "supersedes": "Unused original advance-a script action; no old action/grant was dispatched. Source/initialREADY/prearchivehistory retained.",
+  "forbidden": "No newarchive/refcreation duringpause; no secondinitiation/retry/repair/main/settings/merge/queue orotherrefs."
+}

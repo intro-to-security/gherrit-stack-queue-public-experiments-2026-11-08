@@ -1,0 +1,23 @@
+{
+  "at": {
+    "utc": "2026-11-09T18:17:51.252110+00:00",
+    "monotonic_ns": 22146625
+  },
+  "repository": "joshlf/gherrit-native-stack-experiments-2026-11-08",
+  "prefix": "exh-1109-ui-stale-debug-c536c6f390",
+  "prs": {
+    "A": 661,
+    "B": 662
+  },
+  "stack": 663,
+  "expected_refs": {
+    "exh-1109-ui-stale-debug-c536c6f390-trunk": "56eb30a5c134d438dec1b54b65841ed4eaa25ab9",
+    "exh-1109-ui-stale-debug-c536c6f390-a": "5594964d25db4275eef1f1f7890f49946ac03980",
+    "exh-1109-ui-stale-debug-c536c6f390-b": "219b947d8d655e8104e89ebba49c38253f79f0ce",
+    "exh-1109-ui-stale-debug-c536c6f390-source-v1": "47456f450de5028a2667629b92cd45ef00e0b585",
+    "exh-1109-ui-stale-debug-c536c6f390-archive-a-v1": "5594964d25db4275eef1f1f7890f49946ac03980",
+    "exh-1109-ui-stale-debug-c536c6f390-archive-b-v1": "47456f450de5028a2667629b92cd45ef00e0b585",
+    "exh-1109-ui-stale-debug-c536c6f390-archive-b-v2": "219b947d8d655e8104e89ebba49c38253f79f0ce"
+  },
+  "scope": "GETs, exact owned-ref fetches into new independent bare store; no remote writes/native initiation"
+}

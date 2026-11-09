@@ -1,0 +1,113 @@
+{
+  "scope": "Source-only four-case preparation; no staging/network/Git/publication. Local superseded-draft archive is not planned product evidence.",
+  "evidence_count": 1324,
+  "evidence_bytes": 3571394,
+  "allowlist_sha256": "c30ef2793bbc52e32b99318f072bd203575f2ae4db502f1b6d8c3ad0960c845c",
+  "files": [
+    {
+      "path": "AVAILABILITY.json",
+      "bytes": 22247,
+      "sha256": "bf681339acde9b6e22985a8db2d4d7c60a1bf23b22dbd66f0b044fcbb4ecfb8d",
+      "role": "current preparation source/metadata/qualifier"
+    },
+    {
+      "path": "FINAL-ALLOWLIST.json",
+      "bytes": 424322,
+      "sha256": "c30ef2793bbc52e32b99318f072bd203575f2ae4db502f1b6d8c3ad0960c845c",
+      "role": "current preparation source/metadata/qualifier"
+    },
+    {
+      "path": "HISTORY-LINKS-PROPOSAL.json",
+      "bytes": 1946,
+      "sha256": "8df1026348f801745fce2fc37a46174a667a97c3d0610ddf57197e40a30df5a9",
+      "role": "current preparation source/metadata/qualifier"
+    },
+    {
+      "path": "HISTORY-LINKS-PROPOSAL.patch",
+      "bytes": 4237,
+      "sha256": "59682daeb1a9a1a03c310d69f59810124192bbe85a4e48d6b5f061b1e0f4abcd",
+      "role": "current preparation source/metadata/qualifier"
+    },
+    {
+      "path": "PRE-ASSEMBLY-NOTE.md",
+      "bytes": 1351,
+      "sha256": "7932c0d9f9c808a7685fb8b6f87aac99b122b3e70371d71a8b35e5f649034878",
+      "role": "current preparation source/metadata/qualifier"
+    },
+    {
+      "path": "QUALIFIERS.md",
+      "bytes": 3564,
+      "sha256": "f48dd6657e7315e92b37d0592a7fcfff74bc0080f8af8ebb9902f039bd7818b0",
+      "role": "current preparation source/metadata/qualifier"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3611,
+      "sha256": "4147e7c4f9b9b498e8b52422e38b127f1621372a4e23ffa31f4be6f61b5a2711",
+      "role": "current preparation source/metadata/qualifier"
+    },
+    {
+      "path": "SELECTION-PATHS.json",
+      "bytes": 287826,
+      "sha256": "b094b8028c25cebea899498df4024f02143ff673680214e84660b797cc350bb7",
+      "role": "current preparation source/metadata/qualifier"
+    },
+    {
+      "path": "STRUCTURAL-SCAN.json",
+      "bytes": 40566,
+      "sha256": "5a88ee2e0c17f0fff71be23e1b75fa280428e76b195e3eaa5b52fb7c646150b1",
+      "role": "current preparation source/metadata/qualifier"
+    },
+    {
+      "path": "assemble.py",
+      "bytes": 5957,
+      "sha256": "90f788cbceccea673e793997c38c6f64610e638addace6476be893e42e8263d7",
+      "role": "current preparation source/metadata/qualifier"
+    },
+    {
+      "path": "scan.py",
+      "bytes": 9580,
+      "sha256": "ddc74e225696c2fd83a58b378e6e56bebc6929287baf169da80506cd15e4af02",
+      "role": "current preparation source/metadata/qualifier"
+    },
+    {
+      "path": "before-master-format-fix/AVAILABILITY.json",
+      "bytes": 21062,
+      "sha256": "ccf7e6e27125a5098a348b27142493e8b0e833d5003ea85a57f7436eb247780c",
+      "role": "local superseded draft archive"
+    },
+    {
+      "path": "before-master-format-fix/FINAL-ALLOWLIST.json",
+      "bytes": 424322,
+      "sha256": "2ccbb931d91e3b00dbbe85f8dbf242d654299197a01a30eedd256479a5aa200c",
+      "role": "local superseded draft archive"
+    },
+    {
+      "path": "before-master-format-fix/MASTER-before-format-fix.md",
+      "bytes": 11482,
+      "sha256": "35115a94b3c8b80b5d8bd46567f50048402bdfdd8b621224ee1b7f2c7bee5904",
+      "role": "local superseded draft archive"
+    },
+    {
+      "path": "before-master-format-fix/SELECTION-PATHS.json",
+      "bytes": 287826,
+      "sha256": "298011471a3a02254b4ab4cd61b0277e553c245754f14a2f07c26500470923b5",
+      "role": "local superseded draft archive"
+    },
+    {
+      "path": "before-master-format-fix/STRUCTURAL-SCAN.json",
+      "bytes": 40516,
+      "sha256": "da78537ca892f32d8270e93749888df9841b5433a07ba6a49e62feefd31803f7",
+      "role": "local superseded draft archive"
+    }
+  ],
+  "current_preparation_bytes_excluding_this_manifest": 805207,
+  "local_draft_archive_bytes": 785208,
+  "self_entry": "PREPARATION-MANIFEST.json excluded to avoid circular hashing",
+  "limits": [
+    "Seven historical links need the declared delivery-only context remap",
+    "Focused manual and structural checks; no every-byte human/root publication approval",
+    "Private HAR/stores excluded; external URLs and cryptographic signatures unverified",
+    "Live keep-awake operational record excluded; historical release records do not assert overall cleanup"
+  ]
+}

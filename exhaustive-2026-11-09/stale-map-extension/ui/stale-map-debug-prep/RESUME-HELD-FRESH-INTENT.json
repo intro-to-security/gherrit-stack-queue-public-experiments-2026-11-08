@@ -1,0 +1,13 @@
+{
+  "coordinator": "root",
+  "at": {
+    "utc": "2026-11-09T19:09:43.399770+00:00",
+    "monotonic_ns": 18198333
+  },
+  "prefix": "exh-1109-ui-stale-debug-held-fresh-0a10ffe99c",
+  "state": "MaybedispatchedafteroneResume; nosecondconfirmation/replay",
+  "pause_after_sha256": "5845aa974c0ee9a51edd72f8f4c817473226da9ebff0b4edea8b5f96c7225997",
+  "permitted_ui": "Disableonlyowned671breakpoint, verifypaused, Resume samefreshPOSTonce, captureactualresponse/status/payload; cleanupownedbreakpoint/exportprivateHAR.",
+  "actual_hold_monitor_seconds": 420.257478125,
+  "intentional_ref_mutations_during_hold": 0
+}

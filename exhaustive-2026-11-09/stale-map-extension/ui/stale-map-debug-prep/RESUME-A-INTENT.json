@@ -1,0 +1,11 @@
+{
+  "coordinator": "root",
+  "at": {
+    "utc": "2026-11-09T18:29:50.956697+00:00",
+    "monotonic_ns": 18829750
+  },
+  "prefix": "exh-1109-ui-stale-debug-a-5949ea0a29",
+  "state": "maydispatch after oneResume; no reinitiation/replay",
+  "pause_after_sha256": "198ee57a45752afb856903f50ab93f1a1439da3608e6d4158e2a732aab0cef12",
+  "permitted_ui": "Disable onlyowned665breakpoint, ensurepaused, Resume samepreparedPOSTonce, captureactualresponse andcleanup."
+}

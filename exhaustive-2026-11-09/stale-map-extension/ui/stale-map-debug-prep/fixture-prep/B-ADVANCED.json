@@ -1,0 +1,25 @@
+{
+  "at": {
+    "utc": "2026-11-09T18:11:00.707099+00:00",
+    "monotonic_ns": 1867820750
+  },
+  "before": "47456f450de5028a2667629b92cd45ef00e0b585",
+  "after": "219b947d8d655e8104e89ebba49c38253f79f0ce",
+  "current_refs": {
+    "exh-1109-ui-stale-debug-c536c6f390-trunk": "56eb30a5c134d438dec1b54b65841ed4eaa25ab9",
+    "exh-1109-ui-stale-debug-c536c6f390-a": "5594964d25db4275eef1f1f7890f49946ac03980",
+    "exh-1109-ui-stale-debug-c536c6f390-b": "219b947d8d655e8104e89ebba49c38253f79f0ce",
+    "exh-1109-ui-stale-debug-c536c6f390-source-v1": "47456f450de5028a2667629b92cd45ef00e0b585",
+    "exh-1109-ui-stale-debug-c536c6f390-archive-a-v1": "5594964d25db4275eef1f1f7890f49946ac03980",
+    "exh-1109-ui-stale-debug-c536c6f390-archive-b-v1": "47456f450de5028a2667629b92cd45ef00e0b585",
+    "exh-1109-ui-stale-debug-c536c6f390-archive-b-v2": "219b947d8d655e8104e89ebba49c38253f79f0ce"
+  },
+  "pause_evidence": {
+    "path": "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/ui/stale-map-debug-prep/PAUSE-BEFORE-ADVANCE.json",
+    "sha256": "aca41352b33cf3efd913c16d8824bb875ffbafe72ed962f84fa4726b96f98b37"
+  },
+  "range": [
+    "5594964d25db4275eef1f1f7890f49946ac03980",
+    "219b947d8d655e8104e89ebba49c38253f79f0ce"
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "repository": "joshlf/gherrit-native-stack-experiments-2026-11-08",
+  "prefix": "exh-1109-ui-stale-debug-c536c6f390",
+  "prepared": {
+    "utc": "2026-11-09T18:05:58.041876+00:00",
+    "monotonic_ns": 24123625
+  },
+  "trees": {
+    "T0": {
+      "root.txt": "Isolated website stale-map debugger fixture.\n"
+    },
+    "A0": {
+      "root.txt": "Isolated website stale-map debugger fixture.\n",
+      "a.txt": "Disjoint A exh-1109-ui-stale-debug-c536c6f390\n"
+    },
+    "B0": {
+      "root.txt": "Isolated website stale-map debugger fixture.\n",
+      "a.txt": "Disjoint A exh-1109-ui-stale-debug-c536c6f390\n",
+      "b.txt": "Disjoint B exh-1109-ui-stale-debug-c536c6f390\n"
+    },
+    "T1": {
+      "root.txt": "Isolated website stale-map debugger fixture.\n",
+      "trunk-progress.txt": "Independent trunk advance exh-1109-ui-stale-debug-c536c6f390\n"
+    },
+    "B2": {
+      "root.txt": "Isolated website stale-map debugger fixture.\n",
+      "a.txt": "Disjoint A exh-1109-ui-stale-debug-c536c6f390\n",
+      "b.txt": "Disjoint B exh-1109-ui-stale-debug-c536c6f390\n",
+      "late-marker.txt": "Post-pause publication marker exh-1109-ui-stale-debug-c536c6f390\n"
+    },
+    "expected-A": {
+      "root.txt": "Isolated website stale-map debugger fixture.\n",
+      "a.txt": "Disjoint A exh-1109-ui-stale-debug-c536c6f390\n",
+      "trunk-progress.txt": "Independent trunk advance exh-1109-ui-stale-debug-c536c6f390\n"
+    },
+    "expected-B0": {
+      "root.txt": "Isolated website stale-map debugger fixture.\n",
+      "a.txt": "Disjoint A exh-1109-ui-stale-debug-c536c6f390\n",
+      "b.txt": "Disjoint B exh-1109-ui-stale-debug-c536c6f390\n",
+      "trunk-progress.txt": "Independent trunk advance exh-1109-ui-stale-debug-c536c6f390\n"
+    },
+    "expected-B2": {
+      "root.txt": "Isolated website stale-map debugger fixture.\n",
+      "a.txt": "Disjoint A exh-1109-ui-stale-debug-c536c6f390\n",
+      "b.txt": "Disjoint B exh-1109-ui-stale-debug-c536c6f390\n",
+      "late-marker.txt": "Post-pause publication marker exh-1109-ui-stale-debug-c536c6f390\n",
+      "trunk-progress.txt": "Independent trunk advance exh-1109-ui-stale-debug-c536c6f390\n"
+    }
+  },
+  "commits": {
+    "T0": "2471699dda3fa32eaeb3e61398b4eaaba6db46e4",
+    "A0": "5594964d25db4275eef1f1f7890f49946ac03980",
+    "B0": "47456f450de5028a2667629b92cd45ef00e0b585",
+    "T1": "56eb30a5c134d438dec1b54b65841ed4eaa25ab9",
+    "B2": "219b947d8d655e8104e89ebba49c38253f79f0ce",
+    "expected-A": "0e0590102de2af1c5104b6dae5c32453d1e473eb",
+    "expected-B0": "8174d95c28d1983727194eb7718849894215ce97",
+    "expected-B2": "a3bf4185c00da52a4d59d0f4010d35a9dc25524a"
+  },
+  "refs": {
+    "trunk": "exh-1109-ui-stale-debug-c536c6f390-trunk",
+    "A": "exh-1109-ui-stale-debug-c536c6f390-a",
+    "B": "exh-1109-ui-stale-debug-c536c6f390-b",
+    "source": "exh-1109-ui-stale-debug-c536c6f390-source-v1",
+    "archiveA": "exh-1109-ui-stale-debug-c536c6f390-archive-a-v1",
+    "archiveB": "exh-1109-ui-stale-debug-c536c6f390-archive-b-v1",
+    "archiveB2": "exh-1109-ui-stale-debug-c536c6f390-archive-b-v2"
+  },
+  "ranges": {
+    "A": [
+      "2471699dda3fa32eaeb3e61398b4eaaba6db46e4",
+      "5594964d25db4275eef1f1f7890f49946ac03980"
+    ],
+    "B-v1": [
+      "5594964d25db4275eef1f1f7890f49946ac03980",
+      "47456f450de5028a2667629b92cd45ef00e0b585"
+    ],
+    "B-v2": [
+      "5594964d25db4275eef1f1f7890f49946ac03980",
+      "219b947d8d655e8104e89ebba49c38253f79f0ce"
+    ]
+  },
+  "objects": {
+    "T0": "tree 93ffbc7be92094aa787988fef3bca5a7677bedea\nauthor Josh Liebow-Feeser <hello@joshlf.com> 1794247558 -0500\ncommitter Josh Liebow-Feeser <hello@joshlf.com> 1794247558 -0500\n\nRecord synthetic stale-map input T0\n\nAgent-authored-by: AI agent acting on joshlf's behalf",
+    "A0": "tree 9abfe5450a74e060f20fd2555c47db6539ab795d\nparent 2471699dda3fa32eaeb3e61398b4eaaba6db46e4\nauthor Josh Liebow-Feeser <hello@joshlf.com> 1794247558 -0500\ncommitter Josh Liebow-Feeser <hello@joshlf.com> 1794247558 -0500\n\nRecord synthetic stale-map input A0\n\nAgent-authored-by: AI agent acting on joshlf's behalf",
+    "B0": "tree 1adec538c4b4b5faf6ccaf330241501305a0d85f\nparent 5594964d25db4275eef1f1f7890f49946ac03980\nauthor Josh Liebow-Feeser <hello@joshlf.com> 1794247558 -0500\ncommitter Josh Liebow-Feeser <hello@joshlf.com> 1794247558 -0500\n\nRecord synthetic stale-map input B0\n\nAgent-authored-by: AI agent acting on joshlf's behalf",
+    "T1": "tree aa05565a92125d72922572f18be67b1f7a3320b3\nparent 2471699dda3fa32eaeb3e61398b4eaaba6db46e4\nauthor Josh Liebow-Feeser <hello@joshlf.com> 1794247558 -0500\ncommitter Josh Liebow-Feeser <hello@joshlf.com> 1794247558 -0500\n\nRecord synthetic stale-map input T1\n\nAgent-authored-by: AI agent acting on joshlf's behalf",
+    "B2": "tree d55b1546632607b1909d197504131f99a9a1c8a1\nparent 47456f450de5028a2667629b92cd45ef00e0b585\nauthor Josh Liebow-Feeser <hello@joshlf.com> 1794247558 -0500\ncommitter Josh Liebow-Feeser <hello@joshlf.com> 1794247558 -0500\n\nRecord synthetic stale-map input B2\n\nAgent-authored-by: AI agent acting on joshlf's behalf",
+    "expected-A": "tree 487202df07c175942eb20a93f71c4103a9759882\nparent 56eb30a5c134d438dec1b54b65841ed4eaa25ab9\nauthor Josh Liebow-Feeser <hello@joshlf.com> 1794247558 -0500\ncommitter Josh Liebow-Feeser <hello@joshlf.com> 1794247558 -0500\n\nRecord synthetic stale-map input expected-A\n\nAgent-authored-by: AI agent acting on joshlf's behalf",
+    "expected-B0": "tree 3ec044ee8afdb0beca4c916758846f067e1b0861\nparent 0e0590102de2af1c5104b6dae5c32453d1e473eb\nauthor Josh Liebow-Feeser <hello@joshlf.com> 1794247558 -0500\ncommitter Josh Liebow-Feeser <hello@joshlf.com> 1794247558 -0500\n\nRecord synthetic stale-map input expected-B0\n\nAgent-authored-by: AI agent acting on joshlf's behalf",
+    "expected-B2": "tree 9357012ec15f4db1b72ffb77a4a84d50a4adfe71\nparent 8174d95c28d1983727194eb7718849894215ce97\nauthor Josh Liebow-Feeser <hello@joshlf.com> 1794247558 -0500\ncommitter Josh Liebow-Feeser <hello@joshlf.com> 1794247558 -0500\n\nRecord synthetic stale-map input expected-B2\n\nAgent-authored-by: AI agent acting on joshlf's behalf"
+  },
+  "expected_result_trees": {
+    "expected-A": "487202df07c175942eb20a93f71c4103a9759882",
+    "expected-B0": "3ec044ee8afdb0beca4c916758846f067e1b0861",
+    "expected-B2": "9357012ec15f4db1b72ffb77a4a84d50a4adfe71"
+  },
+  "marker_scope": "B2 is a frozen local-only input; its publication and archive-v2 occur only after root's debugger pause."
+}

@@ -1,0 +1,6 @@
+{
+  "at": "2026-11-09T19:26:02.966095+00:00",
+  "exit": 0,
+  "stdout": "{\"data\":{\"repository\":{\"a\":{\"url\":\"https://github.com/github/gh-stack/discussions/622\",\"updatedAt\":\"2026-11-09T14:31:16Z\",\"answer\":null,\"comments\":{\"totalCount\":0,\"pageInfo\":{\"hasNextPage\":false,\"endCursor\":null},\"nodes\":[]}},\"b\":{\"url\":\"https://github.com/github/gh-stack/discussions/623\",\"updatedAt\":\"2026-11-09T14:33:51Z\",\"answer\":null,\"comments\":{\"totalCount\":0,\"pageInfo\":{\"hasNextPage\":false,\"endCursor\":null},\"nodes\":[]}}}}}",
+  "stderr": ""
+}

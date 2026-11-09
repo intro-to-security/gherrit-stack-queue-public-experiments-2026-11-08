@@ -1,0 +1,123 @@
+{
+  "capture": "ActualnativeChromeDevTools sanitizedHARwithactive stack_rebasefilter, furtherminimized; fullfilteredrawprivate0600",
+  "at": {
+    "utc": "2026-11-09T19:11:43.376867+00:00",
+    "monotonic_ns": 16467458
+  },
+  "raw_local_sha256": "3af9b0be04de023cd93358c3e375c3c0dcde41e3935645c9721e3eade135e0d8",
+  "raw_bytes": 60118,
+  "raw_entries": 3,
+  "selected_entries": [
+    {
+      "har_startedDateTime": "2026-11-09T19:10:01.164Z",
+      "har_time_ms": 1247.3739999364614,
+      "method": "POST",
+      "url": "https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08/pull/671/page_data/stack_rebase",
+      "request_body": {
+        "expectedHeadOids": {
+          "670": "fa8f119c706640635044d2a5129591c4598ca8d5",
+          "671": "c0f91ab8deab54ca5c07cd0b3a5ee4271236d3b9"
+        }
+      },
+      "status": 200,
+      "response_headers": [
+        {
+          "name": "content-type",
+          "value": "application/json; charset=utf-8"
+        },
+        {
+          "name": "date",
+          "value": "Mon, 09 Nov 2026 19:10:02 GMT"
+        },
+        {
+          "name": "x-github-request-id",
+          "value": "DDF2:C4C66:12A6C78:1B7BD4E:6AF21A89"
+        }
+      ],
+      "response": {}
+    },
+    {
+      "har_startedDateTime": "2026-11-09T19:10:02.332Z",
+      "har_time_ms": 509.57700004801154,
+      "method": "GET",
+      "url": "https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08/pull/671/page_data/stack_rebase_status",
+      "request_body": null,
+      "status": 200,
+      "response_headers": [
+        {
+          "name": "content-type",
+          "value": "application/json; charset=utf-8"
+        },
+        {
+          "name": "date",
+          "value": "Mon, 09 Nov 2026 19:10:02 GMT"
+        },
+        {
+          "name": "x-github-request-id",
+          "value": "DDF2:C4C66:12A7107:1B7C3B2:6AF21A8A"
+        }
+      ],
+      "response": {
+        "jobState": "PENDING",
+        "pullRequestStates": [
+          {
+            "number": 670,
+            "state": "PENDING",
+            "message": null
+          },
+          {
+            "number": 671,
+            "state": "PENDING",
+            "message": null
+          }
+        ]
+      }
+    },
+    {
+      "har_startedDateTime": "2026-11-09T19:10:03.847Z",
+      "har_time_ms": 208.49600015208125,
+      "method": "GET",
+      "url": "https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08/pull/671/page_data/stack_rebase_status",
+      "request_body": null,
+      "status": 200,
+      "response_headers": [
+        {
+          "name": "content-type",
+          "value": "application/json; charset=utf-8"
+        },
+        {
+          "name": "date",
+          "value": "Mon, 09 Nov 2026 19:10:04 GMT"
+        },
+        {
+          "name": "x-github-request-id",
+          "value": "DDF2:C4C66:12A7792:1B7CC73:6AF21A8A"
+        }
+      ],
+      "response": {
+        "jobState": "DONE",
+        "pullRequestStates": [
+          {
+            "number": 670,
+            "state": "SUCCEEDED",
+            "message": null
+          },
+          {
+            "number": 671,
+            "state": "SUCCEEDED",
+            "message": null
+          }
+        ]
+      }
+    }
+  ],
+  "whole_tab_request_count_observed": 25,
+  "hold_monotonic_seconds": 420.257478125,
+  "held_ref_samples": 3,
+  "all_held_samples_match_ready": true,
+  "intentional_ref_changes_while_held": 0,
+  "control": "ExactfreshA2/B0initiationheldbeforedispatchthrough>=420sread-onlytimer, samepausedcall/bodyafterhold, disableownedbreakpoint,oneResume; actualsentbodyunchangedfreshmap",
+  "ui_outcome": "Rebasingcomplete;bothRebased",
+  "cleanup": "Ownedbreakpointremoved,Nobreakpoints/Notpausedobserved,Saveexportdialogclosed;CUAcompletion_summarysubmitted. Keepawake9648retainedthroughremainingreviews/publication.",
+  "limits": "Supportsnon-sufficiencyofpause/agealoneinthiscontrol, notuniqueinternalalgorithm/publiccontract/futurewritefence. Samplereadsnotcontinuousreflock."
+}

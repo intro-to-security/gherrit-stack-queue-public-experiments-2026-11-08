@@ -1,0 +1,19 @@
+{
+  "time": {
+    "utc": "2026-11-09T18:58:41.408449+00:00",
+    "monotonic_ns": 4492648500
+  },
+  "repo": "joshlf/gherrit-native-stack-experiments-2026-11-08",
+  "prefix": "exh-1109-ui-stale-debug-held-fresh-0a10ffe99c",
+  "argv": [
+    "gh",
+    "api",
+    "--method",
+    "POST",
+    "repos/joshlf/gherrit-native-stack-experiments-2026-11-08/stacks",
+    "--input",
+    "-"
+  ],
+  "input": "{\"pull_requests\": [670, 671]}",
+  "outcome": "may be dispatched"
+}

@@ -1,0 +1,26 @@
+{
+  "observer": "completed_read_only_three_cohorts",
+  "remote_mutations": 0,
+  "native_requests": 0,
+  "initiating_effect": {
+    "status": "root_reported_terminal_UI_rejection",
+    "HTTP": 409,
+    "message": "Stack contents have changed",
+    "members": {
+      "A": "Skipped",
+      "B": "Skipped"
+    },
+    "raw_evidence_owner": "root; not opened by this observer"
+  },
+  "independent_outcome": {
+    "all_seven_ref_vectors_exact": true,
+    "canonical_open_order": [
+      661,
+      662
+    ],
+    "group": 663,
+    "B_v2_marker_retained": true,
+    "REST_A_associated_base_disagrees_with_actual_trunk": true
+  },
+  "limits": "No job absence, continuous silence, cancellation, or future-write fence inferred from bounded reads"
+}

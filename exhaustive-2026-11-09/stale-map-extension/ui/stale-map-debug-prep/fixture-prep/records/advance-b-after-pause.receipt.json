@@ -1,0 +1,13 @@
+{
+  "started": {
+    "utc": "2026-11-09T18:10:59.105897+00:00",
+    "monotonic_ns": 266620250
+  },
+  "finished": {
+    "utc": "2026-11-09T18:11:00.514841+00:00",
+    "monotonic_ns": 1675574666
+  },
+  "returncode": 0,
+  "stdout": "",
+  "stderr": "To https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08.git\n   47456f4..219b947  219b947d8d655e8104e89ebba49c38253f79f0ce -> exh-1109-ui-stale-debug-c536c6f390-b\n * [new branch]      219b947d8d655e8104e89ebba49c38253f79f0ce -> exh-1109-ui-stale-debug-c536c6f390-archive-b-v2\n"
+}

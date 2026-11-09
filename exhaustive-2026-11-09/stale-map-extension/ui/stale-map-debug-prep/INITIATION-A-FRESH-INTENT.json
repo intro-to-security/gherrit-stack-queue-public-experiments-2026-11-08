@@ -1,0 +1,24 @@
+{
+  "coordinator": "root",
+  "at": {
+    "utc": "2026-11-09T18:32:58.270754+00:00",
+    "monotonic_ns": 20805416
+  },
+  "prefix": "exh-1109-ui-stale-debug-a-fresh-0a2893d4d4",
+  "repository": "joshlf/gherrit-native-stack-experiments-2026-11-08",
+  "prs": {
+    "A": 667,
+    "B": 668
+  },
+  "group": 669,
+  "ready_sha256": "c5dd5091b56524e75f7ca8c0b6812519085e8fe1c63c1537abb11380b8449fe2",
+  "expected_actual_body": {
+    "expectedHeadOids": {
+      "667": "721cd407451739ef646b7434285c60b01096b400",
+      "668": "fb757ca354d5e6a4e3460a7658529d13452e14ac"
+    }
+  },
+  "ui": "One ordinary finalRebaseStackconfirmation; no breakpoint/pausedpush; lowerA2andarchivealreadycurrent beforepage load; selectedB0unchanged",
+  "state": "May bedispatched; captureactualbody/response/job andresult; no secondclick/replay",
+  "oracle": "Positivepremise requiresactualsentA2/B0map; sourcepreparedexpectedA2/Btrees andmarker must survive, exactnativeparents/ranges independentreadback."
+}

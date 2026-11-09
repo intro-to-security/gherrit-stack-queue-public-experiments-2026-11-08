@@ -1,0 +1,20 @@
+--- fixture-a-fresh-prep/fixture.py
++++ fixture-held-fresh-prep/fixture.py
+@@ -36,7 +36,7 @@
+ def local():
+     if (ROOT / "LOCAL-INPUTS.json").exists():
+         raise RuntimeError("Local inputs already frozen")
+-    prefix = "exh-1109-ui-stale-debug-a-fresh-" + uuid.uuid4().hex[:10]
++    prefix = "exh-1109-ui-stale-debug-held-fresh-" + uuid.uuid4().hex[:10]
+     m = {"repository": PERSONAL, "prefix": prefix, "prepared": stamp()}
+     lab = owned_lab(m)
+     trees = {"T0": {"root.txt": "Isolated lower-A website stale-map debugger fixture.\n"}}
+@@ -69,7 +69,7 @@
+     if (path.parent != CONTROL.resolve() or g.get("grant_path") != str(path)
+             or g.get("coordinator") != "root" or g.get("action") != action
+             or g.get("repository") != PERSONAL or g.get("prefix") != m["prefix"]
+-            or not m["prefix"].startswith("exh-1109-ui-stale-debug-a-fresh-")
++            or not m["prefix"].startswith("exh-1109-ui-stale-debug-held-fresh-")
+             or g.get("inputs_sha256") != sha(ROOT / "LOCAL-INPUTS.json")
+             or g.get("source_sha256") != sha(__file__) or g.get("helper_sha256") != sha(HELPER)
+             or sha(HELPER) != HELPER_SHA256):

@@ -1,0 +1,22 @@
+{
+  "at": {
+    "utc": "2026-11-09T18:17:05.906024+00:00",
+    "monotonic_ns": 548376208
+  },
+  "scope": "Source/local-only preparation; no network call or hosted effect",
+  "prefix": "exh-1109-ui-stale-debug-a-5949ea0a29",
+  "source_sha256": "91c4a317145202a640cc348f2cef6358518589e5db495f0e8d2f3d70cc814dfc",
+  "inputs_sha256": "db41a6aba4751aa2e69914b4bdd80ad2267cfa1fd10b42ce920003c1eda7dfe3",
+  "helper_sha256": "ae1ae63d5ee8370cbca11711f5d5e76a97669881ddf8ef8911493666393d128d",
+  "baseline_sha256": "e008d3c59c18ee499d6b6c5e44fe66369ceb79ade176a093189afa6666524e53",
+  "checks": {
+    "compile": true,
+    "nine_commits_trees_blobs_parents_and_trailers": true,
+    "exact_patch_filename_sets": true,
+    "four_expected_result_trees": true,
+    "bare_origin_pushurl_hooks": true,
+    "fsck_exit": 0,
+    "no_native_intents_or_start": true
+  },
+  "fsck_stdout": ""
+}

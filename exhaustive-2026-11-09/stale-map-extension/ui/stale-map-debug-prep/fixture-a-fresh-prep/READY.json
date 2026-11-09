@@ -1,0 +1,238 @@
+{
+  "repository": "joshlf/gherrit-native-stack-experiments-2026-11-08",
+  "prefix": "exh-1109-ui-stale-debug-a-fresh-0a2893d4d4",
+  "prepared": {
+    "utc": "2026-11-09T18:17:58.034218+00:00",
+    "monotonic_ns": 21521291
+  },
+  "trees": {
+    "T0": {
+      "root.txt": "Isolated lower-A website stale-map debugger fixture.\n"
+    },
+    "A0": {
+      "root.txt": "Isolated lower-A website stale-map debugger fixture.\n",
+      "a.txt": "Disjoint A exh-1109-ui-stale-debug-a-fresh-0a2893d4d4\n"
+    },
+    "B0": {
+      "root.txt": "Isolated lower-A website stale-map debugger fixture.\n",
+      "a.txt": "Disjoint A exh-1109-ui-stale-debug-a-fresh-0a2893d4d4\n",
+      "b.txt": "Disjoint B exh-1109-ui-stale-debug-a-fresh-0a2893d4d4\n"
+    },
+    "T1": {
+      "root.txt": "Isolated lower-A website stale-map debugger fixture.\n",
+      "trunk-progress.txt": "Independent trunk advance exh-1109-ui-stale-debug-a-fresh-0a2893d4d4\n"
+    },
+    "A2": {
+      "root.txt": "Isolated lower-A website stale-map debugger fixture.\n",
+      "a.txt": "Disjoint A exh-1109-ui-stale-debug-a-fresh-0a2893d4d4\n",
+      "late-a-marker.txt": "Pre-load lower-A publication marker exh-1109-ui-stale-debug-a-fresh-0a2893d4d4\n"
+    },
+    "expected-A0": {
+      "root.txt": "Isolated lower-A website stale-map debugger fixture.\n",
+      "a.txt": "Disjoint A exh-1109-ui-stale-debug-a-fresh-0a2893d4d4\n",
+      "trunk-progress.txt": "Independent trunk advance exh-1109-ui-stale-debug-a-fresh-0a2893d4d4\n"
+    },
+    "expected-B0": {
+      "root.txt": "Isolated lower-A website stale-map debugger fixture.\n",
+      "a.txt": "Disjoint A exh-1109-ui-stale-debug-a-fresh-0a2893d4d4\n",
+      "b.txt": "Disjoint B exh-1109-ui-stale-debug-a-fresh-0a2893d4d4\n",
+      "trunk-progress.txt": "Independent trunk advance exh-1109-ui-stale-debug-a-fresh-0a2893d4d4\n"
+    },
+    "expected-A2": {
+      "root.txt": "Isolated lower-A website stale-map debugger fixture.\n",
+      "a.txt": "Disjoint A exh-1109-ui-stale-debug-a-fresh-0a2893d4d4\n",
+      "late-a-marker.txt": "Pre-load lower-A publication marker exh-1109-ui-stale-debug-a-fresh-0a2893d4d4\n",
+      "trunk-progress.txt": "Independent trunk advance exh-1109-ui-stale-debug-a-fresh-0a2893d4d4\n"
+    },
+    "expected-B-over-A2": {
+      "root.txt": "Isolated lower-A website stale-map debugger fixture.\n",
+      "a.txt": "Disjoint A exh-1109-ui-stale-debug-a-fresh-0a2893d4d4\n",
+      "late-a-marker.txt": "Pre-load lower-A publication marker exh-1109-ui-stale-debug-a-fresh-0a2893d4d4\n",
+      "trunk-progress.txt": "Independent trunk advance exh-1109-ui-stale-debug-a-fresh-0a2893d4d4\n",
+      "b.txt": "Disjoint B exh-1109-ui-stale-debug-a-fresh-0a2893d4d4\n"
+    }
+  },
+  "commits": {
+    "T0": "a8f7a8fd4a8d52ac1daf847a68e09998b8cf36b4",
+    "A0": "e547ce6b7f9cbff283a88b8550dcabe71a529d78",
+    "B0": "fb757ca354d5e6a4e3460a7658529d13452e14ac",
+    "T1": "d59931dac559bd7c05d1f29f7ca867c0f628c3f2",
+    "A2": "721cd407451739ef646b7434285c60b01096b400",
+    "expected-A0": "9be2fd23a0aae336d648674e79a6cef43bd6b5c5",
+    "expected-B0": "8484f5263cf5a49a8a792aee09f80803f939ba97",
+    "expected-A2": "2573645261f13525065ee93d2730dce6ef8ef512",
+    "expected-B-over-A2": "4d16b648f828e274d671926dff34d5e12dd73a1f"
+  },
+  "refs": {
+    "trunk": "exh-1109-ui-stale-debug-a-fresh-0a2893d4d4-trunk",
+    "A": "exh-1109-ui-stale-debug-a-fresh-0a2893d4d4-a",
+    "B": "exh-1109-ui-stale-debug-a-fresh-0a2893d4d4-b",
+    "source": "exh-1109-ui-stale-debug-a-fresh-0a2893d4d4-source-v1",
+    "archiveA": "exh-1109-ui-stale-debug-a-fresh-0a2893d4d4-archive-a-v1",
+    "archiveB": "exh-1109-ui-stale-debug-a-fresh-0a2893d4d4-archive-b-v1",
+    "archiveA2": "exh-1109-ui-stale-debug-a-fresh-0a2893d4d4-archive-a-v2"
+  },
+  "ranges": {
+    "A-v1": [
+      "a8f7a8fd4a8d52ac1daf847a68e09998b8cf36b4",
+      "e547ce6b7f9cbff283a88b8550dcabe71a529d78"
+    ],
+    "A-v2": [
+      "a8f7a8fd4a8d52ac1daf847a68e09998b8cf36b4",
+      "721cd407451739ef646b7434285c60b01096b400"
+    ],
+    "B-v1": [
+      "e547ce6b7f9cbff283a88b8550dcabe71a529d78",
+      "fb757ca354d5e6a4e3460a7658529d13452e14ac"
+    ]
+  },
+  "objects": {
+    "T0": "tree a611b2f543dc2d07921dedb9786ab54c8dc9c8dd\nauthor Josh Liebow-Feeser <hello@joshlf.com> 1794248278 -0500\ncommitter Josh Liebow-Feeser <hello@joshlf.com> 1794248278 -0500\n\nRecord synthetic lower-A stale-map input T0\n\nAgent-authored-by: AI agent acting on joshlf's behalf",
+    "A0": "tree dc997e6d03f0f13455767e40c7b5e82a47709e2b\nparent a8f7a8fd4a8d52ac1daf847a68e09998b8cf36b4\nauthor Josh Liebow-Feeser <hello@joshlf.com> 1794248278 -0500\ncommitter Josh Liebow-Feeser <hello@joshlf.com> 1794248278 -0500\n\nRecord synthetic lower-A stale-map input A0\n\nAgent-authored-by: AI agent acting on joshlf's behalf",
+    "B0": "tree 4bfff6c821f4892c9bfec5cf6e9c7d3afda1dddb\nparent e547ce6b7f9cbff283a88b8550dcabe71a529d78\nauthor Josh Liebow-Feeser <hello@joshlf.com> 1794248278 -0500\ncommitter Josh Liebow-Feeser <hello@joshlf.com> 1794248278 -0500\n\nRecord synthetic lower-A stale-map input B0\n\nAgent-authored-by: AI agent acting on joshlf's behalf",
+    "T1": "tree 0eaae07fa815a2115b53f79064788a2bed13b916\nparent a8f7a8fd4a8d52ac1daf847a68e09998b8cf36b4\nauthor Josh Liebow-Feeser <hello@joshlf.com> 1794248278 -0500\ncommitter Josh Liebow-Feeser <hello@joshlf.com> 1794248278 -0500\n\nRecord synthetic lower-A stale-map input T1\n\nAgent-authored-by: AI agent acting on joshlf's behalf",
+    "A2": "tree 2afe5727fec7d585fb58347f9fcb844e52ca6554\nparent e547ce6b7f9cbff283a88b8550dcabe71a529d78\nauthor Josh Liebow-Feeser <hello@joshlf.com> 1794248278 -0500\ncommitter Josh Liebow-Feeser <hello@joshlf.com> 1794248278 -0500\n\nRecord synthetic lower-A stale-map input A2\n\nAgent-authored-by: AI agent acting on joshlf's behalf",
+    "expected-A0": "tree 454d952847576edd8f22103e1577ce48d1ba80e3\nparent d59931dac559bd7c05d1f29f7ca867c0f628c3f2\nauthor Josh Liebow-Feeser <hello@joshlf.com> 1794248278 -0500\ncommitter Josh Liebow-Feeser <hello@joshlf.com> 1794248278 -0500\n\nRecord synthetic lower-A stale-map input expected-A0\n\nAgent-authored-by: AI agent acting on joshlf's behalf",
+    "expected-B0": "tree 58c58b8bb6c831a26c238f9872c6360bbe3bfe17\nparent 9be2fd23a0aae336d648674e79a6cef43bd6b5c5\nauthor Josh Liebow-Feeser <hello@joshlf.com> 1794248278 -0500\ncommitter Josh Liebow-Feeser <hello@joshlf.com> 1794248278 -0500\n\nRecord synthetic lower-A stale-map input expected-B0\n\nAgent-authored-by: AI agent acting on joshlf's behalf",
+    "expected-A2": "tree 2e488b9be1cba7d8acc168d8682ac12f35b01768\nparent 9be2fd23a0aae336d648674e79a6cef43bd6b5c5\nauthor Josh Liebow-Feeser <hello@joshlf.com> 1794248278 -0500\ncommitter Josh Liebow-Feeser <hello@joshlf.com> 1794248278 -0500\n\nRecord synthetic lower-A stale-map input expected-A2\n\nAgent-authored-by: AI agent acting on joshlf's behalf",
+    "expected-B-over-A2": "tree e90cf9dd2c6d978eccb272da5aeb7a64ec7f4a8e\nparent 2573645261f13525065ee93d2730dce6ef8ef512\nauthor Josh Liebow-Feeser <hello@joshlf.com> 1794248278 -0500\ncommitter Josh Liebow-Feeser <hello@joshlf.com> 1794248278 -0500\n\nRecord synthetic lower-A stale-map input expected-B-over-A2\n\nAgent-authored-by: AI agent acting on joshlf's behalf"
+  },
+  "expected_result_trees": {
+    "expected-A0": "454d952847576edd8f22103e1577ce48d1ba80e3",
+    "expected-B0": "58c58b8bb6c831a26c238f9872c6360bbe3bfe17",
+    "expected-A2": "2e488b9be1cba7d8acc168d8682ac12f35b01768",
+    "expected-B-over-A2": "e90cf9dd2c6d978eccb272da5aeb7a64ec7f4a8e"
+  },
+  "marker_scope": "A2 is published and archived before READY and before browser load. Selected B head stays B0.",
+  "prs": {
+    "A": 667,
+    "B": 668
+  },
+  "nodes": {
+    "A": "PR_kwDOVnhIZ88AAAABN6rFLg",
+    "B": "PR_kwDOVnhIZ88AAAABN6rGCw"
+  },
+  "stack": {
+    "id": 3259927,
+    "number": 669,
+    "node_id": "PRS_kwDOVnhIZ84AMb4X",
+    "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/stacks/669",
+    "base": {
+      "ref": "exh-1109-ui-stale-debug-a-fresh-0a2893d4d4-trunk"
+    },
+    "open": true,
+    "created_at": "2026-11-09T18:19:25Z",
+    "pull_requests": [
+      {
+        "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/pulls/667",
+        "id": 5228905774,
+        "number": 667,
+        "head": {
+          "ref": "exh-1109-ui-stale-debug-a-fresh-0a2893d4d4-a",
+          "sha": "e547ce6b7f9cbff283a88b8550dcabe71a529d78",
+          "repo": {
+            "id": 1450723431,
+            "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08",
+            "name": "gherrit-native-stack-experiments-2026-11-08"
+          }
+        },
+        "base": {
+          "ref": "exh-1109-ui-stale-debug-a-fresh-0a2893d4d4-trunk",
+          "sha": "a8f7a8fd4a8d52ac1daf847a68e09998b8cf36b4",
+          "repo": {
+            "id": 1450723431,
+            "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08",
+            "name": "gherrit-native-stack-experiments-2026-11-08"
+          }
+        },
+        "node_id": "PR_kwDOVnhIZ88AAAABN6rFLg",
+        "title": "exh-1109-ui-stale-debug-a-fresh-0a2893d4d4 A",
+        "state": "open",
+        "merged_at": null,
+        "draft": false,
+        "html_url": "https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08/pull/667",
+        "user": {
+          "login": "joshlf",
+          "id": 1046063,
+          "node_id": "MDQ6VXNlcjEwNDYwNjM=",
+          "avatar_url": "https://avatars.githubusercontent.com/u/1046063?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/joshlf",
+          "html_url": "https://github.com/joshlf",
+          "followers_url": "https://api.github.com/users/joshlf/followers",
+          "following_url": "https://api.github.com/users/joshlf/following{/other_user}",
+          "gists_url": "https://api.github.com/users/joshlf/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/joshlf/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/joshlf/subscriptions",
+          "organizations_url": "https://api.github.com/users/joshlf/orgs",
+          "repos_url": "https://api.github.com/users/joshlf/repos",
+          "events_url": "https://api.github.com/users/joshlf/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/joshlf/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        }
+      },
+      {
+        "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/pulls/668",
+        "id": 5228905995,
+        "number": 668,
+        "head": {
+          "ref": "exh-1109-ui-stale-debug-a-fresh-0a2893d4d4-b",
+          "sha": "fb757ca354d5e6a4e3460a7658529d13452e14ac",
+          "repo": {
+            "id": 1450723431,
+            "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08",
+            "name": "gherrit-native-stack-experiments-2026-11-08"
+          }
+        },
+        "base": {
+          "ref": "exh-1109-ui-stale-debug-a-fresh-0a2893d4d4-a",
+          "sha": "e547ce6b7f9cbff283a88b8550dcabe71a529d78",
+          "repo": {
+            "id": 1450723431,
+            "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08",
+            "name": "gherrit-native-stack-experiments-2026-11-08"
+          }
+        },
+        "node_id": "PR_kwDOVnhIZ88AAAABN6rGCw",
+        "title": "exh-1109-ui-stale-debug-a-fresh-0a2893d4d4 B",
+        "state": "open",
+        "merged_at": null,
+        "draft": false,
+        "html_url": "https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08/pull/668",
+        "user": {
+          "login": "joshlf",
+          "id": 1046063,
+          "node_id": "MDQ6VXNlcjEwNDYwNjM=",
+          "avatar_url": "https://avatars.githubusercontent.com/u/1046063?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/joshlf",
+          "html_url": "https://github.com/joshlf",
+          "followers_url": "https://api.github.com/users/joshlf/followers",
+          "following_url": "https://api.github.com/users/joshlf/following{/other_user}",
+          "gists_url": "https://api.github.com/users/joshlf/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/joshlf/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/joshlf/subscriptions",
+          "organizations_url": "https://api.github.com/users/joshlf/orgs",
+          "repos_url": "https://api.github.com/users/joshlf/repos",
+          "events_url": "https://api.github.com/users/joshlf/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/joshlf/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        }
+      }
+    ]
+  },
+  "current_refs": {
+    "exh-1109-ui-stale-debug-a-fresh-0a2893d4d4-trunk": "d59931dac559bd7c05d1f29f7ca867c0f628c3f2",
+    "exh-1109-ui-stale-debug-a-fresh-0a2893d4d4-a": "721cd407451739ef646b7434285c60b01096b400",
+    "exh-1109-ui-stale-debug-a-fresh-0a2893d4d4-b": "fb757ca354d5e6a4e3460a7658529d13452e14ac",
+    "exh-1109-ui-stale-debug-a-fresh-0a2893d4d4-source-v1": "fb757ca354d5e6a4e3460a7658529d13452e14ac",
+    "exh-1109-ui-stale-debug-a-fresh-0a2893d4d4-archive-a-v1": "e547ce6b7f9cbff283a88b8550dcabe71a529d78",
+    "exh-1109-ui-stale-debug-a-fresh-0a2893d4d4-archive-b-v1": "fb757ca354d5e6a4e3460a7658529d13452e14ac",
+    "exh-1109-ui-stale-debug-a-fresh-0a2893d4d4-archive-a-v2": "721cd407451739ef646b7434285c60b01096b400"
+  },
+  "top_url": "https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08/pull/668"
+}

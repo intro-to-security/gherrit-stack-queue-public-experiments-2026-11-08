@@ -1,0 +1,37 @@
+{
+  "label": "cohort-1-fetch",
+  "argv": [
+    "git",
+    "-c",
+    "core.hooksPath=/dev/null",
+    "-c",
+    "core.pager=cat",
+    "-c",
+    "gc.auto=0",
+    "-c",
+    "maintenance.auto=false",
+    "--git-dir=/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/ui/stale-map-debug-prep/outcome-held-fresh/capture-001/objects.git",
+    "fetch",
+    "--no-tags",
+    "--no-write-fetch-head",
+    "https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08.git",
+    "refs/heads/exh-1109-ui-stale-debug-held-fresh-0a10ffe99c-trunk:refs/observed/held-fresh-1/exh-1109-ui-stale-debug-held-fresh-0a10ffe99c-trunk",
+    "refs/heads/exh-1109-ui-stale-debug-held-fresh-0a10ffe99c-a:refs/observed/held-fresh-1/exh-1109-ui-stale-debug-held-fresh-0a10ffe99c-a",
+    "refs/heads/exh-1109-ui-stale-debug-held-fresh-0a10ffe99c-b:refs/observed/held-fresh-1/exh-1109-ui-stale-debug-held-fresh-0a10ffe99c-b",
+    "refs/heads/exh-1109-ui-stale-debug-held-fresh-0a10ffe99c-source-v1:refs/observed/held-fresh-1/exh-1109-ui-stale-debug-held-fresh-0a10ffe99c-source-v1",
+    "refs/heads/exh-1109-ui-stale-debug-held-fresh-0a10ffe99c-archive-a-v1:refs/observed/held-fresh-1/exh-1109-ui-stale-debug-held-fresh-0a10ffe99c-archive-a-v1",
+    "refs/heads/exh-1109-ui-stale-debug-held-fresh-0a10ffe99c-archive-b-v1:refs/observed/held-fresh-1/exh-1109-ui-stale-debug-held-fresh-0a10ffe99c-archive-b-v1",
+    "refs/heads/exh-1109-ui-stale-debug-held-fresh-0a10ffe99c-archive-a-v2:refs/observed/held-fresh-1/exh-1109-ui-stale-debug-held-fresh-0a10ffe99c-archive-a-v2"
+  ],
+  "started": {
+    "utc": "2026-11-09T19:13:11.126725+00:00",
+    "monotonic_ns": 10700100375
+  },
+  "ended": {
+    "utc": "2026-11-09T19:13:12.302154+00:00",
+    "monotonic_ns": 11875533916
+  },
+  "exit": 0,
+  "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stderr_sha256": "5066fc73eebb1543ceacda5db1a92f73414664d057baaacc95226dbb285b1c2a"
+}

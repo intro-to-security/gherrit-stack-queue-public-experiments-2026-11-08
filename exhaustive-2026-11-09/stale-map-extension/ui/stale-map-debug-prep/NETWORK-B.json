@@ -1,0 +1,57 @@
+{
+  "capture": "Actual native Chrome DevTools sanitized HAR, further minimized locally; complete raw export remains private",
+  "at": {
+    "utc": "2026-11-09T18:15:54.891856+00:00",
+    "monotonic_ns": 19360083
+  },
+  "raw_local_sha256": "491d64ba5fc722802830d3f06dde18fb7bef898f8dae5387d53e2d56f5966cc6",
+  "raw_bytes": 18897,
+  "raw_entries": 1,
+  "selected_entries": [
+    {
+      "har_startedDateTime": "2026-11-09T18:11:58.258Z",
+      "har_time_ms": 260.47400020895896,
+      "timings": {
+        "blocked": 0.6130001865178347,
+        "dns": 12.005999999999998,
+        "ssl": 17.762,
+        "connect": 46.818999999999996,
+        "send": 0.943000000000005,
+        "wait": 199.34799993757903,
+        "receive": 0.745000084862113,
+        "_blocked_queueing": 0.42200018651783466,
+        "_workerStart": -1,
+        "_workerReady": -1,
+        "_workerFetchStart": -1,
+        "_workerRespondWithSettled": -1
+      },
+      "method": "POST",
+      "url": "https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08/pull/662/page_data/stack_rebase",
+      "request_body": {
+        "expectedHeadOids": {
+          "661": "5594964d25db4275eef1f1f7890f49946ac03980",
+          "662": "47456f450de5028a2667629b92cd45ef00e0b585"
+        }
+      },
+      "status": 409,
+      "response_headers": [
+        {
+          "name": "content-type",
+          "value": "application/json; charset=utf-8"
+        },
+        {
+          "name": "date",
+          "value": "Mon, 09 Nov 2026 18:11:58 GMT"
+        },
+        {
+          "name": "x-github-request-id",
+          "value": "E28F:18F516:15190B3:1E40F1E:6AF20CEE"
+        }
+      ],
+      "response_content": "{\"error\":\"Stack contents have changed\"}"
+    }
+  ],
+  "causal_order": "Exact initiation paused before dispatch with oldbody; held across acknowledgedB2push and independent7refread; samepausedcall/body reobserved; ownedbreakpointdisabled; oneResume; oldmapactualPOST409. HAR start is not physicalwire/sendtime.",
+  "ui_outcome": "Rebasing was stopped due to a network error; both membersSkipped",
+  "cleanup": "Ownedbreakpointremoved; No breakpoints observed; scriptnotpaused; Save exportdialogclosed; CUAcompletion_summarysubmitted. No repeated initiation."
+}

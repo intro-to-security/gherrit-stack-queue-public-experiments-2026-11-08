@@ -1,0 +1,14 @@
+{
+  "READY.json": {
+    "bytes": 13508,
+    "sha256": "cbe415312de1c37d77c35b1beff5b66f680426ab4d6a3ca4e585486b3cc78609"
+  },
+  "READY-A-ARCHIVED.json": {
+    "bytes": 13914,
+    "sha256": "6f5cb4dbdfd660db90611eae78defd2c6f96df66e9f66ed3f6cd636da42d096e"
+  },
+  "A-ADVANCED.json": {
+    "bytes": 1487,
+    "sha256": "cce1f3ba1fc70a94e63775250e8492a7d98656b9ed7efaa1f1e3b924995259fc"
+  }
+}

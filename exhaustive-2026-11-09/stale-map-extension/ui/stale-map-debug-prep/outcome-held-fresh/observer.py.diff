@@ -1,0 +1,77 @@
+--- outcome-a-fresh/observer.py
++++ outcome-held-fresh/observer.py
+@@ -10,9 +10,9 @@
+ 
+ SOURCE_ROOT=Path(__file__).resolve().parent
+ ROOT=SOURCE_ROOT/'capture-001'
+-FIXTURE=SOURCE_ROOT.parent/'fixture-a-fresh-prep'
++FIXTURE=SOURCE_ROOT.parent/'fixture-held-fresh-prep'
+ REPO='joshlf/gherrit-native-stack-experiments-2026-11-08'
+-PREFIX='exh-1109-ui-stale-debug-a-fresh-0a2893d4d4'
++PREFIX='exh-1109-ui-stale-debug-held-fresh-0a10ffe99c'
+ URL='https://github.com/'+REPO+'.git'
+ STORE=ROOT/'objects.git'
+ ENV={key:value for key,value in os.environ.items() if not key.startswith('GIT_')}
+@@ -84,19 +84,19 @@
+ def main():
+     ROOT.mkdir(exist_ok=False)
+     inputs={name:(FIXTURE/name).read_bytes() for name in ('READY.json','LOCAL-INPUTS.json','fixture.py')}
+-    network_path=SOURCE_ROOT.parent/'NETWORK-A-FRESH.json'
+-    inputs['NETWORK-A-FRESH.json']=network_path.read_bytes()
+-    ready=json.loads(inputs['READY.json']);network=json.loads(inputs['NETWORK-A-FRESH.json'])
++    network_path=SOURCE_ROOT.parent/'NETWORK-HELD-FRESH.json'
++    inputs['NETWORK-HELD-FRESH.json']=network_path.read_bytes()
++    ready=json.loads(inputs['READY.json']);network=json.loads(inputs['NETWORK-HELD-FRESH.json'])
+     assert ready['repository']==REPO and ready['prefix']==PREFIX
+-    assert ready['prs']==dict(A=667,B=668) and ready['stack']['number']==669
+-    assert network['selected_entries'][0]['request_body']['expectedHeadOids']=={'667':ready['commits']['A2'],'668':ready['commits']['B0']}
++    assert ready['prs']==dict(A=670,B=671) and ready['stack']['number']==672
++    assert network['selected_entries'][0]['request_body']['expectedHeadOids']=={'670':ready['commits']['A2'],'671':ready['commits']['B0']}
+     assert network['selected_entries'][0]['status']==200
+     fixed={name:oid for name,oid in ready['current_refs'].items() if name not in (ready['refs']['A'],ready['refs']['B'])}
+     assert len(fixed)==5 and len(ready['current_refs'])==7
+     pins={name:dict(bytes=len(body),sha256=digest(body)) for name,body in inputs.items()}
+     pins['observer.py']=dict(bytes=Path(__file__).stat().st_size,sha256=digest(Path(__file__).read_bytes()))
+     save(ROOT/'INPUT-PINS.json',pins)
+-    save(ROOT/'START.json',dict(at=stamp(),repository=REPO,prefix=PREFIX,prs=ready['prs'],stack=669,
++    save(ROOT/'START.json',dict(at=stamp(),repository=REPO,prefix=PREFIX,prs=ready['prs'],stack=672,
+         fixed_refs=fixed,scope='GETs and exact seven-ref fetches into new owned bare store; no remote mutation/private HAR/browser action'))
+     git('init','init','--bare','--template=',str(STORE))
+     versions=dict(git=call('git-version',['git','--version']).decode().strip(),
+@@ -108,13 +108,13 @@
+         label='cohort-'+str(index);began=stamp()
+         with concurrent.futures.ThreadPoolExecutor(max_workers=4) as pool:
+             frefs=pool.submit(refs,label+'-refs',list(ready['current_refs']))
+-            fa=pool.submit(api,label+'-pr-A','repos/'+REPO+'/pulls/667')
+-            fb=pool.submit(api,label+'-pr-B','repos/'+REPO+'/pulls/668')
+-            fs=pool.submit(api,label+'-stack','repos/'+REPO+'/stacks/669')
++            fa=pool.submit(api,label+'-pr-A','repos/'+REPO+'/pulls/670')
++            fb=pool.submit(api,label+'-pr-B','repos/'+REPO+'/pulls/671')
++            fs=pool.submit(api,label+'-stack','repos/'+REPO+'/stacks/672')
+             actual,pa,pb,group=frefs.result(),fa.result(),fb.result(),fs.result()
+-        assert pa['number']==667 and pb['number']==668 and group['number']==669
++        assert pa['number']==670 and pb['number']==671 and group['number']==672
+         assert pa['node_id']==ready['nodes']['A'] and pb['node_id']==ready['nodes']['B'] and group['node_id']==ready['stack']['node_id']
+-        local={name:'refs/observed/fresh-'+str(index)+'/'+name for name in ready['current_refs']}
++        local={name:'refs/observed/held-fresh-'+str(index)+'/'+name for name in ready['current_refs']}
+         git(label+'-fetch','fetch','--no-tags','--no-write-fetch-head',URL,
+             *['refs/heads/'+name+':'+local[name] for name in local])
+         fetched={name:git(label+'-resolve-'+str(n),'rev-parse','--verify',ref).decode().strip() for n,(name,ref) in enumerate(local.items())}
+@@ -131,7 +131,7 @@
+         checks=dict(seven_ref_names=set(actual)==set(ready['current_refs']),actual_equals_fetched=actual==fetched,
+             five_protected_refs_exact=all(actual.get(name)==oid for name,oid in fixed.items()),
+             A_changed_from_A2=a!=ready['commits']['A2'],B_changed_from_B0=b!=ready['commits']['B0'],
+-            canonical_open_order=group['open'] and [q['number'] for q in group['pull_requests']]==[667,668] and all(q['state']=='open' and not q['merged'] for q in (pa,pb)),
++            canonical_open_order=group['open'] and [q['number'] for q in group['pull_requests']]==[670,671] and all(q['state']=='open' and not q['merged'] for q in (pa,pb)),
+             PR_names_heads_exact=all(q['head']['ref']==ready['refs'][role] and q['head']['sha']==actual[ready['refs'][role]] and q['base']['ref']==ready['refs'][parent] for role,parent,q in [('A','trunk',pa),('B','A',pb)]),
+             A_full_two_commits=len(arange)==2,B_full_one_commit=len(brange)==1,
+             A_first_parent_T1=bool(arange) and objects[arange[0]]['parents']==[t],
+@@ -151,7 +151,7 @@
+         save(ROOT/(label+'.json'),row);rows.append(row)
+         print(json.dumps(dict(cohort=index,at=row['ended']['utc'],all_checks=row['all_checks'],A=a,B=b,checks=checks)),flush=True)
+     git('fsck','fsck','--full','--no-dangling')
+-    save(ROOT/'RESULTS.json',dict(repository=REPO,prefix=PREFIX,prs=ready['prs'],stack=669,versions=versions,
++    save(ROOT/'RESULTS.json',dict(repository=REPO,prefix=PREFIX,prs=ready['prs'],stack=672,versions=versions,
+         observations=rows,all_checks=all(r['all_checks'] for r in rows),
+         scope='Fresh-map website outcome; actual graph independently read. No private HAR or job-status replay; no remote write, public-interface promise or future-write-fence claim.',
+         producer_limit='Raw commit author/committer/message/gpgsig presence retained. Presence is not signature cryptographic verification or proof of internal producer implementation.'))

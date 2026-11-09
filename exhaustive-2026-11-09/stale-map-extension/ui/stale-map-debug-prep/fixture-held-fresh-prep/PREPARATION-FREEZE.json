@@ -1,0 +1,23 @@
+{
+  "status": "SOURCE_LOCAL_ONLY_NO_HOSTED_EFFECTS",
+  "prefix": "exh-1109-ui-stale-debug-held-fresh-0a10ffe99c",
+  "source_sha256": "769b6e0348898e142b983f17d37ef3b07aa5220bb0a110edb1b5d6b57c4c5549",
+  "inputs_sha256": "a3ca29404b291f6c9ee3ef89b67ce6c74043bcb6c07cb342973199f84e9372ed",
+  "helper_sha256": "ae1ae63d5ee8370cbca11711f5d5e76a97669881ddf8ef8911493666393d128d",
+  "original_fixture_sha256": "7681ce6e8649619d79c1ba3f0db4005c1ab197fcb98b3ab27142d68faa3dc000",
+  "literal_diff_sha256": "9aeb4d3ca1c2f9412a8d1d7745500fbb5eca7d5ae109130af65d97b93fe14caa",
+  "local_verification_sha256": "8928404a85ce1c043908de3da14039bb8b5f142f93be8aa49852b0435c4d80f3",
+  "prepare_effect_budget": 5,
+  "advance_action": false,
+  "hold_floor_seconds": 120,
+  "hold_actual_and_prior_max_owner": "root; Resume-intent intervals are lower bounds only",
+  "expected_preload_vector": {
+    "exh-1109-ui-stale-debug-held-fresh-0a10ffe99c-trunk": "5d5ad41b3bae892882940712dda83a204d66da0c",
+    "exh-1109-ui-stale-debug-held-fresh-0a10ffe99c-a": "fa8f119c706640635044d2a5129591c4598ca8d5",
+    "exh-1109-ui-stale-debug-held-fresh-0a10ffe99c-b": "c0f91ab8deab54ca5c07cd0b3a5ee4271236d3b9",
+    "exh-1109-ui-stale-debug-held-fresh-0a10ffe99c-source-v1": "c0f91ab8deab54ca5c07cd0b3a5ee4271236d3b9",
+    "exh-1109-ui-stale-debug-held-fresh-0a10ffe99c-archive-a-v1": "05a3ddaecfda472c905325c825e4d0ca07a2c9a3",
+    "exh-1109-ui-stale-debug-held-fresh-0a10ffe99c-archive-b-v1": "c0f91ab8deab54ca5c07cd0b3a5ee4271236d3b9",
+    "exh-1109-ui-stale-debug-held-fresh-0a10ffe99c-archive-a-v2": "fa8f119c706640635044d2a5129591c4598ca8d5"
+  }
+}

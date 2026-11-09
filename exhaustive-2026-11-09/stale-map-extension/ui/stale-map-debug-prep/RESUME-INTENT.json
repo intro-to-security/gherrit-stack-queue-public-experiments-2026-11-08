@@ -1,0 +1,17 @@
+{
+  "coordinator": "root",
+  "at": {
+    "utc": "2026-11-09T18:11:39.955410+00:00",
+    "monotonic_ns": 18473166
+  },
+  "prefix": "exh-1109-ui-stale-debug-c536c6f390",
+  "state": "may be dispatched after one Resume; never reinitiate or replay",
+  "pause_after_sha256": "4fb3327ebb1177959729149acde40423c202cd17fc89e6c00ff05513a870ba51",
+  "permitted_ui": [
+    "Uncheck only owned exact URL breakpoint to avoid status-read pauses; verify initiation remains paused",
+    "Resume the same prepared POST exactly once, then observe and export actual response/status"
+  ],
+  "expected_body_old_B": "47456f450de5028a2667629b92cd45ef00e0b585",
+  "current_actual_B": "219b947d8d655e8104e89ebba49c38253f79f0ce",
+  "scope": "Synthetic fixture661/662 group663 only; native private endpoint is reached solely by ordinary website UI."
+}

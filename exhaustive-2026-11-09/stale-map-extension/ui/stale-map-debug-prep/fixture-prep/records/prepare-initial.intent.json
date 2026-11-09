@@ -1,0 +1,32 @@
+{
+  "time": {
+    "utc": "2026-11-09T18:07:18.685595+00:00",
+    "monotonic_ns": 294318666
+  },
+  "repo": "joshlf/gherrit-native-stack-experiments-2026-11-08",
+  "prefix": "exh-1109-ui-stale-debug-c536c6f390",
+  "argv": [
+    "git",
+    "-c",
+    "core.hooksPath=/dev/null",
+    "--git-dir",
+    "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/ui/stale-map-debug-prep/fixture-prep/objects.git",
+    "push",
+    "--atomic",
+    "--force-with-lease=refs/heads/exh-1109-ui-stale-debug-c536c6f390-trunk:",
+    "--force-with-lease=refs/heads/exh-1109-ui-stale-debug-c536c6f390-a:",
+    "--force-with-lease=refs/heads/exh-1109-ui-stale-debug-c536c6f390-b:",
+    "--force-with-lease=refs/heads/exh-1109-ui-stale-debug-c536c6f390-source-v1:",
+    "--force-with-lease=refs/heads/exh-1109-ui-stale-debug-c536c6f390-archive-a-v1:",
+    "--force-with-lease=refs/heads/exh-1109-ui-stale-debug-c536c6f390-archive-b-v1:",
+    "origin",
+    "2471699dda3fa32eaeb3e61398b4eaaba6db46e4:refs/heads/exh-1109-ui-stale-debug-c536c6f390-trunk",
+    "5594964d25db4275eef1f1f7890f49946ac03980:refs/heads/exh-1109-ui-stale-debug-c536c6f390-a",
+    "47456f450de5028a2667629b92cd45ef00e0b585:refs/heads/exh-1109-ui-stale-debug-c536c6f390-b",
+    "47456f450de5028a2667629b92cd45ef00e0b585:refs/heads/exh-1109-ui-stale-debug-c536c6f390-source-v1",
+    "5594964d25db4275eef1f1f7890f49946ac03980:refs/heads/exh-1109-ui-stale-debug-c536c6f390-archive-a-v1",
+    "47456f450de5028a2667629b92cd45ef00e0b585:refs/heads/exh-1109-ui-stale-debug-c536c6f390-archive-b-v1"
+  ],
+  "input": null,
+  "outcome": "may be dispatched"
+}

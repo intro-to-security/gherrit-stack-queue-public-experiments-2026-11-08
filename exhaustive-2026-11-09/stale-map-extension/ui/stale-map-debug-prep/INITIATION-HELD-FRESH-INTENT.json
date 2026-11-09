@@ -1,0 +1,27 @@
+{
+  "coordinator": "root",
+  "at": {
+    "utc": "2026-11-09T19:01:14.688373+00:00",
+    "monotonic_ns": 24014041
+  },
+  "prefix": "exh-1109-ui-stale-debug-held-fresh-0a10ffe99c",
+  "repository": "joshlf/gherrit-native-stack-experiments-2026-11-08",
+  "prs": {
+    "A": 670,
+    "B": 671
+  },
+  "group": 672,
+  "ready_sha256": "a3af24fa804ffa5259c3c06815e909b687dd9ad7d1b74aaa2216f8fa9157e729",
+  "expected_map": {
+    "670": "fa8f119c706640635044d2a5129591c4598ca8d5",
+    "671": "c0f91ab8deab54ca5c07cd0b3a5ee4271236d3b9"
+  },
+  "ui": "Oneordinaryfinalconfirmation, pauseactualPOST pre-send, makeNOrefwrites; sampleunchanged7refs during>=420secondmonotonic hold, reobserve samepause/body, Resumeonce",
+  "minimum_hold_seconds": 420,
+  "prior_whole_trial_envelopes_seconds": {
+    "B": 367.298036,
+    "A": 205.443064
+  },
+  "envelope_basis": "SamecoordinatorUTC records beforefinalconfirmation to afterresponse/export; includesmore thanpause itself, not wiretimemeasurement. 420secondholds exceedboth recordedenvelopes assumingnormalclockcontinuity.",
+  "state": "Maybedispatched aftersingleconfirmation; no secondclick/replay orauto retry; abort/freezeifpremisenotmet"
+}

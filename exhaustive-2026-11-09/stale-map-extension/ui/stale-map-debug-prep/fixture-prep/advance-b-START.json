@@ -1,0 +1,35 @@
+{
+  "at": {
+    "utc": "2026-11-09T18:10:58.861824+00:00",
+    "monotonic_ns": 22691750
+  },
+  "grant": {
+    "coordinator": "root",
+    "grant_path": "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/control/ui-stale-debug-grant-002.json",
+    "action": "advance-b",
+    "at": {
+      "utc": "2026-11-09T18:10:53.066901+00:00",
+      "monotonic_ns": 17187541
+    },
+    "repository": "joshlf/gherrit-native-stack-experiments-2026-11-08",
+    "prefix": "exh-1109-ui-stale-debug-c536c6f390",
+    "source_sha256": "e008d3c59c18ee499d6b6c5e44fe66369ceb79ade176a093189afa6666524e53",
+    "helper_sha256": "ae1ae63d5ee8370cbca11711f5d5e76a97669881ddf8ef8911493666393d128d",
+    "inputs_sha256": "e9c786d3e7ed59457eaf0b39cbda54bc937005ba27dce5305b0258bd8daf5a3a",
+    "ready_sha256": "70f1a224af8e048ba4fb0d9fdb78fc80ab2f94b8e1a951e7c5b83922b5101b3c",
+    "pause_evidence": {
+      "path": "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/ui/stale-map-debug-prep/PAUSE-BEFORE-ADVANCE.json",
+      "sha256": "aca41352b33cf3efd913c16d8824bb875ffbafe72ed962f84fa4726b96f98b37"
+    },
+    "allowed_effects": [
+      "One atomic exact-leased B0 to frozen B2 push and create-only archiveB2 to sameB2, only after full original six-ref guard",
+      "Independent actual Git-ref read must verify all seven expected refs; preserve acknowledgement and B-ADVANCED before root resumes UI"
+    ],
+    "forbidden": [
+      "Any UI initiation/resume by worker",
+      "main,otherrefs,PR/group lifecycle,settings,workflows,merge,queue,deletion",
+      "Retry/repair/other push after failure or unknown response"
+    ],
+    "authority": "Same explicitly authorized synthetic experiment; actual pre-dispatch POST pause observed by root and bound above."
+  }
+}

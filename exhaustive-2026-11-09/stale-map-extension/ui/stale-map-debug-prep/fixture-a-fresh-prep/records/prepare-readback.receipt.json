@@ -1,0 +1,13 @@
+{
+  "started": {
+    "utc": "2026-11-09T18:19:27.394655+00:00",
+    "monotonic_ns": 6162399791
+  },
+  "finished": {
+    "utc": "2026-11-09T18:19:28.585600+00:00",
+    "monotonic_ns": 7353353500
+  },
+  "returncode": 0,
+  "stdout": "721cd407451739ef646b7434285c60b01096b400\trefs/heads/exh-1109-ui-stale-debug-a-fresh-0a2893d4d4-a\ne547ce6b7f9cbff283a88b8550dcabe71a529d78\trefs/heads/exh-1109-ui-stale-debug-a-fresh-0a2893d4d4-archive-a-v1\n721cd407451739ef646b7434285c60b01096b400\trefs/heads/exh-1109-ui-stale-debug-a-fresh-0a2893d4d4-archive-a-v2\nfb757ca354d5e6a4e3460a7658529d13452e14ac\trefs/heads/exh-1109-ui-stale-debug-a-fresh-0a2893d4d4-archive-b-v1\nfb757ca354d5e6a4e3460a7658529d13452e14ac\trefs/heads/exh-1109-ui-stale-debug-a-fresh-0a2893d4d4-b\nfb757ca354d5e6a4e3460a7658529d13452e14ac\trefs/heads/exh-1109-ui-stale-debug-a-fresh-0a2893d4d4-source-v1\nd59931dac559bd7c05d1f29f7ca867c0f628c3f2\trefs/heads/exh-1109-ui-stale-debug-a-fresh-0a2893d4d4-trunk\n",
+  "stderr": ""
+}

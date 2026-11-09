@@ -1,0 +1,59 @@
+{
+  "passed": true,
+  "rows": [
+    {
+      "index": 0,
+      "started": {
+        "utc": "2026-11-09T18:17:51.264289+00:00",
+        "monotonic_ns": 34183625
+      },
+      "ended": {
+        "utc": "2026-11-09T18:17:52.166093+00:00",
+        "monotonic_ns": 935983791
+      },
+      "seven_refs_exact": true,
+      "immutable_commit_bodies_match": true,
+      "canonical_open_order_exact": true,
+      "B_v2_marker_retained": true,
+      "REST_A_base_is_old_T0": true,
+      "actual_trunk_is_T1": true
+    },
+    {
+      "index": 1,
+      "started": {
+        "utc": "2026-11-09T18:18:01.267994+00:00",
+        "monotonic_ns": 10037872916
+      },
+      "ended": {
+        "utc": "2026-11-09T18:18:02.039933+00:00",
+        "monotonic_ns": 10809770791
+      },
+      "seven_refs_exact": true,
+      "immutable_commit_bodies_match": true,
+      "canonical_open_order_exact": true,
+      "B_v2_marker_retained": true,
+      "REST_A_base_is_old_T0": true,
+      "actual_trunk_is_T1": true
+    },
+    {
+      "index": 2,
+      "started": {
+        "utc": "2026-11-09T18:18:21.265263+00:00",
+        "monotonic_ns": 30035038375
+      },
+      "ended": {
+        "utc": "2026-11-09T18:18:22.076458+00:00",
+        "monotonic_ns": 30846191875
+      },
+      "seven_refs_exact": true,
+      "immutable_commit_bodies_match": true,
+      "canonical_open_order_exact": true,
+      "B_v2_marker_retained": true,
+      "REST_A_base_is_old_T0": true,
+      "actual_trunk_is_T1": true
+    }
+  ],
+  "git_fsck_exit": 0,
+  "source_results_sha256": "315fadff0c549d6556b5b00541e6d538931b8e5f888bc29f250725033b96e6ee",
+  "limits": "Pure retained-readback check; no HAR/job-status/remote query; no future-write or continuous-silence inference"
+}

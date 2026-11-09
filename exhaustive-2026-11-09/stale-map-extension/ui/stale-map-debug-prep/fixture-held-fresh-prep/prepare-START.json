@@ -1,0 +1,31 @@
+{
+  "at": {
+    "utc": "2026-11-09T18:58:36.937505+00:00",
+    "monotonic_ns": 21881000
+  },
+  "grant": {
+    "coordinator": "root",
+    "grant_path": "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/control/ui-stale-debug-grant-007.json",
+    "action": "prepare",
+    "at": {
+      "utc": "2026-11-09T18:58:34.115387+00:00",
+      "monotonic_ns": 469553500
+    },
+    "repository": "joshlf/gherrit-native-stack-experiments-2026-11-08",
+    "prefix": "exh-1109-ui-stale-debug-held-fresh-0a10ffe99c",
+    "source_sha256": "769b6e0348898e142b983f17d37ef3b07aa5220bb0a110edb1b5d6b57c4c5549",
+    "helper_sha256": "ae1ae63d5ee8370cbca11711f5d5e76a97669881ddf8ef8911493666393d128d",
+    "inputs_sha256": "a3ca29404b291f6c9ee3ef89b67ce6c74043bcb6c07cb342973199f84e9372ed",
+    "authority": "Userrequests exhaustive usefulsyntheticexperiments; finalcritiqueidentifiedpause/requestagecontrol. Rootverifiedliteralpreparerand9objects.",
+    "allowed_effects": [
+      "Create-onlysixownedrefs,two disclosedPRs,onenativegroup",
+      "One atomicexactleasedtrunkT0\u2192T1/A0\u2192A2pluscreate-onlyarchiveA2; verifysevenrefs beforebrowserload"
+    ],
+    "forbidden": [
+      "Anyhead/refchange afterbrowserload",
+      "main,settings,workflows,queue,merge,deletion,oldfixtures,otherrefs,privateendpointreplay",
+      "Unknown/failure retry orrepair"
+    ],
+    "failure_rule": "Freeze and reconcile read-only; onenochangeheldwebsiteinitiation separatelyroot-owned."
+  }
+}

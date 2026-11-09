@@ -1,0 +1,31 @@
+--- outcome-a-fresh/verify.py
++++ outcome-held-fresh/verify.py
+@@ -5,7 +5,7 @@
+ 
+ ROOT=Path(__file__).resolve().parent
+ CAPTURE=ROOT/'capture-001'
+-FIXTURE=ROOT.parent/'fixture-a-fresh-prep'
++FIXTURE=ROOT.parent/'fixture-held-fresh-prep'
+ 
+ 
+ def main():
+@@ -13,7 +13,7 @@
+     result=json.loads((CAPTURE/'RESULTS.json').read_bytes())
+     pins=json.loads((CAPTURE/'INPUT-PINS.json').read_bytes())
+     for name,record in pins.items():
+-        path=ROOT/name if name=='observer.py' else ROOT.parent/name if name=='NETWORK-A-FRESH.json' else FIXTURE/name
++        path=ROOT/name if name=='observer.py' else ROOT.parent/name if name=='NETWORK-HELD-FRESH.json' else FIXTURE/name
+         data=path.read_bytes()
+         assert len(data)==record['bytes'] and hashlib.sha256(data).hexdigest()==record['sha256']
+     assert len(result['observations'])==3
+@@ -35,8 +35,8 @@
+         assert objects[a]['tree']==ready['expected_result_trees']['expected-A2']
+         assert objects[b]['tree']==ready['expected_result_trees']['expected-B-over-A2']
+         assert all(value==ready['trees']['A2']['late-a-marker.txt'] for value in row['markers'].values())
+-        group=row['native_group'];assert group['number']==669 and group['node_id']==ready['stack']['node_id'] and group['open']
+-        assert [q['number'] for q in group['pull_requests']]==[667,668]
++        group=row['native_group'];assert group['number']==672 and group['node_id']==ready['stack']['node_id'] and group['open']
++        assert [q['number'] for q in group['pull_requests']]==[670,671]
+         for role,parent in [('A','trunk'),('B','A')]:
+             q=row['REST_PRs'][role]
+             assert q['number']==ready['prs'][role] and q['node_id']==ready['nodes'][role] and q['state']=='open' and not q['merged']

@@ -1,0 +1,7 @@
+diff --git a/b.txt b/b.txt
+new file mode 100644
+index 0000000000000000000000000000000000000000..d6ab35683e18f87799b2505e53b9675b78a10e84
+--- /dev/null
++++ b/b.txt
+@@ -0,0 +1 @@
++Disjoint B exh-1109-ui-stale-debug-held-fresh-0a10ffe99c

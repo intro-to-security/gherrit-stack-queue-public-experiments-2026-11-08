@@ -1,0 +1,36 @@
+{
+  "label": "cohort-2-refs",
+  "argv": [
+    "git",
+    "-c",
+    "core.hooksPath=/dev/null",
+    "-c",
+    "core.pager=cat",
+    "-c",
+    "gc.auto=0",
+    "-c",
+    "maintenance.auto=false",
+    "--git-dir=/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/ui/stale-map-debug-prep/outcome-a/capture-001/objects.git",
+    "ls-remote",
+    "--refs",
+    "https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08.git",
+    "refs/heads/exh-1109-ui-stale-debug-a-5949ea0a29-trunk",
+    "refs/heads/exh-1109-ui-stale-debug-a-5949ea0a29-a",
+    "refs/heads/exh-1109-ui-stale-debug-a-5949ea0a29-b",
+    "refs/heads/exh-1109-ui-stale-debug-a-5949ea0a29-source-v1",
+    "refs/heads/exh-1109-ui-stale-debug-a-5949ea0a29-archive-a-v1",
+    "refs/heads/exh-1109-ui-stale-debug-a-5949ea0a29-archive-b-v1",
+    "refs/heads/exh-1109-ui-stale-debug-a-5949ea0a29-archive-a-v2"
+  ],
+  "started": {
+    "utc": "2026-11-09T18:33:42.240702+00:00",
+    "monotonic_ns": 30045830000
+  },
+  "ended": {
+    "utc": "2026-11-09T18:33:42.475239+00:00",
+    "monotonic_ns": 30280375958
+  },
+  "exit": 0,
+  "stdout_sha256": "c339d34a5e1165af23320de4487059f67aa1c3475e7a7af0a9d12c6573549925",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

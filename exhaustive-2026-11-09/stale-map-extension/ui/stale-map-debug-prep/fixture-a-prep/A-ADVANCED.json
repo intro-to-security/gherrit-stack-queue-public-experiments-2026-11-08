@@ -1,0 +1,27 @@
+{
+  "at": {
+    "utc": "2026-11-09T18:29:25.708672+00:00",
+    "monotonic_ns": 1768021125
+  },
+  "before": "843359d9d586da7f11a03ef4ff98bf746cbac233",
+  "after": "3f7c0881bb913b772784842cf7204d4640737bea",
+  "selected_B_unchanged": "0d139c885ed973bb1a932e8c6771abd056d93f55",
+  "current_refs": {
+    "exh-1109-ui-stale-debug-a-5949ea0a29-trunk": "72a17fe9c84d215d5dcf120dad2b1e8d0c5ad171",
+    "exh-1109-ui-stale-debug-a-5949ea0a29-a": "3f7c0881bb913b772784842cf7204d4640737bea",
+    "exh-1109-ui-stale-debug-a-5949ea0a29-b": "0d139c885ed973bb1a932e8c6771abd056d93f55",
+    "exh-1109-ui-stale-debug-a-5949ea0a29-source-v1": "0d139c885ed973bb1a932e8c6771abd056d93f55",
+    "exh-1109-ui-stale-debug-a-5949ea0a29-archive-a-v1": "843359d9d586da7f11a03ef4ff98bf746cbac233",
+    "exh-1109-ui-stale-debug-a-5949ea0a29-archive-b-v1": "0d139c885ed973bb1a932e8c6771abd056d93f55",
+    "exh-1109-ui-stale-debug-a-5949ea0a29-archive-a-v2": "3f7c0881bb913b772784842cf7204d4640737bea"
+  },
+  "pause_evidence": {
+    "path": "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/ui/stale-map-debug-prep/PAUSE-A-BEFORE-ADVANCE.json",
+    "sha256": "17aeb527a609fe859b950e81859e231f743f3f10167f3097c34bca3b2d694645"
+  },
+  "range": [
+    "e18576ec11ecd2ec261341219eedbed1d1b2ac2b",
+    "3f7c0881bb913b772784842cf7204d4640737bea"
+  ],
+  "controller": "a-only-continuation.py; only A changed during pause, archive already retained"
+}

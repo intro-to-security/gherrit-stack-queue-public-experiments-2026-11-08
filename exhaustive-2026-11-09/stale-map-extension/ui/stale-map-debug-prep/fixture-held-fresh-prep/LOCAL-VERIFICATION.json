@@ -1,0 +1,1786 @@
+{
+  "source_only_local": true,
+  "prefix": "exh-1109-ui-stale-debug-held-fresh-0a10ffe99c",
+  "source_sha256": "769b6e0348898e142b983f17d37ef3b07aa5220bb0a110edb1b5d6b57c4c5549",
+  "inputs_sha256": "a3ca29404b291f6c9ee3ef89b67ce6c74043bcb6c07cb342973199f84e9372ed",
+  "helper_sha256": "ae1ae63d5ee8370cbca11711f5d5e76a97669881ddf8ef8911493666393d128d",
+  "literal_prefix_replacements_only": true,
+  "logical_commits": 9,
+  "named_refs": 7,
+  "commits_trees_contents_parents_and_trailers_verified": true,
+  "expected_trees_and_full_per_layer_patches_verified": true,
+  "hooks_disabled": true,
+  "fsck_exit": 0,
+  "fsck_stdout": "",
+  "no_network_or_hosted_process": true,
+  "no_native_intents_or_READY": true,
+  "expected_preload_vector": {
+    "exh-1109-ui-stale-debug-held-fresh-0a10ffe99c-trunk": "5d5ad41b3bae892882940712dda83a204d66da0c",
+    "exh-1109-ui-stale-debug-held-fresh-0a10ffe99c-a": "fa8f119c706640635044d2a5129591c4598ca8d5",
+    "exh-1109-ui-stale-debug-held-fresh-0a10ffe99c-b": "c0f91ab8deab54ca5c07cd0b3a5ee4271236d3b9",
+    "exh-1109-ui-stale-debug-held-fresh-0a10ffe99c-source-v1": "c0f91ab8deab54ca5c07cd0b3a5ee4271236d3b9",
+    "exh-1109-ui-stale-debug-held-fresh-0a10ffe99c-archive-a-v1": "05a3ddaecfda472c905325c825e4d0ca07a2c9a3",
+    "exh-1109-ui-stale-debug-held-fresh-0a10ffe99c-archive-b-v1": "c0f91ab8deab54ca5c07cd0b3a5ee4271236d3b9",
+    "exh-1109-ui-stale-debug-held-fresh-0a10ffe99c-archive-a-v2": "fa8f119c706640635044d2a5129591c4598ca8d5"
+  },
+  "proposed_prepare_effects": [
+    "atomic six-ref create",
+    "create A PR",
+    "create B PR",
+    "register A/B",
+    "atomic A2+trunk advance and archive-A2 create"
+  ],
+  "no_advance_action": true,
+  "local_command_count": 136,
+  "commands": [
+    {
+      "argv": [
+        "git",
+        "init",
+        "--bare",
+        "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/ui/stale-map-debug-prep/fixture-held-fresh-prep/objects.git"
+      ],
+      "exit": 0
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "core.hooksPath=/dev/null",
+        "--git-dir",
+        "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/ui/stale-map-debug-prep/fixture-held-fresh-prep/objects.git",
+        "config",
+        "core.hooksPath",
+        "/dev/null"
+      ],
+      "exit": 0
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "core.hooksPath=/dev/null",
+        "--git-dir",
+        "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/ui/stale-map-debug-prep/fixture-held-fresh-prep/objects.git",
+        "config",
+        "user.name",
+        "Josh Liebow-Feeser"
+      ],
+      "exit": 0
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "core.hooksPath=/dev/null",
+        "--git-dir",
+        "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/ui/stale-map-debug-prep/fixture-held-fresh-prep/objects.git",
+        "config",
+        "user.email",
+        "hello@joshlf.com"
+      ],
+      "exit": 0
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "core.hooksPath=/dev/null",
+        "--git-dir",
+        "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/ui/stale-map-debug-prep/fixture-held-fresh-prep/objects.git",
+        "config",
+        "commit.gpgsign",
+        "false"
+      ],
+      "exit": 0
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "core.hooksPath=/dev/null",
+        "--git-dir",
+        "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/ui/stale-map-debug-prep/fixture-held-fresh-prep/objects.git",
+        "remote",
+        "add",
+        "origin",
+        "https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08.git"
+      ],
+      "exit": 0
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "core.hooksPath=/dev/null",
+        "--git-dir",
+        "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/ui/stale-map-debug-prep/fixture-held-fresh-prep/objects.git",
+        "remote",
+        "get-url",
+        "origin"
+      ],
+      "exit": 0
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "core.hooksPath=/dev/null",
+        "--git-dir",
+        "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/ui/stale-map-debug-prep/fixture-held-fresh-prep/objects.git",
+        "remote",
+        "get-url",
+        "--push",
+        "origin"
+      ],
+      "exit": 0
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "core.hooksPath=/dev/null",
+        "--git-dir",
+        "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/ui/stale-map-debug-prep/fixture-held-fresh-prep/objects.git",
+        "config",
+        "--get",
+        "core.hooksPath"
+      ],
+      "exit": 0
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "core.hooksPath=/dev/null",
+        "--git-dir",
+        "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/ui/stale-map-debug-prep/fixture-held-fresh-prep/objects.git",
+        "rev-parse",
+        "--is-bare-repository"
+      ],
+      "exit": 0
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "core.hooksPath=/dev/null",
+        "--git-dir",
+        "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/ui/stale-map-debug-prep/fixture-held-fresh-prep/objects.git",
+        "hash-object",
+        "-w",
+        "--stdin"
+      ],
+      "exit": 0
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "core.hooksPath=/dev/null",
+        "--git-dir",
+        "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/ui/stale-map-debug-prep/fixture-held-fresh-prep/objects.git",
+        "mktree"
+      ],
+      "exit": 0
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "core.hooksPath=/dev/null",
+        "--git-dir",
+        "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/ui/stale-map-debug-prep/fixture-held-fresh-prep/objects.git",
+        "commit-tree",
+        "a611b2f543dc2d07921dedb9786ab54c8dc9c8dd"
+      ],
+      "exit": 0
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "core.hooksPath=/dev/null",
+        "--git-dir",
+        "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/ui/stale-map-debug-prep/fixture-held-fresh-prep/objects.git",
+        "update-ref",
+        "refs/inputs/T0",
+        "28705a299e9f8f78b00b85ada10551ec78febca3",
+        "0000000000000000000000000000000000000000"
+      ],
+      "exit": 0
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "core.hooksPath=/dev/null",
+        "--git-dir",
+        "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/ui/stale-map-debug-prep/fixture-held-fresh-prep/objects.git",
+        "hash-object",
+        "-w",
+        "--stdin"
+      ],
+      "exit": 0
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "core.hooksPath=/dev/null",
+        "--git-dir",
+        "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/ui/stale-map-debug-prep/fixture-held-fresh-prep/objects.git",
+        "hash-object",
+        "-w",
+        "--stdin"
+      ],
+      "exit": 0
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "core.hooksPath=/dev/null",
+        "--git-dir",
+        "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/ui/stale-map-debug-prep/fixture-held-fresh-prep/objects.git",
+        "mktree"
+      ],
+      "exit": 0
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "core.hooksPath=/dev/null",
+        "--git-dir",
+        "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/ui/stale-map-debug-prep/fixture-held-fresh-prep/objects.git",
+        "commit-tree",
+        "27a0f08358f57de2c7cb961bf4b2871123962fd5",
+        "-p",
+        "28705a299e9f8f78b00b85ada10551ec78febca3"
+      ],
+      "exit": 0
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "core.hooksPath=/dev/null",
+        "--git-dir",
+        "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/ui/stale-map-debug-prep/fixture-held-fresh-prep/objects.git",
+        "update-ref",
+        "refs/inputs/A0",
+        "05a3ddaecfda472c905325c825e4d0ca07a2c9a3",
+        "0000000000000000000000000000000000000000"
+      ],
+      "exit": 0
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "core.hooksPath=/dev/null",
+        "--git-dir",
+        "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/ui/stale-map-debug-prep/fixture-held-fresh-prep/objects.git",
+        "hash-object",
+        "-w",
+        "--stdin"
+      ],
+      "exit": 0
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "core.hooksPath=/dev/null",
+        "--git-dir",
+        "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/ui/stale-map-debug-prep/fixture-held-fresh-prep/objects.git",
+        "hash-object",
+        "-w",
+        "--stdin"
+      ],
+      "exit": 0
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "core.hooksPath=/dev/null",
+        "--git-dir",
+        "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/ui/stale-map-debug-prep/fixture-held-fresh-prep/objects.git",
+        "hash-object",
+        "-w",
+        "--stdin"
+      ],
+      "exit": 0
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "core.hooksPath=/dev/null",
+        "--git-dir",
+        "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/ui/stale-map-debug-prep/fixture-held-fresh-prep/objects.git",
+        "mktree"
+      ],
+      "exit": 0
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "core.hooksPath=/dev/null",
+        "--git-dir",
+        "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/ui/stale-map-debug-prep/fixture-held-fresh-prep/objects.git",
+        "commit-tree",
+        "446faf5fd89d210da47bf267db271adf5c2e748a",
+        "-p",
+        "05a3ddaecfda472c905325c825e4d0ca07a2c9a3"
+      ],
+      "exit": 0
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "core.hooksPath=/dev/null",
+        "--git-dir",
+        "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/ui/stale-map-debug-prep/fixture-held-fresh-prep/objects.git",
+        "update-ref",
+        "refs/inputs/B0",
+        "c0f91ab8deab54ca5c07cd0b3a5ee4271236d3b9",
+        "0000000000000000000000000000000000000000"
+      ],
+      "exit": 0
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "core.hooksPath=/dev/null",
+        "--git-dir",
+        "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/ui/stale-map-debug-prep/fixture-held-fresh-prep/objects.git",
+        "hash-object",
+        "-w",
+        "--stdin"
+      ],
+      "exit": 0
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "core.hooksPath=/dev/null",
+        "--git-dir",
+        "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/ui/stale-map-debug-prep/fixture-held-fresh-prep/objects.git",
+        "hash-object",
+        "-w",
+        "--stdin"
+      ],
+      "exit": 0
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "core.hooksPath=/dev/null",
+        "--git-dir",
+        "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/ui/stale-map-debug-prep/fixture-held-fresh-prep/objects.git",
+        "mktree"
+      ],
+      "exit": 0
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "core.hooksPath=/dev/null",
+        "--git-dir",
+        "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/ui/stale-map-debug-prep/fixture-held-fresh-prep/objects.git",
+        "commit-tree",
+        "44e43a14f2436fd51fb01fedaae15ec90d5cdaf0",
+        "-p",
+        "28705a299e9f8f78b00b85ada10551ec78febca3"
+      ],
+      "exit": 0
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "core.hooksPath=/dev/null",
+        "--git-dir",
+        "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/ui/stale-map-debug-prep/fixture-held-fresh-prep/objects.git",
+        "update-ref",
+        "refs/inputs/T1",
+        "5d5ad41b3bae892882940712dda83a204d66da0c",
+        "0000000000000000000000000000000000000000"
+      ],
+      "exit": 0
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "core.hooksPath=/dev/null",
+        "--git-dir",
+        "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/ui/stale-map-debug-prep/fixture-held-fresh-prep/objects.git",
+        "hash-object",
+        "-w",
+        "--stdin"
+      ],
+      "exit": 0
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "core.hooksPath=/dev/null",
+        "--git-dir",
+        "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/ui/stale-map-debug-prep/fixture-held-fresh-prep/objects.git",
+        "hash-object",
+        "-w",
+        "--stdin"
+      ],
+      "exit": 0
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "core.hooksPath=/dev/null",
+        "--git-dir",
+        "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/ui/stale-map-debug-prep/fixture-held-fresh-prep/objects.git",
+        "hash-object",
+        "-w",
+        "--stdin"
+      ],
+      "exit": 0
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "core.hooksPath=/dev/null",
+        "--git-dir",
+        "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/ui/stale-map-debug-prep/fixture-held-fresh-prep/objects.git",
+        "mktree"
+      ],
+      "exit": 0
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "core.hooksPath=/dev/null",
+        "--git-dir",
+        "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/ui/stale-map-debug-prep/fixture-held-fresh-prep/objects.git",
+        "commit-tree",
+        "901e2aaad72c108ef8aa5e92aee322a3a0d3fb44",
+        "-p",
+        "05a3ddaecfda472c905325c825e4d0ca07a2c9a3"
+      ],
+      "exit": 0
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "core.hooksPath=/dev/null",
+        "--git-dir",
+        "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/ui/stale-map-debug-prep/fixture-held-fresh-prep/objects.git",
+        "update-ref",
+        "refs/inputs/A2",
+        "fa8f119c706640635044d2a5129591c4598ca8d5",
+        "0000000000000000000000000000000000000000"
+      ],
+      "exit": 0
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "core.hooksPath=/dev/null",
+        "--git-dir",
+        "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/ui/stale-map-debug-prep/fixture-held-fresh-prep/objects.git",
+        "hash-object",
+        "-w",
+        "--stdin"
+      ],
+      "exit": 0
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "core.hooksPath=/dev/null",
+        "--git-dir",
+        "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/ui/stale-map-debug-prep/fixture-held-fresh-prep/objects.git",
+        "hash-object",
+        "-w",
+        "--stdin"
+      ],
+      "exit": 0
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "core.hooksPath=/dev/null",
+        "--git-dir",
+        "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/ui/stale-map-debug-prep/fixture-held-fresh-prep/objects.git",
+        "hash-object",
+        "-w",
+        "--stdin"
+      ],
+      "exit": 0
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "core.hooksPath=/dev/null",
+        "--git-dir",
+        "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/ui/stale-map-debug-prep/fixture-held-fresh-prep/objects.git",
+        "mktree"
+      ],
+      "exit": 0
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "core.hooksPath=/dev/null",
+        "--git-dir",
+        "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/ui/stale-map-debug-prep/fixture-held-fresh-prep/objects.git",
+        "commit-tree",
+        "b9980da979d8906b096a45c958d3813d8b073663",
+        "-p",
+        "5d5ad41b3bae892882940712dda83a204d66da0c"
+      ],
+      "exit": 0
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "core.hooksPath=/dev/null",
+        "--git-dir",
+        "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/ui/stale-map-debug-prep/fixture-held-fresh-prep/objects.git",
+        "update-ref",
+        "refs/inputs/expected-A0",
+        "5481d28e001a9ab9be271d89a0da420b7c649c5d",
+        "0000000000000000000000000000000000000000"
+      ],
+      "exit": 0
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "core.hooksPath=/dev/null",
+        "--git-dir",
+        "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/ui/stale-map-debug-prep/fixture-held-fresh-prep/objects.git",
+        "hash-object",
+        "-w",
+        "--stdin"
+      ],
+      "exit": 0
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "core.hooksPath=/dev/null",
+        "--git-dir",
+        "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/ui/stale-map-debug-prep/fixture-held-fresh-prep/objects.git",
+        "hash-object",
+        "-w",
+        "--stdin"
+      ],
+      "exit": 0
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "core.hooksPath=/dev/null",
+        "--git-dir",
+        "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/ui/stale-map-debug-prep/fixture-held-fresh-prep/objects.git",
+        "hash-object",
+        "-w",
+        "--stdin"
+      ],
+      "exit": 0
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "core.hooksPath=/dev/null",
+        "--git-dir",
+        "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/ui/stale-map-debug-prep/fixture-held-fresh-prep/objects.git",
+        "hash-object",
+        "-w",
+        "--stdin"
+      ],
+      "exit": 0
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "core.hooksPath=/dev/null",
+        "--git-dir",
+        "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/ui/stale-map-debug-prep/fixture-held-fresh-prep/objects.git",
+        "mktree"
+      ],
+      "exit": 0
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "core.hooksPath=/dev/null",
+        "--git-dir",
+        "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/ui/stale-map-debug-prep/fixture-held-fresh-prep/objects.git",
+        "commit-tree",
+        "20f5caa1ecc2c4f9953545decc192658d33c6c4b",
+        "-p",
+        "5481d28e001a9ab9be271d89a0da420b7c649c5d"
+      ],
+      "exit": 0
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "core.hooksPath=/dev/null",
+        "--git-dir",
+        "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/ui/stale-map-debug-prep/fixture-held-fresh-prep/objects.git",
+        "update-ref",
+        "refs/inputs/expected-B0",
+        "66b9cbbc0a1081940d8a4394bcea2cb794cf2c63",
+        "0000000000000000000000000000000000000000"
+      ],
+      "exit": 0
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "core.hooksPath=/dev/null",
+        "--git-dir",
+        "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/ui/stale-map-debug-prep/fixture-held-fresh-prep/objects.git",
+        "hash-object",
+        "-w",
+        "--stdin"
+      ],
+      "exit": 0
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "core.hooksPath=/dev/null",
+        "--git-dir",
+        "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/ui/stale-map-debug-prep/fixture-held-fresh-prep/objects.git",
+        "hash-object",
+        "-w",
+        "--stdin"
+      ],
+      "exit": 0
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "core.hooksPath=/dev/null",
+        "--git-dir",
+        "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/ui/stale-map-debug-prep/fixture-held-fresh-prep/objects.git",
+        "hash-object",
+        "-w",
+        "--stdin"
+      ],
+      "exit": 0
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "core.hooksPath=/dev/null",
+        "--git-dir",
+        "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/ui/stale-map-debug-prep/fixture-held-fresh-prep/objects.git",
+        "hash-object",
+        "-w",
+        "--stdin"
+      ],
+      "exit": 0
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "core.hooksPath=/dev/null",
+        "--git-dir",
+        "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/ui/stale-map-debug-prep/fixture-held-fresh-prep/objects.git",
+        "mktree"
+      ],
+      "exit": 0
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "core.hooksPath=/dev/null",
+        "--git-dir",
+        "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/ui/stale-map-debug-prep/fixture-held-fresh-prep/objects.git",
+        "commit-tree",
+        "2067952fdbcaceee5589e9192714db3ab93cd337",
+        "-p",
+        "5481d28e001a9ab9be271d89a0da420b7c649c5d"
+      ],
+      "exit": 0
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "core.hooksPath=/dev/null",
+        "--git-dir",
+        "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/ui/stale-map-debug-prep/fixture-held-fresh-prep/objects.git",
+        "update-ref",
+        "refs/inputs/expected-A2",
+        "e67a693d264ea3a7c0717129202933edae9f89f8",
+        "0000000000000000000000000000000000000000"
+      ],
+      "exit": 0
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "core.hooksPath=/dev/null",
+        "--git-dir",
+        "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/ui/stale-map-debug-prep/fixture-held-fresh-prep/objects.git",
+        "hash-object",
+        "-w",
+        "--stdin"
+      ],
+      "exit": 0
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "core.hooksPath=/dev/null",
+        "--git-dir",
+        "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/ui/stale-map-debug-prep/fixture-held-fresh-prep/objects.git",
+        "hash-object",
+        "-w",
+        "--stdin"
+      ],
+      "exit": 0
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "core.hooksPath=/dev/null",
+        "--git-dir",
+        "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/ui/stale-map-debug-prep/fixture-held-fresh-prep/objects.git",
+        "hash-object",
+        "-w",
+        "--stdin"
+      ],
+      "exit": 0
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "core.hooksPath=/dev/null",
+        "--git-dir",
+        "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/ui/stale-map-debug-prep/fixture-held-fresh-prep/objects.git",
+        "hash-object",
+        "-w",
+        "--stdin"
+      ],
+      "exit": 0
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "core.hooksPath=/dev/null",
+        "--git-dir",
+        "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/ui/stale-map-debug-prep/fixture-held-fresh-prep/objects.git",
+        "hash-object",
+        "-w",
+        "--stdin"
+      ],
+      "exit": 0
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "core.hooksPath=/dev/null",
+        "--git-dir",
+        "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/ui/stale-map-debug-prep/fixture-held-fresh-prep/objects.git",
+        "mktree"
+      ],
+      "exit": 0
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "core.hooksPath=/dev/null",
+        "--git-dir",
+        "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/ui/stale-map-debug-prep/fixture-held-fresh-prep/objects.git",
+        "commit-tree",
+        "8ab913d8efc4a096f4163e09546e68f239154dd6",
+        "-p",
+        "e67a693d264ea3a7c0717129202933edae9f89f8"
+      ],
+      "exit": 0
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "core.hooksPath=/dev/null",
+        "--git-dir",
+        "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/ui/stale-map-debug-prep/fixture-held-fresh-prep/objects.git",
+        "update-ref",
+        "refs/inputs/expected-B-over-A2",
+        "ae85f4a5d396231ff48c5d047a3a6a505b54c79e",
+        "0000000000000000000000000000000000000000"
+      ],
+      "exit": 0
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "core.hooksPath=/dev/null",
+        "--git-dir",
+        "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/ui/stale-map-debug-prep/fixture-held-fresh-prep/objects.git",
+        "cat-file",
+        "commit",
+        "28705a299e9f8f78b00b85ada10551ec78febca3"
+      ],
+      "exit": 0
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "core.hooksPath=/dev/null",
+        "--git-dir",
+        "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/ui/stale-map-debug-prep/fixture-held-fresh-prep/objects.git",
+        "cat-file",
+        "commit",
+        "05a3ddaecfda472c905325c825e4d0ca07a2c9a3"
+      ],
+      "exit": 0
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "core.hooksPath=/dev/null",
+        "--git-dir",
+        "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/ui/stale-map-debug-prep/fixture-held-fresh-prep/objects.git",
+        "cat-file",
+        "commit",
+        "c0f91ab8deab54ca5c07cd0b3a5ee4271236d3b9"
+      ],
+      "exit": 0
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "core.hooksPath=/dev/null",
+        "--git-dir",
+        "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/ui/stale-map-debug-prep/fixture-held-fresh-prep/objects.git",
+        "cat-file",
+        "commit",
+        "5d5ad41b3bae892882940712dda83a204d66da0c"
+      ],
+      "exit": 0
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "core.hooksPath=/dev/null",
+        "--git-dir",
+        "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/ui/stale-map-debug-prep/fixture-held-fresh-prep/objects.git",
+        "cat-file",
+        "commit",
+        "fa8f119c706640635044d2a5129591c4598ca8d5"
+      ],
+      "exit": 0
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "core.hooksPath=/dev/null",
+        "--git-dir",
+        "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/ui/stale-map-debug-prep/fixture-held-fresh-prep/objects.git",
+        "cat-file",
+        "commit",
+        "5481d28e001a9ab9be271d89a0da420b7c649c5d"
+      ],
+      "exit": 0
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "core.hooksPath=/dev/null",
+        "--git-dir",
+        "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/ui/stale-map-debug-prep/fixture-held-fresh-prep/objects.git",
+        "cat-file",
+        "commit",
+        "66b9cbbc0a1081940d8a4394bcea2cb794cf2c63"
+      ],
+      "exit": 0
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "core.hooksPath=/dev/null",
+        "--git-dir",
+        "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/ui/stale-map-debug-prep/fixture-held-fresh-prep/objects.git",
+        "cat-file",
+        "commit",
+        "e67a693d264ea3a7c0717129202933edae9f89f8"
+      ],
+      "exit": 0
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "core.hooksPath=/dev/null",
+        "--git-dir",
+        "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/ui/stale-map-debug-prep/fixture-held-fresh-prep/objects.git",
+        "cat-file",
+        "commit",
+        "ae85f4a5d396231ff48c5d047a3a6a505b54c79e"
+      ],
+      "exit": 0
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "core.hooksPath=/dev/null",
+        "--git-dir",
+        "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/ui/stale-map-debug-prep/fixture-held-fresh-prep/objects.git",
+        "rev-parse",
+        "5481d28e001a9ab9be271d89a0da420b7c649c5d^{tree}"
+      ],
+      "exit": 0
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "core.hooksPath=/dev/null",
+        "--git-dir",
+        "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/ui/stale-map-debug-prep/fixture-held-fresh-prep/objects.git",
+        "rev-parse",
+        "66b9cbbc0a1081940d8a4394bcea2cb794cf2c63^{tree}"
+      ],
+      "exit": 0
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "core.hooksPath=/dev/null",
+        "--git-dir",
+        "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/ui/stale-map-debug-prep/fixture-held-fresh-prep/objects.git",
+        "rev-parse",
+        "e67a693d264ea3a7c0717129202933edae9f89f8^{tree}"
+      ],
+      "exit": 0
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "core.hooksPath=/dev/null",
+        "--git-dir",
+        "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/ui/stale-map-debug-prep/fixture-held-fresh-prep/objects.git",
+        "rev-parse",
+        "ae85f4a5d396231ff48c5d047a3a6a505b54c79e^{tree}"
+      ],
+      "exit": 0
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "core.hooksPath=/dev/null",
+        "--git-dir",
+        "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/ui/stale-map-debug-prep/fixture-held-fresh-prep/objects.git",
+        "cat-file",
+        "commit",
+        "28705a299e9f8f78b00b85ada10551ec78febca3"
+      ],
+      "exit": 0
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "core.hooksPath=/dev/null",
+        "--git-dir",
+        "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/ui/stale-map-debug-prep/fixture-held-fresh-prep/objects.git",
+        "ls-tree",
+        "-r",
+        "--name-only",
+        "28705a299e9f8f78b00b85ada10551ec78febca3"
+      ],
+      "exit": 0
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "core.hooksPath=/dev/null",
+        "--git-dir",
+        "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/ui/stale-map-debug-prep/fixture-held-fresh-prep/objects.git",
+        "show",
+        "28705a299e9f8f78b00b85ada10551ec78febca3:root.txt"
+      ],
+      "exit": 0
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "core.hooksPath=/dev/null",
+        "--git-dir",
+        "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/ui/stale-map-debug-prep/fixture-held-fresh-prep/objects.git",
+        "cat-file",
+        "commit",
+        "05a3ddaecfda472c905325c825e4d0ca07a2c9a3"
+      ],
+      "exit": 0
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "core.hooksPath=/dev/null",
+        "--git-dir",
+        "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/ui/stale-map-debug-prep/fixture-held-fresh-prep/objects.git",
+        "ls-tree",
+        "-r",
+        "--name-only",
+        "05a3ddaecfda472c905325c825e4d0ca07a2c9a3"
+      ],
+      "exit": 0
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "core.hooksPath=/dev/null",
+        "--git-dir",
+        "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/ui/stale-map-debug-prep/fixture-held-fresh-prep/objects.git",
+        "show",
+        "05a3ddaecfda472c905325c825e4d0ca07a2c9a3:root.txt"
+      ],
+      "exit": 0
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "core.hooksPath=/dev/null",
+        "--git-dir",
+        "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/ui/stale-map-debug-prep/fixture-held-fresh-prep/objects.git",
+        "show",
+        "05a3ddaecfda472c905325c825e4d0ca07a2c9a3:a.txt"
+      ],
+      "exit": 0
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "core.hooksPath=/dev/null",
+        "--git-dir",
+        "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/ui/stale-map-debug-prep/fixture-held-fresh-prep/objects.git",
+        "cat-file",
+        "commit",
+        "c0f91ab8deab54ca5c07cd0b3a5ee4271236d3b9"
+      ],
+      "exit": 0
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "core.hooksPath=/dev/null",
+        "--git-dir",
+        "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/ui/stale-map-debug-prep/fixture-held-fresh-prep/objects.git",
+        "ls-tree",
+        "-r",
+        "--name-only",
+        "c0f91ab8deab54ca5c07cd0b3a5ee4271236d3b9"
+      ],
+      "exit": 0
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "core.hooksPath=/dev/null",
+        "--git-dir",
+        "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/ui/stale-map-debug-prep/fixture-held-fresh-prep/objects.git",
+        "show",
+        "c0f91ab8deab54ca5c07cd0b3a5ee4271236d3b9:root.txt"
+      ],
+      "exit": 0
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "core.hooksPath=/dev/null",
+        "--git-dir",
+        "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/ui/stale-map-debug-prep/fixture-held-fresh-prep/objects.git",
+        "show",
+        "c0f91ab8deab54ca5c07cd0b3a5ee4271236d3b9:a.txt"
+      ],
+      "exit": 0
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "core.hooksPath=/dev/null",
+        "--git-dir",
+        "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/ui/stale-map-debug-prep/fixture-held-fresh-prep/objects.git",
+        "show",
+        "c0f91ab8deab54ca5c07cd0b3a5ee4271236d3b9:b.txt"
+      ],
+      "exit": 0
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "core.hooksPath=/dev/null",
+        "--git-dir",
+        "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/ui/stale-map-debug-prep/fixture-held-fresh-prep/objects.git",
+        "cat-file",
+        "commit",
+        "5d5ad41b3bae892882940712dda83a204d66da0c"
+      ],
+      "exit": 0
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "core.hooksPath=/dev/null",
+        "--git-dir",
+        "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/ui/stale-map-debug-prep/fixture-held-fresh-prep/objects.git",
+        "ls-tree",
+        "-r",
+        "--name-only",
+        "5d5ad41b3bae892882940712dda83a204d66da0c"
+      ],
+      "exit": 0
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "core.hooksPath=/dev/null",
+        "--git-dir",
+        "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/ui/stale-map-debug-prep/fixture-held-fresh-prep/objects.git",
+        "show",
+        "5d5ad41b3bae892882940712dda83a204d66da0c:root.txt"
+      ],
+      "exit": 0
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "core.hooksPath=/dev/null",
+        "--git-dir",
+        "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/ui/stale-map-debug-prep/fixture-held-fresh-prep/objects.git",
+        "show",
+        "5d5ad41b3bae892882940712dda83a204d66da0c:trunk-progress.txt"
+      ],
+      "exit": 0
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "core.hooksPath=/dev/null",
+        "--git-dir",
+        "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/ui/stale-map-debug-prep/fixture-held-fresh-prep/objects.git",
+        "cat-file",
+        "commit",
+        "fa8f119c706640635044d2a5129591c4598ca8d5"
+      ],
+      "exit": 0
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "core.hooksPath=/dev/null",
+        "--git-dir",
+        "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/ui/stale-map-debug-prep/fixture-held-fresh-prep/objects.git",
+        "ls-tree",
+        "-r",
+        "--name-only",
+        "fa8f119c706640635044d2a5129591c4598ca8d5"
+      ],
+      "exit": 0
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "core.hooksPath=/dev/null",
+        "--git-dir",
+        "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/ui/stale-map-debug-prep/fixture-held-fresh-prep/objects.git",
+        "show",
+        "fa8f119c706640635044d2a5129591c4598ca8d5:root.txt"
+      ],
+      "exit": 0
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "core.hooksPath=/dev/null",
+        "--git-dir",
+        "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/ui/stale-map-debug-prep/fixture-held-fresh-prep/objects.git",
+        "show",
+        "fa8f119c706640635044d2a5129591c4598ca8d5:a.txt"
+      ],
+      "exit": 0
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "core.hooksPath=/dev/null",
+        "--git-dir",
+        "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/ui/stale-map-debug-prep/fixture-held-fresh-prep/objects.git",
+        "show",
+        "fa8f119c706640635044d2a5129591c4598ca8d5:late-a-marker.txt"
+      ],
+      "exit": 0
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "core.hooksPath=/dev/null",
+        "--git-dir",
+        "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/ui/stale-map-debug-prep/fixture-held-fresh-prep/objects.git",
+        "cat-file",
+        "commit",
+        "5481d28e001a9ab9be271d89a0da420b7c649c5d"
+      ],
+      "exit": 0
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "core.hooksPath=/dev/null",
+        "--git-dir",
+        "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/ui/stale-map-debug-prep/fixture-held-fresh-prep/objects.git",
+        "ls-tree",
+        "-r",
+        "--name-only",
+        "5481d28e001a9ab9be271d89a0da420b7c649c5d"
+      ],
+      "exit": 0
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "core.hooksPath=/dev/null",
+        "--git-dir",
+        "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/ui/stale-map-debug-prep/fixture-held-fresh-prep/objects.git",
+        "show",
+        "5481d28e001a9ab9be271d89a0da420b7c649c5d:root.txt"
+      ],
+      "exit": 0
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "core.hooksPath=/dev/null",
+        "--git-dir",
+        "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/ui/stale-map-debug-prep/fixture-held-fresh-prep/objects.git",
+        "show",
+        "5481d28e001a9ab9be271d89a0da420b7c649c5d:a.txt"
+      ],
+      "exit": 0
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "core.hooksPath=/dev/null",
+        "--git-dir",
+        "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/ui/stale-map-debug-prep/fixture-held-fresh-prep/objects.git",
+        "show",
+        "5481d28e001a9ab9be271d89a0da420b7c649c5d:trunk-progress.txt"
+      ],
+      "exit": 0
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "core.hooksPath=/dev/null",
+        "--git-dir",
+        "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/ui/stale-map-debug-prep/fixture-held-fresh-prep/objects.git",
+        "cat-file",
+        "commit",
+        "66b9cbbc0a1081940d8a4394bcea2cb794cf2c63"
+      ],
+      "exit": 0
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "core.hooksPath=/dev/null",
+        "--git-dir",
+        "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/ui/stale-map-debug-prep/fixture-held-fresh-prep/objects.git",
+        "ls-tree",
+        "-r",
+        "--name-only",
+        "66b9cbbc0a1081940d8a4394bcea2cb794cf2c63"
+      ],
+      "exit": 0
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "core.hooksPath=/dev/null",
+        "--git-dir",
+        "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/ui/stale-map-debug-prep/fixture-held-fresh-prep/objects.git",
+        "show",
+        "66b9cbbc0a1081940d8a4394bcea2cb794cf2c63:root.txt"
+      ],
+      "exit": 0
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "core.hooksPath=/dev/null",
+        "--git-dir",
+        "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/ui/stale-map-debug-prep/fixture-held-fresh-prep/objects.git",
+        "show",
+        "66b9cbbc0a1081940d8a4394bcea2cb794cf2c63:a.txt"
+      ],
+      "exit": 0
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "core.hooksPath=/dev/null",
+        "--git-dir",
+        "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/ui/stale-map-debug-prep/fixture-held-fresh-prep/objects.git",
+        "show",
+        "66b9cbbc0a1081940d8a4394bcea2cb794cf2c63:b.txt"
+      ],
+      "exit": 0
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "core.hooksPath=/dev/null",
+        "--git-dir",
+        "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/ui/stale-map-debug-prep/fixture-held-fresh-prep/objects.git",
+        "show",
+        "66b9cbbc0a1081940d8a4394bcea2cb794cf2c63:trunk-progress.txt"
+      ],
+      "exit": 0
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "core.hooksPath=/dev/null",
+        "--git-dir",
+        "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/ui/stale-map-debug-prep/fixture-held-fresh-prep/objects.git",
+        "cat-file",
+        "commit",
+        "e67a693d264ea3a7c0717129202933edae9f89f8"
+      ],
+      "exit": 0
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "core.hooksPath=/dev/null",
+        "--git-dir",
+        "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/ui/stale-map-debug-prep/fixture-held-fresh-prep/objects.git",
+        "ls-tree",
+        "-r",
+        "--name-only",
+        "e67a693d264ea3a7c0717129202933edae9f89f8"
+      ],
+      "exit": 0
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "core.hooksPath=/dev/null",
+        "--git-dir",
+        "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/ui/stale-map-debug-prep/fixture-held-fresh-prep/objects.git",
+        "show",
+        "e67a693d264ea3a7c0717129202933edae9f89f8:root.txt"
+      ],
+      "exit": 0
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "core.hooksPath=/dev/null",
+        "--git-dir",
+        "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/ui/stale-map-debug-prep/fixture-held-fresh-prep/objects.git",
+        "show",
+        "e67a693d264ea3a7c0717129202933edae9f89f8:a.txt"
+      ],
+      "exit": 0
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "core.hooksPath=/dev/null",
+        "--git-dir",
+        "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/ui/stale-map-debug-prep/fixture-held-fresh-prep/objects.git",
+        "show",
+        "e67a693d264ea3a7c0717129202933edae9f89f8:late-a-marker.txt"
+      ],
+      "exit": 0
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "core.hooksPath=/dev/null",
+        "--git-dir",
+        "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/ui/stale-map-debug-prep/fixture-held-fresh-prep/objects.git",
+        "show",
+        "e67a693d264ea3a7c0717129202933edae9f89f8:trunk-progress.txt"
+      ],
+      "exit": 0
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "core.hooksPath=/dev/null",
+        "--git-dir",
+        "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/ui/stale-map-debug-prep/fixture-held-fresh-prep/objects.git",
+        "cat-file",
+        "commit",
+        "ae85f4a5d396231ff48c5d047a3a6a505b54c79e"
+      ],
+      "exit": 0
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "core.hooksPath=/dev/null",
+        "--git-dir",
+        "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/ui/stale-map-debug-prep/fixture-held-fresh-prep/objects.git",
+        "ls-tree",
+        "-r",
+        "--name-only",
+        "ae85f4a5d396231ff48c5d047a3a6a505b54c79e"
+      ],
+      "exit": 0
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "core.hooksPath=/dev/null",
+        "--git-dir",
+        "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/ui/stale-map-debug-prep/fixture-held-fresh-prep/objects.git",
+        "show",
+        "ae85f4a5d396231ff48c5d047a3a6a505b54c79e:root.txt"
+      ],
+      "exit": 0
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "core.hooksPath=/dev/null",
+        "--git-dir",
+        "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/ui/stale-map-debug-prep/fixture-held-fresh-prep/objects.git",
+        "show",
+        "ae85f4a5d396231ff48c5d047a3a6a505b54c79e:a.txt"
+      ],
+      "exit": 0
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "core.hooksPath=/dev/null",
+        "--git-dir",
+        "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/ui/stale-map-debug-prep/fixture-held-fresh-prep/objects.git",
+        "show",
+        "ae85f4a5d396231ff48c5d047a3a6a505b54c79e:late-a-marker.txt"
+      ],
+      "exit": 0
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "core.hooksPath=/dev/null",
+        "--git-dir",
+        "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/ui/stale-map-debug-prep/fixture-held-fresh-prep/objects.git",
+        "show",
+        "ae85f4a5d396231ff48c5d047a3a6a505b54c79e:trunk-progress.txt"
+      ],
+      "exit": 0
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "core.hooksPath=/dev/null",
+        "--git-dir",
+        "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/ui/stale-map-debug-prep/fixture-held-fresh-prep/objects.git",
+        "show",
+        "ae85f4a5d396231ff48c5d047a3a6a505b54c79e:b.txt"
+      ],
+      "exit": 0
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "core.hooksPath=/dev/null",
+        "--git-dir",
+        "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/ui/stale-map-debug-prep/fixture-held-fresh-prep/objects.git",
+        "diff",
+        "--name-only",
+        "28705a299e9f8f78b00b85ada10551ec78febca3",
+        "05a3ddaecfda472c905325c825e4d0ca07a2c9a3"
+      ],
+      "exit": 0
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "core.hooksPath=/dev/null",
+        "--git-dir",
+        "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/ui/stale-map-debug-prep/fixture-held-fresh-prep/objects.git",
+        "diff",
+        "--name-only",
+        "28705a299e9f8f78b00b85ada10551ec78febca3",
+        "fa8f119c706640635044d2a5129591c4598ca8d5"
+      ],
+      "exit": 0
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "core.hooksPath=/dev/null",
+        "--git-dir",
+        "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/ui/stale-map-debug-prep/fixture-held-fresh-prep/objects.git",
+        "diff",
+        "--name-only",
+        "05a3ddaecfda472c905325c825e4d0ca07a2c9a3",
+        "c0f91ab8deab54ca5c07cd0b3a5ee4271236d3b9"
+      ],
+      "exit": 0
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "core.hooksPath=/dev/null",
+        "--git-dir",
+        "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/ui/stale-map-debug-prep/fixture-held-fresh-prep/objects.git",
+        "rev-parse",
+        "5481d28e001a9ab9be271d89a0da420b7c649c5d^{tree}"
+      ],
+      "exit": 0
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "core.hooksPath=/dev/null",
+        "--git-dir",
+        "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/ui/stale-map-debug-prep/fixture-held-fresh-prep/objects.git",
+        "rev-parse",
+        "66b9cbbc0a1081940d8a4394bcea2cb794cf2c63^{tree}"
+      ],
+      "exit": 0
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "core.hooksPath=/dev/null",
+        "--git-dir",
+        "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/ui/stale-map-debug-prep/fixture-held-fresh-prep/objects.git",
+        "rev-parse",
+        "e67a693d264ea3a7c0717129202933edae9f89f8^{tree}"
+      ],
+      "exit": 0
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "core.hooksPath=/dev/null",
+        "--git-dir",
+        "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/ui/stale-map-debug-prep/fixture-held-fresh-prep/objects.git",
+        "rev-parse",
+        "ae85f4a5d396231ff48c5d047a3a6a505b54c79e^{tree}"
+      ],
+      "exit": 0
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "core.hooksPath=/dev/null",
+        "--git-dir",
+        "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/ui/stale-map-debug-prep/fixture-held-fresh-prep/objects.git",
+        "diff",
+        "--binary",
+        "--full-index",
+        "28705a299e9f8f78b00b85ada10551ec78febca3",
+        "fa8f119c706640635044d2a5129591c4598ca8d5"
+      ],
+      "exit": 0
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "core.hooksPath=/dev/null",
+        "--git-dir",
+        "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/ui/stale-map-debug-prep/fixture-held-fresh-prep/objects.git",
+        "diff",
+        "--binary",
+        "--full-index",
+        "5d5ad41b3bae892882940712dda83a204d66da0c",
+        "e67a693d264ea3a7c0717129202933edae9f89f8"
+      ],
+      "exit": 0
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "core.hooksPath=/dev/null",
+        "--git-dir",
+        "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/ui/stale-map-debug-prep/fixture-held-fresh-prep/objects.git",
+        "diff",
+        "--binary",
+        "--full-index",
+        "05a3ddaecfda472c905325c825e4d0ca07a2c9a3",
+        "c0f91ab8deab54ca5c07cd0b3a5ee4271236d3b9"
+      ],
+      "exit": 0
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "core.hooksPath=/dev/null",
+        "--git-dir",
+        "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/ui/stale-map-debug-prep/fixture-held-fresh-prep/objects.git",
+        "diff",
+        "--binary",
+        "--full-index",
+        "e67a693d264ea3a7c0717129202933edae9f89f8",
+        "ae85f4a5d396231ff48c5d047a3a6a505b54c79e"
+      ],
+      "exit": 0
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "core.hooksPath=/dev/null",
+        "--git-dir",
+        "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/ui/stale-map-debug-prep/fixture-held-fresh-prep/objects.git",
+        "remote",
+        "get-url",
+        "origin"
+      ],
+      "exit": 0
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "core.hooksPath=/dev/null",
+        "--git-dir",
+        "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/ui/stale-map-debug-prep/fixture-held-fresh-prep/objects.git",
+        "config",
+        "--get",
+        "core.hooksPath"
+      ],
+      "exit": 0
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "core.hooksPath=/dev/null",
+        "--git-dir",
+        "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/ui/stale-map-debug-prep/fixture-held-fresh-prep/objects.git",
+        "fsck",
+        "--full",
+        "--no-dangling"
+      ],
+      "exit": 0
+    }
+  ],
+  "local_stdout": "{\"prefix\": \"exh-1109-ui-stale-debug-held-fresh-0a10ffe99c\", \"inputs_sha256\": \"a3ca29404b291f6c9ee3ef89b67ce6c74043bcb6c07cb342973199f84e9372ed\", \"commits\": {\"T0\": \"28705a299e9f8f78b00b85ada10551ec78febca3\", \"A0\": \"05a3ddaecfda472c905325c825e4d0ca07a2c9a3\", \"B0\": \"c0f91ab8deab54ca5c07cd0b3a5ee4271236d3b9\", \"T1\": \"5d5ad41b3bae892882940712dda83a204d66da0c\", \"A2\": \"fa8f119c706640635044d2a5129591c4598ca8d5\", \"expected-A0\": \"5481d28e001a9ab9be271d89a0da420b7c649c5d\", \"expected-B0\": \"66b9cbbc0a1081940d8a4394bcea2cb794cf2c63\", \"expected-A2\": \"e67a693d264ea3a7c0717129202933edae9f89f8\", \"expected-B-over-A2\": \"ae85f4a5d396231ff48c5d047a3a6a505b54c79e\"}}\n"
+}

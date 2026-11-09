@@ -1,0 +1,19 @@
+{
+  "time": {
+    "utc": "2026-11-09T18:19:23.084139+00:00",
+    "monotonic_ns": 1851906250
+  },
+  "repo": "joshlf/gherrit-native-stack-experiments-2026-11-08",
+  "prefix": "exh-1109-ui-stale-debug-a-fresh-0a2893d4d4",
+  "argv": [
+    "gh",
+    "api",
+    "--method",
+    "POST",
+    "repos/joshlf/gherrit-native-stack-experiments-2026-11-08/pulls",
+    "--input",
+    "-"
+  ],
+  "input": "{\"head\": \"exh-1109-ui-stale-debug-a-fresh-0a2893d4d4-a\", \"base\": \"exh-1109-ui-stale-debug-a-fresh-0a2893d4d4-trunk\", \"title\": \"exh-1109-ui-stale-debug-a-fresh-0a2893d4d4 A\", \"body\": \"Authorized synthetic fresh lower-A map positive control.\\n\\n*Authored by an AI agent acting on joshlf's behalf.*\"}",
+  "outcome": "may be dispatched"
+}

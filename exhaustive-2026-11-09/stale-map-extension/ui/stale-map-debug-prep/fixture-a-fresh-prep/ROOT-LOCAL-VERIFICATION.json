@@ -1,0 +1,10 @@
+{
+  "coordinator": "root",
+  "at": {
+    "utc": "2026-11-09T18:19:17.612749+00:00",
+    "monotonic_ns": 514688083
+  },
+  "source_reviewed": "Complete prepare-only literal variant; A2+archive published withtrunkT1 beforebrowserload; no pausedadvanceaction",
+  "nine_actual_objects_trees_parents_trailers_verified": true,
+  "prefix": "exh-1109-ui-stale-debug-a-fresh-0a2893d4d4"
+}

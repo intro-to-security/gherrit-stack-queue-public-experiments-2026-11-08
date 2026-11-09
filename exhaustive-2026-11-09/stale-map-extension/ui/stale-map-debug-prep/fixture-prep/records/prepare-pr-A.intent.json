@@ -1,0 +1,19 @@
+{
+  "time": {
+    "utc": "2026-11-09T18:07:20.387891+00:00",
+    "monotonic_ns": 1996607000
+  },
+  "repo": "joshlf/gherrit-native-stack-experiments-2026-11-08",
+  "prefix": "exh-1109-ui-stale-debug-c536c6f390",
+  "argv": [
+    "gh",
+    "api",
+    "--method",
+    "POST",
+    "repos/joshlf/gherrit-native-stack-experiments-2026-11-08/pulls",
+    "--input",
+    "-"
+  ],
+  "input": "{\"head\": \"exh-1109-ui-stale-debug-c536c6f390-a\", \"base\": \"exh-1109-ui-stale-debug-c536c6f390-trunk\", \"title\": \"exh-1109-ui-stale-debug-c536c6f390 A\", \"body\": \"Authorized synthetic stale-map debugger fixture.\\n\\n*Authored by an AI agent acting on joshlf's behalf.*\"}",
+  "outcome": "may be dispatched"
+}

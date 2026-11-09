@@ -1,0 +1,27 @@
+{
+  "label": "cohort-0-pr-A",
+  "argv": [
+    "gh",
+    "api",
+    "--method",
+    "GET",
+    "-H",
+    "Accept: application/vnd.github+json",
+    "-H",
+    "X-GitHub-Api-Version: 2026-03-10",
+    "-H",
+    "Cache-Control: no-cache",
+    "repos/joshlf/gherrit-native-stack-experiments-2026-11-08/pulls/661"
+  ],
+  "started": {
+    "utc": "2026-11-09T18:17:51.265529+00:00",
+    "monotonic_ns": 35425250
+  },
+  "ended": {
+    "utc": "2026-11-09T18:17:51.728057+00:00",
+    "monotonic_ns": 497964041
+  },
+  "exit": 0,
+  "stdout_sha256": "32dba9d451adbc19cc3295278a2918aa2fbde9c658aabb803de0cc67e8876732",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

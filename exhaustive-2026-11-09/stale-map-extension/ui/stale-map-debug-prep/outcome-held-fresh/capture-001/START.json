@@ -1,0 +1,21 @@
+{
+  "at": {
+    "utc": "2026-11-09T19:13:00.448710+00:00",
+    "monotonic_ns": 22308458
+  },
+  "repository": "joshlf/gherrit-native-stack-experiments-2026-11-08",
+  "prefix": "exh-1109-ui-stale-debug-held-fresh-0a10ffe99c",
+  "prs": {
+    "A": 670,
+    "B": 671
+  },
+  "stack": 672,
+  "fixed_refs": {
+    "exh-1109-ui-stale-debug-held-fresh-0a10ffe99c-trunk": "5d5ad41b3bae892882940712dda83a204d66da0c",
+    "exh-1109-ui-stale-debug-held-fresh-0a10ffe99c-source-v1": "c0f91ab8deab54ca5c07cd0b3a5ee4271236d3b9",
+    "exh-1109-ui-stale-debug-held-fresh-0a10ffe99c-archive-a-v1": "05a3ddaecfda472c905325c825e4d0ca07a2c9a3",
+    "exh-1109-ui-stale-debug-held-fresh-0a10ffe99c-archive-b-v1": "c0f91ab8deab54ca5c07cd0b3a5ee4271236d3b9",
+    "exh-1109-ui-stale-debug-held-fresh-0a10ffe99c-archive-a-v2": "fa8f119c706640635044d2a5129591c4598ca8d5"
+  },
+  "scope": "GETs and exact seven-ref fetches into new owned bare store; no remote mutation/private HAR/browser action"
+}

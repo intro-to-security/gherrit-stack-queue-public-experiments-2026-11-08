@@ -1,0 +1,13 @@
+{
+  "source": "Root coordination assignment and subsequent calibration in this session; no private HAR/whole-tab contents read by this author",
+  "whole_tab_display_requests_reported_by_root": 14,
+  "selected_export_entries_verified_in_NETWORK_B": 1,
+  "selected_export_is_not_whole_tab_population": true,
+  "stack_member_changed": "B only",
+  "additional_repository_ref_created": "archive-b-v2 in the same atomic push",
+  "prepared_unperformed_at_root_checkpoint": [
+    "lower-A-stale",
+    "fresh-A2/B0-control"
+  ],
+  "draft_only": true
+}

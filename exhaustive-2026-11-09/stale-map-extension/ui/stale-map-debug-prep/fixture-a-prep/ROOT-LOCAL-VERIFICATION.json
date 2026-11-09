@@ -1,0 +1,10 @@
+{
+  "coordinator": "root",
+  "prefix": "exh-1109-ui-stale-debug-a-5949ea0a29",
+  "all9objects_trees_parents_and_disclosures_verified": true,
+  "complete_literal_diff_reviewed": true,
+  "at": {
+    "utc": "2026-11-09T18:18:20.751220+00:00",
+    "monotonic_ns": 464243458
+  }
+}

@@ -1,0 +1,156 @@
+{
+  "capture": "ActualnativeChromeDevTools sanitizedfilteredHAR, furtherminimized; fullfilteredrawexportprivate0600",
+  "at": {
+    "utc": "2026-11-09T18:34:32.327274+00:00",
+    "monotonic_ns": 19316541
+  },
+  "raw_local_sha256": "9b2897a690d7adbb8828925c400860b1cf7a2e4450f48f2fffbf9bd771307310",
+  "raw_bytes": 81050,
+  "raw_entries": 4,
+  "selected_entries": [
+    {
+      "har_startedDateTime": "2026-11-09T18:33:04.741Z",
+      "har_time_ms": 276.12700005319715,
+      "method": "POST",
+      "url": "https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08/pull/668/page_data/stack_rebase",
+      "request_body": {
+        "expectedHeadOids": {
+          "667": "721cd407451739ef646b7434285c60b01096b400",
+          "668": "fb757ca354d5e6a4e3460a7658529d13452e14ac"
+        }
+      },
+      "status": 200,
+      "response_headers": [
+        {
+          "name": "content-type",
+          "value": "application/json; charset=utf-8"
+        },
+        {
+          "name": "date",
+          "value": "Mon, 09 Nov 2026 18:33:05 GMT"
+        },
+        {
+          "name": "x-github-request-id",
+          "value": "E056:18A3A8:5B9C0C:846F96:6AF211E0"
+        }
+      ],
+      "response": {}
+    },
+    {
+      "har_startedDateTime": "2026-11-09T18:33:05.020Z",
+      "har_time_ms": 187.06000014208257,
+      "method": "GET",
+      "url": "https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08/pull/668/page_data/stack_rebase_status",
+      "request_body": null,
+      "status": 200,
+      "response_headers": [
+        {
+          "name": "content-type",
+          "value": "application/json; charset=utf-8"
+        },
+        {
+          "name": "date",
+          "value": "Mon, 09 Nov 2026 18:33:05 GMT"
+        },
+        {
+          "name": "x-github-request-id",
+          "value": "E056:18A3A8:5B9D06:8470DA:6AF211E1"
+        }
+      ],
+      "response": {
+        "jobState": "PENDING",
+        "pullRequestStates": [
+          {
+            "number": 667,
+            "state": "PENDING",
+            "message": null
+          },
+          {
+            "number": 668,
+            "state": "PENDING",
+            "message": null
+          }
+        ]
+      }
+    },
+    {
+      "har_startedDateTime": "2026-11-09T18:33:06.212Z",
+      "har_time_ms": 137.63200002722442,
+      "method": "GET",
+      "url": "https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08/pull/668/page_data/stack_rebase_status",
+      "request_body": null,
+      "status": 200,
+      "response_headers": [
+        {
+          "name": "content-type",
+          "value": "application/json; charset=utf-8"
+        },
+        {
+          "name": "date",
+          "value": "Mon, 09 Nov 2026 18:33:06 GMT"
+        },
+        {
+          "name": "x-github-request-id",
+          "value": "E056:18A3A8:5BA1A2:847731:6AF211E1"
+        }
+      ],
+      "response": {
+        "jobState": "RUNNING",
+        "pullRequestStates": [
+          {
+            "number": 667,
+            "state": "SUCCEEDED",
+            "message": null
+          },
+          {
+            "number": 668,
+            "state": "PENDING",
+            "message": null
+          }
+        ]
+      }
+    },
+    {
+      "har_startedDateTime": "2026-11-09T18:33:07.854Z",
+      "har_time_ms": 134.15400008670986,
+      "method": "GET",
+      "url": "https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08/pull/668/page_data/stack_rebase_status",
+      "request_body": null,
+      "status": 200,
+      "response_headers": [
+        {
+          "name": "content-type",
+          "value": "application/json; charset=utf-8"
+        },
+        {
+          "name": "date",
+          "value": "Mon, 09 Nov 2026 18:33:07 GMT"
+        },
+        {
+          "name": "x-github-request-id",
+          "value": "E056:18A3A8:5BA77A:847F3B:6AF211E2"
+        }
+      ],
+      "response": {
+        "jobState": "DONE",
+        "pullRequestStates": [
+          {
+            "number": 667,
+            "state": "SUCCEEDED",
+            "message": null
+          },
+          {
+            "number": 668,
+            "state": "SUCCEEDED",
+            "message": null
+          }
+        ]
+      }
+    }
+  ],
+  "whole_tab_request_count_observed": 31,
+  "fresh_premise": "A2andarchivepublishedbeforepageload, selectedB0unchanged; actualPOSTnamesA2/B0; no pausedpush orsecondinitiation",
+  "ui_outcome": "Rebasingcomplete; bothmembersRebased",
+  "cleanup": "No newbreakpointset; no pausedpage; Saveexportdialogclosed; CUAcompletion_summarysubmitted.",
+  "limits": "ActualUIprivate-interfacecontrol; statuscorrelatedwithoneinitiationinfreshscope, no publicAPIcompatibility orfuturewritefence; actualrefs/parents/rangesstillindependentlychecked."
+}

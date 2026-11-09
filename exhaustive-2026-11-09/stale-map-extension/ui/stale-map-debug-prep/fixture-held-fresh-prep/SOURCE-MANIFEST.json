@@ -1,0 +1,55 @@
+{
+  "scope": "New held-fresh fixture source/local preparation only; local Git store excluded",
+  "files": [
+    {
+      "path": "HANDOFF.md",
+      "bytes": 3516,
+      "sha256": "20bf30725062efc223782fa48066c264e0aaaac97aa483fadb75fc879d3c9ed3"
+    },
+    {
+      "path": "LOCAL-INPUTS.json",
+      "bytes": 7743,
+      "sha256": "a3ca29404b291f6c9ee3ef89b67ce6c74043bcb6c07cb342973199f84e9372ed"
+    },
+    {
+      "path": "LOCAL-VERIFICATION.json",
+      "bytes": 59664,
+      "sha256": "8928404a85ce1c043908de3da14039bb8b5f142f93be8aa49852b0435c4d80f3"
+    },
+    {
+      "path": "PREPARATION-FREEZE.json",
+      "bytes": 1616,
+      "sha256": "7355407b8d92f9250e0c84d9cccb8a87ab0512935ab0e9a951cda7318eeb7423"
+    },
+    {
+      "path": "SOURCE-DIFF.patch",
+      "bytes": 1184,
+      "sha256": "9aeb4d3ca1c2f9412a8d1d7745500fbb5eca7d5ae109130af65d97b93fe14caa"
+    },
+    {
+      "path": "SOURCE-INPUTS.json",
+      "bytes": 513,
+      "sha256": "ed176f2a9431b980c6bffb4eb3a08d77e5d8023d43488c803a653b4a6eef2036"
+    },
+    {
+      "path": "fixture.py",
+      "bytes": 7635,
+      "sha256": "769b6e0348898e142b983f17d37ef3b07aa5220bb0a110edb1b5d6b57c4c5549"
+    },
+    {
+      "path": "prepare_local_check.py",
+      "bytes": 5857,
+      "sha256": "a57a08fed69dc2d51c9a1469be2a201454a21cb9ea78f14a3ec1ecab91313f80"
+    },
+    {
+      "path": "source-inputs/fixture-a-fresh.py",
+      "bytes": 7629,
+      "sha256": "7681ce6e8649619d79c1ba3f0db4005c1ab197fcb98b3ab27142d68faa3dc000"
+    },
+    {
+      "path": "source-inputs/rootlab.py",
+      "bytes": 7818,
+      "sha256": "ae1ae63d5ee8370cbca11711f5d5e76a97669881ddf8ef8911493666393d128d"
+    }
+  ]
+}

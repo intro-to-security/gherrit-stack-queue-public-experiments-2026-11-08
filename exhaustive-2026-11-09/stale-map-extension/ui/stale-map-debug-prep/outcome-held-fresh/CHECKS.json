@@ -1,0 +1,106 @@
+{
+  "passed": true,
+  "cohorts": [
+    {
+      "index": 0,
+      "started": {
+        "utc": "2026-11-09T19:13:00.507322+00:00",
+        "monotonic_ns": 80738583
+      },
+      "ended": {
+        "utc": "2026-11-09T19:13:01.652449+00:00",
+        "monotonic_ns": 1225859875
+      },
+      "A": "e289ebdcdcd6ee1cddf6df3a1e21f92129074543",
+      "B": "7d6218167cffce7a20714c3177bd8b59d7aae84b",
+      "full_A_two_commit_chain": true,
+      "full_B_one_commit_chain": true,
+      "fixed_five_refs": true,
+      "canonical_open_order": true,
+      "full_source_patches_exact": true,
+      "expected_trees_exact": true,
+      "marker_both": true,
+      "raw_commit_hashes_valid": true
+    },
+    {
+      "index": 1,
+      "started": {
+        "utc": "2026-11-09T19:13:10.512174+00:00",
+        "monotonic_ns": 10085585250
+      },
+      "ended": {
+        "utc": "2026-11-09T19:13:12.578771+00:00",
+        "monotonic_ns": 12152131250
+      },
+      "A": "e289ebdcdcd6ee1cddf6df3a1e21f92129074543",
+      "B": "7d6218167cffce7a20714c3177bd8b59d7aae84b",
+      "full_A_two_commit_chain": true,
+      "full_B_one_commit_chain": true,
+      "fixed_five_refs": true,
+      "canonical_open_order": true,
+      "full_source_patches_exact": true,
+      "expected_trees_exact": true,
+      "marker_both": true,
+      "raw_commit_hashes_valid": true
+    },
+    {
+      "index": 2,
+      "started": {
+        "utc": "2026-11-09T19:13:30.510472+00:00",
+        "monotonic_ns": 30083773000
+      },
+      "ended": {
+        "utc": "2026-11-09T19:13:31.556427+00:00",
+        "monotonic_ns": 31129698750
+      },
+      "A": "e289ebdcdcd6ee1cddf6df3a1e21f92129074543",
+      "B": "7d6218167cffce7a20714c3177bd8b59d7aae84b",
+      "full_A_two_commit_chain": true,
+      "full_B_one_commit_chain": true,
+      "fixed_five_refs": true,
+      "canonical_open_order": true,
+      "full_source_patches_exact": true,
+      "expected_trees_exact": true,
+      "marker_both": true,
+      "raw_commit_hashes_valid": true
+    }
+  ],
+  "producers": [
+    {
+      "source": "05a3ddaecfda472c905325c825e4d0ca07a2c9a3",
+      "rewritten": "617a3d98eb3a7a2a28dc96d2307d654f92a5da05",
+      "author_preserved": true,
+      "message_preserved": true,
+      "single_agent_trailer_preserved": true,
+      "source_committer": "Josh Liebow-Feeser <hello@joshlf.com> 1794250470 -0500",
+      "rewritten_committer": "GitHub <noreply@github.com> 1794251402 -0500",
+      "source_has_gpgsig": false,
+      "rewritten_has_gpgsig": true
+    },
+    {
+      "source": "fa8f119c706640635044d2a5129591c4598ca8d5",
+      "rewritten": "e289ebdcdcd6ee1cddf6df3a1e21f92129074543",
+      "author_preserved": true,
+      "message_preserved": true,
+      "single_agent_trailer_preserved": true,
+      "source_committer": "Josh Liebow-Feeser <hello@joshlf.com> 1794250470 -0500",
+      "rewritten_committer": "GitHub <noreply@github.com> 1794251402 -0500",
+      "source_has_gpgsig": false,
+      "rewritten_has_gpgsig": true
+    },
+    {
+      "source": "c0f91ab8deab54ca5c07cd0b3a5ee4271236d3b9",
+      "rewritten": "7d6218167cffce7a20714c3177bd8b59d7aae84b",
+      "author_preserved": true,
+      "message_preserved": true,
+      "single_agent_trailer_preserved": true,
+      "source_committer": "Josh Liebow-Feeser <hello@joshlf.com> 1794250470 -0500",
+      "rewritten_committer": "GitHub <noreply@github.com> 1794251403 -0500",
+      "source_has_gpgsig": false,
+      "rewritten_has_gpgsig": true
+    }
+  ],
+  "fsck_exit": 0,
+  "result_sha256": "92f43ef5c8f9600f0838e2bd4c486ef391cc6ffd80b2c33bf7cb3a6d85010b2d",
+  "limits": "Retained-byte verification only; no network/store access, signature cryptographic verification, provider implementation or future-write-fence claim"
+}

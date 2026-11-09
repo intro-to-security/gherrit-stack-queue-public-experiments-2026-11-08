@@ -1,0 +1,8 @@
+{
+  "original_source": "experiments/native-stacks-exhaustive-2026-11-09/ui/stale-map-debug-prep/fixture-a-fresh-prep/fixture.py",
+  "original_source_sha256": "7681ce6e8649619d79c1ba3f0db4005c1ab197fcb98b3ab27142d68faa3dc000",
+  "new_source_sha256": "769b6e0348898e142b983f17d37ef3b07aa5220bb0a110edb1b5d6b57c4c5549",
+  "helper_sha256": "ae1ae63d5ee8370cbca11711f5d5e76a97669881ddf8ef8911493666393d128d",
+  "literal_replacements": 2,
+  "change": "Only fresh namespace prefix in generation and grant scope check"
+}

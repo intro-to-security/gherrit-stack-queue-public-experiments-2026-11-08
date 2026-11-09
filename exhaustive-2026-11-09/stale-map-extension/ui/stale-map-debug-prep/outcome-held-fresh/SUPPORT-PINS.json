@@ -1,0 +1,65 @@
+{
+  "scope": "Exact authorized sanitized fixture/pause/timer inputs only; raw HAR not opened or copied",
+  "files": [
+    {
+      "source": "fixture-held-fresh-prep/READY.json",
+      "retained": "support-inputs/READY.json",
+      "bytes": 13926,
+      "sha256": "a3af24fa804ffa5259c3c06815e909b687dd9ad7d1b74aaa2216f8fa9157e729"
+    },
+    {
+      "source": "fixture-held-fresh-prep/LOCAL-INPUTS.json",
+      "retained": "support-inputs/LOCAL-INPUTS.json",
+      "bytes": 7743,
+      "sha256": "a3ca29404b291f6c9ee3ef89b67ce6c74043bcb6c07cb342973199f84e9372ed"
+    },
+    {
+      "source": "fixture-held-fresh-prep/fixture.py",
+      "retained": "support-inputs/fixture.py",
+      "bytes": 7635,
+      "sha256": "769b6e0348898e142b983f17d37ef3b07aa5220bb0a110edb1b5d6b57c4c5549"
+    },
+    {
+      "source": "fixture-held-fresh-prep/source-inputs/rootlab.py",
+      "retained": "support-inputs/rootlab.py",
+      "bytes": 7818,
+      "sha256": "ae1ae63d5ee8370cbca11711f5d5e76a97669881ddf8ef8911493666393d128d"
+    },
+    {
+      "source": "NETWORK-HELD-FRESH.json",
+      "retained": "support-inputs/NETWORK-HELD-FRESH.json",
+      "bytes": 3991,
+      "sha256": "e9eb559bf7aa41228399ef176b4c3add7ce3d6f47d6aa360a5af5226cf5290ad"
+    },
+    {
+      "source": "PAUSE-HELD-FRESH.json",
+      "retained": "support-inputs/PAUSE-HELD-FRESH.json",
+      "bytes": 859,
+      "sha256": "c8150cf190e68804687e5e9e4c897d4a7968c938e637f0c390b6dfca89863f61"
+    },
+    {
+      "source": "PAUSE-HELD-FRESH-AFTER-HOLD.json",
+      "retained": "support-inputs/PAUSE-HELD-FRESH-AFTER-HOLD.json",
+      "bytes": 829,
+      "sha256": "5845aa974c0ee9a51edd72f8f4c817473226da9ebff0b4edea8b5f96c7225997"
+    },
+    {
+      "source": "held-timer/HOLD-VERIFIED.json",
+      "retained": "support-inputs/HOLD-VERIFIED.json",
+      "bytes": 3811,
+      "sha256": "0301cd050b54235814c707ed935947794639044c1f9a10a06464a5ec5839aa76"
+    },
+    {
+      "source": "held-timer/START.json",
+      "retained": "support-inputs/HOLD-START.json",
+      "bytes": 456,
+      "sha256": "291c50d1a12e72062ac7bff602599b4f99d755bce5d68fc79f90d51e80563239"
+    },
+    {
+      "source": "hold_unchanged.py",
+      "retained": "support-inputs/hold_unchanged.py",
+      "bytes": 3491,
+      "sha256": "a32e38531fea3f55b46610e633d9ddf1ebe975dc4520fb878f4c9708cee0ebc9"
+    }
+  ]
+}

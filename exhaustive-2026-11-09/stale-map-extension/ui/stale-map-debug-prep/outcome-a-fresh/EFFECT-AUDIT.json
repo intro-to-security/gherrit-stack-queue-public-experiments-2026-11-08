@@ -1,0 +1,552 @@
+{
+  "remote_mutating_commands": 0,
+  "commands": [
+    {
+      "record": "cohort-0-A-full-range.command.json",
+      "operation": "git-rev-list",
+      "exit": 0
+    },
+    {
+      "record": "cohort-0-B-full-range.command.json",
+      "operation": "git-rev-list",
+      "exit": 0
+    },
+    {
+      "record": "cohort-0-actual-A-full.command.json",
+      "operation": "git-diff",
+      "exit": 0
+    },
+    {
+      "record": "cohort-0-actual-B-full.command.json",
+      "operation": "git-diff",
+      "exit": 0
+    },
+    {
+      "record": "cohort-0-fetch.command.json",
+      "operation": "git-fetch",
+      "exit": 0
+    },
+    {
+      "record": "cohort-0-marker-A.command.json",
+      "operation": "git-show",
+      "exit": 0
+    },
+    {
+      "record": "cohort-0-marker-B.command.json",
+      "operation": "git-show",
+      "exit": 0
+    },
+    {
+      "record": "cohort-0-object-0-raw.command.json",
+      "operation": "git-cat-file",
+      "exit": 0
+    },
+    {
+      "record": "cohort-0-object-0-tree.command.json",
+      "operation": "git-ls-tree",
+      "exit": 0
+    },
+    {
+      "record": "cohort-0-object-1-raw.command.json",
+      "operation": "git-cat-file",
+      "exit": 0
+    },
+    {
+      "record": "cohort-0-object-1-tree.command.json",
+      "operation": "git-ls-tree",
+      "exit": 0
+    },
+    {
+      "record": "cohort-0-object-2-raw.command.json",
+      "operation": "git-cat-file",
+      "exit": 0
+    },
+    {
+      "record": "cohort-0-object-2-tree.command.json",
+      "operation": "git-ls-tree",
+      "exit": 0
+    },
+    {
+      "record": "cohort-0-object-3-raw.command.json",
+      "operation": "git-cat-file",
+      "exit": 0
+    },
+    {
+      "record": "cohort-0-object-3-tree.command.json",
+      "operation": "git-ls-tree",
+      "exit": 0
+    },
+    {
+      "record": "cohort-0-object-4-raw.command.json",
+      "operation": "git-cat-file",
+      "exit": 0
+    },
+    {
+      "record": "cohort-0-object-4-tree.command.json",
+      "operation": "git-ls-tree",
+      "exit": 0
+    },
+    {
+      "record": "cohort-0-object-5-raw.command.json",
+      "operation": "git-cat-file",
+      "exit": 0
+    },
+    {
+      "record": "cohort-0-object-5-tree.command.json",
+      "operation": "git-ls-tree",
+      "exit": 0
+    },
+    {
+      "record": "cohort-0-object-6-raw.command.json",
+      "operation": "git-cat-file",
+      "exit": 0
+    },
+    {
+      "record": "cohort-0-object-6-tree.command.json",
+      "operation": "git-ls-tree",
+      "exit": 0
+    },
+    {
+      "record": "cohort-0-pr-A.command.json",
+      "operation": "gh-api-GET",
+      "exit": 0
+    },
+    {
+      "record": "cohort-0-pr-B.command.json",
+      "operation": "gh-api-GET",
+      "exit": 0
+    },
+    {
+      "record": "cohort-0-refs.command.json",
+      "operation": "git-ls-remote",
+      "exit": 0
+    },
+    {
+      "record": "cohort-0-resolve-0.command.json",
+      "operation": "git-rev-parse",
+      "exit": 0
+    },
+    {
+      "record": "cohort-0-resolve-1.command.json",
+      "operation": "git-rev-parse",
+      "exit": 0
+    },
+    {
+      "record": "cohort-0-resolve-2.command.json",
+      "operation": "git-rev-parse",
+      "exit": 0
+    },
+    {
+      "record": "cohort-0-resolve-3.command.json",
+      "operation": "git-rev-parse",
+      "exit": 0
+    },
+    {
+      "record": "cohort-0-resolve-4.command.json",
+      "operation": "git-rev-parse",
+      "exit": 0
+    },
+    {
+      "record": "cohort-0-resolve-5.command.json",
+      "operation": "git-rev-parse",
+      "exit": 0
+    },
+    {
+      "record": "cohort-0-resolve-6.command.json",
+      "operation": "git-rev-parse",
+      "exit": 0
+    },
+    {
+      "record": "cohort-0-source-A-full.command.json",
+      "operation": "git-diff",
+      "exit": 0
+    },
+    {
+      "record": "cohort-0-source-B-full.command.json",
+      "operation": "git-diff",
+      "exit": 0
+    },
+    {
+      "record": "cohort-0-stack.command.json",
+      "operation": "gh-api-GET",
+      "exit": 0
+    },
+    {
+      "record": "cohort-1-A-full-range.command.json",
+      "operation": "git-rev-list",
+      "exit": 0
+    },
+    {
+      "record": "cohort-1-B-full-range.command.json",
+      "operation": "git-rev-list",
+      "exit": 0
+    },
+    {
+      "record": "cohort-1-actual-A-full.command.json",
+      "operation": "git-diff",
+      "exit": 0
+    },
+    {
+      "record": "cohort-1-actual-B-full.command.json",
+      "operation": "git-diff",
+      "exit": 0
+    },
+    {
+      "record": "cohort-1-fetch.command.json",
+      "operation": "git-fetch",
+      "exit": 0
+    },
+    {
+      "record": "cohort-1-marker-A.command.json",
+      "operation": "git-show",
+      "exit": 0
+    },
+    {
+      "record": "cohort-1-marker-B.command.json",
+      "operation": "git-show",
+      "exit": 0
+    },
+    {
+      "record": "cohort-1-object-0-raw.command.json",
+      "operation": "git-cat-file",
+      "exit": 0
+    },
+    {
+      "record": "cohort-1-object-0-tree.command.json",
+      "operation": "git-ls-tree",
+      "exit": 0
+    },
+    {
+      "record": "cohort-1-object-1-raw.command.json",
+      "operation": "git-cat-file",
+      "exit": 0
+    },
+    {
+      "record": "cohort-1-object-1-tree.command.json",
+      "operation": "git-ls-tree",
+      "exit": 0
+    },
+    {
+      "record": "cohort-1-object-2-raw.command.json",
+      "operation": "git-cat-file",
+      "exit": 0
+    },
+    {
+      "record": "cohort-1-object-2-tree.command.json",
+      "operation": "git-ls-tree",
+      "exit": 0
+    },
+    {
+      "record": "cohort-1-object-3-raw.command.json",
+      "operation": "git-cat-file",
+      "exit": 0
+    },
+    {
+      "record": "cohort-1-object-3-tree.command.json",
+      "operation": "git-ls-tree",
+      "exit": 0
+    },
+    {
+      "record": "cohort-1-object-4-raw.command.json",
+      "operation": "git-cat-file",
+      "exit": 0
+    },
+    {
+      "record": "cohort-1-object-4-tree.command.json",
+      "operation": "git-ls-tree",
+      "exit": 0
+    },
+    {
+      "record": "cohort-1-object-5-raw.command.json",
+      "operation": "git-cat-file",
+      "exit": 0
+    },
+    {
+      "record": "cohort-1-object-5-tree.command.json",
+      "operation": "git-ls-tree",
+      "exit": 0
+    },
+    {
+      "record": "cohort-1-object-6-raw.command.json",
+      "operation": "git-cat-file",
+      "exit": 0
+    },
+    {
+      "record": "cohort-1-object-6-tree.command.json",
+      "operation": "git-ls-tree",
+      "exit": 0
+    },
+    {
+      "record": "cohort-1-pr-A.command.json",
+      "operation": "gh-api-GET",
+      "exit": 0
+    },
+    {
+      "record": "cohort-1-pr-B.command.json",
+      "operation": "gh-api-GET",
+      "exit": 0
+    },
+    {
+      "record": "cohort-1-refs.command.json",
+      "operation": "git-ls-remote",
+      "exit": 0
+    },
+    {
+      "record": "cohort-1-resolve-0.command.json",
+      "operation": "git-rev-parse",
+      "exit": 0
+    },
+    {
+      "record": "cohort-1-resolve-1.command.json",
+      "operation": "git-rev-parse",
+      "exit": 0
+    },
+    {
+      "record": "cohort-1-resolve-2.command.json",
+      "operation": "git-rev-parse",
+      "exit": 0
+    },
+    {
+      "record": "cohort-1-resolve-3.command.json",
+      "operation": "git-rev-parse",
+      "exit": 0
+    },
+    {
+      "record": "cohort-1-resolve-4.command.json",
+      "operation": "git-rev-parse",
+      "exit": 0
+    },
+    {
+      "record": "cohort-1-resolve-5.command.json",
+      "operation": "git-rev-parse",
+      "exit": 0
+    },
+    {
+      "record": "cohort-1-resolve-6.command.json",
+      "operation": "git-rev-parse",
+      "exit": 0
+    },
+    {
+      "record": "cohort-1-source-A-full.command.json",
+      "operation": "git-diff",
+      "exit": 0
+    },
+    {
+      "record": "cohort-1-source-B-full.command.json",
+      "operation": "git-diff",
+      "exit": 0
+    },
+    {
+      "record": "cohort-1-stack.command.json",
+      "operation": "gh-api-GET",
+      "exit": 0
+    },
+    {
+      "record": "cohort-2-A-full-range.command.json",
+      "operation": "git-rev-list",
+      "exit": 0
+    },
+    {
+      "record": "cohort-2-B-full-range.command.json",
+      "operation": "git-rev-list",
+      "exit": 0
+    },
+    {
+      "record": "cohort-2-actual-A-full.command.json",
+      "operation": "git-diff",
+      "exit": 0
+    },
+    {
+      "record": "cohort-2-actual-B-full.command.json",
+      "operation": "git-diff",
+      "exit": 0
+    },
+    {
+      "record": "cohort-2-fetch.command.json",
+      "operation": "git-fetch",
+      "exit": 0
+    },
+    {
+      "record": "cohort-2-marker-A.command.json",
+      "operation": "git-show",
+      "exit": 0
+    },
+    {
+      "record": "cohort-2-marker-B.command.json",
+      "operation": "git-show",
+      "exit": 0
+    },
+    {
+      "record": "cohort-2-object-0-raw.command.json",
+      "operation": "git-cat-file",
+      "exit": 0
+    },
+    {
+      "record": "cohort-2-object-0-tree.command.json",
+      "operation": "git-ls-tree",
+      "exit": 0
+    },
+    {
+      "record": "cohort-2-object-1-raw.command.json",
+      "operation": "git-cat-file",
+      "exit": 0
+    },
+    {
+      "record": "cohort-2-object-1-tree.command.json",
+      "operation": "git-ls-tree",
+      "exit": 0
+    },
+    {
+      "record": "cohort-2-object-2-raw.command.json",
+      "operation": "git-cat-file",
+      "exit": 0
+    },
+    {
+      "record": "cohort-2-object-2-tree.command.json",
+      "operation": "git-ls-tree",
+      "exit": 0
+    },
+    {
+      "record": "cohort-2-object-3-raw.command.json",
+      "operation": "git-cat-file",
+      "exit": 0
+    },
+    {
+      "record": "cohort-2-object-3-tree.command.json",
+      "operation": "git-ls-tree",
+      "exit": 0
+    },
+    {
+      "record": "cohort-2-object-4-raw.command.json",
+      "operation": "git-cat-file",
+      "exit": 0
+    },
+    {
+      "record": "cohort-2-object-4-tree.command.json",
+      "operation": "git-ls-tree",
+      "exit": 0
+    },
+    {
+      "record": "cohort-2-object-5-raw.command.json",
+      "operation": "git-cat-file",
+      "exit": 0
+    },
+    {
+      "record": "cohort-2-object-5-tree.command.json",
+      "operation": "git-ls-tree",
+      "exit": 0
+    },
+    {
+      "record": "cohort-2-object-6-raw.command.json",
+      "operation": "git-cat-file",
+      "exit": 0
+    },
+    {
+      "record": "cohort-2-object-6-tree.command.json",
+      "operation": "git-ls-tree",
+      "exit": 0
+    },
+    {
+      "record": "cohort-2-pr-A.command.json",
+      "operation": "gh-api-GET",
+      "exit": 0
+    },
+    {
+      "record": "cohort-2-pr-B.command.json",
+      "operation": "gh-api-GET",
+      "exit": 0
+    },
+    {
+      "record": "cohort-2-refs.command.json",
+      "operation": "git-ls-remote",
+      "exit": 0
+    },
+    {
+      "record": "cohort-2-resolve-0.command.json",
+      "operation": "git-rev-parse",
+      "exit": 0
+    },
+    {
+      "record": "cohort-2-resolve-1.command.json",
+      "operation": "git-rev-parse",
+      "exit": 0
+    },
+    {
+      "record": "cohort-2-resolve-2.command.json",
+      "operation": "git-rev-parse",
+      "exit": 0
+    },
+    {
+      "record": "cohort-2-resolve-3.command.json",
+      "operation": "git-rev-parse",
+      "exit": 0
+    },
+    {
+      "record": "cohort-2-resolve-4.command.json",
+      "operation": "git-rev-parse",
+      "exit": 0
+    },
+    {
+      "record": "cohort-2-resolve-5.command.json",
+      "operation": "git-rev-parse",
+      "exit": 0
+    },
+    {
+      "record": "cohort-2-resolve-6.command.json",
+      "operation": "git-rev-parse",
+      "exit": 0
+    },
+    {
+      "record": "cohort-2-source-A-full.command.json",
+      "operation": "git-diff",
+      "exit": 0
+    },
+    {
+      "record": "cohort-2-source-B-full.command.json",
+      "operation": "git-diff",
+      "exit": 0
+    },
+    {
+      "record": "cohort-2-stack.command.json",
+      "operation": "gh-api-GET",
+      "exit": 0
+    },
+    {
+      "record": "fsck.command.json",
+      "operation": "git-fsck",
+      "exit": 0
+    },
+    {
+      "record": "gh-version.command.json",
+      "operation": "gh-version",
+      "exit": 0
+    },
+    {
+      "record": "git-version.command.json",
+      "operation": "git---version",
+      "exit": 0
+    },
+    {
+      "record": "init.command.json",
+      "operation": "git-init",
+      "exit": 0
+    }
+  ],
+  "counts": {
+    "gh-api-GET": 9,
+    "gh-version": 1,
+    "git---version": 1,
+    "git-cat-file": 21,
+    "git-diff": 12,
+    "git-fetch": 3,
+    "git-fsck": 1,
+    "git-init": 1,
+    "git-ls-remote": 3,
+    "git-ls-tree": 21,
+    "git-rev-list": 6,
+    "git-rev-parse": 21,
+    "git-show": 6
+  },
+  "stdout_stderr_hashes_match": true,
+  "scope": "Inspection of every actual recorded argv/exit/output hash plus reviewed observer source. Git init/fetch/object reads mutate only the owned local bare evidence store; all API calls were GET. No browser/private endpoint replay, remote mutation, cleanup or background process."
+}

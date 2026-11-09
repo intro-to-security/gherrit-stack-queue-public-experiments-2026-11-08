@@ -1,0 +1,20 @@
+{
+  "coordinator": "root",
+  "at": {
+    "utc": "2026-11-09T18:29:19.427153+00:00",
+    "monotonic_ns": 20567250
+  },
+  "prefix": "exh-1109-ui-stale-debug-a-5949ea0a29",
+  "state": "paused-before-dispatch",
+  "url": "https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08/pull/665/page_data/stack_rebase",
+  "method": "POST",
+  "body": {
+    "expectedHeadOids": {
+      "664": "843359d9d586da7f11a03ef4ff98bf746cbac233",
+      "665": "0d139c885ed973bb1a932e8c6771abd056d93f55"
+    }
+  },
+  "source_location": "fetch-patch.ts:11 at globalFetch call; Resume toggle1",
+  "provenance": "Exact native CUA AX transcription; options t expanded onlybody/method, authheadersnotexpanded",
+  "ordering": "Single finalconfirmation caused matchingpre-send pause; no Resume/step/reload. ArchiveA2alreadyexists; onlyA headwillchange."
+}

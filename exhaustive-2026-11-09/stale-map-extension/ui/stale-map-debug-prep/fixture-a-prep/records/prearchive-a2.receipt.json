@@ -1,0 +1,13 @@
+{
+  "started": {
+    "utc": "2026-11-09T18:26:06.964033+00:00",
+    "monotonic_ns": 273621625
+  },
+  "finished": {
+    "utc": "2026-11-09T18:26:08.252339+00:00",
+    "monotonic_ns": 1561938833
+  },
+  "returncode": 0,
+  "stdout": "",
+  "stderr": "remote: \nremote: Create a pull request for 'exh-1109-ui-stale-debug-a-5949ea0a29-archive-a-v2' on GitHub by visiting:        \nremote:      https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08/pull/new/exh-1109-ui-stale-debug-a-5949ea0a29-archive-a-v2        \nremote: \nTo https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08.git\n * [new branch]      3f7c0881bb913b772784842cf7204d4640737bea -> exh-1109-ui-stale-debug-a-5949ea0a29-archive-a-v2\n"
+}

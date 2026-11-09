@@ -1,0 +1,29 @@
+{
+  "label": "cohort-2-object-0-raw",
+  "argv": [
+    "git",
+    "-c",
+    "core.hooksPath=/dev/null",
+    "-c",
+    "core.pager=cat",
+    "-c",
+    "gc.auto=0",
+    "-c",
+    "maintenance.auto=false",
+    "--git-dir=/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/ui/stale-map-debug-prep/outcome-held-fresh/capture-001/objects.git",
+    "cat-file",
+    "commit",
+    "5d5ad41b3bae892882940712dda83a204d66da0c"
+  ],
+  "started": {
+    "utc": "2026-11-09T19:13:31.361675+00:00",
+    "monotonic_ns": 30934948958
+  },
+  "ended": {
+    "utc": "2026-11-09T19:13:31.372056+00:00",
+    "monotonic_ns": 30945348375
+  },
+  "exit": 0,
+  "stdout_sha256": "f265a4dd36a6bfe2df44910643da0ff70edce5928165c578f894ae089ccb4190",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "input_sha256": {
+    "NETWORK-A.json": "dd556404695de4094634959aa466169d2f647b64c4d1676d401c1d2865a98f54",
+    "fixture-a-prep/READY-A-ARCHIVED.json": "6f5cb4dbdfd660db90611eae78defd2c6f96df66e9f66ed3f6cd636da42d096e",
+    "fixture-a-prep/A-ADVANCED.json": "cce1f3ba1fc70a94e63775250e8492a7d98656b9ed7efaa1f1e3b924995259fc"
+  },
+  "actual_map_old_A0": true,
+  "actual_map_selected_B0_unchanged": true,
+  "status": 409,
+  "error": "Stack contents have changed",
+  "archive_already_in_seven_ref_basis": true,
+  "only_existing_A_changed_during_advance": true,
+  "limits": "Checks minimized root-retained network record and frozen ref vectors; no raw HAR, debugger/timing rederivation, remote query or native effect"
+}

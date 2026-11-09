@@ -1,0 +1,651 @@
+{
+  "markdown_links": [
+    {
+      "document": "ui/stale-map-debug-prep/PLAN.md",
+      "target": "https://developer.chrome.com/docs/devtools/javascript/breakpoints#xhr",
+      "status": "external-not-fetched",
+      "selected_witnesses": []
+    },
+    {
+      "document": "ui/stale-map-debug-prep/RESULTS.md",
+      "target": "outcome-b/REPORT.md",
+      "status": "selected-file",
+      "selected_witnesses": [
+        "ui/stale-map-debug-prep/outcome-b/REPORT.md"
+      ]
+    },
+    {
+      "document": "ui/stale-map-debug-prep/RESULTS.md",
+      "target": "NETWORK-B.json",
+      "status": "selected-file",
+      "selected_witnesses": [
+        "ui/stale-map-debug-prep/NETWORK-B.json"
+      ]
+    },
+    {
+      "document": "ui/stale-map-debug-prep/RESULTS.md",
+      "target": "outcome-a/REPORT.md",
+      "status": "selected-file",
+      "selected_witnesses": [
+        "ui/stale-map-debug-prep/outcome-a/REPORT.md"
+      ]
+    },
+    {
+      "document": "ui/stale-map-debug-prep/RESULTS.md",
+      "target": "NETWORK-A.json",
+      "status": "selected-file",
+      "selected_witnesses": [
+        "ui/stale-map-debug-prep/NETWORK-A.json"
+      ]
+    },
+    {
+      "document": "ui/stale-map-debug-prep/RESULTS.md",
+      "target": "outcome-a-fresh/RESULTS.md",
+      "status": "selected-file",
+      "selected_witnesses": [
+        "ui/stale-map-debug-prep/outcome-a-fresh/RESULTS.md"
+      ]
+    },
+    {
+      "document": "ui/stale-map-debug-prep/RESULTS.md",
+      "target": "NETWORK-A-FRESH.json",
+      "status": "selected-file",
+      "selected_witnesses": [
+        "ui/stale-map-debug-prep/NETWORK-A-FRESH.json"
+      ]
+    },
+    {
+      "document": "ui/stale-map-debug-prep/RESULTS.md",
+      "target": "outcome-held-fresh/RESULTS.md",
+      "status": "selected-file",
+      "selected_witnesses": [
+        "ui/stale-map-debug-prep/outcome-held-fresh/RESULTS.md"
+      ]
+    },
+    {
+      "document": "ui/stale-map-debug-prep/RESULTS.md",
+      "target": "NETWORK-HELD-FRESH.json",
+      "status": "selected-file",
+      "selected_witnesses": [
+        "ui/stale-map-debug-prep/NETWORK-HELD-FRESH.json"
+      ]
+    },
+    {
+      "document": "ui/stale-map-debug-prep/RESULTS.md",
+      "target": "oracle-review/REVIEW.md",
+      "status": "selected-file",
+      "selected_witnesses": [
+        "ui/stale-map-debug-prep/oracle-review/REVIEW.md"
+      ]
+    },
+    {
+      "document": "ui/stale-map-debug-prep/RESULTS.md",
+      "target": "hold_unchanged.py",
+      "status": "selected-file",
+      "selected_witnesses": [
+        "ui/stale-map-debug-prep/hold_unchanged.py"
+      ]
+    },
+    {
+      "document": "ui/stale-map-debug-prep/RESULTS.md",
+      "target": "held-timer/HOLD-VERIFIED.json",
+      "status": "selected-file",
+      "selected_witnesses": [
+        "ui/stale-map-debug-prep/held-timer/HOLD-VERIFIED.json"
+      ]
+    },
+    {
+      "document": "ui/stale-map-debug-prep/fixture-prep/HANDOFF.md",
+      "target": "https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08/pull/662",
+      "status": "external-not-fetched",
+      "selected_witnesses": []
+    },
+    {
+      "document": "ui/stale-map-debug-prep/history/RESULTS-three-cases.md",
+      "target": "outcome-b/REPORT.md",
+      "status": "requires-historical-link-context-remap",
+      "selected_witnesses": [
+        "ui/stale-map-debug-prep/outcome-b/REPORT.md"
+      ]
+    },
+    {
+      "document": "ui/stale-map-debug-prep/history/RESULTS-three-cases.md",
+      "target": "NETWORK-B.json",
+      "status": "requires-historical-link-context-remap",
+      "selected_witnesses": [
+        "ui/stale-map-debug-prep/NETWORK-B.json"
+      ]
+    },
+    {
+      "document": "ui/stale-map-debug-prep/history/RESULTS-three-cases.md",
+      "target": "outcome-a/REPORT.md",
+      "status": "requires-historical-link-context-remap",
+      "selected_witnesses": [
+        "ui/stale-map-debug-prep/outcome-a/REPORT.md"
+      ]
+    },
+    {
+      "document": "ui/stale-map-debug-prep/history/RESULTS-three-cases.md",
+      "target": "NETWORK-A.json",
+      "status": "requires-historical-link-context-remap",
+      "selected_witnesses": [
+        "ui/stale-map-debug-prep/NETWORK-A.json"
+      ]
+    },
+    {
+      "document": "ui/stale-map-debug-prep/history/RESULTS-three-cases.md",
+      "target": "outcome-a-fresh/RESULTS.md",
+      "status": "requires-historical-link-context-remap",
+      "selected_witnesses": [
+        "ui/stale-map-debug-prep/outcome-a-fresh/RESULTS.md"
+      ]
+    },
+    {
+      "document": "ui/stale-map-debug-prep/history/RESULTS-three-cases.md",
+      "target": "NETWORK-A-FRESH.json",
+      "status": "requires-historical-link-context-remap",
+      "selected_witnesses": [
+        "ui/stale-map-debug-prep/NETWORK-A-FRESH.json"
+      ]
+    },
+    {
+      "document": "ui/stale-map-debug-prep/history/RESULTS-three-cases.md",
+      "target": "oracle-review/REVIEW.md",
+      "status": "requires-historical-link-context-remap",
+      "selected_witnesses": [
+        "ui/stale-map-debug-prep/oracle-review/REVIEW.md"
+      ]
+    },
+    {
+      "document": "ui/stale-map-debug-prep/outcome-a-fresh/RESULTS.md",
+      "target": "https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08/pull/667",
+      "status": "external-not-fetched",
+      "selected_witnesses": []
+    },
+    {
+      "document": "ui/stale-map-debug-prep/outcome-a-fresh/RESULTS.md",
+      "target": "https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08/pull/668",
+      "status": "external-not-fetched",
+      "selected_witnesses": []
+    },
+    {
+      "document": "ui/stale-map-debug-prep/outcome-a-fresh/RESULTS.md",
+      "target": "../NETWORK-A-FRESH.json",
+      "status": "selected-file",
+      "selected_witnesses": [
+        "ui/stale-map-debug-prep/NETWORK-A-FRESH.json"
+      ]
+    },
+    {
+      "document": "ui/stale-map-debug-prep/outcome-a-fresh/RESULTS.md",
+      "target": "capture-001/INPUT-PINS.json",
+      "status": "selected-file",
+      "selected_witnesses": [
+        "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/INPUT-PINS.json"
+      ]
+    },
+    {
+      "document": "ui/stale-map-debug-prep/outcome-a-fresh/RESULTS.md",
+      "target": "capture-001/RESULTS.json",
+      "status": "selected-file",
+      "selected_witnesses": [
+        "ui/stale-map-debug-prep/outcome-a-fresh/capture-001/RESULTS.json"
+      ]
+    },
+    {
+      "document": "ui/stale-map-debug-prep/outcome-a-fresh/RESULTS.md",
+      "target": "CHECKS.json",
+      "status": "selected-file",
+      "selected_witnesses": [
+        "ui/stale-map-debug-prep/outcome-a-fresh/CHECKS.json"
+      ]
+    },
+    {
+      "document": "ui/stale-map-debug-prep/outcome-a-fresh/RESULTS.md",
+      "target": "EFFECT-AUDIT.json",
+      "status": "selected-file",
+      "selected_witnesses": [
+        "ui/stale-map-debug-prep/outcome-a-fresh/EFFECT-AUDIT.json"
+      ]
+    },
+    {
+      "document": "ui/stale-map-debug-prep/outcome-held-fresh/RESULTS.md",
+      "target": "https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08/pull/670",
+      "status": "external-not-fetched",
+      "selected_witnesses": []
+    },
+    {
+      "document": "ui/stale-map-debug-prep/outcome-held-fresh/RESULTS.md",
+      "target": "https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08/pull/671",
+      "status": "external-not-fetched",
+      "selected_witnesses": []
+    },
+    {
+      "document": "ui/stale-map-debug-prep/outcome-held-fresh/RESULTS.md",
+      "target": "observer.py",
+      "status": "selected-file",
+      "selected_witnesses": [
+        "ui/stale-map-debug-prep/outcome-held-fresh/observer.py"
+      ]
+    },
+    {
+      "document": "ui/stale-map-debug-prep/outcome-held-fresh/RESULTS.md",
+      "target": "SOURCE-PINS.json",
+      "status": "selected-file",
+      "selected_witnesses": [
+        "ui/stale-map-debug-prep/outcome-held-fresh/SOURCE-PINS.json"
+      ]
+    },
+    {
+      "document": "ui/stale-map-debug-prep/outcome-held-fresh/RESULTS.md",
+      "target": "CHECKS.json",
+      "status": "selected-file",
+      "selected_witnesses": [
+        "ui/stale-map-debug-prep/outcome-held-fresh/CHECKS.json"
+      ]
+    },
+    {
+      "document": "ui/stale-map-debug-prep/outcome-held-fresh/RESULTS.md",
+      "target": "OFFLINE-CHECKS.json",
+      "status": "selected-file",
+      "selected_witnesses": [
+        "ui/stale-map-debug-prep/outcome-held-fresh/OFFLINE-CHECKS.json"
+      ]
+    },
+    {
+      "document": "ui/stale-map-debug-prep/outcome-held-fresh/RESULTS.md",
+      "target": "SUPPORT-PINS.json",
+      "status": "selected-file",
+      "selected_witnesses": [
+        "ui/stale-map-debug-prep/outcome-held-fresh/SUPPORT-PINS.json"
+      ]
+    },
+    {
+      "document": "ui/stale-map-debug-prep/outcome-held-fresh/RESULTS.md",
+      "target": "MANIFEST.json",
+      "status": "selected-file",
+      "selected_witnesses": [
+        "ui/stale-map-debug-prep/outcome-held-fresh/MANIFEST.json"
+      ]
+    }
+  ],
+  "path_literals": [
+    {
+      "document": "ui/stale-map-debug-prep/RESULTS.md",
+      "literal": "fixture-prep/",
+      "status": "selected-directory-subset",
+      "selected_witnesses": [
+        "ui/stale-map-debug-prep/fixture-prep/READY.json",
+        "ui/stale-map-debug-prep/fixture-prep/records/prepare-pr-B.receipt.json",
+        "ui/stale-map-debug-prep/fixture-prep/records/prepare-register.receipt.json"
+      ]
+    },
+    {
+      "document": "ui/stale-map-debug-prep/RESULTS.md",
+      "literal": "fixture-a-prep/",
+      "status": "selected-directory-subset",
+      "selected_witnesses": [
+        "ui/stale-map-debug-prep/fixture-a-prep/BASELINE.diff",
+        "ui/stale-map-debug-prep/fixture-a-prep/prepare-source/rootlab.py",
+        "ui/stale-map-debug-prep/fixture-a-prep/records/prepare-pr-A.intent.json"
+      ]
+    },
+    {
+      "document": "ui/stale-map-debug-prep/RESULTS.md",
+      "literal": "a-only-continuation.py",
+      "status": "selected-file",
+      "selected_witnesses": [
+        "ui/stale-map-debug-prep/a-only-continuation.py"
+      ]
+    },
+    {
+      "document": "ui/stale-map-debug-prep/RESULTS.md",
+      "literal": "READY-A-ARCHIVED.json",
+      "status": "selected-basename-reference",
+      "selected_witnesses": [
+        "ui/stale-map-debug-prep/fixture-a-prep/READY-A-ARCHIVED.json"
+      ]
+    },
+    {
+      "document": "ui/stale-map-debug-prep/RESULTS.md",
+      "literal": "NETWORK-*.json",
+      "status": "selected-wildcard-family",
+      "selected_witnesses": [
+        "ui/stale-map-debug-prep/NETWORK-A.json",
+        "ui/stale-map-debug-prep/NETWORK-B.json",
+        "ui/stale-map-debug-prep/NETWORK-A-FRESH.json",
+        "ui/stale-map-debug-prep/NETWORK-HELD-FRESH.json"
+      ],
+      "resolution": "Explicit context interpretation; original literal retained, no link/source rewrite"
+    },
+    {
+      "document": "ui/stale-map-debug-prep/fixture-a-fresh-prep/HANDOFF.md",
+      "literal": "BASELINE.diff",
+      "status": "selected-file",
+      "selected_witnesses": [
+        "ui/stale-map-debug-prep/fixture-a-fresh-prep/BASELINE.diff"
+      ]
+    },
+    {
+      "document": "ui/stale-map-debug-prep/fixture-a-fresh-prep/HANDOFF.md",
+      "literal": "LOCAL-VERIFICATION.json",
+      "status": "selected-file",
+      "selected_witnesses": [
+        "ui/stale-map-debug-prep/fixture-a-fresh-prep/LOCAL-VERIFICATION.json"
+      ]
+    },
+    {
+      "document": "ui/stale-map-debug-prep/fixture-a-prep/HANDOFF.md",
+      "literal": "../fixture-prep/fixture.py",
+      "status": "selected-file",
+      "selected_witnesses": [
+        "ui/stale-map-debug-prep/fixture-prep/fixture.py"
+      ]
+    },
+    {
+      "document": "ui/stale-map-debug-prep/fixture-a-prep/HANDOFF.md",
+      "literal": "BASELINE.diff",
+      "status": "selected-file",
+      "selected_witnesses": [
+        "ui/stale-map-debug-prep/fixture-a-prep/BASELINE.diff"
+      ]
+    },
+    {
+      "document": "ui/stale-map-debug-prep/fixture-a-prep/HANDOFF.md",
+      "literal": "READY.json",
+      "status": "selected-file",
+      "selected_witnesses": [
+        "ui/stale-map-debug-prep/fixture-a-prep/READY.json"
+      ]
+    },
+    {
+      "document": "ui/stale-map-debug-prep/fixture-a-prep/HANDOFF.md",
+      "literal": "LOCAL-VERIFICATION.json",
+      "status": "selected-file",
+      "selected_witnesses": [
+        "ui/stale-map-debug-prep/fixture-a-prep/LOCAL-VERIFICATION.json"
+      ]
+    },
+    {
+      "document": "ui/stale-map-debug-prep/fixture-a-prep/HANDOFF.md",
+      "literal": "../oracle-review/REVIEW.md",
+      "status": "selected-file",
+      "selected_witnesses": [
+        "ui/stale-map-debug-prep/oracle-review/REVIEW.md"
+      ]
+    },
+    {
+      "document": "ui/stale-map-debug-prep/fixture-held-fresh-prep/HANDOFF.md",
+      "literal": "fixture.py",
+      "status": "selected-file",
+      "selected_witnesses": [
+        "ui/stale-map-debug-prep/fixture-held-fresh-prep/fixture.py"
+      ]
+    },
+    {
+      "document": "ui/stale-map-debug-prep/fixture-held-fresh-prep/HANDOFF.md",
+      "literal": "fixture-a-fresh-prep/fixture.py",
+      "status": "selected-lane-relative-literal",
+      "selected_witnesses": [
+        "ui/stale-map-debug-prep/fixture-a-fresh-prep/fixture.py"
+      ],
+      "resolution": "Explicit context interpretation; original literal retained, no link/source rewrite"
+    },
+    {
+      "document": "ui/stale-map-debug-prep/fixture-held-fresh-prep/HANDOFF.md",
+      "literal": "SOURCE-INPUTS.json",
+      "status": "selected-file",
+      "selected_witnesses": [
+        "ui/stale-map-debug-prep/fixture-held-fresh-prep/SOURCE-INPUTS.json"
+      ]
+    },
+    {
+      "document": "ui/stale-map-debug-prep/fixture-held-fresh-prep/HANDOFF.md",
+      "literal": "rootlab.py",
+      "status": "selected-basename-reference",
+      "selected_witnesses": [
+        "ui/stale-map-debug-prep/fixture-a-prep/prepare-source/rootlab.py",
+        "ui/stale-map-debug-prep/fixture-held-fresh-prep/prepare-source/rootlab.py",
+        "ui/stale-map-debug-prep/outcome-held-fresh/support-inputs/rootlab.py"
+      ]
+    },
+    {
+      "document": "ui/stale-map-debug-prep/fixture-prep/HANDOFF.md",
+      "literal": "fixture.py",
+      "status": "selected-file",
+      "selected_witnesses": [
+        "ui/stale-map-debug-prep/fixture-prep/fixture.py"
+      ]
+    },
+    {
+      "document": "ui/stale-map-debug-prep/fixture-prep/HANDOFF.md",
+      "literal": "control/rootlab.py",
+      "status": "selected-campaign-relative-literal",
+      "selected_witnesses": [
+        "control/rootlab.py"
+      ],
+      "resolution": "Explicit context interpretation; original literal retained, no link/source rewrite"
+    },
+    {
+      "document": "ui/stale-map-debug-prep/fixture-prep/HANDOFF.md",
+      "literal": "LOCAL-INPUTS.json",
+      "status": "selected-file",
+      "selected_witnesses": [
+        "ui/stale-map-debug-prep/fixture-prep/LOCAL-INPUTS.json"
+      ]
+    },
+    {
+      "document": "ui/stale-map-debug-prep/fixture-prep/HANDOFF.md",
+      "literal": "READY.json",
+      "status": "selected-file",
+      "selected_witnesses": [
+        "ui/stale-map-debug-prep/fixture-prep/READY.json"
+      ]
+    },
+    {
+      "document": "ui/stale-map-debug-prep/fixture-prep/HANDOFF.md",
+      "literal": "READY.json",
+      "status": "selected-file",
+      "selected_witnesses": [
+        "ui/stale-map-debug-prep/fixture-prep/READY.json"
+      ]
+    },
+    {
+      "document": "ui/stale-map-debug-prep/fixture-prep/HANDOFF.md",
+      "literal": "ROOT-LOCAL-VERIFICATION.json",
+      "status": "selected-file",
+      "selected_witnesses": [
+        "ui/stale-map-debug-prep/fixture-prep/ROOT-LOCAL-VERIFICATION.json"
+      ]
+    },
+    {
+      "document": "ui/stale-map-debug-prep/fixture-prep/HANDOFF.md",
+      "literal": "../oracle-review/REVIEW.md",
+      "status": "selected-file",
+      "selected_witnesses": [
+        "ui/stale-map-debug-prep/oracle-review/REVIEW.md"
+      ]
+    },
+    {
+      "document": "ui/stale-map-debug-prep/history/RESULTS-three-cases.md",
+      "literal": "fixture-prep/",
+      "status": "selected-historical-directory-subset",
+      "selected_witnesses": [
+        "ui/stale-map-debug-prep/fixture-prep/fixture.py"
+      ],
+      "resolution": "Explicit context interpretation; original literal retained, no link/source rewrite"
+    },
+    {
+      "document": "ui/stale-map-debug-prep/history/RESULTS-three-cases.md",
+      "literal": "fixture-a-prep/",
+      "status": "selected-historical-directory-subset",
+      "selected_witnesses": [
+        "ui/stale-map-debug-prep/fixture-a-prep/fixture.py"
+      ],
+      "resolution": "Explicit context interpretation; original literal retained, no link/source rewrite"
+    },
+    {
+      "document": "ui/stale-map-debug-prep/history/RESULTS-three-cases.md",
+      "literal": "a-only-continuation.py",
+      "status": "selected-basename-reference",
+      "selected_witnesses": [
+        "ui/stale-map-debug-prep/a-only-continuation.py"
+      ]
+    },
+    {
+      "document": "ui/stale-map-debug-prep/history/RESULTS-three-cases.md",
+      "literal": "READY-A-ARCHIVED.json",
+      "status": "selected-basename-reference",
+      "selected_witnesses": [
+        "ui/stale-map-debug-prep/fixture-a-prep/READY-A-ARCHIVED.json"
+      ]
+    },
+    {
+      "document": "ui/stale-map-debug-prep/history/RESULTS-three-cases.md",
+      "literal": "NETWORK-*.json",
+      "status": "selected-historical-wildcard-family",
+      "selected_witnesses": [
+        "ui/stale-map-debug-prep/NETWORK-A.json",
+        "ui/stale-map-debug-prep/NETWORK-B.json",
+        "ui/stale-map-debug-prep/NETWORK-A-FRESH.json"
+      ],
+      "resolution": "Explicit context interpretation; original literal retained, no link/source rewrite"
+    },
+    {
+      "document": "ui/stale-map-debug-prep/outcome-a-fresh/SCOPE.md",
+      "literal": "observer.py",
+      "status": "selected-file",
+      "selected_witnesses": [
+        "ui/stale-map-debug-prep/outcome-a-fresh/observer.py"
+      ]
+    },
+    {
+      "document": "ui/stale-map-debug-prep/outcome-a-fresh/SCOPE.md",
+      "literal": "capture-001/objects.git",
+      "status": "explicit-local-only-excluded",
+      "selected_witnesses": []
+    },
+    {
+      "document": "ui/stale-map-debug-prep/outcome-a-fresh/SCOPE.md",
+      "literal": "verify.py",
+      "status": "selected-file",
+      "selected_witnesses": [
+        "ui/stale-map-debug-prep/outcome-a-fresh/verify.py"
+      ]
+    },
+    {
+      "document": "ui/stale-map-debug-prep/outcome-a/REPORT.md",
+      "literal": "NETWORK-A.json",
+      "status": "selected-basename-reference",
+      "selected_witnesses": [
+        "ui/stale-map-debug-prep/NETWORK-A.json"
+      ]
+    },
+    {
+      "document": "ui/stale-map-debug-prep/outcome-a/REPORT.md",
+      "literal": "READY-A-ARCHIVED.json",
+      "status": "selected-basename-reference",
+      "selected_witnesses": [
+        "ui/stale-map-debug-prep/fixture-a-prep/READY-A-ARCHIVED.json"
+      ]
+    },
+    {
+      "document": "ui/stale-map-debug-prep/outcome-a/REPORT.md",
+      "literal": "A-ADVANCED.json",
+      "status": "selected-basename-reference",
+      "selected_witnesses": [
+        "ui/stale-map-debug-prep/fixture-a-prep/A-ADVANCED.json"
+      ]
+    },
+    {
+      "document": "ui/stale-map-debug-prep/outcome-a/REPORT.md",
+      "literal": "verify.py",
+      "status": "selected-file",
+      "selected_witnesses": [
+        "ui/stale-map-debug-prep/outcome-a/verify.py"
+      ]
+    },
+    {
+      "document": "ui/stale-map-debug-prep/outcome-a/REPORT.md",
+      "literal": "check_network.py",
+      "status": "selected-file",
+      "selected_witnesses": [
+        "ui/stale-map-debug-prep/outcome-a/check_network.py"
+      ]
+    },
+    {
+      "document": "ui/stale-map-debug-prep/outcome-a/REPORT.md",
+      "literal": "capture-001/RESULTS.json",
+      "status": "selected-file",
+      "selected_witnesses": [
+        "ui/stale-map-debug-prep/outcome-a/capture-001/RESULTS.json"
+      ]
+    },
+    {
+      "document": "ui/stale-map-debug-prep/outcome-a/REPORT.md",
+      "literal": "CHECKS.json",
+      "status": "selected-file",
+      "selected_witnesses": [
+        "ui/stale-map-debug-prep/outcome-a/CHECKS.json"
+      ]
+    },
+    {
+      "document": "ui/stale-map-debug-prep/outcome-a/REPORT.md",
+      "literal": "NETWORK-CHECK.json",
+      "status": "selected-file",
+      "selected_witnesses": [
+        "ui/stale-map-debug-prep/outcome-a/NETWORK-CHECK.json"
+      ]
+    },
+    {
+      "document": "ui/stale-map-debug-prep/outcome-b/REPORT.md",
+      "literal": "fixture-prep/READY.json",
+      "status": "selected-lane-relative-literal",
+      "selected_witnesses": [
+        "ui/stale-map-debug-prep/fixture-prep/READY.json"
+      ],
+      "resolution": "Explicit context interpretation; original literal retained, no link/source rewrite"
+    },
+    {
+      "document": "ui/stale-map-debug-prep/outcome-b/REPORT.md",
+      "literal": "B-ADVANCED.json",
+      "status": "selected-basename-reference",
+      "selected_witnesses": [
+        "ui/stale-map-debug-prep/fixture-prep/B-ADVANCED.json"
+      ]
+    },
+    {
+      "document": "ui/stale-map-debug-prep/outcome-b/REPORT.md",
+      "literal": "verify.py",
+      "status": "selected-file",
+      "selected_witnesses": [
+        "ui/stale-map-debug-prep/outcome-b/verify.py"
+      ]
+    },
+    {
+      "document": "ui/stale-map-debug-prep/outcome-b/REPORT.md",
+      "literal": "capture-002/RESULTS.json",
+      "status": "selected-file",
+      "selected_witnesses": [
+        "ui/stale-map-debug-prep/outcome-b/capture-002/RESULTS.json"
+      ]
+    },
+    {
+      "document": "ui/stale-map-debug-prep/outcome-b/REPORT.md",
+      "literal": "CHECKS.json",
+      "status": "selected-file",
+      "selected_witnesses": [
+        "ui/stale-map-debug-prep/outcome-b/CHECKS.json"
+      ]
+    },
+    {
+      "document": "ui/stale-map-debug-prep/outcome-b/REPORT.md",
+      "literal": "SOURCE-MANIFEST.json",
+      "status": "selected-file",
+      "selected_witnesses": [
+        "ui/stale-map-debug-prep/outcome-b/SOURCE-MANIFEST.json"
+      ]
+    }
+  ],
+  "limits": "No excluded-path existence probe or external fetch. Bare filenames may identify selected records by basename; source paths/prose are preserved."
+}

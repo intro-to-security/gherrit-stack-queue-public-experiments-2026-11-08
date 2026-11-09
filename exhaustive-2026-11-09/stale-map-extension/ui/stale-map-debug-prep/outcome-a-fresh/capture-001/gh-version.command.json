@@ -1,0 +1,18 @@
+{
+  "label": "gh-version",
+  "argv": [
+    "gh",
+    "--version"
+  ],
+  "started": {
+    "utc": "2026-11-09T18:36:43.880444+00:00",
+    "monotonic_ns": 40103916
+  },
+  "ended": {
+    "utc": "2026-11-09T18:36:43.915084+00:00",
+    "monotonic_ns": 74760416
+  },
+  "exit": 0,
+  "stdout_sha256": "a679442459bed23fdc13efb977dec3b17c3c923d8d48abc0d8e522182250955f",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

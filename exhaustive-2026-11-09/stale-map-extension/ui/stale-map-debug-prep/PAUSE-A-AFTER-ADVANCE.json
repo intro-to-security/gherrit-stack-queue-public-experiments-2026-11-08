@@ -1,0 +1,22 @@
+{
+  "coordinator": "root",
+  "at": {
+    "utc": "2026-11-09T18:29:50.956317+00:00",
+    "monotonic_ns": 18512625
+  },
+  "prefix": "exh-1109-ui-stale-debug-a-5949ea0a29",
+  "state": "same pre-send initiation still paused after acknowledgedA-onlypush andindependent7refread",
+  "url": "https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08/pull/665/page_data/stack_rebase",
+  "method": "POST",
+  "body": {
+    "expectedHeadOids": {
+      "664": "843359d9d586da7f11a03ef4ff98bf746cbac233",
+      "665": "0d139c885ed973bb1a932e8c6771abd056d93f55"
+    }
+  },
+  "resume_toggle": 1,
+  "actualA": "3f7c0881bb913b772784842cf7204d4640737bea",
+  "actualB": "0d139c885ed973bb1a932e8c6771abd056d93f55",
+  "advanced_sha256": "cce1f3ba1fc70a94e63775250e8492a7d98656b9ed7efaa1f1e3b924995259fc",
+  "provenance": "Exact nativeCUA accessibility transcription; no Resume/step/reload between pauseobservations."
+}

@@ -1,0 +1,10 @@
+{
+  "coordinator": "root",
+  "at": {
+    "utc": "2026-11-09T18:58:34.114970+00:00",
+    "monotonic_ns": 469221625
+  },
+  "nine_objects_trees_parents_trailers_verified": true,
+  "source_only_difference": "Exactlytwo namespaceprefix substitutions from fullyreviewedfreshpreparer",
+  "prefix": "exh-1109-ui-stale-debug-held-fresh-0a10ffe99c"
+}

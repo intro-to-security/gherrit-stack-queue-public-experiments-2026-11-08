@@ -1,0 +1,45 @@
+{
+  "scope": "Optional source-preserving delivery-only link target repair; not applied to canonical/history source or a publication stage",
+  "source_path": "ui/stale-map-debug-prep/history/RESULTS-three-cases.md",
+  "source_sha256": "c0611262078cc0b694a460cb49cc637debabf780a148db67407e9a7bba0b7b9b",
+  "original_reference_base": "ui/stale-map-debug-prep/ (original master location)",
+  "proposed_delivered_sha256": "3f7bcdb44a935dee430a9c78c63353edba7e104770eee81fbc0898da62b280d3",
+  "preserve_original_bytes": true,
+  "mapping": [
+    {
+      "source_target": "outcome-b/REPORT.md",
+      "proposed_delivered_target": "../outcome-b/REPORT.md",
+      "selected_campaign_target": "ui/stale-map-debug-prep/outcome-b/REPORT.md"
+    },
+    {
+      "source_target": "NETWORK-B.json",
+      "proposed_delivered_target": "../NETWORK-B.json",
+      "selected_campaign_target": "ui/stale-map-debug-prep/NETWORK-B.json"
+    },
+    {
+      "source_target": "outcome-a/REPORT.md",
+      "proposed_delivered_target": "../outcome-a/REPORT.md",
+      "selected_campaign_target": "ui/stale-map-debug-prep/outcome-a/REPORT.md"
+    },
+    {
+      "source_target": "NETWORK-A.json",
+      "proposed_delivered_target": "../NETWORK-A.json",
+      "selected_campaign_target": "ui/stale-map-debug-prep/NETWORK-A.json"
+    },
+    {
+      "source_target": "outcome-a-fresh/RESULTS.md",
+      "proposed_delivered_target": "../outcome-a-fresh/RESULTS.md",
+      "selected_campaign_target": "ui/stale-map-debug-prep/outcome-a-fresh/RESULTS.md"
+    },
+    {
+      "source_target": "NETWORK-A-FRESH.json",
+      "proposed_delivered_target": "../NETWORK-A-FRESH.json",
+      "selected_campaign_target": "ui/stale-map-debug-prep/NETWORK-A-FRESH.json"
+    },
+    {
+      "source_target": "oracle-review/REVIEW.md",
+      "proposed_delivered_target": "../oracle-review/REVIEW.md",
+      "selected_campaign_target": "ui/stale-map-debug-prep/oracle-review/REVIEW.md"
+    }
+  ]
+}

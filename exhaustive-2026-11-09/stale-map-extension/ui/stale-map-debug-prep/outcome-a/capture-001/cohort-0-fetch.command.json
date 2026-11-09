@@ -1,0 +1,37 @@
+{
+  "label": "cohort-0-fetch",
+  "argv": [
+    "git",
+    "-c",
+    "core.hooksPath=/dev/null",
+    "-c",
+    "core.pager=cat",
+    "-c",
+    "gc.auto=0",
+    "-c",
+    "maintenance.auto=false",
+    "--git-dir=/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/ui/stale-map-debug-prep/outcome-a/capture-001/objects.git",
+    "fetch",
+    "--no-tags",
+    "--no-write-fetch-head",
+    "https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08.git",
+    "refs/heads/exh-1109-ui-stale-debug-a-5949ea0a29-trunk:refs/observed/outcome-a-0/exh-1109-ui-stale-debug-a-5949ea0a29-trunk",
+    "refs/heads/exh-1109-ui-stale-debug-a-5949ea0a29-a:refs/observed/outcome-a-0/exh-1109-ui-stale-debug-a-5949ea0a29-a",
+    "refs/heads/exh-1109-ui-stale-debug-a-5949ea0a29-b:refs/observed/outcome-a-0/exh-1109-ui-stale-debug-a-5949ea0a29-b",
+    "refs/heads/exh-1109-ui-stale-debug-a-5949ea0a29-source-v1:refs/observed/outcome-a-0/exh-1109-ui-stale-debug-a-5949ea0a29-source-v1",
+    "refs/heads/exh-1109-ui-stale-debug-a-5949ea0a29-archive-a-v1:refs/observed/outcome-a-0/exh-1109-ui-stale-debug-a-5949ea0a29-archive-a-v1",
+    "refs/heads/exh-1109-ui-stale-debug-a-5949ea0a29-archive-b-v1:refs/observed/outcome-a-0/exh-1109-ui-stale-debug-a-5949ea0a29-archive-b-v1",
+    "refs/heads/exh-1109-ui-stale-debug-a-5949ea0a29-archive-a-v2:refs/observed/outcome-a-0/exh-1109-ui-stale-debug-a-5949ea0a29-archive-a-v2"
+  ],
+  "started": {
+    "utc": "2026-11-09T18:33:12.696113+00:00",
+    "monotonic_ns": 501400750
+  },
+  "ended": {
+    "utc": "2026-11-09T18:33:12.902744+00:00",
+    "monotonic_ns": 708041791
+  },
+  "exit": 0,
+  "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stderr_sha256": "18da70608dcc363c6ee2afb2b2fcf66da2348d5824429379bc8f2826d09ff307"
+}

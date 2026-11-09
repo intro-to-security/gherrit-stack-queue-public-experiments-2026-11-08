@@ -1,0 +1,26 @@
+{
+  "time": {
+    "utc": "2026-11-09T18:19:25.989113+00:00",
+    "monotonic_ns": 4756869000
+  },
+  "repo": "joshlf/gherrit-native-stack-experiments-2026-11-08",
+  "prefix": "exh-1109-ui-stale-debug-a-fresh-0a2893d4d4",
+  "argv": [
+    "git",
+    "-c",
+    "core.hooksPath=/dev/null",
+    "--git-dir",
+    "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/ui/stale-map-debug-prep/fixture-a-fresh-prep/objects.git",
+    "push",
+    "--atomic",
+    "--force-with-lease=refs/heads/exh-1109-ui-stale-debug-a-fresh-0a2893d4d4-trunk:a8f7a8fd4a8d52ac1daf847a68e09998b8cf36b4",
+    "--force-with-lease=refs/heads/exh-1109-ui-stale-debug-a-fresh-0a2893d4d4-a:e547ce6b7f9cbff283a88b8550dcabe71a529d78",
+    "--force-with-lease=refs/heads/exh-1109-ui-stale-debug-a-fresh-0a2893d4d4-archive-a-v2:",
+    "origin",
+    "d59931dac559bd7c05d1f29f7ca867c0f628c3f2:refs/heads/exh-1109-ui-stale-debug-a-fresh-0a2893d4d4-trunk",
+    "721cd407451739ef646b7434285c60b01096b400:refs/heads/exh-1109-ui-stale-debug-a-fresh-0a2893d4d4-a",
+    "721cd407451739ef646b7434285c60b01096b400:refs/heads/exh-1109-ui-stale-debug-a-fresh-0a2893d4d4-archive-a-v2"
+  ],
+  "input": null,
+  "outcome": "may be dispatched"
+}

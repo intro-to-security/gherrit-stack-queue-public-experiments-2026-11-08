@@ -1,0 +1,22 @@
+{
+  "time": {
+    "utc": "2026-11-09T18:07:24.032192+00:00",
+    "monotonic_ns": 5640889708
+  },
+  "repo": "joshlf/gherrit-native-stack-experiments-2026-11-08",
+  "prefix": "exh-1109-ui-stale-debug-c536c6f390",
+  "argv": [
+    "git",
+    "-c",
+    "core.hooksPath=/dev/null",
+    "--git-dir",
+    "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/ui/stale-map-debug-prep/fixture-prep/objects.git",
+    "push",
+    "--atomic",
+    "--force-with-lease=refs/heads/exh-1109-ui-stale-debug-c536c6f390-trunk:2471699dda3fa32eaeb3e61398b4eaaba6db46e4",
+    "origin",
+    "56eb30a5c134d438dec1b54b65841ed4eaa25ab9:refs/heads/exh-1109-ui-stale-debug-c536c6f390-trunk"
+  ],
+  "input": null,
+  "outcome": "may be dispatched"
+}

@@ -1,0 +1,23 @@
+{
+  "coordinator": "root",
+  "at": {
+    "utc": "2026-11-09T18:28:04.604662+00:00",
+    "monotonic_ns": 24187083
+  },
+  "prefix": "exh-1109-ui-stale-debug-a-5949ea0a29",
+  "repository": "joshlf/gherrit-native-stack-experiments-2026-11-08",
+  "prs": {
+    "A": 664,
+    "B": 665
+  },
+  "group": 666,
+  "ui": "One ordinary final Rebase stack confirmation in owned665tab; pause actual initiatingPOST before anyAadvance",
+  "breakpoint": "/pull/665/page_data/stack_rebase",
+  "expected_map": {
+    "664": "843359d9d586da7f11a03ef4ff98bf746cbac233",
+    "665": "0d139c885ed973bb1a932e8c6771abd056d93f55"
+  },
+  "ready_archived_sha256": "6f5cb4dbdfd660db90611eae78defd2c6f96df66e9f66ed3f6cd636da42d096e",
+  "archive_precreated": "A2archive alreadyexistsbeforebrowserload; no newrefduringpause",
+  "state": "May be dispatched; no secondconfirmation/replay/automaticretry"
+}

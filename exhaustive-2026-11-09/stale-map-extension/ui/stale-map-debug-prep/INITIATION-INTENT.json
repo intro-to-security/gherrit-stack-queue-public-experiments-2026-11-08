@@ -1,0 +1,23 @@
+{
+  "coordinator": "root",
+  "at": {
+    "utc": "2026-11-09T18:09:47.593820+00:00",
+    "monotonic_ns": 19000125
+  },
+  "prefix": "exh-1109-ui-stale-debug-c536c6f390",
+  "repository": "joshlf/gherrit-native-stack-experiments-2026-11-08",
+  "prs": {
+    "A": 661,
+    "B": 662
+  },
+  "stack": 663,
+  "ui": "Ordinary final Rebase stack confirmation, once, in owned Chrome tab662",
+  "breakpoint": "/pull/662/page_data/stack_rebase",
+  "expected_pre_pause_map": {
+    "661": "5594964d25db4275eef1f1f7890f49946ac03980",
+    "662": "47456f450de5028a2667629b92cd45ef00e0b585"
+  },
+  "ready_sha256": "70f1a224af8e048ba4fb0d9fdb78fc80ab2f94b8e1a951e7c5b83922b5101b3c",
+  "state": "May be dispatched after single final confirmation. Do not click again; prove exact pre-send pause before B advance.",
+  "authority": "User requests this remaining synthetic website experiment; root owns UI and scoped fixture. No private endpoint replay."
+}

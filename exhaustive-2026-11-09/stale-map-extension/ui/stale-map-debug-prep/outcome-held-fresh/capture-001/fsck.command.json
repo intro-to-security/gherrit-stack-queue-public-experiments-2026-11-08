@@ -1,0 +1,29 @@
+{
+  "label": "fsck",
+  "argv": [
+    "git",
+    "-c",
+    "core.hooksPath=/dev/null",
+    "-c",
+    "core.pager=cat",
+    "-c",
+    "gc.auto=0",
+    "-c",
+    "maintenance.auto=false",
+    "--git-dir=/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/ui/stale-map-debug-prep/outcome-held-fresh/capture-001/objects.git",
+    "fsck",
+    "--full",
+    "--no-dangling"
+  ],
+  "started": {
+    "utc": "2026-11-09T19:13:31.557078+00:00",
+    "monotonic_ns": 31130350791
+  },
+  "ended": {
+    "utc": "2026-11-09T19:13:31.580413+00:00",
+    "monotonic_ns": 31153702541
+  },
+  "exit": 0,
+  "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

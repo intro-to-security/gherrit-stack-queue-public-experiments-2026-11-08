@@ -5,10 +5,9 @@ when all future suffix writes from a native operation are excluded. GHerrit's
 qualified design therefore keeps that question open alongside the alternative
 of accepting a weaker hosted-state promise with explicit drift recovery.
 
-Read the [updated design](design/candidate-002.md) and
-[final comparison](design/DECISIONS-002.md). The two-pass refinement locally
-converged on this qualified comparison. It did not select an operating promise
-or validate a production migration. The [full earlier design](../choice-refinement-2026-11-09/candidate-002.md)
+Read the [updated design](design/candidate-004.md) and
+[final comparison](design/DECISIONS-004.md). The latest comparison includes the completed website controls. It selects no
+new operating promise and does not validate a production migration. The [full earlier design](../choice-refinement-2026-11-09/candidate-002.md)
 remains the baseline except for the explicit updates here.
 
 ## Findings that matter to the next implementation
@@ -40,13 +39,28 @@ remain production acceptance work. The user-posted maintainer questions
 [623](https://github.com/github/gh-stack/discussions/623) had no replies at the
 latest retained read. No agent follow-up was posted.
 
-One new conditional website discriminator remains unperformed. The earlier
-modal adopted the new head before sending, so it did not test an actually stale
-map. Chrome documents an XHR/fetch pause mechanism that might establish that
-premise, but the computer-use tool reported the Mac locked. There is no new
-fixture, paused request or result. The overall experiment campaign remains
-bounded by that access dependency; this package does not claim every possible
-experiment has run.
+The previously blocked website discriminator is now complete. [Four actual
+controls](stale-map-extension/ui/stale-map-debug-prep/RESULTS.md) capture two stale
+head maps rejected with HTTP409 and two fresh maps accepted with HTTP200 and both
+members rebased. One stale case changed only the lower existing member ref while
+the selected upper head stayed fixed. The second positive held a fresh request
+for 420.257478125 monotonic seconds with three unchanged seven-ref samples before
+resuming. That success makes pause/request age alone insufficient to force
+rejection in that fixture. Twelve independent read cohorts verify the resulting
+vectors, full ranges and retained content after the four operations.
+
+These are private website observations, not a supported rebase API or proof of
+an internal comparison algorithm. A sent request's captured409 is rejection at
+initiation, not evidence that an older admitted operation has settled. The
+first failed stale-modal premise remains retained. No browser-access blocker
+remains for these tests. No identified accessible discriminator remains pending for the design claims
+made here;
+repeating quiet windows cannot prove future-write exclusion. Provider answers,
+selected-protocol acceptance and human priorities remain separate work.
+
+The [extension overview](stale-map-extension/README.md) describes its exact
+sources, sanitized records and exclusions. Historical earlier status text records
+its captured stage; this page and candidate004 give the current disposition.
 
 This is a selected public evidence package. [Availability](EVIDENCE-AVAILABILITY.md)
 distinguishes included records from the full local corpus. Large runtime/disk

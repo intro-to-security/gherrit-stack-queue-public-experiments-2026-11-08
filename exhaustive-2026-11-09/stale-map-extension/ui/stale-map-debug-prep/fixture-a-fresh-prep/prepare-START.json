@@ -1,0 +1,31 @@
+{
+  "at": {
+    "utc": "2026-11-09T18:19:21.253053+00:00",
+    "monotonic_ns": 20983083
+  },
+  "grant": {
+    "coordinator": "root",
+    "grant_path": "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-exhaustive-2026-11-09/control/ui-stale-debug-grant-005.json",
+    "action": "prepare",
+    "at": {
+      "utc": "2026-11-09T18:19:17.613224+00:00",
+      "monotonic_ns": 515079458
+    },
+    "repository": "joshlf/gherrit-native-stack-experiments-2026-11-08",
+    "prefix": "exh-1109-ui-stale-debug-a-fresh-0a2893d4d4",
+    "source_sha256": "7681ce6e8649619d79c1ba3f0db4005c1ab197fcb98b3ab27142d68faa3dc000",
+    "helper_sha256": "ae1ae63d5ee8370cbca11711f5d5e76a97669881ddf8ef8911493666393d128d",
+    "inputs_sha256": "4d9a1b51af135c7583eecf8290f42225581d8c71fdf884eaaa7a8266e0ebc570",
+    "authority": "Same authorized synthetic experiment. Separate positive control for lowerAdivergence with fresh map; root read complete source and verified9objects.",
+    "allowed_effects": [
+      "Create-only six exact ownrefs, two disclosed PRs and one nativegroup",
+      "One atomic exactleased trunkT0 toT1 andA0 toA2 pluscreate-only archiveA2",
+      "Verify seven ownedrefs andpreserveREADY beforeanybrowserload"
+    ],
+    "forbidden": [
+      "main,oldfixtures,otherrefs,settings,workflows,merge,queue,deletion",
+      "Any retry/repair afterunknown; private endpoint replay; browserinitiationbyworker"
+    ],
+    "failure_rule": "Freeze and reconcile read-only."
+  }
+}

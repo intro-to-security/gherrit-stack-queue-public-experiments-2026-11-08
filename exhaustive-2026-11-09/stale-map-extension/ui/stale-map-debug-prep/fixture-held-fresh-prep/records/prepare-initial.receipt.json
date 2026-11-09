@@ -1,0 +1,13 @@
+{
+  "started": {
+    "utc": "2026-11-09T18:58:37.170363+00:00",
+    "monotonic_ns": 254572708
+  },
+  "finished": {
+    "utc": "2026-11-09T18:58:38.659004+00:00",
+    "monotonic_ns": 1743223541
+  },
+  "returncode": 0,
+  "stdout": "",
+  "stderr": "To https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08.git\n * [new branch]      28705a299e9f8f78b00b85ada10551ec78febca3 -> exh-1109-ui-stale-debug-held-fresh-0a10ffe99c-trunk\n * [new branch]      05a3ddaecfda472c905325c825e4d0ca07a2c9a3 -> exh-1109-ui-stale-debug-held-fresh-0a10ffe99c-a\n * [new branch]      c0f91ab8deab54ca5c07cd0b3a5ee4271236d3b9 -> exh-1109-ui-stale-debug-held-fresh-0a10ffe99c-b\n * [new branch]      c0f91ab8deab54ca5c07cd0b3a5ee4271236d3b9 -> exh-1109-ui-stale-debug-held-fresh-0a10ffe99c-source-v1\n * [new branch]      05a3ddaecfda472c905325c825e4d0ca07a2c9a3 -> exh-1109-ui-stale-debug-held-fresh-0a10ffe99c-archive-a-v1\n * [new branch]      c0f91ab8deab54ca5c07cd0b3a5ee4271236d3b9 -> exh-1109-ui-stale-debug-held-fresh-0a10ffe99c-archive-b-v1\n"
+}

@@ -1,0 +1,13 @@
+{
+  "started": {
+    "utc": "2026-11-09T18:10:58.902267+00:00",
+    "monotonic_ns": 62998000
+  },
+  "finished": {
+    "utc": "2026-11-09T18:10:59.105165+00:00",
+    "monotonic_ns": 265907250
+  },
+  "returncode": 0,
+  "stdout": "5594964d25db4275eef1f1f7890f49946ac03980\trefs/heads/exh-1109-ui-stale-debug-c536c6f390-a\n5594964d25db4275eef1f1f7890f49946ac03980\trefs/heads/exh-1109-ui-stale-debug-c536c6f390-archive-a-v1\n47456f450de5028a2667629b92cd45ef00e0b585\trefs/heads/exh-1109-ui-stale-debug-c536c6f390-archive-b-v1\n47456f450de5028a2667629b92cd45ef00e0b585\trefs/heads/exh-1109-ui-stale-debug-c536c6f390-b\n47456f450de5028a2667629b92cd45ef00e0b585\trefs/heads/exh-1109-ui-stale-debug-c536c6f390-source-v1\n56eb30a5c134d438dec1b54b65841ed4eaa25ab9\trefs/heads/exh-1109-ui-stale-debug-c536c6f390-trunk\n",
+  "stderr": ""
+}

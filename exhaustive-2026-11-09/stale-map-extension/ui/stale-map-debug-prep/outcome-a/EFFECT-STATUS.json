@@ -1,0 +1,35 @@
+{
+  "observer": "completed_read_only_three_cohorts",
+  "remote_mutations": 0,
+  "native_requests": 0,
+  "initiating_effect": {
+    "status": "known_409_in_minimized_root_network_record",
+    "HTTP": 409,
+    "error": "Stack contents have changed",
+    "actual_expected_map": {
+      "664": "843359d9d586da7f11a03ef4ff98bf746cbac233",
+      "665": "0d139c885ed973bb1a932e8c6771abd056d93f55"
+    },
+    "raw_HAR_opened": false,
+    "causal_debugger_order_owner": "root"
+  },
+  "protocol": {
+    "prearchive_basis_refs": 7,
+    "archive_A2_already_present": true,
+    "paused_advance_changed_only_existing_A": true,
+    "selected_B_unchanged": true,
+    "original_advance_a_action_unused_as_reported_by_root": true
+  },
+  "independent_outcome": {
+    "all_seven_ref_vectors_exact": true,
+    "canonical_open_order": [
+      664,
+      665
+    ],
+    "group": 666,
+    "A_v2_marker_retained": true,
+    "original_v1_ranges_retained": true,
+    "both_REST_associated_bases_disagree_with_actual_named_refs": true
+  },
+  "limits": "No job absence, continuous silence, cancellation, or future-write fence inferred from bounded reads"
+}

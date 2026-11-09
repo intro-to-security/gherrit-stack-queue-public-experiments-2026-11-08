@@ -1,0 +1,45 @@
+{
+  "passed": true,
+  "command_receipts": 106,
+  "command_counts": {
+    "GET": 9,
+    "ls-remote": 3,
+    "fetch": 3,
+    "local": 91
+  },
+  "stdout_stderr_hashes_match": true,
+  "literal_source_adaptation": true,
+  "raw_commit_fields_reparsed": true,
+  "exact_marker_keys_and_outputs": true,
+  "held_fresh_inputs_consistent": true,
+  "controls": {
+    "positive": {
+      "accepted": true
+    },
+    "missing_A_second_commit": {
+      "accepted": false,
+      "exception": "ValueError"
+    },
+    "lost_B_marker": {
+      "accepted": false,
+      "exception": "AssertionError"
+    },
+    "wrong_B_parent": {
+      "accepted": false,
+      "exception": "AssertionError"
+    },
+    "changed_B_own_patch": {
+      "accepted": false,
+      "exception": "AssertionError"
+    },
+    "wrong_canonical_repository": {
+      "accepted": false,
+      "exception": "AssertionError"
+    },
+    "missing_rewritten_A_trailer": {
+      "accepted": false,
+      "exception": "AssertionError"
+    }
+  },
+  "limits": "Offline byte/consistency checks only. No process/network call, HAR read, cryptographic signature check, continuous ref lock, internal dispatch boundary or future-write-fence proof."
+}
