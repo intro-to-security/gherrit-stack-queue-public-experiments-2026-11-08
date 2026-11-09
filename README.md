@@ -2,8 +2,9 @@
 
 This public repository contains only synthetic data for GHerrit queue research.
 The user explicitly authorized this separate public repository in
-intro-to-security. Tests use owned exp/** trunks, PRs and rules; no production
-repository or organization-wide policy is changed.
+intro-to-security. Tests use owned exp/** trunks, PRs and rules. Organization-wide
+policy and production code, refs, hooks and executables remain unchanged. The
+findings are reflected in [GHerrit's design issue #518](https://github.com/joshlf/gherrit/issues/518).
 
 Read [the results and limits](RESULTS.md) first. The three-method native control
 found that MERGE landed both queued members, while SQUASH and REBASE landed the
