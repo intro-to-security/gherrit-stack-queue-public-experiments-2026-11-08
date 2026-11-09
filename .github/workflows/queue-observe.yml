@@ -1,0 +1,31 @@
+name: queue-observe
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened, stacked]
+  merge_group:
+    types: [checks_requested]
+
+permissions:
+  contents: read
+
+jobs:
+  queue-observe:
+    name: queue-observe
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          ref: ${{ github.sha }}
+          fetch-depth: 0
+          persist-credentials: false
+      - name: Capture exact event and checkout, then evaluate synthetic markers
+        run: python3 .github/scripts/queue_observe.py
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        if: always()
+        with:
+          name: queue-event-${{ github.event_name }}-${{ github.run_id }}-${{ github.run_attempt }}
+          path: queue-evidence/
+          if-no-files-found: error
+          retention-days: 30
