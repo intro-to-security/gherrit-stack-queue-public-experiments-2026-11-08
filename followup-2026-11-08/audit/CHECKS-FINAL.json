@@ -1,0 +1,658 @@
+{
+  "at": "2026-11-09T05:00:56.662875+00:00",
+  "scope": "Read-only retained JSON/source/Git checks; no network or effect reruns",
+  "protocol": {
+    "P-T01": {
+      "raw_fault_matches_result": true,
+      "planned_send_count_equal": true,
+      "omitted_bytes": 0,
+      "zero_http_reads": true,
+      "decision_before_all_oracles": true,
+      "hold_ms": 0
+    },
+    "P-T02": {
+      "raw_fault_matches_result": true,
+      "planned_send_count_equal": true,
+      "omitted_bytes": 0,
+      "zero_http_reads": true,
+      "decision_before_all_oracles": true,
+      "hold_ms": 0
+    },
+    "P-T03": {
+      "raw_fault_matches_result": true,
+      "planned_send_count_equal": true,
+      "omitted_bytes": 0,
+      "zero_http_reads": true,
+      "decision_before_all_oracles": true,
+      "hold_ms": 0
+    },
+    "P-T04": {
+      "raw_fault_matches_result": true,
+      "planned_send_count_equal": true,
+      "omitted_bytes": 0,
+      "zero_http_reads": true,
+      "decision_before_all_oracles": true,
+      "hold_ms": 0
+    },
+    "P-T05": {
+      "raw_fault_matches_result": true,
+      "planned_send_count_equal": true,
+      "omitted_bytes": 0,
+      "zero_http_reads": true,
+      "decision_before_all_oracles": true,
+      "hold_ms": 0
+    },
+    "P-T06": {
+      "raw_fault_matches_result": true,
+      "planned_send_count_equal": true,
+      "omitted_bytes": 0,
+      "zero_http_reads": true,
+      "decision_before_all_oracles": true,
+      "hold_ms": 0
+    },
+    "P-T07": {
+      "raw_fault_matches_result": true,
+      "planned_send_count_equal": true,
+      "omitted_bytes": 0,
+      "zero_http_reads": true,
+      "decision_before_all_oracles": true,
+      "hold_ms": 0
+    },
+    "P-T08": {
+      "raw_fault_matches_result": true,
+      "planned_send_count_equal": true,
+      "omitted_bytes": 1,
+      "zero_http_reads": true,
+      "decision_before_all_oracles": true,
+      "hold_ms": 0
+    },
+    "P-T01-H500": {
+      "raw_fault_matches_result": true,
+      "planned_send_count_equal": true,
+      "omitted_bytes": 0,
+      "zero_http_reads": true,
+      "decision_before_all_oracles": true,
+      "hold_ms": 500
+    },
+    "P-T02-H500": {
+      "raw_fault_matches_result": true,
+      "planned_send_count_equal": true,
+      "omitted_bytes": 0,
+      "zero_http_reads": true,
+      "decision_before_all_oracles": true,
+      "hold_ms": 500
+    },
+    "P-T03-H500": {
+      "raw_fault_matches_result": true,
+      "planned_send_count_equal": true,
+      "omitted_bytes": 0,
+      "zero_http_reads": true,
+      "decision_before_all_oracles": true,
+      "hold_ms": 500
+    },
+    "P-T04-H500": {
+      "raw_fault_matches_result": true,
+      "planned_send_count_equal": true,
+      "omitted_bytes": 0,
+      "zero_http_reads": true,
+      "decision_before_all_oracles": true,
+      "hold_ms": 500
+    },
+    "P-T05-H500": {
+      "raw_fault_matches_result": true,
+      "planned_send_count_equal": true,
+      "omitted_bytes": 0,
+      "zero_http_reads": true,
+      "decision_before_all_oracles": true,
+      "hold_ms": 500
+    },
+    "P-T06-H500": {
+      "raw_fault_matches_result": true,
+      "planned_send_count_equal": true,
+      "omitted_bytes": 0,
+      "zero_http_reads": true,
+      "decision_before_all_oracles": true,
+      "hold_ms": 500
+    },
+    "P-T07-H500": {
+      "raw_fault_matches_result": true,
+      "planned_send_count_equal": true,
+      "omitted_bytes": 0,
+      "zero_http_reads": true,
+      "decision_before_all_oracles": true,
+      "hold_ms": 500
+    },
+    "P-T08-H500": {
+      "raw_fault_matches_result": true,
+      "planned_send_count_equal": true,
+      "omitted_bytes": 1,
+      "zero_http_reads": true,
+      "decision_before_all_oracles": true,
+      "hold_ms": 500
+    },
+    "natural_errors": {
+      "original99_http": 504,
+      "original99_readback_exact": true,
+      "original99_group": [
+        330
+      ],
+      "semantic_retry_same_request": true,
+      "contaminated100_then_repeat_before_reconciliation": true,
+      "fresh100_http": 502,
+      "fresh100_exact_members": true,
+      "fresh100_group": [
+        461
+      ],
+      "fresh100_unknown_record": true
+    },
+    "fresh_append": {
+      "distinct_prs": 101,
+      "three_bulk_sets_disjoint": true,
+      "initial_http": 201,
+      "stack": 563,
+      "appends": [
+        {
+          "from": 2,
+          "to": 10,
+          "http": 200,
+          "count": 10,
+          "raw_order_exact": true,
+          "payload_exact_suffix": true
+        },
+        {
+          "from": 10,
+          "to": 18,
+          "http": 200,
+          "count": 18,
+          "raw_order_exact": true,
+          "payload_exact_suffix": true
+        },
+        {
+          "from": 18,
+          "to": 26,
+          "http": 200,
+          "count": 26,
+          "raw_order_exact": true,
+          "payload_exact_suffix": true
+        },
+        {
+          "from": 26,
+          "to": 34,
+          "http": 200,
+          "count": 34,
+          "raw_order_exact": true,
+          "payload_exact_suffix": true
+        },
+        {
+          "from": 34,
+          "to": 42,
+          "http": 200,
+          "count": 42,
+          "raw_order_exact": true,
+          "payload_exact_suffix": true
+        },
+        {
+          "from": 42,
+          "to": 50,
+          "http": 200,
+          "count": 50,
+          "raw_order_exact": true,
+          "payload_exact_suffix": true
+        },
+        {
+          "from": 50,
+          "to": 58,
+          "http": 200,
+          "count": 58,
+          "raw_order_exact": true,
+          "payload_exact_suffix": true
+        },
+        {
+          "from": 58,
+          "to": 66,
+          "http": 200,
+          "count": 66,
+          "raw_order_exact": true,
+          "payload_exact_suffix": true
+        },
+        {
+          "from": 66,
+          "to": 74,
+          "http": 200,
+          "count": 74,
+          "raw_order_exact": true,
+          "payload_exact_suffix": true
+        },
+        {
+          "from": 74,
+          "to": 82,
+          "http": 200,
+          "count": 82,
+          "raw_order_exact": true,
+          "payload_exact_suffix": true
+        },
+        {
+          "from": 82,
+          "to": 90,
+          "http": 200,
+          "count": 90,
+          "raw_order_exact": true,
+          "payload_exact_suffix": true
+        },
+        {
+          "from": 90,
+          "to": 98,
+          "http": 200,
+          "count": 98,
+          "raw_order_exact": true,
+          "payload_exact_suffix": true
+        },
+        {
+          "from": 98,
+          "to": 99,
+          "http": 200,
+          "count": 99,
+          "raw_order_exact": true,
+          "payload_exact_suffix": true
+        },
+        {
+          "from": 99,
+          "to": 100,
+          "http": 200,
+          "count": 100,
+          "raw_order_exact": true,
+          "payload_exact_suffix": true
+        },
+        {
+          "from": 100,
+          "to": 101,
+          "http": 422,
+          "count": 100,
+          "raw_order_exact": true,
+          "payload_exact_suffix": true
+        }
+      ],
+      "known101_rejection": "Entries is invalid and Entries exceeds maximum stack size"
+    },
+    "hashes": {
+      "assess.py": true,
+      "capture_final.py": true,
+      "lab.py": true,
+      "run_boundaries.py": true,
+      "run_fresh_boundaries.py": true,
+      "run_raw_control.py": true,
+      "run_transport.py": true,
+      "verify_5xx_guard.py": true,
+      "write_results.py": true
+    },
+    "pre_fix_hashes": {
+      "lab": true,
+      "run_boundaries": true
+    },
+    "guard_test": {
+      "test": "Local fake transport; no native request dispatched",
+      "caller_stopped_after_received504": true,
+      "attempts": 2,
+      "transport_dispatches": 1,
+      "unknown_effect_record_retained": true,
+      "cached504_blocked_before_second_transport": true,
+      "limit": "Checks this harness guard; no provider guarantee"
+    },
+    "case_count": 26,
+    "dispositions": {
+      "performed": 24,
+      "failed premise; replaced by P-B02-F101": 1,
+      "reused prior evidence": 1
+    },
+    "P-T09-raw-get": {
+      "http": 200,
+      "comment_id": 1450723431
+    },
+    "P-T09-raw-comment": {
+      "http": 201,
+      "comment_id": 6732165131
+    },
+    "P-T09-comment-readback": {
+      "http": 200,
+      "comment_id": null
+    },
+    "pacing": {
+      "utc_minimum": 2.942764,
+      "invalid_mixed_monotonic_pair": [
+        "lost-stack-unstack-pr-002.intent.json",
+        "lost-stack-unstack-h500-pr-001.intent.json"
+      ],
+      "clock_origin_cause_established": false
+    }
+  },
+  "ui": {
+    "ui-stale": {
+      "human_attestation_recorded": "Human report conveyed by root coordinator",
+      "initiating_uuid_captured": false,
+      "rules_equal_before_after": true,
+      "effective_rulesets_after": [],
+      "layers": {
+        "lower": {
+          "pr": 127,
+          "head_changed": true,
+          "patch_equal_recomputed": true,
+          "exact_trunk_delta_recomputed": true,
+          "author_message_equal": true,
+          "raw_commit_heads_match": true,
+          "same_review_ids": true,
+          "review_ids": [
+            5821573631
+          ],
+          "approved_reviews_rebound": true,
+          "gate": "CLEAN",
+          "review_decision": "APPROVED",
+          "before_verified": false,
+          "after_verified": true,
+          "signature_bytes_changed": true,
+          "canonical_identity_lifecycle_preserved": true,
+          "same_stack": true
+        },
+        "upper": {
+          "pr": 128,
+          "head_changed": true,
+          "patch_equal_recomputed": true,
+          "exact_trunk_delta_recomputed": true,
+          "author_message_equal": true,
+          "raw_commit_heads_match": true,
+          "same_review_ids": true,
+          "review_ids": [
+            5821573740
+          ],
+          "approved_reviews_rebound": true,
+          "gate": "CLEAN",
+          "review_decision": "APPROVED",
+          "before_verified": false,
+          "after_verified": true,
+          "signature_bytes_changed": true,
+          "canonical_identity_lifecycle_preserved": true,
+          "same_stack": true
+        }
+      }
+    },
+    "ui-lastpush": {
+      "human_attestation_recorded": "Human report conveyed by root coordinator",
+      "initiating_uuid_captured": false,
+      "rules_equal_before_after": true,
+      "effective_rulesets_after": [],
+      "layers": {
+        "lower": {
+          "pr": 129,
+          "head_changed": true,
+          "patch_equal_recomputed": true,
+          "exact_trunk_delta_recomputed": true,
+          "author_message_equal": true,
+          "raw_commit_heads_match": true,
+          "same_review_ids": true,
+          "review_ids": [
+            5821575797
+          ],
+          "approved_reviews_rebound": true,
+          "gate": "BLOCKED",
+          "review_decision": "REVIEW_REQUIRED",
+          "before_verified": false,
+          "after_verified": true,
+          "signature_bytes_changed": true,
+          "canonical_identity_lifecycle_preserved": true,
+          "same_stack": true
+        },
+        "upper": {
+          "pr": 130,
+          "head_changed": true,
+          "patch_equal_recomputed": true,
+          "exact_trunk_delta_recomputed": true,
+          "author_message_equal": true,
+          "raw_commit_heads_match": true,
+          "same_review_ids": true,
+          "review_ids": [
+            5821575883
+          ],
+          "approved_reviews_rebound": true,
+          "gate": "BLOCKED",
+          "review_decision": "REVIEW_REQUIRED",
+          "before_verified": false,
+          "after_verified": true,
+          "signature_bytes_changed": true,
+          "canonical_identity_lifecycle_preserved": true,
+          "same_stack": true
+        }
+      }
+    },
+    "ui-codeowner": {
+      "human_attestation_recorded": "Human report conveyed by root coordinator",
+      "initiating_uuid_captured": false,
+      "rules_equal_before_after": true,
+      "effective_rulesets_after": [],
+      "layers": {
+        "lower": {
+          "pr": 131,
+          "head_changed": true,
+          "patch_equal_recomputed": true,
+          "exact_trunk_delta_recomputed": true,
+          "author_message_equal": true,
+          "raw_commit_heads_match": true,
+          "same_review_ids": true,
+          "review_ids": [
+            5821577670
+          ],
+          "approved_reviews_rebound": true,
+          "gate": "CLEAN",
+          "review_decision": "APPROVED",
+          "before_verified": false,
+          "after_verified": true,
+          "signature_bytes_changed": true,
+          "canonical_identity_lifecycle_preserved": true,
+          "same_stack": true
+        },
+        "upper": {
+          "pr": 132,
+          "head_changed": true,
+          "patch_equal_recomputed": true,
+          "exact_trunk_delta_recomputed": true,
+          "author_message_equal": true,
+          "raw_commit_heads_match": true,
+          "same_review_ids": true,
+          "review_ids": [
+            5821577835
+          ],
+          "approved_reviews_rebound": true,
+          "gate": "CLEAN",
+          "review_decision": "APPROVED",
+          "before_verified": false,
+          "after_verified": true,
+          "signature_bytes_changed": true,
+          "canonical_identity_lifecycle_preserved": true,
+          "same_stack": true
+        }
+      }
+    },
+    "ui-signed": {
+      "human_attestation_recorded": "Human report conveyed by root coordinator",
+      "initiating_uuid_captured": false,
+      "rules_equal_before_after": true,
+      "effective_rulesets_after": [],
+      "layers": {
+        "lower": {
+          "pr": 133,
+          "head_changed": true,
+          "patch_equal_recomputed": true,
+          "exact_trunk_delta_recomputed": true,
+          "author_message_equal": true,
+          "raw_commit_heads_match": true,
+          "same_review_ids": true,
+          "review_ids": [],
+          "approved_reviews_rebound": null,
+          "gate": "CLEAN",
+          "review_decision": "",
+          "before_verified": true,
+          "after_verified": true,
+          "signature_bytes_changed": true,
+          "canonical_identity_lifecycle_preserved": true,
+          "same_stack": true
+        },
+        "upper": {
+          "pr": 134,
+          "head_changed": true,
+          "patch_equal_recomputed": true,
+          "exact_trunk_delta_recomputed": true,
+          "author_message_equal": true,
+          "raw_commit_heads_match": true,
+          "same_review_ids": true,
+          "review_ids": [],
+          "approved_reviews_rebound": null,
+          "gate": "CLEAN",
+          "review_decision": "",
+          "before_verified": true,
+          "after_verified": true,
+          "signature_bytes_changed": true,
+          "canonical_identity_lifecycle_preserved": true,
+          "same_stack": true
+        }
+      }
+    }
+  },
+  "ci_dispositions": {
+    "reused": 9,
+    "performed": 22
+  },
+  "cleanup": {
+    "listed_classic_protections": 18,
+    "all_deleted": true,
+    "remaining": 0,
+    "raw_checks": [
+      {
+        "fixture": "ui-stale",
+        "delete_recorded": true,
+        "last_get404": true,
+        "get_after_delete": true
+      },
+      {
+        "fixture": "ui-lastpush",
+        "delete_recorded": true,
+        "last_get404": true,
+        "get_after_delete": true
+      },
+      {
+        "fixture": "ui-codeowner",
+        "delete_recorded": true,
+        "last_get404": true,
+        "get_after_delete": true
+      },
+      {
+        "fixture": "ui-signed",
+        "delete_recorded": true,
+        "last_get404": true,
+        "get_after_delete": true
+      },
+      {
+        "fixture": "status",
+        "delete_recorded": true,
+        "last_get404": true,
+        "get_after_delete": true
+      },
+      {
+        "fixture": "target",
+        "delete_recorded": true,
+        "last_get404": true,
+        "get_after_delete": true
+      },
+      {
+        "fixture": "sig-signedmulti",
+        "delete_recorded": true,
+        "last_get404": true,
+        "get_after_delete": true
+      },
+      {
+        "fixture": "sig-unsignedmulti",
+        "delete_recorded": true,
+        "last_get404": true,
+        "get_after_delete": true
+      },
+      {
+        "fixture": "sig-mixedmulti",
+        "delete_recorded": true,
+        "last_get404": true,
+        "get_after_delete": true
+      },
+      {
+        "fixture": "target-knownpath",
+        "delete_recorded": true,
+        "last_get404": true,
+        "get_after_delete": true
+      },
+      {
+        "fixture": "push",
+        "delete_recorded": true,
+        "last_get404": true,
+        "get_after_delete": true
+      },
+      {
+        "fixture": "direct-lastpush",
+        "delete_recorded": true,
+        "last_get404": true,
+        "get_after_delete": true
+      },
+      {
+        "fixture": "direct-codeowner",
+        "delete_recorded": true,
+        "last_get404": true,
+        "get_after_delete": true
+      },
+      {
+        "fixture": "direct-lastpush-complement",
+        "delete_recorded": true,
+        "last_get404": true,
+        "get_after_delete": true
+      },
+      {
+        "fixture": "target-main",
+        "delete_recorded": true,
+        "last_get404": true,
+        "get_after_delete": true
+      },
+      {
+        "fixture": "matched-stale",
+        "delete_recorded": true,
+        "last_get404": true,
+        "get_after_delete": true
+      },
+      {
+        "fixture": "matched-codeowner",
+        "delete_recorded": true,
+        "last_get404": true,
+        "get_after_delete": true
+      },
+      {
+        "fixture": "matched-nostale",
+        "delete_recorded": true,
+        "last_get404": true,
+        "get_after_delete": true
+      }
+    ]
+  },
+  "input_sha256": {
+    "protocol/RESULTS.md": "c3244de2a6f83c8dc1b3db9c2c3e8da19de921f29b3bb3da3caaebefd821cb74",
+    "protocol/matrix.json": "9ecf218caea8a545cd793ac73ad3ee5195935f40369808da39e072249d4c9e84",
+    "protocol/evidence-audit.json": "0f6c7fa412f70f88f7f6db8cf68531cffb366feb18ecceeb3766f62fa04583d7",
+    "ci-reviews/RESULTS.md": "228ed84a5d13d7f8697f30667b979e1950a479bb7ac1a03edf920f1a356d24d2",
+    "ci-reviews/matrix.json": "e9def45ae102bb53cc7ff5b8f7cef51144005c81b1d04d7a9c9bd023873ebcc8",
+    "ci-reviews/cleanup.json": "7f2fbe920146a630fe1c45881bbabebc7c46c0b1b198e081fd62bca0a48cf242",
+    "ui/ACCESS-ATTEMPTS.md": "9b929e1c250c8c7e1060b76c856397dc271d8a45b3be7391547e5e877368aeca",
+    "ui/HISTORY-BROWSER-RESULTS.md": "5ef5a9e59ad63ba91334f8ca15b68ca281f3b738bc666c868021e185e4cbb8fa"
+  },
+  "input_sha256_before_clock_wording_correction": {
+    "protocol/RESULTS.md": "2073a9f08ef1cae118f9cd5aceb44891e2353bdcac7cbb6847aa5b62084b5623",
+    "protocol/evidence-audit.json": "54ab80ef03d16c361cf93db4e196b0a9577feb8de28b1dbd5824da862176d28b"
+  },
+  "clock_wording_correction_rechecked": {
+    "at": "2026-11-09T05:03:35.396338+00:00",
+    "cause_explicitly_unestablished": true,
+    "uncalibrated_wall_clock_limit_explicit": true,
+    "predecessor_preserved": true,
+    "raw_source_unchanged": true
+  }
+}

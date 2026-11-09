@@ -1,0 +1,67 @@
+{
+  "case": "P-R01",
+  "disposition": "reused prior evidence; no hosted replay",
+  "sources": [
+    {
+      "path": "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-2026-11-08/api/RESULTS.md",
+      "exists": true,
+      "sha256": "1d4b61de1438390fdb2f2569ae445344b5c9bec25cbb8540fcaf736291a646ef"
+    },
+    {
+      "path": "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-2026-11-08/api/lab.py",
+      "exists": true,
+      "sha256": "55ad81fbf5f35548631e443e9c8bf694970e984adc90881f91b8701434777131"
+    },
+    {
+      "path": "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-2026-11-08/api/run_lost_receipts.py",
+      "exists": true,
+      "sha256": "2674870496b40307991e94dc506d6924bc901b05353c48dd2b54a545ce9e8bc2"
+    },
+    {
+      "path": "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-2026-11-08/api/basic-results.json",
+      "exists": true,
+      "sha256": "c2ea72da0edf0f51e02356563fc24a2b729740a1c55f94b6c2ff3a85d19dcf9e"
+    },
+    {
+      "path": "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-2026-11-08/api/structure-results.json",
+      "exists": true,
+      "sha256": "21fe0daed529e8caf3528b5d1124e73e0cf64b073797e3ec61611ab09307cf79"
+    },
+    {
+      "path": "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-2026-11-08/api/race-results.json",
+      "exists": true,
+      "sha256": "60365e4d51b53414de6117113e38863b8abf9fb1b939a1ba3b3702dee32dede9"
+    },
+    {
+      "path": "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-2026-11-08/api/race-interpretation.json",
+      "exists": true,
+      "sha256": "c5f6066771294e51eed817d1983caddeb0f84239f06d85d492415a21ff5251c1"
+    },
+    {
+      "path": "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-2026-11-08/api/lost-receipts-results.json",
+      "exists": true,
+      "sha256": "954e7164977040e5093f650f3c233647b6f3c9422c984928f4167af2404a3685"
+    },
+    {
+      "path": "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-2026-11-08/api/evidence/observer-detailed-samples.json",
+      "exists": true,
+      "sha256": "23d02222a90c853f42e2d6b5901a713e89dce8cba16fa585c175324bcfa016ad"
+    }
+  ],
+  "reused_findings": [
+    "Legacy synchronous merge rejects native members",
+    "Duplicate stack membership rejected",
+    "All-open unstack releases members",
+    "Completed group reopening accepted in observed fixture",
+    "Atomic head/archive publication rejects whole vector on wrong lease",
+    "Selected-head async request can land requested old revision despite later head push",
+    "Unparked structural reorder can irreversibly mark upper PR merged without trunk movement",
+    "Parking plus release/ref/base/registration prefixes preserved canonical PR identities in tested transitions",
+    "After-response SIGKILL is distinct from present no-HTTP-read transport loss"
+  ],
+  "limits": [
+    "These findings do not supply provider fencing or quiescence guarantees",
+    "Retained observer cohorts are non-atomic endpoint observations",
+    "No new structural resume protocol is implemented in this lane"
+  ]
+}

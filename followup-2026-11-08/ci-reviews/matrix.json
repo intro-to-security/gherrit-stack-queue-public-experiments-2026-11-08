@@ -1,5 +1,5 @@
 {
-  "at": "2026-11-09T04:35:58.975356+00:00",
+  "at": "2026-11-09T04:49:55.555052+00:00",
   "repo": "joshlf/gherrit-native-stack-experiments-2026-11-08",
   "cases": [
     {
@@ -187,13 +187,14 @@
     },
     {
       "id": "RV01",
-      "status": "unavailable-website-operation",
-      "result": "Distinct-author fixture, rule and unrelated trunk advance prepared; actual website operation unavailable to parent CUA. Only #128 handed asynchronously to user; root owns pending human response. No website retention/signing outcome claimed.",
+      "status": "performed",
+      "result": "User attested actual website Rebase stack on #128; independent reads verify both changed heads incorporated unrelated trunk, retained/rebound same approvals and CLEAN gates, preserved own patches/author/messages, and unsigned sources became verified replacements. No captured UI receipt/UUID or universal guarantee.",
       "evidence": [
         "evidence/snapshot-ui-stale-approved.json",
         "evidence/snapshot-ui-stale-ready-ui.json",
-        "evidence/root-ui-availability.json",
-        "state.json"
+        "evidence/snapshot-ui-stale-after-user-ui.json",
+        "evidence/ui-stale-user-ui-comparison.json",
+        "evidence/ui-stale-user-ui-results.json"
       ],
       "fixture": "ui-stale",
       "evidence_files": [
@@ -208,26 +209,32 @@
           "sha256": "1344fe74a74c5d34eec2a6eb780820accf1f65884ef6da34845f2e918d4b94a6"
         },
         {
-          "path": "evidence/root-ui-availability.json",
+          "path": "evidence/snapshot-ui-stale-after-user-ui.json",
           "exists": true,
-          "sha256": "0a57713ea744531386dc2bbd2f6138b04da505ef6cbf900bc745edddd8c9beaa"
+          "sha256": "fbace25bddcea3665d3ee0e79cba525447a58e07b84cbaec60522ece5ef7876d"
         },
         {
-          "path": "state.json",
+          "path": "evidence/ui-stale-user-ui-comparison.json",
           "exists": true,
-          "sha256": "edb5e3d03022f09be95f28e242719041d7d6737cfa19c11545070445bb2d8e17"
+          "sha256": "98933a1e13a9f286ebdd4897796b655096adbb629a9a6c440a00f6056847e4ce"
+        },
+        {
+          "path": "evidence/ui-stale-user-ui-results.json",
+          "exists": true,
+          "sha256": "5d5f5fd003616dc5e47135d7b939adfa51f40e0e8c70f433089feccb63d7c6f4"
         }
       ]
     },
     {
       "id": "RV02",
-      "status": "unavailable-website-operation",
-      "result": "Distinct-author fixture, rule and unrelated trunk advance prepared; actual website operation unavailable to parent CUA. Only #128 handed asynchronously to user; root owns pending human response. No website retention/signing outcome claimed.",
+      "status": "performed",
+      "result": "User reported actual website rebase #130; both changed heads, identical own patches/author/messages, same APPROVED review IDs rebound but rule decisions remained REVIEW_REQUIRED/BLOCKED (reviewer was pusher). Both unsigned sources became verified. Initiation user-attested; effects independently read; no UUID/feedback captured.",
       "evidence": [
         "evidence/snapshot-ui-lastpush-approved.json",
         "evidence/snapshot-ui-lastpush-ready-ui.json",
-        "evidence/root-ui-availability.json",
-        "state.json"
+        "evidence/snapshot-ui-lastpush-after-user-ui.json",
+        "evidence/ui-lastpush-user-ui-comparison.json",
+        "evidence/ui-lastpush-user-ui-results.json"
       ],
       "fixture": "ui-lastpush",
       "evidence_files": [
@@ -242,26 +249,32 @@
           "sha256": "408a2daceb575cb20350f2168312cd8fc4de729ce82e3ec6b36c2d54e8f99316"
         },
         {
-          "path": "evidence/root-ui-availability.json",
+          "path": "evidence/snapshot-ui-lastpush-after-user-ui.json",
           "exists": true,
-          "sha256": "0a57713ea744531386dc2bbd2f6138b04da505ef6cbf900bc745edddd8c9beaa"
+          "sha256": "c8ea5e5ed9f710c14c127ea2d315e2ab8c25f909a797768fb32370b59ed94981"
         },
         {
-          "path": "state.json",
+          "path": "evidence/ui-lastpush-user-ui-comparison.json",
           "exists": true,
-          "sha256": "edb5e3d03022f09be95f28e242719041d7d6737cfa19c11545070445bb2d8e17"
+          "sha256": "841c95d84ec49c2a4614eee55c5bf08ef9aeb7d1a646d0629b4609bc8e41e374"
+        },
+        {
+          "path": "evidence/ui-lastpush-user-ui-results.json",
+          "exists": true,
+          "sha256": "7dbe874b95e2502fd305508b61dd5f15b9b502abc8d25a304ad036d8932f1f95"
         }
       ]
     },
     {
       "id": "RV03",
-      "status": "unavailable-website-operation",
-      "result": "Distinct-author fixture, rule and unrelated trunk advance prepared; actual website operation unavailable to parent CUA. Only #128 handed asynchronously to user; root owns pending human response. No website retention/signing outcome claimed.",
+      "status": "performed",
+      "result": "User reported actual website rebase #132; both changed heads, identical own patches/author/messages, same CODEOWNERS approval IDs retained/rebound and APPROVED/CLEAN. Both unsigned sources became verified. Initiation user-attested; effects independently read; no UUID/feedback captured.",
       "evidence": [
         "evidence/snapshot-ui-codeowner-approved.json",
         "evidence/snapshot-ui-codeowner-ready-ui.json",
-        "evidence/root-ui-availability.json",
-        "state.json"
+        "evidence/snapshot-ui-codeowner-after-user-ui.json",
+        "evidence/ui-codeowner-user-ui-comparison.json",
+        "evidence/ui-codeowner-user-ui-results.json"
       ],
       "fixture": "ui-codeowner",
       "evidence_files": [
@@ -276,26 +289,32 @@
           "sha256": "6ce47c106a037889e1e5b2bd715843f6c122dbf91b61500eba256337aec33530"
         },
         {
-          "path": "evidence/root-ui-availability.json",
+          "path": "evidence/snapshot-ui-codeowner-after-user-ui.json",
           "exists": true,
-          "sha256": "0a57713ea744531386dc2bbd2f6138b04da505ef6cbf900bc745edddd8c9beaa"
+          "sha256": "89c359e0e5b00ff38f6a1aa69d89491b74f57909f98b90d83b679a1180856cb5"
         },
         {
-          "path": "state.json",
+          "path": "evidence/ui-codeowner-user-ui-comparison.json",
           "exists": true,
-          "sha256": "edb5e3d03022f09be95f28e242719041d7d6737cfa19c11545070445bb2d8e17"
+          "sha256": "2bac9aa591c7c30d133c3a86e15e1ee6eede7372019f331f23aecf932c64f5e2"
+        },
+        {
+          "path": "evidence/ui-codeowner-user-ui-results.json",
+          "exists": true,
+          "sha256": "c687ea6251b65688f16e8dc35b802f3ff4f3f8e518080aed05031c6954827c99"
         }
       ]
     },
     {
       "id": "SG04",
-      "status": "unavailable-website-operation",
-      "result": "Distinct-author fixture, rule and unrelated trunk advance prepared; actual website operation unavailable to parent CUA. Only #128 handed asynchronously to user; root owns pending human response. No website retention/signing outcome claimed.",
+      "status": "performed",
+      "result": "User reported actual website rebase #134; both changed verified source heads became new verified objects with changed signatures, identical own patches/author/messages; CLEAN gates, no reviews. Initiation user-attested; effects independently read; no UUID/feedback captured.",
       "evidence": [
         "evidence/snapshot-ui-signed-approved.json",
         "evidence/snapshot-ui-signed-ready-ui.json",
-        "evidence/root-ui-availability.json",
-        "state.json"
+        "evidence/snapshot-ui-signed-after-user-ui.json",
+        "evidence/ui-signed-user-ui-comparison.json",
+        "evidence/ui-signed-user-ui-results.json"
       ],
       "fixture": "ui-signed",
       "evidence_files": [
@@ -310,14 +329,19 @@
           "sha256": "f076487fb542958bd2037070de35bcdc78604d5c21aa52d71b56ce2bf3a636d4"
         },
         {
-          "path": "evidence/root-ui-availability.json",
+          "path": "evidence/snapshot-ui-signed-after-user-ui.json",
           "exists": true,
-          "sha256": "0a57713ea744531386dc2bbd2f6138b04da505ef6cbf900bc745edddd8c9beaa"
+          "sha256": "7831cd3fba3311c555da5d4d0ed0584b29659fce0f480f387eeb6adde140edc7"
         },
         {
-          "path": "state.json",
+          "path": "evidence/ui-signed-user-ui-comparison.json",
           "exists": true,
-          "sha256": "edb5e3d03022f09be95f28e242719041d7d6737cfa19c11545070445bb2d8e17"
+          "sha256": "0777329112811dcf43667d7e7364b7d7346e0af79de8b525db921a3c4844127b"
+        },
+        {
+          "path": "evidence/ui-signed-user-ui-results.json",
+          "exists": true,
+          "sha256": "29c610c3fdaba3810485980aebcd0cdbb013dff6364cb26a1c561322c29445fd"
         }
       ]
     },
@@ -618,12 +642,12 @@
         {
           "path": "cleanup.json",
           "exists": true,
-          "sha256": "328bc70387922f2aa51cfddba32a16da639bcc5bf2c6777cc218ad70ccbf8278"
+          "sha256": "7f2fbe920146a630fe1c45881bbabebc7c46c0b1b198e081fd62bca0a48cf242"
         },
         {
           "path": "evidence/commands.jsonl",
           "exists": true,
-          "sha256": "f9c5a4790201da61428a37585679c5f3c680ad519d662d8f3c34c9f0fd3fb35f"
+          "sha256": "e6e8342f5c9512e8187fd6e05a49755374f488a2bfc9175358eddda63dd3ada5"
         }
       ]
     },
@@ -674,7 +698,7 @@
         {
           "path": "evidence/commands.jsonl",
           "exists": true,
-          "sha256": "f9c5a4790201da61428a37585679c5f3c680ad519d662d8f3c34c9f0fd3fb35f"
+          "sha256": "e6e8342f5c9512e8187fd6e05a49755374f488a2bfc9175358eddda63dd3ada5"
         }
       ]
     },
@@ -1136,5 +1160,5 @@
   ],
   "case_count": 31,
   "native_pending": [],
-  "parent_followup": "Only actual website #128 async user response remains root-owned; other website cases unperformed/unavailable. Root main/Actions cleanup independently confirmed."
+  "parent_followup": "All four website changed-state premises verified after user-attested operations; no lane case remains unavailable. Any human reviewer/history task and publication remain root-owned."
 }

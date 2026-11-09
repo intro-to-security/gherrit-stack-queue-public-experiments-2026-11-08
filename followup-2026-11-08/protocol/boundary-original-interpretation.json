@@ -1,0 +1,11 @@
+{
+  "stack": 330,
+  "count": 99,
+  "exact_ordered_members": true,
+  "original_http": 504,
+  "original_intent": "P-B01-size-99",
+  "continued_after_unknown": true,
+  "blind_repeat_after_unknown": "P-B02-register-99",
+  "further_mutations_after_root_stop": 0,
+  "root_directed_retention": "Retain group330 untouched; clean replacements use disjoint identities"
+}

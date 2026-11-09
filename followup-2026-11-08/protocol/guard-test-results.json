@@ -1,0 +1,9 @@
+{
+  "test": "Local fake transport; no native request dispatched",
+  "caller_stopped_after_received504": true,
+  "attempts": 2,
+  "transport_dispatches": 1,
+  "unknown_effect_record_retained": true,
+  "cached504_blocked_before_second_transport": true,
+  "limit": "Checks this harness guard; no provider guarantee"
+}

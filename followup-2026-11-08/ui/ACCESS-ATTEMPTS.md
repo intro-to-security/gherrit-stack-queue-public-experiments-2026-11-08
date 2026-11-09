@@ -1,8 +1,10 @@
-# Interactive browser access
+# Interactive browser access and recovery
 
-The actual UI premise is currently unavailable through this session's tools.
-No website rebase, upper queue removal or reviewer browser walkthrough has been
-performed by the agent. API counterparts must not be relabeled as website tests.
+The initial UI attempt was unavailable through this session's tools. The user
+later completed the four website rebases, and native Chrome control subsequently
+became usable for a public history walkthrough. The chronology below preserves
+the earlier failures; it does not describe the final state. API counterparts
+must not be relabeled as website tests.
 
 Observed attempts:
 
@@ -32,5 +34,27 @@ Four prepared website fixtures: upper128 stale-dismissal; upper130 last-push;
 upper132 CODEOWNERS; upper134 signed. Only the CI lane owns their API preparation;
 root owns an explicit UI handoff. Sources remain reserved while a user answer is
 pending. Additional experiments continue independently.
+
+## Later user-operated website observation
+
+The user subsequently reported “Rebase stack completed” for upper PR128. The
+CI lane independently verified changed lower/upper heads, unchanged layer
+patches/author/messages, retained approvals, incorporated trunk changes and
+verified replacements. This is an actual user-attested website operation with
+independent API/Git outcome evidence, not an agent browser action or an inferred
+REST receipt. The new report supersedes the earlier no-response checkpoint for
+that fixture only. The user was then asked to run the other three ready rebases
+and one reviewer-history task; those answers remain pending at this checkpoint.
+
+## Repaired native Chrome surface
+
+The user subsequently reported all three remaining rebases complete. CI collected
+independent outcomes and removed the four completed fixture protections. Native
+Chrome selection now succeeded, despite the browser-host inventory error. The
+agent completed the public history-link walkthrough recorded in
+[HISTORY-BROWSER-RESULTS.md](HISTORY-BROWSER-RESULTS.md). This profile is logged out
+of GitHub with no saved credential offered; the user was asked to sign in directly
+for owner-only queue controls. That handoff is pending. A fresh held-queue fixture
+is prepared but unadmitted, so waiting for login cannot leave it armed.
 
 *Authored by an AI agent acting on joshlf's behalf.*

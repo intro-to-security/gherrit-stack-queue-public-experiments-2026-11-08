@@ -1,0 +1,8 @@
+{
+  "file": "authored-and-observed.bundle",
+  "bytes": 511481,
+  "sha256": "ce27ff24090ecf7c97d2f7a15ac23b21ddd9842ad8ec29b9cce7797ec00c26fd",
+  "source": "protocol/evidence/authored-and-observed.bundle",
+  "purpose": "Exact authored/observed Git inputs and701 native refs; no Git config or credential files",
+  "restore": "git clone /path/to/authored-and-observed.bundle restored-protocol; inspect refs and source before running any experiment."
+}

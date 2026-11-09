@@ -1,0 +1,439 @@
+{
+  "at": "2026-11-09T04:36:08.207199+00:00",
+  "scope": "Read-only retained-evidence checks; no provider calls or new experiment runs.",
+  "queue": {
+    "q03-squash-headgreen-1": {
+      "rule_readback_matches_state": true,
+      "required": [
+        {
+          "type": "required_status_checks",
+          "parameters": {
+            "strict_required_status_checks_policy": false,
+            "do_not_enforce_on_create": false,
+            "required_status_checks": [
+              {
+                "context": "queue-observe",
+                "integration_id": 15368
+              }
+            ]
+          }
+        }
+      ],
+      "bypass": [],
+      "events": [
+        {
+          "run": 42556303394,
+          "head": "d46f5317dad0ba2ec9f9c687d44a8daf81114268",
+          "base": "89a0a71a046b38929133c822c1a7318cece38d57",
+          "checkout_equal": true,
+          "single_parent_chain": true
+        }
+      ],
+      "final": {
+        "A": {
+          "number": 50,
+          "merged": true,
+          "head": "f02c7ad575a015bab6a2519f21b0d2daf5993a5f",
+          "removals": [
+            "merged"
+          ]
+        },
+        "B": {
+          "number": 51,
+          "merged": false,
+          "head": "758ffab7fddc7f88fb81b774d0ec9ab5013dc4c5",
+          "removals": [
+            "invalid_merge_commit"
+          ]
+        }
+      }
+    },
+    "q03-squash-headgreen-2": {
+      "rule_readback_matches_state": true,
+      "required": [
+        {
+          "type": "required_status_checks",
+          "parameters": {
+            "strict_required_status_checks_policy": false,
+            "do_not_enforce_on_create": false,
+            "required_status_checks": [
+              {
+                "context": "queue-observe",
+                "integration_id": 15368
+              }
+            ]
+          }
+        }
+      ],
+      "bypass": [],
+      "events": [
+        {
+          "run": 42556324829,
+          "head": "93c5159f851b057a7a0186e6fb7b2d3fbedcfb2b",
+          "base": "f1407eba061418257d0516c8fb6087cafce2a2f5",
+          "checkout_equal": true,
+          "single_parent_chain": true
+        },
+        {
+          "run": 42556326159,
+          "head": "82ae4b4f0bfdbb27f6ddac9c64534009585f244e",
+          "base": "93c5159f851b057a7a0186e6fb7b2d3fbedcfb2b",
+          "checkout_equal": true,
+          "single_parent_chain": true
+        }
+      ],
+      "final": {
+        "A": {
+          "number": 56,
+          "merged": true,
+          "head": "1f4cb7ca9576ac7e8a3fded272b88c8e1c47cfba",
+          "removals": [
+            "merged"
+          ]
+        },
+        "B": {
+          "number": 57,
+          "merged": true,
+          "head": "62658fe0062a14b84da4c579d0eda89a7688fbd2",
+          "removals": [
+            "merged"
+          ]
+        }
+      }
+    },
+    "q03-squash-allgreen-2": {
+      "rule_readback_matches_state": true,
+      "required": [
+        {
+          "type": "required_status_checks",
+          "parameters": {
+            "strict_required_status_checks_policy": false,
+            "do_not_enforce_on_create": false,
+            "required_status_checks": [
+              {
+                "context": "queue-observe",
+                "integration_id": 15368
+              }
+            ]
+          }
+        }
+      ],
+      "bypass": [],
+      "events": [
+        {
+          "run": 42556313375,
+          "head": "9cf270171e959a89a441b96a0d12d3f557d88260",
+          "base": "78a3494be51b1ba38d5e86cc2af54c640abab5a1",
+          "checkout_equal": true,
+          "single_parent_chain": true
+        },
+        {
+          "run": 42556315147,
+          "head": "5ddb7842eee0a5e52b732487010a2c31414b7cec",
+          "base": "9cf270171e959a89a441b96a0d12d3f557d88260",
+          "checkout_equal": true,
+          "single_parent_chain": true
+        }
+      ],
+      "final": {
+        "A": {
+          "number": 53,
+          "merged": true,
+          "head": "dca0f6c6431b8c360fd137849d6a6c38827e10dc",
+          "removals": [
+            "merged"
+          ]
+        },
+        "B": {
+          "number": 54,
+          "merged": true,
+          "head": "38175a9715b446a21d8be56d3f32c8bb3194aa4e",
+          "removals": [
+            "merged"
+          ]
+        }
+      }
+    },
+    "q03-rebase-allgreen-2": {
+      "rule_readback_matches_state": true,
+      "required": [
+        {
+          "type": "required_status_checks",
+          "parameters": {
+            "strict_required_status_checks_policy": false,
+            "do_not_enforce_on_create": false,
+            "required_status_checks": [
+              {
+                "context": "queue-observe",
+                "integration_id": 15368
+              }
+            ]
+          }
+        }
+      ],
+      "bypass": [],
+      "events": [
+        {
+          "run": 42556501743,
+          "head": "ef6a55e01a7cf15636c18fe4c72056a35d69be85",
+          "base": "d9906d3cc805d0618396c21fb0f16a5b17d88183",
+          "checkout_equal": true,
+          "single_parent_chain": true
+        }
+      ],
+      "final": {
+        "A": {
+          "number": 62,
+          "merged": true,
+          "head": "bdbdaf1fd1f34e7edbcc63a5ad4ad78d28d40445",
+          "removals": [
+            "merged"
+          ]
+        },
+        "B": {
+          "number": 63,
+          "merged": false,
+          "head": "2f200ff35d8b5b92a42ada4821207a6221dad883",
+          "removals": [
+            "invalid_merge_commit"
+          ]
+        }
+      }
+    },
+    "q06-allgreen-interval": {
+      "watch_first_start": "2026-11-09T03:25:52.669206+00:00",
+      "watch_last_end": "2026-11-09T03:26:37.843881+00:00",
+      "settled_first_start": "2026-11-09T03:26:14.507287+00:00",
+      "settled_first_end": "2026-11-09T03:26:15.440542+00:00",
+      "settled_last_end": "2026-11-09T03:26:37.843881+00:00",
+      "sample_count": 5
+    }
+  },
+  "structure": {
+    "s01": {
+      "selected_boundary": "unstack",
+      "initial_exit": -9,
+      "distinct_process_ids": true,
+      "prefix_receipts_before_death": true,
+      "exact_patch_recomputed": true,
+      "resumed_after_count": 1,
+      "completed_count": 7,
+      "exact_initial_prefix": true,
+      "remaining_dispatches_after_initial_death": true
+    },
+    "s02": {
+      "selected_boundary": "park-B",
+      "initial_exit": -9,
+      "distinct_process_ids": true,
+      "prefix_receipts_before_death": true,
+      "exact_patch_recomputed": true,
+      "resumed_after_count": 2,
+      "completed_count": 7,
+      "exact_initial_prefix": true,
+      "remaining_dispatches_after_initial_death": true
+    },
+    "s03": {
+      "selected_boundary": "park-C",
+      "initial_exit": -9,
+      "distinct_process_ids": true,
+      "prefix_receipts_before_death": true,
+      "exact_patch_recomputed": true,
+      "resumed_after_count": 3,
+      "completed_count": 7,
+      "exact_initial_prefix": true,
+      "remaining_dispatches_after_initial_death": true
+    },
+    "s04": {
+      "selected_boundary": "heads-archives",
+      "initial_exit": -9,
+      "distinct_process_ids": true,
+      "prefix_receipts_before_death": true,
+      "exact_patch_recomputed": true,
+      "resumed_after_count": 4,
+      "completed_count": 7,
+      "exact_initial_prefix": true,
+      "remaining_dispatches_after_initial_death": true
+    },
+    "s05": {
+      "selected_boundary": "final-A",
+      "initial_exit": -9,
+      "distinct_process_ids": true,
+      "prefix_receipts_before_death": true,
+      "exact_patch_recomputed": true,
+      "resumed_after_count": 5,
+      "completed_count": 7,
+      "exact_initial_prefix": true,
+      "remaining_dispatches_after_initial_death": true
+    },
+    "s06": {
+      "selected_boundary": "final-B",
+      "initial_exit": -9,
+      "distinct_process_ids": true,
+      "prefix_receipts_before_death": true,
+      "exact_patch_recomputed": true,
+      "resumed_after_count": 6,
+      "completed_count": 7,
+      "exact_initial_prefix": true,
+      "remaining_dispatches_after_initial_death": true
+    },
+    "s07": {
+      "selected_boundary": "register",
+      "initial_exit": -9,
+      "distinct_process_ids": true,
+      "prefix_receipts_before_death": true,
+      "exact_patch_recomputed": true,
+      "resumed_after_count": 7,
+      "completed_count": 7,
+      "exact_initial_prefix": true,
+      "remaining_dispatches_after_initial_death": true
+    },
+    "s08": {
+      "selected_boundary": "create-D",
+      "initial_exit": -9,
+      "distinct_process_ids": true,
+      "prefix_receipts_before_death": true,
+      "exact_patch_recomputed": true,
+      "resumed_after_count": 5,
+      "completed_count": 8,
+      "exact_initial_prefix": true,
+      "remaining_dispatches_after_initial_death": true
+    },
+    "s09": {
+      "selected_boundary": "register",
+      "initial_exit": -9,
+      "distinct_process_ids": true,
+      "prefix_receipts_before_death": true,
+      "exact_patch_recomputed": true,
+      "resumed_after_count": 8,
+      "completed_count": 8,
+      "exact_initial_prefix": true,
+      "remaining_dispatches_after_initial_death": true
+    },
+    "s10": {
+      "selected_boundary": "unstack",
+      "initial_exit": -9,
+      "distinct_process_ids": true,
+      "prefix_receipts_before_death": true,
+      "exact_patch_recomputed": true
+    },
+    "aggregate": {
+      "unique_canonical_prs": 32,
+      "old_archives": 30,
+      "published_v2_archives": 29,
+      "mutation_receipts": 117,
+      "all_patch_recomputed": true,
+      "all_positive_prefix_schedules_match": true,
+      "executor_hash_matches_campaign": {
+        "lab.py": true,
+        "run.py": true
+      },
+      "raw_mutation_intents": 117,
+      "every_raw_mutation_receipted": true,
+      "final_recorded_identity_lifecycle_archive_equalities_recomputed": true
+    }
+  },
+  "ci_matched": {
+    "matched-stale": {
+      "same_bot_author": true,
+      "review_rules": {
+        "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/branches/exp/fu2/ci/matched-stale/trunk/protection/required_pull_request_reviews",
+        "dismiss_stale_reviews": true,
+        "require_code_owner_reviews": false,
+        "require_last_push_approval": false,
+        "required_approving_review_count": 1
+      },
+      "before": [
+        [
+          5821674287,
+          "APPROVED",
+          "a319fbee563a20f201bd88f0f66d6d49d38f102e"
+        ]
+      ],
+      "after": [
+        [
+          5821674287,
+          "DISMISSED",
+          "a319fbee563a20f201bd88f0f66d6d49d38f102e"
+        ]
+      ],
+      "lower_merged": true,
+      "upper_gate": "BLOCKED",
+      "patch_recomputed_equal": true,
+      "tree_recomputed_equal": true
+    },
+    "matched-codeowner": {
+      "same_bot_author": true,
+      "review_rules": {
+        "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/branches/exp/fu2/ci/matched-codeowner/trunk/protection/required_pull_request_reviews",
+        "dismiss_stale_reviews": true,
+        "require_code_owner_reviews": true,
+        "require_last_push_approval": false,
+        "required_approving_review_count": 1
+      },
+      "before": [
+        [
+          5821675153,
+          "APPROVED",
+          "a319fbee563a20f201bd88f0f66d6d49d38f102e"
+        ]
+      ],
+      "after": [
+        [
+          5821675153,
+          "DISMISSED",
+          "a319fbee563a20f201bd88f0f66d6d49d38f102e"
+        ]
+      ],
+      "lower_merged": true,
+      "upper_gate": "BLOCKED",
+      "patch_recomputed_equal": true,
+      "tree_recomputed_equal": true
+    },
+    "matched-nostale": {
+      "same_bot_author": true,
+      "review_rules": {
+        "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/branches/exp/fu2/ci/matched-nostale/trunk/protection/required_pull_request_reviews",
+        "dismiss_stale_reviews": false,
+        "require_code_owner_reviews": false,
+        "require_last_push_approval": false,
+        "required_approving_review_count": 1
+      },
+      "before": [
+        [
+          5821676170,
+          "APPROVED",
+          "a319fbee563a20f201bd88f0f66d6d49d38f102e"
+        ]
+      ],
+      "after": [
+        [
+          5821676170,
+          "APPROVED",
+          "5c3a919e5c169503faf3f8e72e47906ab9018da7"
+        ]
+      ],
+      "lower_merged": true,
+      "upper_gate": "CLEAN",
+      "patch_recomputed_equal": true,
+      "tree_recomputed_equal": true
+    },
+    "same_source_objects": true
+  },
+  "input_sha256": {
+    "PLAN.md": "e1db950dbc900d8c4287cbe850add6b35dadb893f02235d8dc1ccffeea0391f2",
+    "control/COORDINATION.md": "866240103f544bea5c4928982353984d3daccd55ea546d552adcc9cee4848cc4",
+    "queue/RESULTS.md": "acb59da1c6055790a40ab517104454eafd8baffddb8c6e647e64c696eb049381",
+    "queue/case-matrix.json": "adf33dd75ada8707613d0ff3dc00edfe49aff0d8681d4ce18b4d011008e72b3d",
+    "queue/FINAL-AUDIT.json": "05b2978c504f7a8919e439823119cd39a513aafda603a287cff6c69e5160c468",
+    "local/RESULTS.md": "0a9dd01bd6a63b98bcb541d3632216ef9829d7449eceb0aba79062fc7d817ca2",
+    "local/RESULTS.json": "cba2a4d33a18876b8b0d0cdead724ab3794c43ebcf3b6dd529aac1fe8ed59304",
+    "local/baseline-harness.py": "548714fe2959e48dfd61286683a4773405affc23b2591e2a48637c5c76ebb7e3",
+    "local/recovery_adversarial.py": "f949c210205d7d556cd9398ac1b5306513c5f808e4d557ff8b8acf5f4c685c3c",
+    "structure/RESULTS.md": "be78c76bfe32cbfefd2c5d8bebfc0e80576b60ed4089598b29db9f07c950aedb",
+    "structure/FINAL-AUDIT.json": "6825616ac6ff4033fdd01eed25680dc58fb18cec82b7fc0a6e2d44aacf1d73c2",
+    "structure/lab.py": "747b59db8930fccadf2c2aa5668ff149f06d7e667fb5fd46b2db99ba9ff688ff",
+    "structure/run.py": "63c5d2b9ebf4fd676a9afc3b44b049790e2a8cc481c490d2d6111b4f38a6e89e",
+    "ci-reviews/RESULTS.md": "0b6c432bd3dac1d18d66e4c9d04783cea23905ab8a69e3a42551b14aca2a8d29",
+    "ci-reviews/matrix.json": "0740cd10bca4ae807635d9aa67a39bbd0dcda7e067cb94443f7d69ad82b7f8e2"
+  }
+}

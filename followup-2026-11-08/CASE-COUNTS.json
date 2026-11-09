@@ -1,0 +1,55 @@
+{
+  "lanes": [
+    {
+      "lane": "queue",
+      "indexed_case_ids": 32,
+      "dispositions": {
+        "performed": 25,
+        "reused": 7
+      },
+      "case_index_sha256": "adf33dd75ada8707613d0ff3dc00edfe49aff0d8681d4ce18b4d011008e72b3d"
+    },
+    {
+      "lane": "local",
+      "indexed_case_ids": 30,
+      "dispositions": {
+        "performed": 26,
+        "performed-and-reused-prior": 3,
+        "concretely-unavailable": 1
+      },
+      "case_index_sha256": "cba2a4d33a18876b8b0d0cdead724ab3794c43ebcf3b6dd529aac1fe8ed59304"
+    },
+    {
+      "lane": "ci-reviews",
+      "indexed_case_ids": 31,
+      "dispositions": {
+        "reused": 9,
+        "performed": 22
+      },
+      "case_index_sha256": "e9def45ae102bb53cc7ff5b8f7cef51144005c81b1d04d7a9c9bd023873ebcc8"
+    },
+    {
+      "lane": "protocol",
+      "indexed_case_ids": 26,
+      "dispositions": {
+        "performed": 24,
+        "failed premise; replaced by P-B02-F101": 1,
+        "reused prior evidence": 1
+      },
+      "case_index_sha256": "9ecf218caea8a545cd793ac73ad3ee5195935f40369808da39e072249d4c9e84"
+    },
+    {
+      "lane": "structure",
+      "indexed_case_ids": 11,
+      "dispositions": {
+        "performed-observed-recovered": 9,
+        "performed-refused-before-new-dispatch": 2
+      },
+      "case_index_sha256": "bdd8c0472a9776739552e78d2f1d51c70668a56151e59e089e3047f5421c9276"
+    }
+  ],
+  "indexed_case_ids": 130,
+  "counts_are_not_a_correctness_score": true,
+  "authenticated_queue_extension": "prepared, unadmitted; separate extension not in130",
+  "human_usability": "not established"
+}

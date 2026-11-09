@@ -1,0 +1,41 @@
+{
+  "current_sources_match_indexes": [
+    {
+      "lane": "queue",
+      "source_files": 5597,
+      "changed": [],
+      "archive_sha256": "3ddaa7a4fc86afbc14632dc5725fcddd12840ef23743691e93ebe849adcbe66f"
+    },
+    {
+      "lane": "local",
+      "source_files": 1329,
+      "changed": [],
+      "archive_sha256": "b518ab92bdf9044cbb0bd26919fd5960e2449e46df2779b4a41d12cfe7dcf7b1"
+    },
+    {
+      "lane": "structure",
+      "source_files": 2776,
+      "changed": [],
+      "archive_sha256": "c51e18e0a4f6b1ed03b5c0c0cbaadfdedaf9e088cf9e92b22198611827b4a087"
+    },
+    {
+      "lane": "ci-reviews",
+      "source_files": 5681,
+      "changed": [],
+      "archive_sha256": "8c825c317146a4691b2a1d6f60da475bdde851399b87235aa8997e9725dd27f7"
+    },
+    {
+      "lane": "protocol",
+      "source_files": 1579,
+      "changed": [],
+      "archive_sha256": "9c0d23f527ba02ca2bd06a06526ef7b65c3fd5b9822d5eb6351b7dec8d98a899"
+    },
+    {
+      "lane": "ui",
+      "source_files": 4,
+      "changed": [],
+      "archive_sha256": "5be5a5147f75892ace11278dc7a2ec07bcbeb58cfbd25ffe8a5554bf7d8a3161"
+    }
+  ],
+  "no_mutating_sources_rerun": true
+}

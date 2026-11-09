@@ -3,10 +3,17 @@
   "files": [
     {
       "path": "ACCESS-ATTEMPTS.md",
-      "bytes": 2020,
-      "sha256": "6d6e4efeeafd343aacdd0a50e536548e6a03d3216443732864f2f1f9e196d39b",
+      "bytes": 3487,
+      "sha256": "9b929e1c250c8c7e1060b76c856397dc271d8a45b3be7391547e5e877368aeca",
       "mode": 420,
-      "mtime_seconds": 1794198026
+      "mtime_seconds": 1794200103
+    },
+    {
+      "path": "HISTORY-BROWSER-RESULTS.md",
+      "bytes": 2192,
+      "sha256": "5ef5a9e59ad63ba91334f8ca15b68ca281f3b738bc666c868021e185e4cbb8fa",
+      "mode": 420,
+      "mtime_seconds": 1794199859
     },
     {
       "path": "HUMAN-STUDY.md",
@@ -14,12 +21,19 @@
       "sha256": "0c2773683957f3a0e84a191acbf26b764974bfa86244e9cdfd37cfeea9f37a1f",
       "mode": 420,
       "mtime_seconds": 1794198026
+    },
+    {
+      "path": "user-rebase-128.json",
+      "bytes": 550,
+      "sha256": "82e6184b2172e4a1b68ebeaaf47e3b79ac4ea4dd9a77b8254bf130138862b530",
+      "mode": 420,
+      "mtime_seconds": 1794199425
     }
   ],
-  "file_count": 2,
-  "expanded_bytes": 4488,
-  "archive_bytes": 2320,
-  "archive_sha256": "2818d288477fa98326976d53e99f83a0548482278940f3eeebb31c760d4712db",
+  "file_count": 4,
+  "expanded_bytes": 8697,
+  "archive_bytes": 4122,
+  "archive_sha256": "5be5a5147f75892ace11278dc7a2ec07bcbeb58cfbd25ffe8a5554bf7d8a3161",
   "verified": true,
   "scope": "UTF-8 source/reports/evidence only; local Git databases, executables, working trees and nontext payloads are retained locally, not removed",
   "restore": "In a new empty directory: tar -xzf /path/to/evidence.tar.gz; verify every entry against SOURCE-INDEX.json before use."

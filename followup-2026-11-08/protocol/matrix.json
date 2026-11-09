@@ -1,0 +1,750 @@
+[
+  {
+    "id": "P-T01",
+    "disposition": "performed",
+    "operation": "PR create",
+    "variant": "immediate close",
+    "request_method": "POST",
+    "request_path": "/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/pulls",
+    "request_payload": {
+      "head": "exp/fu2/protocol/lost-pr/001",
+      "base": "exp/fu2/protocol/lost-pr/trunk",
+      "title": "Synthetic protocol lost-pr layer 1",
+      "body": "Synthetic protocol fixture lost-pr:1\n\n*Authored by an AI agent acting on joshlf's behalf.*"
+    },
+    "all_planned_bytes_sent": true,
+    "intentionally_omitted_body_bytes": 0,
+    "http_receive_calls": 0,
+    "http_status_known": false,
+    "client_decision_before_every_oracle": true,
+    "client_decision": "retain unknown; do not resend or overlap this fixture",
+    "resent": false,
+    "observed": {
+      "matching_prs": [],
+      "effect": "no match in bounded observations",
+      "general_idempotency": false
+    },
+    "source": "transport-results.json",
+    "limits": [
+      "Sole-writer fixture attribution",
+      "No provider idempotency or quiescence guarantee",
+      "Local TLS send completion does not establish remote receipt",
+      "Status/response may have been buffered during a hold but was never read"
+    ]
+  },
+  {
+    "id": "P-T02",
+    "disposition": "performed",
+    "operation": "comment create",
+    "variant": "immediate close",
+    "request_method": "POST",
+    "request_path": "/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/issues/154/comments",
+    "request_payload": {
+      "body": "Unique synthetic in-flight comment P-T02 / lost-comment.\n\n*Authored by an AI agent acting on joshlf's behalf.*"
+    },
+    "all_planned_bytes_sent": true,
+    "intentionally_omitted_body_bytes": 0,
+    "http_receive_calls": 0,
+    "http_status_known": false,
+    "client_decision_before_every_oracle": true,
+    "client_decision": "retain unknown; do not resend or overlap this fixture",
+    "resent": false,
+    "observed": {
+      "matching_comments": [],
+      "effect": "no match in bounded observations",
+      "general_idempotency": false
+    },
+    "source": "transport-results.json",
+    "limits": [
+      "Sole-writer fixture attribution",
+      "No provider idempotency or quiescence guarantee",
+      "Local TLS send completion does not establish remote receipt",
+      "Status/response may have been buffered during a hold but was never read"
+    ]
+  },
+  {
+    "id": "P-T03",
+    "disposition": "performed",
+    "operation": "base PATCH",
+    "variant": "immediate close",
+    "request_method": "PATCH",
+    "request_path": "/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/pulls/155",
+    "request_payload": {
+      "base": "exp/fu2/protocol/lost-base/alternate-trunk"
+    },
+    "all_planned_bytes_sent": true,
+    "intentionally_omitted_body_bytes": 0,
+    "http_receive_calls": 0,
+    "http_status_known": false,
+    "client_decision_before_every_oracle": true,
+    "client_decision": "retain unknown; do not resend or overlap this fixture",
+    "resent": false,
+    "observed": {
+      "before_base": "exp/fu2/protocol/lost-base/trunk",
+      "desired_base": "exp/fu2/protocol/lost-base/alternate-trunk",
+      "observed_base": "exp/fu2/protocol/lost-base/trunk",
+      "effect": "not observed",
+      "general_causal_fence": false
+    },
+    "source": "transport-results.json",
+    "limits": [
+      "Sole-writer fixture attribution",
+      "No provider idempotency or quiescence guarantee",
+      "Local TLS send completion does not establish remote receipt",
+      "Status/response may have been buffered during a hold but was never read"
+    ]
+  },
+  {
+    "id": "P-T04",
+    "disposition": "performed",
+    "operation": "stack create",
+    "variant": "immediate close",
+    "request_method": "POST",
+    "request_path": "/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/stacks",
+    "request_payload": {
+      "pull_requests": [
+        156,
+        157
+      ]
+    },
+    "all_planned_bytes_sent": true,
+    "intentionally_omitted_body_bytes": 0,
+    "http_receive_calls": 0,
+    "http_status_known": false,
+    "client_decision_before_every_oracle": true,
+    "client_decision": "retain unknown; do not resend or overlap this fixture",
+    "resent": false,
+    "observed": {
+      "groups": [],
+      "effect": "no grouping in bounded observations",
+      "sole_writer_attribution_only": true
+    },
+    "source": "transport-results.json",
+    "limits": [
+      "Sole-writer fixture attribution",
+      "No provider idempotency or quiescence guarantee",
+      "Local TLS send completion does not establish remote receipt",
+      "Status/response may have been buffered during a hold but was never read"
+    ]
+  },
+  {
+    "id": "P-T05",
+    "disposition": "performed",
+    "operation": "stack append",
+    "variant": "immediate close",
+    "request_method": "POST",
+    "request_path": "/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/stacks/161/add",
+    "request_payload": {
+      "pull_requests": [
+        160
+      ]
+    },
+    "all_planned_bytes_sent": true,
+    "intentionally_omitted_body_bytes": 0,
+    "http_receive_calls": 0,
+    "http_status_known": false,
+    "client_decision_before_every_oracle": true,
+    "client_decision": "retain unknown; do not resend or overlap this fixture",
+    "resent": false,
+    "observed": {
+      "expected": [
+        158,
+        159,
+        160
+      ],
+      "observed": [
+        158,
+        159
+      ],
+      "effect": "expected membership not observed",
+      "sole_writer_attribution_only": true
+    },
+    "source": "transport-results.json",
+    "limits": [
+      "Sole-writer fixture attribution",
+      "No provider idempotency or quiescence guarantee",
+      "Local TLS send completion does not establish remote receipt",
+      "Status/response may have been buffered during a hold but was never read"
+    ]
+  },
+  {
+    "id": "P-T06",
+    "disposition": "performed",
+    "operation": "stack unstack",
+    "variant": "immediate close",
+    "request_method": "POST",
+    "request_path": "/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/stacks/164/unstack",
+    "request_payload": null,
+    "all_planned_bytes_sent": true,
+    "intentionally_omitted_body_bytes": 0,
+    "http_receive_calls": 0,
+    "http_status_known": false,
+    "client_decision_before_every_oracle": true,
+    "client_decision": "retain unknown; do not resend or overlap this fixture",
+    "resent": false,
+    "observed": {
+      "memberships": [
+        {
+          "base": {
+            "ref": "exp/fu2/protocol/lost-stack-unstack/trunk",
+            "sha": "b4b287f74ba821f7e1c42f6fb5c947a60511f927"
+          },
+          "id": 3225918,
+          "number": 164,
+          "position": 1,
+          "size": 2
+        },
+        {
+          "base": {
+            "ref": "exp/fu2/protocol/lost-stack-unstack/trunk",
+            "sha": "b4b287f74ba821f7e1c42f6fb5c947a60511f927"
+          },
+          "id": 3225918,
+          "number": 164,
+          "position": 2,
+          "size": 2
+        }
+      ],
+      "stack_http": 200,
+      "effect": "membership still present; unstack effect not observed",
+      "absence_is_not_quiescence": true
+    },
+    "source": "transport-results.json",
+    "limits": [
+      "Sole-writer fixture attribution",
+      "No provider idempotency or quiescence guarantee",
+      "Local TLS send completion does not establish remote receipt",
+      "Status/response may have been buffered during a hold but was never read"
+    ]
+  },
+  {
+    "id": "P-T07",
+    "disposition": "performed",
+    "operation": "direct async merge",
+    "variant": "immediate close",
+    "request_method": "PUT",
+    "request_path": "/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/pulls/166/merge-async",
+    "request_payload": {
+      "merge_method": "squash",
+      "merge_action": "direct_merge",
+      "sha": "f97ce273b6eba786cd6d1d5c4d123b5229e908e1"
+    },
+    "all_planned_bytes_sent": true,
+    "intentionally_omitted_body_bytes": 0,
+    "http_receive_calls": 0,
+    "http_status_known": false,
+    "client_decision_before_every_oracle": true,
+    "client_decision": "retain unknown; do not resend or overlap this fixture",
+    "resent": false,
+    "observed": {
+      "all_members_observed_merged": false,
+      "expected_tree": "23938558e3780cc90717100bf963b1c3991f493e",
+      "observed_trunk_tree": "f22cdf20f79caa1b2c952a6cc0879e7863624959",
+      "tree_matches": false,
+      "uuid_known": false,
+      "http_status_known": false,
+      "same_intent_resubmitted": false,
+      "provider_quiescence_established": false
+    },
+    "source": "transport-results.json",
+    "limits": [
+      "Sole-writer fixture attribution",
+      "No provider idempotency or quiescence guarantee",
+      "Local TLS send completion does not establish remote receipt",
+      "Status/response may have been buffered during a hold but was never read"
+    ]
+  },
+  {
+    "id": "P-T08",
+    "disposition": "performed",
+    "operation": "truncated PR create negative",
+    "variant": "immediate close",
+    "request_method": "POST",
+    "request_path": "/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/pulls",
+    "request_payload": {
+      "head": "exp/fu2/protocol/partial-pr/001",
+      "base": "exp/fu2/protocol/partial-pr/trunk",
+      "title": "Synthetic protocol partial-pr layer 1",
+      "body": "Synthetic protocol fixture partial-pr:1\n\n*Authored by an AI agent acting on joshlf's behalf.*"
+    },
+    "all_planned_bytes_sent": true,
+    "intentionally_omitted_body_bytes": 1,
+    "http_receive_calls": 0,
+    "http_status_known": false,
+    "client_decision_before_every_oracle": true,
+    "client_decision": "retain unknown; do not resend or overlap this fixture",
+    "resent": false,
+    "observed": {
+      "matching_prs": [],
+      "limit": "Bounded absence control; no general guarantee inferred from EOF behavior"
+    },
+    "source": "transport-results.json",
+    "limits": [
+      "Sole-writer fixture attribution",
+      "No provider idempotency or quiescence guarantee",
+      "Local TLS send completion does not establish remote receipt",
+      "Status/response may have been buffered during a hold but was never read"
+    ]
+  },
+  {
+    "id": "P-T01-H500",
+    "disposition": "performed",
+    "operation": "PR create",
+    "variant": "500ms hold, no HTTP read",
+    "request_method": "POST",
+    "request_path": "/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/pulls",
+    "request_payload": {
+      "head": "exp/fu2/protocol/lost-pr-h500/001",
+      "base": "exp/fu2/protocol/lost-pr-h500/trunk",
+      "title": "Synthetic protocol lost-pr-h500 layer 1",
+      "body": "Synthetic protocol fixture lost-pr-h500:1\n\n*Authored by an AI agent acting on joshlf's behalf.*"
+    },
+    "all_planned_bytes_sent": true,
+    "intentionally_omitted_body_bytes": 0,
+    "http_receive_calls": 0,
+    "http_status_known": false,
+    "client_decision_before_every_oracle": true,
+    "client_decision": "retain unknown; do not resend or overlap this fixture",
+    "resent": false,
+    "observed": {
+      "matching_prs": [
+        168
+      ],
+      "effect": "positive identified object",
+      "general_idempotency": false
+    },
+    "source": "transport-results-H500.json",
+    "limits": [
+      "Sole-writer fixture attribution",
+      "No provider idempotency or quiescence guarantee",
+      "Local TLS send completion does not establish remote receipt",
+      "Status/response may have been buffered during a hold but was never read"
+    ]
+  },
+  {
+    "id": "P-T02-H500",
+    "disposition": "performed",
+    "operation": "comment create",
+    "variant": "500ms hold, no HTTP read",
+    "request_method": "POST",
+    "request_path": "/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/issues/169/comments",
+    "request_payload": {
+      "body": "Unique synthetic in-flight comment P-T02-H500 / lost-comment.\n\n*Authored by an AI agent acting on joshlf's behalf.*"
+    },
+    "all_planned_bytes_sent": true,
+    "intentionally_omitted_body_bytes": 0,
+    "http_receive_calls": 0,
+    "http_status_known": false,
+    "client_decision_before_every_oracle": true,
+    "client_decision": "retain unknown; do not resend or overlap this fixture",
+    "resent": false,
+    "observed": {
+      "matching_comments": [
+        6732137323
+      ],
+      "effect": "positive identified object",
+      "general_idempotency": false
+    },
+    "source": "transport-results-H500.json",
+    "limits": [
+      "Sole-writer fixture attribution",
+      "No provider idempotency or quiescence guarantee",
+      "Local TLS send completion does not establish remote receipt",
+      "Status/response may have been buffered during a hold but was never read"
+    ]
+  },
+  {
+    "id": "P-T03-H500",
+    "disposition": "performed",
+    "operation": "base PATCH",
+    "variant": "500ms hold, no HTTP read",
+    "request_method": "PATCH",
+    "request_path": "/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/pulls/170",
+    "request_payload": {
+      "base": "exp/fu2/protocol/lost-base-h500/alternate-trunk"
+    },
+    "all_planned_bytes_sent": true,
+    "intentionally_omitted_body_bytes": 0,
+    "http_receive_calls": 0,
+    "http_status_known": false,
+    "client_decision_before_every_oracle": true,
+    "client_decision": "retain unknown; do not resend or overlap this fixture",
+    "resent": false,
+    "observed": {
+      "before_base": "exp/fu2/protocol/lost-base-h500/trunk",
+      "desired_base": "exp/fu2/protocol/lost-base-h500/alternate-trunk",
+      "observed_base": "exp/fu2/protocol/lost-base-h500/alternate-trunk",
+      "effect": "positive transition",
+      "general_causal_fence": false
+    },
+    "source": "transport-results-H500.json",
+    "limits": [
+      "Sole-writer fixture attribution",
+      "No provider idempotency or quiescence guarantee",
+      "Local TLS send completion does not establish remote receipt",
+      "Status/response may have been buffered during a hold but was never read"
+    ]
+  },
+  {
+    "id": "P-T04-H500",
+    "disposition": "performed",
+    "operation": "stack create",
+    "variant": "500ms hold, no HTTP read",
+    "request_method": "POST",
+    "request_path": "/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/stacks",
+    "request_payload": {
+      "pull_requests": [
+        171,
+        172
+      ]
+    },
+    "all_planned_bytes_sent": true,
+    "intentionally_omitted_body_bytes": 0,
+    "http_receive_calls": 0,
+    "http_status_known": false,
+    "client_decision_before_every_oracle": true,
+    "client_decision": "retain unknown; do not resend or overlap this fixture",
+    "resent": false,
+    "observed": {
+      "groups": [
+        {
+          "number": 173,
+          "members": [
+            171,
+            172
+          ]
+        }
+      ],
+      "effect": "positive grouping",
+      "sole_writer_attribution_only": true
+    },
+    "source": "transport-results-H500.json",
+    "limits": [
+      "Sole-writer fixture attribution",
+      "No provider idempotency or quiescence guarantee",
+      "Local TLS send completion does not establish remote receipt",
+      "Status/response may have been buffered during a hold but was never read"
+    ]
+  },
+  {
+    "id": "P-T05-H500",
+    "disposition": "performed",
+    "operation": "stack append",
+    "variant": "500ms hold, no HTTP read",
+    "request_method": "POST",
+    "request_path": "/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/stacks/177/add",
+    "request_payload": {
+      "pull_requests": [
+        176
+      ]
+    },
+    "all_planned_bytes_sent": true,
+    "intentionally_omitted_body_bytes": 0,
+    "http_receive_calls": 0,
+    "http_status_known": false,
+    "client_decision_before_every_oracle": true,
+    "client_decision": "retain unknown; do not resend or overlap this fixture",
+    "resent": false,
+    "observed": {
+      "expected": [
+        174,
+        175,
+        176
+      ],
+      "observed": [
+        174,
+        175,
+        176
+      ],
+      "effect": "positive appended membership",
+      "sole_writer_attribution_only": true
+    },
+    "source": "transport-results-H500.json",
+    "limits": [
+      "Sole-writer fixture attribution",
+      "No provider idempotency or quiescence guarantee",
+      "Local TLS send completion does not establish remote receipt",
+      "Status/response may have been buffered during a hold but was never read"
+    ]
+  },
+  {
+    "id": "P-T06-H500",
+    "disposition": "performed",
+    "operation": "stack unstack",
+    "variant": "500ms hold, no HTTP read",
+    "request_method": "POST",
+    "request_path": "/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/stacks/180/unstack",
+    "request_payload": null,
+    "all_planned_bytes_sent": true,
+    "intentionally_omitted_body_bytes": 0,
+    "http_receive_calls": 0,
+    "http_status_known": false,
+    "client_decision_before_every_oracle": true,
+    "client_decision": "retain unknown; do not resend or overlap this fixture",
+    "resent": false,
+    "observed": {
+      "memberships": [
+        null,
+        null
+      ],
+      "stack_http": 404,
+      "effect": "observed membership absence; client dispatch remains unknown",
+      "absence_is_not_quiescence": true
+    },
+    "source": "transport-results-H500.json",
+    "limits": [
+      "Sole-writer fixture attribution",
+      "No provider idempotency or quiescence guarantee",
+      "Local TLS send completion does not establish remote receipt",
+      "Status/response may have been buffered during a hold but was never read"
+    ]
+  },
+  {
+    "id": "P-T07-H500",
+    "disposition": "performed",
+    "operation": "direct async merge",
+    "variant": "500ms hold, no HTTP read",
+    "request_method": "PUT",
+    "request_path": "/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/pulls/186/merge-async",
+    "request_payload": {
+      "merge_method": "squash",
+      "merge_action": "direct_merge",
+      "sha": "8c107b23c043a6389318f8e2efa9de97d7305a58"
+    },
+    "all_planned_bytes_sent": true,
+    "intentionally_omitted_body_bytes": 0,
+    "http_receive_calls": 0,
+    "http_status_known": false,
+    "client_decision_before_every_oracle": true,
+    "client_decision": "retain unknown; do not resend or overlap this fixture",
+    "resent": false,
+    "observed": {
+      "all_members_observed_merged": true,
+      "expected_tree": "51b693fb98da14dba61e0648cee858edf82ec488",
+      "observed_trunk_tree": "51b693fb98da14dba61e0648cee858edf82ec488",
+      "tree_matches": true,
+      "uuid_known": false,
+      "http_status_known": false,
+      "same_intent_resubmitted": false,
+      "provider_quiescence_established": false
+    },
+    "source": "transport-results-H500.json",
+    "limits": [
+      "Sole-writer fixture attribution",
+      "No provider idempotency or quiescence guarantee",
+      "Local TLS send completion does not establish remote receipt",
+      "Status/response may have been buffered during a hold but was never read"
+    ]
+  },
+  {
+    "id": "P-T08-H500",
+    "disposition": "performed",
+    "operation": "truncated PR create negative",
+    "variant": "500ms hold, no HTTP read",
+    "request_method": "POST",
+    "request_path": "/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/pulls",
+    "request_payload": {
+      "head": "exp/fu2/protocol/partial-pr-h500/001",
+      "base": "exp/fu2/protocol/partial-pr-h500/trunk",
+      "title": "Synthetic protocol partial-pr-h500 layer 1",
+      "body": "Synthetic protocol fixture partial-pr-h500:1\n\n*Authored by an AI agent acting on joshlf's behalf.*"
+    },
+    "all_planned_bytes_sent": true,
+    "intentionally_omitted_body_bytes": 1,
+    "http_receive_calls": 0,
+    "http_status_known": false,
+    "client_decision_before_every_oracle": true,
+    "client_decision": "retain unknown; do not resend or overlap this fixture",
+    "resent": false,
+    "observed": {
+      "matching_prs": [],
+      "limit": "Bounded absence control; no general guarantee inferred from EOF behavior"
+    },
+    "source": "transport-results-H500.json",
+    "limits": [
+      "Sole-writer fixture attribution",
+      "No provider idempotency or quiescence guarantee",
+      "Local TLS send completion does not establish remote receipt",
+      "Status/response may have been buffered during a hold but was never read"
+    ]
+  },
+  {
+    "id": "P-T09",
+    "disposition": "performed",
+    "observed": {
+      "raw_get_http": 200,
+      "raw_comment_http": 201,
+      "comment_id": 6732165131,
+      "independent_matching_comments": [
+        6732165131
+      ],
+      "transport": "Same manual HTTP/1.1 framing, gh in-memory token, standard-library TLS",
+      "limit": "Acknowledged positive control does not establish execution for prior closed transports"
+    },
+    "source": "raw-control-results.json"
+  },
+  {
+    "id": "P-B00",
+    "disposition": "performed",
+    "observed": {
+      "0": 422,
+      "1": 422,
+      "2": 201
+    },
+    "source": "boundary-results.json",
+    "limits": [
+      "Observed hosted behavior on the recorded date/settings; no inferred permanent guarantee"
+    ]
+  },
+  {
+    "id": "P-B01",
+    "disposition": "performed",
+    "observed": {
+      "99": {
+        "http": 504,
+        "readback_count": null
+      },
+      "100": {
+        "http": 422,
+        "readback_count": null
+      },
+      "101": {
+        "http": 422,
+        "readback_count": null
+      },
+      "distinct_real_pr_count": 101,
+      "workflow_files": "",
+      "original99_effect": "HTTP504 but group330 observed with exact intended99 members",
+      "original100_result": "422 duplicate membership; contaminated and excluded as capacity evidence",
+      "clean_replacement": "P-B01-F100"
+    },
+    "source": "boundary-results.json",
+    "limits": [
+      "Observed hosted behavior on the recorded date/settings; no inferred permanent guarantee"
+    ]
+  },
+  {
+    "id": "P-B03",
+    "disposition": "performed",
+    "observed": {
+      "duplicate": 422,
+      "reverse": 422,
+      "wrong-base": 422,
+      "missing-pr": 422,
+      "valid-control": 200,
+      "already-member-create": 422
+    },
+    "source": "boundary-results.json",
+    "limits": [
+      "Observed hosted behavior on the recorded date/settings; no inferred permanent guarantee"
+    ]
+  },
+  {
+    "id": "P-B04",
+    "disposition": "performed",
+    "observed": {
+      "closed_registration_http": 422,
+      "reopen_http": 200,
+      "open_control_http": 200
+    },
+    "source": "boundary-results.json",
+    "limits": [
+      "Observed hosted behavior on the recorded date/settings; no inferred permanent guarantee"
+    ]
+  },
+  {
+    "id": "P-B05",
+    "disposition": "performed",
+    "observed": {
+      "deleted_registration_http": 422,
+      "pr_states_after_delete": [
+        {
+          "number": 350,
+          "state": "open",
+          "merged": false
+        },
+        {
+          "number": 351,
+          "state": "closed",
+          "merged": false
+        }
+      ],
+      "original_head_retained_in_tag": "refs/tags/exp/fu2/protocol/deleted-upper/authored/002"
+    },
+    "source": "boundary-results.json",
+    "limits": [
+      "Observed hosted behavior on the recorded date/settings; no inferred permanent guarantee"
+    ]
+  },
+  {
+    "id": "P-B02",
+    "disposition": "failed premise; replaced by P-B02-F101",
+    "observed": {
+      "original_fixture_append_performed": false,
+      "reason": "Blind repeated99-create after504 returned422 existing membership; no valid append boundary observation"
+    },
+    "source": "evidence/boundary-driver-deviation.json"
+  },
+  {
+    "id": "P-B01-F100",
+    "disposition": "performed",
+    "observed": {
+      "http": 502,
+      "effect_unknown": true,
+      "read_only_oracle": [
+        {
+          "number": 461,
+          "count": 100,
+          "exact_ordered_members": true
+        }
+      ]
+    },
+    "source": "fresh-boundary-results.json",
+    "limits": [
+      "Fresh disjoint identities; original group330 untouched",
+      "No provider quiescence claim"
+    ]
+  },
+  {
+    "id": "P-B02-F101",
+    "disposition": "performed",
+    "observed": {
+      "initial_http": 201,
+      "stack": 563,
+      "boundaries": {
+        "98": {
+          "http": 200,
+          "count": 98,
+          "exact_prefix": true
+        },
+        "99": {
+          "http": 200,
+          "count": 99,
+          "exact_prefix": true
+        },
+        "100": {
+          "http": 200,
+          "count": 100,
+          "exact_prefix": true
+        },
+        "101": {
+          "http": 422,
+          "count": 100,
+          "exact_prefix": true
+        }
+      },
+      "disposition": "known rejection at size101",
+      "unknown_operation": null
+    },
+    "source": "fresh-boundary-results.json",
+    "limits": [
+      "Fresh disjoint identities; original group330 untouched",
+      "No provider quiescence claim"
+    ]
+  },
+  {
+    "id": "P-R01",
+    "disposition": "reused prior evidence",
+    "source": "reused-evidence.json"
+  }
+]

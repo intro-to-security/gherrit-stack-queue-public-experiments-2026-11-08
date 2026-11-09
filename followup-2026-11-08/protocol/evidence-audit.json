@@ -1,0 +1,46 @@
+{
+  "at": "2026-11-09T04:48:25.831068+00:00",
+  "credential_value_matches_in_evidence": [],
+  "retained_unknown_ordinary_write_intents": [
+    "P-B01-size-99",
+    "P-B01-F100-create"
+  ],
+  "all_planned_case_ids_accounted_for": true,
+  "all_no_read_faults_sent_planned_bytes": true,
+  "all_no_read_faults_have_zero_http_receive_calls": true,
+  "all_recovery_decisions_precede_every_oracle": true,
+  "mutation_intent_count": 393,
+  "ordinary_receipt_count": 513,
+  "fixture_count": 24,
+  "known_pr_identities": 334,
+  "additional_pr_identities_discovered_after_lost_create": [
+    168
+  ],
+  "total_observed_pr_identities": 335,
+  "minimum_seconds_between_pr_create_dispatches": 2.942764,
+  "cross_process_pacing_clock": "UTC timestamps sorted across records; observed timestamp differences only, with uncalibrated wall-clock accuracy. Same-client monotonic readings are retained for cut/oracle ordering.",
+  "audit_clock_correction": "Retained UTC and monotonic pairs have incompatible gaps and cannot be treated as one coherent aggregate clock. The cause and clock origins were not recorded. Earlier report/derived-audit wording is preserved under report-corrections/clock-compatibility-2026-11-09/; the first aggregate audit remains in evidence/evidence-audit-before-clock-fix.json. Raw evidence and source are unchanged.",
+  "all_fixture_trunk_trees_workflow_free": true,
+  "scope": "No settings or main writes; native objects retained",
+  "recorded_harness_violation": "P-B02-register-99 blindly repeated the same logical create after P-B01-size-99 returned504. See boundary-driver-deviation.json. All deliberate TLS-cut identities were dispatched only once.",
+  "minimum_interval_limit": "Observed adjacent UTC timestamp difference; wall-clock accuracy was not calibrated.",
+  "retained_clock_conflict": {
+    "records": [
+      {
+        "label": "lost-stack-unstack-pr-002",
+        "source": "evidence/lost-stack-unstack-pr-002.intent.json",
+        "utc": "2026-11-09T04:17:15.028786+00:00",
+        "monotonic": 82.618812166
+      },
+      {
+        "label": "lost-stack-unstack-h500-pr-001",
+        "source": "evidence/lost-stack-unstack-h500-pr-001.intent.json",
+        "utc": "2026-11-09T04:20:14.026731+00:00",
+        "monotonic": 82.621309541
+      }
+    ],
+    "utc_timestamp_gap_seconds": 178.997945,
+    "monotonic_reading_gap": "0.002497375",
+    "cause_and_clock_origins": "Not established by retained metadata"
+  }
+}

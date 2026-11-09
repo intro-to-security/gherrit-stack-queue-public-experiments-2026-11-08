@@ -1,0 +1,16 @@
+{
+  "recorded_at": "2026-11-09T04:43:45.128423+00:00",
+  "source": "user async reply",
+  "reported": "Rebase stack completed",
+  "pr": 128,
+  "action_time": "not independently captured",
+  "request": "Only website Rebase stack, leave Merge untouched",
+  "verification": "CI lane reports changed lower/upper heads, unchanged layer patches and retained approvals; final raw evidence collection active",
+  "other_ui_prs": [
+    130,
+    132,
+    134
+  ],
+  "other_ui_state": "user question pending",
+  "reviewer_history_task": "user question pending"
+}
