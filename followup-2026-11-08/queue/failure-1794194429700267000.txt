@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-followup-2026-11-08/queue/run.py", line 246, in <module>
+    try:main()
+  File "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-followup-2026-11-08/queue/run.py", line 243, in main
+    save(HOME/'source-'+str(time.time_ns())+'.json',{'at':now(),'run_sha256':hashlib.sha256(Path(__file__).read_bytes()).hexdigest(),'lab_sha256':hashlib.sha256((HOME/'lab.py').read_bytes()).hexdigest()})
+TypeError: unsupported operand type(s) for +: 'PosixPath' and 'str'

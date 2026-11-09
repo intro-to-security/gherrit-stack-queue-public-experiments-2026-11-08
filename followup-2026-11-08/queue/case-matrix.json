@@ -1,0 +1,1876 @@
+{
+  "generated_at": "2026-11-09T03:38:06.743917+00:00",
+  "cases": [
+    {
+      "id": "Q01-C",
+      "disposition": "performed",
+      "evidence": [
+        "queue/cases/q01-removals/state.json",
+        "queue/FINAL-AUDIT.json#cases/q01-removals"
+      ],
+      "prs": {
+        "A": 37,
+        "B": 38,
+        "C": 39
+      },
+      "settings": {
+        "merge_method": "MERGE",
+        "max_entries_to_build": 1,
+        "min_entries_to_merge": 1,
+        "max_entries_to_merge": 5,
+        "min_entries_to_merge_wait_minutes": 1,
+        "grouping_strategy": "ALLGREEN",
+        "check_response_timeout_minutes": 5
+      },
+      "held_by_synthetic_gate": true,
+      "final_landed": [],
+      "final_open": [
+        "A",
+        "B",
+        "C"
+      ],
+      "removal_reasons": {
+        "A": [
+          "manual"
+        ],
+        "B": [
+          "manual"
+        ],
+        "C": [
+          "manual"
+        ]
+      },
+      "final_queue_empty": true,
+      "admission_receipts": {
+        "admit-C": {
+          "uuid": "25f700d9-2d9e-4061-a767-87a58802db1d",
+          "selected_head": "1bb4c8097cb15ae93868891cb1a884c5c67803de",
+          "final": {
+            "status": "enqueued",
+            "details": {
+              "message": "Pull request was added to the merge queue."
+            }
+          },
+          "evidence": "q01-removals-admit-C-final-uuid"
+        }
+      },
+      "dequeue_outcomes": {
+        "confirmed-dequeue-C": {
+          "data": {
+            "dequeuePullRequest": null
+          },
+          "errors": [
+            {
+              "type": "UNPROCESSABLE",
+              "path": [
+                "dequeuePullRequest"
+              ],
+              "locations": [
+                {
+                  "line": 1,
+                  "column": 36
+                }
+              ],
+              "message": "No merge queue found for branch 'exp/fu2/queue/q01-removals/B'"
+            }
+          ]
+        },
+        "confirmed-dequeue-B": {
+          "data": {
+            "dequeuePullRequest": null
+          },
+          "errors": [
+            {
+              "type": "UNPROCESSABLE",
+              "path": [
+                "dequeuePullRequest"
+              ],
+              "locations": [
+                {
+                  "line": 1,
+                  "column": 36
+                }
+              ],
+              "message": "No merge queue found for branch 'exp/fu2/queue/q01-removals/A'"
+            }
+          ]
+        },
+        "confirmed-dequeue-A": {
+          "data": {
+            "dequeuePullRequest": {
+              "clientMutationId": "q01-removals-confirmed-dequeue-A",
+              "mergeQueueEntry": {
+                "id": "MQE_lQDOVnmBMc8AAAABNwchd84ABVQpzgPS3Lc",
+                "position": 1,
+                "state": "AWAITING_CHECKS",
+                "pullRequest": {
+                  "id": "PR_kwDOVnmBMc8AAAABNwchdw",
+                  "number": 37
+                }
+              }
+            }
+          }
+        }
+      },
+      "source_rewritten": [],
+      "raw_patches_preserved": true,
+      "archives_exact": true,
+      "question": "Confirmed dequeue C",
+      "decisive_receipt": "queue/evidence/q01-removals-confirmed-dequeue-C.receipt.json"
+    },
+    {
+      "id": "Q01-B",
+      "disposition": "performed",
+      "evidence": [
+        "queue/cases/q01-removals/state.json",
+        "queue/FINAL-AUDIT.json#cases/q01-removals"
+      ],
+      "prs": {
+        "A": 37,
+        "B": 38,
+        "C": 39
+      },
+      "settings": {
+        "merge_method": "MERGE",
+        "max_entries_to_build": 1,
+        "min_entries_to_merge": 1,
+        "max_entries_to_merge": 5,
+        "min_entries_to_merge_wait_minutes": 1,
+        "grouping_strategy": "ALLGREEN",
+        "check_response_timeout_minutes": 5
+      },
+      "held_by_synthetic_gate": true,
+      "final_landed": [],
+      "final_open": [
+        "A",
+        "B",
+        "C"
+      ],
+      "removal_reasons": {
+        "A": [
+          "manual"
+        ],
+        "B": [
+          "manual"
+        ],
+        "C": [
+          "manual"
+        ]
+      },
+      "final_queue_empty": true,
+      "admission_receipts": {
+        "admit-C": {
+          "uuid": "25f700d9-2d9e-4061-a767-87a58802db1d",
+          "selected_head": "1bb4c8097cb15ae93868891cb1a884c5c67803de",
+          "final": {
+            "status": "enqueued",
+            "details": {
+              "message": "Pull request was added to the merge queue."
+            }
+          },
+          "evidence": "q01-removals-admit-C-final-uuid"
+        }
+      },
+      "dequeue_outcomes": {
+        "confirmed-dequeue-C": {
+          "data": {
+            "dequeuePullRequest": null
+          },
+          "errors": [
+            {
+              "type": "UNPROCESSABLE",
+              "path": [
+                "dequeuePullRequest"
+              ],
+              "locations": [
+                {
+                  "line": 1,
+                  "column": 36
+                }
+              ],
+              "message": "No merge queue found for branch 'exp/fu2/queue/q01-removals/B'"
+            }
+          ]
+        },
+        "confirmed-dequeue-B": {
+          "data": {
+            "dequeuePullRequest": null
+          },
+          "errors": [
+            {
+              "type": "UNPROCESSABLE",
+              "path": [
+                "dequeuePullRequest"
+              ],
+              "locations": [
+                {
+                  "line": 1,
+                  "column": 36
+                }
+              ],
+              "message": "No merge queue found for branch 'exp/fu2/queue/q01-removals/A'"
+            }
+          ]
+        },
+        "confirmed-dequeue-A": {
+          "data": {
+            "dequeuePullRequest": {
+              "clientMutationId": "q01-removals-confirmed-dequeue-A",
+              "mergeQueueEntry": {
+                "id": "MQE_lQDOVnmBMc8AAAABNwchd84ABVQpzgPS3Lc",
+                "position": 1,
+                "state": "AWAITING_CHECKS",
+                "pullRequest": {
+                  "id": "PR_kwDOVnmBMc8AAAABNwchdw",
+                  "number": 37
+                }
+              }
+            }
+          }
+        }
+      },
+      "source_rewritten": [],
+      "raw_patches_preserved": true,
+      "archives_exact": true,
+      "question": "Confirmed dequeue B",
+      "decisive_receipt": "queue/evidence/q01-removals-confirmed-dequeue-B.receipt.json"
+    },
+    {
+      "id": "Q01-A",
+      "disposition": "performed",
+      "evidence": [
+        "queue/cases/q01-removals/state.json",
+        "queue/FINAL-AUDIT.json#cases/q01-removals"
+      ],
+      "prs": {
+        "A": 37,
+        "B": 38,
+        "C": 39
+      },
+      "settings": {
+        "merge_method": "MERGE",
+        "max_entries_to_build": 1,
+        "min_entries_to_merge": 1,
+        "max_entries_to_merge": 5,
+        "min_entries_to_merge_wait_minutes": 1,
+        "grouping_strategy": "ALLGREEN",
+        "check_response_timeout_minutes": 5
+      },
+      "held_by_synthetic_gate": true,
+      "final_landed": [],
+      "final_open": [
+        "A",
+        "B",
+        "C"
+      ],
+      "removal_reasons": {
+        "A": [
+          "manual"
+        ],
+        "B": [
+          "manual"
+        ],
+        "C": [
+          "manual"
+        ]
+      },
+      "final_queue_empty": true,
+      "admission_receipts": {
+        "admit-C": {
+          "uuid": "25f700d9-2d9e-4061-a767-87a58802db1d",
+          "selected_head": "1bb4c8097cb15ae93868891cb1a884c5c67803de",
+          "final": {
+            "status": "enqueued",
+            "details": {
+              "message": "Pull request was added to the merge queue."
+            }
+          },
+          "evidence": "q01-removals-admit-C-final-uuid"
+        }
+      },
+      "dequeue_outcomes": {
+        "confirmed-dequeue-C": {
+          "data": {
+            "dequeuePullRequest": null
+          },
+          "errors": [
+            {
+              "type": "UNPROCESSABLE",
+              "path": [
+                "dequeuePullRequest"
+              ],
+              "locations": [
+                {
+                  "line": 1,
+                  "column": 36
+                }
+              ],
+              "message": "No merge queue found for branch 'exp/fu2/queue/q01-removals/B'"
+            }
+          ]
+        },
+        "confirmed-dequeue-B": {
+          "data": {
+            "dequeuePullRequest": null
+          },
+          "errors": [
+            {
+              "type": "UNPROCESSABLE",
+              "path": [
+                "dequeuePullRequest"
+              ],
+              "locations": [
+                {
+                  "line": 1,
+                  "column": 36
+                }
+              ],
+              "message": "No merge queue found for branch 'exp/fu2/queue/q01-removals/A'"
+            }
+          ]
+        },
+        "confirmed-dequeue-A": {
+          "data": {
+            "dequeuePullRequest": {
+              "clientMutationId": "q01-removals-confirmed-dequeue-A",
+              "mergeQueueEntry": {
+                "id": "MQE_lQDOVnmBMc8AAAABNwchd84ABVQpzgPS3Lc",
+                "position": 1,
+                "state": "AWAITING_CHECKS",
+                "pullRequest": {
+                  "id": "PR_kwDOVnmBMc8AAAABNwchdw",
+                  "number": 37
+                }
+              }
+            }
+          }
+        }
+      },
+      "source_rewritten": [],
+      "raw_patches_preserved": true,
+      "archives_exact": true,
+      "question": "Confirmed dequeue A",
+      "decisive_receipt": "queue/evidence/q01-removals-confirmed-dequeue-A.receipt.json"
+    },
+    {
+      "id": "q02-pending-lower",
+      "disposition": "performed",
+      "evidence": [
+        "queue/cases/q02-pending-lower/state.json",
+        "queue/FINAL-AUDIT.json#cases/q02-pending-lower"
+      ],
+      "prs": {
+        "A": 68,
+        "B": 69
+      },
+      "settings": {
+        "merge_method": "MERGE",
+        "max_entries_to_build": 1,
+        "min_entries_to_merge": 1,
+        "max_entries_to_merge": 5,
+        "min_entries_to_merge_wait_minutes": 1,
+        "grouping_strategy": "ALLGREEN",
+        "check_response_timeout_minutes": 5
+      },
+      "held_by_synthetic_gate": true,
+      "final_landed": [],
+      "final_open": [
+        "A",
+        "B"
+      ],
+      "removal_reasons": {
+        "A": [
+          "manual"
+        ],
+        "B": [
+          "manual"
+        ]
+      },
+      "final_queue_empty": true,
+      "admission_receipts": {
+        "admit-B": {
+          "uuid": "0329c303-05c6-4d5c-adfe-fc231c130a30",
+          "selected_head": "e8888a020e509010b8bcc1f98638798d9192c19a",
+          "final": {
+            "status": "enqueued",
+            "details": {
+              "message": "Pull request was added to the merge queue."
+            }
+          },
+          "evidence": "q02-pending-lower-admit-B-final-uuid"
+        }
+      },
+      "dequeue_outcomes": {
+        "admit-B-immediate-A": {
+          "data": {
+            "dequeuePullRequest": null
+          },
+          "errors": [
+            {
+              "type": "UNPROCESSABLE",
+              "path": [
+                "dequeuePullRequest"
+              ],
+              "locations": [
+                {
+                  "line": 1,
+                  "column": 36
+                }
+              ],
+              "message": "Failed to remove PR #68 \"Synthetic queue experiment q02-pending-lower: A\""
+            }
+          ]
+        },
+        "cleanup-0": {
+          "data": {
+            "dequeuePullRequest": {
+              "clientMutationId": "q02-pending-lower-cleanup-0",
+              "mergeQueueEntry": {
+                "id": "MQE_lQDOVnmBMc8AAAABNwdZW84ABVQ1zgPS3fQ",
+                "position": 1,
+                "state": "AWAITING_CHECKS",
+                "pullRequest": {
+                  "id": "PR_kwDOVnmBMc8AAAABNwdZWw",
+                  "number": 68
+                }
+              }
+            }
+          }
+        }
+      },
+      "source_rewritten": [],
+      "raw_patches_preserved": true,
+      "archives_exact": true
+    },
+    {
+      "id": "q03-merge-allgreen-2",
+      "disposition": "performed",
+      "evidence": [
+        "queue/cases/q03-merge-allgreen-2/state.json",
+        "queue/FINAL-AUDIT.json#cases/q03-merge-allgreen-2"
+      ],
+      "prs": {
+        "A": 44,
+        "B": 45
+      },
+      "settings": {
+        "merge_method": "MERGE",
+        "max_entries_to_build": 2,
+        "min_entries_to_merge": 1,
+        "max_entries_to_merge": 5,
+        "min_entries_to_merge_wait_minutes": 1,
+        "grouping_strategy": "ALLGREEN",
+        "check_response_timeout_minutes": 5
+      },
+      "held_by_synthetic_gate": false,
+      "final_landed": [
+        "A",
+        "B"
+      ],
+      "final_open": [],
+      "removal_reasons": {
+        "A": [
+          "merged"
+        ],
+        "B": [
+          "merged"
+        ]
+      },
+      "final_queue_empty": true,
+      "admission_receipts": {
+        "admit-B": {
+          "uuid": "dda51cae-5b5c-45a1-8c18-5c5cef31e5f8",
+          "selected_head": "e445bce80eabd17f48eaefcfc3365a6b4e86b68f",
+          "final": {
+            "status": "enqueued",
+            "details": {
+              "message": "Pull request was added to the merge queue."
+            }
+          },
+          "evidence": "q03-merge-allgreen-2-admit-B-final-uuid"
+        }
+      },
+      "dequeue_outcomes": {},
+      "source_rewritten": [],
+      "raw_patches_preserved": true,
+      "archives_exact": true
+    },
+    {
+      "id": "q03-merge-headgreen-1",
+      "disposition": "performed",
+      "evidence": [
+        "queue/cases/q03-merge-headgreen-1/state.json",
+        "queue/FINAL-AUDIT.json#cases/q03-merge-headgreen-1"
+      ],
+      "prs": {
+        "A": 41,
+        "B": 42
+      },
+      "settings": {
+        "merge_method": "MERGE",
+        "max_entries_to_build": 1,
+        "min_entries_to_merge": 1,
+        "max_entries_to_merge": 5,
+        "min_entries_to_merge_wait_minutes": 1,
+        "grouping_strategy": "HEADGREEN",
+        "check_response_timeout_minutes": 5
+      },
+      "held_by_synthetic_gate": false,
+      "final_landed": [
+        "A",
+        "B"
+      ],
+      "final_open": [],
+      "removal_reasons": {
+        "A": [
+          "merged"
+        ],
+        "B": [
+          "merged"
+        ]
+      },
+      "final_queue_empty": true,
+      "admission_receipts": {
+        "admit-B": {
+          "uuid": "86f3c6a2-0660-4dfc-9760-bdf2b26e09c0",
+          "selected_head": "527fef97b8aaafecd6b3008b7934e91b7a31c183",
+          "final": {
+            "status": "enqueued",
+            "details": {
+              "message": "Pull request was added to the merge queue."
+            }
+          },
+          "evidence": "q03-merge-headgreen-1-admit-B-final-uuid"
+        }
+      },
+      "dequeue_outcomes": {},
+      "source_rewritten": [],
+      "raw_patches_preserved": true,
+      "archives_exact": true
+    },
+    {
+      "id": "q03-merge-headgreen-2",
+      "disposition": "performed",
+      "evidence": [
+        "queue/cases/q03-merge-headgreen-2/state.json",
+        "queue/FINAL-AUDIT.json#cases/q03-merge-headgreen-2"
+      ],
+      "prs": {
+        "A": 47,
+        "B": 48
+      },
+      "settings": {
+        "merge_method": "MERGE",
+        "max_entries_to_build": 2,
+        "min_entries_to_merge": 1,
+        "max_entries_to_merge": 5,
+        "min_entries_to_merge_wait_minutes": 1,
+        "grouping_strategy": "HEADGREEN",
+        "check_response_timeout_minutes": 5
+      },
+      "held_by_synthetic_gate": false,
+      "final_landed": [
+        "A",
+        "B"
+      ],
+      "final_open": [],
+      "removal_reasons": {
+        "A": [
+          "merged"
+        ],
+        "B": [
+          "merged"
+        ]
+      },
+      "final_queue_empty": true,
+      "admission_receipts": {
+        "admit-B": {
+          "uuid": "04cd5cb3-8c2e-44d9-a171-be7a3554eeba",
+          "selected_head": "e6a3afb259592f99500cf735ac984089bdddb34d",
+          "final": {
+            "status": "enqueued",
+            "details": {
+              "message": "Pull request was added to the merge queue."
+            }
+          },
+          "evidence": "q03-merge-headgreen-2-admit-B-final-uuid"
+        }
+      },
+      "dequeue_outcomes": {},
+      "source_rewritten": [],
+      "raw_patches_preserved": true,
+      "archives_exact": true
+    },
+    {
+      "id": "q03-rebase-allgreen-2",
+      "disposition": "performed",
+      "evidence": [
+        "queue/cases/q03-rebase-allgreen-2/state.json",
+        "queue/FINAL-AUDIT.json#cases/q03-rebase-allgreen-2"
+      ],
+      "prs": {
+        "A": 62,
+        "B": 63
+      },
+      "settings": {
+        "merge_method": "REBASE",
+        "max_entries_to_build": 2,
+        "min_entries_to_merge": 1,
+        "max_entries_to_merge": 5,
+        "min_entries_to_merge_wait_minutes": 1,
+        "grouping_strategy": "ALLGREEN",
+        "check_response_timeout_minutes": 5
+      },
+      "held_by_synthetic_gate": false,
+      "final_landed": [
+        "A"
+      ],
+      "final_open": [
+        "B"
+      ],
+      "removal_reasons": {
+        "A": [
+          "merged"
+        ],
+        "B": [
+          "invalid_merge_commit"
+        ]
+      },
+      "final_queue_empty": true,
+      "admission_receipts": {
+        "admit-B": {
+          "uuid": "45f8b633-8778-42b1-8308-e144d385506a",
+          "selected_head": "5a834fc3744d9ec5bb9b0168b5e94ada2dd22e71",
+          "final": {
+            "status": "enqueued",
+            "details": {
+              "message": "Pull request was added to the merge queue."
+            }
+          },
+          "evidence": "q03-rebase-allgreen-2-admit-B-final-uuid"
+        }
+      },
+      "dequeue_outcomes": {},
+      "source_rewritten": [
+        "B"
+      ],
+      "raw_patches_preserved": true,
+      "archives_exact": true
+    },
+    {
+      "id": "q03-rebase-headgreen-1",
+      "disposition": "performed",
+      "evidence": [
+        "queue/cases/q03-rebase-headgreen-1/state.json",
+        "queue/FINAL-AUDIT.json#cases/q03-rebase-headgreen-1"
+      ],
+      "prs": {
+        "A": 59,
+        "B": 60
+      },
+      "settings": {
+        "merge_method": "REBASE",
+        "max_entries_to_build": 1,
+        "min_entries_to_merge": 1,
+        "max_entries_to_merge": 5,
+        "min_entries_to_merge_wait_minutes": 1,
+        "grouping_strategy": "HEADGREEN",
+        "check_response_timeout_minutes": 5
+      },
+      "held_by_synthetic_gate": false,
+      "final_landed": [
+        "A"
+      ],
+      "final_open": [
+        "B"
+      ],
+      "removal_reasons": {
+        "A": [
+          "merged"
+        ],
+        "B": [
+          "invalid_merge_commit"
+        ]
+      },
+      "final_queue_empty": true,
+      "admission_receipts": {
+        "admit-B": {
+          "uuid": "c5388778-076a-4f41-a4b6-91a0930f5be6",
+          "selected_head": "2fe627ade5267cfb234f7a8a6361ba0651c9934c",
+          "final": {
+            "status": "enqueued",
+            "details": {
+              "message": "Pull request was added to the merge queue."
+            }
+          },
+          "evidence": "q03-rebase-headgreen-1-admit-B-final-uuid"
+        }
+      },
+      "dequeue_outcomes": {},
+      "source_rewritten": [
+        "B"
+      ],
+      "raw_patches_preserved": true,
+      "archives_exact": true
+    },
+    {
+      "id": "q03-rebase-headgreen-2",
+      "disposition": "performed",
+      "evidence": [
+        "queue/cases/q03-rebase-headgreen-2/state.json",
+        "queue/FINAL-AUDIT.json#cases/q03-rebase-headgreen-2"
+      ],
+      "prs": {
+        "A": 65,
+        "B": 66
+      },
+      "settings": {
+        "merge_method": "REBASE",
+        "max_entries_to_build": 2,
+        "min_entries_to_merge": 1,
+        "max_entries_to_merge": 5,
+        "min_entries_to_merge_wait_minutes": 1,
+        "grouping_strategy": "HEADGREEN",
+        "check_response_timeout_minutes": 5
+      },
+      "held_by_synthetic_gate": false,
+      "final_landed": [
+        "A"
+      ],
+      "final_open": [
+        "B"
+      ],
+      "removal_reasons": {
+        "A": [
+          "merged"
+        ],
+        "B": [
+          "invalid_merge_commit"
+        ]
+      },
+      "final_queue_empty": true,
+      "admission_receipts": {
+        "admit-B": {
+          "uuid": "ce87c9ef-8a79-4214-bbe3-4ebd569a66eb",
+          "selected_head": "e7a1f784c5617f45e575589d6a0563e5cc69051a",
+          "final": {
+            "status": "enqueued",
+            "details": {
+              "message": "Pull request was added to the merge queue."
+            }
+          },
+          "evidence": "q03-rebase-headgreen-2-admit-B-final-uuid"
+        }
+      },
+      "dequeue_outcomes": {},
+      "source_rewritten": [
+        "B"
+      ],
+      "raw_patches_preserved": true,
+      "archives_exact": true
+    },
+    {
+      "id": "q03-squash-allgreen-2",
+      "disposition": "performed",
+      "evidence": [
+        "queue/cases/q03-squash-allgreen-2/state.json",
+        "queue/FINAL-AUDIT.json#cases/q03-squash-allgreen-2"
+      ],
+      "prs": {
+        "A": 53,
+        "B": 54
+      },
+      "settings": {
+        "merge_method": "SQUASH",
+        "max_entries_to_build": 2,
+        "min_entries_to_merge": 1,
+        "max_entries_to_merge": 5,
+        "min_entries_to_merge_wait_minutes": 1,
+        "grouping_strategy": "ALLGREEN",
+        "check_response_timeout_minutes": 5
+      },
+      "held_by_synthetic_gate": false,
+      "final_landed": [
+        "A",
+        "B"
+      ],
+      "final_open": [],
+      "removal_reasons": {
+        "A": [
+          "merged"
+        ],
+        "B": [
+          "merged"
+        ]
+      },
+      "final_queue_empty": true,
+      "admission_receipts": {
+        "admit-B": {
+          "uuid": "2fc6c8e6-346d-4293-80d1-ad67b5f6f8a4",
+          "selected_head": "38175a9715b446a21d8be56d3f32c8bb3194aa4e",
+          "final": {
+            "status": "enqueued",
+            "details": {
+              "message": "Pull request was added to the merge queue."
+            }
+          },
+          "evidence": "q03-squash-allgreen-2-admit-B-final-uuid"
+        }
+      },
+      "dequeue_outcomes": {},
+      "source_rewritten": [],
+      "raw_patches_preserved": true,
+      "archives_exact": true
+    },
+    {
+      "id": "q03-squash-headgreen-1",
+      "disposition": "performed",
+      "evidence": [
+        "queue/cases/q03-squash-headgreen-1/state.json",
+        "queue/FINAL-AUDIT.json#cases/q03-squash-headgreen-1"
+      ],
+      "prs": {
+        "A": 50,
+        "B": 51
+      },
+      "settings": {
+        "merge_method": "SQUASH",
+        "max_entries_to_build": 1,
+        "min_entries_to_merge": 1,
+        "max_entries_to_merge": 5,
+        "min_entries_to_merge_wait_minutes": 1,
+        "grouping_strategy": "HEADGREEN",
+        "check_response_timeout_minutes": 5
+      },
+      "held_by_synthetic_gate": false,
+      "final_landed": [
+        "A"
+      ],
+      "final_open": [
+        "B"
+      ],
+      "removal_reasons": {
+        "A": [
+          "merged"
+        ],
+        "B": [
+          "invalid_merge_commit"
+        ]
+      },
+      "final_queue_empty": true,
+      "admission_receipts": {
+        "admit-B": {
+          "uuid": "9a54b775-e43d-42f8-beac-07df02ba8947",
+          "selected_head": "316c2f6812b1455ed818e915dd7f168a7f88c02e",
+          "final": {
+            "status": "enqueued",
+            "details": {
+              "message": "Pull request was added to the merge queue."
+            }
+          },
+          "evidence": "q03-squash-headgreen-1-admit-B-final-uuid"
+        }
+      },
+      "dequeue_outcomes": {},
+      "source_rewritten": [
+        "B"
+      ],
+      "raw_patches_preserved": true,
+      "archives_exact": true
+    },
+    {
+      "id": "q03-squash-headgreen-2",
+      "disposition": "performed",
+      "evidence": [
+        "queue/cases/q03-squash-headgreen-2/state.json",
+        "queue/FINAL-AUDIT.json#cases/q03-squash-headgreen-2"
+      ],
+      "prs": {
+        "A": 56,
+        "B": 57
+      },
+      "settings": {
+        "merge_method": "SQUASH",
+        "max_entries_to_build": 2,
+        "min_entries_to_merge": 1,
+        "max_entries_to_merge": 5,
+        "min_entries_to_merge_wait_minutes": 1,
+        "grouping_strategy": "HEADGREEN",
+        "check_response_timeout_minutes": 5
+      },
+      "held_by_synthetic_gate": false,
+      "final_landed": [
+        "A",
+        "B"
+      ],
+      "final_open": [],
+      "removal_reasons": {
+        "A": [
+          "merged"
+        ],
+        "B": [
+          "merged"
+        ]
+      },
+      "final_queue_empty": true,
+      "admission_receipts": {
+        "admit-B": {
+          "uuid": "321df953-89da-4a20-9a78-2ee3acff9f5e",
+          "selected_head": "62658fe0062a14b84da4c579d0eda89a7688fbd2",
+          "final": {
+            "status": "enqueued",
+            "details": {
+              "message": "Pull request was added to the merge queue."
+            }
+          },
+          "evidence": "q03-squash-headgreen-2-admit-B-final-uuid"
+        }
+      },
+      "dequeue_outcomes": {},
+      "source_rewritten": [],
+      "raw_patches_preserved": true,
+      "archives_exact": true
+    },
+    {
+      "id": "q04-occupied-2",
+      "disposition": "performed",
+      "evidence": [
+        "queue/cases/q04-occupied-2/state.json",
+        "queue/FINAL-AUDIT.json#cases/q04-occupied-2"
+      ],
+      "prs": {
+        "A": 111,
+        "B": 112,
+        "X": 114
+      },
+      "settings": {
+        "merge_method": "MERGE",
+        "max_entries_to_build": 4,
+        "min_entries_to_merge": 2,
+        "max_entries_to_merge": 2,
+        "min_entries_to_merge_wait_minutes": 5,
+        "grouping_strategy": "ALLGREEN",
+        "check_response_timeout_minutes": 5
+      },
+      "held_by_synthetic_gate": true,
+      "final_landed": [
+        "A",
+        "B",
+        "X"
+      ],
+      "final_open": [],
+      "removal_reasons": {
+        "A": [
+          "merged"
+        ],
+        "B": [
+          "merged"
+        ],
+        "X": [
+          "merged"
+        ]
+      },
+      "final_queue_empty": true,
+      "admission_receipts": {
+        "admit-X": {
+          "uuid": "694b7848-7958-4c8e-9a25-15327610d112",
+          "selected_head": "84c65ee3c7f5dcf9d0ce6979332df0e941b9e6b8",
+          "final": {
+            "status": "enqueued",
+            "details": {
+              "message": "Pull request was added to the merge queue."
+            }
+          },
+          "evidence": "q04-occupied-2-admit-X-final-uuid"
+        },
+        "admit-top": {
+          "uuid": "02805c09-880b-4629-a1b1-69037e8b9c31",
+          "selected_head": "1da2621ad385d21379a1135addc011770229a411",
+          "final": {
+            "status": "enqueued",
+            "details": {
+              "message": "Pull request was added to the merge queue."
+            }
+          },
+          "evidence": "q04-occupied-2-admit-top-final-uuid"
+        }
+      },
+      "dequeue_outcomes": {},
+      "source_rewritten": [],
+      "raw_patches_preserved": true,
+      "archives_exact": true
+    },
+    {
+      "id": "q04-occupied-3",
+      "disposition": "performed",
+      "evidence": [
+        "queue/cases/q04-occupied-3/state.json",
+        "queue/FINAL-AUDIT.json#cases/q04-occupied-3"
+      ],
+      "prs": {
+        "A": 115,
+        "B": 116,
+        "C": 117,
+        "X": 119
+      },
+      "settings": {
+        "merge_method": "MERGE",
+        "max_entries_to_build": 4,
+        "min_entries_to_merge": 2,
+        "max_entries_to_merge": 2,
+        "min_entries_to_merge_wait_minutes": 5,
+        "grouping_strategy": "ALLGREEN",
+        "check_response_timeout_minutes": 5
+      },
+      "held_by_synthetic_gate": true,
+      "final_landed": [
+        "A",
+        "B",
+        "C",
+        "X"
+      ],
+      "final_open": [],
+      "removal_reasons": {
+        "A": [
+          "merged"
+        ],
+        "B": [
+          "merged"
+        ],
+        "C": [
+          "merged"
+        ],
+        "X": [
+          "merged"
+        ]
+      },
+      "final_queue_empty": true,
+      "admission_receipts": {
+        "admit-X": {
+          "uuid": "69f570d7-6a0d-4224-b96d-2123c2a65d8b",
+          "selected_head": "b6a23a5da191a721a734d44b7f0dae4ea874419f",
+          "final": {
+            "status": "enqueued",
+            "details": {
+              "message": "Pull request was added to the merge queue."
+            }
+          },
+          "evidence": "q04-occupied-3-admit-X-final-uuid"
+        },
+        "admit-top": {
+          "uuid": "c703f56c-6fd3-4f4b-88df-31b8991f2551",
+          "selected_head": "8a2da0fbab65112301f011f86e1cb8d109325cad",
+          "final": {
+            "status": "enqueued",
+            "details": {
+              "message": "Pull request was added to the merge queue."
+            }
+          },
+          "evidence": "q04-occupied-3-admit-top-final-uuid"
+        }
+      },
+      "dequeue_outcomes": {},
+      "source_rewritten": [],
+      "raw_patches_preserved": true,
+      "archives_exact": true
+    },
+    {
+      "id": "q04-size-2",
+      "disposition": "performed",
+      "evidence": [
+        "queue/cases/q04-size-2/state.json",
+        "queue/FINAL-AUDIT.json#cases/q04-size-2"
+      ],
+      "prs": {
+        "A": 71,
+        "B": 72
+      },
+      "settings": {
+        "merge_method": "MERGE",
+        "max_entries_to_build": 4,
+        "min_entries_to_merge": 1,
+        "max_entries_to_merge": 2,
+        "min_entries_to_merge_wait_minutes": 1,
+        "grouping_strategy": "ALLGREEN",
+        "check_response_timeout_minutes": 5
+      },
+      "held_by_synthetic_gate": true,
+      "final_landed": [
+        "A",
+        "B"
+      ],
+      "final_open": [],
+      "removal_reasons": {
+        "A": [
+          "merged"
+        ],
+        "B": [
+          "merged"
+        ]
+      },
+      "final_queue_empty": true,
+      "admission_receipts": {
+        "admit-top": {
+          "uuid": "18ba3206-d2a5-4217-95ee-8d9006832cb9",
+          "selected_head": "15971b6524d9c4713021c39383697572637b5b69",
+          "final": {
+            "status": "enqueued",
+            "details": {
+              "message": "Pull request was added to the merge queue."
+            }
+          },
+          "evidence": "q04-size-2-admit-top-final-uuid"
+        }
+      },
+      "dequeue_outcomes": {},
+      "source_rewritten": [],
+      "raw_patches_preserved": true,
+      "archives_exact": true
+    },
+    {
+      "id": "q04-size-3",
+      "disposition": "performed",
+      "evidence": [
+        "queue/cases/q04-size-3/state.json",
+        "queue/FINAL-AUDIT.json#cases/q04-size-3"
+      ],
+      "prs": {
+        "A": 74,
+        "B": 75,
+        "C": 76
+      },
+      "settings": {
+        "merge_method": "MERGE",
+        "max_entries_to_build": 4,
+        "min_entries_to_merge": 1,
+        "max_entries_to_merge": 2,
+        "min_entries_to_merge_wait_minutes": 1,
+        "grouping_strategy": "ALLGREEN",
+        "check_response_timeout_minutes": 5
+      },
+      "held_by_synthetic_gate": true,
+      "final_landed": [
+        "A",
+        "B",
+        "C"
+      ],
+      "final_open": [],
+      "removal_reasons": {
+        "A": [
+          "merged"
+        ],
+        "B": [
+          "merged"
+        ],
+        "C": [
+          "merged"
+        ]
+      },
+      "final_queue_empty": true,
+      "admission_receipts": {
+        "admit-top": {
+          "uuid": "98015da4-1d68-45b8-8a4d-73980a7fb0d2",
+          "selected_head": "f33fbe3afcbf049e2925b189b9b05864fb6db27f",
+          "final": {
+            "status": "enqueued",
+            "details": {
+              "message": "Pull request was added to the merge queue."
+            }
+          },
+          "evidence": "q04-size-3-admit-top-final-uuid"
+        }
+      },
+      "dequeue_outcomes": {},
+      "source_rewritten": [],
+      "raw_patches_preserved": true,
+      "archives_exact": true
+    },
+    {
+      "id": "q04-size-4",
+      "disposition": "performed",
+      "evidence": [
+        "queue/cases/q04-size-4/state.json",
+        "queue/FINAL-AUDIT.json#cases/q04-size-4"
+      ],
+      "prs": {
+        "A": 78,
+        "B": 79,
+        "C": 80,
+        "D": 81
+      },
+      "settings": {
+        "merge_method": "MERGE",
+        "max_entries_to_build": 4,
+        "min_entries_to_merge": 1,
+        "max_entries_to_merge": 2,
+        "min_entries_to_merge_wait_minutes": 1,
+        "grouping_strategy": "ALLGREEN",
+        "check_response_timeout_minutes": 5
+      },
+      "held_by_synthetic_gate": true,
+      "final_landed": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "final_open": [],
+      "removal_reasons": {
+        "A": [
+          "merged"
+        ],
+        "B": [
+          "merged"
+        ],
+        "C": [
+          "merged"
+        ],
+        "D": [
+          "merged"
+        ]
+      },
+      "final_queue_empty": true,
+      "admission_receipts": {
+        "admit-top": {
+          "uuid": "5f71f49b-df00-4c12-86c7-4a905cbcd002",
+          "selected_head": "ed29768ff560af64acd56ca959fe4c9332cef8b0",
+          "final": {
+            "status": "enqueued",
+            "details": {
+              "message": "Pull request was added to the merge queue."
+            }
+          },
+          "evidence": "q04-size-4-admit-top-final-uuid"
+        }
+      },
+      "dequeue_outcomes": {},
+      "source_rewritten": [],
+      "raw_patches_preserved": true,
+      "archives_exact": true
+    },
+    {
+      "id": "q05-prefix",
+      "disposition": "performed",
+      "evidence": [
+        "queue/cases/q05-prefix/state.json",
+        "queue/FINAL-AUDIT.json#cases/q05-prefix"
+      ],
+      "prs": {
+        "A": 83,
+        "B": 84,
+        "C": 85
+      },
+      "settings": {
+        "merge_method": "MERGE",
+        "max_entries_to_build": 2,
+        "min_entries_to_merge": 1,
+        "max_entries_to_merge": 5,
+        "min_entries_to_merge_wait_minutes": 1,
+        "grouping_strategy": "ALLGREEN",
+        "check_response_timeout_minutes": 5
+      },
+      "held_by_synthetic_gate": true,
+      "final_landed": [
+        "A",
+        "B"
+      ],
+      "final_open": [
+        "C"
+      ],
+      "removal_reasons": {
+        "A": [
+          "merged"
+        ],
+        "B": [
+          "merged"
+        ],
+        "C": []
+      },
+      "final_queue_empty": true,
+      "admission_receipts": {
+        "admit-B": {
+          "uuid": "b0c1f1a9-b728-4960-8e7d-54bba5dea393",
+          "selected_head": "bf66c6dd3685fcae60a478fa55da2e455cf93f05",
+          "final": {
+            "status": "enqueued",
+            "details": {
+              "message": "Pull request was added to the merge queue."
+            }
+          },
+          "evidence": "q05-prefix-admit-B-final-uuid"
+        }
+      },
+      "dequeue_outcomes": {},
+      "source_rewritten": [
+        "C"
+      ],
+      "raw_patches_preserved": true,
+      "archives_exact": true
+    },
+    {
+      "id": "q06-allgreen",
+      "disposition": "performed",
+      "evidence": [
+        "queue/cases/q06-allgreen/state.json",
+        "queue/FINAL-AUDIT.json#cases/q06-allgreen"
+      ],
+      "prs": {
+        "A": 90,
+        "B": 91,
+        "C": 92
+      },
+      "settings": {
+        "merge_method": "MERGE",
+        "max_entries_to_build": 3,
+        "min_entries_to_merge": 3,
+        "max_entries_to_merge": 5,
+        "min_entries_to_merge_wait_minutes": 5,
+        "grouping_strategy": "ALLGREEN",
+        "check_response_timeout_minutes": 5
+      },
+      "held_by_synthetic_gate": true,
+      "final_landed": [],
+      "final_open": [
+        "A",
+        "B",
+        "C"
+      ],
+      "removal_reasons": {
+        "A": [
+          "manual"
+        ],
+        "B": [
+          "manual"
+        ],
+        "C": [
+          "manual"
+        ]
+      },
+      "final_queue_empty": true,
+      "admission_receipts": {
+        "admit-C": {
+          "uuid": "8c707fe9-6315-4b43-99b3-1f3060ecae57",
+          "selected_head": "fdeb926ee6beec9b8fc26decd3aa16fc75eb0ed6",
+          "final": {
+            "status": "enqueued",
+            "details": {
+              "message": "Pull request was added to the merge queue."
+            }
+          },
+          "evidence": "q06-allgreen-admit-C-final-uuid"
+        }
+      },
+      "dequeue_outcomes": {
+        "cleanup-0": {
+          "data": {
+            "dequeuePullRequest": {
+              "clientMutationId": "q06-allgreen-cleanup-0",
+              "mergeQueueEntry": {
+                "id": "MQE_lQDOVnmBMc8AAAABNwen6M4ABVQ8zgPS3-c",
+                "position": 1,
+                "state": "MERGEABLE",
+                "pullRequest": {
+                  "id": "PR_kwDOVnmBMc8AAAABNwen6A",
+                  "number": 90
+                }
+              }
+            }
+          }
+        }
+      },
+      "source_rewritten": [],
+      "raw_patches_preserved": true,
+      "archives_exact": true
+    },
+    {
+      "id": "q06-headgreen",
+      "disposition": "performed",
+      "evidence": [
+        "queue/cases/q06-headgreen/state.json",
+        "queue/FINAL-AUDIT.json#cases/q06-headgreen"
+      ],
+      "prs": {
+        "A": 100,
+        "B": 101,
+        "C": 102
+      },
+      "settings": {
+        "merge_method": "MERGE",
+        "max_entries_to_build": 3,
+        "min_entries_to_merge": 3,
+        "max_entries_to_merge": 5,
+        "min_entries_to_merge_wait_minutes": 5,
+        "grouping_strategy": "HEADGREEN",
+        "check_response_timeout_minutes": 5
+      },
+      "held_by_synthetic_gate": true,
+      "final_landed": [
+        "A",
+        "B",
+        "C"
+      ],
+      "final_open": [],
+      "removal_reasons": {
+        "A": [
+          "merged"
+        ],
+        "B": [
+          "merged"
+        ],
+        "C": [
+          "merged"
+        ]
+      },
+      "final_queue_empty": true,
+      "admission_receipts": {
+        "admit-C": {
+          "uuid": "05b39e59-e013-44ed-9bc6-df3588298fe3",
+          "selected_head": "a57555808361ad9ab5d7d468433bf156f3207d5b",
+          "final": {
+            "status": "enqueued",
+            "details": {
+              "message": "Pull request was added to the merge queue."
+            }
+          },
+          "evidence": "q06-headgreen-admit-C-final-uuid"
+        }
+      },
+      "dequeue_outcomes": {},
+      "source_rewritten": [],
+      "raw_patches_preserved": true,
+      "archives_exact": true
+    },
+    {
+      "id": "q07-independent",
+      "disposition": "performed",
+      "evidence": [
+        "queue/cases/q07-independent/state.json",
+        "queue/FINAL-AUDIT.json#cases/q07-independent"
+      ],
+      "prs": {
+        "A": 104,
+        "B": 105,
+        "X": 107,
+        "C": 108,
+        "D": 109
+      },
+      "settings": {
+        "merge_method": "MERGE",
+        "max_entries_to_build": 3,
+        "min_entries_to_merge": 1,
+        "max_entries_to_merge": 5,
+        "min_entries_to_merge_wait_minutes": 1,
+        "grouping_strategy": "ALLGREEN",
+        "check_response_timeout_minutes": 5
+      },
+      "held_by_synthetic_gate": true,
+      "final_landed": [],
+      "final_open": [
+        "A",
+        "B",
+        "X",
+        "C",
+        "D"
+      ],
+      "removal_reasons": {
+        "A": [
+          "manual"
+        ],
+        "B": [
+          "manual"
+        ],
+        "X": [
+          "manual"
+        ],
+        "C": [
+          "manual"
+        ],
+        "D": [
+          "manual"
+        ]
+      },
+      "final_queue_empty": true,
+      "admission_receipts": {
+        "admit-X": {
+          "uuid": "cabc5261-d455-4a88-8512-9d302e2036c3",
+          "selected_head": "d168e3252478739d04951bc47816d085308bc778",
+          "final": {
+            "status": "enqueued",
+            "details": {
+              "message": "Pull request was added to the merge queue."
+            }
+          },
+          "evidence": "q07-independent-admit-X-final-uuid"
+        },
+        "admit-B": {
+          "uuid": "ce590da7-e0b0-4221-bc25-ed90578b3583",
+          "selected_head": "664cfbd6afd2296740772ae8635281b2adb62486",
+          "final": {
+            "status": "enqueued",
+            "details": {
+              "message": "Pull request was added to the merge queue."
+            }
+          },
+          "evidence": "q07-independent-admit-B-final-uuid"
+        },
+        "admit-D": {
+          "uuid": "a12648c5-5f35-4628-a3d1-ec33695ff98a",
+          "selected_head": "c981c31dd2958aac80d801003b824eb918be00df",
+          "final": {
+            "status": "enqueued",
+            "details": {
+              "message": "Pull request was added to the merge queue."
+            }
+          },
+          "evidence": "q07-independent-admit-D-final-uuid"
+        }
+      },
+      "dequeue_outcomes": {
+        "remove-A-with-independent": {
+          "data": {
+            "dequeuePullRequest": {
+              "clientMutationId": "q07-independent-remove-A-with-independent",
+              "mergeQueueEntry": {
+                "id": "MQE_lQDOVnmBMc8AAAABNwgBBs4ABVRCzgPS4mo",
+                "position": 2,
+                "state": "AWAITING_CHECKS",
+                "pullRequest": {
+                  "id": "PR_kwDOVnmBMc8AAAABNwgBBg",
+                  "number": 104
+                }
+              }
+            }
+          }
+        },
+        "cleanup-0": {
+          "data": {
+            "dequeuePullRequest": {
+              "clientMutationId": "q07-independent-cleanup-0",
+              "mergeQueueEntry": {
+                "id": "MQE_lQDOVnmBMc8AAAABNwgDes4ABVRCzgPS4k0",
+                "position": 1,
+                "state": "AWAITING_CHECKS",
+                "pullRequest": {
+                  "id": "PR_kwDOVnmBMc8AAAABNwgDeg",
+                  "number": 107
+                }
+              }
+            }
+          }
+        },
+        "cleanup-1": {
+          "data": {
+            "dequeuePullRequest": {
+              "clientMutationId": "q07-independent-cleanup-1",
+              "mergeQueueEntry": {
+                "id": "MQE_lQDOVnmBMc8AAAABNwgE184ABVRCzgPS4oU",
+                "position": 4,
+                "state": "QUEUED",
+                "pullRequest": {
+                  "id": "PR_kwDOVnmBMc8AAAABNwgE1w",
+                  "number": 108
+                }
+              }
+            }
+          }
+        }
+      },
+      "source_rewritten": [],
+      "raw_patches_preserved": true,
+      "archives_exact": true
+    },
+    {
+      "id": "q08-clear",
+      "disposition": "performed",
+      "evidence": [
+        "queue/cases/q08-clear/state.json",
+        "queue/FINAL-AUDIT.json#cases/q08-clear"
+      ],
+      "prs": {
+        "A": 87,
+        "B": 88
+      },
+      "settings": {
+        "merge_method": "MERGE",
+        "max_entries_to_build": 1,
+        "min_entries_to_merge": 1,
+        "max_entries_to_merge": 5,
+        "min_entries_to_merge_wait_minutes": 1,
+        "grouping_strategy": "ALLGREEN",
+        "check_response_timeout_minutes": 5
+      },
+      "held_by_synthetic_gate": false,
+      "final_landed": [
+        "A",
+        "B"
+      ],
+      "final_open": [],
+      "removal_reasons": {
+        "A": [
+          "merged"
+        ],
+        "B": [
+          "merged"
+        ]
+      },
+      "final_queue_empty": true,
+      "admission_receipts": {
+        "advanced-admission": {
+          "uuid": "2f6951da-a3ec-4b86-bfeb-5ab5739d88c9",
+          "selected_head": "108365a1d84b80654e8d3eb672c6c7f933c8ed91",
+          "final": {
+            "status": "failed",
+            "details": {
+              "message": "Pull request Required status check \"queue-observe\" is in progress."
+            }
+          },
+          "evidence": "q08-clear-advanced-admission-final-uuid"
+        },
+        "checks-clean-admission": {
+          "uuid": "745ff41b-2dc1-4fea-838b-431f4c33ed80",
+          "selected_head": "108365a1d84b80654e8d3eb672c6c7f933c8ed91",
+          "final": {
+            "status": "enqueued",
+            "details": {
+              "message": "Pull request was added to the merge queue."
+            }
+          },
+          "evidence": "q08-clear-checks-clean-admission-final-uuid"
+        }
+      },
+      "dequeue_outcomes": {},
+      "source_rewritten": [],
+      "raw_patches_preserved": true,
+      "archives_exact": true
+    },
+    {
+      "id": "q08-conflict",
+      "disposition": "performed",
+      "evidence": [
+        "queue/cases/q08-conflict/state.json",
+        "queue/FINAL-AUDIT.json#cases/q08-conflict"
+      ],
+      "prs": {
+        "A": 94,
+        "B": 95
+      },
+      "settings": {
+        "merge_method": "MERGE",
+        "max_entries_to_build": 1,
+        "min_entries_to_merge": 1,
+        "max_entries_to_merge": 5,
+        "min_entries_to_merge_wait_minutes": 1,
+        "grouping_strategy": "ALLGREEN",
+        "check_response_timeout_minutes": 5
+      },
+      "held_by_synthetic_gate": false,
+      "final_landed": [],
+      "final_open": [
+        "A",
+        "B"
+      ],
+      "removal_reasons": {
+        "A": [],
+        "B": []
+      },
+      "final_queue_empty": true,
+      "admission_receipts": {
+        "checks-clean-admission": {
+          "uuid": "f32d6d0f-16c8-4f08-bda9-6bb6efcb637b",
+          "selected_head": "ad442fd3e90a1cd1f85896c1b455952491ecf4a0",
+          "final": {
+            "status": "failed",
+            "details": {
+              "message": "Pull request has merge conflicts and Pull request not in mergeable state"
+            }
+          },
+          "evidence": "q08-conflict-checks-clean-admission-final-uuid"
+        }
+      },
+      "dequeue_outcomes": {},
+      "source_rewritten": [],
+      "raw_patches_preserved": true,
+      "archives_exact": true
+    },
+    {
+      "id": "q09-readmit",
+      "disposition": "performed",
+      "evidence": [
+        "queue/cases/q09-readmit/state.json",
+        "queue/FINAL-AUDIT.json#cases/q09-readmit"
+      ],
+      "prs": {
+        "A": 97,
+        "B": 98
+      },
+      "settings": {
+        "merge_method": "SQUASH",
+        "max_entries_to_build": 1,
+        "min_entries_to_merge": 1,
+        "max_entries_to_merge": 5,
+        "min_entries_to_merge_wait_minutes": 1,
+        "grouping_strategy": "ALLGREEN",
+        "check_response_timeout_minutes": 5
+      },
+      "held_by_synthetic_gate": false,
+      "final_landed": [
+        "A",
+        "B"
+      ],
+      "final_open": [],
+      "removal_reasons": {
+        "A": [
+          "merged"
+        ],
+        "B": [
+          "invalid_merge_commit",
+          "merged"
+        ]
+      },
+      "final_queue_empty": true,
+      "admission_receipts": {
+        "first-admit-B": {
+          "uuid": "f6353a54-560a-4d70-9b1e-1d19ccd9a75f",
+          "selected_head": "8880e9c1776c73aceaef233652efa0b33e5ca914",
+          "final": {
+            "status": "enqueued",
+            "details": {
+              "message": "Pull request was added to the merge queue."
+            }
+          },
+          "evidence": "q09-readmit-first-admit-B-final-uuid"
+        },
+        "explicit-new-head-admit": {
+          "uuid": "b49b07e5-e699-4230-80ee-22a3daa6cde5",
+          "selected_head": "d736a9584c3b463fcf8f5961d3a6fc9c74e12e8d",
+          "final": {
+            "status": "enqueued",
+            "details": {
+              "message": "Pull request was added to the merge queue."
+            }
+          },
+          "evidence": "q09-readmit-explicit-new-head-admit-final-uuid"
+        }
+      },
+      "dequeue_outcomes": {},
+      "source_rewritten": [
+        "B"
+      ],
+      "raw_patches_preserved": true,
+      "archives_exact": true
+    },
+    {
+      "id": "Q03-merge-allgreen-1",
+      "disposition": "reused",
+      "why": "Exact method/strategy/build/check control already executed in prior campaign; fresh remaining cells test new settings interactions.",
+      "settings": {
+        "merge_method": "MERGE",
+        "grouping_strategy": "ALLGREEN",
+        "max_entries_to_build": 1,
+        "max_entries_to_merge": 5
+      },
+      "prs": [
+        28,
+        29
+      ],
+      "outcome": "both landed",
+      "evidence": [
+        "experiments/native-stacks-2026-11-08/public-org-queue-2026-11-08/ci/native-no-manual-gate-merge/RESULTS.md",
+        "experiments/native-stacks-2026-11-08/public-org-queue-2026-11-08/ci/native-no-manual-gate-merge/frozen-summary.json"
+      ]
+    },
+    {
+      "id": "Q03-squash-allgreen-1",
+      "disposition": "reused",
+      "why": "Exact method/strategy/build/check control already executed in prior campaign; fresh remaining cells test new settings interactions.",
+      "settings": {
+        "merge_method": "SQUASH",
+        "grouping_strategy": "ALLGREEN",
+        "max_entries_to_build": 1,
+        "max_entries_to_merge": 5
+      },
+      "prs": [
+        25,
+        26
+      ],
+      "outcome": "lower landed; upper invalid_merge_commit and native rewrite",
+      "evidence": [
+        "experiments/native-stacks-2026-11-08/public-org-queue-2026-11-08/ci/native-no-manual-gate/RESULTS.md",
+        "experiments/native-stacks-2026-11-08/public-org-queue-2026-11-08/ci/native-no-manual-gate/frozen-summary.json"
+      ]
+    },
+    {
+      "id": "Q03-rebase-allgreen-1",
+      "disposition": "reused",
+      "why": "Exact method/strategy/build/check control already executed in prior campaign; fresh remaining cells test new settings interactions.",
+      "settings": {
+        "merge_method": "REBASE",
+        "grouping_strategy": "ALLGREEN",
+        "max_entries_to_build": 1,
+        "max_entries_to_merge": 5
+      },
+      "prs": [
+        31,
+        32
+      ],
+      "outcome": "lower landed; upper invalid_merge_commit and native rewrite",
+      "evidence": [
+        "experiments/native-stacks-2026-11-08/public-org-queue-2026-11-08/ci/native-no-manual-gate-rebase/RESULTS.md",
+        "experiments/native-stacks-2026-11-08/public-org-queue-2026-11-08/ci/native-no-manual-gate-rebase/frozen-summary.json"
+      ]
+    },
+    {
+      "id": "Q10-group-failure",
+      "disposition": "reused",
+      "why": "Settled direct control; no new discriminator requires repetition.",
+      "outcome": "Real merge_group-only Actions failure ejected ordinary PR; trunk unchanged.",
+      "evidence": [
+        "experiments/native-stacks-2026-11-08/public-org-queue-2026-11-08/ci/RESULTS.md"
+      ]
+    },
+    {
+      "id": "Q10-queued-source-edit",
+      "disposition": "reused",
+      "why": "Settled direct control; no new discriminator requires repetition.",
+      "outcome": "Queued source exact-lease atomic update rejected GH006, archive also absent.",
+      "evidence": [
+        "experiments/native-stacks-2026-11-08/public-org-queue-2026-11-08/edit/RESULTS.md"
+      ]
+    },
+    {
+      "id": "Q10-admission-failure",
+      "disposition": "reused",
+      "why": "Settled direct control; no new discriminator requires repetition.",
+      "outcome": "Failing upper source check rejected selected-prefix admission before landing.",
+      "evidence": [
+        "experiments/native-stacks-2026-11-08/public-org-queue-2026-11-08/native/RESULTS.md"
+      ]
+    },
+    {
+      "id": "Q10-receipt-lifecycle",
+      "disposition": "reused",
+      "why": "Settled direct control; no new discriminator requires repetition.",
+      "outcome": "Original terminal enqueued UUID persisted after removal/landing.",
+      "evidence": [
+        "experiments/native-stacks-2026-11-08/public-org-queue-2026-11-08/RESULTS.md"
+      ]
+    }
+  ],
+  "limitations": [
+    "Only tested configurations and observations; no permanent provider contract.",
+    "API intervals include deliberate pacing; they are client call envelopes, not exact server dispatch instants.",
+    "GraphQL confirmed upper/middle dequeue rejected based on direct base; actual UI removal is not established by that rejection.",
+    "Per-PR timestamps and branch observations expose outcomes, not transaction IDs or proof of no later provider writes.",
+    "Q06 ALLGREEN candidate failure stayed blocked during its measured interval and was manually cleaned; no automatic ejection claim."
+  ],
+  "audit": {
+    "start": "2026-11-09T03:36:21.747133+00:00",
+    "end": "2026-11-09T03:37:22.799096+00:00",
+    "queue_empty": true,
+    "archive_exact": true,
+    "patches_preserved": true,
+    "graphql_git_coherent": true,
+    "unresolved_intents": [],
+    "incomplete_actions": []
+  }
+}

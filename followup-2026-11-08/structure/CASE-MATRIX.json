@@ -1,0 +1,215 @@
+{
+  "started_at": "2026-11-09T04:20:17.776426+00:00",
+  "finished_at": "2026-11-09T04:30:26.277461+00:00",
+  "rows": [
+    {
+      "id": "S01",
+      "topology": "reorder",
+      "boundary": "unstack",
+      "disposition": "performed-observed-recovered",
+      "fixture": "fixtures/s01/fixture.json",
+      "interruption": "fixtures/s01/process-initial.json",
+      "boundary_checkpoint": "fixtures/s01/boundary-initial.json",
+      "recovery": "fixtures/s01/process-recovery.json",
+      "completion": "fixtures/s01/completion-recovery.json",
+      "kill_exit": -9,
+      "recovery_exit": 0,
+      "resumed_after_count": 1,
+      "completed_count": 7,
+      "canonical_prs": {
+        "A": 181,
+        "B": 182,
+        "C": 183
+      }
+    },
+    {
+      "id": "S02",
+      "topology": "reorder",
+      "boundary": "park-B",
+      "disposition": "performed-observed-recovered",
+      "fixture": "fixtures/s02/fixture.json",
+      "interruption": "fixtures/s02/process-initial.json",
+      "boundary_checkpoint": "fixtures/s02/boundary-initial.json",
+      "recovery": "fixtures/s02/process-recovery.json",
+      "completion": "fixtures/s02/completion-recovery.json",
+      "kill_exit": -9,
+      "recovery_exit": 0,
+      "resumed_after_count": 2,
+      "completed_count": 7,
+      "canonical_prs": {
+        "A": 190,
+        "B": 191,
+        "C": 192
+      }
+    },
+    {
+      "id": "S03",
+      "topology": "reorder",
+      "boundary": "park-C",
+      "disposition": "performed-observed-recovered",
+      "fixture": "fixtures/s03/fixture.json",
+      "interruption": "fixtures/s03/process-initial.json",
+      "boundary_checkpoint": "fixtures/s03/boundary-initial.json",
+      "recovery": "fixtures/s03/process-recovery.json",
+      "completion": "fixtures/s03/completion-recovery.json",
+      "kill_exit": -9,
+      "recovery_exit": 0,
+      "resumed_after_count": 3,
+      "completed_count": 7,
+      "canonical_prs": {
+        "A": 201,
+        "B": 203,
+        "C": 205
+      }
+    },
+    {
+      "id": "S04",
+      "topology": "reorder",
+      "boundary": "heads-archives",
+      "disposition": "performed-observed-recovered",
+      "fixture": "fixtures/s04/fixture.json",
+      "interruption": "fixtures/s04/process-initial.json",
+      "boundary_checkpoint": "fixtures/s04/boundary-initial.json",
+      "recovery": "fixtures/s04/process-recovery.json",
+      "completion": "fixtures/s04/completion-recovery.json",
+      "kill_exit": -9,
+      "recovery_exit": 0,
+      "resumed_after_count": 4,
+      "completed_count": 7,
+      "canonical_prs": {
+        "A": 224,
+        "B": 226,
+        "C": 228
+      }
+    },
+    {
+      "id": "S05",
+      "topology": "reorder",
+      "boundary": "final-A",
+      "disposition": "performed-observed-recovered",
+      "fixture": "fixtures/s05/fixture.json",
+      "interruption": "fixtures/s05/process-initial.json",
+      "boundary_checkpoint": "fixtures/s05/boundary-initial.json",
+      "recovery": "fixtures/s05/process-recovery.json",
+      "completion": "fixtures/s05/completion-recovery.json",
+      "kill_exit": -9,
+      "recovery_exit": 0,
+      "resumed_after_count": 5,
+      "completed_count": 7,
+      "canonical_prs": {
+        "A": 249,
+        "B": 251,
+        "C": 253
+      }
+    },
+    {
+      "id": "S06",
+      "topology": "reorder",
+      "boundary": "final-B",
+      "disposition": "performed-observed-recovered",
+      "fixture": "fixtures/s06/fixture.json",
+      "interruption": "fixtures/s06/process-initial.json",
+      "boundary_checkpoint": "fixtures/s06/boundary-initial.json",
+      "recovery": "fixtures/s06/process-recovery.json",
+      "completion": "fixtures/s06/completion-recovery.json",
+      "kill_exit": -9,
+      "recovery_exit": 0,
+      "resumed_after_count": 6,
+      "completed_count": 7,
+      "canonical_prs": {
+        "A": 272,
+        "B": 274,
+        "C": 276
+      }
+    },
+    {
+      "id": "S07",
+      "topology": "reorder",
+      "boundary": "register",
+      "disposition": "performed-observed-recovered",
+      "fixture": "fixtures/s07/fixture.json",
+      "interruption": "fixtures/s07/process-initial.json",
+      "boundary_checkpoint": "fixtures/s07/boundary-initial.json",
+      "recovery": "fixtures/s07/process-recovery.json",
+      "completion": "fixtures/s07/completion-recovery.json",
+      "kill_exit": -9,
+      "recovery_exit": 0,
+      "resumed_after_count": 7,
+      "completed_count": 7,
+      "canonical_prs": {
+        "A": 294,
+        "B": 296,
+        "C": 298
+      }
+    },
+    {
+      "id": "S08",
+      "topology": "insert",
+      "boundary": "create-D",
+      "disposition": "performed-observed-recovered",
+      "fixture": "fixtures/s08/fixture.json",
+      "interruption": "fixtures/s08/process-initial.json",
+      "boundary_checkpoint": "fixtures/s08/boundary-initial.json",
+      "recovery": "fixtures/s08/process-recovery.json",
+      "completion": "fixtures/s08/completion-recovery.json",
+      "kill_exit": -9,
+      "recovery_exit": 0,
+      "resumed_after_count": 5,
+      "completed_count": 8,
+      "canonical_prs": {
+        "A": 317,
+        "B": 319,
+        "C": 321,
+        "D": 331
+      }
+    },
+    {
+      "id": "S09",
+      "topology": "insert",
+      "boundary": "register",
+      "disposition": "performed-observed-recovered",
+      "fixture": "fixtures/s09/fixture.json",
+      "interruption": "fixtures/s09/process-initial.json",
+      "boundary_checkpoint": "fixtures/s09/boundary-initial.json",
+      "recovery": "fixtures/s09/process-recovery.json",
+      "completion": "fixtures/s09/completion-recovery.json",
+      "kill_exit": -9,
+      "recovery_exit": 0,
+      "resumed_after_count": 8,
+      "completed_count": 8,
+      "canonical_prs": {
+        "A": 333,
+        "B": 334,
+        "C": 335,
+        "D": 337
+      }
+    },
+    {
+      "id": "S10a",
+      "topology": "reorder",
+      "boundary": "withheld acknowledged receipt",
+      "disposition": "performed-refused-before-new-dispatch",
+      "fixture": "fixtures/s10/fixture.json",
+      "process": "fixtures/s10/process-missing-evidence.json",
+      "refusal": "fixtures/s10/refusal-missing-evidence.json",
+      "exit": 1,
+      "no_new_effect_receipt": true,
+      "retained_stop_reason": "deliberate stale live state; original receipt restored exactly"
+    },
+    {
+      "id": "S10b",
+      "topology": "reorder",
+      "boundary": "independently advanced live B head",
+      "disposition": "performed-refused-before-new-dispatch",
+      "fixture": "fixtures/s10/fixture.json",
+      "process": "fixtures/s10/process-stale-live.json",
+      "refusal": "fixtures/s10/refusal-stale-live.json",
+      "exit": 1,
+      "no_new_effect_receipt": true,
+      "retained_stop_reason": "deliberate stale live state; original receipt restored exactly"
+    }
+  ],
+  "final_audit": "FINAL-AUDIT.json",
+  "all_planned_cases_disposed": true,
+  "findings_are_bounded_observations": true
+}

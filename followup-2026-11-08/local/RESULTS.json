@@ -1,0 +1,1047 @@
+{
+  "scope": "Local disposable real-Git evidence and cooperative recovery prototype only. Expected negative-control execution success is distinct from the model invariant verdict.",
+  "baseline_run": "runs/20261108T221826-1794194306177964000",
+  "followup_run": "followup-runs/1794194615590036000",
+  "interface_run": "interface-runs/1794194693558535000",
+  "adversarial_run": "adversarial-runs/1794194807723389000",
+  "baseline_assertions": {
+    "passed": 122,
+    "total": 122
+  },
+  "new_probe_groups": {
+    "executed": 17,
+    "driver_failures_final": 0,
+    "preserved_first_run_driver_failures": 2
+  },
+  "model_failure_case_ids": [
+    "L13",
+    "L14",
+    "L16",
+    "L28",
+    "L29"
+  ],
+  "matrix": [
+    {
+      "id": "L01",
+      "status": "passed",
+      "disposition": "performed",
+      "outcome": "Unmodified original prototype: 122/122 assertions, including eight real SIGKILL prefixes.",
+      "evidence": [
+        "runs/20261108T221826-1794194306177964000/results.json"
+      ]
+    },
+    {
+      "id": "L02",
+      "status": "passed",
+      "disposition": "performed",
+      "outcome": "Eighteen repeated changing-parent A/B integrations matched independent exact trees, messages and B ownership.",
+      "evidence": [
+        "followup-runs/1794194615590036000/RESULTS.json#L02-L04"
+      ]
+    },
+    {
+      "id": "L03",
+      "status": "passed-negative-control",
+      "disposition": "performed",
+      "outcome": "Authored-baseline reuse conflicts; accepted-local-as-hosted baseline loses pending content.",
+      "evidence": [
+        "runs/20261108T221826-1794194306177964000/results.json#integration"
+      ]
+    },
+    {
+      "id": "L04",
+      "status": "passed",
+      "disposition": "performed",
+      "outcome": "Three unchanged imports preserve exact tree; scratch commit identities may change.",
+      "evidence": [
+        "followup-runs/1794194615590036000/RESULTS.json#L02-L04"
+      ]
+    },
+    {
+      "id": "L05",
+      "status": "passed-with-scope-limit",
+      "disposition": "performed",
+      "outcome": "Two-commit local and hosted groups preserve net tree, upper ownership and local tip message; accepted layer is flattened.",
+      "evidence": [
+        "followup-runs/1794194615590036000/RESULTS.json#L05-L08"
+      ]
+    },
+    {
+      "id": "L06",
+      "status": "passed",
+      "disposition": "performed",
+      "outcome": "Rename with hosted edit, executable mode with hosted edit, deletion and binary local edit preserve exact modes/blob bytes.",
+      "evidence": [
+        "followup-runs/1794194615590036000/RESULTS.json#L06-L07"
+      ]
+    },
+    {
+      "id": "L07",
+      "status": "passed-expected-conflicts",
+      "disposition": "performed",
+      "outcome": "Rename/rename, modify/delete and binary/binary conflict explicitly with input objects and conflict trees pinned.",
+      "evidence": [
+        "followup-runs/1794194615590036000/RESULTS.json#L06-L07"
+      ]
+    },
+    {
+      "id": "L08",
+      "status": "passed-with-scope-limit",
+      "disposition": "performed",
+      "outcome": "Revert as new change and explicitly accepted reset retain intended trees and original objects; intent is supplied.",
+      "evidence": [
+        "runs/20261108T221826-1794194306177964000/results.json#ordinary_git",
+        "followup-runs/1794194615590036000/RESULTS.json#L05-L08"
+      ]
+    },
+    {
+      "id": "L09",
+      "status": "passed",
+      "disposition": "performed-and-reused-prior",
+      "outcome": "F-before-B owns only pending API delta; B owns consumer. Prior executable hosted integration succeeds with F and fails specifically for missing field without F.",
+      "evidence": [
+        "runs/20261108T221826-1794194306177964000/results.json#landed_followup",
+        "../../native-stacks-2026-11-08/local-git/hosted-integration/RESULTS.md"
+      ]
+    },
+    {
+      "id": "L10",
+      "status": "passed",
+      "disposition": "performed",
+      "outcome": "Captured continuation preserves dirty/staged/untracked bytes, moving source and old checkpoint; occupied name refuses.",
+      "evidence": [
+        "runs/20261108T221826-1794194306177964000/results.json#continuation"
+      ]
+    },
+    {
+      "id": "L11",
+      "status": "passed",
+      "disposition": "performed",
+      "outcome": "Eight original SIGKILL states plus repeated recovery send no duplicate; indeterminate stays blocked.",
+      "evidence": [
+        "runs/20261108T221826-1794194306177964000/results.json#fault_prefixes",
+        "followup-runs/1794194615590036000/RESULTS.json#L11"
+      ]
+    },
+    {
+      "id": "L12",
+      "status": "passed-with-scope-limit",
+      "disposition": "performed",
+      "outcome": "Missing bindings/checkpoint/pending manifest/op record withhold cooperative admission; full custody retains unknown guard and reconciles unique local receipt without resend.",
+      "evidence": [
+        "followup-runs/1794194615590036000/RESULTS.json#L12"
+      ]
+    },
+    {
+      "id": "L13",
+      "status": "model-failure",
+      "disposition": "performed",
+      "outcome": "Acknowledged wrong ref/checkpoint refuses, but complete-record recovery and admission accept a deleted continuation ref or checkpoint.",
+      "evidence": [
+        "followup-runs/1794194615590036000/RESULTS.json#L13-L14"
+      ]
+    },
+    {
+      "id": "L14",
+      "status": "model-failure",
+      "disposition": "performed",
+      "outcome": "Deleting applied operation record makes direct worker recreate planned intent and resend (1\u21922), bypassing separately correct admission refusal.",
+      "evidence": [
+        "followup-runs/1794194615590036000/RESULTS.json#L13-L14"
+      ]
+    },
+    {
+      "id": "L15",
+      "status": "passed-with-scope-limit",
+      "disposition": "performed",
+      "outcome": "Seven real SIGKILL journal replacement prefixes retain complete old/new JSON; no power-loss inference.",
+      "evidence": [
+        "followup-runs/1794194615590036000/RESULTS.json#L15"
+      ]
+    },
+    {
+      "id": "L16",
+      "status": "model-failure",
+      "disposition": "performed",
+      "outcome": "Simultaneous workers have no enforced owner fence and hit shared temporary-file or ref races; an earlier retained run also recorded duplicate dispatch.",
+      "evidence": [
+        "followup-runs/1794194615590036000/RESULTS.json#L16",
+        "followup-runs/1794194513334823000/RESULTS.json#L16"
+      ]
+    },
+    {
+      "id": "L17",
+      "status": "passed",
+      "disposition": "performed",
+      "outcome": "Two divergent concurrent head/archive writers yield one coupled winner and no partial loser ref.",
+      "evidence": [
+        "followup-runs/1794194615590036000/RESULTS.json#L17-L18"
+      ]
+    },
+    {
+      "id": "L18",
+      "status": "passed-negative-control",
+      "disposition": "performed",
+      "outcome": "Same-target concurrent attempts can race; after the winner, identical stale-lease retry reports both refs up to date and succeeds.",
+      "evidence": [
+        "followup-runs/1794194615590036000/RESULTS.json#L17-L18",
+        "followup-runs/1794194615590036000/commands.jsonl"
+      ]
+    },
+    {
+      "id": "L19",
+      "status": "passed",
+      "disposition": "performed",
+      "outcome": "Stale head lease atomically rejects otherwise valid archive creation.",
+      "evidence": [
+        "followup-runs/1794194615590036000/RESULTS.json#L19-L21"
+      ]
+    },
+    {
+      "id": "L20",
+      "status": "passed-negative-control",
+      "disposition": "performed",
+      "outcome": "Stale lease on an unchanged equal head is omitted as a guard while a new archive is written.",
+      "evidence": [
+        "followup-runs/1794194615590036000/RESULTS.json#L19-L21",
+        "followup-runs/1794194615590036000/git-equal-ref/packet.trace"
+      ]
+    },
+    {
+      "id": "L21",
+      "status": "passed-negative-control",
+      "disposition": "performed",
+      "outcome": "Old\u2192intervening\u2192old ABA sequence permits old-value lease; no generation/ownership claim follows.",
+      "evidence": [
+        "followup-runs/1794194615590036000/RESULTS.json#L19-L21"
+      ]
+    },
+    {
+      "id": "L22",
+      "status": "passed-with-scope-limit",
+      "disposition": "performed",
+      "outcome": "Exact old/new ranges exclude parent drift; tip comparison includes it; range-diff identifies same patch and changed/unmatched patches.",
+      "evidence": [
+        "followup-runs/1794194615590036000/RESULTS.json#L22"
+      ]
+    },
+    {
+      "id": "L23",
+      "status": "passed-negative-control",
+      "disposition": "performed-and-reused-prior",
+      "outcome": "Outer dry-run, unrelated ref and deletion all allow fixture hook to publish current branch to its independent destination.",
+      "evidence": [
+        "interface-runs/1794194693558535000/RESULTS.json#L23",
+        "../../native-stacks-2026-11-08/cli-history/hook-dryrun/RESULTS.md"
+      ]
+    },
+    {
+      "id": "L24",
+      "status": "passed-with-scope-limit",
+      "disposition": "performed",
+      "outcome": "Explicit local prototype dispatches nothing on dry-run and publishes exact captured SHA/destination after live source moves.",
+      "evidence": [
+        "interface-runs/1794194693558535000/RESULTS.json#L24"
+      ]
+    },
+    {
+      "id": "L25",
+      "status": "passed-with-scope-limit",
+      "disposition": "performed",
+      "outcome": "Pinned CLI digest and parser verified; 15 pure adapter inputs pass accept/reject oracles. Live authorization remains untested here.",
+      "evidence": [
+        "interface-runs/1794194693558535000/RESULTS.json#L25-L26"
+      ]
+    },
+    {
+      "id": "L26",
+      "status": "passed-with-scope-limit",
+      "disposition": "performed-and-reused-prior",
+      "outcome": "Five pinned link-help process timings and retained source comparison; prior hosted CLI effects reused. No API/transport latency estimate.",
+      "evidence": [
+        "interface-runs/1794194693558535000/RESULTS.json#L25-L26",
+        "../../native-stacks-2026-11-08/cli-history/RESULTS.md"
+      ]
+    },
+    {
+      "id": "L27",
+      "status": "unavailable",
+      "disposition": "concretely-unavailable",
+      "outcome": "Machine/device power loss is outside this host/lane; production migration/signing and independent humans require implementations/actors; provider/real network-loss cases belong to root and other lanes.",
+      "evidence": []
+    },
+    {
+      "id": "L28",
+      "status": "model-failure",
+      "disposition": "performed",
+      "outcome": "Two real processes cache planned; first completes; stale second then resumes: both exit 0, serialized emulator records two requests.",
+      "evidence": [
+        "adversarial-runs/1794194807723389000/RESULTS.json#L28"
+      ]
+    },
+    {
+      "id": "L29",
+      "status": "model-failure",
+      "disposition": "performed",
+      "outcome": "Custody admission permits a complete record whose operation ID disagrees with the pending manifest.",
+      "evidence": [
+        "adversarial-runs/1794194807723389000/RESULTS.json#L29"
+      ]
+    },
+    {
+      "id": "L30",
+      "status": "passed-with-scope-limit",
+      "disposition": "performed",
+      "outcome": "File-fsync failure leaves old JSON; directory-fsync failure raises after new JSON is visible. Exceptions do not imply no effect.",
+      "evidence": [
+        "adversarial-runs/1794194807723389000/RESULTS.json#L30"
+      ]
+    }
+  ],
+  "sources": {
+    "PLAN.md": {
+      "sha256": "f30aa92ed9479e3d69a6144b5563ddc79ec38cfadbffead396ac43fe10dffd94",
+      "bytes": 8225
+    },
+    "baseline-harness.py": {
+      "sha256": "548714fe2959e48dfd61286683a4773405affc23b2591e2a48637c5c76ebb7e3",
+      "bytes": 46711
+    },
+    "followup.py": {
+      "sha256": "e398314d5fc8a4c14a091839b3fdcd3601fd2d5d6e86f9b0a5c2c66cb4b03b83",
+      "bytes": 32874
+    },
+    "interface.py": {
+      "sha256": "952f536f1e1f93555d13a2b37560ef714ec70d8dfac5ea9b8d36654a5564f40e",
+      "bytes": 13125
+    },
+    "recovery_adversarial.py": {
+      "sha256": "f949c210205d7d556cd9398ac1b5306513c5f808e4d557ff8b8acf5f4c685c3c",
+      "bytes": 6111
+    },
+    "verify_evidence.py": {
+      "sha256": "9f08f5f9975e0f47d76a39871d3ffbc37bbdf729e877fa2cf7eb7de16be7b031",
+      "bytes": 1599
+    },
+    "report.py": {
+      "sha256": "0d9b093b893beaa498149540c6dd2b776f138780be0834df7574d6d8cc226fab",
+      "bytes": 9234
+    },
+    "HARNESS-CORRECTIONS.md": {
+      "sha256": "1ee6fb8f8c044ede970167f72958b06fcb5de0ffd92b5e39ef44ded991b9c9be",
+      "bytes": 1374
+    }
+  },
+  "object_verification": {
+    "repository_count": 111,
+    "fsck_failures": 0,
+    "repositories": [
+      {
+        "git_directory": "adversarial-runs/1794194807723389000/foreign-operation-record/repo/.git",
+        "exit": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "git_directory": "adversarial-runs/1794194807723389000/ordered-stale-writer/repo/.git",
+        "exit": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "git_directory": "followup-runs/1794194513334823000/missing-accepted-checkpoint-json/repo/.git",
+        "exit": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "git_directory": "followup-runs/1794194513334823000/duplicate-provider_applied/repo/.git",
+        "exit": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "git_directory": "followup-runs/1794194513334823000/damaged-wrong-ref/repo/.git",
+        "exit": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "git_directory": "followup-runs/1794194513334823000/missing-bindings-json/repo/.git",
+        "exit": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "git_directory": "followup-runs/1794194513334823000/git-aba/source/.git",
+        "exit": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "git_directory": "followup-runs/1794194513334823000/git-aba/sink.git",
+        "exit": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "git_directory": "followup-runs/1794194513334823000/full-custody/repo/.git",
+        "exit": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "git_directory": "followup-runs/1794194513334823000/damaged-missing-operation-after-effect/repo/.git",
+        "exit": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "git_directory": "followup-runs/1794194513334823000/damaged-deleted-checkpoint-complete/repo/.git",
+        "exit": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "git_directory": "followup-runs/1794194513334823000/git-atomic-rejection/source/.git",
+        "exit": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "git_directory": "followup-runs/1794194513334823000/git-atomic-rejection/sink.git",
+        "exit": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "git_directory": "followup-runs/1794194513334823000/missing-operation-json/repo/.git",
+        "exit": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "git_directory": "followup-runs/1794194513334823000/multi-reset-revert/.git",
+        "exit": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "git_directory": "followup-runs/1794194513334823000/repeated-3/.git",
+        "exit": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "git_directory": "followup-runs/1794194513334823000/exact-deletion/.git",
+        "exit": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "git_directory": "followup-runs/1794194513334823000/damaged-wrong-checkpoint/repo/.git",
+        "exit": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "git_directory": "followup-runs/1794194513334823000/duplicate-dispatched/repo/.git",
+        "exit": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "git_directory": "followup-runs/1794194513334823000/git-concurrent-divergent/source/.git",
+        "exit": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "git_directory": "followup-runs/1794194513334823000/git-concurrent-divergent/sink.git",
+        "exit": 0,
+        "stdout": "dangling commit 8f0e7c150d6516c5087c9d786f22af78f777a835\n",
+        "stderr": ""
+      },
+      {
+        "git_directory": "followup-runs/1794194513334823000/duplicate-planned/repo/.git",
+        "exit": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "git_directory": "followup-runs/1794194513334823000/concurrent-worker-0/repo/.git",
+        "exit": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "git_directory": "followup-runs/1794194513334823000/duplicate-acknowledged/repo/.git",
+        "exit": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "git_directory": "followup-runs/1794194513334823000/concurrent-worker-1/repo/.git",
+        "exit": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "git_directory": "followup-runs/1794194513334823000/duplicate-complete/repo/.git",
+        "exit": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "git_directory": "followup-runs/1794194513334823000/exact-mode/.git",
+        "exit": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "git_directory": "followup-runs/1794194513334823000/repeated-11/.git",
+        "exit": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "git_directory": "followup-runs/1794194513334823000/history/.git",
+        "exit": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "git_directory": "followup-runs/1794194513334823000/duplicate-ref_created/repo/.git",
+        "exit": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "git_directory": "followup-runs/1794194513334823000/exact-rename/.git",
+        "exit": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "git_directory": "followup-runs/1794194513334823000/exact-binary/.git",
+        "exit": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "git_directory": "followup-runs/1794194513334823000/git-equal-ref/source/.git",
+        "exit": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "git_directory": "followup-runs/1794194513334823000/git-equal-ref/sink.git",
+        "exit": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "git_directory": "followup-runs/1794194513334823000/exact-binary-conflict/.git",
+        "exit": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "git_directory": "followup-runs/1794194513334823000/duplicate-before_planned/repo/.git",
+        "exit": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "git_directory": "followup-runs/1794194513334823000/missing-pending-operations-json/repo/.git",
+        "exit": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "git_directory": "followup-runs/1794194513334823000/exact-delete-conflict/.git",
+        "exit": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "git_directory": "followup-runs/1794194513334823000/duplicate-checkpoint_installed/repo/.git",
+        "exit": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "git_directory": "followup-runs/1794194513334823000/repeated-7/.git",
+        "exit": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "git_directory": "followup-runs/1794194513334823000/damaged-deleted-ref-complete/repo/.git",
+        "exit": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "git_directory": "followup-runs/1794194513334823000/exact-rename-conflict/.git",
+        "exit": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "git_directory": "followup-runs/1794194513334823000/git-concurrent-same/source/.git",
+        "exit": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "git_directory": "followup-runs/1794194513334823000/git-concurrent-same/sink.git",
+        "exit": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "git_directory": "followup-runs/1794194615590036000/missing-accepted-checkpoint-json/repo/.git",
+        "exit": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "git_directory": "followup-runs/1794194615590036000/duplicate-provider_applied/repo/.git",
+        "exit": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "git_directory": "followup-runs/1794194615590036000/damaged-wrong-ref/repo/.git",
+        "exit": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "git_directory": "followup-runs/1794194615590036000/missing-bindings-json/repo/.git",
+        "exit": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "git_directory": "followup-runs/1794194615590036000/git-aba/source/.git",
+        "exit": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "git_directory": "followup-runs/1794194615590036000/git-aba/sink.git",
+        "exit": 0,
+        "stdout": "dangling commit 8f0e7c150d6516c5087c9d786f22af78f777a835\n",
+        "stderr": ""
+      },
+      {
+        "git_directory": "followup-runs/1794194615590036000/full-custody/repo/.git",
+        "exit": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "git_directory": "followup-runs/1794194615590036000/damaged-missing-operation-after-effect/repo/.git",
+        "exit": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "git_directory": "followup-runs/1794194615590036000/damaged-deleted-checkpoint-complete/repo/.git",
+        "exit": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "git_directory": "followup-runs/1794194615590036000/git-atomic-rejection/source/.git",
+        "exit": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "git_directory": "followup-runs/1794194615590036000/git-atomic-rejection/sink.git",
+        "exit": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "git_directory": "followup-runs/1794194615590036000/missing-operation-json/repo/.git",
+        "exit": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "git_directory": "followup-runs/1794194615590036000/multi-reset-revert/.git",
+        "exit": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "git_directory": "followup-runs/1794194615590036000/repeated-3/.git",
+        "exit": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "git_directory": "followup-runs/1794194615590036000/exact-deletion/.git",
+        "exit": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "git_directory": "followup-runs/1794194615590036000/damaged-wrong-checkpoint/repo/.git",
+        "exit": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "git_directory": "followup-runs/1794194615590036000/duplicate-dispatched/repo/.git",
+        "exit": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "git_directory": "followup-runs/1794194615590036000/git-concurrent-divergent/source/.git",
+        "exit": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "git_directory": "followup-runs/1794194615590036000/git-concurrent-divergent/sink.git",
+        "exit": 0,
+        "stdout": "dangling commit 8f0e7c150d6516c5087c9d786f22af78f777a835\n",
+        "stderr": ""
+      },
+      {
+        "git_directory": "followup-runs/1794194615590036000/duplicate-planned/repo/.git",
+        "exit": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "git_directory": "followup-runs/1794194615590036000/concurrent-worker-0/repo/.git",
+        "exit": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "git_directory": "followup-runs/1794194615590036000/duplicate-acknowledged/repo/.git",
+        "exit": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "git_directory": "followup-runs/1794194615590036000/concurrent-worker-1/repo/.git",
+        "exit": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "git_directory": "followup-runs/1794194615590036000/duplicate-complete/repo/.git",
+        "exit": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "git_directory": "followup-runs/1794194615590036000/exact-mode/.git",
+        "exit": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "git_directory": "followup-runs/1794194615590036000/repeated-11/.git",
+        "exit": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "git_directory": "followup-runs/1794194615590036000/history/.git",
+        "exit": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "git_directory": "followup-runs/1794194615590036000/duplicate-ref_created/repo/.git",
+        "exit": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "git_directory": "followup-runs/1794194615590036000/exact-rename/.git",
+        "exit": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "git_directory": "followup-runs/1794194615590036000/exact-binary/.git",
+        "exit": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "git_directory": "followup-runs/1794194615590036000/git-equal-ref/source/.git",
+        "exit": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "git_directory": "followup-runs/1794194615590036000/git-equal-ref/sink.git",
+        "exit": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "git_directory": "followup-runs/1794194615590036000/exact-binary-conflict/.git",
+        "exit": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "git_directory": "followup-runs/1794194615590036000/duplicate-before_planned/repo/.git",
+        "exit": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "git_directory": "followup-runs/1794194615590036000/missing-pending-operations-json/repo/.git",
+        "exit": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "git_directory": "followup-runs/1794194615590036000/exact-delete-conflict/.git",
+        "exit": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "git_directory": "followup-runs/1794194615590036000/duplicate-checkpoint_installed/repo/.git",
+        "exit": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "git_directory": "followup-runs/1794194615590036000/repeated-7/.git",
+        "exit": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "git_directory": "followup-runs/1794194615590036000/damaged-deleted-ref-complete/repo/.git",
+        "exit": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "git_directory": "followup-runs/1794194615590036000/exact-rename-conflict/.git",
+        "exit": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "git_directory": "followup-runs/1794194615590036000/git-concurrent-same/source/.git",
+        "exit": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "git_directory": "followup-runs/1794194615590036000/git-concurrent-same/sink.git",
+        "exit": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "git_directory": "interface-runs/1794194693558535000/explicit-publication/source/.git",
+        "exit": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "git_directory": "interface-runs/1794194693558535000/explicit-publication/sink.git",
+        "exit": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "git_directory": "interface-runs/1794194693558535000/explicit-publication/unrelated.git",
+        "exit": 0,
+        "stdout": "",
+        "stderr": "notice: No default references\n"
+      },
+      {
+        "git_directory": "interface-runs/1794194693558535000/hook-deletion/source/.git",
+        "exit": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "git_directory": "interface-runs/1794194693558535000/hook-deletion/sink.git",
+        "exit": 0,
+        "stdout": "dangling commit a7b1992208fdb4d7d30ff537805c0bf16c2a0324\n",
+        "stderr": "notice: No default references\n"
+      },
+      {
+        "git_directory": "interface-runs/1794194693558535000/hook-deletion/inner.git",
+        "exit": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "git_directory": "interface-runs/1794194693558535000/hook-dry-run/source/.git",
+        "exit": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "git_directory": "interface-runs/1794194693558535000/hook-dry-run/sink.git",
+        "exit": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "git_directory": "interface-runs/1794194693558535000/hook-dry-run/inner.git",
+        "exit": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "git_directory": "interface-runs/1794194693558535000/hook-unrelated/source/.git",
+        "exit": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "git_directory": "interface-runs/1794194693558535000/hook-unrelated/sink.git",
+        "exit": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "git_directory": "interface-runs/1794194693558535000/hook-unrelated/inner.git",
+        "exit": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "git_directory": "runs/20261108T221826-1794194306177964000/replacement-full-transfer/repo/.git",
+        "exit": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "git_directory": "runs/20261108T221826-1794194306177964000/shared-file-repo/.git",
+        "exit": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "git_directory": "runs/20261108T221826-1794194306177964000/ordinary-git-repo/.git",
+        "exit": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "git_directory": "runs/20261108T221826-1794194306177964000/faults/before_planned/repo/.git",
+        "exit": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "git_directory": "runs/20261108T221826-1794194306177964000/faults/complete/repo/.git",
+        "exit": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "git_directory": "runs/20261108T221826-1794194306177964000/faults/provider_applied/repo/.git",
+        "exit": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "git_directory": "runs/20261108T221826-1794194306177964000/faults/checkpoint_installed/repo/.git",
+        "exit": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "git_directory": "runs/20261108T221826-1794194306177964000/faults/ref_created/repo/.git",
+        "exit": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "git_directory": "runs/20261108T221826-1794194306177964000/faults/acknowledged/repo/.git",
+        "exit": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "git_directory": "runs/20261108T221826-1794194306177964000/faults/planned/repo/.git",
+        "exit": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "git_directory": "runs/20261108T221826-1794194306177964000/faults/dispatched/repo/.git",
+        "exit": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "git_directory": "runs/20261108T221826-1794194306177964000/negative-reset-repo/.git",
+        "exit": 0,
+        "stdout": "dangling blob ca386c980bfae222705db6a810254aefa00271cb\n",
+        "stderr": ""
+      },
+      {
+        "git_directory": "runs/20261108T221826-1794194306177964000/integration-repo/.git",
+        "exit": 0,
+        "stdout": "",
+        "stderr": ""
+      }
+    ],
+    "sources": [
+      {
+        "path": "PLAN.md",
+        "sha256": "f30aa92ed9479e3d69a6144b5563ddc79ec38cfadbffead396ac43fe10dffd94",
+        "bytes": 8225
+      },
+      {
+        "path": "baseline-harness.py",
+        "sha256": "548714fe2959e48dfd61286683a4773405affc23b2591e2a48637c5c76ebb7e3",
+        "bytes": 46711
+      },
+      {
+        "path": "followup.py",
+        "sha256": "e398314d5fc8a4c14a091839b3fdcd3601fd2d5d6e86f9b0a5c2c66cb4b03b83",
+        "bytes": 32874
+      },
+      {
+        "path": "interface.py",
+        "sha256": "952f536f1e1f93555d13a2b37560ef714ec70d8dfac5ea9b8d36654a5564f40e",
+        "bytes": 13125
+      },
+      {
+        "path": "recovery_adversarial.py",
+        "sha256": "f949c210205d7d556cd9398ac1b5306513c5f808e4d557ff8b8acf5f4c685c3c",
+        "bytes": 6111
+      },
+      {
+        "path": "HARNESS-CORRECTIONS.md",
+        "sha256": "97a8cc30669d4d16781c8bb57fcf8dcca0179ae72950a8d75b39949652217b4d",
+        "bytes": 1070
+      },
+      {
+        "path": "verify_evidence.py",
+        "sha256": "9f08f5f9975e0f47d76a39871d3ffbc37bbdf729e877fa2cf7eb7de16be7b031",
+        "bytes": 1599
+      }
+    ],
+    "scope": "Object connectivity/integrity of all retained local fixture Git stores, including negative controls; this does not validate protocol semantics."
+  },
+  "no_network_effects": true,
+  "no_production_changes": true
+}

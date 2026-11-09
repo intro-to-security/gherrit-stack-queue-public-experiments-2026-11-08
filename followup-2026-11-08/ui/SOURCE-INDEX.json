@@ -1,0 +1,26 @@
+{
+  "lane": "ui",
+  "files": [
+    {
+      "path": "ACCESS-ATTEMPTS.md",
+      "bytes": 2020,
+      "sha256": "6d6e4efeeafd343aacdd0a50e536548e6a03d3216443732864f2f1f9e196d39b",
+      "mode": 420,
+      "mtime_seconds": 1794198026
+    },
+    {
+      "path": "HUMAN-STUDY.md",
+      "bytes": 2468,
+      "sha256": "0c2773683957f3a0e84a191acbf26b764974bfa86244e9cdfd37cfeea9f37a1f",
+      "mode": 420,
+      "mtime_seconds": 1794198026
+    }
+  ],
+  "file_count": 2,
+  "expanded_bytes": 4488,
+  "archive_bytes": 2320,
+  "archive_sha256": "2818d288477fa98326976d53e99f83a0548482278940f3eeebb31c760d4712db",
+  "verified": true,
+  "scope": "UTF-8 source/reports/evidence only; local Git databases, executables, working trees and nontext payloads are retained locally, not removed",
+  "restore": "In a new empty directory: tar -xzf /path/to/evidence.tar.gz; verify every entry against SOURCE-INDEX.json before use."
+}

@@ -1,0 +1,3184 @@
+{
+  "repo": "joshlf/gherrit-native-stack-experiments-2026-11-08",
+  "ui-stale": {
+    "trunk": "exp/fu2/ci/ui-stale/trunk",
+    "lower": "exp/fu2/ci/ui-stale/lower",
+    "upper": "exp/fu2/ci/ui-stale/upper",
+    "bot": true,
+    "mode": "unsigned",
+    "seed": "ade319107e71b6eff646a1574139e2c15486fe6d",
+    "trunk_sha": "ade319107e71b6eff646a1574139e2c15486fe6d",
+    "lower_sha": "c2f7b64b7c0f009491195a8ffda21c6c29dd5c11",
+    "upper_sha": "8223987f13b4b9a40a7178ddf8aabbdad6a77408",
+    "bot_dispatches": {
+      "lower": {
+        "at": "2026-11-09T04:09:28.862106+00:00",
+        "phase": "acknowledged",
+        "request": {
+          "ref": "exp/fu2/ci/control/workflow",
+          "inputs": {
+            "operation": "create-pr",
+            "head": "exp/fu2/ci/ui-stale/lower",
+            "base": "exp/fu2/ci/ui-stale/trunk",
+            "title": "Follow-up review ui-stale: lower",
+            "body": "Reserved synthetic distinct-author website-rebase fixture.\n\n*Authored by an AI agent acting on joshlf's behalf.*"
+          }
+        }
+      },
+      "upper": {
+        "at": "2026-11-09T04:09:30.089559+00:00",
+        "phase": "acknowledged",
+        "request": {
+          "ref": "exp/fu2/ci/control/workflow",
+          "inputs": {
+            "operation": "create-pr",
+            "head": "exp/fu2/ci/ui-stale/upper",
+            "base": "exp/fu2/ci/ui-stale/lower",
+            "title": "Follow-up review ui-stale: upper",
+            "body": "Reserved synthetic distinct-author website-rebase fixture.\n\n*Authored by an AI agent acting on joshlf's behalf.*"
+          }
+        }
+      }
+    },
+    "lower_pr": 127,
+    "upper_pr": 128,
+    "stack": {
+      "id": 3225805,
+      "number": 142,
+      "node_id": "PRS_kwDOVnhIZ84AMTjN",
+      "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/stacks/142",
+      "base": {
+        "ref": "exp/fu2/ci/ui-stale/trunk"
+      },
+      "open": true,
+      "created_at": "2026-11-09T04:11:03Z",
+      "pull_requests": [
+        {
+          "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/pulls/127",
+          "id": 5218569036,
+          "number": 127,
+          "head": {
+            "ref": "exp/fu2/ci/ui-stale/lower",
+            "sha": "c2f7b64b7c0f009491195a8ffda21c6c29dd5c11",
+            "repo": {
+              "id": 1450723431,
+              "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08",
+              "name": "gherrit-native-stack-experiments-2026-11-08"
+            }
+          },
+          "base": {
+            "ref": "exp/fu2/ci/ui-stale/trunk",
+            "sha": "ade319107e71b6eff646a1574139e2c15486fe6d",
+            "repo": {
+              "id": 1450723431,
+              "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08",
+              "name": "gherrit-native-stack-experiments-2026-11-08"
+            }
+          },
+          "node_id": "PR_kwDOVnhIZ88AAAABNw0LTA",
+          "title": "Follow-up review ui-stale: lower",
+          "state": "open",
+          "merged_at": null,
+          "draft": false,
+          "html_url": "https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08/pull/127",
+          "user": {
+            "login": "github-actions[bot]",
+            "id": 41898282,
+            "node_id": "MDM6Qm90NDE4OTgyODI=",
+            "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/github-actions%5Bbot%5D",
+            "html_url": "https://github.com/apps/github-actions",
+            "followers_url": "https://api.github.com/users/github-actions%5Bbot%5D/followers",
+            "following_url": "https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}",
+            "gists_url": "https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/github-actions%5Bbot%5D/subscriptions",
+            "organizations_url": "https://api.github.com/users/github-actions%5Bbot%5D/orgs",
+            "repos_url": "https://api.github.com/users/github-actions%5Bbot%5D/repos",
+            "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/github-actions%5Bbot%5D/received_events",
+            "type": "Bot",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/pulls/128",
+          "id": 5218569127,
+          "number": 128,
+          "head": {
+            "ref": "exp/fu2/ci/ui-stale/upper",
+            "sha": "8223987f13b4b9a40a7178ddf8aabbdad6a77408",
+            "repo": {
+              "id": 1450723431,
+              "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08",
+              "name": "gherrit-native-stack-experiments-2026-11-08"
+            }
+          },
+          "base": {
+            "ref": "exp/fu2/ci/ui-stale/lower",
+            "sha": "c2f7b64b7c0f009491195a8ffda21c6c29dd5c11",
+            "repo": {
+              "id": 1450723431,
+              "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08",
+              "name": "gherrit-native-stack-experiments-2026-11-08"
+            }
+          },
+          "node_id": "PR_kwDOVnhIZ88AAAABNw0Lpw",
+          "title": "Follow-up review ui-stale: upper",
+          "state": "open",
+          "merged_at": null,
+          "draft": false,
+          "html_url": "https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08/pull/128",
+          "user": {
+            "login": "github-actions[bot]",
+            "id": 41898282,
+            "node_id": "MDM6Qm90NDE4OTgyODI=",
+            "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/github-actions%5Bbot%5D",
+            "html_url": "https://github.com/apps/github-actions",
+            "followers_url": "https://api.github.com/users/github-actions%5Bbot%5D/followers",
+            "following_url": "https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}",
+            "gists_url": "https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/github-actions%5Bbot%5D/subscriptions",
+            "organizations_url": "https://api.github.com/users/github-actions%5Bbot%5D/orgs",
+            "repos_url": "https://api.github.com/users/github-actions%5Bbot%5D/repos",
+            "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/github-actions%5Bbot%5D/received_events",
+            "type": "Bot",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        }
+      ]
+    },
+    "advanced_trunk": "fc0e6314a2f94dfd88efc2165cf81a9d88c27397",
+    "ui_prepared": true
+  },
+  "ui-lastpush": {
+    "trunk": "exp/fu2/ci/ui-lastpush/trunk",
+    "lower": "exp/fu2/ci/ui-lastpush/lower",
+    "upper": "exp/fu2/ci/ui-lastpush/upper",
+    "bot": true,
+    "mode": "unsigned",
+    "seed": "ade319107e71b6eff646a1574139e2c15486fe6d",
+    "trunk_sha": "ade319107e71b6eff646a1574139e2c15486fe6d",
+    "lower_sha": "bfdf982bf9e0b3eecc6130fe7405cd68d416fe7e",
+    "upper_sha": "66b0dded232dafc0243433b7e78b7db3b2810af9",
+    "bot_dispatches": {
+      "lower": {
+        "at": "2026-11-09T04:09:31.277339+00:00",
+        "phase": "acknowledged",
+        "request": {
+          "ref": "exp/fu2/ci/control/workflow",
+          "inputs": {
+            "operation": "create-pr",
+            "head": "exp/fu2/ci/ui-lastpush/lower",
+            "base": "exp/fu2/ci/ui-lastpush/trunk",
+            "title": "Follow-up review ui-lastpush: lower",
+            "body": "Reserved synthetic distinct-author website-rebase fixture.\n\n*Authored by an AI agent acting on joshlf's behalf.*"
+          }
+        }
+      },
+      "upper": {
+        "at": "2026-11-09T04:09:32.358977+00:00",
+        "phase": "acknowledged",
+        "request": {
+          "ref": "exp/fu2/ci/control/workflow",
+          "inputs": {
+            "operation": "create-pr",
+            "head": "exp/fu2/ci/ui-lastpush/upper",
+            "base": "exp/fu2/ci/ui-lastpush/lower",
+            "title": "Follow-up review ui-lastpush: upper",
+            "body": "Reserved synthetic distinct-author website-rebase fixture.\n\n*Authored by an AI agent acting on joshlf's behalf.*"
+          }
+        }
+      }
+    },
+    "lower_pr": 129,
+    "upper_pr": 130,
+    "stack": {
+      "id": 3225812,
+      "number": 143,
+      "node_id": "PRS_kwDOVnhIZ84AMTjU",
+      "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/stacks/143",
+      "base": {
+        "ref": "exp/fu2/ci/ui-lastpush/trunk"
+      },
+      "open": true,
+      "created_at": "2026-11-09T04:11:32Z",
+      "pull_requests": [
+        {
+          "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/pulls/129",
+          "id": 5218569324,
+          "number": 129,
+          "head": {
+            "ref": "exp/fu2/ci/ui-lastpush/lower",
+            "sha": "bfdf982bf9e0b3eecc6130fe7405cd68d416fe7e",
+            "repo": {
+              "id": 1450723431,
+              "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08",
+              "name": "gherrit-native-stack-experiments-2026-11-08"
+            }
+          },
+          "base": {
+            "ref": "exp/fu2/ci/ui-lastpush/trunk",
+            "sha": "ade319107e71b6eff646a1574139e2c15486fe6d",
+            "repo": {
+              "id": 1450723431,
+              "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08",
+              "name": "gherrit-native-stack-experiments-2026-11-08"
+            }
+          },
+          "node_id": "PR_kwDOVnhIZ88AAAABNw0MbA",
+          "title": "Follow-up review ui-lastpush: lower",
+          "state": "open",
+          "merged_at": null,
+          "draft": false,
+          "html_url": "https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08/pull/129",
+          "user": {
+            "login": "github-actions[bot]",
+            "id": 41898282,
+            "node_id": "MDM6Qm90NDE4OTgyODI=",
+            "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/github-actions%5Bbot%5D",
+            "html_url": "https://github.com/apps/github-actions",
+            "followers_url": "https://api.github.com/users/github-actions%5Bbot%5D/followers",
+            "following_url": "https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}",
+            "gists_url": "https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/github-actions%5Bbot%5D/subscriptions",
+            "organizations_url": "https://api.github.com/users/github-actions%5Bbot%5D/orgs",
+            "repos_url": "https://api.github.com/users/github-actions%5Bbot%5D/repos",
+            "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/github-actions%5Bbot%5D/received_events",
+            "type": "Bot",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/pulls/130",
+          "id": 5218569388,
+          "number": 130,
+          "head": {
+            "ref": "exp/fu2/ci/ui-lastpush/upper",
+            "sha": "66b0dded232dafc0243433b7e78b7db3b2810af9",
+            "repo": {
+              "id": 1450723431,
+              "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08",
+              "name": "gherrit-native-stack-experiments-2026-11-08"
+            }
+          },
+          "base": {
+            "ref": "exp/fu2/ci/ui-lastpush/lower",
+            "sha": "bfdf982bf9e0b3eecc6130fe7405cd68d416fe7e",
+            "repo": {
+              "id": 1450723431,
+              "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08",
+              "name": "gherrit-native-stack-experiments-2026-11-08"
+            }
+          },
+          "node_id": "PR_kwDOVnhIZ88AAAABNw0MrA",
+          "title": "Follow-up review ui-lastpush: upper",
+          "state": "open",
+          "merged_at": null,
+          "draft": false,
+          "html_url": "https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08/pull/130",
+          "user": {
+            "login": "github-actions[bot]",
+            "id": 41898282,
+            "node_id": "MDM6Qm90NDE4OTgyODI=",
+            "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/github-actions%5Bbot%5D",
+            "html_url": "https://github.com/apps/github-actions",
+            "followers_url": "https://api.github.com/users/github-actions%5Bbot%5D/followers",
+            "following_url": "https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}",
+            "gists_url": "https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/github-actions%5Bbot%5D/subscriptions",
+            "organizations_url": "https://api.github.com/users/github-actions%5Bbot%5D/orgs",
+            "repos_url": "https://api.github.com/users/github-actions%5Bbot%5D/repos",
+            "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/github-actions%5Bbot%5D/received_events",
+            "type": "Bot",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        }
+      ]
+    },
+    "advanced_trunk": "c935c0cd868b117487d58abb8e0ef97101ba5b5a",
+    "ui_prepared": true
+  },
+  "ui-codeowner": {
+    "trunk": "exp/fu2/ci/ui-codeowner/trunk",
+    "lower": "exp/fu2/ci/ui-codeowner/lower",
+    "upper": "exp/fu2/ci/ui-codeowner/upper",
+    "bot": true,
+    "mode": "unsigned",
+    "seed": "ade319107e71b6eff646a1574139e2c15486fe6d",
+    "trunk_sha": "0af173f909b69f4eae570c787a4c9464884b583d",
+    "lower_sha": "6a6adc7ce466b1b2924fc687e1456710d5cd9221",
+    "upper_sha": "3eb13a0a05b95e378b3cfb7f78727d5dffdb3747",
+    "bot_dispatches": {
+      "lower": {
+        "at": "2026-11-09T04:09:33.478895+00:00",
+        "phase": "acknowledged",
+        "request": {
+          "ref": "exp/fu2/ci/control/workflow",
+          "inputs": {
+            "operation": "create-pr",
+            "head": "exp/fu2/ci/ui-codeowner/lower",
+            "base": "exp/fu2/ci/ui-codeowner/trunk",
+            "title": "Follow-up review ui-codeowner: lower",
+            "body": "Reserved synthetic distinct-author website-rebase fixture.\n\n*Authored by an AI agent acting on joshlf's behalf.*"
+          }
+        }
+      },
+      "upper": {
+        "at": "2026-11-09T04:09:34.626757+00:00",
+        "phase": "acknowledged",
+        "request": {
+          "ref": "exp/fu2/ci/control/workflow",
+          "inputs": {
+            "operation": "create-pr",
+            "head": "exp/fu2/ci/ui-codeowner/upper",
+            "base": "exp/fu2/ci/ui-codeowner/lower",
+            "title": "Follow-up review ui-codeowner: upper",
+            "body": "Reserved synthetic distinct-author website-rebase fixture.\n\n*Authored by an AI agent acting on joshlf's behalf.*"
+          }
+        }
+      }
+    },
+    "lower_pr": 131,
+    "upper_pr": 132,
+    "stack": {
+      "id": 3225817,
+      "number": 144,
+      "node_id": "PRS_kwDOVnhIZ84AMTjZ",
+      "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/stacks/144",
+      "base": {
+        "ref": "exp/fu2/ci/ui-codeowner/trunk"
+      },
+      "open": true,
+      "created_at": "2026-11-09T04:11:57Z",
+      "pull_requests": [
+        {
+          "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/pulls/131",
+          "id": 5218569648,
+          "number": 131,
+          "head": {
+            "ref": "exp/fu2/ci/ui-codeowner/lower",
+            "sha": "6a6adc7ce466b1b2924fc687e1456710d5cd9221",
+            "repo": {
+              "id": 1450723431,
+              "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08",
+              "name": "gherrit-native-stack-experiments-2026-11-08"
+            }
+          },
+          "base": {
+            "ref": "exp/fu2/ci/ui-codeowner/trunk",
+            "sha": "0af173f909b69f4eae570c787a4c9464884b583d",
+            "repo": {
+              "id": 1450723431,
+              "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08",
+              "name": "gherrit-native-stack-experiments-2026-11-08"
+            }
+          },
+          "node_id": "PR_kwDOVnhIZ88AAAABNw0NsA",
+          "title": "Follow-up review ui-codeowner: lower",
+          "state": "open",
+          "merged_at": null,
+          "draft": false,
+          "html_url": "https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08/pull/131",
+          "user": {
+            "login": "github-actions[bot]",
+            "id": 41898282,
+            "node_id": "MDM6Qm90NDE4OTgyODI=",
+            "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/github-actions%5Bbot%5D",
+            "html_url": "https://github.com/apps/github-actions",
+            "followers_url": "https://api.github.com/users/github-actions%5Bbot%5D/followers",
+            "following_url": "https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}",
+            "gists_url": "https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/github-actions%5Bbot%5D/subscriptions",
+            "organizations_url": "https://api.github.com/users/github-actions%5Bbot%5D/orgs",
+            "repos_url": "https://api.github.com/users/github-actions%5Bbot%5D/repos",
+            "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/github-actions%5Bbot%5D/received_events",
+            "type": "Bot",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/pulls/132",
+          "id": 5218569788,
+          "number": 132,
+          "head": {
+            "ref": "exp/fu2/ci/ui-codeowner/upper",
+            "sha": "3eb13a0a05b95e378b3cfb7f78727d5dffdb3747",
+            "repo": {
+              "id": 1450723431,
+              "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08",
+              "name": "gherrit-native-stack-experiments-2026-11-08"
+            }
+          },
+          "base": {
+            "ref": "exp/fu2/ci/ui-codeowner/lower",
+            "sha": "6a6adc7ce466b1b2924fc687e1456710d5cd9221",
+            "repo": {
+              "id": 1450723431,
+              "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08",
+              "name": "gherrit-native-stack-experiments-2026-11-08"
+            }
+          },
+          "node_id": "PR_kwDOVnhIZ88AAAABNw0OPA",
+          "title": "Follow-up review ui-codeowner: upper",
+          "state": "open",
+          "merged_at": null,
+          "draft": false,
+          "html_url": "https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08/pull/132",
+          "user": {
+            "login": "github-actions[bot]",
+            "id": 41898282,
+            "node_id": "MDM6Qm90NDE4OTgyODI=",
+            "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/github-actions%5Bbot%5D",
+            "html_url": "https://github.com/apps/github-actions",
+            "followers_url": "https://api.github.com/users/github-actions%5Bbot%5D/followers",
+            "following_url": "https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}",
+            "gists_url": "https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/github-actions%5Bbot%5D/subscriptions",
+            "organizations_url": "https://api.github.com/users/github-actions%5Bbot%5D/orgs",
+            "repos_url": "https://api.github.com/users/github-actions%5Bbot%5D/repos",
+            "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/github-actions%5Bbot%5D/received_events",
+            "type": "Bot",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        }
+      ]
+    },
+    "advanced_trunk": "cd6cae24f5d1d723f45b7cf923175c9d2de1bbb8",
+    "ui_prepared": true
+  },
+  "ui-signed": {
+    "trunk": "exp/fu2/ci/ui-signed/trunk",
+    "lower": "exp/fu2/ci/ui-signed/lower",
+    "upper": "exp/fu2/ci/ui-signed/upper",
+    "bot": true,
+    "mode": "signed",
+    "seed": "d6223f27f364a74460a907df8087d3c52331ca3d",
+    "trunk_sha": "d6223f27f364a74460a907df8087d3c52331ca3d",
+    "lower_sha": "7ca2b1a7a38f3b3f6f1325c121bb11b025a1c786",
+    "upper_sha": "7c586aee5324ed0aed0a97c310fdab00e025b27c",
+    "bot_dispatches": {
+      "lower": {
+        "at": "2026-11-09T04:09:35.759257+00:00",
+        "phase": "acknowledged",
+        "request": {
+          "ref": "exp/fu2/ci/control/workflow",
+          "inputs": {
+            "operation": "create-pr",
+            "head": "exp/fu2/ci/ui-signed/lower",
+            "base": "exp/fu2/ci/ui-signed/trunk",
+            "title": "Follow-up review ui-signed: lower",
+            "body": "Reserved synthetic distinct-author website-rebase fixture.\n\n*Authored by an AI agent acting on joshlf's behalf.*"
+          }
+        }
+      },
+      "upper": {
+        "at": "2026-11-09T04:09:36.805855+00:00",
+        "phase": "acknowledged",
+        "request": {
+          "ref": "exp/fu2/ci/control/workflow",
+          "inputs": {
+            "operation": "create-pr",
+            "head": "exp/fu2/ci/ui-signed/upper",
+            "base": "exp/fu2/ci/ui-signed/lower",
+            "title": "Follow-up review ui-signed: upper",
+            "body": "Reserved synthetic distinct-author website-rebase fixture.\n\n*Authored by an AI agent acting on joshlf's behalf.*"
+          }
+        }
+      }
+    },
+    "lower_pr": 133,
+    "upper_pr": 134,
+    "stack": {
+      "id": 3225825,
+      "number": 145,
+      "node_id": "PRS_kwDOVnhIZ84AMTjh",
+      "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/stacks/145",
+      "base": {
+        "ref": "exp/fu2/ci/ui-signed/trunk"
+      },
+      "open": true,
+      "created_at": "2026-11-09T04:12:21Z",
+      "pull_requests": [
+        {
+          "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/pulls/133",
+          "id": 5218569887,
+          "number": 133,
+          "head": {
+            "ref": "exp/fu2/ci/ui-signed/lower",
+            "sha": "7ca2b1a7a38f3b3f6f1325c121bb11b025a1c786",
+            "repo": {
+              "id": 1450723431,
+              "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08",
+              "name": "gherrit-native-stack-experiments-2026-11-08"
+            }
+          },
+          "base": {
+            "ref": "exp/fu2/ci/ui-signed/trunk",
+            "sha": "d6223f27f364a74460a907df8087d3c52331ca3d",
+            "repo": {
+              "id": 1450723431,
+              "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08",
+              "name": "gherrit-native-stack-experiments-2026-11-08"
+            }
+          },
+          "node_id": "PR_kwDOVnhIZ88AAAABNw0Onw",
+          "title": "Follow-up review ui-signed: lower",
+          "state": "open",
+          "merged_at": null,
+          "draft": false,
+          "html_url": "https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08/pull/133",
+          "user": {
+            "login": "github-actions[bot]",
+            "id": 41898282,
+            "node_id": "MDM6Qm90NDE4OTgyODI=",
+            "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/github-actions%5Bbot%5D",
+            "html_url": "https://github.com/apps/github-actions",
+            "followers_url": "https://api.github.com/users/github-actions%5Bbot%5D/followers",
+            "following_url": "https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}",
+            "gists_url": "https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/github-actions%5Bbot%5D/subscriptions",
+            "organizations_url": "https://api.github.com/users/github-actions%5Bbot%5D/orgs",
+            "repos_url": "https://api.github.com/users/github-actions%5Bbot%5D/repos",
+            "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/github-actions%5Bbot%5D/received_events",
+            "type": "Bot",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/pulls/134",
+          "id": 5218569900,
+          "number": 134,
+          "head": {
+            "ref": "exp/fu2/ci/ui-signed/upper",
+            "sha": "7c586aee5324ed0aed0a97c310fdab00e025b27c",
+            "repo": {
+              "id": 1450723431,
+              "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08",
+              "name": "gherrit-native-stack-experiments-2026-11-08"
+            }
+          },
+          "base": {
+            "ref": "exp/fu2/ci/ui-signed/lower",
+            "sha": "7ca2b1a7a38f3b3f6f1325c121bb11b025a1c786",
+            "repo": {
+              "id": 1450723431,
+              "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08",
+              "name": "gherrit-native-stack-experiments-2026-11-08"
+            }
+          },
+          "node_id": "PR_kwDOVnhIZ88AAAABNw0OrA",
+          "title": "Follow-up review ui-signed: upper",
+          "state": "open",
+          "merged_at": null,
+          "draft": false,
+          "html_url": "https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08/pull/134",
+          "user": {
+            "login": "github-actions[bot]",
+            "id": 41898282,
+            "node_id": "MDM6Qm90NDE4OTgyODI=",
+            "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/github-actions%5Bbot%5D",
+            "html_url": "https://github.com/apps/github-actions",
+            "followers_url": "https://api.github.com/users/github-actions%5Bbot%5D/followers",
+            "following_url": "https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}",
+            "gists_url": "https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/github-actions%5Bbot%5D/subscriptions",
+            "organizations_url": "https://api.github.com/users/github-actions%5Bbot%5D/orgs",
+            "repos_url": "https://api.github.com/users/github-actions%5Bbot%5D/repos",
+            "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/github-actions%5Bbot%5D/received_events",
+            "type": "Bot",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        }
+      ]
+    },
+    "advanced_trunk": "4b15b1bc4839c399ae9dd47976d72ecdf4f2cb09",
+    "ui_prepared": true
+  },
+  "status": {
+    "trunk": "exp/fu2/ci/status/trunk",
+    "lower": "exp/fu2/ci/status/lower",
+    "upper": "exp/fu2/ci/status/upper",
+    "bot": false,
+    "mode": "unsigned",
+    "seed": "ade319107e71b6eff646a1574139e2c15486fe6d",
+    "trunk_sha": "ade319107e71b6eff646a1574139e2c15486fe6d",
+    "lower_sha": "2efb79b3ddf8d32e7c74c7b7b633c909234454fb",
+    "upper_sha": "b10fa3ad99eaffc1a1af5a53d5cc79507600c7f4",
+    "lower_pr": 97,
+    "upper_pr": 98,
+    "stack": {
+      "id": 3224875,
+      "number": 101,
+      "node_id": "PRS_kwDOVnhIZ84AMTUr",
+      "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/stacks/101",
+      "base": {
+        "ref": "exp/fu2/ci/status/trunk"
+      },
+      "open": true,
+      "created_at": "2026-11-09T03:20:36Z",
+      "pull_requests": [
+        {
+          "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/pulls/97",
+          "id": 5218177361,
+          "number": 97,
+          "head": {
+            "ref": "exp/fu2/ci/status/lower",
+            "sha": "2efb79b3ddf8d32e7c74c7b7b633c909234454fb",
+            "repo": {
+              "id": 1450723431,
+              "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08",
+              "name": "gherrit-native-stack-experiments-2026-11-08"
+            }
+          },
+          "base": {
+            "ref": "exp/fu2/ci/status/trunk",
+            "sha": "ade319107e71b6eff646a1574139e2c15486fe6d",
+            "repo": {
+              "id": 1450723431,
+              "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08",
+              "name": "gherrit-native-stack-experiments-2026-11-08"
+            }
+          },
+          "node_id": "PR_kwDOVnhIZ88AAAABNwcRUQ",
+          "title": "Follow-up CI status: lower",
+          "state": "open",
+          "merged_at": null,
+          "draft": false,
+          "html_url": "https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08/pull/97",
+          "user": {
+            "login": "joshlf",
+            "id": 1046063,
+            "node_id": "MDQ6VXNlcjEwNDYwNjM=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1046063?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/joshlf",
+            "html_url": "https://github.com/joshlf",
+            "followers_url": "https://api.github.com/users/joshlf/followers",
+            "following_url": "https://api.github.com/users/joshlf/following{/other_user}",
+            "gists_url": "https://api.github.com/users/joshlf/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/joshlf/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/joshlf/subscriptions",
+            "organizations_url": "https://api.github.com/users/joshlf/orgs",
+            "repos_url": "https://api.github.com/users/joshlf/repos",
+            "events_url": "https://api.github.com/users/joshlf/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/joshlf/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/pulls/98",
+          "id": 5218177531,
+          "number": 98,
+          "head": {
+            "ref": "exp/fu2/ci/status/upper",
+            "sha": "b10fa3ad99eaffc1a1af5a53d5cc79507600c7f4",
+            "repo": {
+              "id": 1450723431,
+              "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08",
+              "name": "gherrit-native-stack-experiments-2026-11-08"
+            }
+          },
+          "base": {
+            "ref": "exp/fu2/ci/status/lower",
+            "sha": "2efb79b3ddf8d32e7c74c7b7b633c909234454fb",
+            "repo": {
+              "id": 1450723431,
+              "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08",
+              "name": "gherrit-native-stack-experiments-2026-11-08"
+            }
+          },
+          "node_id": "PR_kwDOVnhIZ88AAAABNwcR-w",
+          "title": "Follow-up CI status: upper",
+          "state": "open",
+          "merged_at": null,
+          "draft": false,
+          "html_url": "https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08/pull/98",
+          "user": {
+            "login": "joshlf",
+            "id": 1046063,
+            "node_id": "MDQ6VXNlcjEwNDYwNjM=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1046063?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/joshlf",
+            "html_url": "https://github.com/joshlf",
+            "followers_url": "https://api.github.com/users/joshlf/followers",
+            "following_url": "https://api.github.com/users/joshlf/following{/other_user}",
+            "gists_url": "https://api.github.com/users/joshlf/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/joshlf/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/joshlf/subscriptions",
+            "organizations_url": "https://api.github.com/users/joshlf/orgs",
+            "repos_url": "https://api.github.com/users/joshlf/repos",
+            "events_url": "https://api.github.com/users/joshlf/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/joshlf/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        }
+      ]
+    }
+  },
+  "target": {
+    "trunk": "exp/fu2/ci/target/trunk",
+    "lower": "exp/fu2/ci/target/lower",
+    "upper": "exp/fu2/ci/target/upper",
+    "bot": false,
+    "mode": "unsigned",
+    "seed": "ade319107e71b6eff646a1574139e2c15486fe6d",
+    "trunk_sha": "ffd1b2b4f5eb2ef02363f49fddea6995ba58c968",
+    "lower_sha": "b0d65b10e02af3bc4874becbd947a3b0b67f2c38",
+    "upper_sha": "44775c0e2d1e773cf1c8555e324fc5f0db96d22a",
+    "lower_pr": 99,
+    "upper_pr": 100,
+    "stack": {
+      "id": 3224880,
+      "number": 102,
+      "node_id": "PRS_kwDOVnhIZ84AMTUw",
+      "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/stacks/102",
+      "base": {
+        "ref": "exp/fu2/ci/target/trunk"
+      },
+      "open": true,
+      "created_at": "2026-11-09T03:20:53Z",
+      "pull_requests": [
+        {
+          "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/pulls/99",
+          "id": 5218177935,
+          "number": 99,
+          "head": {
+            "ref": "exp/fu2/ci/target/lower",
+            "sha": "b0d65b10e02af3bc4874becbd947a3b0b67f2c38",
+            "repo": {
+              "id": 1450723431,
+              "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08",
+              "name": "gherrit-native-stack-experiments-2026-11-08"
+            }
+          },
+          "base": {
+            "ref": "exp/fu2/ci/target/trunk",
+            "sha": "ffd1b2b4f5eb2ef02363f49fddea6995ba58c968",
+            "repo": {
+              "id": 1450723431,
+              "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08",
+              "name": "gherrit-native-stack-experiments-2026-11-08"
+            }
+          },
+          "node_id": "PR_kwDOVnhIZ88AAAABNwcTjw",
+          "title": "Follow-up CI target: lower",
+          "state": "open",
+          "merged_at": null,
+          "draft": false,
+          "html_url": "https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08/pull/99",
+          "user": {
+            "login": "joshlf",
+            "id": 1046063,
+            "node_id": "MDQ6VXNlcjEwNDYwNjM=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1046063?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/joshlf",
+            "html_url": "https://github.com/joshlf",
+            "followers_url": "https://api.github.com/users/joshlf/followers",
+            "following_url": "https://api.github.com/users/joshlf/following{/other_user}",
+            "gists_url": "https://api.github.com/users/joshlf/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/joshlf/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/joshlf/subscriptions",
+            "organizations_url": "https://api.github.com/users/joshlf/orgs",
+            "repos_url": "https://api.github.com/users/joshlf/repos",
+            "events_url": "https://api.github.com/users/joshlf/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/joshlf/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/pulls/100",
+          "id": 5218178075,
+          "number": 100,
+          "head": {
+            "ref": "exp/fu2/ci/target/upper",
+            "sha": "44775c0e2d1e773cf1c8555e324fc5f0db96d22a",
+            "repo": {
+              "id": 1450723431,
+              "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08",
+              "name": "gherrit-native-stack-experiments-2026-11-08"
+            }
+          },
+          "base": {
+            "ref": "exp/fu2/ci/target/lower",
+            "sha": "b0d65b10e02af3bc4874becbd947a3b0b67f2c38",
+            "repo": {
+              "id": 1450723431,
+              "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08",
+              "name": "gherrit-native-stack-experiments-2026-11-08"
+            }
+          },
+          "node_id": "PR_kwDOVnhIZ88AAAABNwcUGw",
+          "title": "Follow-up CI target: upper",
+          "state": "open",
+          "merged_at": null,
+          "draft": false,
+          "html_url": "https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08/pull/100",
+          "user": {
+            "login": "joshlf",
+            "id": 1046063,
+            "node_id": "MDQ6VXNlcjEwNDYwNjM=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1046063?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/joshlf",
+            "html_url": "https://github.com/joshlf",
+            "followers_url": "https://api.github.com/users/joshlf/followers",
+            "following_url": "https://api.github.com/users/joshlf/following{/other_user}",
+            "gists_url": "https://api.github.com/users/joshlf/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/joshlf/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/joshlf/subscriptions",
+            "organizations_url": "https://api.github.com/users/joshlf/orgs",
+            "repos_url": "https://api.github.com/users/joshlf/repos",
+            "events_url": "https://api.github.com/users/joshlf/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/joshlf/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        }
+      ]
+    }
+  },
+  "sig-signedmulti": {
+    "trunk": "exp/fu2/ci/sig-signedmulti/trunk",
+    "lower": "exp/fu2/ci/sig-signedmulti/lower",
+    "upper": "exp/fu2/ci/sig-signedmulti/upper",
+    "bot": false,
+    "mode": "signedmulti",
+    "seed": "d6223f27f364a74460a907df8087d3c52331ca3d",
+    "trunk_sha": "d6223f27f364a74460a907df8087d3c52331ca3d",
+    "lower_sha": "7c586aee5324ed0aed0a97c310fdab00e025b27c",
+    "upper_sha": "c2e434ad0a3c011a8fb70164ec6a50b1c192f8a0",
+    "lower_pr": 103,
+    "upper_pr": 104,
+    "stack": {
+      "id": 3224901,
+      "number": 105,
+      "node_id": "PRS_kwDOVnhIZ84AMTVF",
+      "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/stacks/105",
+      "base": {
+        "ref": "exp/fu2/ci/sig-signedmulti/trunk"
+      },
+      "open": true,
+      "created_at": "2026-11-09T03:21:52Z",
+      "pull_requests": [
+        {
+          "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/pulls/103",
+          "id": 5218191915,
+          "number": 103,
+          "head": {
+            "ref": "exp/fu2/ci/sig-signedmulti/lower",
+            "sha": "7c586aee5324ed0aed0a97c310fdab00e025b27c",
+            "repo": {
+              "id": 1450723431,
+              "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08",
+              "name": "gherrit-native-stack-experiments-2026-11-08"
+            }
+          },
+          "base": {
+            "ref": "exp/fu2/ci/sig-signedmulti/trunk",
+            "sha": "d6223f27f364a74460a907df8087d3c52331ca3d",
+            "repo": {
+              "id": 1450723431,
+              "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08",
+              "name": "gherrit-native-stack-experiments-2026-11-08"
+            }
+          },
+          "node_id": "PR_kwDOVnhIZ88AAAABNwdKKw",
+          "title": "Follow-up CI sig-signedmulti: lower",
+          "state": "open",
+          "merged_at": null,
+          "draft": false,
+          "html_url": "https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08/pull/103",
+          "user": {
+            "login": "joshlf",
+            "id": 1046063,
+            "node_id": "MDQ6VXNlcjEwNDYwNjM=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1046063?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/joshlf",
+            "html_url": "https://github.com/joshlf",
+            "followers_url": "https://api.github.com/users/joshlf/followers",
+            "following_url": "https://api.github.com/users/joshlf/following{/other_user}",
+            "gists_url": "https://api.github.com/users/joshlf/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/joshlf/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/joshlf/subscriptions",
+            "organizations_url": "https://api.github.com/users/joshlf/orgs",
+            "repos_url": "https://api.github.com/users/joshlf/repos",
+            "events_url": "https://api.github.com/users/joshlf/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/joshlf/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/pulls/104",
+          "id": 5218192121,
+          "number": 104,
+          "head": {
+            "ref": "exp/fu2/ci/sig-signedmulti/upper",
+            "sha": "c2e434ad0a3c011a8fb70164ec6a50b1c192f8a0",
+            "repo": {
+              "id": 1450723431,
+              "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08",
+              "name": "gherrit-native-stack-experiments-2026-11-08"
+            }
+          },
+          "base": {
+            "ref": "exp/fu2/ci/sig-signedmulti/lower",
+            "sha": "7c586aee5324ed0aed0a97c310fdab00e025b27c",
+            "repo": {
+              "id": 1450723431,
+              "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08",
+              "name": "gherrit-native-stack-experiments-2026-11-08"
+            }
+          },
+          "node_id": "PR_kwDOVnhIZ88AAAABNwdK-Q",
+          "title": "Follow-up CI sig-signedmulti: upper",
+          "state": "open",
+          "merged_at": null,
+          "draft": false,
+          "html_url": "https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08/pull/104",
+          "user": {
+            "login": "joshlf",
+            "id": 1046063,
+            "node_id": "MDQ6VXNlcjEwNDYwNjM=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1046063?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/joshlf",
+            "html_url": "https://github.com/joshlf",
+            "followers_url": "https://api.github.com/users/joshlf/followers",
+            "following_url": "https://api.github.com/users/joshlf/following{/other_user}",
+            "gists_url": "https://api.github.com/users/joshlf/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/joshlf/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/joshlf/subscriptions",
+            "organizations_url": "https://api.github.com/users/joshlf/orgs",
+            "repos_url": "https://api.github.com/users/joshlf/repos",
+            "events_url": "https://api.github.com/users/joshlf/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/joshlf/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        }
+      ]
+    },
+    "merge_request": {
+      "status": "pending",
+      "details": {
+        "message": "Merge request enqueued.",
+        "uuid": "034b8179-740b-4ee2-adc2-0337f8c150ef",
+        "merge_method": "squash",
+        "merge_action": "default",
+        "expected_head_sha": "7c586aee5324ed0aed0a97c310fdab00e025b27c",
+        "bypass_rules": false
+      }
+    }
+  },
+  "sig-unsignedmulti": {
+    "trunk": "exp/fu2/ci/sig-unsignedmulti/trunk",
+    "lower": "exp/fu2/ci/sig-unsignedmulti/lower",
+    "upper": "exp/fu2/ci/sig-unsignedmulti/upper",
+    "bot": false,
+    "mode": "unsignedmulti",
+    "seed": "d6223f27f364a74460a907df8087d3c52331ca3d",
+    "trunk_sha": "d6223f27f364a74460a907df8087d3c52331ca3d",
+    "lower_sha": "ab598af6b26de3ea3e0e78b5d379be3e42201a58",
+    "upper_sha": "3b7eec43ea993aaddf1d1e5534e64b0a94f2f637",
+    "lower_pr": 106,
+    "upper_pr": 107,
+    "stack": {
+      "id": 3224907,
+      "number": 108,
+      "node_id": "PRS_kwDOVnhIZ84AMTVL",
+      "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/stacks/108",
+      "base": {
+        "ref": "exp/fu2/ci/sig-unsignedmulti/trunk"
+      },
+      "open": true,
+      "created_at": "2026-11-09T03:22:06Z",
+      "pull_requests": [
+        {
+          "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/pulls/106",
+          "id": 5218193859,
+          "number": 106,
+          "head": {
+            "ref": "exp/fu2/ci/sig-unsignedmulti/lower",
+            "sha": "ab598af6b26de3ea3e0e78b5d379be3e42201a58",
+            "repo": {
+              "id": 1450723431,
+              "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08",
+              "name": "gherrit-native-stack-experiments-2026-11-08"
+            }
+          },
+          "base": {
+            "ref": "exp/fu2/ci/sig-unsignedmulti/trunk",
+            "sha": "d6223f27f364a74460a907df8087d3c52331ca3d",
+            "repo": {
+              "id": 1450723431,
+              "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08",
+              "name": "gherrit-native-stack-experiments-2026-11-08"
+            }
+          },
+          "node_id": "PR_kwDOVnhIZ88AAAABNwdRww",
+          "title": "Follow-up CI sig-unsignedmulti: lower",
+          "state": "open",
+          "merged_at": null,
+          "draft": false,
+          "html_url": "https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08/pull/106",
+          "user": {
+            "login": "joshlf",
+            "id": 1046063,
+            "node_id": "MDQ6VXNlcjEwNDYwNjM=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1046063?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/joshlf",
+            "html_url": "https://github.com/joshlf",
+            "followers_url": "https://api.github.com/users/joshlf/followers",
+            "following_url": "https://api.github.com/users/joshlf/following{/other_user}",
+            "gists_url": "https://api.github.com/users/joshlf/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/joshlf/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/joshlf/subscriptions",
+            "organizations_url": "https://api.github.com/users/joshlf/orgs",
+            "repos_url": "https://api.github.com/users/joshlf/repos",
+            "events_url": "https://api.github.com/users/joshlf/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/joshlf/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/pulls/107",
+          "id": 5218194003,
+          "number": 107,
+          "head": {
+            "ref": "exp/fu2/ci/sig-unsignedmulti/upper",
+            "sha": "3b7eec43ea993aaddf1d1e5534e64b0a94f2f637",
+            "repo": {
+              "id": 1450723431,
+              "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08",
+              "name": "gherrit-native-stack-experiments-2026-11-08"
+            }
+          },
+          "base": {
+            "ref": "exp/fu2/ci/sig-unsignedmulti/lower",
+            "sha": "ab598af6b26de3ea3e0e78b5d379be3e42201a58",
+            "repo": {
+              "id": 1450723431,
+              "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08",
+              "name": "gherrit-native-stack-experiments-2026-11-08"
+            }
+          },
+          "node_id": "PR_kwDOVnhIZ88AAAABNwdSUw",
+          "title": "Follow-up CI sig-unsignedmulti: upper",
+          "state": "open",
+          "merged_at": null,
+          "draft": false,
+          "html_url": "https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08/pull/107",
+          "user": {
+            "login": "joshlf",
+            "id": 1046063,
+            "node_id": "MDQ6VXNlcjEwNDYwNjM=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1046063?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/joshlf",
+            "html_url": "https://github.com/joshlf",
+            "followers_url": "https://api.github.com/users/joshlf/followers",
+            "following_url": "https://api.github.com/users/joshlf/following{/other_user}",
+            "gists_url": "https://api.github.com/users/joshlf/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/joshlf/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/joshlf/subscriptions",
+            "organizations_url": "https://api.github.com/users/joshlf/orgs",
+            "repos_url": "https://api.github.com/users/joshlf/repos",
+            "events_url": "https://api.github.com/users/joshlf/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/joshlf/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        }
+      ]
+    },
+    "merge_request": {
+      "status": "pending",
+      "details": {
+        "message": "Merge request enqueued.",
+        "uuid": "0910643b-08ba-4281-bc14-6330027fd3b9",
+        "merge_method": "squash",
+        "merge_action": "default",
+        "expected_head_sha": "ab598af6b26de3ea3e0e78b5d379be3e42201a58",
+        "bypass_rules": false
+      }
+    }
+  },
+  "sig-mixedmulti": {
+    "trunk": "exp/fu2/ci/sig-mixedmulti/trunk",
+    "lower": "exp/fu2/ci/sig-mixedmulti/lower",
+    "upper": "exp/fu2/ci/sig-mixedmulti/upper",
+    "bot": false,
+    "mode": "mixedmulti",
+    "seed": "d6223f27f364a74460a907df8087d3c52331ca3d",
+    "trunk_sha": "d6223f27f364a74460a907df8087d3c52331ca3d",
+    "lower_sha": "15c823fb8e6217410c739d832cc7bd7df31b6a9e",
+    "upper_sha": "87248970c922d84ab20fcbe9e66f3c3a6af8abbe",
+    "lower_pr": 109,
+    "upper_pr": 110,
+    "stack": {
+      "id": 3224910,
+      "number": 111,
+      "node_id": "PRS_kwDOVnhIZ84AMTVO",
+      "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/stacks/111",
+      "base": {
+        "ref": "exp/fu2/ci/sig-mixedmulti/trunk"
+      },
+      "open": true,
+      "created_at": "2026-11-09T03:22:20Z",
+      "pull_requests": [
+        {
+          "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/pulls/109",
+          "id": 5218195663,
+          "number": 109,
+          "head": {
+            "ref": "exp/fu2/ci/sig-mixedmulti/lower",
+            "sha": "15c823fb8e6217410c739d832cc7bd7df31b6a9e",
+            "repo": {
+              "id": 1450723431,
+              "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08",
+              "name": "gherrit-native-stack-experiments-2026-11-08"
+            }
+          },
+          "base": {
+            "ref": "exp/fu2/ci/sig-mixedmulti/trunk",
+            "sha": "d6223f27f364a74460a907df8087d3c52331ca3d",
+            "repo": {
+              "id": 1450723431,
+              "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08",
+              "name": "gherrit-native-stack-experiments-2026-11-08"
+            }
+          },
+          "node_id": "PR_kwDOVnhIZ88AAAABNwdYzw",
+          "title": "Follow-up CI sig-mixedmulti: lower",
+          "state": "open",
+          "merged_at": null,
+          "draft": false,
+          "html_url": "https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08/pull/109",
+          "user": {
+            "login": "joshlf",
+            "id": 1046063,
+            "node_id": "MDQ6VXNlcjEwNDYwNjM=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1046063?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/joshlf",
+            "html_url": "https://github.com/joshlf",
+            "followers_url": "https://api.github.com/users/joshlf/followers",
+            "following_url": "https://api.github.com/users/joshlf/following{/other_user}",
+            "gists_url": "https://api.github.com/users/joshlf/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/joshlf/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/joshlf/subscriptions",
+            "organizations_url": "https://api.github.com/users/joshlf/orgs",
+            "repos_url": "https://api.github.com/users/joshlf/repos",
+            "events_url": "https://api.github.com/users/joshlf/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/joshlf/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/pulls/110",
+          "id": 5218195839,
+          "number": 110,
+          "head": {
+            "ref": "exp/fu2/ci/sig-mixedmulti/upper",
+            "sha": "87248970c922d84ab20fcbe9e66f3c3a6af8abbe",
+            "repo": {
+              "id": 1450723431,
+              "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08",
+              "name": "gherrit-native-stack-experiments-2026-11-08"
+            }
+          },
+          "base": {
+            "ref": "exp/fu2/ci/sig-mixedmulti/lower",
+            "sha": "15c823fb8e6217410c739d832cc7bd7df31b6a9e",
+            "repo": {
+              "id": 1450723431,
+              "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08",
+              "name": "gherrit-native-stack-experiments-2026-11-08"
+            }
+          },
+          "node_id": "PR_kwDOVnhIZ88AAAABNwdZfw",
+          "title": "Follow-up CI sig-mixedmulti: upper",
+          "state": "open",
+          "merged_at": null,
+          "draft": false,
+          "html_url": "https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08/pull/110",
+          "user": {
+            "login": "joshlf",
+            "id": 1046063,
+            "node_id": "MDQ6VXNlcjEwNDYwNjM=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1046063?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/joshlf",
+            "html_url": "https://github.com/joshlf",
+            "followers_url": "https://api.github.com/users/joshlf/followers",
+            "following_url": "https://api.github.com/users/joshlf/following{/other_user}",
+            "gists_url": "https://api.github.com/users/joshlf/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/joshlf/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/joshlf/subscriptions",
+            "organizations_url": "https://api.github.com/users/joshlf/orgs",
+            "repos_url": "https://api.github.com/users/joshlf/repos",
+            "events_url": "https://api.github.com/users/joshlf/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/joshlf/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        }
+      ]
+    },
+    "merge_request": {
+      "status": "pending",
+      "details": {
+        "message": "Merge request enqueued.",
+        "uuid": "43b47e87-175f-4e13-8231-9a5c976b4340",
+        "merge_method": "squash",
+        "merge_action": "default",
+        "expected_head_sha": "15c823fb8e6217410c739d832cc7bd7df31b6a9e",
+        "bypass_rules": false
+      }
+    }
+  },
+  "sig-mixedsuffix": {
+    "trunk": "exp/fu2/ci/sig-mixedsuffix/trunk",
+    "lower": "exp/fu2/ci/sig-mixedsuffix/lower",
+    "upper": "exp/fu2/ci/sig-mixedsuffix/upper",
+    "bot": false,
+    "mode": "mixedsuffix",
+    "seed": "d6223f27f364a74460a907df8087d3c52331ca3d",
+    "trunk_sha": "d6223f27f364a74460a907df8087d3c52331ca3d",
+    "lower_sha": "7ca2b1a7a38f3b3f6f1325c121bb11b025a1c786",
+    "upper_sha": "123714f9554809e4fb87dfccb414ad7b2bc0a33e",
+    "lower_pr": 112,
+    "upper_pr": 113,
+    "stack": {
+      "id": 3224923,
+      "number": 114,
+      "node_id": "PRS_kwDOVnhIZ84AMTVb",
+      "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/stacks/114",
+      "base": {
+        "ref": "exp/fu2/ci/sig-mixedsuffix/trunk"
+      },
+      "open": true,
+      "created_at": "2026-11-09T03:22:34Z",
+      "pull_requests": [
+        {
+          "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/pulls/112",
+          "id": 5218197605,
+          "number": 112,
+          "head": {
+            "ref": "exp/fu2/ci/sig-mixedsuffix/lower",
+            "sha": "7ca2b1a7a38f3b3f6f1325c121bb11b025a1c786",
+            "repo": {
+              "id": 1450723431,
+              "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08",
+              "name": "gherrit-native-stack-experiments-2026-11-08"
+            }
+          },
+          "base": {
+            "ref": "exp/fu2/ci/sig-mixedsuffix/trunk",
+            "sha": "d6223f27f364a74460a907df8087d3c52331ca3d",
+            "repo": {
+              "id": 1450723431,
+              "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08",
+              "name": "gherrit-native-stack-experiments-2026-11-08"
+            }
+          },
+          "node_id": "PR_kwDOVnhIZ88AAAABNwdgZQ",
+          "title": "Follow-up CI sig-mixedsuffix: lower",
+          "state": "open",
+          "merged_at": null,
+          "draft": false,
+          "html_url": "https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08/pull/112",
+          "user": {
+            "login": "joshlf",
+            "id": 1046063,
+            "node_id": "MDQ6VXNlcjEwNDYwNjM=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1046063?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/joshlf",
+            "html_url": "https://github.com/joshlf",
+            "followers_url": "https://api.github.com/users/joshlf/followers",
+            "following_url": "https://api.github.com/users/joshlf/following{/other_user}",
+            "gists_url": "https://api.github.com/users/joshlf/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/joshlf/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/joshlf/subscriptions",
+            "organizations_url": "https://api.github.com/users/joshlf/orgs",
+            "repos_url": "https://api.github.com/users/joshlf/repos",
+            "events_url": "https://api.github.com/users/joshlf/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/joshlf/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/pulls/113",
+          "id": 5218197736,
+          "number": 113,
+          "head": {
+            "ref": "exp/fu2/ci/sig-mixedsuffix/upper",
+            "sha": "123714f9554809e4fb87dfccb414ad7b2bc0a33e",
+            "repo": {
+              "id": 1450723431,
+              "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08",
+              "name": "gherrit-native-stack-experiments-2026-11-08"
+            }
+          },
+          "base": {
+            "ref": "exp/fu2/ci/sig-mixedsuffix/lower",
+            "sha": "7ca2b1a7a38f3b3f6f1325c121bb11b025a1c786",
+            "repo": {
+              "id": 1450723431,
+              "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08",
+              "name": "gherrit-native-stack-experiments-2026-11-08"
+            }
+          },
+          "node_id": "PR_kwDOVnhIZ88AAAABNwdg6A",
+          "title": "Follow-up CI sig-mixedsuffix: upper",
+          "state": "open",
+          "merged_at": null,
+          "draft": false,
+          "html_url": "https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08/pull/113",
+          "user": {
+            "login": "joshlf",
+            "id": 1046063,
+            "node_id": "MDQ6VXNlcjEwNDYwNjM=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1046063?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/joshlf",
+            "html_url": "https://github.com/joshlf",
+            "followers_url": "https://api.github.com/users/joshlf/followers",
+            "following_url": "https://api.github.com/users/joshlf/following{/other_user}",
+            "gists_url": "https://api.github.com/users/joshlf/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/joshlf/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/joshlf/subscriptions",
+            "organizations_url": "https://api.github.com/users/joshlf/orgs",
+            "repos_url": "https://api.github.com/users/joshlf/repos",
+            "events_url": "https://api.github.com/users/joshlf/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/joshlf/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        }
+      ]
+    },
+    "merge_request": {
+      "status": "pending",
+      "details": {
+        "message": "Merge request enqueued.",
+        "uuid": "25a79c03-6e34-4dbf-b56a-ff4eb35ea7f3",
+        "merge_method": "squash",
+        "merge_action": "default",
+        "expected_head_sha": "7ca2b1a7a38f3b3f6f1325c121bb11b025a1c786",
+        "bypass_rules": false
+      }
+    }
+  },
+  "target-knownpath": {
+    "trunk": "exp/fu2/ci/target-knownpath/trunk",
+    "lower": "exp/fu2/ci/target-knownpath/lower",
+    "upper": "exp/fu2/ci/target-knownpath/upper",
+    "bot": false,
+    "mode": "unsigned",
+    "seed": "ade319107e71b6eff646a1574139e2c15486fe6d",
+    "trunk_sha": "7cc4fd48f2d44681e0167cf4bde875fb1b9b4e5a",
+    "lower_sha": "25394b5e3ae5752d3c51bcb038c5461c105d5ee4",
+    "upper_sha": "15231a345f4780e80dce18b9c12f1c87100141e4",
+    "lower_pr": 115,
+    "upper_pr": 116,
+    "stack": {
+      "id": 3224944,
+      "number": 117,
+      "node_id": "PRS_kwDOVnhIZ84AMTVw",
+      "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/stacks/117",
+      "base": {
+        "ref": "exp/fu2/ci/target-knownpath/trunk"
+      },
+      "open": true,
+      "created_at": "2026-11-09T03:23:30Z",
+      "pull_requests": [
+        {
+          "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/pulls/115",
+          "id": 5218204834,
+          "number": 115,
+          "head": {
+            "ref": "exp/fu2/ci/target-knownpath/lower",
+            "sha": "25394b5e3ae5752d3c51bcb038c5461c105d5ee4",
+            "repo": {
+              "id": 1450723431,
+              "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08",
+              "name": "gherrit-native-stack-experiments-2026-11-08"
+            }
+          },
+          "base": {
+            "ref": "exp/fu2/ci/target-knownpath/trunk",
+            "sha": "7cc4fd48f2d44681e0167cf4bde875fb1b9b4e5a",
+            "repo": {
+              "id": 1450723431,
+              "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08",
+              "name": "gherrit-native-stack-experiments-2026-11-08"
+            }
+          },
+          "node_id": "PR_kwDOVnhIZ88AAAABNwd8og",
+          "title": "Follow-up CI target-knownpath: lower",
+          "state": "open",
+          "merged_at": null,
+          "draft": false,
+          "html_url": "https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08/pull/115",
+          "user": {
+            "login": "joshlf",
+            "id": 1046063,
+            "node_id": "MDQ6VXNlcjEwNDYwNjM=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1046063?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/joshlf",
+            "html_url": "https://github.com/joshlf",
+            "followers_url": "https://api.github.com/users/joshlf/followers",
+            "following_url": "https://api.github.com/users/joshlf/following{/other_user}",
+            "gists_url": "https://api.github.com/users/joshlf/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/joshlf/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/joshlf/subscriptions",
+            "organizations_url": "https://api.github.com/users/joshlf/orgs",
+            "repos_url": "https://api.github.com/users/joshlf/repos",
+            "events_url": "https://api.github.com/users/joshlf/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/joshlf/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/pulls/116",
+          "id": 5218204968,
+          "number": 116,
+          "head": {
+            "ref": "exp/fu2/ci/target-knownpath/upper",
+            "sha": "15231a345f4780e80dce18b9c12f1c87100141e4",
+            "repo": {
+              "id": 1450723431,
+              "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08",
+              "name": "gherrit-native-stack-experiments-2026-11-08"
+            }
+          },
+          "base": {
+            "ref": "exp/fu2/ci/target-knownpath/lower",
+            "sha": "25394b5e3ae5752d3c51bcb038c5461c105d5ee4",
+            "repo": {
+              "id": 1450723431,
+              "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08",
+              "name": "gherrit-native-stack-experiments-2026-11-08"
+            }
+          },
+          "node_id": "PR_kwDOVnhIZ88AAAABNwd9KA",
+          "title": "Follow-up CI target-knownpath: upper",
+          "state": "open",
+          "merged_at": null,
+          "draft": false,
+          "html_url": "https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08/pull/116",
+          "user": {
+            "login": "joshlf",
+            "id": 1046063,
+            "node_id": "MDQ6VXNlcjEwNDYwNjM=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1046063?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/joshlf",
+            "html_url": "https://github.com/joshlf",
+            "followers_url": "https://api.github.com/users/joshlf/followers",
+            "following_url": "https://api.github.com/users/joshlf/following{/other_user}",
+            "gists_url": "https://api.github.com/users/joshlf/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/joshlf/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/joshlf/subscriptions",
+            "organizations_url": "https://api.github.com/users/joshlf/orgs",
+            "repos_url": "https://api.github.com/users/joshlf/repos",
+            "events_url": "https://api.github.com/users/joshlf/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/joshlf/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        }
+      ]
+    }
+  },
+  "scan": {
+    "trunk": "exp/fu2/ci/scan/trunk",
+    "lower": "exp/fu2/ci/scan/lower",
+    "upper": "exp/fu2/ci/scan/upper",
+    "bot": false,
+    "mode": "unsigned",
+    "seed": "ade319107e71b6eff646a1574139e2c15486fe6d",
+    "trunk_sha": "ade319107e71b6eff646a1574139e2c15486fe6d",
+    "lower_sha": "d37547c43c3e0e110384c220827099f187f8c740",
+    "upper_sha": "1790c777b5f892b02a9a973687476b895fd214b2",
+    "lower_pr": 118,
+    "upper_pr": 119,
+    "stack": {
+      "id": 3224967,
+      "number": 120,
+      "node_id": "PRS_kwDOVnhIZ84AMTWH",
+      "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/stacks/120",
+      "base": {
+        "ref": "exp/fu2/ci/scan/trunk"
+      },
+      "open": true,
+      "created_at": "2026-11-09T03:24:22Z",
+      "pull_requests": [
+        {
+          "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/pulls/118",
+          "id": 5218211588,
+          "number": 118,
+          "head": {
+            "ref": "exp/fu2/ci/scan/lower",
+            "sha": "d37547c43c3e0e110384c220827099f187f8c740",
+            "repo": {
+              "id": 1450723431,
+              "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08",
+              "name": "gherrit-native-stack-experiments-2026-11-08"
+            }
+          },
+          "base": {
+            "ref": "exp/fu2/ci/scan/trunk",
+            "sha": "ade319107e71b6eff646a1574139e2c15486fe6d",
+            "repo": {
+              "id": 1450723431,
+              "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08",
+              "name": "gherrit-native-stack-experiments-2026-11-08"
+            }
+          },
+          "node_id": "PR_kwDOVnhIZ88AAAABNweXBA",
+          "title": "Follow-up CI scan: lower",
+          "state": "open",
+          "merged_at": null,
+          "draft": false,
+          "html_url": "https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08/pull/118",
+          "user": {
+            "login": "joshlf",
+            "id": 1046063,
+            "node_id": "MDQ6VXNlcjEwNDYwNjM=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1046063?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/joshlf",
+            "html_url": "https://github.com/joshlf",
+            "followers_url": "https://api.github.com/users/joshlf/followers",
+            "following_url": "https://api.github.com/users/joshlf/following{/other_user}",
+            "gists_url": "https://api.github.com/users/joshlf/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/joshlf/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/joshlf/subscriptions",
+            "organizations_url": "https://api.github.com/users/joshlf/orgs",
+            "repos_url": "https://api.github.com/users/joshlf/repos",
+            "events_url": "https://api.github.com/users/joshlf/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/joshlf/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/pulls/119",
+          "id": 5218211744,
+          "number": 119,
+          "head": {
+            "ref": "exp/fu2/ci/scan/upper",
+            "sha": "1790c777b5f892b02a9a973687476b895fd214b2",
+            "repo": {
+              "id": 1450723431,
+              "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08",
+              "name": "gherrit-native-stack-experiments-2026-11-08"
+            }
+          },
+          "base": {
+            "ref": "exp/fu2/ci/scan/lower",
+            "sha": "d37547c43c3e0e110384c220827099f187f8c740",
+            "repo": {
+              "id": 1450723431,
+              "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08",
+              "name": "gherrit-native-stack-experiments-2026-11-08"
+            }
+          },
+          "node_id": "PR_kwDOVnhIZ88AAAABNweXoA",
+          "title": "Follow-up CI scan: upper",
+          "state": "open",
+          "merged_at": null,
+          "draft": false,
+          "html_url": "https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08/pull/119",
+          "user": {
+            "login": "joshlf",
+            "id": 1046063,
+            "node_id": "MDQ6VXNlcjEwNDYwNjM=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1046063?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/joshlf",
+            "html_url": "https://github.com/joshlf",
+            "followers_url": "https://api.github.com/users/joshlf/followers",
+            "following_url": "https://api.github.com/users/joshlf/following{/other_user}",
+            "gists_url": "https://api.github.com/users/joshlf/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/joshlf/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/joshlf/subscriptions",
+            "organizations_url": "https://api.github.com/users/joshlf/orgs",
+            "repos_url": "https://api.github.com/users/joshlf/repos",
+            "events_url": "https://api.github.com/users/joshlf/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/joshlf/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        }
+      ]
+    },
+    "ruleset": {
+      "id": 26828526,
+      "name": "gherrit-fu2-ci-scan",
+      "target": "branch",
+      "source_type": "Repository",
+      "source": "joshlf/gherrit-native-stack-experiments-2026-11-08",
+      "enforcement": "active",
+      "conditions": {
+        "ref_name": {
+          "exclude": [],
+          "include": [
+            "refs/heads/exp/fu2/ci/scan/trunk"
+          ]
+        }
+      },
+      "rules": [
+        {
+          "type": "code_scanning",
+          "parameters": {
+            "code_scanning_tools": [
+              {
+                "tool": "CodeQL",
+                "security_alerts_threshold": "high_or_higher",
+                "alerts_threshold": "errors"
+              }
+            ]
+          }
+        }
+      ],
+      "node_id": "RRS_lACqUmVwb3NpdG9yec5WeEhnzgGZXu4",
+      "created_at": "2026-11-08T22:24:24.013-05:00",
+      "updated_at": "2026-11-08T22:24:24.041-05:00",
+      "bypass_actors": [],
+      "current_user_can_bypass": "never",
+      "_links": {
+        "self": {
+          "href": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/rulesets/26828526"
+        },
+        "html": {
+          "href": "https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08/rules/26828526"
+        }
+      }
+    },
+    "merge_request": {
+      "status": "pending",
+      "details": {
+        "message": "Merge request enqueued.",
+        "uuid": "be2707a6-66d2-4f2f-8663-2908ea222262",
+        "merge_method": "squash",
+        "merge_action": "default",
+        "expected_head_sha": "d37547c43c3e0e110384c220827099f187f8c740",
+        "bypass_rules": false
+      }
+    }
+  },
+  "scan-codeql": {
+    "trunk": "exp/fu2/ci/scan-codeql/trunk",
+    "lower": "exp/fu2/ci/scan-codeql/lower",
+    "upper": "exp/fu2/ci/scan-codeql/upper",
+    "bot": false,
+    "mode": "unsigned",
+    "seed": "ade319107e71b6eff646a1574139e2c15486fe6d",
+    "trunk_sha": "f5eb813fae90729388c7177bb1eba495fc1150bb",
+    "lower_sha": "088d35a21d16bb87ec3fd606066593642ce4383d",
+    "upper_sha": "b1b2ceaf81e8f6bd311e9f8e89aa146d9b00dcae",
+    "lower_pr": 121,
+    "upper_pr": 122,
+    "stack": {
+      "id": 3224994,
+      "number": 123,
+      "node_id": "PRS_kwDOVnhIZ84AMTWi",
+      "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/stacks/123",
+      "base": {
+        "ref": "exp/fu2/ci/scan-codeql/trunk"
+      },
+      "open": true,
+      "created_at": "2026-11-09T03:25:41Z",
+      "pull_requests": [
+        {
+          "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/pulls/121",
+          "id": 5218222113,
+          "number": 121,
+          "head": {
+            "ref": "exp/fu2/ci/scan-codeql/lower",
+            "sha": "088d35a21d16bb87ec3fd606066593642ce4383d",
+            "repo": {
+              "id": 1450723431,
+              "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08",
+              "name": "gherrit-native-stack-experiments-2026-11-08"
+            }
+          },
+          "base": {
+            "ref": "exp/fu2/ci/scan-codeql/trunk",
+            "sha": "f5eb813fae90729388c7177bb1eba495fc1150bb",
+            "repo": {
+              "id": 1450723431,
+              "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08",
+              "name": "gherrit-native-stack-experiments-2026-11-08"
+            }
+          },
+          "node_id": "PR_kwDOVnhIZ88AAAABNwfAIQ",
+          "title": "Follow-up CI scan-codeql: lower",
+          "state": "open",
+          "merged_at": null,
+          "draft": false,
+          "html_url": "https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08/pull/121",
+          "user": {
+            "login": "joshlf",
+            "id": 1046063,
+            "node_id": "MDQ6VXNlcjEwNDYwNjM=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1046063?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/joshlf",
+            "html_url": "https://github.com/joshlf",
+            "followers_url": "https://api.github.com/users/joshlf/followers",
+            "following_url": "https://api.github.com/users/joshlf/following{/other_user}",
+            "gists_url": "https://api.github.com/users/joshlf/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/joshlf/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/joshlf/subscriptions",
+            "organizations_url": "https://api.github.com/users/joshlf/orgs",
+            "repos_url": "https://api.github.com/users/joshlf/repos",
+            "events_url": "https://api.github.com/users/joshlf/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/joshlf/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/pulls/122",
+          "id": 5218222309,
+          "number": 122,
+          "head": {
+            "ref": "exp/fu2/ci/scan-codeql/upper",
+            "sha": "b1b2ceaf81e8f6bd311e9f8e89aa146d9b00dcae",
+            "repo": {
+              "id": 1450723431,
+              "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08",
+              "name": "gherrit-native-stack-experiments-2026-11-08"
+            }
+          },
+          "base": {
+            "ref": "exp/fu2/ci/scan-codeql/lower",
+            "sha": "088d35a21d16bb87ec3fd606066593642ce4383d",
+            "repo": {
+              "id": 1450723431,
+              "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08",
+              "name": "gherrit-native-stack-experiments-2026-11-08"
+            }
+          },
+          "node_id": "PR_kwDOVnhIZ88AAAABNwfA5Q",
+          "title": "Follow-up CI scan-codeql: upper",
+          "state": "open",
+          "merged_at": null,
+          "draft": false,
+          "html_url": "https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08/pull/122",
+          "user": {
+            "login": "joshlf",
+            "id": 1046063,
+            "node_id": "MDQ6VXNlcjEwNDYwNjM=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1046063?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/joshlf",
+            "html_url": "https://github.com/joshlf",
+            "followers_url": "https://api.github.com/users/joshlf/followers",
+            "following_url": "https://api.github.com/users/joshlf/following{/other_user}",
+            "gists_url": "https://api.github.com/users/joshlf/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/joshlf/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/joshlf/subscriptions",
+            "organizations_url": "https://api.github.com/users/joshlf/orgs",
+            "repos_url": "https://api.github.com/users/joshlf/repos",
+            "events_url": "https://api.github.com/users/joshlf/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/joshlf/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        }
+      ]
+    },
+    "ruleset": {
+      "id": 26828561,
+      "name": "gherrit-fu2-ci-scan-codeql",
+      "target": "branch",
+      "source_type": "Repository",
+      "source": "joshlf/gherrit-native-stack-experiments-2026-11-08",
+      "enforcement": "active",
+      "conditions": {
+        "ref_name": {
+          "exclude": [],
+          "include": [
+            "refs/heads/exp/fu2/ci/scan-codeql/trunk"
+          ]
+        }
+      },
+      "rules": [
+        {
+          "type": "code_scanning",
+          "parameters": {
+            "code_scanning_tools": [
+              {
+                "tool": "CodeQL",
+                "security_alerts_threshold": "high_or_higher",
+                "alerts_threshold": "errors"
+              }
+            ]
+          }
+        }
+      ],
+      "node_id": "RRS_lACqUmVwb3NpdG9yec5WeEhnzgGZXxE",
+      "created_at": "2026-11-08T22:25:42.230-05:00",
+      "updated_at": "2026-11-08T22:25:42.257-05:00",
+      "bypass_actors": [],
+      "current_user_can_bypass": "never",
+      "_links": {
+        "self": {
+          "href": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/rulesets/26828561"
+        },
+        "html": {
+          "href": "https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08/rules/26828561"
+        }
+      }
+    },
+    "merge_request": {
+      "status": "pending",
+      "details": {
+        "message": "Merge request enqueued.",
+        "uuid": "5847c955-5030-4008-8ecd-2006135f8500",
+        "merge_method": "squash",
+        "merge_action": "default",
+        "expected_head_sha": "088d35a21d16bb87ec3fd606066593642ce4383d",
+        "bypass_rules": false
+      }
+    }
+  },
+  "push": {
+    "trunk": "exp/fu2/ci/push/trunk",
+    "lower": "exp/fu2/ci/push/lower",
+    "upper": "exp/fu2/ci/push/upper",
+    "bot": false,
+    "mode": "unsigned",
+    "seed": "ade319107e71b6eff646a1574139e2c15486fe6d",
+    "trunk_sha": "ab2d0bed40c3e6c3b6eb749b9936fac2158cb007",
+    "lower_sha": "d7b824f37864177a66319f24af651f2b96bd0841",
+    "upper_sha": "b0379a23f6336399b2bcbfd9038ed9ba33e75ff8",
+    "lower_pr": 124,
+    "upper_pr": 125,
+    "stack": {
+      "id": 3225083,
+      "number": 126,
+      "node_id": "PRS_kwDOVnhIZ84AMTX7",
+      "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/stacks/126",
+      "base": {
+        "ref": "exp/fu2/ci/push/trunk"
+      },
+      "open": true,
+      "created_at": "2026-11-09T03:30:21Z",
+      "pull_requests": [
+        {
+          "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/pulls/124",
+          "id": 5218256956,
+          "number": 124,
+          "head": {
+            "ref": "exp/fu2/ci/push/lower",
+            "sha": "d7b824f37864177a66319f24af651f2b96bd0841",
+            "repo": {
+              "id": 1450723431,
+              "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08",
+              "name": "gherrit-native-stack-experiments-2026-11-08"
+            }
+          },
+          "base": {
+            "ref": "exp/fu2/ci/push/trunk",
+            "sha": "ab2d0bed40c3e6c3b6eb749b9936fac2158cb007",
+            "repo": {
+              "id": 1450723431,
+              "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08",
+              "name": "gherrit-native-stack-experiments-2026-11-08"
+            }
+          },
+          "node_id": "PR_kwDOVnhIZ88AAAABNwhIPA",
+          "title": "Follow-up CI push: lower",
+          "state": "open",
+          "merged_at": null,
+          "draft": false,
+          "html_url": "https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08/pull/124",
+          "user": {
+            "login": "joshlf",
+            "id": 1046063,
+            "node_id": "MDQ6VXNlcjEwNDYwNjM=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1046063?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/joshlf",
+            "html_url": "https://github.com/joshlf",
+            "followers_url": "https://api.github.com/users/joshlf/followers",
+            "following_url": "https://api.github.com/users/joshlf/following{/other_user}",
+            "gists_url": "https://api.github.com/users/joshlf/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/joshlf/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/joshlf/subscriptions",
+            "organizations_url": "https://api.github.com/users/joshlf/orgs",
+            "repos_url": "https://api.github.com/users/joshlf/repos",
+            "events_url": "https://api.github.com/users/joshlf/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/joshlf/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/pulls/125",
+          "id": 5218257057,
+          "number": 125,
+          "head": {
+            "ref": "exp/fu2/ci/push/upper",
+            "sha": "b0379a23f6336399b2bcbfd9038ed9ba33e75ff8",
+            "repo": {
+              "id": 1450723431,
+              "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08",
+              "name": "gherrit-native-stack-experiments-2026-11-08"
+            }
+          },
+          "base": {
+            "ref": "exp/fu2/ci/push/lower",
+            "sha": "d7b824f37864177a66319f24af651f2b96bd0841",
+            "repo": {
+              "id": 1450723431,
+              "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08",
+              "name": "gherrit-native-stack-experiments-2026-11-08"
+            }
+          },
+          "node_id": "PR_kwDOVnhIZ88AAAABNwhIoQ",
+          "title": "Follow-up CI push: upper",
+          "state": "open",
+          "merged_at": null,
+          "draft": false,
+          "html_url": "https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08/pull/125",
+          "user": {
+            "login": "joshlf",
+            "id": 1046063,
+            "node_id": "MDQ6VXNlcjEwNDYwNjM=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1046063?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/joshlf",
+            "html_url": "https://github.com/joshlf",
+            "followers_url": "https://api.github.com/users/joshlf/followers",
+            "following_url": "https://api.github.com/users/joshlf/following{/other_user}",
+            "gists_url": "https://api.github.com/users/joshlf/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/joshlf/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/joshlf/subscriptions",
+            "organizations_url": "https://api.github.com/users/joshlf/orgs",
+            "repos_url": "https://api.github.com/users/joshlf/repos",
+            "events_url": "https://api.github.com/users/joshlf/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/joshlf/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        }
+      ]
+    }
+  },
+  "direct-lastpush": {
+    "trunk": "exp/fu2/ci/direct-lastpush/trunk",
+    "lower": "exp/fu2/ci/direct-lastpush/lower",
+    "upper": "exp/fu2/ci/direct-lastpush/upper",
+    "bot": true,
+    "mode": "unsigned",
+    "seed": "ade319107e71b6eff646a1574139e2c15486fe6d",
+    "trunk_sha": "ade319107e71b6eff646a1574139e2c15486fe6d",
+    "lower_sha": "8922b01c7d5f27ea664de02a61d5111c64ce2d25",
+    "upper_sha": "c70c0ebe1b291431c9b6ba0197fe330192da7487",
+    "lower_pr": 135,
+    "upper_pr": 136,
+    "stack": {
+      "id": 3225846,
+      "number": 146,
+      "node_id": "PRS_kwDOVnhIZ84AMTj2",
+      "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/stacks/146",
+      "base": {
+        "ref": "exp/fu2/ci/direct-lastpush/trunk"
+      },
+      "open": true,
+      "created_at": "2026-11-09T04:13:30Z",
+      "pull_requests": [
+        {
+          "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/pulls/135",
+          "id": 5218575629,
+          "number": 135,
+          "head": {
+            "ref": "exp/fu2/ci/direct-lastpush/lower",
+            "sha": "8922b01c7d5f27ea664de02a61d5111c64ce2d25",
+            "repo": {
+              "id": 1450723431,
+              "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08",
+              "name": "gherrit-native-stack-experiments-2026-11-08"
+            }
+          },
+          "base": {
+            "ref": "exp/fu2/ci/direct-lastpush/trunk",
+            "sha": "ade319107e71b6eff646a1574139e2c15486fe6d",
+            "repo": {
+              "id": 1450723431,
+              "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08",
+              "name": "gherrit-native-stack-experiments-2026-11-08"
+            }
+          },
+          "node_id": "PR_kwDOVnhIZ88AAAABNw0lDQ",
+          "title": "Follow-up review direct-lastpush: lower",
+          "state": "open",
+          "merged_at": null,
+          "draft": false,
+          "html_url": "https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08/pull/135",
+          "user": {
+            "login": "github-actions[bot]",
+            "id": 41898282,
+            "node_id": "MDM6Qm90NDE4OTgyODI=",
+            "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/github-actions%5Bbot%5D",
+            "html_url": "https://github.com/apps/github-actions",
+            "followers_url": "https://api.github.com/users/github-actions%5Bbot%5D/followers",
+            "following_url": "https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}",
+            "gists_url": "https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/github-actions%5Bbot%5D/subscriptions",
+            "organizations_url": "https://api.github.com/users/github-actions%5Bbot%5D/orgs",
+            "repos_url": "https://api.github.com/users/github-actions%5Bbot%5D/repos",
+            "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/github-actions%5Bbot%5D/received_events",
+            "type": "Bot",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/pulls/136",
+          "id": 5218575833,
+          "number": 136,
+          "head": {
+            "ref": "exp/fu2/ci/direct-lastpush/upper",
+            "sha": "c70c0ebe1b291431c9b6ba0197fe330192da7487",
+            "repo": {
+              "id": 1450723431,
+              "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08",
+              "name": "gherrit-native-stack-experiments-2026-11-08"
+            }
+          },
+          "base": {
+            "ref": "exp/fu2/ci/direct-lastpush/lower",
+            "sha": "8922b01c7d5f27ea664de02a61d5111c64ce2d25",
+            "repo": {
+              "id": 1450723431,
+              "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08",
+              "name": "gherrit-native-stack-experiments-2026-11-08"
+            }
+          },
+          "node_id": "PR_kwDOVnhIZ88AAAABNw0l2Q",
+          "title": "Follow-up review direct-lastpush: upper",
+          "state": "open",
+          "merged_at": null,
+          "draft": false,
+          "html_url": "https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08/pull/136",
+          "user": {
+            "login": "github-actions[bot]",
+            "id": 41898282,
+            "node_id": "MDM6Qm90NDE4OTgyODI=",
+            "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/github-actions%5Bbot%5D",
+            "html_url": "https://github.com/apps/github-actions",
+            "followers_url": "https://api.github.com/users/github-actions%5Bbot%5D/followers",
+            "following_url": "https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}",
+            "gists_url": "https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/github-actions%5Bbot%5D/subscriptions",
+            "organizations_url": "https://api.github.com/users/github-actions%5Bbot%5D/orgs",
+            "repos_url": "https://api.github.com/users/github-actions%5Bbot%5D/repos",
+            "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/github-actions%5Bbot%5D/received_events",
+            "type": "Bot",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        }
+      ]
+    },
+    "merge_request": {
+      "status": "pending",
+      "details": {
+        "message": "Merge request enqueued.",
+        "uuid": "bd1d360a-9c1b-44cb-bfd3-28c4ded3e02b",
+        "merge_method": "squash",
+        "merge_action": "default",
+        "expected_head_sha": "8922b01c7d5f27ea664de02a61d5111c64ce2d25",
+        "bypass_rules": false
+      }
+    }
+  },
+  "direct-codeowner": {
+    "trunk": "exp/fu2/ci/direct-codeowner/trunk",
+    "lower": "exp/fu2/ci/direct-codeowner/lower",
+    "upper": "exp/fu2/ci/direct-codeowner/upper",
+    "bot": true,
+    "mode": "unsigned",
+    "seed": "ade319107e71b6eff646a1574139e2c15486fe6d",
+    "trunk_sha": "3ed7e9067e3aa41d0911a37142bc62ea88986e4e",
+    "lower_sha": "bf0b3458baf5023f5bce3e4b2c472246a3d9187d",
+    "upper_sha": "a319fbee563a20f201bd88f0f66d6d49d38f102e",
+    "lower_pr": 139,
+    "upper_pr": 141,
+    "stack": {
+      "id": 3225854,
+      "number": 147,
+      "node_id": "PRS_kwDOVnhIZ84AMTj-",
+      "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/stacks/147",
+      "base": {
+        "ref": "exp/fu2/ci/direct-codeowner/trunk"
+      },
+      "open": true,
+      "created_at": "2026-11-09T04:13:45Z",
+      "pull_requests": [
+        {
+          "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/pulls/139",
+          "id": 5218576088,
+          "number": 139,
+          "head": {
+            "ref": "exp/fu2/ci/direct-codeowner/lower",
+            "sha": "bf0b3458baf5023f5bce3e4b2c472246a3d9187d",
+            "repo": {
+              "id": 1450723431,
+              "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08",
+              "name": "gherrit-native-stack-experiments-2026-11-08"
+            }
+          },
+          "base": {
+            "ref": "exp/fu2/ci/direct-codeowner/trunk",
+            "sha": "3ed7e9067e3aa41d0911a37142bc62ea88986e4e",
+            "repo": {
+              "id": 1450723431,
+              "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08",
+              "name": "gherrit-native-stack-experiments-2026-11-08"
+            }
+          },
+          "node_id": "PR_kwDOVnhIZ88AAAABNw0m2A",
+          "title": "Follow-up review direct-codeowner: lower",
+          "state": "open",
+          "merged_at": null,
+          "draft": false,
+          "html_url": "https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08/pull/139",
+          "user": {
+            "login": "github-actions[bot]",
+            "id": 41898282,
+            "node_id": "MDM6Qm90NDE4OTgyODI=",
+            "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/github-actions%5Bbot%5D",
+            "html_url": "https://github.com/apps/github-actions",
+            "followers_url": "https://api.github.com/users/github-actions%5Bbot%5D/followers",
+            "following_url": "https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}",
+            "gists_url": "https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/github-actions%5Bbot%5D/subscriptions",
+            "organizations_url": "https://api.github.com/users/github-actions%5Bbot%5D/orgs",
+            "repos_url": "https://api.github.com/users/github-actions%5Bbot%5D/repos",
+            "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/github-actions%5Bbot%5D/received_events",
+            "type": "Bot",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/pulls/141",
+          "id": 5218576624,
+          "number": 141,
+          "head": {
+            "ref": "exp/fu2/ci/direct-codeowner/upper",
+            "sha": "a319fbee563a20f201bd88f0f66d6d49d38f102e",
+            "repo": {
+              "id": 1450723431,
+              "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08",
+              "name": "gherrit-native-stack-experiments-2026-11-08"
+            }
+          },
+          "base": {
+            "ref": "exp/fu2/ci/direct-codeowner/lower",
+            "sha": "bf0b3458baf5023f5bce3e4b2c472246a3d9187d",
+            "repo": {
+              "id": 1450723431,
+              "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08",
+              "name": "gherrit-native-stack-experiments-2026-11-08"
+            }
+          },
+          "node_id": "PR_kwDOVnhIZ88AAAABNw0o8A",
+          "title": "Follow-up review direct-codeowner: upper",
+          "state": "open",
+          "merged_at": null,
+          "draft": false,
+          "html_url": "https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08/pull/141",
+          "user": {
+            "login": "github-actions[bot]",
+            "id": 41898282,
+            "node_id": "MDM6Qm90NDE4OTgyODI=",
+            "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/github-actions%5Bbot%5D",
+            "html_url": "https://github.com/apps/github-actions",
+            "followers_url": "https://api.github.com/users/github-actions%5Bbot%5D/followers",
+            "following_url": "https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}",
+            "gists_url": "https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/github-actions%5Bbot%5D/subscriptions",
+            "organizations_url": "https://api.github.com/users/github-actions%5Bbot%5D/orgs",
+            "repos_url": "https://api.github.com/users/github-actions%5Bbot%5D/repos",
+            "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/github-actions%5Bbot%5D/received_events",
+            "type": "Bot",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        }
+      ]
+    },
+    "merge_request": {
+      "status": "pending",
+      "details": {
+        "message": "Merge request enqueued.",
+        "uuid": "2b6c3466-be01-4f8d-a662-0dac10974185",
+        "merge_method": "squash",
+        "merge_action": "default",
+        "expected_head_sha": "bf0b3458baf5023f5bce3e4b2c472246a3d9187d",
+        "bypass_rules": false
+      }
+    },
+    "substantive": {
+      "old": "fba42f08bbf2793fa12d12740644ca4ce7ee7ccf",
+      "new": "c28a839c6daedb3bf95e65f5d4c0f90305384b3b",
+      "at": "2026-11-09T04:17:23.445331+00:00"
+    }
+  },
+  "deploy": {
+    "trunk": "exp/fu2/ci/deploy/trunk",
+    "lower": "exp/fu2/ci/deploy/lower",
+    "upper": "exp/fu2/ci/deploy/upper",
+    "bot": false,
+    "mode": "unsigned",
+    "seed": "ade319107e71b6eff646a1574139e2c15486fe6d",
+    "trunk_sha": "ade319107e71b6eff646a1574139e2c15486fe6d",
+    "lower_sha": "0226fda120917829bef64c08577ccc5656d46419",
+    "upper_sha": "9ad164223cacabf631d6fd6cdfb315cf9655a06f",
+    "lower_pr": 137,
+    "upper_pr": 138,
+    "stack": {
+      "id": 3225794,
+      "number": 140,
+      "node_id": "PRS_kwDOVnhIZ84AMTjC",
+      "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/stacks/140",
+      "base": {
+        "ref": "exp/fu2/ci/deploy/trunk"
+      },
+      "open": true,
+      "created_at": "2026-11-09T04:10:29Z",
+      "pull_requests": [
+        {
+          "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/pulls/137",
+          "id": 5218575855,
+          "number": 137,
+          "head": {
+            "ref": "exp/fu2/ci/deploy/lower",
+            "sha": "0226fda120917829bef64c08577ccc5656d46419",
+            "repo": {
+              "id": 1450723431,
+              "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08",
+              "name": "gherrit-native-stack-experiments-2026-11-08"
+            }
+          },
+          "base": {
+            "ref": "exp/fu2/ci/deploy/trunk",
+            "sha": "ade319107e71b6eff646a1574139e2c15486fe6d",
+            "repo": {
+              "id": 1450723431,
+              "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08",
+              "name": "gherrit-native-stack-experiments-2026-11-08"
+            }
+          },
+          "node_id": "PR_kwDOVnhIZ88AAAABNw0l7w",
+          "title": "Follow-up CI deploy: lower",
+          "state": "open",
+          "merged_at": null,
+          "draft": false,
+          "html_url": "https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08/pull/137",
+          "user": {
+            "login": "joshlf",
+            "id": 1046063,
+            "node_id": "MDQ6VXNlcjEwNDYwNjM=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1046063?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/joshlf",
+            "html_url": "https://github.com/joshlf",
+            "followers_url": "https://api.github.com/users/joshlf/followers",
+            "following_url": "https://api.github.com/users/joshlf/following{/other_user}",
+            "gists_url": "https://api.github.com/users/joshlf/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/joshlf/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/joshlf/subscriptions",
+            "organizations_url": "https://api.github.com/users/joshlf/orgs",
+            "repos_url": "https://api.github.com/users/joshlf/repos",
+            "events_url": "https://api.github.com/users/joshlf/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/joshlf/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/pulls/138",
+          "id": 5218575998,
+          "number": 138,
+          "head": {
+            "ref": "exp/fu2/ci/deploy/upper",
+            "sha": "9ad164223cacabf631d6fd6cdfb315cf9655a06f",
+            "repo": {
+              "id": 1450723431,
+              "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08",
+              "name": "gherrit-native-stack-experiments-2026-11-08"
+            }
+          },
+          "base": {
+            "ref": "exp/fu2/ci/deploy/lower",
+            "sha": "0226fda120917829bef64c08577ccc5656d46419",
+            "repo": {
+              "id": 1450723431,
+              "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08",
+              "name": "gherrit-native-stack-experiments-2026-11-08"
+            }
+          },
+          "node_id": "PR_kwDOVnhIZ88AAAABNw0mfg",
+          "title": "Follow-up CI deploy: upper",
+          "state": "open",
+          "merged_at": null,
+          "draft": false,
+          "html_url": "https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08/pull/138",
+          "user": {
+            "login": "joshlf",
+            "id": 1046063,
+            "node_id": "MDQ6VXNlcjEwNDYwNjM=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1046063?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/joshlf",
+            "html_url": "https://github.com/joshlf",
+            "followers_url": "https://api.github.com/users/joshlf/followers",
+            "following_url": "https://api.github.com/users/joshlf/following{/other_user}",
+            "gists_url": "https://api.github.com/users/joshlf/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/joshlf/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/joshlf/subscriptions",
+            "organizations_url": "https://api.github.com/users/joshlf/orgs",
+            "repos_url": "https://api.github.com/users/joshlf/repos",
+            "events_url": "https://api.github.com/users/joshlf/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/joshlf/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        }
+      ]
+    },
+    "ruleset": {
+      "id": 26829671,
+      "name": "gherrit-fu2-ci-deploy",
+      "target": "branch",
+      "source_type": "Repository",
+      "source": "joshlf/gherrit-native-stack-experiments-2026-11-08",
+      "enforcement": "active",
+      "conditions": {
+        "ref_name": {
+          "exclude": [],
+          "include": [
+            "refs/heads/exp/fu2/ci/deploy/trunk"
+          ]
+        }
+      },
+      "rules": [
+        {
+          "type": "required_deployments",
+          "parameters": {
+            "required_deployment_environments": [
+              "gherrit-fu2-ci-deploy"
+            ]
+          }
+        }
+      ],
+      "node_id": "RRS_lACqUmVwb3NpdG9yec5WeEhnzgGZY2c",
+      "created_at": "2026-11-08T23:10:31.256-05:00",
+      "updated_at": "2026-11-08T23:10:31.276-05:00",
+      "bypass_actors": [],
+      "current_user_can_bypass": "never",
+      "_links": {
+        "self": {
+          "href": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/rulesets/26829671"
+        },
+        "html": {
+          "href": "https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08/rules/26829671"
+        }
+      }
+    }
+  },
+  "direct-lastpush-complement": {
+    "trunk": "exp/fu2/ci/direct-lastpush-complement/trunk",
+    "lower": "exp/fu2/ci/direct-lastpush-complement/lower",
+    "upper": "exp/fu2/ci/direct-lastpush-complement/upper",
+    "bot": false,
+    "mode": "unsigned",
+    "seed": "ade319107e71b6eff646a1574139e2c15486fe6d",
+    "trunk_sha": "ade319107e71b6eff646a1574139e2c15486fe6d",
+    "lower_sha": "a6ef327841c64cca7461c04196f0d0cdfcf7e4ef",
+    "upper_sha": "2161fb5ed2f5deb5e2b6313cc8e130f7fbc0325c",
+    "lower_pr": 148,
+    "upper_pr": 149,
+    "stack": {
+      "id": 3225859,
+      "number": 150,
+      "node_id": "PRS_kwDOVnhIZ84AMTkD",
+      "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/stacks/150",
+      "base": {
+        "ref": "exp/fu2/ci/direct-lastpush-complement/trunk"
+      },
+      "open": true,
+      "created_at": "2026-11-09T04:14:01Z",
+      "pull_requests": [
+        {
+          "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/pulls/148",
+          "id": 5218604893,
+          "number": 148,
+          "head": {
+            "ref": "exp/fu2/ci/direct-lastpush-complement/lower",
+            "sha": "a6ef327841c64cca7461c04196f0d0cdfcf7e4ef",
+            "repo": {
+              "id": 1450723431,
+              "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08",
+              "name": "gherrit-native-stack-experiments-2026-11-08"
+            }
+          },
+          "base": {
+            "ref": "exp/fu2/ci/direct-lastpush-complement/trunk",
+            "sha": "ade319107e71b6eff646a1574139e2c15486fe6d",
+            "repo": {
+              "id": 1450723431,
+              "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08",
+              "name": "gherrit-native-stack-experiments-2026-11-08"
+            }
+          },
+          "node_id": "PR_kwDOVnhIZ88AAAABNw2XXQ",
+          "title": "Follow-up CI direct-lastpush-complement: lower",
+          "state": "open",
+          "merged_at": null,
+          "draft": false,
+          "html_url": "https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08/pull/148",
+          "user": {
+            "login": "joshlf",
+            "id": 1046063,
+            "node_id": "MDQ6VXNlcjEwNDYwNjM=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1046063?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/joshlf",
+            "html_url": "https://github.com/joshlf",
+            "followers_url": "https://api.github.com/users/joshlf/followers",
+            "following_url": "https://api.github.com/users/joshlf/following{/other_user}",
+            "gists_url": "https://api.github.com/users/joshlf/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/joshlf/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/joshlf/subscriptions",
+            "organizations_url": "https://api.github.com/users/joshlf/orgs",
+            "repos_url": "https://api.github.com/users/joshlf/repos",
+            "events_url": "https://api.github.com/users/joshlf/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/joshlf/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/pulls/149",
+          "id": 5218605026,
+          "number": 149,
+          "head": {
+            "ref": "exp/fu2/ci/direct-lastpush-complement/upper",
+            "sha": "2161fb5ed2f5deb5e2b6313cc8e130f7fbc0325c",
+            "repo": {
+              "id": 1450723431,
+              "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08",
+              "name": "gherrit-native-stack-experiments-2026-11-08"
+            }
+          },
+          "base": {
+            "ref": "exp/fu2/ci/direct-lastpush-complement/lower",
+            "sha": "a6ef327841c64cca7461c04196f0d0cdfcf7e4ef",
+            "repo": {
+              "id": 1450723431,
+              "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08",
+              "name": "gherrit-native-stack-experiments-2026-11-08"
+            }
+          },
+          "node_id": "PR_kwDOVnhIZ88AAAABNw2X4g",
+          "title": "Follow-up CI direct-lastpush-complement: upper",
+          "state": "open",
+          "merged_at": null,
+          "draft": false,
+          "html_url": "https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08/pull/149",
+          "user": {
+            "login": "joshlf",
+            "id": 1046063,
+            "node_id": "MDQ6VXNlcjEwNDYwNjM=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1046063?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/joshlf",
+            "html_url": "https://github.com/joshlf",
+            "followers_url": "https://api.github.com/users/joshlf/followers",
+            "following_url": "https://api.github.com/users/joshlf/following{/other_user}",
+            "gists_url": "https://api.github.com/users/joshlf/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/joshlf/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/joshlf/subscriptions",
+            "organizations_url": "https://api.github.com/users/joshlf/orgs",
+            "repos_url": "https://api.github.com/users/joshlf/repos",
+            "events_url": "https://api.github.com/users/joshlf/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/joshlf/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        }
+      ]
+    },
+    "merge_request": {
+      "status": "pending",
+      "details": {
+        "message": "Merge request enqueued.",
+        "uuid": "332d4a16-d09c-45dd-86fd-71c3e1ed5abd",
+        "merge_method": "squash",
+        "merge_action": "default",
+        "expected_head_sha": "a6ef327841c64cca7461c04196f0d0cdfcf7e4ef",
+        "bypass_rules": false
+      }
+    }
+  },
+  "target-main": {
+    "trunk": "exp/fu2/ci/target-main/trunk",
+    "lower": "exp/fu2/ci/target-main/lower",
+    "upper": "exp/fu2/ci/target-main/upper",
+    "bot": false,
+    "mode": "unsigned",
+    "seed": "c3b2eb62a7fc45e5bdf949720ac4a6bce473c0ac",
+    "trunk_sha": "c3b2eb62a7fc45e5bdf949720ac4a6bce473c0ac",
+    "lower_sha": "169fe787923e695917c385be54d6986f53228ebd",
+    "upper_sha": "d43e812e196e0b6ddc056ae7beac2c50fba94bc3",
+    "lower_pr": 151,
+    "upper_pr": 152,
+    "stack": {
+      "id": 3225871,
+      "number": 153,
+      "node_id": "PRS_kwDOVnhIZ84AMTkP",
+      "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/stacks/153",
+      "base": {
+        "ref": "exp/fu2/ci/target-main/trunk"
+      },
+      "open": true,
+      "created_at": "2026-11-09T04:15:08Z",
+      "pull_requests": [
+        {
+          "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/pulls/151",
+          "id": 5218612000,
+          "number": 151,
+          "head": {
+            "ref": "exp/fu2/ci/target-main/lower",
+            "sha": "169fe787923e695917c385be54d6986f53228ebd",
+            "repo": {
+              "id": 1450723431,
+              "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08",
+              "name": "gherrit-native-stack-experiments-2026-11-08"
+            }
+          },
+          "base": {
+            "ref": "exp/fu2/ci/target-main/trunk",
+            "sha": "c3b2eb62a7fc45e5bdf949720ac4a6bce473c0ac",
+            "repo": {
+              "id": 1450723431,
+              "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08",
+              "name": "gherrit-native-stack-experiments-2026-11-08"
+            }
+          },
+          "node_id": "PR_kwDOVnhIZ88AAAABNw2zIA",
+          "title": "Follow-up CI target-main: lower",
+          "state": "open",
+          "merged_at": null,
+          "draft": false,
+          "html_url": "https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08/pull/151",
+          "user": {
+            "login": "joshlf",
+            "id": 1046063,
+            "node_id": "MDQ6VXNlcjEwNDYwNjM=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1046063?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/joshlf",
+            "html_url": "https://github.com/joshlf",
+            "followers_url": "https://api.github.com/users/joshlf/followers",
+            "following_url": "https://api.github.com/users/joshlf/following{/other_user}",
+            "gists_url": "https://api.github.com/users/joshlf/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/joshlf/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/joshlf/subscriptions",
+            "organizations_url": "https://api.github.com/users/joshlf/orgs",
+            "repos_url": "https://api.github.com/users/joshlf/repos",
+            "events_url": "https://api.github.com/users/joshlf/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/joshlf/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/pulls/152",
+          "id": 5218612199,
+          "number": 152,
+          "head": {
+            "ref": "exp/fu2/ci/target-main/upper",
+            "sha": "d43e812e196e0b6ddc056ae7beac2c50fba94bc3",
+            "repo": {
+              "id": 1450723431,
+              "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08",
+              "name": "gherrit-native-stack-experiments-2026-11-08"
+            }
+          },
+          "base": {
+            "ref": "exp/fu2/ci/target-main/lower",
+            "sha": "169fe787923e695917c385be54d6986f53228ebd",
+            "repo": {
+              "id": 1450723431,
+              "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08",
+              "name": "gherrit-native-stack-experiments-2026-11-08"
+            }
+          },
+          "node_id": "PR_kwDOVnhIZ88AAAABNw2z5w",
+          "title": "Follow-up CI target-main: upper",
+          "state": "open",
+          "merged_at": null,
+          "draft": false,
+          "html_url": "https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08/pull/152",
+          "user": {
+            "login": "joshlf",
+            "id": 1046063,
+            "node_id": "MDQ6VXNlcjEwNDYwNjM=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1046063?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/joshlf",
+            "html_url": "https://github.com/joshlf",
+            "followers_url": "https://api.github.com/users/joshlf/followers",
+            "following_url": "https://api.github.com/users/joshlf/following{/other_user}",
+            "gists_url": "https://api.github.com/users/joshlf/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/joshlf/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/joshlf/subscriptions",
+            "organizations_url": "https://api.github.com/users/joshlf/orgs",
+            "repos_url": "https://api.github.com/users/joshlf/repos",
+            "events_url": "https://api.github.com/users/joshlf/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/joshlf/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        }
+      ]
+    }
+  },
+  "history-actors": {
+    "trunk": "exp/fu2/ci/history-actors/trunk",
+    "lower": "exp/fu2/ci/history-actors/lower",
+    "upper": "exp/fu2/ci/history-actors/upper",
+    "bot": false,
+    "mode": "unsigned",
+    "seed": "3be99721cf51a146b9c47f46f0a2713f0edb2ec6",
+    "trunk_sha": "3be99721cf51a146b9c47f46f0a2713f0edb2ec6",
+    "lower_sha": "b31c2ba8a90e196d7e1ba0edfe42edaa309df950",
+    "upper_sha": "58996c32b92951f1ebb9a85c100764b0fa9fffed",
+    "lower_pr": 241,
+    "upper_pr": 242
+  },
+  "matched-stale": {
+    "trunk": "exp/fu2/ci/matched-stale/trunk",
+    "lower": "exp/fu2/ci/matched-stale/lower",
+    "upper": "exp/fu2/ci/matched-stale/upper",
+    "seed": "3ed7e9067e3aa41d0911a37142bc62ea88986e4e",
+    "trunk_sha": "3ed7e9067e3aa41d0911a37142bc62ea88986e4e",
+    "lower_sha": "bf0b3458baf5023f5bce3e4b2c472246a3d9187d",
+    "upper_sha": "a319fbee563a20f201bd88f0f66d6d49d38f102e",
+    "bot": true,
+    "mode": "matched",
+    "stale": true,
+    "owners": false,
+    "lower_pr": 353,
+    "upper_pr": 352,
+    "stack": {
+      "id": 3226195,
+      "number": 361,
+      "node_id": "PRS_kwDOVnhIZ84AMTpT",
+      "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/stacks/361",
+      "base": {
+        "ref": "exp/fu2/ci/matched-stale/trunk"
+      },
+      "open": true,
+      "created_at": "2026-11-09T04:31:57Z",
+      "pull_requests": [
+        {
+          "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/pulls/353",
+          "id": 5218748331,
+          "number": 353,
+          "head": {
+            "ref": "exp/fu2/ci/matched-stale/lower",
+            "sha": "bf0b3458baf5023f5bce3e4b2c472246a3d9187d",
+            "repo": {
+              "id": 1450723431,
+              "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08",
+              "name": "gherrit-native-stack-experiments-2026-11-08"
+            }
+          },
+          "base": {
+            "ref": "exp/fu2/ci/matched-stale/trunk",
+            "sha": "3ed7e9067e3aa41d0911a37142bc62ea88986e4e",
+            "repo": {
+              "id": 1450723431,
+              "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08",
+              "name": "gherrit-native-stack-experiments-2026-11-08"
+            }
+          },
+          "node_id": "PR_kwDOVnhIZ88AAAABNw_Hqw",
+          "title": "Follow-up review matched-stale: lower",
+          "state": "open",
+          "merged_at": null,
+          "draft": false,
+          "html_url": "https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08/pull/353",
+          "user": {
+            "login": "github-actions[bot]",
+            "id": 41898282,
+            "node_id": "MDM6Qm90NDE4OTgyODI=",
+            "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/github-actions%5Bbot%5D",
+            "html_url": "https://github.com/apps/github-actions",
+            "followers_url": "https://api.github.com/users/github-actions%5Bbot%5D/followers",
+            "following_url": "https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}",
+            "gists_url": "https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/github-actions%5Bbot%5D/subscriptions",
+            "organizations_url": "https://api.github.com/users/github-actions%5Bbot%5D/orgs",
+            "repos_url": "https://api.github.com/users/github-actions%5Bbot%5D/repos",
+            "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/github-actions%5Bbot%5D/received_events",
+            "type": "Bot",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/pulls/352",
+          "id": 5218748316,
+          "number": 352,
+          "head": {
+            "ref": "exp/fu2/ci/matched-stale/upper",
+            "sha": "a319fbee563a20f201bd88f0f66d6d49d38f102e",
+            "repo": {
+              "id": 1450723431,
+              "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08",
+              "name": "gherrit-native-stack-experiments-2026-11-08"
+            }
+          },
+          "base": {
+            "ref": "exp/fu2/ci/matched-stale/lower",
+            "sha": "bf0b3458baf5023f5bce3e4b2c472246a3d9187d",
+            "repo": {
+              "id": 1450723431,
+              "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08",
+              "name": "gherrit-native-stack-experiments-2026-11-08"
+            }
+          },
+          "node_id": "PR_kwDOVnhIZ88AAAABNw_HnA",
+          "title": "Follow-up review matched-stale: upper",
+          "state": "open",
+          "merged_at": null,
+          "draft": false,
+          "html_url": "https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08/pull/352",
+          "user": {
+            "login": "github-actions[bot]",
+            "id": 41898282,
+            "node_id": "MDM6Qm90NDE4OTgyODI=",
+            "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/github-actions%5Bbot%5D",
+            "html_url": "https://github.com/apps/github-actions",
+            "followers_url": "https://api.github.com/users/github-actions%5Bbot%5D/followers",
+            "following_url": "https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}",
+            "gists_url": "https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/github-actions%5Bbot%5D/subscriptions",
+            "organizations_url": "https://api.github.com/users/github-actions%5Bbot%5D/orgs",
+            "repos_url": "https://api.github.com/users/github-actions%5Bbot%5D/repos",
+            "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/github-actions%5Bbot%5D/received_events",
+            "type": "Bot",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        }
+      ]
+    },
+    "merge_request": {
+      "status": "pending",
+      "details": {
+        "message": "Merge request enqueued.",
+        "uuid": "7b059a91-9caf-429d-9f13-0479a1d6d9f6",
+        "merge_method": "squash",
+        "merge_action": "default",
+        "expected_head_sha": "bf0b3458baf5023f5bce3e4b2c472246a3d9187d",
+        "bypass_rules": false
+      }
+    }
+  },
+  "matched-codeowner": {
+    "trunk": "exp/fu2/ci/matched-codeowner/trunk",
+    "lower": "exp/fu2/ci/matched-codeowner/lower",
+    "upper": "exp/fu2/ci/matched-codeowner/upper",
+    "seed": "3ed7e9067e3aa41d0911a37142bc62ea88986e4e",
+    "trunk_sha": "3ed7e9067e3aa41d0911a37142bc62ea88986e4e",
+    "lower_sha": "bf0b3458baf5023f5bce3e4b2c472246a3d9187d",
+    "upper_sha": "a319fbee563a20f201bd88f0f66d6d49d38f102e",
+    "bot": true,
+    "mode": "matched",
+    "stale": true,
+    "owners": true,
+    "lower_pr": 354,
+    "upper_pr": 355,
+    "stack": {
+      "id": 3226196,
+      "number": 362,
+      "node_id": "PRS_kwDOVnhIZ84AMTpU",
+      "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/stacks/362",
+      "base": {
+        "ref": "exp/fu2/ci/matched-codeowner/trunk"
+      },
+      "open": true,
+      "created_at": "2026-11-09T04:31:58Z",
+      "pull_requests": [
+        {
+          "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/pulls/354",
+          "id": 5218748583,
+          "number": 354,
+          "head": {
+            "ref": "exp/fu2/ci/matched-codeowner/lower",
+            "sha": "bf0b3458baf5023f5bce3e4b2c472246a3d9187d",
+            "repo": {
+              "id": 1450723431,
+              "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08",
+              "name": "gherrit-native-stack-experiments-2026-11-08"
+            }
+          },
+          "base": {
+            "ref": "exp/fu2/ci/matched-codeowner/trunk",
+            "sha": "3ed7e9067e3aa41d0911a37142bc62ea88986e4e",
+            "repo": {
+              "id": 1450723431,
+              "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08",
+              "name": "gherrit-native-stack-experiments-2026-11-08"
+            }
+          },
+          "node_id": "PR_kwDOVnhIZ88AAAABNw_Ipw",
+          "title": "Follow-up review matched-codeowner: lower",
+          "state": "open",
+          "merged_at": null,
+          "draft": false,
+          "html_url": "https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08/pull/354",
+          "user": {
+            "login": "github-actions[bot]",
+            "id": 41898282,
+            "node_id": "MDM6Qm90NDE4OTgyODI=",
+            "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/github-actions%5Bbot%5D",
+            "html_url": "https://github.com/apps/github-actions",
+            "followers_url": "https://api.github.com/users/github-actions%5Bbot%5D/followers",
+            "following_url": "https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}",
+            "gists_url": "https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/github-actions%5Bbot%5D/subscriptions",
+            "organizations_url": "https://api.github.com/users/github-actions%5Bbot%5D/orgs",
+            "repos_url": "https://api.github.com/users/github-actions%5Bbot%5D/repos",
+            "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/github-actions%5Bbot%5D/received_events",
+            "type": "Bot",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/pulls/355",
+          "id": 5218748758,
+          "number": 355,
+          "head": {
+            "ref": "exp/fu2/ci/matched-codeowner/upper",
+            "sha": "a319fbee563a20f201bd88f0f66d6d49d38f102e",
+            "repo": {
+              "id": 1450723431,
+              "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08",
+              "name": "gherrit-native-stack-experiments-2026-11-08"
+            }
+          },
+          "base": {
+            "ref": "exp/fu2/ci/matched-codeowner/lower",
+            "sha": "bf0b3458baf5023f5bce3e4b2c472246a3d9187d",
+            "repo": {
+              "id": 1450723431,
+              "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08",
+              "name": "gherrit-native-stack-experiments-2026-11-08"
+            }
+          },
+          "node_id": "PR_kwDOVnhIZ88AAAABNw_JVg",
+          "title": "Follow-up review matched-codeowner: upper",
+          "state": "open",
+          "merged_at": null,
+          "draft": false,
+          "html_url": "https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08/pull/355",
+          "user": {
+            "login": "github-actions[bot]",
+            "id": 41898282,
+            "node_id": "MDM6Qm90NDE4OTgyODI=",
+            "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/github-actions%5Bbot%5D",
+            "html_url": "https://github.com/apps/github-actions",
+            "followers_url": "https://api.github.com/users/github-actions%5Bbot%5D/followers",
+            "following_url": "https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}",
+            "gists_url": "https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/github-actions%5Bbot%5D/subscriptions",
+            "organizations_url": "https://api.github.com/users/github-actions%5Bbot%5D/orgs",
+            "repos_url": "https://api.github.com/users/github-actions%5Bbot%5D/repos",
+            "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/github-actions%5Bbot%5D/received_events",
+            "type": "Bot",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        }
+      ]
+    },
+    "merge_request": {
+      "status": "pending",
+      "details": {
+        "message": "Merge request enqueued.",
+        "uuid": "ddb291d5-4e4e-457d-9767-a00f1688dc83",
+        "merge_method": "squash",
+        "merge_action": "default",
+        "expected_head_sha": "bf0b3458baf5023f5bce3e4b2c472246a3d9187d",
+        "bypass_rules": false
+      }
+    }
+  },
+  "matched-nostale": {
+    "trunk": "exp/fu2/ci/matched-nostale/trunk",
+    "lower": "exp/fu2/ci/matched-nostale/lower",
+    "upper": "exp/fu2/ci/matched-nostale/upper",
+    "seed": "3ed7e9067e3aa41d0911a37142bc62ea88986e4e",
+    "trunk_sha": "3ed7e9067e3aa41d0911a37142bc62ea88986e4e",
+    "lower_sha": "bf0b3458baf5023f5bce3e4b2c472246a3d9187d",
+    "upper_sha": "a319fbee563a20f201bd88f0f66d6d49d38f102e",
+    "bot": true,
+    "mode": "matched",
+    "stale": false,
+    "owners": false,
+    "lower_pr": 356,
+    "upper_pr": 357,
+    "stack": {
+      "id": 3226197,
+      "number": 364,
+      "node_id": "PRS_kwDOVnhIZ84AMTpV",
+      "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/stacks/364",
+      "base": {
+        "ref": "exp/fu2/ci/matched-nostale/trunk"
+      },
+      "open": true,
+      "created_at": "2026-11-09T04:32:00Z",
+      "pull_requests": [
+        {
+          "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/pulls/356",
+          "id": 5218748783,
+          "number": 356,
+          "head": {
+            "ref": "exp/fu2/ci/matched-nostale/lower",
+            "sha": "bf0b3458baf5023f5bce3e4b2c472246a3d9187d",
+            "repo": {
+              "id": 1450723431,
+              "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08",
+              "name": "gherrit-native-stack-experiments-2026-11-08"
+            }
+          },
+          "base": {
+            "ref": "exp/fu2/ci/matched-nostale/trunk",
+            "sha": "3ed7e9067e3aa41d0911a37142bc62ea88986e4e",
+            "repo": {
+              "id": 1450723431,
+              "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08",
+              "name": "gherrit-native-stack-experiments-2026-11-08"
+            }
+          },
+          "node_id": "PR_kwDOVnhIZ88AAAABNw_Jbw",
+          "title": "Follow-up review matched-nostale: lower",
+          "state": "open",
+          "merged_at": null,
+          "draft": false,
+          "html_url": "https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08/pull/356",
+          "user": {
+            "login": "github-actions[bot]",
+            "id": 41898282,
+            "node_id": "MDM6Qm90NDE4OTgyODI=",
+            "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/github-actions%5Bbot%5D",
+            "html_url": "https://github.com/apps/github-actions",
+            "followers_url": "https://api.github.com/users/github-actions%5Bbot%5D/followers",
+            "following_url": "https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}",
+            "gists_url": "https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/github-actions%5Bbot%5D/subscriptions",
+            "organizations_url": "https://api.github.com/users/github-actions%5Bbot%5D/orgs",
+            "repos_url": "https://api.github.com/users/github-actions%5Bbot%5D/repos",
+            "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/github-actions%5Bbot%5D/received_events",
+            "type": "Bot",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        },
+        {
+          "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/pulls/357",
+          "id": 5218749047,
+          "number": 357,
+          "head": {
+            "ref": "exp/fu2/ci/matched-nostale/upper",
+            "sha": "a319fbee563a20f201bd88f0f66d6d49d38f102e",
+            "repo": {
+              "id": 1450723431,
+              "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08",
+              "name": "gherrit-native-stack-experiments-2026-11-08"
+            }
+          },
+          "base": {
+            "ref": "exp/fu2/ci/matched-nostale/lower",
+            "sha": "bf0b3458baf5023f5bce3e4b2c472246a3d9187d",
+            "repo": {
+              "id": 1450723431,
+              "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08",
+              "name": "gherrit-native-stack-experiments-2026-11-08"
+            }
+          },
+          "node_id": "PR_kwDOVnhIZ88AAAABNw_Kdw",
+          "title": "Follow-up review matched-nostale: upper",
+          "state": "open",
+          "merged_at": null,
+          "draft": false,
+          "html_url": "https://github.com/joshlf/gherrit-native-stack-experiments-2026-11-08/pull/357",
+          "user": {
+            "login": "github-actions[bot]",
+            "id": 41898282,
+            "node_id": "MDM6Qm90NDE4OTgyODI=",
+            "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/github-actions%5Bbot%5D",
+            "html_url": "https://github.com/apps/github-actions",
+            "followers_url": "https://api.github.com/users/github-actions%5Bbot%5D/followers",
+            "following_url": "https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}",
+            "gists_url": "https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/github-actions%5Bbot%5D/subscriptions",
+            "organizations_url": "https://api.github.com/users/github-actions%5Bbot%5D/orgs",
+            "repos_url": "https://api.github.com/users/github-actions%5Bbot%5D/repos",
+            "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/github-actions%5Bbot%5D/received_events",
+            "type": "Bot",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        }
+      ]
+    },
+    "merge_request": {
+      "status": "pending",
+      "details": {
+        "message": "Merge request enqueued.",
+        "uuid": "36153d38-0b76-43be-a1a5-f7c24cb13e4e",
+        "merge_method": "squash",
+        "merge_action": "default",
+        "expected_head_sha": "bf0b3458baf5023f5bce3e4b2c472246a3d9187d",
+        "bypass_rules": false
+      }
+    }
+  }
+}

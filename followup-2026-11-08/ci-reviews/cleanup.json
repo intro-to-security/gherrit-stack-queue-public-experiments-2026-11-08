@@ -1,0 +1,348 @@
+{
+  "at": "2026-11-09T04:18:49.704402+00:00",
+  "repo_wide_settings_mutated_by_lane": false,
+  "repo_wide_control": "root enabled then restored bot review flag; default read retained; independent lane read false",
+  "native_pending": [],
+  "native_receipts": [
+    {
+      "fixture": "sig-signedmulti",
+      "result": {
+        "status": "merged",
+        "details": {
+          "message": "Pull request was merged.",
+          "sha": "ee637f552984f1d86b2aa40ee413262b6818010d"
+        }
+      }
+    },
+    {
+      "fixture": "sig-unsignedmulti",
+      "result": {
+        "status": "failed",
+        "details": {
+          "message": "Commits must have verified signatures."
+        }
+      }
+    },
+    {
+      "fixture": "sig-mixedmulti",
+      "result": {
+        "status": "failed",
+        "details": {
+          "message": "Commits must have verified signatures."
+        }
+      }
+    },
+    {
+      "fixture": "sig-mixedsuffix",
+      "result": {
+        "status": "merged",
+        "details": {
+          "message": "Pull request was merged.",
+          "sha": "f65f0738cfcfdf5fa917801109ac24b1053f091e"
+        }
+      }
+    },
+    {
+      "fixture": "scan",
+      "result": {
+        "status": "failed",
+        "details": {
+          "message": "Waiting for Code Scanning results. Code Scanning may not be configured for the target branch."
+        }
+      }
+    },
+    {
+      "fixture": "scan-codeql",
+      "result": {
+        "status": "merged",
+        "details": {
+          "message": "Pull request was merged.",
+          "sha": "6f5b00960883c938a8a1361a7a109228c49552cd"
+        }
+      }
+    },
+    {
+      "fixture": "direct-lastpush",
+      "result": {
+        "status": "failed",
+        "details": {
+          "message": "New changes require approval from someone other than joshlf because they were the last pusher."
+        }
+      }
+    },
+    {
+      "fixture": "direct-codeowner",
+      "result": {
+        "status": "merged",
+        "details": {
+          "message": "Pull request was merged.",
+          "sha": "16dfa0db1bc16b0a7bb94a14bf6537f7dbb176f6"
+        }
+      }
+    },
+    {
+      "fixture": "direct-lastpush-complement",
+      "result": {
+        "status": "merged",
+        "details": {
+          "message": "Pull request was merged.",
+          "sha": "f05f138a0975dab098d4a535ee0aed7e9fc67068"
+        }
+      }
+    },
+    {
+      "fixture": "matched-stale",
+      "result": {
+        "status": "merged",
+        "details": {
+          "message": "Pull request was merged.",
+          "sha": "ae69296efab75122dfdc20b4ea2bb2b7d82e4d3c"
+        }
+      }
+    },
+    {
+      "fixture": "matched-codeowner",
+      "result": {
+        "status": "merged",
+        "details": {
+          "message": "Pull request was merged.",
+          "sha": "53bb0da63e83f7abe307732ac56f35459c0d09f8"
+        }
+      }
+    },
+    {
+      "fixture": "matched-nostale",
+      "result": {
+        "status": "merged",
+        "details": {
+          "message": "Pull request was merged.",
+          "sha": "88a79e64ec9e5ee2c74fbe570302f40f2b4ec27b"
+        }
+      }
+    }
+  ],
+  "rulesets": [
+    {
+      "id": 26828526,
+      "name": "gherrit-fu2-ci-scan",
+      "deleted": true
+    },
+    {
+      "id": 26828561,
+      "name": "gherrit-fu2-ci-scan-codeql",
+      "deleted": true
+    },
+    {
+      "id": 26829671,
+      "name": "gherrit-fu2-ci-deploy",
+      "deleted": true
+    }
+  ],
+  "fixture_protections": [
+    {
+      "fixture": "ui-stale",
+      "branch": "exp/fu2/ci/ui-stale/trunk",
+      "disposition": "retained reserved website fixture",
+      "enforce_admins": {
+        "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/branches/exp/fu2/ci/ui-stale/trunk/protection/enforce_admins",
+        "enabled": true
+      },
+      "required_signatures": {
+        "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/branches/exp/fu2/ci/ui-stale/trunk/protection/required_signatures",
+        "enabled": false
+      },
+      "reviews": {
+        "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/branches/exp/fu2/ci/ui-stale/trunk/protection/required_pull_request_reviews",
+        "dismiss_stale_reviews": true,
+        "require_code_owner_reviews": false,
+        "require_last_push_approval": false,
+        "required_approving_review_count": 1
+      }
+    },
+    {
+      "fixture": "ui-lastpush",
+      "branch": "exp/fu2/ci/ui-lastpush/trunk",
+      "disposition": "retained reserved website fixture",
+      "enforce_admins": {
+        "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/branches/exp/fu2/ci/ui-lastpush/trunk/protection/enforce_admins",
+        "enabled": true
+      },
+      "required_signatures": {
+        "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/branches/exp/fu2/ci/ui-lastpush/trunk/protection/required_signatures",
+        "enabled": false
+      },
+      "reviews": {
+        "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/branches/exp/fu2/ci/ui-lastpush/trunk/protection/required_pull_request_reviews",
+        "dismiss_stale_reviews": true,
+        "require_code_owner_reviews": false,
+        "require_last_push_approval": true,
+        "required_approving_review_count": 1
+      }
+    },
+    {
+      "fixture": "ui-codeowner",
+      "branch": "exp/fu2/ci/ui-codeowner/trunk",
+      "disposition": "retained reserved website fixture",
+      "enforce_admins": {
+        "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/branches/exp/fu2/ci/ui-codeowner/trunk/protection/enforce_admins",
+        "enabled": true
+      },
+      "required_signatures": {
+        "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/branches/exp/fu2/ci/ui-codeowner/trunk/protection/required_signatures",
+        "enabled": false
+      },
+      "reviews": {
+        "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/branches/exp/fu2/ci/ui-codeowner/trunk/protection/required_pull_request_reviews",
+        "dismiss_stale_reviews": true,
+        "require_code_owner_reviews": true,
+        "require_last_push_approval": false,
+        "required_approving_review_count": 1
+      }
+    },
+    {
+      "fixture": "ui-signed",
+      "branch": "exp/fu2/ci/ui-signed/trunk",
+      "disposition": "retained reserved website fixture",
+      "enforce_admins": {
+        "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/branches/exp/fu2/ci/ui-signed/trunk/protection/enforce_admins",
+        "enabled": true
+      },
+      "required_signatures": {
+        "url": "https://api.github.com/repos/joshlf/gherrit-native-stack-experiments-2026-11-08/branches/exp/fu2/ci/ui-signed/trunk/protection/required_signatures",
+        "enabled": true
+      },
+      "reviews": null
+    },
+    {
+      "fixture": "status",
+      "branch": "exp/fu2/ci/status/trunk",
+      "disposition": "removed",
+      "deleted": true
+    },
+    {
+      "fixture": "target",
+      "branch": "exp/fu2/ci/target/trunk",
+      "disposition": "removed",
+      "deleted": true
+    },
+    {
+      "fixture": "sig-signedmulti",
+      "branch": "exp/fu2/ci/sig-signedmulti/trunk",
+      "disposition": "removed",
+      "deleted": true
+    },
+    {
+      "fixture": "sig-unsignedmulti",
+      "branch": "exp/fu2/ci/sig-unsignedmulti/trunk",
+      "disposition": "removed",
+      "deleted": true
+    },
+    {
+      "fixture": "sig-mixedmulti",
+      "branch": "exp/fu2/ci/sig-mixedmulti/trunk",
+      "disposition": "removed",
+      "deleted": true
+    },
+    {
+      "fixture": "target-knownpath",
+      "branch": "exp/fu2/ci/target-knownpath/trunk",
+      "disposition": "removed",
+      "deleted": true
+    },
+    {
+      "fixture": "push",
+      "branch": "exp/fu2/ci/push/trunk",
+      "disposition": "removed",
+      "deleted": true
+    },
+    {
+      "fixture": "direct-lastpush",
+      "branch": "exp/fu2/ci/direct-lastpush/trunk",
+      "disposition": "removed",
+      "deleted": true
+    },
+    {
+      "fixture": "direct-codeowner",
+      "branch": "exp/fu2/ci/direct-codeowner/trunk",
+      "disposition": "removed",
+      "deleted": true
+    },
+    {
+      "fixture": "direct-lastpush-complement",
+      "branch": "exp/fu2/ci/direct-lastpush-complement/trunk",
+      "disposition": "removed",
+      "deleted": true
+    },
+    {
+      "fixture": "target-main",
+      "branch": "exp/fu2/ci/target-main/trunk",
+      "disposition": "removed",
+      "deleted": true
+    },
+    {
+      "fixture": "matched-stale",
+      "branch": "exp/fu2/ci/matched-stale/trunk",
+      "disposition": "removed",
+      "deleted": true
+    },
+    {
+      "fixture": "matched-codeowner",
+      "branch": "exp/fu2/ci/matched-codeowner/trunk",
+      "disposition": "removed",
+      "deleted": true
+    },
+    {
+      "fixture": "matched-nostale",
+      "branch": "exp/fu2/ci/matched-nostale/trunk",
+      "disposition": "removed",
+      "deleted": true
+    }
+  ],
+  "reserved_ui": [
+    {
+      "fixture": "ui-stale",
+      "lower_pr": 127,
+      "upper_pr": 128,
+      "lower_head_before_ui": "c2f7b64b7c0f009491195a8ffda21c6c29dd5c11",
+      "upper_head_before_ui": "8223987f13b4b9a40a7178ddf8aabbdad6a77408",
+      "root_handoff": "UI unavailable; only #128 async user operation requested; do not mutate"
+    },
+    {
+      "fixture": "ui-lastpush",
+      "lower_pr": 129,
+      "upper_pr": 130,
+      "lower_head_before_ui": "bfdf982bf9e0b3eecc6130fe7405cd68d416fe7e",
+      "upper_head_before_ui": "66b0dded232dafc0243433b7e78b7db3b2810af9",
+      "root_handoff": "UI unavailable; only #128 async user operation requested; do not mutate"
+    },
+    {
+      "fixture": "ui-codeowner",
+      "lower_pr": 131,
+      "upper_pr": 132,
+      "lower_head_before_ui": "6a6adc7ce466b1b2924fc687e1456710d5cd9221",
+      "upper_head_before_ui": "3eb13a0a05b95e378b3cfb7f78727d5dffdb3747",
+      "root_handoff": "UI unavailable; only #128 async user operation requested; do not mutate"
+    },
+    {
+      "fixture": "ui-signed",
+      "lower_pr": 133,
+      "upper_pr": 134,
+      "lower_head_before_ui": "7ca2b1a7a38f3b3f6f1325c121bb11b025a1c786",
+      "upper_head_before_ui": "7c586aee5324ed0aed0a97c310fdab00e025b27c",
+      "root_handoff": "UI unavailable; only #128 async user operation requested; do not mutate"
+    }
+  ],
+  "deployment_environment_deleted": true,
+  "deployment_records": "three retained records marked inactive",
+  "root_target_workflow_removed": true,
+  "root_target_cleanup_readback": "evidence/commands.jsonl: root-target-main-cleanup-readback",
+  "bot_flag_final": {
+    "default_workflow_permissions": "read",
+    "can_approve_pull_request_reviews": false
+  },
+  "bot_flag_after_matched": {
+    "default_workflow_permissions": "read",
+    "can_approve_pull_request_reviews": false
+  },
+  "history_extension": "Fresh comments retained; all five jobs terminal, no settings/main changes"
+}

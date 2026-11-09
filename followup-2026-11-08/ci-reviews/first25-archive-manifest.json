@@ -1,0 +1,20 @@
+[
+  {
+    "original_path": "state.json",
+    "preserved_path": "state-first25.json",
+    "sha256": "162a659d707dd48d6b3393a616afb88837b54bfde0014e8233571b258755a07d",
+    "matches_original_matrix_hash": true
+  },
+  {
+    "original_path": "cleanup.json",
+    "preserved_path": "cleanup-first25.json",
+    "sha256": "38fa5ebd396a09fffaceb49bb7e2a98ba8879db79c25c0df9b1ddb32ca02fd97",
+    "matches_original_matrix_hash": true
+  },
+  {
+    "original_path": "evidence/commands.jsonl",
+    "preserved_path": "evidence/commands-first25.jsonl",
+    "sha256": "59430bded7781e6e41f1bb717ee2a732b647688adac94fd20a9b3866b932a465",
+    "matches_original_matrix_hash": true
+  }
+]

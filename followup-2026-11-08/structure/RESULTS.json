@@ -1,0 +1,1575 @@
+{
+  "started_at": "2026-11-09T04:20:17.776426+00:00",
+  "cases": {
+    "S01": {
+      "id": "S01",
+      "topology": "reorder",
+      "boundary": "unstack",
+      "started_at": "2026-11-09T04:20:17.776462+00:00",
+      "fixture": "fixtures/s01/fixture.json",
+      "prs": {
+        "A": 181,
+        "B": 182,
+        "C": 183
+      },
+      "original_stack": 184,
+      "interruption": {
+        "at": "2026-11-09T04:20:41.349918+00:00",
+        "pid": 22366,
+        "args": [
+          "/Library/Developer/CommandLineTools/usr/bin/python3",
+          "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-followup-2026-11-08/structure/run.py",
+          "worker",
+          "s01",
+          "--boundary",
+          "unstack",
+          "--runid",
+          "initial"
+        ],
+        "exit": -9,
+        "killed_after_durable_boundary": true,
+        "elapsed": 5.892126666999999,
+        "stdout": "worker-initial.stdout.txt",
+        "stderr": "worker-initial.stderr.txt"
+      },
+      "receipts_before_recovery": [
+        "s01-effect-unstack.receipt.json"
+      ],
+      "recovery": {
+        "at": "2026-11-09T04:21:12.612903+00:00",
+        "pid": 22424,
+        "args": [
+          "/Library/Developer/CommandLineTools/usr/bin/python3",
+          "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-followup-2026-11-08/structure/run.py",
+          "worker",
+          "s01",
+          "--boundary",
+          "",
+          "--runid",
+          "recovery"
+        ],
+        "exit": 0,
+        "killed_after_durable_boundary": false,
+        "elapsed": 31.255694833999996,
+        "stdout": "worker-recovery.stdout.txt",
+        "stderr": "worker-recovery.stderr.txt"
+      },
+      "completion": {
+        "at": "2026-11-09T04:21:12.365137+00:00",
+        "pid": 22424,
+        "resumed_after_count": 1,
+        "completed_count": 7,
+        "prs": {
+          "A": 181,
+          "B": 182,
+          "C": 183
+        },
+        "final": {
+          "at": "2026-11-09T04:21:10.491567+00:00",
+          "prs": {
+            "A": {
+              "number": 181,
+              "node_id": "PR_kwDOVnhIZ88AAAABNw5t7Q",
+              "state": "open",
+              "merged": false,
+              "merged_at": null,
+              "stack": {
+                "base": {
+                  "ref": "exp/fu2/structure/s01/trunk",
+                  "sha": "2cef48069029d03259ed41bdcbe0928506fca4cb"
+                },
+                "id": 3225983,
+                "number": 188,
+                "position": 2,
+                "size": 3
+              },
+              "head_ref": "exp/fu2/structure/s01/A",
+              "head_sha": "5f2638d6d3d3afb5b3c4c281175f051de09ce46b",
+              "base_ref": "exp/fu2/structure/s01/C",
+              "base_sha": "4d456ac2f88de5f2bca3537d949f4887ef0b713c"
+            },
+            "B": {
+              "number": 182,
+              "node_id": "PR_kwDOVnhIZ88AAAABNw5vfA",
+              "state": "open",
+              "merged": false,
+              "merged_at": null,
+              "stack": {
+                "base": {
+                  "ref": "exp/fu2/structure/s01/trunk",
+                  "sha": "2cef48069029d03259ed41bdcbe0928506fca4cb"
+                },
+                "id": 3225983,
+                "number": 188,
+                "position": 3,
+                "size": 3
+              },
+              "head_ref": "exp/fu2/structure/s01/B",
+              "head_sha": "3ff306f28bcf0b8f583fce14b15e0771ce23fc85",
+              "base_ref": "exp/fu2/structure/s01/A",
+              "base_sha": "5f2638d6d3d3afb5b3c4c281175f051de09ce46b"
+            },
+            "C": {
+              "number": 183,
+              "node_id": "PR_kwDOVnhIZ88AAAABNw5xHA",
+              "state": "open",
+              "merged": false,
+              "merged_at": null,
+              "stack": {
+                "base": {
+                  "ref": "exp/fu2/structure/s01/trunk",
+                  "sha": "2cef48069029d03259ed41bdcbe0928506fca4cb"
+                },
+                "id": 3225983,
+                "number": 188,
+                "position": 1,
+                "size": 3
+              },
+              "head_ref": "exp/fu2/structure/s01/C",
+              "head_sha": "4d456ac2f88de5f2bca3537d949f4887ef0b713c",
+              "base_ref": "exp/fu2/structure/s01/trunk",
+              "base_sha": "2cef48069029d03259ed41bdcbe0928506fca4cb"
+            }
+          },
+          "refs": {
+            "refs/heads/exp/fu2/structure/s01/A": "5f2638d6d3d3afb5b3c4c281175f051de09ce46b",
+            "refs/heads/exp/fu2/structure/s01/B": "3ff306f28bcf0b8f583fce14b15e0771ce23fc85",
+            "refs/heads/exp/fu2/structure/s01/C": "4d456ac2f88de5f2bca3537d949f4887ef0b713c",
+            "refs/heads/exp/fu2/structure/s01/trunk": "2cef48069029d03259ed41bdcbe0928506fca4cb",
+            "refs/tags/exp/fu2/structure/s01/authored/A/v1": "b2601467781a021528ee673e69809781444866b9",
+            "refs/tags/exp/fu2/structure/s01/authored/A/v2": "5f2638d6d3d3afb5b3c4c281175f051de09ce46b",
+            "refs/tags/exp/fu2/structure/s01/authored/B/v1": "4a4eab2d1deb4d70a30abaf51067487d94bcef06",
+            "refs/tags/exp/fu2/structure/s01/authored/B/v2": "3ff306f28bcf0b8f583fce14b15e0771ce23fc85",
+            "refs/tags/exp/fu2/structure/s01/authored/C/v1": "b22a90557423ff8c609d776eebd8899b3989ae45",
+            "refs/tags/exp/fu2/structure/s01/authored/C/v2": "4d456ac2f88de5f2bca3537d949f4887ef0b713c"
+          }
+        }
+      },
+      "receipts_after_recovery": [
+        "s01-effect-final-A.receipt.json",
+        "s01-effect-final-B.receipt.json",
+        "s01-effect-heads-archives.receipt.json",
+        "s01-effect-park-B.receipt.json",
+        "s01-effect-park-C.receipt.json",
+        "s01-effect-register.receipt.json",
+        "s01-effect-unstack.receipt.json"
+      ],
+      "disposition": "performed-observed-recovered",
+      "finished_at": "2026-11-09T04:21:12.614137+00:00"
+    },
+    "S02": {
+      "id": "S02",
+      "topology": "reorder",
+      "boundary": "park-B",
+      "started_at": "2026-11-09T04:21:12.614573+00:00",
+      "fixture": "fixtures/s02/fixture.json",
+      "prs": {
+        "A": 190,
+        "B": 191,
+        "C": 192
+      },
+      "original_stack": 193,
+      "interruption": {
+        "at": "2026-11-09T04:21:42.246648+00:00",
+        "pid": 23208,
+        "args": [
+          "/Library/Developer/CommandLineTools/usr/bin/python3",
+          "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-followup-2026-11-08/structure/run.py",
+          "worker",
+          "s02",
+          "--boundary",
+          "park-B",
+          "--runid",
+          "initial"
+        ],
+        "exit": -9,
+        "killed_after_durable_boundary": true,
+        "elapsed": 12.004049249999994,
+        "stdout": "worker-initial.stdout.txt",
+        "stderr": "worker-initial.stderr.txt"
+      },
+      "receipts_before_recovery": [
+        "s02-effect-park-B.receipt.json",
+        "s02-effect-unstack.receipt.json"
+      ],
+      "recovery": {
+        "at": "2026-11-09T04:22:08.329870+00:00",
+        "pid": 23375,
+        "args": [
+          "/Library/Developer/CommandLineTools/usr/bin/python3",
+          "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-followup-2026-11-08/structure/run.py",
+          "worker",
+          "s02",
+          "--boundary",
+          "",
+          "--runid",
+          "recovery"
+        ],
+        "exit": 0,
+        "killed_after_durable_boundary": false,
+        "elapsed": 26.075298165999996,
+        "stdout": "worker-recovery.stdout.txt",
+        "stderr": "worker-recovery.stderr.txt"
+      },
+      "completion": {
+        "at": "2026-11-09T04:22:08.235165+00:00",
+        "pid": 23375,
+        "resumed_after_count": 2,
+        "completed_count": 7,
+        "prs": {
+          "A": 190,
+          "B": 191,
+          "C": 192
+        },
+        "final": {
+          "at": "2026-11-09T04:22:06.496203+00:00",
+          "prs": {
+            "A": {
+              "number": 190,
+              "node_id": "PR_kwDOVnhIZ88AAAABNw6LtQ",
+              "state": "open",
+              "merged": false,
+              "merged_at": null,
+              "stack": {
+                "id": 3226000,
+                "number": 197,
+                "base": {
+                  "ref": "exp/fu2/structure/s02/trunk",
+                  "sha": "3a8b031f6887bef46a61473af0b05306fa564a3c"
+                },
+                "size": 3,
+                "position": 2
+              },
+              "head_ref": "exp/fu2/structure/s02/A",
+              "head_sha": "84b075c24e0110705a4a05d9fc3e7f309fd7735d",
+              "base_ref": "exp/fu2/structure/s02/C",
+              "base_sha": "7a393c3919734fc364da2facbf8cb377aaa19083"
+            },
+            "B": {
+              "number": 191,
+              "node_id": "PR_kwDOVnhIZ88AAAABNw6NVg",
+              "state": "open",
+              "merged": false,
+              "merged_at": null,
+              "stack": {
+                "id": 3226000,
+                "number": 197,
+                "base": {
+                  "ref": "exp/fu2/structure/s02/trunk",
+                  "sha": "3a8b031f6887bef46a61473af0b05306fa564a3c"
+                },
+                "size": 3,
+                "position": 3
+              },
+              "head_ref": "exp/fu2/structure/s02/B",
+              "head_sha": "d238f91c4e6b3ff6d6557742a39f4b6b6d0897dc",
+              "base_ref": "exp/fu2/structure/s02/A",
+              "base_sha": "84b075c24e0110705a4a05d9fc3e7f309fd7735d"
+            },
+            "C": {
+              "number": 192,
+              "node_id": "PR_kwDOVnhIZ88AAAABNw6PBw",
+              "state": "open",
+              "merged": false,
+              "merged_at": null,
+              "stack": {
+                "id": 3226000,
+                "number": 197,
+                "base": {
+                  "ref": "exp/fu2/structure/s02/trunk",
+                  "sha": "3a8b031f6887bef46a61473af0b05306fa564a3c"
+                },
+                "size": 3,
+                "position": 1
+              },
+              "head_ref": "exp/fu2/structure/s02/C",
+              "head_sha": "7a393c3919734fc364da2facbf8cb377aaa19083",
+              "base_ref": "exp/fu2/structure/s02/trunk",
+              "base_sha": "3a8b031f6887bef46a61473af0b05306fa564a3c"
+            }
+          },
+          "refs": {
+            "refs/heads/exp/fu2/structure/s02/A": "84b075c24e0110705a4a05d9fc3e7f309fd7735d",
+            "refs/heads/exp/fu2/structure/s02/B": "d238f91c4e6b3ff6d6557742a39f4b6b6d0897dc",
+            "refs/heads/exp/fu2/structure/s02/C": "7a393c3919734fc364da2facbf8cb377aaa19083",
+            "refs/heads/exp/fu2/structure/s02/trunk": "3a8b031f6887bef46a61473af0b05306fa564a3c",
+            "refs/tags/exp/fu2/structure/s02/authored/A/v1": "760ca0ac67f4f7de56d9d1afdcc154c7199ce33a",
+            "refs/tags/exp/fu2/structure/s02/authored/A/v2": "84b075c24e0110705a4a05d9fc3e7f309fd7735d",
+            "refs/tags/exp/fu2/structure/s02/authored/B/v1": "5ced2cde62a5cd7a2dc36c21e88c6f3a9d4f08cf",
+            "refs/tags/exp/fu2/structure/s02/authored/B/v2": "d238f91c4e6b3ff6d6557742a39f4b6b6d0897dc",
+            "refs/tags/exp/fu2/structure/s02/authored/C/v1": "1ef09cb26af00e8186ca08c7ab27a079c7b5b6ea",
+            "refs/tags/exp/fu2/structure/s02/authored/C/v2": "7a393c3919734fc364da2facbf8cb377aaa19083"
+          }
+        }
+      },
+      "receipts_after_recovery": [
+        "s02-effect-final-A.receipt.json",
+        "s02-effect-final-B.receipt.json",
+        "s02-effect-heads-archives.receipt.json",
+        "s02-effect-park-B.receipt.json",
+        "s02-effect-park-C.receipt.json",
+        "s02-effect-register.receipt.json",
+        "s02-effect-unstack.receipt.json"
+      ],
+      "disposition": "performed-observed-recovered",
+      "finished_at": "2026-11-09T04:22:08.335566+00:00"
+    },
+    "S03": {
+      "id": "S03",
+      "topology": "reorder",
+      "boundary": "park-C",
+      "started_at": "2026-11-09T04:22:08.339079+00:00",
+      "fixture": "fixtures/s03/fixture.json",
+      "prs": {
+        "A": 201,
+        "B": 203,
+        "C": 205
+      },
+      "original_stack": 207,
+      "interruption": {
+        "at": "2026-11-09T04:22:41.490931+00:00",
+        "pid": 24759,
+        "args": [
+          "/Library/Developer/CommandLineTools/usr/bin/python3",
+          "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-followup-2026-11-08/structure/run.py",
+          "worker",
+          "s03",
+          "--boundary",
+          "park-C",
+          "--runid",
+          "initial"
+        ],
+        "exit": -9,
+        "killed_after_durable_boundary": true,
+        "elapsed": 15.133819458000005,
+        "stdout": "worker-initial.stdout.txt",
+        "stderr": "worker-initial.stderr.txt"
+      },
+      "receipts_before_recovery": [
+        "s03-effect-park-B.receipt.json",
+        "s03-effect-park-C.receipt.json",
+        "s03-effect-unstack.receipt.json"
+      ],
+      "recovery": {
+        "at": "2026-11-09T04:23:03.267986+00:00",
+        "pid": 24868,
+        "args": [
+          "/Library/Developer/CommandLineTools/usr/bin/python3",
+          "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-followup-2026-11-08/structure/run.py",
+          "worker",
+          "s03",
+          "--boundary",
+          "",
+          "--runid",
+          "recovery"
+        ],
+        "exit": 0,
+        "killed_after_durable_boundary": false,
+        "elapsed": 21.76877862500001,
+        "stdout": "worker-recovery.stdout.txt",
+        "stderr": "worker-recovery.stderr.txt"
+      },
+      "completion": {
+        "at": "2026-11-09T04:23:03.024958+00:00",
+        "pid": 24868,
+        "resumed_after_count": 3,
+        "completed_count": 7,
+        "prs": {
+          "A": 201,
+          "B": 203,
+          "C": 205
+        },
+        "final": {
+          "at": "2026-11-09T04:23:01.121070+00:00",
+          "prs": {
+            "A": {
+              "number": 201,
+              "node_id": "PR_kwDOVnhIZ88AAAABNw6qqQ",
+              "state": "open",
+              "merged": false,
+              "merged_at": null,
+              "stack": {
+                "id": 3226016,
+                "number": 219,
+                "base": {
+                  "ref": "exp/fu2/structure/s03/trunk",
+                  "sha": "c5e35dfe6ab15d8f17f310af1084202aaa9f9828"
+                },
+                "size": 3,
+                "position": 2
+              },
+              "head_ref": "exp/fu2/structure/s03/A",
+              "head_sha": "7b12f61603d09317e103bd800c33f5bf6d268a92",
+              "base_ref": "exp/fu2/structure/s03/C",
+              "base_sha": "cb32fc5e3739814d8f1c92ae2c12a12cd4c5b869"
+            },
+            "B": {
+              "number": 203,
+              "node_id": "PR_kwDOVnhIZ88AAAABNw6sjw",
+              "state": "open",
+              "merged": false,
+              "merged_at": null,
+              "stack": {
+                "id": 3226016,
+                "number": 219,
+                "base": {
+                  "ref": "exp/fu2/structure/s03/trunk",
+                  "sha": "c5e35dfe6ab15d8f17f310af1084202aaa9f9828"
+                },
+                "size": 3,
+                "position": 3
+              },
+              "head_ref": "exp/fu2/structure/s03/B",
+              "head_sha": "15701989962899115644144eb5a6ae663e1bad63",
+              "base_ref": "exp/fu2/structure/s03/A",
+              "base_sha": "7b12f61603d09317e103bd800c33f5bf6d268a92"
+            },
+            "C": {
+              "number": 205,
+              "node_id": "PR_kwDOVnhIZ88AAAABNw6uWQ",
+              "state": "open",
+              "merged": false,
+              "merged_at": null,
+              "stack": {
+                "id": 3226016,
+                "number": 219,
+                "base": {
+                  "ref": "exp/fu2/structure/s03/trunk",
+                  "sha": "c5e35dfe6ab15d8f17f310af1084202aaa9f9828"
+                },
+                "size": 3,
+                "position": 1
+              },
+              "head_ref": "exp/fu2/structure/s03/C",
+              "head_sha": "cb32fc5e3739814d8f1c92ae2c12a12cd4c5b869",
+              "base_ref": "exp/fu2/structure/s03/trunk",
+              "base_sha": "c5e35dfe6ab15d8f17f310af1084202aaa9f9828"
+            }
+          },
+          "refs": {
+            "refs/heads/exp/fu2/structure/s03/A": "7b12f61603d09317e103bd800c33f5bf6d268a92",
+            "refs/heads/exp/fu2/structure/s03/B": "15701989962899115644144eb5a6ae663e1bad63",
+            "refs/heads/exp/fu2/structure/s03/C": "cb32fc5e3739814d8f1c92ae2c12a12cd4c5b869",
+            "refs/heads/exp/fu2/structure/s03/trunk": "c5e35dfe6ab15d8f17f310af1084202aaa9f9828",
+            "refs/tags/exp/fu2/structure/s03/authored/A/v1": "cb540ec43b2d19680e5cc7e01918aa76e2e5c2a1",
+            "refs/tags/exp/fu2/structure/s03/authored/A/v2": "7b12f61603d09317e103bd800c33f5bf6d268a92",
+            "refs/tags/exp/fu2/structure/s03/authored/B/v1": "75e2af10249d3e1faec8c8a716d53af045d4b27d",
+            "refs/tags/exp/fu2/structure/s03/authored/B/v2": "15701989962899115644144eb5a6ae663e1bad63",
+            "refs/tags/exp/fu2/structure/s03/authored/C/v1": "b7c59301066733bccd71ba238df0bd8e8632266e",
+            "refs/tags/exp/fu2/structure/s03/authored/C/v2": "cb32fc5e3739814d8f1c92ae2c12a12cd4c5b869"
+          }
+        }
+      },
+      "receipts_after_recovery": [
+        "s03-effect-final-A.receipt.json",
+        "s03-effect-final-B.receipt.json",
+        "s03-effect-heads-archives.receipt.json",
+        "s03-effect-park-B.receipt.json",
+        "s03-effect-park-C.receipt.json",
+        "s03-effect-register.receipt.json",
+        "s03-effect-unstack.receipt.json"
+      ],
+      "disposition": "performed-observed-recovered",
+      "finished_at": "2026-11-09T04:23:03.273776+00:00"
+    },
+    "S04": {
+      "id": "S04",
+      "topology": "reorder",
+      "boundary": "heads-archives",
+      "started_at": "2026-11-09T04:23:03.277030+00:00",
+      "fixture": "fixtures/s04/fixture.json",
+      "prs": {
+        "A": 224,
+        "B": 226,
+        "C": 228
+      },
+      "original_stack": 230,
+      "interruption": {
+        "at": "2026-11-09T04:23:42.327944+00:00",
+        "pid": 25241,
+        "args": [
+          "/Library/Developer/CommandLineTools/usr/bin/python3",
+          "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-followup-2026-11-08/structure/run.py",
+          "worker",
+          "s04",
+          "--boundary",
+          "heads-archives",
+          "--runid",
+          "initial"
+        ],
+        "exit": -9,
+        "killed_after_durable_boundary": true,
+        "elapsed": 20.998380416999993,
+        "stdout": "worker-initial.stdout.txt",
+        "stderr": "worker-initial.stderr.txt"
+      },
+      "receipts_before_recovery": [
+        "s04-effect-heads-archives.receipt.json",
+        "s04-effect-park-B.receipt.json",
+        "s04-effect-park-C.receipt.json",
+        "s04-effect-unstack.receipt.json"
+      ],
+      "recovery": {
+        "at": "2026-11-09T04:24:00.523619+00:00",
+        "pid": 25414,
+        "args": [
+          "/Library/Developer/CommandLineTools/usr/bin/python3",
+          "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-followup-2026-11-08/structure/run.py",
+          "worker",
+          "s04",
+          "--boundary",
+          "",
+          "--runid",
+          "recovery"
+        ],
+        "exit": 0,
+        "killed_after_durable_boundary": false,
+        "elapsed": 18.18698033299998,
+        "stdout": "worker-recovery.stdout.txt",
+        "stderr": "worker-recovery.stderr.txt"
+      },
+      "completion": {
+        "at": "2026-11-09T04:24:00.450621+00:00",
+        "pid": 25414,
+        "resumed_after_count": 4,
+        "completed_count": 7,
+        "prs": {
+          "A": 224,
+          "B": 226,
+          "C": 228
+        },
+        "final": {
+          "at": "2026-11-09T04:23:58.509918+00:00",
+          "prs": {
+            "A": {
+              "number": 224,
+              "node_id": "PR_kwDOVnhIZ88AAAABNw7Igw",
+              "state": "open",
+              "merged": false,
+              "merged_at": null,
+              "stack": {
+                "id": 3226029,
+                "number": 244,
+                "base": {
+                  "ref": "exp/fu2/structure/s04/trunk",
+                  "sha": "28540a9121c6fb406295909b99c4600851d91ee0"
+                },
+                "size": 3,
+                "position": 2
+              },
+              "head_ref": "exp/fu2/structure/s04/A",
+              "head_sha": "ccf32182fa937a381519c0fd211b385ed600bf62",
+              "base_ref": "exp/fu2/structure/s04/C",
+              "base_sha": "8c845a4c4a113b6e05ed26fa9f076792b9924e2c"
+            },
+            "B": {
+              "number": 226,
+              "node_id": "PR_kwDOVnhIZ88AAAABNw7KRg",
+              "state": "open",
+              "merged": false,
+              "merged_at": null,
+              "stack": {
+                "id": 3226029,
+                "number": 244,
+                "base": {
+                  "ref": "exp/fu2/structure/s04/trunk",
+                  "sha": "28540a9121c6fb406295909b99c4600851d91ee0"
+                },
+                "size": 3,
+                "position": 3
+              },
+              "head_ref": "exp/fu2/structure/s04/B",
+              "head_sha": "6d4935f27f084dde19ad57923d3430c68b7bcc0d",
+              "base_ref": "exp/fu2/structure/s04/A",
+              "base_sha": "ccf32182fa937a381519c0fd211b385ed600bf62"
+            },
+            "C": {
+              "number": 228,
+              "node_id": "PR_kwDOVnhIZ88AAAABNw7MDA",
+              "state": "open",
+              "merged": false,
+              "merged_at": null,
+              "stack": {
+                "id": 3226029,
+                "number": 244,
+                "base": {
+                  "ref": "exp/fu2/structure/s04/trunk",
+                  "sha": "28540a9121c6fb406295909b99c4600851d91ee0"
+                },
+                "size": 3,
+                "position": 1
+              },
+              "head_ref": "exp/fu2/structure/s04/C",
+              "head_sha": "8c845a4c4a113b6e05ed26fa9f076792b9924e2c",
+              "base_ref": "exp/fu2/structure/s04/trunk",
+              "base_sha": "28540a9121c6fb406295909b99c4600851d91ee0"
+            }
+          },
+          "refs": {
+            "refs/heads/exp/fu2/structure/s04/A": "ccf32182fa937a381519c0fd211b385ed600bf62",
+            "refs/heads/exp/fu2/structure/s04/B": "6d4935f27f084dde19ad57923d3430c68b7bcc0d",
+            "refs/heads/exp/fu2/structure/s04/C": "8c845a4c4a113b6e05ed26fa9f076792b9924e2c",
+            "refs/heads/exp/fu2/structure/s04/trunk": "28540a9121c6fb406295909b99c4600851d91ee0",
+            "refs/tags/exp/fu2/structure/s04/authored/A/v1": "94b7374e72a1afc1fd179fdfd1ebf80d6ccbe6af",
+            "refs/tags/exp/fu2/structure/s04/authored/A/v2": "ccf32182fa937a381519c0fd211b385ed600bf62",
+            "refs/tags/exp/fu2/structure/s04/authored/B/v1": "e6a160546256ee195e3fa14f68939afa6cd5e161",
+            "refs/tags/exp/fu2/structure/s04/authored/B/v2": "6d4935f27f084dde19ad57923d3430c68b7bcc0d",
+            "refs/tags/exp/fu2/structure/s04/authored/C/v1": "46f90fec38b5b94caf1cd0aeb3ab09ad8f7c07bc",
+            "refs/tags/exp/fu2/structure/s04/authored/C/v2": "8c845a4c4a113b6e05ed26fa9f076792b9924e2c"
+          }
+        }
+      },
+      "receipts_after_recovery": [
+        "s04-effect-final-A.receipt.json",
+        "s04-effect-final-B.receipt.json",
+        "s04-effect-heads-archives.receipt.json",
+        "s04-effect-park-B.receipt.json",
+        "s04-effect-park-C.receipt.json",
+        "s04-effect-register.receipt.json",
+        "s04-effect-unstack.receipt.json"
+      ],
+      "disposition": "performed-observed-recovered",
+      "finished_at": "2026-11-09T04:24:00.529187+00:00"
+    },
+    "S05": {
+      "id": "S05",
+      "topology": "reorder",
+      "boundary": "final-A",
+      "started_at": "2026-11-09T04:24:00.533393+00:00",
+      "fixture": "fixtures/s05/fixture.json",
+      "prs": {
+        "A": 249,
+        "B": 251,
+        "C": 253
+      },
+      "original_stack": 255,
+      "interruption": {
+        "at": "2026-11-09T04:24:44.630128+00:00",
+        "pid": 25754,
+        "args": [
+          "/Library/Developer/CommandLineTools/usr/bin/python3",
+          "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-followup-2026-11-08/structure/run.py",
+          "worker",
+          "s05",
+          "--boundary",
+          "final-A",
+          "--runid",
+          "initial"
+        ],
+        "exit": -9,
+        "killed_after_durable_boundary": true,
+        "elapsed": 25.84588475000001,
+        "stdout": "worker-initial.stdout.txt",
+        "stderr": "worker-initial.stderr.txt"
+      },
+      "receipts_before_recovery": [
+        "s05-effect-final-A.receipt.json",
+        "s05-effect-heads-archives.receipt.json",
+        "s05-effect-park-B.receipt.json",
+        "s05-effect-park-C.receipt.json",
+        "s05-effect-unstack.receipt.json"
+      ],
+      "recovery": {
+        "at": "2026-11-09T04:24:59.262189+00:00",
+        "pid": 25984,
+        "args": [
+          "/Library/Developer/CommandLineTools/usr/bin/python3",
+          "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-followup-2026-11-08/structure/run.py",
+          "worker",
+          "s05",
+          "--boundary",
+          "",
+          "--runid",
+          "recovery"
+        ],
+        "exit": 0,
+        "killed_after_durable_boundary": false,
+        "elapsed": 14.62269875000004,
+        "stdout": "worker-recovery.stdout.txt",
+        "stderr": "worker-recovery.stderr.txt"
+      },
+      "completion": {
+        "at": "2026-11-09T04:24:59.145514+00:00",
+        "pid": 25984,
+        "resumed_after_count": 5,
+        "completed_count": 7,
+        "prs": {
+          "A": 249,
+          "B": 251,
+          "C": 253
+        },
+        "final": {
+          "at": "2026-11-09T04:24:57.074117+00:00",
+          "prs": {
+            "A": {
+              "number": 249,
+              "node_id": "PR_kwDOVnhIZ88AAAABNw7oIA",
+              "state": "open",
+              "merged": false,
+              "merged_at": null,
+              "stack": {
+                "id": 3226050,
+                "number": 267,
+                "base": {
+                  "ref": "exp/fu2/structure/s05/trunk",
+                  "sha": "3c67baf87b44cd7718588ac55f181b8a9563eef5"
+                },
+                "size": 3,
+                "position": 2
+              },
+              "head_ref": "exp/fu2/structure/s05/A",
+              "head_sha": "42bf9a10b6778548c48ad2726867f61a5775844d",
+              "base_ref": "exp/fu2/structure/s05/C",
+              "base_sha": "0b2664ca6c6e0cc579d426b79cf858a018ce5bfa"
+            },
+            "B": {
+              "number": 251,
+              "node_id": "PR_kwDOVnhIZ88AAAABNw7p0A",
+              "state": "open",
+              "merged": false,
+              "merged_at": null,
+              "stack": {
+                "id": 3226050,
+                "number": 267,
+                "base": {
+                  "ref": "exp/fu2/structure/s05/trunk",
+                  "sha": "3c67baf87b44cd7718588ac55f181b8a9563eef5"
+                },
+                "size": 3,
+                "position": 3
+              },
+              "head_ref": "exp/fu2/structure/s05/B",
+              "head_sha": "4665dc327364e2acb3837f4a9c3fe5d302bb8b5c",
+              "base_ref": "exp/fu2/structure/s05/A",
+              "base_sha": "42bf9a10b6778548c48ad2726867f61a5775844d"
+            },
+            "C": {
+              "number": 253,
+              "node_id": "PR_kwDOVnhIZ88AAAABNw7rYA",
+              "state": "open",
+              "merged": false,
+              "merged_at": null,
+              "stack": {
+                "id": 3226050,
+                "number": 267,
+                "base": {
+                  "ref": "exp/fu2/structure/s05/trunk",
+                  "sha": "3c67baf87b44cd7718588ac55f181b8a9563eef5"
+                },
+                "size": 3,
+                "position": 1
+              },
+              "head_ref": "exp/fu2/structure/s05/C",
+              "head_sha": "0b2664ca6c6e0cc579d426b79cf858a018ce5bfa",
+              "base_ref": "exp/fu2/structure/s05/trunk",
+              "base_sha": "3c67baf87b44cd7718588ac55f181b8a9563eef5"
+            }
+          },
+          "refs": {
+            "refs/heads/exp/fu2/structure/s05/A": "42bf9a10b6778548c48ad2726867f61a5775844d",
+            "refs/heads/exp/fu2/structure/s05/B": "4665dc327364e2acb3837f4a9c3fe5d302bb8b5c",
+            "refs/heads/exp/fu2/structure/s05/C": "0b2664ca6c6e0cc579d426b79cf858a018ce5bfa",
+            "refs/heads/exp/fu2/structure/s05/trunk": "3c67baf87b44cd7718588ac55f181b8a9563eef5",
+            "refs/tags/exp/fu2/structure/s05/authored/A/v1": "a6667d9d51f4e63a3d1f418c00217e45691bd5f5",
+            "refs/tags/exp/fu2/structure/s05/authored/A/v2": "42bf9a10b6778548c48ad2726867f61a5775844d",
+            "refs/tags/exp/fu2/structure/s05/authored/B/v1": "cf622c63836092857d318b9b26a6df07b01a5ffa",
+            "refs/tags/exp/fu2/structure/s05/authored/B/v2": "4665dc327364e2acb3837f4a9c3fe5d302bb8b5c",
+            "refs/tags/exp/fu2/structure/s05/authored/C/v1": "563cd8ac40519eeeaac1ca08ffdb3bedd2a69760",
+            "refs/tags/exp/fu2/structure/s05/authored/C/v2": "0b2664ca6c6e0cc579d426b79cf858a018ce5bfa"
+          }
+        }
+      },
+      "receipts_after_recovery": [
+        "s05-effect-final-A.receipt.json",
+        "s05-effect-final-B.receipt.json",
+        "s05-effect-heads-archives.receipt.json",
+        "s05-effect-park-B.receipt.json",
+        "s05-effect-park-C.receipt.json",
+        "s05-effect-register.receipt.json",
+        "s05-effect-unstack.receipt.json"
+      ],
+      "disposition": "performed-observed-recovered",
+      "finished_at": "2026-11-09T04:24:59.267878+00:00"
+    },
+    "S06": {
+      "id": "S06",
+      "topology": "reorder",
+      "boundary": "final-B",
+      "started_at": "2026-11-09T04:24:59.271074+00:00",
+      "fixture": "fixtures/s06/fixture.json",
+      "prs": {
+        "A": 272,
+        "B": 274,
+        "C": 276
+      },
+      "original_stack": 278,
+      "interruption": {
+        "at": "2026-11-09T04:25:47.042695+00:00",
+        "pid": 26267,
+        "args": [
+          "/Library/Developer/CommandLineTools/usr/bin/python3",
+          "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-followup-2026-11-08/structure/run.py",
+          "worker",
+          "s06",
+          "--boundary",
+          "final-B",
+          "--runid",
+          "initial"
+        ],
+        "exit": -9,
+        "killed_after_durable_boundary": true,
+        "elapsed": 29.48790429099995,
+        "stdout": "worker-initial.stdout.txt",
+        "stderr": "worker-initial.stderr.txt"
+      },
+      "receipts_before_recovery": [
+        "s06-effect-final-A.receipt.json",
+        "s06-effect-final-B.receipt.json",
+        "s06-effect-heads-archives.receipt.json",
+        "s06-effect-park-B.receipt.json",
+        "s06-effect-park-C.receipt.json",
+        "s06-effect-unstack.receipt.json"
+      ],
+      "recovery": {
+        "at": "2026-11-09T04:25:55.758865+00:00",
+        "pid": 26507,
+        "args": [
+          "/Library/Developer/CommandLineTools/usr/bin/python3",
+          "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-followup-2026-11-08/structure/run.py",
+          "worker",
+          "s06",
+          "--boundary",
+          "",
+          "--runid",
+          "recovery"
+        ],
+        "exit": 0,
+        "killed_after_durable_boundary": false,
+        "elapsed": 8.702301541999987,
+        "stdout": "worker-recovery.stdout.txt",
+        "stderr": "worker-recovery.stderr.txt"
+      },
+      "completion": {
+        "at": "2026-11-09T04:25:55.708979+00:00",
+        "pid": 26507,
+        "resumed_after_count": 6,
+        "completed_count": 7,
+        "prs": {
+          "A": 272,
+          "B": 274,
+          "C": 276
+        },
+        "final": {
+          "at": "2026-11-09T04:25:54.039917+00:00",
+          "prs": {
+            "A": {
+              "number": 272,
+              "node_id": "PR_kwDOVnhIZ88AAAABNw8Grg",
+              "state": "open",
+              "merged": false,
+              "merged_at": null,
+              "stack": {
+                "id": 3226070,
+                "number": 289,
+                "base": {
+                  "ref": "exp/fu2/structure/s06/trunk",
+                  "sha": "96bd93459c102d05eec481e8825d782d4d30e25a"
+                },
+                "size": 3,
+                "position": 2
+              },
+              "head_ref": "exp/fu2/structure/s06/A",
+              "head_sha": "afe46704457a2aa0e2d90ee9961337f0c8080955",
+              "base_ref": "exp/fu2/structure/s06/C",
+              "base_sha": "787fa9701d9c2fe1f736b859cfce7526aa864cb1"
+            },
+            "B": {
+              "number": 274,
+              "node_id": "PR_kwDOVnhIZ88AAAABNw8Ikw",
+              "state": "open",
+              "merged": false,
+              "merged_at": null,
+              "stack": {
+                "id": 3226070,
+                "number": 289,
+                "base": {
+                  "ref": "exp/fu2/structure/s06/trunk",
+                  "sha": "96bd93459c102d05eec481e8825d782d4d30e25a"
+                },
+                "size": 3,
+                "position": 3
+              },
+              "head_ref": "exp/fu2/structure/s06/B",
+              "head_sha": "6a544956cea38105f2846d5543b235c7ef5361a6",
+              "base_ref": "exp/fu2/structure/s06/A",
+              "base_sha": "afe46704457a2aa0e2d90ee9961337f0c8080955"
+            },
+            "C": {
+              "number": 276,
+              "node_id": "PR_kwDOVnhIZ88AAAABNw8Kgg",
+              "state": "open",
+              "merged": false,
+              "merged_at": null,
+              "stack": {
+                "id": 3226070,
+                "number": 289,
+                "base": {
+                  "ref": "exp/fu2/structure/s06/trunk",
+                  "sha": "96bd93459c102d05eec481e8825d782d4d30e25a"
+                },
+                "size": 3,
+                "position": 1
+              },
+              "head_ref": "exp/fu2/structure/s06/C",
+              "head_sha": "787fa9701d9c2fe1f736b859cfce7526aa864cb1",
+              "base_ref": "exp/fu2/structure/s06/trunk",
+              "base_sha": "96bd93459c102d05eec481e8825d782d4d30e25a"
+            }
+          },
+          "refs": {
+            "refs/heads/exp/fu2/structure/s06/A": "afe46704457a2aa0e2d90ee9961337f0c8080955",
+            "refs/heads/exp/fu2/structure/s06/B": "6a544956cea38105f2846d5543b235c7ef5361a6",
+            "refs/heads/exp/fu2/structure/s06/C": "787fa9701d9c2fe1f736b859cfce7526aa864cb1",
+            "refs/heads/exp/fu2/structure/s06/trunk": "96bd93459c102d05eec481e8825d782d4d30e25a",
+            "refs/tags/exp/fu2/structure/s06/authored/A/v1": "ee9f36e3aff498420caeed11156ad136dcef1f30",
+            "refs/tags/exp/fu2/structure/s06/authored/A/v2": "afe46704457a2aa0e2d90ee9961337f0c8080955",
+            "refs/tags/exp/fu2/structure/s06/authored/B/v1": "7d7c3100f40a8f4459bffd687e858fe0181cd492",
+            "refs/tags/exp/fu2/structure/s06/authored/B/v2": "6a544956cea38105f2846d5543b235c7ef5361a6",
+            "refs/tags/exp/fu2/structure/s06/authored/C/v1": "f853a5354090a9b1abdc10026843fda34fb0caa2",
+            "refs/tags/exp/fu2/structure/s06/authored/C/v2": "787fa9701d9c2fe1f736b859cfce7526aa864cb1"
+          }
+        }
+      },
+      "receipts_after_recovery": [
+        "s06-effect-final-A.receipt.json",
+        "s06-effect-final-B.receipt.json",
+        "s06-effect-heads-archives.receipt.json",
+        "s06-effect-park-B.receipt.json",
+        "s06-effect-park-C.receipt.json",
+        "s06-effect-register.receipt.json",
+        "s06-effect-unstack.receipt.json"
+      ],
+      "disposition": "performed-observed-recovered",
+      "finished_at": "2026-11-09T04:25:55.765014+00:00"
+    },
+    "S07": {
+      "id": "S07",
+      "topology": "reorder",
+      "boundary": "register",
+      "started_at": "2026-11-09T04:25:55.768197+00:00",
+      "fixture": "fixtures/s07/fixture.json",
+      "prs": {
+        "A": 294,
+        "B": 296,
+        "C": 298
+      },
+      "original_stack": 300,
+      "interruption": {
+        "at": "2026-11-09T04:26:47.984461+00:00",
+        "pid": 26737,
+        "args": [
+          "/Library/Developer/CommandLineTools/usr/bin/python3",
+          "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-followup-2026-11-08/structure/run.py",
+          "worker",
+          "s07",
+          "--boundary",
+          "register",
+          "--runid",
+          "initial"
+        ],
+        "exit": -9,
+        "killed_after_durable_boundary": true,
+        "elapsed": 34.07531279099999,
+        "stdout": "worker-initial.stdout.txt",
+        "stderr": "worker-initial.stderr.txt"
+      },
+      "receipts_before_recovery": [
+        "s07-effect-final-A.receipt.json",
+        "s07-effect-final-B.receipt.json",
+        "s07-effect-heads-archives.receipt.json",
+        "s07-effect-park-B.receipt.json",
+        "s07-effect-park-C.receipt.json",
+        "s07-effect-register.receipt.json",
+        "s07-effect-unstack.receipt.json"
+      ],
+      "recovery": {
+        "at": "2026-11-09T04:26:52.348072+00:00",
+        "pid": 26998,
+        "args": [
+          "/Library/Developer/CommandLineTools/usr/bin/python3",
+          "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-followup-2026-11-08/structure/run.py",
+          "worker",
+          "s07",
+          "--boundary",
+          "",
+          "--runid",
+          "recovery"
+        ],
+        "exit": 0,
+        "killed_after_durable_boundary": false,
+        "elapsed": 4.3539429169999835,
+        "stdout": "worker-recovery.stdout.txt",
+        "stderr": "worker-recovery.stderr.txt"
+      },
+      "completion": {
+        "at": "2026-11-09T04:26:52.153602+00:00",
+        "pid": 26998,
+        "resumed_after_count": 7,
+        "completed_count": 7,
+        "prs": {
+          "A": 294,
+          "B": 296,
+          "C": 298
+        },
+        "final": {
+          "at": "2026-11-09T04:26:49.958406+00:00",
+          "prs": {
+            "A": {
+              "number": 294,
+              "node_id": "PR_kwDOVnhIZ88AAAABNw8krQ",
+              "state": "open",
+              "merged": false,
+              "merged_at": null,
+              "stack": {
+                "id": 3226087,
+                "number": 312,
+                "base": {
+                  "ref": "exp/fu2/structure/s07/trunk",
+                  "sha": "e7816a3fe2ca2f5c975768dd812ae0f6351c8671"
+                },
+                "size": 3,
+                "position": 2
+              },
+              "head_ref": "exp/fu2/structure/s07/A",
+              "head_sha": "0ff7da18cddf9d3f1fab7ea81a88bab49dea7731",
+              "base_ref": "exp/fu2/structure/s07/C",
+              "base_sha": "fe625da88dd63e1b4d3d88beda717867b4c7a27b"
+            },
+            "B": {
+              "number": 296,
+              "node_id": "PR_kwDOVnhIZ88AAAABNw8mYQ",
+              "state": "open",
+              "merged": false,
+              "merged_at": null,
+              "stack": {
+                "id": 3226087,
+                "number": 312,
+                "base": {
+                  "ref": "exp/fu2/structure/s07/trunk",
+                  "sha": "e7816a3fe2ca2f5c975768dd812ae0f6351c8671"
+                },
+                "size": 3,
+                "position": 3
+              },
+              "head_ref": "exp/fu2/structure/s07/B",
+              "head_sha": "d41c47b8712b677c631ed7099c91117081ea50c7",
+              "base_ref": "exp/fu2/structure/s07/A",
+              "base_sha": "0ff7da18cddf9d3f1fab7ea81a88bab49dea7731"
+            },
+            "C": {
+              "number": 298,
+              "node_id": "PR_kwDOVnhIZ88AAAABNw8oNg",
+              "state": "open",
+              "merged": false,
+              "merged_at": null,
+              "stack": {
+                "id": 3226087,
+                "number": 312,
+                "base": {
+                  "ref": "exp/fu2/structure/s07/trunk",
+                  "sha": "e7816a3fe2ca2f5c975768dd812ae0f6351c8671"
+                },
+                "size": 3,
+                "position": 1
+              },
+              "head_ref": "exp/fu2/structure/s07/C",
+              "head_sha": "fe625da88dd63e1b4d3d88beda717867b4c7a27b",
+              "base_ref": "exp/fu2/structure/s07/trunk",
+              "base_sha": "e7816a3fe2ca2f5c975768dd812ae0f6351c8671"
+            }
+          },
+          "refs": {
+            "refs/heads/exp/fu2/structure/s07/A": "0ff7da18cddf9d3f1fab7ea81a88bab49dea7731",
+            "refs/heads/exp/fu2/structure/s07/B": "d41c47b8712b677c631ed7099c91117081ea50c7",
+            "refs/heads/exp/fu2/structure/s07/C": "fe625da88dd63e1b4d3d88beda717867b4c7a27b",
+            "refs/heads/exp/fu2/structure/s07/trunk": "e7816a3fe2ca2f5c975768dd812ae0f6351c8671",
+            "refs/tags/exp/fu2/structure/s07/authored/A/v1": "d5d299e8be0ca0aea3b373cc9d42ab1dbf6a7d34",
+            "refs/tags/exp/fu2/structure/s07/authored/A/v2": "0ff7da18cddf9d3f1fab7ea81a88bab49dea7731",
+            "refs/tags/exp/fu2/structure/s07/authored/B/v1": "2b7030bcbfdb608c3f9bb692557517829953c919",
+            "refs/tags/exp/fu2/structure/s07/authored/B/v2": "d41c47b8712b677c631ed7099c91117081ea50c7",
+            "refs/tags/exp/fu2/structure/s07/authored/C/v1": "ce8b55ce7516dbf09969ee5e7c7d7d631b185d10",
+            "refs/tags/exp/fu2/structure/s07/authored/C/v2": "fe625da88dd63e1b4d3d88beda717867b4c7a27b"
+          }
+        }
+      },
+      "receipts_after_recovery": [
+        "s07-effect-final-A.receipt.json",
+        "s07-effect-final-B.receipt.json",
+        "s07-effect-heads-archives.receipt.json",
+        "s07-effect-park-B.receipt.json",
+        "s07-effect-park-C.receipt.json",
+        "s07-effect-register.receipt.json",
+        "s07-effect-unstack.receipt.json"
+      ],
+      "disposition": "performed-observed-recovered",
+      "finished_at": "2026-11-09T04:26:52.355587+00:00"
+    },
+    "S08": {
+      "id": "S08",
+      "topology": "insert",
+      "boundary": "create-D",
+      "started_at": "2026-11-09T04:26:52.359100+00:00",
+      "fixture": "fixtures/s08/fixture.json",
+      "prs": {
+        "A": 317,
+        "B": 319,
+        "C": 321
+      },
+      "original_stack": 323,
+      "interruption": {
+        "at": "2026-11-09T04:27:35.946505+00:00",
+        "pid": 27199,
+        "args": [
+          "/Library/Developer/CommandLineTools/usr/bin/python3",
+          "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-followup-2026-11-08/structure/run.py",
+          "worker",
+          "s08",
+          "--boundary",
+          "create-D",
+          "--runid",
+          "initial"
+        ],
+        "exit": -9,
+        "killed_after_durable_boundary": true,
+        "elapsed": 25.114986708000004,
+        "stdout": "worker-initial.stdout.txt",
+        "stderr": "worker-initial.stderr.txt"
+      },
+      "receipts_before_recovery": [
+        "s08-effect-create-D.receipt.json",
+        "s08-effect-heads-archives.receipt.json",
+        "s08-effect-park-B.receipt.json",
+        "s08-effect-park-C.receipt.json",
+        "s08-effect-unstack.receipt.json"
+      ],
+      "recovery": {
+        "at": "2026-11-09T04:27:54.938637+00:00",
+        "pid": 27397,
+        "args": [
+          "/Library/Developer/CommandLineTools/usr/bin/python3",
+          "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-followup-2026-11-08/structure/run.py",
+          "worker",
+          "s08",
+          "--boundary",
+          "",
+          "--runid",
+          "recovery"
+        ],
+        "exit": 0,
+        "killed_after_durable_boundary": false,
+        "elapsed": 18.981654665999997,
+        "stdout": "worker-recovery.stdout.txt",
+        "stderr": "worker-recovery.stderr.txt"
+      },
+      "completion": {
+        "at": "2026-11-09T04:27:54.765141+00:00",
+        "pid": 27397,
+        "resumed_after_count": 5,
+        "completed_count": 8,
+        "prs": {
+          "A": 317,
+          "B": 319,
+          "C": 321,
+          "D": 331
+        },
+        "final": {
+          "at": "2026-11-09T04:27:52.668241+00:00",
+          "prs": {
+            "A": {
+              "number": 317,
+              "node_id": "PR_kwDOVnhIZ88AAAABNw9CxQ",
+              "state": "open",
+              "merged": false,
+              "merged_at": null,
+              "stack": {
+                "base": {
+                  "ref": "exp/fu2/structure/s08/trunk",
+                  "sha": "ff049dcac2b8329d605cec4ca7aab6c184d43156"
+                },
+                "id": 3226110,
+                "number": 332,
+                "position": 1,
+                "size": 4
+              },
+              "head_ref": "exp/fu2/structure/s08/A",
+              "head_sha": "7239c302620afcadf3a4ebb301d068969570e7ae",
+              "base_ref": "exp/fu2/structure/s08/trunk",
+              "base_sha": "ff049dcac2b8329d605cec4ca7aab6c184d43156"
+            },
+            "B": {
+              "number": 319,
+              "node_id": "PR_kwDOVnhIZ88AAAABNw9EkQ",
+              "state": "open",
+              "merged": false,
+              "merged_at": null,
+              "stack": {
+                "base": {
+                  "ref": "exp/fu2/structure/s08/trunk",
+                  "sha": "ff049dcac2b8329d605cec4ca7aab6c184d43156"
+                },
+                "id": 3226110,
+                "number": 332,
+                "position": 3,
+                "size": 4
+              },
+              "head_ref": "exp/fu2/structure/s08/B",
+              "head_sha": "845d58bababb74c6d97cbd3b9c070c7e2bf5362d",
+              "base_ref": "exp/fu2/structure/s08/D",
+              "base_sha": "384587bd14882d274701f7875e7aec1e344b3a73"
+            },
+            "C": {
+              "number": 321,
+              "node_id": "PR_kwDOVnhIZ88AAAABNw9GZQ",
+              "state": "open",
+              "merged": false,
+              "merged_at": null,
+              "stack": {
+                "base": {
+                  "ref": "exp/fu2/structure/s08/trunk",
+                  "sha": "ff049dcac2b8329d605cec4ca7aab6c184d43156"
+                },
+                "id": 3226110,
+                "number": 332,
+                "position": 4,
+                "size": 4
+              },
+              "head_ref": "exp/fu2/structure/s08/C",
+              "head_sha": "e0385c71316a7ae182fddcdb4b16349acaf417a1",
+              "base_ref": "exp/fu2/structure/s08/B",
+              "base_sha": "845d58bababb74c6d97cbd3b9c070c7e2bf5362d"
+            },
+            "D": {
+              "number": 331,
+              "node_id": "PR_kwDOVnhIZ88AAAABNw9VRQ",
+              "state": "open",
+              "merged": false,
+              "merged_at": null,
+              "stack": {
+                "base": {
+                  "ref": "exp/fu2/structure/s08/trunk",
+                  "sha": "ff049dcac2b8329d605cec4ca7aab6c184d43156"
+                },
+                "id": 3226110,
+                "number": 332,
+                "position": 2,
+                "size": 4
+              },
+              "head_ref": "exp/fu2/structure/s08/D",
+              "head_sha": "384587bd14882d274701f7875e7aec1e344b3a73",
+              "base_ref": "exp/fu2/structure/s08/A",
+              "base_sha": "7239c302620afcadf3a4ebb301d068969570e7ae"
+            }
+          },
+          "refs": {
+            "refs/heads/exp/fu2/structure/s08/A": "7239c302620afcadf3a4ebb301d068969570e7ae",
+            "refs/heads/exp/fu2/structure/s08/B": "845d58bababb74c6d97cbd3b9c070c7e2bf5362d",
+            "refs/heads/exp/fu2/structure/s08/C": "e0385c71316a7ae182fddcdb4b16349acaf417a1",
+            "refs/heads/exp/fu2/structure/s08/D": "384587bd14882d274701f7875e7aec1e344b3a73",
+            "refs/heads/exp/fu2/structure/s08/trunk": "ff049dcac2b8329d605cec4ca7aab6c184d43156",
+            "refs/tags/exp/fu2/structure/s08/authored/A/v1": "037e8b6dc982ae56a4d6268547f28e85c0286ef5",
+            "refs/tags/exp/fu2/structure/s08/authored/A/v2": "7239c302620afcadf3a4ebb301d068969570e7ae",
+            "refs/tags/exp/fu2/structure/s08/authored/B/v1": "cc4d26cade561e331a624500c406c93a9df0f3a8",
+            "refs/tags/exp/fu2/structure/s08/authored/B/v2": "845d58bababb74c6d97cbd3b9c070c7e2bf5362d",
+            "refs/tags/exp/fu2/structure/s08/authored/C/v1": "27dd85affb6f8e7d9f935a34086d25609aa6606d",
+            "refs/tags/exp/fu2/structure/s08/authored/C/v2": "e0385c71316a7ae182fddcdb4b16349acaf417a1",
+            "refs/tags/exp/fu2/structure/s08/authored/D/v2": "384587bd14882d274701f7875e7aec1e344b3a73"
+          }
+        }
+      },
+      "receipts_after_recovery": [
+        "s08-effect-create-D.receipt.json",
+        "s08-effect-final-B.receipt.json",
+        "s08-effect-final-C.receipt.json",
+        "s08-effect-heads-archives.receipt.json",
+        "s08-effect-park-B.receipt.json",
+        "s08-effect-park-C.receipt.json",
+        "s08-effect-register.receipt.json",
+        "s08-effect-unstack.receipt.json"
+      ],
+      "disposition": "performed-observed-recovered",
+      "finished_at": "2026-11-09T04:27:54.947404+00:00"
+    },
+    "S09": {
+      "id": "S09",
+      "topology": "insert",
+      "boundary": "register",
+      "started_at": "2026-11-09T04:27:54.950731+00:00",
+      "fixture": "fixtures/s09/fixture.json",
+      "prs": {
+        "A": 333,
+        "B": 334,
+        "C": 335
+      },
+      "original_stack": 336,
+      "interruption": {
+        "at": "2026-11-09T04:28:53.462940+00:00",
+        "pid": 27732,
+        "args": [
+          "/Library/Developer/CommandLineTools/usr/bin/python3",
+          "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-followup-2026-11-08/structure/run.py",
+          "worker",
+          "s09",
+          "--boundary",
+          "register",
+          "--runid",
+          "initial"
+        ],
+        "exit": -9,
+        "killed_after_durable_boundary": true,
+        "elapsed": 40.90749320800006,
+        "stdout": "worker-initial.stdout.txt",
+        "stderr": "worker-initial.stderr.txt"
+      },
+      "receipts_before_recovery": [
+        "s09-effect-create-D.receipt.json",
+        "s09-effect-final-B.receipt.json",
+        "s09-effect-final-C.receipt.json",
+        "s09-effect-heads-archives.receipt.json",
+        "s09-effect-park-B.receipt.json",
+        "s09-effect-park-C.receipt.json",
+        "s09-effect-register.receipt.json",
+        "s09-effect-unstack.receipt.json"
+      ],
+      "recovery": {
+        "at": "2026-11-09T04:28:58.087266+00:00",
+        "pid": 28099,
+        "args": [
+          "/Library/Developer/CommandLineTools/usr/bin/python3",
+          "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-followup-2026-11-08/structure/run.py",
+          "worker",
+          "s09",
+          "--boundary",
+          "",
+          "--runid",
+          "recovery"
+        ],
+        "exit": 0,
+        "killed_after_durable_boundary": false,
+        "elapsed": 4.613885417000006,
+        "stdout": "worker-recovery.stdout.txt",
+        "stderr": "worker-recovery.stderr.txt"
+      },
+      "completion": {
+        "at": "2026-11-09T04:28:57.938004+00:00",
+        "pid": 28099,
+        "resumed_after_count": 8,
+        "completed_count": 8,
+        "prs": {
+          "A": 333,
+          "B": 334,
+          "C": 335,
+          "D": 337
+        },
+        "final": {
+          "at": "2026-11-09T04:28:55.803205+00:00",
+          "prs": {
+            "A": {
+              "number": 333,
+              "node_id": "PR_kwDOVnhIZ88AAAABNw9jjA",
+              "state": "open",
+              "merged": false,
+              "merged_at": null,
+              "stack": {
+                "base": {
+                  "ref": "exp/fu2/structure/s09/trunk",
+                  "sha": "cecc2064ec7a242477dcea677d9bc7665758cf64"
+                },
+                "id": 3226130,
+                "number": 338,
+                "position": 1,
+                "size": 4
+              },
+              "head_ref": "exp/fu2/structure/s09/A",
+              "head_sha": "5e031e4253c59cf1ba7bd8f7a029f4150f835523",
+              "base_ref": "exp/fu2/structure/s09/trunk",
+              "base_sha": "cecc2064ec7a242477dcea677d9bc7665758cf64"
+            },
+            "B": {
+              "number": 334,
+              "node_id": "PR_kwDOVnhIZ88AAAABNw9lIw",
+              "state": "open",
+              "merged": false,
+              "merged_at": null,
+              "stack": {
+                "base": {
+                  "ref": "exp/fu2/structure/s09/trunk",
+                  "sha": "cecc2064ec7a242477dcea677d9bc7665758cf64"
+                },
+                "id": 3226130,
+                "number": 338,
+                "position": 3,
+                "size": 4
+              },
+              "head_ref": "exp/fu2/structure/s09/B",
+              "head_sha": "04d57b7c55252578a252193b7a8e065d46db51ec",
+              "base_ref": "exp/fu2/structure/s09/D",
+              "base_sha": "fd80e2eb5ab3f03a51108cf00e49e6e93ed5d923"
+            },
+            "C": {
+              "number": 335,
+              "node_id": "PR_kwDOVnhIZ88AAAABNw9mtw",
+              "state": "open",
+              "merged": false,
+              "merged_at": null,
+              "stack": {
+                "base": {
+                  "ref": "exp/fu2/structure/s09/trunk",
+                  "sha": "cecc2064ec7a242477dcea677d9bc7665758cf64"
+                },
+                "id": 3226130,
+                "number": 338,
+                "position": 4,
+                "size": 4
+              },
+              "head_ref": "exp/fu2/structure/s09/C",
+              "head_sha": "86f7c2f8eebb5ff8d37c3de6918b71d9160b79d5",
+              "base_ref": "exp/fu2/structure/s09/B",
+              "base_sha": "04d57b7c55252578a252193b7a8e065d46db51ec"
+            },
+            "D": {
+              "number": 337,
+              "node_id": "PR_kwDOVnhIZ88AAAABNw90hA",
+              "state": "open",
+              "merged": false,
+              "merged_at": null,
+              "stack": {
+                "base": {
+                  "ref": "exp/fu2/structure/s09/trunk",
+                  "sha": "cecc2064ec7a242477dcea677d9bc7665758cf64"
+                },
+                "id": 3226130,
+                "number": 338,
+                "position": 2,
+                "size": 4
+              },
+              "head_ref": "exp/fu2/structure/s09/D",
+              "head_sha": "fd80e2eb5ab3f03a51108cf00e49e6e93ed5d923",
+              "base_ref": "exp/fu2/structure/s09/A",
+              "base_sha": "5e031e4253c59cf1ba7bd8f7a029f4150f835523"
+            }
+          },
+          "refs": {
+            "refs/heads/exp/fu2/structure/s09/A": "5e031e4253c59cf1ba7bd8f7a029f4150f835523",
+            "refs/heads/exp/fu2/structure/s09/B": "04d57b7c55252578a252193b7a8e065d46db51ec",
+            "refs/heads/exp/fu2/structure/s09/C": "86f7c2f8eebb5ff8d37c3de6918b71d9160b79d5",
+            "refs/heads/exp/fu2/structure/s09/D": "fd80e2eb5ab3f03a51108cf00e49e6e93ed5d923",
+            "refs/heads/exp/fu2/structure/s09/trunk": "cecc2064ec7a242477dcea677d9bc7665758cf64",
+            "refs/tags/exp/fu2/structure/s09/authored/A/v1": "117ba8460abf911a14ebdddf9f68afa9d48f1918",
+            "refs/tags/exp/fu2/structure/s09/authored/A/v2": "5e031e4253c59cf1ba7bd8f7a029f4150f835523",
+            "refs/tags/exp/fu2/structure/s09/authored/B/v1": "fb94d7997165980977fff8258c42b1118ba25991",
+            "refs/tags/exp/fu2/structure/s09/authored/B/v2": "04d57b7c55252578a252193b7a8e065d46db51ec",
+            "refs/tags/exp/fu2/structure/s09/authored/C/v1": "3d5da06f555b243fba469229d61b3cbce001ff93",
+            "refs/tags/exp/fu2/structure/s09/authored/C/v2": "86f7c2f8eebb5ff8d37c3de6918b71d9160b79d5",
+            "refs/tags/exp/fu2/structure/s09/authored/D/v2": "fd80e2eb5ab3f03a51108cf00e49e6e93ed5d923"
+          }
+        }
+      },
+      "receipts_after_recovery": [
+        "s09-effect-create-D.receipt.json",
+        "s09-effect-final-B.receipt.json",
+        "s09-effect-final-C.receipt.json",
+        "s09-effect-heads-archives.receipt.json",
+        "s09-effect-park-B.receipt.json",
+        "s09-effect-park-C.receipt.json",
+        "s09-effect-register.receipt.json",
+        "s09-effect-unstack.receipt.json"
+      ],
+      "disposition": "performed-observed-recovered",
+      "finished_at": "2026-11-09T04:28:58.090170+00:00"
+    },
+    "S10": {
+      "id": "S10",
+      "topology": "reorder",
+      "boundary": "unstack",
+      "started_at": "2026-11-09T04:28:58.091695+00:00",
+      "fixture": "fixtures/s10/fixture.json",
+      "prs": {
+        "A": 339,
+        "B": 340,
+        "C": 341
+      },
+      "original_stack": 343,
+      "interruption": {
+        "at": "2026-11-09T04:29:22.019640+00:00",
+        "pid": 28433,
+        "args": [
+          "/Library/Developer/CommandLineTools/usr/bin/python3",
+          "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-followup-2026-11-08/structure/run.py",
+          "worker",
+          "s10",
+          "--boundary",
+          "unstack",
+          "--runid",
+          "initial"
+        ],
+        "exit": -9,
+        "killed_after_durable_boundary": true,
+        "elapsed": 5.887412292000022,
+        "stdout": "worker-initial.stdout.txt",
+        "stderr": "worker-initial.stderr.txt"
+      },
+      "receipts_before_recovery": [
+        "s10-effect-unstack.receipt.json"
+      ],
+      "missing_evidence": {
+        "process": {
+          "at": "2026-11-09T04:29:22.292219+00:00",
+          "pid": 28489,
+          "args": [
+            "/Library/Developer/CommandLineTools/usr/bin/python3",
+            "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-followup-2026-11-08/structure/run.py",
+            "worker",
+            "s10",
+            "--boundary",
+            "",
+            "--runid",
+            "missing-evidence"
+          ],
+          "exit": 1,
+          "killed_after_durable_boundary": false,
+          "elapsed": 0.2609987920000094,
+          "stdout": "worker-missing-evidence.stdout.txt",
+          "stderr": "worker-missing-evidence.stderr.txt"
+        },
+        "no_new_effect_receipt": true,
+        "restored_receipt_sha256": "2118fae350afeb650612f42e6c0d6e0fff8c2894f8666a20a6abf93fdf4bf5bf"
+      },
+      "stale_live": {
+        "process": {
+          "at": "2026-11-09T04:29:27.321269+00:00",
+          "pid": 28514,
+          "args": [
+            "/Library/Developer/CommandLineTools/usr/bin/python3",
+            "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives/experiments/native-stacks-followup-2026-11-08/structure/run.py",
+            "worker",
+            "s10",
+            "--boundary",
+            "",
+            "--runid",
+            "stale-live"
+          ],
+          "exit": 1,
+          "killed_after_durable_boundary": false,
+          "elapsed": 1.5370628750000606,
+          "stdout": "worker-stale-live.stdout.txt",
+          "stderr": "worker-stale-live.stderr.txt"
+        },
+        "no_new_effect_receipt": true,
+        "live_control_head": "271d285b663e4f253818ae49ae8a564c67302798"
+      },
+      "disposition": "performed-refused-missing-and-stale-retained-stopped",
+      "finished_at": "2026-11-09T04:29:27.328422+00:00"
+    }
+  },
+  "finished_at": "2026-11-09T04:29:27.333102+00:00"
+}

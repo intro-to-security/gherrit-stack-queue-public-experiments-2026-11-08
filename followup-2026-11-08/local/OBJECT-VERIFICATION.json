@@ -1,0 +1,710 @@
+{
+  "repository_count": 111,
+  "fsck_failures": 0,
+  "repositories": [
+    {
+      "git_directory": "adversarial-runs/1794194807723389000/foreign-operation-record/repo/.git",
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "git_directory": "adversarial-runs/1794194807723389000/ordered-stale-writer/repo/.git",
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "git_directory": "followup-runs/1794194513334823000/missing-accepted-checkpoint-json/repo/.git",
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "git_directory": "followup-runs/1794194513334823000/duplicate-provider_applied/repo/.git",
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "git_directory": "followup-runs/1794194513334823000/damaged-wrong-ref/repo/.git",
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "git_directory": "followup-runs/1794194513334823000/missing-bindings-json/repo/.git",
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "git_directory": "followup-runs/1794194513334823000/git-aba/source/.git",
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "git_directory": "followup-runs/1794194513334823000/git-aba/sink.git",
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "git_directory": "followup-runs/1794194513334823000/full-custody/repo/.git",
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "git_directory": "followup-runs/1794194513334823000/damaged-missing-operation-after-effect/repo/.git",
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "git_directory": "followup-runs/1794194513334823000/damaged-deleted-checkpoint-complete/repo/.git",
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "git_directory": "followup-runs/1794194513334823000/git-atomic-rejection/source/.git",
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "git_directory": "followup-runs/1794194513334823000/git-atomic-rejection/sink.git",
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "git_directory": "followup-runs/1794194513334823000/missing-operation-json/repo/.git",
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "git_directory": "followup-runs/1794194513334823000/multi-reset-revert/.git",
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "git_directory": "followup-runs/1794194513334823000/repeated-3/.git",
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "git_directory": "followup-runs/1794194513334823000/exact-deletion/.git",
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "git_directory": "followup-runs/1794194513334823000/damaged-wrong-checkpoint/repo/.git",
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "git_directory": "followup-runs/1794194513334823000/duplicate-dispatched/repo/.git",
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "git_directory": "followup-runs/1794194513334823000/git-concurrent-divergent/source/.git",
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "git_directory": "followup-runs/1794194513334823000/git-concurrent-divergent/sink.git",
+      "exit": 0,
+      "stdout": "dangling commit 8f0e7c150d6516c5087c9d786f22af78f777a835\n",
+      "stderr": ""
+    },
+    {
+      "git_directory": "followup-runs/1794194513334823000/duplicate-planned/repo/.git",
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "git_directory": "followup-runs/1794194513334823000/concurrent-worker-0/repo/.git",
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "git_directory": "followup-runs/1794194513334823000/duplicate-acknowledged/repo/.git",
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "git_directory": "followup-runs/1794194513334823000/concurrent-worker-1/repo/.git",
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "git_directory": "followup-runs/1794194513334823000/duplicate-complete/repo/.git",
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "git_directory": "followup-runs/1794194513334823000/exact-mode/.git",
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "git_directory": "followup-runs/1794194513334823000/repeated-11/.git",
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "git_directory": "followup-runs/1794194513334823000/history/.git",
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "git_directory": "followup-runs/1794194513334823000/duplicate-ref_created/repo/.git",
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "git_directory": "followup-runs/1794194513334823000/exact-rename/.git",
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "git_directory": "followup-runs/1794194513334823000/exact-binary/.git",
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "git_directory": "followup-runs/1794194513334823000/git-equal-ref/source/.git",
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "git_directory": "followup-runs/1794194513334823000/git-equal-ref/sink.git",
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "git_directory": "followup-runs/1794194513334823000/exact-binary-conflict/.git",
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "git_directory": "followup-runs/1794194513334823000/duplicate-before_planned/repo/.git",
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "git_directory": "followup-runs/1794194513334823000/missing-pending-operations-json/repo/.git",
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "git_directory": "followup-runs/1794194513334823000/exact-delete-conflict/.git",
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "git_directory": "followup-runs/1794194513334823000/duplicate-checkpoint_installed/repo/.git",
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "git_directory": "followup-runs/1794194513334823000/repeated-7/.git",
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "git_directory": "followup-runs/1794194513334823000/damaged-deleted-ref-complete/repo/.git",
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "git_directory": "followup-runs/1794194513334823000/exact-rename-conflict/.git",
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "git_directory": "followup-runs/1794194513334823000/git-concurrent-same/source/.git",
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "git_directory": "followup-runs/1794194513334823000/git-concurrent-same/sink.git",
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "git_directory": "followup-runs/1794194615590036000/missing-accepted-checkpoint-json/repo/.git",
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "git_directory": "followup-runs/1794194615590036000/duplicate-provider_applied/repo/.git",
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "git_directory": "followup-runs/1794194615590036000/damaged-wrong-ref/repo/.git",
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "git_directory": "followup-runs/1794194615590036000/missing-bindings-json/repo/.git",
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "git_directory": "followup-runs/1794194615590036000/git-aba/source/.git",
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "git_directory": "followup-runs/1794194615590036000/git-aba/sink.git",
+      "exit": 0,
+      "stdout": "dangling commit 8f0e7c150d6516c5087c9d786f22af78f777a835\n",
+      "stderr": ""
+    },
+    {
+      "git_directory": "followup-runs/1794194615590036000/full-custody/repo/.git",
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "git_directory": "followup-runs/1794194615590036000/damaged-missing-operation-after-effect/repo/.git",
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "git_directory": "followup-runs/1794194615590036000/damaged-deleted-checkpoint-complete/repo/.git",
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "git_directory": "followup-runs/1794194615590036000/git-atomic-rejection/source/.git",
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "git_directory": "followup-runs/1794194615590036000/git-atomic-rejection/sink.git",
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "git_directory": "followup-runs/1794194615590036000/missing-operation-json/repo/.git",
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "git_directory": "followup-runs/1794194615590036000/multi-reset-revert/.git",
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "git_directory": "followup-runs/1794194615590036000/repeated-3/.git",
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "git_directory": "followup-runs/1794194615590036000/exact-deletion/.git",
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "git_directory": "followup-runs/1794194615590036000/damaged-wrong-checkpoint/repo/.git",
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "git_directory": "followup-runs/1794194615590036000/duplicate-dispatched/repo/.git",
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "git_directory": "followup-runs/1794194615590036000/git-concurrent-divergent/source/.git",
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "git_directory": "followup-runs/1794194615590036000/git-concurrent-divergent/sink.git",
+      "exit": 0,
+      "stdout": "dangling commit 8f0e7c150d6516c5087c9d786f22af78f777a835\n",
+      "stderr": ""
+    },
+    {
+      "git_directory": "followup-runs/1794194615590036000/duplicate-planned/repo/.git",
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "git_directory": "followup-runs/1794194615590036000/concurrent-worker-0/repo/.git",
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "git_directory": "followup-runs/1794194615590036000/duplicate-acknowledged/repo/.git",
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "git_directory": "followup-runs/1794194615590036000/concurrent-worker-1/repo/.git",
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "git_directory": "followup-runs/1794194615590036000/duplicate-complete/repo/.git",
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "git_directory": "followup-runs/1794194615590036000/exact-mode/.git",
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "git_directory": "followup-runs/1794194615590036000/repeated-11/.git",
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "git_directory": "followup-runs/1794194615590036000/history/.git",
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "git_directory": "followup-runs/1794194615590036000/duplicate-ref_created/repo/.git",
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "git_directory": "followup-runs/1794194615590036000/exact-rename/.git",
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "git_directory": "followup-runs/1794194615590036000/exact-binary/.git",
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "git_directory": "followup-runs/1794194615590036000/git-equal-ref/source/.git",
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "git_directory": "followup-runs/1794194615590036000/git-equal-ref/sink.git",
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "git_directory": "followup-runs/1794194615590036000/exact-binary-conflict/.git",
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "git_directory": "followup-runs/1794194615590036000/duplicate-before_planned/repo/.git",
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "git_directory": "followup-runs/1794194615590036000/missing-pending-operations-json/repo/.git",
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "git_directory": "followup-runs/1794194615590036000/exact-delete-conflict/.git",
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "git_directory": "followup-runs/1794194615590036000/duplicate-checkpoint_installed/repo/.git",
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "git_directory": "followup-runs/1794194615590036000/repeated-7/.git",
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "git_directory": "followup-runs/1794194615590036000/damaged-deleted-ref-complete/repo/.git",
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "git_directory": "followup-runs/1794194615590036000/exact-rename-conflict/.git",
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "git_directory": "followup-runs/1794194615590036000/git-concurrent-same/source/.git",
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "git_directory": "followup-runs/1794194615590036000/git-concurrent-same/sink.git",
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "git_directory": "interface-runs/1794194693558535000/explicit-publication/source/.git",
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "git_directory": "interface-runs/1794194693558535000/explicit-publication/sink.git",
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "git_directory": "interface-runs/1794194693558535000/explicit-publication/unrelated.git",
+      "exit": 0,
+      "stdout": "",
+      "stderr": "notice: No default references\n"
+    },
+    {
+      "git_directory": "interface-runs/1794194693558535000/hook-deletion/source/.git",
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "git_directory": "interface-runs/1794194693558535000/hook-deletion/sink.git",
+      "exit": 0,
+      "stdout": "dangling commit a7b1992208fdb4d7d30ff537805c0bf16c2a0324\n",
+      "stderr": "notice: No default references\n"
+    },
+    {
+      "git_directory": "interface-runs/1794194693558535000/hook-deletion/inner.git",
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "git_directory": "interface-runs/1794194693558535000/hook-dry-run/source/.git",
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "git_directory": "interface-runs/1794194693558535000/hook-dry-run/sink.git",
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "git_directory": "interface-runs/1794194693558535000/hook-dry-run/inner.git",
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "git_directory": "interface-runs/1794194693558535000/hook-unrelated/source/.git",
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "git_directory": "interface-runs/1794194693558535000/hook-unrelated/sink.git",
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "git_directory": "interface-runs/1794194693558535000/hook-unrelated/inner.git",
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "git_directory": "runs/20261108T221826-1794194306177964000/replacement-full-transfer/repo/.git",
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "git_directory": "runs/20261108T221826-1794194306177964000/shared-file-repo/.git",
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "git_directory": "runs/20261108T221826-1794194306177964000/ordinary-git-repo/.git",
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "git_directory": "runs/20261108T221826-1794194306177964000/faults/before_planned/repo/.git",
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "git_directory": "runs/20261108T221826-1794194306177964000/faults/complete/repo/.git",
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "git_directory": "runs/20261108T221826-1794194306177964000/faults/provider_applied/repo/.git",
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "git_directory": "runs/20261108T221826-1794194306177964000/faults/checkpoint_installed/repo/.git",
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "git_directory": "runs/20261108T221826-1794194306177964000/faults/ref_created/repo/.git",
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "git_directory": "runs/20261108T221826-1794194306177964000/faults/acknowledged/repo/.git",
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "git_directory": "runs/20261108T221826-1794194306177964000/faults/planned/repo/.git",
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "git_directory": "runs/20261108T221826-1794194306177964000/faults/dispatched/repo/.git",
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "git_directory": "runs/20261108T221826-1794194306177964000/negative-reset-repo/.git",
+      "exit": 0,
+      "stdout": "dangling blob ca386c980bfae222705db6a810254aefa00271cb\n",
+      "stderr": ""
+    },
+    {
+      "git_directory": "runs/20261108T221826-1794194306177964000/integration-repo/.git",
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    }
+  ],
+  "sources": [
+    {
+      "path": "PLAN.md",
+      "sha256": "f30aa92ed9479e3d69a6144b5563ddc79ec38cfadbffead396ac43fe10dffd94",
+      "bytes": 8225
+    },
+    {
+      "path": "baseline-harness.py",
+      "sha256": "548714fe2959e48dfd61286683a4773405affc23b2591e2a48637c5c76ebb7e3",
+      "bytes": 46711
+    },
+    {
+      "path": "followup.py",
+      "sha256": "e398314d5fc8a4c14a091839b3fdcd3601fd2d5d6e86f9b0a5c2c66cb4b03b83",
+      "bytes": 32874
+    },
+    {
+      "path": "interface.py",
+      "sha256": "952f536f1e1f93555d13a2b37560ef714ec70d8dfac5ea9b8d36654a5564f40e",
+      "bytes": 13125
+    },
+    {
+      "path": "recovery_adversarial.py",
+      "sha256": "f949c210205d7d556cd9398ac1b5306513c5f808e4d557ff8b8acf5f4c685c3c",
+      "bytes": 6111
+    },
+    {
+      "path": "HARNESS-CORRECTIONS.md",
+      "sha256": "97a8cc30669d4d16781c8bb57fcf8dcca0179ae72950a8d75b39949652217b4d",
+      "bytes": 1070
+    },
+    {
+      "path": "verify_evidence.py",
+      "sha256": "9f08f5f9975e0f47d76a39871d3ffbc37bbdf729e877fa2cf7eb7de16be7b031",
+      "bytes": 1599
+    }
+  ],
+  "scope": "Object connectivity/integrity of all retained local fixture Git stores, including negative controls; this does not validate protocol semantics."
+}

@@ -1,0 +1,14 @@
+{
+  "lab.py": {
+    "sha256": "747b59db8930fccadf2c2aa5668ff149f06d7e667fb5fd46b2db99ba9ff688ff",
+    "bytes": 8911
+  },
+  "run.py": {
+    "sha256": "63c5d2b9ebf4fd676a9afc3b44b049790e2a8cc481c490d2d6111b4f38a6e89e",
+    "bytes": 20468
+  },
+  "PLAN.md": {
+    "sha256": "58357e6bc624507d8d2426501da0a37f9cae888dfca5cd81b9c3ddd42d939858",
+    "bytes": 4418
+  }
+}

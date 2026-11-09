@@ -1,0 +1,874 @@
+{
+  "at": "2026-11-09T04:21:32.875429+00:00",
+  "repo": "joshlf/gherrit-native-stack-experiments-2026-11-08",
+  "cases": [
+    {
+      "id": "FC01",
+      "status": "reused",
+      "result": "Upper opened before membership missed trunk-filter; gate blocked.",
+      "evidence": [
+        "../../native-stacks-2026-11-08/ci-reviews/evidence/snapshot-initial-first-open.json",
+        "../../native-stacks-2026-11-08/ci-reviews/evidence/snapshot-initial-just-registered.json"
+      ],
+      "evidence_files": [
+        {
+          "path": "../../native-stacks-2026-11-08/ci-reviews/evidence/snapshot-initial-first-open.json",
+          "exists": true,
+          "sha256": "53aa2fcdab4132cec3cf1ab4f869ed2e572344196c7579cab4e63d08cace0341"
+        },
+        {
+          "path": "../../native-stacks-2026-11-08/ci-reviews/evidence/snapshot-initial-just-registered.json",
+          "exists": true,
+          "sha256": "6f6ecaab4b917935a7b704dbbe38113ebc1fe1d986307ea15b80578f3fbd3581"
+        }
+      ]
+    },
+    {
+      "id": "FC02",
+      "status": "reused",
+      "result": "Explicit stacked trigger produced required PR-associated check and CLEAN upper.",
+      "evidence": [
+        "../../native-stacks-2026-11-08/ci-reviews/evidence/snapshot-adoption-first-open.json",
+        "../../native-stacks-2026-11-08/ci-reviews/evidence/snapshot-adoption-registered-completed.json"
+      ],
+      "evidence_files": [
+        {
+          "path": "../../native-stacks-2026-11-08/ci-reviews/evidence/snapshot-adoption-first-open.json",
+          "exists": true,
+          "sha256": "723b5c47796cb6223f0f6d3232a830909db24d70f7dd934b8a50f7366f72d0f2"
+        },
+        {
+          "path": "../../native-stacks-2026-11-08/ci-reviews/evidence/snapshot-adoption-registered-completed.json",
+          "exists": true,
+          "sha256": "94095bb03500eb63ae84f2f7ebc72c281fcc5433626bc4f0313f90801922ec59"
+        }
+      ]
+    },
+    {
+      "id": "FC03",
+      "status": "reused",
+      "result": "Registered synchronize produced required context and CLEAN upper.",
+      "evidence": [
+        "../../native-stacks-2026-11-08/ci-reviews/evidence/snapshot-initial-synchronized.json"
+      ],
+      "evidence_files": [
+        {
+          "path": "../../native-stacks-2026-11-08/ci-reviews/evidence/snapshot-initial-synchronized.json",
+          "exists": true,
+          "sha256": "6f11ac05c24f76080b6e587efed95e0927f1c4f392bf8d0a5f6dc4375ba5d119"
+        }
+      ]
+    },
+    {
+      "id": "FC04",
+      "status": "reused",
+      "result": "Successful branch workflow_dispatch did not satisfy upper required PR gate.",
+      "evidence": [
+        "../../native-stacks-2026-11-08/ci-reviews/evidence/snapshot-initial-dispatch-completed.json"
+      ],
+      "evidence_files": [
+        {
+          "path": "../../native-stacks-2026-11-08/ci-reviews/evidence/snapshot-initial-dispatch-completed.json",
+          "exists": true,
+          "sha256": "6a24ca2aa82aac3998dddc7984d1887eda9e0e55f0937ec263699d4881d55393"
+        }
+      ]
+    },
+    {
+      "id": "FC05",
+      "status": "performed",
+      "result": "External commit status at head satisfied native check; binding same context to Actions App blocked; any-producer restoration CLEAN.",
+      "evidence": [
+        "evidence/snapshot-status-registered.json",
+        "evidence/snapshot-status-head-success.json",
+        "evidence/snapshot-status-app-bound.json",
+        "evidence/snapshot-status-app-unbound.json"
+      ],
+      "evidence_files": [
+        {
+          "path": "evidence/snapshot-status-registered.json",
+          "exists": true,
+          "sha256": "2d45d698f003882467787e16926cdc4d96056eeee89b10708722ff7fa1dbd606"
+        },
+        {
+          "path": "evidence/snapshot-status-head-success.json",
+          "exists": true,
+          "sha256": "041695fa0fe304150883cc4771c1ad9c4b05a6c8db29bc9bb15308e250217bd1"
+        },
+        {
+          "path": "evidence/snapshot-status-app-bound.json",
+          "exists": true,
+          "sha256": "14873f2ae27ed9d4c1cd0d1a20e3daf41a75c4950f42bd5ae94fead02dd1cd1a"
+        },
+        {
+          "path": "evidence/snapshot-status-app-unbound.json",
+          "exists": true,
+          "sha256": "3b513f1b4db91cab73b751f2ae371d6944ad835105253d03af17ff763efe179a"
+        }
+      ]
+    },
+    {
+      "id": "FC06",
+      "status": "performed",
+      "result": "Candidate failure overrode successful source-head status; candidate success restored CLEAN.",
+      "evidence": [
+        "evidence/snapshot-status-head-success.json",
+        "evidence/snapshot-status-candidate-failure.json",
+        "evidence/snapshot-status-candidate-success.json"
+      ],
+      "evidence_files": [
+        {
+          "path": "evidence/snapshot-status-head-success.json",
+          "exists": true,
+          "sha256": "041695fa0fe304150883cc4771c1ad9c4b05a6c8db29bc9bb15308e250217bd1"
+        },
+        {
+          "path": "evidence/snapshot-status-candidate-failure.json",
+          "exists": true,
+          "sha256": "02ef788cbd02ec56bf6afc1ec94f8e8559b637a7cf691738e15012af242807c6"
+        },
+        {
+          "path": "evidence/snapshot-status-candidate-success.json",
+          "exists": true,
+          "sha256": "f1b327acb924ab0aa682767f7c624813873e7eb18d66f29f59774fd89c42acaa"
+        }
+      ]
+    },
+    {
+      "id": "FC07",
+      "status": "performed",
+      "result": "Own-ref variants had absent default-branch prerequisite; after root supplied default workflow, actual target stacked upper job42560765784 succeeded and gate became CLEAN unchanged.",
+      "evidence": [
+        "evidence/target-runs.json",
+        "evidence/target-knownpath-runs.json",
+        "evidence/target-main-runs.json",
+        "evidence/snapshot-target-main-opened.json",
+        "evidence/snapshot-target-main-registered-later.json",
+        "evidence/target-main-default-source.yml",
+        "evidence/actions-event-reference.html"
+      ],
+      "evidence_files": [
+        {
+          "path": "evidence/target-runs.json",
+          "exists": true,
+          "sha256": "b354aee6c4a1b8d4b0f9994d833d91acb03cac7ce517336ea69a7e9233176d17"
+        },
+        {
+          "path": "evidence/target-knownpath-runs.json",
+          "exists": true,
+          "sha256": "b2a1a9213e38fcfc63c5728fbb58b4b88f7161412ac185a5a422783d56dedc25"
+        },
+        {
+          "path": "evidence/target-main-runs.json",
+          "exists": true,
+          "sha256": "cd8403feeae5e736f5b880790be7195b4fe9947b683373a0c4d06c6cbfef7081"
+        },
+        {
+          "path": "evidence/snapshot-target-main-opened.json",
+          "exists": true,
+          "sha256": "a8337181f5921ca233bbc218c42cb8a48f91046accb84bf19a41a77c24813ea2"
+        },
+        {
+          "path": "evidence/snapshot-target-main-registered-later.json",
+          "exists": true,
+          "sha256": "4f523f0537043542c131faeaec991aa663df47261238c07334f1e373cbd528ca"
+        },
+        {
+          "path": "evidence/target-main-default-source.yml",
+          "exists": true,
+          "sha256": "fbe21b4a3a1000767979a46a1242066c30071aad305a96c1aa0ce0d8a62ddc44"
+        },
+        {
+          "path": "evidence/actions-event-reference.html",
+          "exists": true,
+          "sha256": "ed7937442b862cc8cc607b53171981593dac1c94635046055a0b8e52fa108575"
+        }
+      ]
+    },
+    {
+      "id": "RV01",
+      "status": "unavailable-website-operation",
+      "result": "Distinct-author fixture, rule and unrelated trunk advance prepared; actual website operation unavailable to parent CUA. Only #128 handed asynchronously to user; root owns pending human response. No website retention/signing outcome claimed.",
+      "evidence": [
+        "evidence/snapshot-ui-stale-approved.json",
+        "evidence/snapshot-ui-stale-ready-ui.json",
+        "evidence/root-ui-availability.json",
+        "state.json"
+      ],
+      "fixture": "ui-stale",
+      "evidence_files": [
+        {
+          "path": "evidence/snapshot-ui-stale-approved.json",
+          "exists": true,
+          "sha256": "3849813b402163ba243d61bb4b1868a879434064241a7783ea0b19b8929510c6"
+        },
+        {
+          "path": "evidence/snapshot-ui-stale-ready-ui.json",
+          "exists": true,
+          "sha256": "1344fe74a74c5d34eec2a6eb780820accf1f65884ef6da34845f2e918d4b94a6"
+        },
+        {
+          "path": "evidence/root-ui-availability.json",
+          "exists": true,
+          "sha256": "0a57713ea744531386dc2bbd2f6138b04da505ef6cbf900bc745edddd8c9beaa"
+        },
+        {
+          "path": "state.json",
+          "exists": true,
+          "sha256": "162a659d707dd48d6b3393a616afb88837b54bfde0014e8233571b258755a07d"
+        }
+      ]
+    },
+    {
+      "id": "RV02",
+      "status": "unavailable-website-operation",
+      "result": "Distinct-author fixture, rule and unrelated trunk advance prepared; actual website operation unavailable to parent CUA. Only #128 handed asynchronously to user; root owns pending human response. No website retention/signing outcome claimed.",
+      "evidence": [
+        "evidence/snapshot-ui-lastpush-approved.json",
+        "evidence/snapshot-ui-lastpush-ready-ui.json",
+        "evidence/root-ui-availability.json",
+        "state.json"
+      ],
+      "fixture": "ui-lastpush",
+      "evidence_files": [
+        {
+          "path": "evidence/snapshot-ui-lastpush-approved.json",
+          "exists": true,
+          "sha256": "e6d1521694dcd52043eadfa730be10832593b15a2ba46b8b8c41a10a96fc0a59"
+        },
+        {
+          "path": "evidence/snapshot-ui-lastpush-ready-ui.json",
+          "exists": true,
+          "sha256": "408a2daceb575cb20350f2168312cd8fc4de729ce82e3ec6b36c2d54e8f99316"
+        },
+        {
+          "path": "evidence/root-ui-availability.json",
+          "exists": true,
+          "sha256": "0a57713ea744531386dc2bbd2f6138b04da505ef6cbf900bc745edddd8c9beaa"
+        },
+        {
+          "path": "state.json",
+          "exists": true,
+          "sha256": "162a659d707dd48d6b3393a616afb88837b54bfde0014e8233571b258755a07d"
+        }
+      ]
+    },
+    {
+      "id": "RV03",
+      "status": "unavailable-website-operation",
+      "result": "Distinct-author fixture, rule and unrelated trunk advance prepared; actual website operation unavailable to parent CUA. Only #128 handed asynchronously to user; root owns pending human response. No website retention/signing outcome claimed.",
+      "evidence": [
+        "evidence/snapshot-ui-codeowner-approved.json",
+        "evidence/snapshot-ui-codeowner-ready-ui.json",
+        "evidence/root-ui-availability.json",
+        "state.json"
+      ],
+      "fixture": "ui-codeowner",
+      "evidence_files": [
+        {
+          "path": "evidence/snapshot-ui-codeowner-approved.json",
+          "exists": true,
+          "sha256": "2d20626f49b1cca44a339970b2cb078f16efbb5a3d088f3f6b2100f150537faa"
+        },
+        {
+          "path": "evidence/snapshot-ui-codeowner-ready-ui.json",
+          "exists": true,
+          "sha256": "6ce47c106a037889e1e5b2bd715843f6c122dbf91b61500eba256337aec33530"
+        },
+        {
+          "path": "evidence/root-ui-availability.json",
+          "exists": true,
+          "sha256": "0a57713ea744531386dc2bbd2f6138b04da505ef6cbf900bc745edddd8c9beaa"
+        },
+        {
+          "path": "state.json",
+          "exists": true,
+          "sha256": "162a659d707dd48d6b3393a616afb88837b54bfde0014e8233571b258755a07d"
+        }
+      ]
+    },
+    {
+      "id": "SG04",
+      "status": "unavailable-website-operation",
+      "result": "Distinct-author fixture, rule and unrelated trunk advance prepared; actual website operation unavailable to parent CUA. Only #128 handed asynchronously to user; root owns pending human response. No website retention/signing outcome claimed.",
+      "evidence": [
+        "evidence/snapshot-ui-signed-approved.json",
+        "evidence/snapshot-ui-signed-ready-ui.json",
+        "evidence/root-ui-availability.json",
+        "state.json"
+      ],
+      "fixture": "ui-signed",
+      "evidence_files": [
+        {
+          "path": "evidence/snapshot-ui-signed-approved.json",
+          "exists": true,
+          "sha256": "77ee4b2d77a21598ad49590e1c85d58d3e9c3e20a1dbde9220028ed59e1155ae"
+        },
+        {
+          "path": "evidence/snapshot-ui-signed-ready-ui.json",
+          "exists": true,
+          "sha256": "f076487fb542958bd2037070de35bcdc78604d5c21aa52d71b56ce2bf3a636d4"
+        },
+        {
+          "path": "evidence/root-ui-availability.json",
+          "exists": true,
+          "sha256": "0a57713ea744531386dc2bbd2f6138b04da505ef6cbf900bc745edddd8c9beaa"
+        },
+        {
+          "path": "state.json",
+          "exists": true,
+          "sha256": "162a659d707dd48d6b3393a616afb88837b54bfde0014e8233571b258755a07d"
+        }
+      ]
+    },
+    {
+      "id": "RV04",
+      "status": "reused",
+      "result": "Substantive hinted upper update dismissed review.",
+      "evidence": [
+        "../../native-stacks-2026-11-08/ci-reviews/evidence/snapshot-review-hint-substantive.json"
+      ],
+      "evidence_files": [
+        {
+          "path": "../../native-stacks-2026-11-08/ci-reviews/evidence/snapshot-review-hint-substantive.json",
+          "exists": true,
+          "sha256": "f9f0d058e90bcbc7ff5cbaec1e006d25b9396495cbd715f5356de3b95946eae4"
+        }
+      ]
+    },
+    {
+      "id": "RV05",
+      "status": "reused",
+      "result": "Equal-layer native suffix cascade: squash/merge dismissed with merge-base explanation; rebase retained, under recorded sequential fixture conditions.",
+      "evidence": [
+        "../../native-stacks-2026-11-08/ci-reviews/evidence/snapshot-review-native-native-prefix-later.json",
+        "../../native-stacks-2026-11-08/ci-reviews/evidence/snapshot-review-nohint-native-prefix-later.json",
+        "../../native-stacks-2026-11-08/ci-reviews/evidence/snapshot-review-hint-native-prefix-later.json",
+        "../../native-stacks-2026-11-08/ci-reviews/evidence/review-native-native-comparison.json",
+        "../../native-stacks-2026-11-08/ci-reviews/evidence/review-nohint-native-comparison.json",
+        "../../native-stacks-2026-11-08/ci-reviews/evidence/review-hint-native-comparison.json"
+      ],
+      "evidence_files": [
+        {
+          "path": "../../native-stacks-2026-11-08/ci-reviews/evidence/snapshot-review-native-native-prefix-later.json",
+          "exists": true,
+          "sha256": "03b7d1ed98c0506f6c593aba405fa9e3cce19e2a703bf4661fd777a2a632db77"
+        },
+        {
+          "path": "../../native-stacks-2026-11-08/ci-reviews/evidence/snapshot-review-nohint-native-prefix-later.json",
+          "exists": true,
+          "sha256": "053fa7ec3287884b2b2c71454022da516b9b438b92486354ded43d9b4b1ba14f"
+        },
+        {
+          "path": "../../native-stacks-2026-11-08/ci-reviews/evidence/snapshot-review-hint-native-prefix-later.json",
+          "exists": true,
+          "sha256": "1e6e8a7e9973f6206aa07eac1b00cb2a32c35802e1372a3d1cd9132fd0178bb4"
+        },
+        {
+          "path": "../../native-stacks-2026-11-08/ci-reviews/evidence/review-native-native-comparison.json",
+          "exists": true,
+          "sha256": "992c86b98391080cde35a80f8bebb28e11453632492758f6e57923b1b46ee08c"
+        },
+        {
+          "path": "../../native-stacks-2026-11-08/ci-reviews/evidence/review-nohint-native-comparison.json",
+          "exists": true,
+          "sha256": "f3aa0acc27338c2a693a87f25d82d227b57eb55aa46a5e1f15438638f2ccc963"
+        },
+        {
+          "path": "../../native-stacks-2026-11-08/ci-reviews/evidence/review-hint-native-comparison.json",
+          "exists": true,
+          "sha256": "b761bd0ae6d21195841a2aad83c8fd58bed866db946f770e5a111a740b5c00c1"
+        }
+      ]
+    },
+    {
+      "id": "RV06",
+      "status": "reused",
+      "result": "Hinted unchanged local rewrite retained both; unhinted lower retained/upper dismissed.",
+      "evidence": [
+        "../../native-stacks-2026-11-08/ci-reviews/evidence/snapshot-review-nohint-approved.json",
+        "../../native-stacks-2026-11-08/ci-reviews/evidence/snapshot-review-nohint-rebased.json",
+        "../../native-stacks-2026-11-08/ci-reviews/evidence/snapshot-review-hint-approved.json",
+        "../../native-stacks-2026-11-08/ci-reviews/evidence/snapshot-review-hint-rebased.json"
+      ],
+      "evidence_files": [
+        {
+          "path": "../../native-stacks-2026-11-08/ci-reviews/evidence/snapshot-review-nohint-approved.json",
+          "exists": true,
+          "sha256": "347eb395adca86151b3364e716475ce1ae5fde777bbe19a515b8d0d606f94314"
+        },
+        {
+          "path": "../../native-stacks-2026-11-08/ci-reviews/evidence/snapshot-review-nohint-rebased.json",
+          "exists": true,
+          "sha256": "b02d7a339ca327f4c2aafddad9bc2e4bb4a47b189139ac3d36d41d5373c86b1c"
+        },
+        {
+          "path": "../../native-stacks-2026-11-08/ci-reviews/evidence/snapshot-review-hint-approved.json",
+          "exists": true,
+          "sha256": "905d2e815f45bc669c417479a99b6c6cd6af4aef290717fde0fce610b7422039"
+        },
+        {
+          "path": "../../native-stacks-2026-11-08/ci-reviews/evidence/snapshot-review-hint-rebased.json",
+          "exists": true,
+          "sha256": "78c122f69144e4914c54bdc4865775fbf0f8e173a59d44fb8e5c44c1b285400a"
+        }
+      ]
+    },
+    {
+      "id": "SG01",
+      "status": "reused",
+      "result": "Unsigned selected source rejected by required-signature path.",
+      "evidence": [
+        "../../native-stacks-2026-11-08/ci-reviews/evidence/snapshot-signatures-before-merge.json",
+        "../../native-stacks-2026-11-08/ci-reviews/evidence/snapshot-signatures-first-after-merge.json"
+      ],
+      "evidence_files": [
+        {
+          "path": "../../native-stacks-2026-11-08/ci-reviews/evidence/snapshot-signatures-before-merge.json",
+          "exists": true,
+          "sha256": "ff9ca1db650cd5d65fc560a0cb5a7771660ec10d321dbd96af784cc2865d4180"
+        },
+        {
+          "path": "../../native-stacks-2026-11-08/ci-reviews/evidence/snapshot-signatures-first-after-merge.json",
+          "exists": true,
+          "sha256": "4241ca90724efbfa694f212d10da8a92c721f0f93ce1f7489cf3d4c37b160efb"
+        }
+      ]
+    },
+    {
+      "id": "SG02",
+      "status": "performed",
+      "result": "All-signed two-commit selected lower merged; unsigned and mixed two-commit selected lowers failed verified-signature requirement with unchanged heads/bases.",
+      "evidence": [
+        "evidence/sig-signedmulti-last-merge-receipt.json",
+        "evidence/sig-signedmulti-comparison.json",
+        "evidence/snapshot-sig-signedmulti-before-merge.json",
+        "evidence/snapshot-sig-signedmulti-after-merge.json",
+        "evidence/sig-unsignedmulti-last-merge-receipt.json",
+        "evidence/sig-unsignedmulti-comparison.json",
+        "evidence/snapshot-sig-unsignedmulti-before-merge.json",
+        "evidence/snapshot-sig-unsignedmulti-after-merge.json",
+        "evidence/sig-mixedmulti-last-merge-receipt.json",
+        "evidence/sig-mixedmulti-comparison.json",
+        "evidence/snapshot-sig-mixedmulti-before-merge.json",
+        "evidence/snapshot-sig-mixedmulti-after-merge.json"
+      ],
+      "evidence_files": [
+        {
+          "path": "evidence/sig-signedmulti-last-merge-receipt.json",
+          "exists": true,
+          "sha256": "d1ac8ebafd4e31c5622ccf2510299229922a2d135e2d5f7a60a1bf46baeddecb"
+        },
+        {
+          "path": "evidence/sig-signedmulti-comparison.json",
+          "exists": true,
+          "sha256": "143df053335a529e144d0dea332ead8d376b37ad85d5720a24fe809deaf4b57c"
+        },
+        {
+          "path": "evidence/snapshot-sig-signedmulti-before-merge.json",
+          "exists": true,
+          "sha256": "c429364076af94698555e0c14a41bddc3606d31f2ba67e15d804102b9ab59dcd"
+        },
+        {
+          "path": "evidence/snapshot-sig-signedmulti-after-merge.json",
+          "exists": true,
+          "sha256": "c57e65c6520f34a73ec0125b2e6e885a4e3b00b8984194a41b8a9029bf29ba8d"
+        },
+        {
+          "path": "evidence/sig-unsignedmulti-last-merge-receipt.json",
+          "exists": true,
+          "sha256": "166d4168e41051f72237fc2eb29e5ce5b005c53110aab3479df34a9894820519"
+        },
+        {
+          "path": "evidence/sig-unsignedmulti-comparison.json",
+          "exists": true,
+          "sha256": "a1932eb54bede9602edeab34ec4df74a2d9ae9a5890a76ffbaf7a8d47a5ee7a6"
+        },
+        {
+          "path": "evidence/snapshot-sig-unsignedmulti-before-merge.json",
+          "exists": true,
+          "sha256": "93ba414ec7f09959cd9e60a824c5b1f18dd36f9f7f993d484e2ac2f7100f1d3b"
+        },
+        {
+          "path": "evidence/snapshot-sig-unsignedmulti-after-merge.json",
+          "exists": true,
+          "sha256": "73770f361b65c281e5c8e494a97ca7aa8270e60a24c126d4f5b276f24f18cf64"
+        },
+        {
+          "path": "evidence/sig-mixedmulti-last-merge-receipt.json",
+          "exists": true,
+          "sha256": "166d4168e41051f72237fc2eb29e5ce5b005c53110aab3479df34a9894820519"
+        },
+        {
+          "path": "evidence/sig-mixedmulti-comparison.json",
+          "exists": true,
+          "sha256": "fd2e688f0ebae704ea9b3a9b8034d1e65e5acecb5c106ae4ef5fbc6bc9c98a17"
+        },
+        {
+          "path": "evidence/snapshot-sig-mixedmulti-before-merge.json",
+          "exists": true,
+          "sha256": "4417f6e1dab72f27bd7b5b8dcd6e54b2d1987c09a537d8887c8f0a18c5f2193e"
+        },
+        {
+          "path": "evidence/snapshot-sig-mixedmulti-after-merge.json",
+          "exists": true,
+          "sha256": "0e37141daa77b50e3195064cea7fcbcc6280c67a32f7b9b6b3414cf616ef2596"
+        }
+      ]
+    },
+    {
+      "id": "SG03",
+      "status": "performed",
+      "result": "Unprotected mixed verified+unsigned two-commit suffix rewrote both commits as verified; each own patch/tree/author/message preserved, object/signature identity changed.",
+      "evidence": [
+        "evidence/sig-mixedsuffix-comparison.json",
+        "evidence/snapshot-sig-mixedsuffix-before-merge.json",
+        "evidence/snapshot-sig-mixedsuffix-after-merge.json"
+      ],
+      "evidence_files": [
+        {
+          "path": "evidence/sig-mixedsuffix-comparison.json",
+          "exists": true,
+          "sha256": "2fee49273e730529d092399541a874bf0f90852578a145a6f08b0bc037ba507e"
+        },
+        {
+          "path": "evidence/snapshot-sig-mixedsuffix-before-merge.json",
+          "exists": true,
+          "sha256": "a69867a25c7195478f1be78e9b6b7909ff3a004c6f1e7348ddde92072fb5538a"
+        },
+        {
+          "path": "evidence/snapshot-sig-mixedsuffix-after-merge.json",
+          "exists": true,
+          "sha256": "5a60b0d8b5b4771236c15c2c232010000d60d9f61b65f528e0111e683b8fab83"
+        }
+      ]
+    },
+    {
+      "id": "SG05",
+      "status": "reused",
+      "result": "Protected unsigned-source and unprotected verified-source suffix signing controls retained.",
+      "evidence": [
+        "../../native-stacks-2026-11-08/ci-reviews/evidence/signed-prefix-comparison.json",
+        "../../native-stacks-2026-11-08/ci-reviews/evidence/signed-source-unprotected-native-comparison.json"
+      ],
+      "evidence_files": [
+        {
+          "path": "../../native-stacks-2026-11-08/ci-reviews/evidence/signed-prefix-comparison.json",
+          "exists": true,
+          "sha256": "dcb5867d5cb22732f147b11ba11f5a2c03e3d41f5f39d3edd5d34b96d737a691"
+        },
+        {
+          "path": "../../native-stacks-2026-11-08/ci-reviews/evidence/signed-source-unprotected-native-comparison.json",
+          "exists": true,
+          "sha256": "3fad82e1f5df128a12652683b480c40fdff1b0bf601cd7eb282ae55d2df7988e"
+        }
+      ]
+    },
+    {
+      "id": "RL01",
+      "status": "performed",
+      "result": "Exact deployment grid: no success BLOCKED; successful raw head or existing candidate yielded CLEAN; both failure BLOCKED. All records inactive and exact rule/environment deleted/readback404.",
+      "evidence": [
+        "evidence/deployments.json",
+        "evidence/snapshot-deploy-before-deployment.json",
+        "evidence/snapshot-deploy-head-success.json",
+        "evidence/snapshot-deploy-candidate-failure.json",
+        "evidence/snapshot-deploy-head-failure-candidate-success.json",
+        "evidence/snapshot-deploy-both-failure.json",
+        "evidence/snapshot-deploy-restored-head-success.json",
+        "cleanup.json",
+        "evidence/commands.jsonl"
+      ],
+      "evidence_files": [
+        {
+          "path": "evidence/deployments.json",
+          "exists": true,
+          "sha256": "d1a49e3753136362f2936edf2ba7f9b1240e31c61c7e47081f84df213b0a7c43"
+        },
+        {
+          "path": "evidence/snapshot-deploy-before-deployment.json",
+          "exists": true,
+          "sha256": "154f7e43a796d4664b5c2311099067fe9c7391a4403801e5e348c27c33e9b9e9"
+        },
+        {
+          "path": "evidence/snapshot-deploy-head-success.json",
+          "exists": true,
+          "sha256": "a7f0355c6460a3e86482d3ef3ab5332e1089df3f5b4c28a6f64a953db2966d02"
+        },
+        {
+          "path": "evidence/snapshot-deploy-candidate-failure.json",
+          "exists": true,
+          "sha256": "a6b51b296de3ab16ff818f2b91e2c168741252f553aa149a61dfa9555db66542"
+        },
+        {
+          "path": "evidence/snapshot-deploy-head-failure-candidate-success.json",
+          "exists": true,
+          "sha256": "5ebda18cd05d274f61dafcdf8bd6c146f784052c0f80dfc2253cd7f94b0578ee"
+        },
+        {
+          "path": "evidence/snapshot-deploy-both-failure.json",
+          "exists": true,
+          "sha256": "590c8e57a68a3faee42850e740353a77aaf9f2fe90430552c7fb1f55267891dd"
+        },
+        {
+          "path": "evidence/snapshot-deploy-restored-head-success.json",
+          "exists": true,
+          "sha256": "a5d588a6ffd5a416ef23bff21dbc32e5d9ca4791168ed93ff63f856a613ddec9"
+        },
+        {
+          "path": "cleanup.json",
+          "exists": true,
+          "sha256": "38fa5ebd396a09fffaceb49bb7e2a98ba8879db79c25c0df9b1ddb32ca02fd97"
+        },
+        {
+          "path": "evidence/commands.jsonl",
+          "exists": true,
+          "sha256": "59430bded7781e6e41f1bb717ee2a732b647688adac94fd20a9b3866b932a465"
+        }
+      ]
+    },
+    {
+      "id": "RL02",
+      "status": "performed",
+      "result": "Absent configured CodeQL blocked native landing; actual Python CodeQL base/PR analyses allowed lower landing, rewritten upper awaited fresh analysis then CLEAN. Both exact rulesets deleted/readback404.",
+      "evidence": [
+        "evidence/scan-last-merge-receipt.json",
+        "evidence/snapshot-scan-with-code-scanning.json",
+        "evidence/snapshot-scan-codeql-analysis-settled.json",
+        "evidence/scan-codeql-last-merge-receipt.json",
+        "evidence/snapshot-scan-codeql-after-merge.json",
+        "evidence/snapshot-scan-codeql-cascade-later.json",
+        "evidence/commands.jsonl"
+      ],
+      "evidence_files": [
+        {
+          "path": "evidence/scan-last-merge-receipt.json",
+          "exists": true,
+          "sha256": "b575f68b0b237c5ef644bf06957d88c192cd715ef42fb2250a94c46981b4dedc"
+        },
+        {
+          "path": "evidence/snapshot-scan-with-code-scanning.json",
+          "exists": true,
+          "sha256": "aafab731cb8cca1a1ba1029b93faf18e36532ce4b628518ce641cafd461050d2"
+        },
+        {
+          "path": "evidence/snapshot-scan-codeql-analysis-settled.json",
+          "exists": true,
+          "sha256": "774de82a0715ad8673429264d6a73d36eb2edc775fcef4aa0ef8d134cc9996ac"
+        },
+        {
+          "path": "evidence/scan-codeql-last-merge-receipt.json",
+          "exists": true,
+          "sha256": "4af3ec14f23da8dfe0d1c55f0895fb70510d6e587c3c41f208729cfca9b8eff9"
+        },
+        {
+          "path": "evidence/snapshot-scan-codeql-after-merge.json",
+          "exists": true,
+          "sha256": "bcab9cbfd36720a7231aef6b1a337fdb8506d0daacffc9d3ffa23f4f5ad250fd"
+        },
+        {
+          "path": "evidence/snapshot-scan-codeql-cascade-later.json",
+          "exists": true,
+          "sha256": "8b7eb2ebd50393ffe4e937be6c03ad215032998a01b9a5ac9a7b40b05d9e87e2"
+        },
+        {
+          "path": "evidence/commands.jsonl",
+          "exists": true,
+          "sha256": "59430bded7781e6e41f1bb717ee2a732b647688adac94fd20a9b3866b932a465"
+        }
+      ]
+    },
+    {
+      "id": "MD01",
+      "status": "performed",
+      "result": "Retained event/context identity; rapidly registered upper #116 opened artifact already had membership, unlike earlier opened null artifacts. Event metadata is not assumed to be a creation-time snapshot.",
+      "evidence": [
+        "evidence/metadata-events.json",
+        "evidence/target-runs.json",
+        "evidence/target-knownpath-runs.json",
+        "evidence/target-main-runs.json"
+      ],
+      "evidence_files": [
+        {
+          "path": "evidence/metadata-events.json",
+          "exists": true,
+          "sha256": "f6500c5a135a4838ec526b7a5484ac22b0037b50b1e242752aab40ee3773d689"
+        },
+        {
+          "path": "evidence/target-runs.json",
+          "exists": true,
+          "sha256": "b354aee6c4a1b8d4b0f9994d833d91acb03cac7ce517336ea69a7e9233176d17"
+        },
+        {
+          "path": "evidence/target-knownpath-runs.json",
+          "exists": true,
+          "sha256": "b2a1a9213e38fcfc63c5728fbb58b4b88f7161412ac185a5a422783d56dedc25"
+        },
+        {
+          "path": "evidence/target-main-runs.json",
+          "exists": true,
+          "sha256": "cd8403feeae5e736f5b880790be7195b4fe9947b683373a0c4d06c6cbfef7081"
+        }
+      ]
+    },
+    {
+      "id": "MD02",
+      "status": "performed",
+      "result": "Per-commit and group comparisons preserve independent object, author/message, tree, patch and verification dimensions.",
+      "evidence": [
+        "evidence/sig-signedmulti-comparison.json",
+        "evidence/sig-mixedsuffix-comparison.json"
+      ],
+      "evidence_files": [
+        {
+          "path": "evidence/sig-signedmulti-comparison.json",
+          "exists": true,
+          "sha256": "143df053335a529e144d0dea332ead8d376b37ad85d5720a24fe809deaf4b57c"
+        },
+        {
+          "path": "evidence/sig-mixedsuffix-comparison.json",
+          "exists": true,
+          "sha256": "2fee49273e730529d092399541a874bf0f90852578a145a6f08b0bc037ba507e"
+        }
+      ]
+    },
+    {
+      "id": "FC08",
+      "status": "performed",
+      "result": "Actual push-triggered source-head fu2-push jobs ran before PR event dispatch; required upper/lower native gates became CLEAN with unchanged heads.",
+      "evidence": [
+        "evidence/push-runs.json",
+        "evidence/snapshot-push-registered.json",
+        "evidence/snapshot-push-completed.json"
+      ],
+      "evidence_files": [
+        {
+          "path": "evidence/push-runs.json",
+          "exists": true,
+          "sha256": "04981f973dc59322c963919f2f675eea60e626fd356e594ae83358ad08274129"
+        },
+        {
+          "path": "evidence/snapshot-push-registered.json",
+          "exists": true,
+          "sha256": "d11323b79a36f662ea387574283ce26671bf3695e0c35f3d6d1acd56b7daf91d"
+        },
+        {
+          "path": "evidence/snapshot-push-completed.json",
+          "exists": true,
+          "sha256": "cabfdd39e324d73aed249281989bd07b3f3a71514435199e774c5f9205fa3f6e"
+        }
+      ]
+    },
+    {
+      "id": "RV07",
+      "status": "performed",
+      "result": "Pusher approval yielded APPROVED record but last-push gate REVIEW_REQUIRED and native failure. Complementary user-author/bot-reviewer approved both; lower landed, unchanged upper review retained and rebound/CLEAN.",
+      "evidence": [
+        "evidence/snapshot-direct-lastpush-approved.json",
+        "evidence/direct-lastpush-last-merge-receipt.json",
+        "evidence/snapshot-direct-lastpush-after-prefix.json",
+        "evidence/snapshot-direct-lastpush-complement-approved.json",
+        "evidence/direct-lastpush-complement-last-merge-receipt.json",
+        "evidence/snapshot-direct-lastpush-complement-after-prefix.json",
+        "evidence/direct-lastpush-complement-comparison.json",
+        "evidence/automation-runs.json"
+      ],
+      "evidence_files": [
+        {
+          "path": "evidence/snapshot-direct-lastpush-approved.json",
+          "exists": true,
+          "sha256": "92389b81e2b89f122b063e2543c313623453e01e6fdfa5bf2d22571c09f82bd7"
+        },
+        {
+          "path": "evidence/direct-lastpush-last-merge-receipt.json",
+          "exists": true,
+          "sha256": "196606a6e6000ea03ff543bd8d448264c7d4d0e35e271cc36894279ac65c64fd"
+        },
+        {
+          "path": "evidence/snapshot-direct-lastpush-after-prefix.json",
+          "exists": true,
+          "sha256": "4c556baf84c5042a0b6d5a588b73bb94380abfc29b5ee092e1344c597a54bf5c"
+        },
+        {
+          "path": "evidence/snapshot-direct-lastpush-complement-approved.json",
+          "exists": true,
+          "sha256": "91115fe73d7926ef661561635a5996bea743bc645cd1d8889f04c93445925970"
+        },
+        {
+          "path": "evidence/direct-lastpush-complement-last-merge-receipt.json",
+          "exists": true,
+          "sha256": "999e67542f1cd2fa0e7d89bf6fb145e76675805b2126365a5906667386555959"
+        },
+        {
+          "path": "evidence/snapshot-direct-lastpush-complement-after-prefix.json",
+          "exists": true,
+          "sha256": "08d9511ee4d97656cfa98383fc6922a5a4adea66b59fa41f95715fac6c9c2676"
+        },
+        {
+          "path": "evidence/direct-lastpush-complement-comparison.json",
+          "exists": true,
+          "sha256": "1ea4d0ab14c862cef0ce969694be86e345f08f0b24213966f92d8e835df31175"
+        },
+        {
+          "path": "evidence/automation-runs.json",
+          "exists": true,
+          "sha256": "3c4910c685ae70222fab62f2a12295bcacdd5c741ecce563fae26c30eb6fe38e"
+        }
+      ]
+    },
+    {
+      "id": "RV08",
+      "status": "performed",
+      "result": "CODEOWNERS unchanged automatic-prefix survivor approval dismissed with explicit merge-base message; exact patch/tree/author/message equal. Explicit reapproval then substantive hinted/leased amendment dismissed new review, changed patch verified.",
+      "evidence": [
+        "evidence/snapshot-direct-codeowner-approved.json",
+        "evidence/direct-codeowner-last-merge-receipt.json",
+        "evidence/snapshot-direct-codeowner-after-prefix.json",
+        "evidence/direct-codeowner-comparison.json",
+        "evidence/snapshot-direct-codeowner-reapproved.json",
+        "evidence/snapshot-direct-codeowner-substantive.json",
+        "evidence/direct-codeowner-substantive-comparison.json"
+      ],
+      "evidence_files": [
+        {
+          "path": "evidence/snapshot-direct-codeowner-approved.json",
+          "exists": true,
+          "sha256": "5a611fa5360ac5c2c0ef0f42a0824b459abe0035cd1bb45924a39fc1d072af18"
+        },
+        {
+          "path": "evidence/direct-codeowner-last-merge-receipt.json",
+          "exists": true,
+          "sha256": "bd480373c96d5975e4d13585d04b05ed29f8c8ac88149fb569a3d1f46b35d535"
+        },
+        {
+          "path": "evidence/snapshot-direct-codeowner-after-prefix.json",
+          "exists": true,
+          "sha256": "cf62cd5459e6baaace5b12eb63d8ec28b128f512210955c63ecc966f86e18329"
+        },
+        {
+          "path": "evidence/direct-codeowner-comparison.json",
+          "exists": true,
+          "sha256": "743e9dde5032011a1ff2f4fd9cc05fab1abb5617d75e81acd971823a94fced3c"
+        },
+        {
+          "path": "evidence/snapshot-direct-codeowner-reapproved.json",
+          "exists": true,
+          "sha256": "c215ef7d6473dfc04902b9cfb070a79bb0162920bf66e34c3155f708c4b77411"
+        },
+        {
+          "path": "evidence/snapshot-direct-codeowner-substantive.json",
+          "exists": true,
+          "sha256": "6bb12b312a02002b42e80a411aaedf0c871701f090c799309fa25fd6bbe85d5a"
+        },
+        {
+          "path": "evidence/direct-codeowner-substantive-comparison.json",
+          "exists": true,
+          "sha256": "c9e6a2fb346e1899132b455a96b50870610ad9e8aafa6905537ac75efc61c43a"
+        }
+      ]
+    }
+  ],
+  "case_count": 25,
+  "native_pending": [],
+  "parent_followup": "Only actual website #128 async user response remains root-owned; other website cases unperformed/unavailable. Root main/Actions cleanup independently confirmed."
+}

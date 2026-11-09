@@ -1,0 +1,102 @@
+#!/usr/bin/env python3
+"""Generate a fixed-scope token-permission and history-comment fixture workflow."""
+import pathlib
+SCRIPT=r'''import datetime,hashlib,json,os,pathlib,subprocess,time
+P=pathlib.Path('evidence');P.mkdir(exist_ok=True)
+now=lambda:datetime.datetime.now(datetime.timezone.utc).isoformat()
+event=json.loads(pathlib.Path(os.environ['GITHUB_EVENT_PATH']).read_text());inputs=event['inputs'];repo=os.environ['GITHUB_REPOSITORY']
+assert repo=='joshlf/gherrit-native-stack-experiments-2026-11-08'
+number=int(inputs['number']);assert number>0
+notice="*Authored by an AI agent acting on joshlf's behalf.*"
+body=inputs['body'];assert len(body.encode())<=4096 and notice in body
+operation=inputs['operation'];assert operation in ['create','edit']
+meta={'operation':operation,'permission_mode':inputs['permission_mode'],'number':number,'started':now(),'run_id':os.environ['GITHUB_RUN_ID']}
+def call(label,path,method='GET',payload=None):
+    args=['gh','api','--include','--method',method,path]
+    data=json.dumps(payload) if payload is not None else None
+    if data is not None:args+=['--input','-']
+    intent={'at':now(),'method':method,'path':path,'payload':payload}
+    (P/(label+'-intent.json')).write_text(json.dumps(intent,indent=2)+'\n')
+    started=now();result=subprocess.run(args,input=data,text=True,capture_output=True);finished=now()
+    (P/(label+'-response.txt')).write_text(result.stdout);(P/(label+'-stderr.txt')).write_text(result.stderr)
+    detail={'started':started,'finished':finished,'exit':result.returncode};(P/(label+'-meta.json')).write_text(json.dumps(detail,indent=2)+'\n')
+    raw=result.stdout.split('\n\n',1)[-1]
+    try:parsed=json.loads(raw)
+    except json.JSONDecodeError:parsed=None
+    return parsed,detail
+pr,_=call('before-pr',f'repos/{repo}/pulls/{number}');assert pr['head']['ref'].startswith('exp/fu2/ci/history-')
+meta['before_body']=pr['body'];meta['pr_author']=pr['user']
+if operation=='edit':
+    cid=int(inputs['comment_id']);assert cid>0
+    comment,_=call('before-comment',f'repos/{repo}/issues/comments/{cid}');assert comment['issue_url']==f'https://api.github.com/repos/{repo}/issues/{number}'
+    meta['before_comment']=comment
+    endpoint=f'repos/{repo}/issues/comments/{cid}';method='PATCH'
+else:endpoint=f'repos/{repo}/issues/{number}/comments';method='POST'
+target=float(inputs.get('start_at') or '0');meta['scheduled_epoch']=target
+if target:
+    if time.time()>target-1:
+        meta['schedule_missed_before_write']=True;(P/'summary.json').write_text(json.dumps(meta,indent=2)+'\n');raise SystemExit('Scheduled write premise missed; no mutation dispatched')
+    while time.time()<target:time.sleep(min(.05,max(0,target-time.time())))
+response,interval=call('mutation',endpoint,method,{'body':body});meta['mutation_interval']=interval;meta['mutation_response']=response
+pr,_=call('after-pr',f'repos/{repo}/pulls/{number}');meta['after_body']=pr['body']
+listed,_=call('after-comments',f'repos/{repo}/issues/{number}/comments?per_page=100');meta['after_comments']=listed;meta['finished']=now()
+(P/'summary.json').write_text(json.dumps(meta,indent=2)+'\n')
+print(json.dumps({'operation':operation,'mode':inputs['permission_mode'],'exit':interval['exit'],'id':response.get('id') if isinstance(response,dict) else None,'message':response.get('message') if isinstance(response,dict) else None,'started':interval['started'],'finished':interval['finished']},indent=2))
+'''
+HEADER='''name: history-actors
+on:
+  workflow_dispatch:
+    inputs:
+      operation:
+        type: choice
+        options: [create, edit]
+        required: true
+      permission_mode:
+        type: choice
+        options: [write, read]
+        default: write
+        required: true
+      number:
+        type: string
+        required: true
+      comment_id:
+        type: string
+        required: false
+      body:
+        type: string
+        required: true
+      start_at:
+        type: string
+        required: false
+permissions:
+  contents: read
+jobs:
+'''
+def workflow():
+    text=HEADER
+    for mode in ['write','read']:
+        text+=f'''  history-{mode}:
+    if: ${{{{ inputs.permission_mode == '{mode}' }}}}
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: {mode}
+      issues: {mode}
+    env:
+      GH_TOKEN: ${{{{ github.token }}}}
+    steps:
+      - name: Run fixed scoped history operation
+        shell: bash
+        run: |
+          python3 - <<'PYCODE'
+'''
+        text+='\n'.join('          '+line for line in SCRIPT.splitlines())+'\n          PYCODE\n'
+        text+='''      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        if: always()
+        with:
+          name: history-${{ github.run_id }}-${{ github.run_attempt }}
+          path: evidence/
+          retention-days: 30
+'''
+    return text
+if __name__=='__main__':pathlib.Path('control/history-automation.yml').write_text(workflow())

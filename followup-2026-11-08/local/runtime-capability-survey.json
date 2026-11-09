@@ -1,0 +1,14 @@
+{
+  "at": "2026-11-09T04:27:57.803396+00:00",
+  "executables": {
+    "qemu-system-aarch64": null,
+    "qemu-system-x86_64": null,
+    "limactl": null,
+    "colima": null,
+    "orbctl": "/usr/local/bin/orbctl",
+    "docker": "/usr/local/bin/docker",
+    "podman": null
+  },
+  "purpose": "read-only feasibility survey for isolated virtual block-device power-loss tests; no runtime started or shared storage touched",
+  "limit": "Executable presence does not establish runtime access or actual hardware power-loss coverage"
+}
