@@ -1,0 +1,99 @@
+{
+  "retrieved_at_utc": "2026-11-09T06:07:41Z",
+  "method": "Read-only public GitHub connector GETs for current main commit identities and pinned file content; GitHub Docs pages independently opened via web.",
+  "repository_heads": [
+    {
+      "repository": "github/docs",
+      "sha": "8cd1075179df75319912891d6620c9cb78eefb4d",
+      "date": "2026-11-06T23:25:16Z",
+      "url": "https://github.com/github/docs/commit/8cd1075179df75319912891d6620c9cb78eefb4d"
+    },
+    {
+      "repository": "github/gh-stack",
+      "sha": "bd0a32504f9ae9f795875a9e6bb90ff7408fda08",
+      "date": "2026-11-03T18:33:10Z",
+      "url": "https://github.com/github/gh-stack/commit/bd0a32504f9ae9f795875a9e6bb90ff7408fda08"
+    },
+    {
+      "repository": "github/rest-api-description",
+      "sha": "2f8f80e47ea4d3292cf4e37ba9d9b25475e06140",
+      "date": "2026-11-07T04:28:32Z",
+      "url": "https://github.com/github/rest-api-description/commit/2f8f80e47ea4d3292cf4e37ba9d9b25475e06140"
+    }
+  ],
+  "current_file_receipts": [
+    {
+      "id": "docs-merge",
+      "source_url": "https://github.com/github/docs/blob/8cd1075179df75319912891d6620c9cb78eefb4d/content/pull-requests/how-tos/merge-and-close-pull-requests/merging-stacked-pull-requests.md",
+      "git_blob_sha": "3441bbc53f7580839ead6963d0be412f5aafbfa5",
+      "encoding": "utf-8"
+    },
+    {
+      "id": "docs-manage",
+      "source_url": "https://github.com/github/docs/blob/8cd1075179df75319912891d6620c9cb78eefb4d/content/pull-requests/how-tos/create-pull-requests/managing-stacked-pull-requests.md",
+      "git_blob_sha": "95c742af0cfb13f6fa464c283f9252f5d44582c5",
+      "encoding": "utf-8"
+    },
+    {
+      "id": "docs-api-overview",
+      "source_url": "https://github.com/github/docs/blob/8cd1075179df75319912891d6620c9cb78eefb4d/content/pull-requests/reference/stacked-pull-requests-apis-and-webhooks.md",
+      "git_blob_sha": "70e672d5bee830c6d71785cd850e30f72732a2f6",
+      "encoding": "utf-8"
+    },
+    {
+      "id": "docs-troubleshoot",
+      "source_url": "https://github.com/github/docs/blob/8cd1075179df75319912891d6620c9cb78eefb4d/content/pull-requests/how-tos/merge-and-close-pull-requests/troubleshooting-stacked-pull-requests.md",
+      "git_blob_sha": "2abd5e47e2c4f2bb8bbffad0ad12d8c793e54b12",
+      "encoding": "utf-8"
+    },
+    {
+      "id": "cli-merge-doc",
+      "source_url": "https://github.com/github/gh-stack/blob/bd0a32504f9ae9f795875a9e6bb90ff7408fda08/docs/src/content/docs/reference/merge-api.md",
+      "git_blob_sha": "91f6168bd11ad65eb93b2ba9ea9537b785329eee",
+      "encoding": "utf-8"
+    },
+    {
+      "id": "cli-merge-source",
+      "source_url": "https://github.com/github/gh-stack/blob/bd0a32504f9ae9f795875a9e6bb90ff7408fda08/internal/github/merge_async.go",
+      "git_blob_sha": "8393b2b34e80834fce86326131196998fc7c5678",
+      "encoding": "utf-8"
+    }
+  ],
+  "rendered_docs": [
+    {
+      "url": "https://docs.github.com/en/rest/pulls/pulls#merge-a-pull-request-asynchronously",
+      "sections": [
+        "Merge a pull request asynchronously",
+        "Get the result of an asynchronous merge"
+      ],
+      "fresh_check": "Opened and searched during this audit; API examples specify 2026-03-10."
+    },
+    {
+      "url": "https://docs.github.com/en/pull-requests/reference/stacked-pull-requests-apis-and-webhooks",
+      "sections": [
+        "Merge API"
+      ]
+    },
+    {
+      "url": "https://docs.github.com/en/pull-requests/how-tos/merge-and-close-pull-requests/merging-stacked-pull-requests",
+      "sections": [
+        "Merging from the bottom up",
+        "Merging using a merge queue"
+      ]
+    },
+    {
+      "url": "https://docs.github.com/en/pull-requests/how-tos/create-pull-requests/managing-stacked-pull-requests",
+      "sections": [
+        "Rebasing from the GitHub website",
+        "Syncing your local environment after merges"
+      ]
+    },
+    {
+      "url": "https://docs.github.com/en/pull-requests/how-tos/merge-and-close-pull-requests/troubleshooting-stacked-pull-requests",
+      "sections": [
+        "Merging stopped partway through the stack"
+      ]
+    }
+  ],
+  "limits": "No native mutations, account changes, experiments, timing probes or new tests were performed. Current head identity was checked once, not continuously. The web tool rejected a full raw OpenAPI fetch as too large; current async wording was independently verified on the rendered official REST page. The current rest-api-description main commit equals the retained source commit."
+}

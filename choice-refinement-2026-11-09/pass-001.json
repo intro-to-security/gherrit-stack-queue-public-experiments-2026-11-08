@@ -1,0 +1,32 @@
+{
+  "pass": 1,
+  "status": "frozen; warm/fresh/primary-heldout review active",
+  "artifacts": {
+    "candidate-001.md": {
+      "bytes": 65382,
+      "sha256": "b61e0a55e72e8cc7361a0edc52c273e9e08e9281f93578c9b7212588ff30fd7b"
+    },
+    "DECISIONS-001.md": {
+      "bytes": 14384,
+      "sha256": "6db7f32a2a0da018121520ea72687d62ea9c86a9d706972b91ac9249fea2e8b5"
+    }
+  },
+  "baseline_sha256": "5b0c763bd6a706e88db644dd368013b2f95c7d3882a8ca79fb2febf487f6885f",
+  "root_holdout_exposure": true,
+  "primary_cases": 12,
+  "reserve_cases": 6,
+  "requested_model": "inherited",
+  "effective_model": "unknown",
+  "requested_effort": "inherited",
+  "effective_effort": "unknown",
+  "isolation": "private contexts; shared filesystem without ACL; prompt/file scope barriers",
+  "holdouts_exposed": true,
+  "exposed_case_ids": [
+    "H10",
+    "R03",
+    "R04"
+  ],
+  "unexposed_primary": 11,
+  "unexposed_reserve": 4,
+  "exposure_record": "ISOLATION-INCIDENT.md"
+}

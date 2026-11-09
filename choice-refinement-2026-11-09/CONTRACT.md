@@ -1,0 +1,20 @@
+# Focused refinement contract
+
+Apply swarm-model-refinement to collapse remaining GHerrit design questions where an option dominates another, a common rule subsumes alternatives, or an apparent choice belongs to implementation/validation rather than the semantic model. A useful result is a smaller decision set, with exact domains and remaining obligations. Retaining a real tradeoff is preferable to claiming false dominance.
+
+The common C1–C8 obligations remain fixed in [the original contract](GOVERNING-CONTRACT.md). They require one-branch change authoring, explicit identity/history, native ownership, recoverable partial/unknown outcomes, useful repeated work, total-burden comparison, calibrated evidence and reversible migration. Existing design mechanisms and stronger promises are candidates for reconsideration; they are not additional hard requirements merely because the incumbent uses them. No arbitrary-administrator atomicity requirement is being added.
+
+The user now specifically requests comparison and conceptual refinement. Keep this separate from production implementation and new live mutation experiments. Prior authorization for maintaining the design issue/evidence persists; only root may publish a supported result after review. Workers have local/read-only authority. Preserve all prior research and never replay historical mutation scripts/intents. Do not inspect any prior sealed cases.
+
+## Comparison rules
+
+- State the retained domain, concurrency/authority assumptions and promised observations for every candidate. Compare the incumbent, surgical change and larger alternatives under the same requirements and evidence.
+- Claim dominance only within an explicit domain: the winner preserves the loser's required uses/promises, introduces no unsupported disadvantage on relevant dimensions, and has a concrete supported benefit. Distinguish universal dominance, conditional dominance, architectural subsumption, a proposed default, and deferral pending demand. Count implementation, user, proof, recovery, migration and deployment burdens; a label or smaller client alone proves no saving.
+- A unification must preserve independently necessary identity, authored/incorporated/local revision roles, partial/unknown effects and ownership distinctions. It may change representations and operation boundaries together. Do not hide equivalent complexity in an adapter, user ritual or validation sidecar.
+- Challenge whether a difficult gate is required by C1–C8 or by an incumbent promise. A different promise may be proposed with explicit consequences. Do not silently weaken a hard goal or count indefinite refusal as a complete replacement. If requirements must change, finish the comparative review and leave that decision explicit.
+- Separate a design decision from a missing provider premise, a concrete realization defect, an acceptance test and a subjective priority. A more precise question is not a collapsed question unless the decision or independent mechanism actually disappears.
+- Preserve documented versus observed confidence. The existing experiment corpus is exposed discovery evidence, not blind confirmation or proof of future provider behavior. No whole-system cost or human preference measurement may be invented.
+
+Root is the sole coordinator and adjudicator. The swarm uses divergent architect priors, adversarial criticism, new isolated fresh critics for each candidate and newly authored sealed confirmation cases. Contexts are private; the filesystem is shared without ACL isolation. Model/effort are inherited unless separately authorized; exact effective settings are unknown unless the host exposes them. Sub-agents give bounded evidence, not votes, nested loops or publication authority.
+
+The deliverable is a decision model and an updated justified shortlist/defaults, with concrete counterexamples and remaining technical or value questions. It may be qualified where the evidence requires. Keep the distinction between completing this comparison and accepting a production migration.

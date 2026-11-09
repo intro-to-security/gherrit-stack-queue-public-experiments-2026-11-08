@@ -1,0 +1,234 @@
+[
+  {
+    "source": "outputs/github-native-stack-choice-refinement-2026-11-09/PUBLIC-README.md",
+    "publication": "choice-refinement-2026-11-09/README.md",
+    "source_sha256": "4ddaf72181d353feb34557d9023d68f90e9cb61b48e73dde36628095ddac255a",
+    "published_sha256": "4ddaf72181d353feb34557d9023d68f90e9cb61b48e73dde36628095ddac255a",
+    "bytes": 1918,
+    "links_rerooted": false
+  },
+  {
+    "source": "outputs/github-native-stack-choice-refinement-2026-11-09/RESULT.md",
+    "publication": "choice-refinement-2026-11-09/RESULT.md",
+    "source_sha256": "4cebe6dba917b5c357855a54ad5b182f60f3e8420cf2e463f028614db9872630",
+    "published_sha256": "4cebe6dba917b5c357855a54ad5b182f60f3e8420cf2e463f028614db9872630",
+    "bytes": 5984,
+    "links_rerooted": false
+  },
+  {
+    "source": "outputs/github-native-stack-choice-refinement-2026-11-09/CONTRACT.md",
+    "publication": "choice-refinement-2026-11-09/CONTRACT.md",
+    "source_sha256": "1ea80779e208970f359098f6bd22f0e85d3ac6acb1ca67d7dddc0fb92ad74e04",
+    "published_sha256": "937ae5d4c119478d0fbf5e52b2954ed285408020553eb79486baf5c6fb914521",
+    "bytes": 4053,
+    "links_rerooted": true
+  },
+  {
+    "source": "outputs/github-native-stack-choice-refinement-2026-11-09/DISCOVERY.md",
+    "publication": "choice-refinement-2026-11-09/DISCOVERY.md",
+    "source_sha256": "b7c00fedfa2647c5f011da60b3e4e86b8a38a49a30bbe183f9a85995b61e3281",
+    "published_sha256": "b7c00fedfa2647c5f011da60b3e4e86b8a38a49a30bbe183f9a85995b61e3281",
+    "bytes": 7993,
+    "links_rerooted": false
+  },
+  {
+    "source": "outputs/github-native-stack-choice-refinement-2026-11-09/candidate-001.md",
+    "publication": "choice-refinement-2026-11-09/candidate-001.md",
+    "source_sha256": "b61e0a55e72e8cc7361a0edc52c273e9e08e9281f93578c9b7212588ff30fd7b",
+    "published_sha256": "b61e0a55e72e8cc7361a0edc52c273e9e08e9281f93578c9b7212588ff30fd7b",
+    "bytes": 65382,
+    "links_rerooted": false
+  },
+  {
+    "source": "outputs/github-native-stack-choice-refinement-2026-11-09/candidate-002.md",
+    "publication": "choice-refinement-2026-11-09/candidate-002.md",
+    "source_sha256": "3ca0dd857af866f5c28fc6e62d9947d84ad7b189b20cf585a10990c180f3ef02",
+    "published_sha256": "3ca0dd857af866f5c28fc6e62d9947d84ad7b189b20cf585a10990c180f3ef02",
+    "bytes": 65380,
+    "links_rerooted": false
+  },
+  {
+    "source": "outputs/github-native-stack-choice-refinement-2026-11-09/DECISIONS-001.md",
+    "publication": "choice-refinement-2026-11-09/DECISIONS-001.md",
+    "source_sha256": "6db7f32a2a0da018121520ea72687d62ea9c86a9d706972b91ac9249fea2e8b5",
+    "published_sha256": "6db7f32a2a0da018121520ea72687d62ea9c86a9d706972b91ac9249fea2e8b5",
+    "bytes": 14384,
+    "links_rerooted": false
+  },
+  {
+    "source": "outputs/github-native-stack-choice-refinement-2026-11-09/DECISIONS-002.md",
+    "publication": "choice-refinement-2026-11-09/DECISIONS-002.md",
+    "source_sha256": "b3771a2a090a012b75101450aa93da0636eef811b04656c8a9181ee749832648",
+    "published_sha256": "b3771a2a090a012b75101450aa93da0636eef811b04656c8a9181ee749832648",
+    "bytes": 15322,
+    "links_rerooted": false
+  },
+  {
+    "source": "outputs/github-native-stack-choice-refinement-2026-11-09/pass-001.json",
+    "publication": "choice-refinement-2026-11-09/pass-001.json",
+    "source_sha256": "6bb828ce16cfc295641e08448113f3c7bbd55762b79d5318069686576a6b301e",
+    "published_sha256": "6bb828ce16cfc295641e08448113f3c7bbd55762b79d5318069686576a6b301e",
+    "bytes": 960,
+    "links_rerooted": false
+  },
+  {
+    "source": "outputs/github-native-stack-choice-refinement-2026-11-09/pass-002.json",
+    "publication": "choice-refinement-2026-11-09/pass-002.json",
+    "source_sha256": "531d65fe03369af3a21f2b60542d1d43ee9c5ae70c708193623ec73f6212d969",
+    "published_sha256": "531d65fe03369af3a21f2b60542d1d43ee9c5ae70c708193623ec73f6212d969",
+    "bytes": 679,
+    "links_rerooted": false
+  },
+  {
+    "source": "outputs/github-native-stack-choice-refinement-2026-11-09/static-PASS1.json",
+    "publication": "choice-refinement-2026-11-09/static-PASS1.json",
+    "source_sha256": "24c2a6e8379dba6ce88beb16a07e337fc377acd96d07cc54a530247219f41516",
+    "published_sha256": "24c2a6e8379dba6ce88beb16a07e337fc377acd96d07cc54a530247219f41516",
+    "bytes": 364,
+    "links_rerooted": false
+  },
+  {
+    "source": "outputs/github-native-stack-choice-refinement-2026-11-09/static-PASS2.json",
+    "publication": "choice-refinement-2026-11-09/static-PASS2.json",
+    "source_sha256": "3882b47974feda29991b85685f40f92d952798357717cf6e653e0966120f090d",
+    "published_sha256": "3882b47974feda29991b85685f40f92d952798357717cf6e653e0966120f090d",
+    "bytes": 451,
+    "links_rerooted": false
+  },
+  {
+    "source": "outputs/github-native-stack-choice-refinement-2026-11-09/ADJUDICATION-001.md",
+    "publication": "choice-refinement-2026-11-09/ADJUDICATION-001.md",
+    "source_sha256": "f66f7f9335f28f945879c71ae942cf31aa29b5fa0b891f39236665bde5cd8cde",
+    "published_sha256": "f66f7f9335f28f945879c71ae942cf31aa29b5fa0b891f39236665bde5cd8cde",
+    "bytes": 2522,
+    "links_rerooted": false
+  },
+  {
+    "source": "outputs/github-native-stack-choice-refinement-2026-11-09/ISOLATION-INCIDENT.md",
+    "publication": "choice-refinement-2026-11-09/ISOLATION-INCIDENT.md",
+    "source_sha256": "385d55924d5849ff96bbf21b5e2ba089a22e92d56d45d468cbd479356244b435",
+    "published_sha256": "385d55924d5849ff96bbf21b5e2ba089a22e92d56d45d468cbd479356244b435",
+    "bytes": 1249,
+    "links_rerooted": false
+  },
+  {
+    "source": "outputs/github-native-stack-choice-refinement-2026-11-09/COORDINATOR-COUNTEREXAMPLES.md",
+    "publication": "choice-refinement-2026-11-09/COORDINATOR-COUNTEREXAMPLES.md",
+    "source_sha256": "5a3608ee0fbb47da53dc938c1bc844ee4a6f4e725e9acdeed53a755c4ef05471",
+    "published_sha256": "5a3608ee0fbb47da53dc938c1bc844ee4a6f4e725e9acdeed53a755c4ef05471",
+    "bytes": 3171,
+    "links_rerooted": false
+  },
+  {
+    "source": "outputs/github-native-stack-choice-refinement-2026-11-09/architect-alpha/PROPOSAL.md",
+    "publication": "choice-refinement-2026-11-09/architect-alpha/PROPOSAL.md",
+    "source_sha256": "edc3ccd4cb5aa9d4dc62abc819102ce88330e7ed4cf1ec8cc4815a861a4732a0",
+    "published_sha256": "bc51aa5ca545e2945b100f9160485ec8798e944a44e557e0fc9e6881b7a08327",
+    "bytes": 29286,
+    "links_rerooted": true
+  },
+  {
+    "source": "outputs/github-native-stack-choice-refinement-2026-11-09/architect-beta/PROPOSAL.md",
+    "publication": "choice-refinement-2026-11-09/architect-beta/PROPOSAL.md",
+    "source_sha256": "b1feedf9e6e09a1e24e3962c11b94755da1ff19387cff669318e566b14ad3263",
+    "published_sha256": "7169042dbf31d43bb12dbf163526a13e5bef74fedfab406b5ff6a789b733f2aa",
+    "bytes": 29832,
+    "links_rerooted": true
+  },
+  {
+    "source": "outputs/github-native-stack-choice-refinement-2026-11-09/architect-gamma/PROPOSAL.md",
+    "publication": "choice-refinement-2026-11-09/architect-gamma/PROPOSAL.md",
+    "source_sha256": "de424565481a7ab39573d1cb72d17a8afd1061d396e37dba7e4d5c6c903b01ed",
+    "published_sha256": "ce93ffb99e551f16ee2e338bdce7f865af326ea5c7ed70dddd6948b2e3581b6b",
+    "bytes": 23112,
+    "links_rerooted": true
+  },
+  {
+    "source": "outputs/github-native-stack-choice-refinement-2026-11-09/challenger/ROUND1.md",
+    "publication": "choice-refinement-2026-11-09/challenger/ROUND1.md",
+    "source_sha256": "37622a59be1056a0c29ca2e40a0a620d9d756a55903f19ec6ffe532465106933",
+    "published_sha256": "c5c0270b7e661848a0c413bbd17c6b263d2609ab13309075109ac6deec6fc2c7",
+    "bytes": 20775,
+    "links_rerooted": true
+  },
+  {
+    "source": "outputs/github-native-stack-choice-refinement-2026-11-09/challenger/PASS1.md",
+    "publication": "choice-refinement-2026-11-09/challenger/PASS1.md",
+    "source_sha256": "5407deb60c9604eaac800c74ab79aebbd34250ba60fed8589397dccb8097a49e",
+    "published_sha256": "9e2cd38a0885180b89802c0f209e8a7da320392ffdf66db58fa2f3a5569998bb",
+    "bytes": 12285,
+    "links_rerooted": true
+  },
+  {
+    "source": "outputs/github-native-stack-choice-refinement-2026-11-09/challenger/PASS2.md",
+    "publication": "choice-refinement-2026-11-09/challenger/PASS2.md",
+    "source_sha256": "441fef7685788c4f95913133b21b5abfa9e488959ec491130894bc644201b9c2",
+    "published_sha256": "c021e5fc3f5cd2b6cfda1f04cb91d8d6683f755d4aefebbe26c40aa0e70bbac5",
+    "bytes": 7147,
+    "links_rerooted": true
+  },
+  {
+    "source": "outputs/github-native-stack-choice-refinement-2026-11-09/fresh-001/REVIEW.md",
+    "publication": "choice-refinement-2026-11-09/fresh-001/REVIEW.md",
+    "source_sha256": "cd39883ca68f38b503048f4d2fe8f598cc1e7e1ba676128e97ac92c33ff91ec1",
+    "published_sha256": "cd39883ca68f38b503048f4d2fe8f598cc1e7e1ba676128e97ac92c33ff91ec1",
+    "bytes": 15436,
+    "links_rerooted": false
+  },
+  {
+    "source": "outputs/github-native-stack-choice-refinement-2026-11-09/fresh-002/REVIEW.md",
+    "publication": "choice-refinement-2026-11-09/fresh-002/REVIEW.md",
+    "source_sha256": "5f973db321f75f73f22741e7f80865d3702041482af1572a9e71cbf8f343a2c3",
+    "published_sha256": "5f973db321f75f73f22741e7f80865d3702041482af1572a9e71cbf8f343a2c3",
+    "bytes": 16555,
+    "links_rerooted": false
+  },
+  {
+    "source": "outputs/github-native-stack-choice-refinement-2026-11-09/holdout-PASS1.md",
+    "publication": "choice-refinement-2026-11-09/holdout-PASS1.md",
+    "source_sha256": "17163364c661101a1066bab260a34f8417e0e221109d11262d53a4eee53a21d1",
+    "published_sha256": "17163364c661101a1066bab260a34f8417e0e221109d11262d53a4eee53a21d1",
+    "bytes": 3060,
+    "links_rerooted": false
+  },
+  {
+    "source": "outputs/github-native-stack-choice-refinement-2026-11-09/holdout-PASS2.md",
+    "publication": "choice-refinement-2026-11-09/holdout-PASS2.md",
+    "source_sha256": "1378b7fbc36248f0fb7f1bc624c5dc4a9ece671beaa67585f07a2d71eb1c2e4e",
+    "published_sha256": "1378b7fbc36248f0fb7f1bc624c5dc4a9ece671beaa67585f07a2d71eb1c2e4e",
+    "bytes": 2573,
+    "links_rerooted": false
+  },
+  {
+    "source": "outputs/github-native-stack-choice-refinement-2026-11-09/provider-audit/REPORT.md",
+    "publication": "choice-refinement-2026-11-09/provider-audit/REPORT.md",
+    "source_sha256": "239d251a8fe0954b9874bb96fd84d258dec7a4ba4c740cba820f33373d27dab1",
+    "published_sha256": "239d251a8fe0954b9874bb96fd84d258dec7a4ba4c740cba820f33373d27dab1",
+    "bytes": 13466,
+    "links_rerooted": false
+  },
+  {
+    "source": "outputs/github-native-stack-choice-refinement-2026-11-09/provider-audit/current-sources.json",
+    "publication": "choice-refinement-2026-11-09/provider-audit/current-sources.json",
+    "source_sha256": "0cb98be4710edc21bbd8a15679dd0f6814631f3c8eab32e344397fe183f53cf3",
+    "published_sha256": "0cb98be4710edc21bbd8a15679dd0f6814631f3c8eab32e344397fe183f53cf3",
+    "bytes": 4511,
+    "links_rerooted": false
+  },
+  {
+    "source": "outputs/github-native-stack-choice-refinement-2026-11-09/provider-audit/retained-evidence.json",
+    "publication": "choice-refinement-2026-11-09/provider-audit/retained-evidence.json",
+    "source_sha256": "3ebb0ed45e3fda463ad5657aff6a30d203e385903b5e9e60b486fef78b402c27",
+    "published_sha256": "3ebb0ed45e3fda463ad5657aff6a30d203e385903b5e9e60b486fef78b402c27",
+    "bytes": 11872,
+    "links_rerooted": false
+  },
+  {
+    "source": "outputs/github-native-stack-design-2026-11-08/GOVERNING-CONTRACT.md",
+    "publication": "choice-refinement-2026-11-09/GOVERNING-CONTRACT.md",
+    "source_sha256": "2b1172e0348bfaa2af2c7511df25853df2b06c1964bba718916c712dc65b3589",
+    "published_sha256": "2b1172e0348bfaa2af2c7511df25853df2b06c1964bba718916c712dc65b3589",
+    "bytes": 3866,
+    "links_rerooted": false
+  }
+]

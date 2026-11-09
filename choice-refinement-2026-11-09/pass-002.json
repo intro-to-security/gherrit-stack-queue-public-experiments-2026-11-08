@@ -1,0 +1,25 @@
+{
+  "pass": 2,
+  "status": "frozen; warm/fresh/reserve reviews active",
+  "artifacts": {
+    "candidate-002.md": {
+      "bytes": 65380,
+      "sha256": "3ca0dd857af866f5c28fc6e62d9947d84ad7b189b20cf585a10990c180f3ef02"
+    },
+    "DECISIONS-002.md": {
+      "bytes": 15322,
+      "sha256": "b3771a2a090a012b75101450aa93da0636eef811b04656c8a9181ee749832648"
+    }
+  },
+  "contract_change": false,
+  "method_change": false,
+  "exposed_case_ids": [
+    "H10",
+    "R03",
+    "R04"
+  ],
+  "unexposed_reserve_checks_planned": 4,
+  "effective_model": "unknown; inherited",
+  "effective_effort": "unknown; inherited",
+  "isolation": "private contexts; shared filesystem without ACL"
+}

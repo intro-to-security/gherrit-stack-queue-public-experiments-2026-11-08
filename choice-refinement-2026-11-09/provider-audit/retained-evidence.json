@@ -1,0 +1,280 @@
+{
+  "created_at_utc": "2026-11-09T06:07:41Z",
+  "root": "/Users/codex/Documents/Codex/2026-10-13/find-where-the-gherrit-checkout-lives",
+  "method": "Read-only inspection and SHA-256 hashing of retained local sources/evidence; no tests or hosted observations added.",
+  "files": [
+    {
+      "path": "outputs/github-native-stack-choice-refinement-2026-11-09/CONTRACT.md",
+      "bytes": 4094,
+      "sha256": "1ea80779e208970f359098f6bd22f0e85d3ac6acb1ca67d7dddc0fb92ad74e04"
+    },
+    {
+      "path": "outputs/github-native-stack-design-2026-11-08/GOVERNING-CONTRACT.md",
+      "bytes": 3866,
+      "sha256": "2b1172e0348bfaa2af2c7511df25853df2b06c1964bba718916c712dc65b3589"
+    },
+    {
+      "path": "experiments/native-stacks-followup-2026-11-08/refinement/candidate-003.md",
+      "bytes": 65267,
+      "sha256": "5b0c763bd6a706e88db644dd368013b2f95c7d3882a8ca79fb2febf487f6885f"
+    },
+    {
+      "path": "outputs/github-native-stack-design-2026-11-08/platform/sources/manifest.json",
+      "bytes": 28995,
+      "sha256": "38422ff1241d681ac7df0807975a28ba26efe4cc523a683bc9d9e6475117e418"
+    },
+    {
+      "path": "outputs/github-native-stack-design-2026-11-08/platform/sources/rest-api-schema-extract.json",
+      "bytes": 307389,
+      "sha256": "41440b5ea964fd045f67cae1fcf1e27db723595742c3f999e59ae6c8877f9504"
+    },
+    {
+      "path": "experiments/native-stacks-2026-11-08/api/RESULTS.md",
+      "bytes": 8301,
+      "sha256": "1d4b61de1438390fdb2f2569ae445344b5c9bec25cbb8540fcaf736291a646ef"
+    },
+    {
+      "path": "experiments/native-stacks-2026-11-08/api/evidence/observer-detailed-samples.json",
+      "bytes": 1231641,
+      "sha256": "23d02222a90c853f42e2d6b5901a713e89dce8cba16fa585c175324bcfa016ad"
+    },
+    {
+      "path": "experiments/native-stacks-2026-11-08/local-git/hosted-integration/RESULTS.md",
+      "bytes": 10323,
+      "sha256": "537af4643cc30f2c6a6da26ce9714d0569390d1c86c69c02e3a55961fc0e5013"
+    },
+    {
+      "path": "experiments/native-stacks-2026-11-08/local-git/hosted-integration/evidence/terminal-versus-head-ref-mismatch.json",
+      "bytes": 5414,
+      "sha256": "a6dcb58c753cb67e25cfc0b6389b2d8b4cc7137957fe4b61dab1f4303c4e0565"
+    },
+    {
+      "path": "experiments/native-stacks-followup-2026-11-08/protocol/RESULTS.md",
+      "bytes": 11100,
+      "sha256": "c3244de2a6f83c8dc1b3db9c2c3e8da19de921f29b3bb3da3caaebefd821cb74"
+    },
+    {
+      "path": "experiments/native-stacks-followup-2026-11-08/protocol/git/api/RESULTS.md",
+      "bytes": 8301,
+      "sha256": "1d4b61de1438390fdb2f2569ae445344b5c9bec25cbb8540fcaf736291a646ef"
+    },
+    {
+      "path": "experiments/native-stacks-followup-2026-11-08/ci-reviews/RESULTS.md",
+      "bytes": 25053,
+      "sha256": "228ed84a5d13d7f8697f30667b979e1950a479bb7ac1a03edf920f1a356d24d2"
+    },
+    {
+      "path": "experiments/native-stacks-followup-2026-11-08/ci-reviews/evidence/ui-stale-user-ui-results.json",
+      "bytes": 12156,
+      "sha256": "5d5f5fd003616dc5e47135d7b939adfa51f40e0e8c70f433089feccb63d7c6f4"
+    },
+    {
+      "path": "experiments/native-stacks-followup-2026-11-08/ci-reviews/evidence/ui-lastpush-user-ui-results.json",
+      "bytes": 13742,
+      "sha256": "7dbe874b95e2502fd305508b61dd5f15b9b502abc8d25a304ad036d8932f1f95"
+    },
+    {
+      "path": "experiments/native-stacks-followup-2026-11-08/ci-reviews/evidence/ui-codeowner-user-ui-results.json",
+      "bytes": 13734,
+      "sha256": "c687ea6251b65688f16e8dc35b802f3ff4f3f8e518080aed05031c6954827c99"
+    },
+    {
+      "path": "experiments/native-stacks-followup-2026-11-08/ci-reviews/evidence/ui-signed-user-ui-results.json",
+      "bytes": 12401,
+      "sha256": "29c610c3fdaba3810485980aebcd0cdbb013dff6364cb26a1c561322c29445fd"
+    },
+    {
+      "path": "experiments/native-stacks-followup-2026-11-08/ci-reviews/evidence/ui-stale-user-ui-comparison.json",
+      "bytes": 2761,
+      "sha256": "98933a1e13a9f286ebdd4897796b655096adbb629a9a6c440a00f6056847e4ce"
+    }
+  ],
+  "concurrent_observer_extract": {
+    "sample_index_zero_based": 8,
+    "sample_count": 16,
+    "terminal_poll": {
+      "start": "2026-11-08T23:24:22.593665+00:00",
+      "end": "2026-11-08T23:24:22.816768+00:00",
+      "http": 200,
+      "data": {
+        "status": "merged",
+        "details": {
+          "message": "Pull request was merged.",
+          "sha": "19e963db5e70d66a9cbcb10a14bd98195b4b869d"
+        }
+      }
+    },
+    "D_pr_read": {
+      "start": "2026-11-08T23:24:22.598389+00:00",
+      "end": "2026-11-08T23:24:22.993028+00:00",
+      "http": 200,
+      "head": "e6551ba6aff3ac8a38ca73c2efec749a3de76257",
+      "base": "19e963db5e70d66a9cbcb10a14bd98195b4b869d",
+      "merged": false
+    },
+    "refs_at": "2026-11-08T23:24:22.995235+00:00",
+    "D_ref": "c65becf7b6ba738ae20a9e74cef493b23f1b55df",
+    "next_sample_D_head": "c65becf7b6ba738ae20a9e74cef493b23f1b55df",
+    "interpretation": "Concurrent endpoint observations disagree. No authoritative old ref observation at terminal response is present in this cohort. This does not establish a post-terminal suffix write."
+  },
+  "strictly_subsequent_mismatch_extract": {
+    "terminal_poll": {
+      "start": "2026-11-08T23:21:38.611783+00:00",
+      "end": "2026-11-08T23:21:38.842657+00:00",
+      "data": {
+        "details": {
+          "message": "Pull request was merged.",
+          "sha": "9764253d75c6ed4bfda1ebe562618fa6644a49d5"
+        },
+        "status": "merged"
+      }
+    },
+    "PR_B_read": {
+      "start": "2026-11-08T23:21:39.184033+00:00",
+      "end": "2026-11-08T23:21:39.581906+00:00",
+      "head": "f15cb29aac3b8740374c2fa3c4239cdcd5ab58f0",
+      "base_ref": "exp/integration/repeat-01/trunk",
+      "base_sha": "9764253d75c6ed4bfda1ebe562618fa6644a49d5"
+    },
+    "ls_remote_B": "933e62a007da8cc6131e683774a34bddf644af55",
+    "ls_remote_timing_bounds": {
+      "after_group_read_end": "2026-11-08T23:21:39.894195+00:00",
+      "before_guard_recorded_at": "2026-11-08T23:21:40.049230+00:00",
+      "exact_command_timestamp_available": false
+    },
+    "failed_guard": {
+      "actual": "933e62a007da8cc6131e683774a34bddf644af55",
+      "at": "2026-11-08T23:21:40.049230+00:00",
+      "expected": "f15cb29aac3b8740374c2fa3c4239cdcd5ab58f0",
+      "label": "old-A-landed-first B head matches ref",
+      "passed": false
+    },
+    "original_submitted_B_range": {
+      "base": "84ff590243f50d703c26712bf28a986b412bfd66",
+      "tip": "f15cb29aac3b8740374c2fa3c4239cdcd5ab58f0"
+    },
+    "original_tree": "tree 382bf79f041a01df8ca41cbb63b991734f42d41b",
+    "rewritten_B": "933e62a007da8cc6131e683774a34bddf644af55",
+    "rewritten_tree": "tree 382bf79f041a01df8ca41cbb63b991734f42d41b",
+    "interpretation": "Both reads began after terminal success. Sequential PR/ref disagreement still does not locate the actual ref write relative to the terminal response."
+  },
+  "website_extracts": [
+    {
+      "case": "stale",
+      "path": "experiments/native-stacks-followup-2026-11-08/ci-reviews/evidence/ui-stale-user-ui-results.json",
+      "at": "2026-11-09T04:42:13.704585+00:00",
+      "initiating_ui_evidence": {
+        "kind": "Human report conveyed by root coordinator",
+        "reported_action": "Website Rebase stack on upper PR #128 completed",
+        "operation_receipt_or_uuid": null,
+        "website_feedback_capture": null,
+        "limits": "The user attests initiation/action choice; this lane independently observes state effects. No initiating HTTP trace, UI feedback, cancellation/settlement contract or UUID was captured."
+      },
+      "layers": {
+        "lower": {
+          "old_head": "c2f7b64b7c0f009491195a8ffda21c6c29dd5c11",
+          "new_head": "9d089a23a97931f109f342b0f8bce20a5e8bc63e",
+          "head_changed": true,
+          "pr_state": "open",
+          "merged": false
+        },
+        "upper": {
+          "old_head": "8223987f13b4b9a40a7178ddf8aabbdad6a77408",
+          "new_head": "8c35e39cf9d35892919c2f1dca91265b0f05efd7",
+          "head_changed": true,
+          "pr_state": "open",
+          "merged": false
+        }
+      }
+    },
+    {
+      "case": "lastpush",
+      "path": "experiments/native-stacks-followup-2026-11-08/ci-reviews/evidence/ui-lastpush-user-ui-results.json",
+      "at": "2026-11-09T04:48:39.848530+00:00",
+      "initiating_ui_evidence": {
+        "kind": "Human report conveyed by root coordinator",
+        "reported_action": "Website Rebase stack completed on upper PR #130",
+        "operation_receipt_or_uuid": null,
+        "website_feedback_capture": null,
+        "limits": "User attests initiating action; collector independently reads effects. No initiating HTTP trace, UUID, feedback or completion-fence contract was captured."
+      },
+      "layers": {
+        "lower": {
+          "old_head": "bfdf982bf9e0b3eecc6130fe7405cd68d416fe7e",
+          "new_head": "36b76a23a671a0b7d137e412d15ff4b953b907fe",
+          "head_changed": true,
+          "pr_state": "open",
+          "merged": false
+        },
+        "upper": {
+          "old_head": "66b0dded232dafc0243433b7e78b7db3b2810af9",
+          "new_head": "e1909d6222190fa7dad5d7b9f5fe462e33904f12",
+          "head_changed": true,
+          "pr_state": "open",
+          "merged": false
+        }
+      }
+    },
+    {
+      "case": "codeowner",
+      "path": "experiments/native-stacks-followup-2026-11-08/ci-reviews/evidence/ui-codeowner-user-ui-results.json",
+      "at": "2026-11-09T04:48:40.780751+00:00",
+      "initiating_ui_evidence": {
+        "kind": "Human report conveyed by root coordinator",
+        "reported_action": "Website Rebase stack completed on upper PR #132",
+        "operation_receipt_or_uuid": null,
+        "website_feedback_capture": null,
+        "limits": "User attests initiating action; collector independently reads effects. No initiating HTTP trace, UUID, feedback or completion-fence contract was captured."
+      },
+      "layers": {
+        "lower": {
+          "old_head": "6a6adc7ce466b1b2924fc687e1456710d5cd9221",
+          "new_head": "1625af169b194dceeff07e294108a4a4db2d2aef",
+          "head_changed": true,
+          "pr_state": "open",
+          "merged": false
+        },
+        "upper": {
+          "old_head": "3eb13a0a05b95e378b3cfb7f78727d5dffdb3747",
+          "new_head": "8bd5aec96a6baffac6e659c0306cfdbb45598876",
+          "head_changed": true,
+          "pr_state": "open",
+          "merged": false
+        }
+      }
+    },
+    {
+      "case": "signed",
+      "path": "experiments/native-stacks-followup-2026-11-08/ci-reviews/evidence/ui-signed-user-ui-results.json",
+      "at": "2026-11-09T04:48:41.849319+00:00",
+      "initiating_ui_evidence": {
+        "kind": "Human report conveyed by root coordinator",
+        "reported_action": "Website Rebase stack completed on upper PR #134",
+        "operation_receipt_or_uuid": null,
+        "website_feedback_capture": null,
+        "limits": "User attests initiating action; collector independently reads effects. No initiating HTTP trace, UUID, feedback or completion-fence contract was captured."
+      },
+      "layers": {
+        "lower": {
+          "old_head": "7ca2b1a7a38f3b3f6f1325c121bb11b025a1c786",
+          "new_head": "24036b5e5ed954efd61ae71786936a5fdbc80d02",
+          "head_changed": true,
+          "pr_state": "open",
+          "merged": false
+        },
+        "upper": {
+          "old_head": "7c586aee5324ed0aed0a97c310fdab00e025b27c",
+          "new_head": "9a22654072b086f0701437ab82f00f61500bb892",
+          "head_changed": true,
+          "pr_state": "open",
+          "merged": false
+        }
+      }
+    }
+  ],
+  "limits": [
+    "These are discovery evidence already exposed to the refinement.",
+    "Derived extracts retain relevant fields; original files and hashes identify the complete evidence.",
+    "No inference from differing endpoint values to an actual delayed ref write is made."
+  ]
+}

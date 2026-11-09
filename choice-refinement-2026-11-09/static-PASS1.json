@@ -1,0 +1,17 @@
+{
+  "candidate-001.md": {
+    "sha256_matches": true,
+    "bytes": 65382,
+    "trailing_space_lines": [],
+    "disclosure_count": 1,
+    "markdown_headings": 34
+  },
+  "DECISIONS-001.md": {
+    "sha256_matches": true,
+    "bytes": 14384,
+    "trailing_space_lines": [],
+    "disclosure_count": 1,
+    "markdown_headings": 8
+  },
+  "issue_budget_satisfied": true
+}

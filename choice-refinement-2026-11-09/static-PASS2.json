@@ -1,0 +1,16 @@
+{
+  "candidate-002.md": {
+    "sha256_matches": true,
+    "bytes": 65380,
+    "trailing_space_lines": [],
+    "disclosure_count": 1
+  },
+  "DECISIONS-002.md": {
+    "sha256_matches": true,
+    "bytes": 15322,
+    "trailing_space_lines": [],
+    "disclosure_count": 1
+  },
+  "issue_budget_satisfied": true,
+  "check_scope": "Frozen prose identities, whitespace, disclosure and GitHub body budget; no production code or provider guarantee is tested."
+}
